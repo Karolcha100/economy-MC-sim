@@ -78,19 +78,19 @@ Tutaj analizujemy dane opisowe (czyli te którychy wartości są generowane popr
 #### Sposób wprowadzania danych opisowych
 
 1. Internal Grades
-    - Należy utworzyć skrypt który pozwoli na dodawanie/edytowanie Internal Grades na podstawie:
+    - Należy utworzyć skrypt który pozwoli na dodawanie/edytowanie ich na podstawie:
         - przedziału dat
         - wartości początkowej i końcowej 
         - jednej z kilku funkcji zmiany (np. liniowa, wykładnicza, logistyczna) od wartości początkowej do końcowej (zawsze pozostaje opcja ustawiania wartości z iteracji na iteracje)
 
 2. Relations Directed
-    - Należy utworzyć skrypt który pozwoli na dodawanie/edytowanie Internal Grades na podstawie:
+    - Należy utworzyć skrypt który pozwoli na dodawanie/edytowanie ich na podstawie:
         - przedziału dat
         - wartości początkowej i końcowej 
         - jednej z kilku funkcji zmiany (np. liniowa, wykładnicza, logistyczna) od wartości początkowej do końcowej (zawsze pozostaje opcja ustawiania wartości z iteracji na iteracje)
 
-3. Relations Directed
-    - Należy utworzyć skrypt który pozwoli na dodawanie/edytowanie Internal Grades na podstawie:
+3. Relations double-sided
+    - Należy utworzyć skrypt który pozwoli na dodawanie/edytowanie ich na podstawie:
         - przedziału dat
         - wartości początkowej i końcowej 
         - jednej z kilku funkcji zmiany (np. liniowa, wykładnicza, logistyczna) od wartości początkowej do końcowej (zawsze pozostaje opcja ustawiania wartości z iteracji na iteracje)
