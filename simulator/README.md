@@ -25,6 +25,8 @@ venv/bin/python -m pytest             # tests
 | History | `scenarios/<scenario>/history/<stat>.csv` + `metadata.csv` | `history import` |
 | Tags | `scenarios/<scenario>/tags.csv` — `tag,name,exists_from,exists_to` | user |
 | Dates | `scenarios/<scenario>/dates.csv` — `date` (years) | user |
+| Groups | `scenarios/<scenario>/groups.csv` — `group,tag,from,to,note` (membership years) | user |
+| Reference countries | `scenarios/<scenario>/reference-countries.csv` — `tag,reason` (calibration anchors) | user |
 
 Kinds (`--kind`, short aliases in brackets):
 
@@ -39,18 +41,37 @@ Kinds (`--kind`, short aliases in brackets):
 Rules:
 
 - Empty cell = **not filled yet** (never 0). Missing files read as empty.
+- Every formula has a `description` (meaning and scale — **read it before filling**) and an optional
+  `default`: the value the simulator assumes for an unfilled cell (e.g. `in war` = 0). Formulas without
+  a default (e.g. `stability`) have to be filled for every existing country.
+- 0/1 flags (`riots`, `epidemic`, `mobilized`, `in war`, …) mean "happened **at any time during the year**".
+  Only serious, nationally significant events count (e.g. `riots` = large-scale violent unrest, not protests).
 - The diagonal of relation matrices (a country towards itself) is always empty.
 - A country can only get values in years it exists (`exists_from`/`exists_to` in `tags.csv`, empty = always).
 - Values must fit the formula: `float`/`int` within `[valmin, valmax]`. `int` values are rounded.
 - Slug = lowercase name with spaces replaced by `-` (`war exhaustion` → `war-exhaustion`); names and slugs are both accepted.
 - Every write is logged to `narrated/changelog.csv` (author, targets, years, curve, rationale).
 
+## Scenario `world-1990-2025` — conventions every agent must know
+
+- **196 countries**: all sovereign World Bank economies (22 dependent territories such as Hong Kong,
+  Puerto Rico, Macao, Greenland are **not** in the scenario) plus **Taiwan (`TWN`)**. Kosovo (`XKX`,
+  from 2008) and Palestine (`PSE`, from 1994) are included.
+- **Continuity**: Russia (`RUS`) continues the USSR and Serbia (`SRB`) continues Yugoslavia — both
+  exist from 1990. Germany (`DEU`) exists from 1990 (the GDR is not modelled); Yemen from 1990.
+- **Existence** (`exists_from`) = year of independence, any time during that year
+  (former USSR republics 1991, CZE/SVK 1993, BIH 1992, MNE 2006, ...). No values before that year.
+- **GDP gaps** were filled (IMF, then interpolation/extrapolation); every estimated value is listed in
+  `history/fill-log.csv` and marked `*` by `context`. North Korea (`PRK`) has no GDP at all.
+
 ## Filling narrated data (for LLM agents)
+
+Workflow: `context` (read) → `set`/`batch` with `--dry-run` → write → `validate` → `review`.
 
 Set the scenario once: `export SIMULATOR_SCENARIO=world-1990-2025` (or pass `--scenario`).
 
 ```bash
-# What is there to fill?
+# What is there to fill, and what does each statistic mean?
 python -m simulator formulas list
 python -m simulator missing --kind grade
 
@@ -75,6 +96,16 @@ python -m simulator set --kind grade --name stability --targets POL --years 2000
 # Year-by-year values
 python -m simulator set --kind grade --name "war exhaustion" --targets UKR --years 2022-2025 \
     --curve manual --values 20,45,60,70 --author claude-opus-5-5
+
+# Groups and wildcards: every NATO member towards RUS (only in years of membership and existence)
+python -m simulator set --kind directed --name "diplomatic relation towards" --targets @NATO:RUS \
+    --years 2014-2025 --curve constant --start -60 --author claude-opus-5-5 --rationale "..."
+python -m simulator set --kind directed --name "social view towards" --targets POL:* ...   # POL towards everyone
+python -m simulator groups                                    # NATO, EU, CIS, CSTO, EAEU, V4
+
+# Everything an agent needs about a country or a pair, in one compact text
+python -m simulator context POL
+python -m simulator context POL:RUS
 
 # Check before writing, then read back
 python -m simulator set ... --dry-run
@@ -117,6 +148,7 @@ python -m simulator batch ops.json --author claude-opus-5-5
 ```
 
 Operation keys: `kind, name, targets, years, curve, start, end, values, params, only_empty, clip, rationale`.
+Group/wildcard targets (`@NATO`, `*`) cannot use `start: "current"`.
 If any operation fails, nothing is written. Later operations see values set by earlier ones.
 
 Errors are printed as `error: ...` with exit code 1; fix the input and retry.
@@ -126,13 +158,15 @@ Errors are printed as `error: ...` with exit code 1; fix the input and retry.
 
 ```bash
 python -m simulator formulas template --kind directed          # which fields exist
-python -m simulator formulas add --kind grade --name "inflation pressure" --type float --valmin 0 --valmax 100
+python -m simulator formulas add --kind grade --name "inflation pressure" --type float --valmin 0 --valmax 100 \
+    --description "Pressure of inflation on households: 0 = none, 100 = hyperinflation" --default 0
+python -m simulator formulas edit --kind grade --name stability --default ""     # remove the default
 python -m simulator formulas edit --kind grade --name stability --rename "political stability"
 python -m simulator formulas edit --kind grade --name stability --valmax 50 --clip
 python -m simulator formulas remove --kind grade --name riots --purge
 ```
 
-`edit` migrates existing data (renames columns/files; range/type changes fail on conflicting
+`edit` also changes `--default` and `--description`. It migrates existing data (renames columns/files; range/type changes fail on conflicting
 values unless `--clip`). `remove` refuses to delete existing data without `--purge`.
 
 ## History (real statistics)
@@ -147,6 +181,32 @@ python -m simulator history list
 `--format wide` takes a CSV already shaped `date,<TAG>,<TAG>,...`. The output always has every
 scenario tag and date (gaps = empty); a completeness report is printed.
 
+Gaps (missing values in years a country exists) and filling them — existing values are never changed,
+every filled value is logged in `history/fill-log.csv`:
+
+```bash
+python -m simulator history gaps --name gdp-current-usd
+curl -o data/imf/NGDPD.json https://www.imf.org/external/datamapper/api/v1/NGDPD      # IMF, billions USD
+python -m simulator history fill --name gdp-current-usd --method source --source-file data/imf/NGDPD.json \
+    --source-format imf-datamapper --source-scale 1e9 --source-label "IMF WEO NGDPD" --author user
+python -m simulator history fill --name gdp-current-usd --method interpolate --author user   # inner gaps
+python -m simulator history fill --name gdp-current-usd --method extrapolate --author user   # edge gaps
+```
+
+Interpolation/extrapolation is log-linear for positive series (growth), linear otherwise. A new
+`history import` of a statistic replaces the file and drops its fill-log entries — re-run the fills.
+
+## Review and reference map
+
+```bash
+python -m simulator review                    # warnings: jumps > 25% of the range in one year, no rationale
+python -m simulator reference-map --kind grade --name stability             # opens an HTML world map
+python -m simulator reference-map --kind directed --name "social view towards" --focus POL
+```
+
+The map shows the reference countries (`reference-countries.csv`) with a year slider and works
+offline. Needs `pip install -e ".[viz]"` (plotly). Files go to `scenarios/<scenario>/views/` (not in git).
+
 ## Validation
 
 ```bash
@@ -160,3 +220,9 @@ Checks tags, dates, formulas against templates, history shape, and narrated data
 
 Writes take a lock file `scenarios/<scenario>/.lock` and replace files atomically. If a process
 crashed while holding the lock, delete that file.
+
+## Values for the simulator
+
+`simulator.narrated.effective_values(scenario, kind, name, year)` returns the values later phases
+should use: unfilled cells get the formula `default`; non-existing countries, the relation diagonal
+and unfilled cells of formulas without a default stay empty.

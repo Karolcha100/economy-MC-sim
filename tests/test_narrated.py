@@ -170,3 +170,19 @@ def test_cli_set_show_and_batch(scenario, tmp_path, capsys):
         main(["batch", str(batch), "--scenario", root])
     assert main(["set", "--scenario", root, "--kind", "grade", "--name", "nope", "--targets", "POL",
                  "--years", "1990", "--curve", "constant", "--start", "1", "--author", "cli"]) == 1
+
+
+def test_effective_values_apply_defaults(scenario):
+    from simulator.narrated import effective_values
+
+    apply_operations(scenario, [Operation(kind="doublesided", name="in war", targets="POL:RUS",
+                                          years="1990", curve="constant", start=1)], author="t")
+    m = effective_values(scenario, "doublesided", "in war", 1990)
+    assert m.loc["POL", "RUS"] == m.loc["RUS", "POL"] == 1
+    assert m.loc["POL", "DEU"] == 0  # default
+    assert np.isnan(m.loc["POL", "POL"])  # diagonal
+    assert np.isnan(m.loc["UKR", "POL"])  # UKR does not exist in 1990
+
+    s = effective_values(scenario, "grade", "stability", 1990)  # no default -> stays empty
+    assert s.isna().all()
+    assert effective_values(scenario, "grade", "war exhaustion", 1991)["UKR"] == 0

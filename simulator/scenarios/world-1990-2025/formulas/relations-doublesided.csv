@@ -1,4 +1,4 @@
-name,type,valmin,valmax,side-a,side-b
-in war,int,0,1,TAG,TAG
-in hybrid war,int,0,1,TAG,TAG
-neighbours,int,0,1,TAG,TAG
+name,type,valmin,valmax,side-a,side-b,default,description
+in war,int,0,1,TAG,TAG,0,"1 = open armed conflict between the two states at any time during the year, declared or not (e.g. Russia-Ukraine from 2014)."
+in hybrid war,int,0,1,TAG,TAG,0,"1 = sustained hostile actions below open war between the two states at any time during the year (sabotage, major cyberattacks, weaponised migration, disinformation campaigns)."
+neighbours,int,0,1,TAG,TAG,0,1 = the two states share a land border in that year.

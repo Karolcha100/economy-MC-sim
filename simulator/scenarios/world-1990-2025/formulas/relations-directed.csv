@@ -1,7 +1,7 @@
-name,type,valmin,valmax,from,to
-diplomatic relation towards,float,-100,100,TAG,TAG
-social view towards,float,-100,100,TAG,TAG
-perceived subordination towards,float,-100,100,TAG,TAG
-perceived power towards,float,-100,100,TAG,TAG
-real subordination towards,float,-100,100,TAG,TAG
-real power towards,float,-100,100,TAG,TAG
+name,type,valmin,valmax,from,to,default,description
+diplomatic relation towards,float,-100,100,TAG,TAG,0,"Official diplomatic stance of FROM towards TO: -100 = hostile, relations broken off, 0 = neutral or no meaningful relations, 100 = closest allies."
+social view towards,float,-100,100,TAG,TAG,0,"How the population of FROM views TO: -100 = hatred, 0 = indifference, 100 = strong sympathy."
+perceived subordination towards,float,-100,100,TAG,TAG,0,"How dependent FROM believes it is on TO: 100 = FROM sees itself as TO's vassal, 0 = independent or equal, -100 = FROM sees TO as its own vassal."
+perceived power towards,float,-100,100,TAG,TAG,0,"How strongly FROM believes it can influence TO (economically, politically, militarily): 0 = no influence, 100 = decisive influence, negative = FROM believes its actions towards TO backfire."
+real subordination towards,float,-100,100,TAG,TAG,0,"Actual dependence of FROM on TO (same scale as perceived subordination towards), as judged by an outside observer."
+real power towards,float,-100,100,TAG,TAG,0,"Actual ability of FROM to influence TO (same scale as perceived power towards), as judged by an outside observer; not symmetric (FROM->TO differs from TO->FROM)."

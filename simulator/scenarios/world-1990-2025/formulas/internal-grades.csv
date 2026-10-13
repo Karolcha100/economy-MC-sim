@@ -1,16 +1,16 @@
-name,type,valmin,valmax
-stability,float,0,100
-corruption,float,0,100
-happiness,float,0,100
-revanchism,float,0,100
-war exhaustion,float,0,100
-government popularity,float,0,100
-social sensitivity,float,0,100
-civilization level,float,0,100
-immigration,float,0,100
-emigration,float,0,100
-assimilation,float,0,100
-immigration crisis,int,0,1
-riots,int,0,1
-epidemy,int,0,1
-mobilized,int,0,1
+name,type,valmin,valmax,default,description
+stability,float,0,100,,"Political and institutional stability of the state: 0 = state collapse or civil war, 50 = recurring government crises, 100 = fully stable and predictable institutions."
+corruption,float,0,100,,"Corruption in public institutions: 0 = practically none, 50 = widespread petty and political corruption, 100 = state captured by corrupt networks."
+happiness,float,0,100,,"Average life satisfaction of the population: 0 = mass despair, 50 = mixed, 100 = very high satisfaction."
+revanchism,float,0,100,,"Strength of the wish to regain lost territory, influence or great-power status: 0 = none, 50 = a significant political current, 100 = dominant state ideology."
+war exhaustion,float,0,100,0,"Weariness of the population with war, also after a past war and without an ongoing one: 0 = none, 50 = clear opposition to further war effort, 100 = refusal to keep fighting."
+government popularity,float,0,100,,"Public support for the ruling government: 0 = universally rejected, 50 = split society, 100 = near-universal support."
+social sensitivity,float,0,100,,"How strongly society reacts to hardship, casualties and economic losses: 0 = very resilient and tolerant of losses, 100 = minor losses cause strong political reactions."
+civilization level,float,0,100,,"Overall development of the society (education, technology, health, institutions, quality of life): 0 = least developed in the world, 100 = most developed in the world."
+immigration,float,0,100,,"Intensity of immigration relative to the population: 0 = practically none, 50 = high and politically visible, 100 = extreme inflow changing the society within years."
+emigration,float,0,100,,"Intensity of emigration relative to the population: 0 = practically none, 50 = high, noticeable brain drain, 100 = mass exodus."
+assimilation,float,0,100,,"How well immigrants and minorities integrate into the majority society: 0 = isolated parallel societies, 100 = full assimilation."
+immigration crisis,int,0,1,0,"1 = a serious immigration crisis at any time during the year (mass, poorly controlled inflow causing a national political or social crisis)."
+riots,int,0,1,0,"1 = serious riots at any time during the year (large-scale, violent, nationally significant unrest; peaceful protests and isolated incidents do not count)."
+epidemic,int,0,1,0,"1 = a serious epidemic at any time during the year (significant mortality or disruption of normal life, e.g. COVID-19 in 2020-2021)."
+mobilized,int,0,1,0,1 = partial or full military mobilisation at any time during the year; possible without an ongoing war.

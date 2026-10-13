@@ -108,6 +108,19 @@ def validate_formulas(template: Template, formulas: pd.DataFrame) -> list[str]:
                 errors.append(f"{where}: valmin ({vmin}) must be < valmax ({vmax})")
             if row["type"] == "int" and not (vmin.is_integer() and vmax.is_integer()):
                 errors.append(f"{where}: int formula needs integer valmin/valmax")
+            if str(row["default"]).strip():
+                try:
+                    default = float(row["default"])
+                except ValueError:
+                    errors.append(f"{where}: default {row['default']!r} must be a number or empty")
+                else:
+                    if not vmin <= default <= vmax:
+                        errors.append(f"{where}: default {default} outside [{vmin}, {vmax}]")
+                    if row["type"] == "int" and not default.is_integer():
+                        errors.append(f"{where}: int formula needs an integer default")
+
+        if not str(row["description"]).strip():
+            errors.append(f"{where}: description is required (LLMs read it to fill the data)")
 
         for field in template.entity_fields:
             if row[field] not in ENTITY_KINDS:

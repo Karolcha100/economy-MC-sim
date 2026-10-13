@@ -3,9 +3,12 @@
 Layout (`simulator/scenarios/<scenario>/`):
     tags.csv                    tag,name,exists_from,exists_to
     dates.csv                   date (one year per row)
+    groups.csv                  group,tag,from,to,note (membership years; a tag may have several rows)
+    reference-countries.csv     tag,reason (calibration anchors for LLMs, see `reference_map.py`)
     formulas/<kind>.csv         one formula per row, columns = template fields
     history/<stat>.csv          real statistics: rows = dates, columns = tags
     history/metadata.csv        unit, source, ... per statistic
+    history/fill-log.csv        every history value that was estimated (source/interpolate/extrapolate)
     narrated/<year>/internal-grades.csv               rows = tags, columns = grade slugs
     narrated/<year>/relations-directed/<slug>.csv     matrix, row = from, column = to
     narrated/<year>/relations-doublesided/<slug>.csv  symmetric matrix
@@ -26,6 +29,7 @@ from simulator.io import SimulatorError, file_lock, read_csv
 
 SCENARIOS_DIR = Path(__file__).parent / "scenarios"
 TAGS_COLUMNS = ["tag", "name", "exists_from", "exists_to"]
+GROUPS_COLUMNS = ["group", "tag", "from", "to", "note"]
 
 
 class Scenario:
@@ -118,3 +122,36 @@ class Scenario:
         if start > end:
             raise SimulatorError(f"Start year {start} is after end year {end}")
         return [d for d in self.dates if start <= d <= end]
+
+    # --- groups ----------------------------------------------------------------
+    @cached_property
+    def groups_table(self) -> pd.DataFrame:
+        path = self.root / "groups.csv"
+        if not path.exists():
+            return pd.DataFrame(columns=GROUPS_COLUMNS)
+        df = read_csv(path, dtype={"group": str, "tag": str, "note": str})
+        missing = [c for c in GROUPS_COLUMNS if c not in df.columns]
+        if missing:
+            raise SimulatorError(f"{path}: missing columns {missing}")
+        df["group"] = df["group"].str.upper()
+        return df
+
+    @property
+    def groups(self) -> list[str]:
+        return sorted(self.groups_table["group"].unique())
+
+    def membership(self, group: str, years: list[int]) -> pd.DataFrame:
+        """Boolean frame (years x tags): is the tag a member of `group` in that year."""
+        group = group.upper()
+        rows = self.groups_table[self.groups_table["group"] == group]
+        if rows.empty:
+            raise SimulatorError(f"Unknown group {group!r}. Known: {', '.join(self.groups) or 'none'} (groups.csv)")
+        mask = pd.DataFrame(False, index=years, columns=self.tags)
+        y = np.asarray(years)
+        for _, r in rows.iterrows():
+            if r["tag"] not in mask.columns:
+                raise SimulatorError(f"groups.csv: unknown tag {r['tag']!r} in group {group}")
+            lo = -np.inf if pd.isna(r["from"]) else float(r["from"])
+            hi = np.inf if pd.isna(r["to"]) else float(r["to"])
+            mask[r["tag"]] |= (y >= lo) & (y <= hi)
+        return mask

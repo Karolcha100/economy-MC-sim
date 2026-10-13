@@ -24,6 +24,14 @@ class Formula:
     type: str
     valmin: float
     valmax: float
+    default: float | None = None  # assumed for unfilled cells; None = must be filled
+    description: str = ""
+
+    @classmethod
+    def from_row(cls, kind: str, row: pd.Series) -> Formula:
+        default = str(row["default"]).strip()
+        return cls(kind, row["name"], row["type"], float(row["valmin"]), float(row["valmax"]),
+                   float(default) if default else None, str(row["description"]).strip())
 
     @property
     def slug(self) -> str:
@@ -46,8 +54,12 @@ class Formula:
         return np.clip(out, self.valmin, self.valmax)
 
 
-def _fmt_number(x: float) -> str:
-    return str(int(x)) if float(x).is_integer() else repr(float(x))
+def _fmt_number(x: float | str | None) -> str:
+    """Number as written in formula files; None/'' -> empty cell."""
+    if x is None or (isinstance(x, str) and not x.strip()):
+        return ""
+    x = float(x)
+    return str(int(x)) if x.is_integer() else repr(x)
 
 
 def load_table(scenario: Scenario, kind: str) -> pd.DataFrame:
@@ -72,10 +84,7 @@ def list_formulas(scenario: Scenario, kind: str) -> list[Formula]:
     errors = validate_formulas(load_template(kind), table)
     if errors:
         raise SimulatorError("Invalid formulas file:\n  " + "\n  ".join(errors))
-    return [
-        Formula(kind, r["name"], r["type"], float(r["valmin"]), float(r["valmax"]))
-        for _, r in table.iterrows()
-    ]
+    return [Formula.from_row(kind, r) for _, r in table.iterrows()]
 
 
 def get_formula(scenario: Scenario, kind: str, name: str) -> Formula:
@@ -108,13 +117,16 @@ def add_formula(
     type: str,
     valmin: float,
     valmax: float,
+    description: str,
+    default: float | None = None,
     entities: dict[str, str] | None = None,
     author: str = "",
     rationale: str = "",
 ) -> Formula:
     kind = resolve_kind(kind)
     template = load_template(kind)
-    row = {"name": name.strip(), "type": type, "valmin": _fmt_number(valmin), "valmax": _fmt_number(valmax)}
+    row = {"name": name.strip(), "type": type, "valmin": _fmt_number(valmin), "valmax": _fmt_number(valmax),
+           "default": _fmt_number(default), "description": description.strip()}
     for field in template.entity_fields:
         row[field] = (entities or {}).get(field, "TAG")
     with scenario.lock():
@@ -140,11 +152,14 @@ def edit_formula(
     clip: bool = False,
     author: str = "",
     rationale: str = "",
+    default: float | str | None = None,
+    description: str | None = None,
 ) -> Formula:
-    """Edit a formula and migrate narrated data.
+    """Edit a formula and migrate narrated data. None = leave a field unchanged.
 
     Rename -> files/columns are renamed in every year. Type/range change -> existing values
     are checked; violations raise unless `clip` (round for int + clip into the new range).
+    `default=""` removes the default.
     """
     kind = resolve_kind(kind)
     with scenario.lock():
@@ -159,11 +174,14 @@ def edit_formula(
             table.at[i, "valmin"] = _fmt_number(valmin)
         if valmax is not None:
             table.at[i, "valmax"] = _fmt_number(valmax)
+        if default is not None:
+            table.at[i, "default"] = _fmt_number(default)
+        if description is not None:
+            table.at[i, "description"] = description.strip()
         errors = validate_formulas(load_template(kind), table)
         if errors:
             raise SimulatorError("Invalid formula after edit:\n  " + "\n  ".join(errors))
-        r = table.loc[i]
-        new = Formula(kind, r["name"], r["type"], float(r["valmin"]), float(r["valmax"]))
+        new = Formula.from_row(kind, table.loc[i])
 
         store = NarratedStore(scenario)
         years = _data_years(store, old)
@@ -195,7 +213,8 @@ def edit_formula(
         append_changelog(scenario, [{
             "author": author, "operation": "formula-edit", "kind": kind, "name": old.name,
             "params": {"new_name": new.name, "type": new.type, "valmin": new.valmin,
-                       "valmax": new.valmax, "clip": clip},
+                       "valmax": new.valmax, "default": new.default, "clip": clip,
+                       "description_changed": description is not None},
             "rationale": rationale,
         }])
     return new

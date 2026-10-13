@@ -7,7 +7,7 @@ from dataclasses import dataclass
 import numpy as np
 
 from simulator.formulas import list_formulas
-from simulator.history import load_metadata
+from simulator.history import RESERVED_FILES, load_metadata
 from simulator.io import SimulatorError, read_csv, slugify
 from simulator.scenario import Scenario
 from simulator.store import NarratedStore
@@ -47,6 +47,20 @@ def validate(scenario: Scenario) -> list[Issue]:
         err("tags.csv", f"{tag}: exists_from > exists_to")
     if dates != sorted(set(dates)):
         err("dates.csv", "dates must be unique and sorted")
+    try:
+        groups = scenario.groups_table
+    except SimulatorError as e:
+        err("groups.csv", str(e))
+    else:
+        for tag in sorted(set(groups["tag"]) - set(tags.index)):
+            err("groups.csv", f"unknown tag {tag!r}")
+        both = groups["from"].notna() & groups["to"].notna()
+        for _, r in groups[both & (groups["from"] > groups["to"])].iterrows():
+            err("groups.csv", f"{r['group']}/{r['tag']}: from > to")
+    ref_path = scenario.root / "reference-countries.csv"
+    if ref_path.exists():
+        for tag in sorted(set(read_csv(ref_path, dtype=str)["tag"]) - set(tags.index)):
+            err("reference-countries.csv", f"unknown tag {tag!r}")
 
     # formulas ------------------------------------------------------------------------
     formulas = {}
@@ -63,7 +77,7 @@ def validate(scenario: Scenario) -> list[Issue]:
     meta = load_metadata(scenario)
     if scenario.history_dir.exists():
         for path in sorted(scenario.history_dir.glob("*.csv")):
-            if path.name == "metadata.csv":
+            if path.name in RESERVED_FILES:
                 continue
             where = f"history/{path.name}"
             if path.stem != slugify(path.stem):

@@ -15,17 +15,32 @@ def fill(scenario, name="stability", start=10, end=90, kind="grade", targets="PO
 
 
 def test_add_formula_validates_against_template(scenario):
-    f = add_formula(scenario, "grade", "inflation pressure", "float", 0, 10)
+    f = add_formula(scenario, "grade", "inflation pressure", "float", 0, 10, "desc", default=2.5)
     assert f.slug == "inflation-pressure"
+    assert (f.default, f.description) == (2.5, "desc")
     assert get_formula(scenario, "grade", "inflation-pressure") == f
     with pytest.raises(SimulatorError, match="collides"):
-        add_formula(scenario, "grade", "Inflation-Pressure".lower(), "float", 0, 10)
+        add_formula(scenario, "grade", "Inflation-Pressure".lower(), "float", 0, 10, "d")
     with pytest.raises(SimulatorError, match="valmin"):
-        add_formula(scenario, "grade", "broken", "float", 10, 0)
+        add_formula(scenario, "grade", "broken", "float", 10, 0, "d")
     with pytest.raises(SimulatorError, match="type"):
-        add_formula(scenario, "grade", "broken", "str", 0, 1)
+        add_formula(scenario, "grade", "broken", "str", 0, 1, "d")
     with pytest.raises(SimulatorError, match="side-a"):
-        add_formula(scenario, "doublesided", "trade", "float", 0, 1, entities={"side-a": "ORG"})
+        add_formula(scenario, "doublesided", "trade", "float", 0, 1, "d", entities={"side-a": "ORG"})
+    with pytest.raises(SimulatorError, match="description is required"):
+        add_formula(scenario, "grade", "broken", "float", 0, 1, " ")
+    with pytest.raises(SimulatorError, match="default"):
+        add_formula(scenario, "grade", "broken", "float", 0, 1, "d", default=5)
+    with pytest.raises(SimulatorError, match="integer default"):
+        add_formula(scenario, "grade", "broken", "int", 0, 10, "d", default=0.5)
+
+
+def test_edit_default_and_description(scenario):
+    f = edit_formula(scenario, "grade", "stability", default=50, description="new meaning")
+    assert (f.default, f.description) == (50, "new meaning")
+    assert edit_formula(scenario, "grade", "stability", default="").default is None
+    with pytest.raises(SimulatorError, match="default"):
+        edit_formula(scenario, "grade", "war exhaustion", valmin=10)  # default 0 now out of range
 
 
 def test_rename_migrates_internal_grade_column(scenario):

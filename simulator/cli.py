@@ -16,6 +16,8 @@ import pandas as pd
 
 from simulator import formulas as fm
 from simulator import history, narrated
+from simulator.context import context
+from simulator.review import DEFAULT_JUMP, review
 from simulator.interpolation import CURVES
 from simulator.io import SimulatorError
 from simulator.scenario import Scenario
@@ -53,7 +55,8 @@ def _add_set_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--kind", required=True, help=f"one of {KINDS} (aliases: grade, directed, doublesided)")
     p.add_argument("--name", required=True, help="formula name or slug, e.g. 'war exhaustion'")
     p.add_argument("--targets", required=True,
-                   help="comma separated; grades: POL,DEU; relations: POL:RUS,DEU:RUS")
+                   help="comma separated; grades: POL,DEU; relations: POL:RUS,DEU:RUS; "
+                        "groups/wildcard: @NATO, @EU:RUS, POL:*")
     p.add_argument("--years", required=True, help="closed interval '1990-2000' or a single year '1995'")
 
 
@@ -68,6 +71,22 @@ def build_parser() -> argparse.ArgumentParser:
     sub.add_parser("tags", help="list tags with existence windows")
     sub.add_parser("dates", help="list scenario dates")
     sub.add_parser("validate", help="check the whole scenario")
+    sub.add_parser("groups", help="list groups (@NAME targets) and their members by year")
+
+    p = sub.add_parser("context", help="compact context for an LLM: a country (POL) or a pair (POL:RUS)")
+    p.add_argument("target")
+    p = sub.add_parser("review", help="warnings: big year-to-year jumps, writes without rationale")
+    p.add_argument("--kind")
+    p.add_argument("--name")
+    p.add_argument("--jump", type=float, default=DEFAULT_JUMP, help="share of the value range (default 0.25)")
+    p = sub.add_parser("reference-map", help="world map of a statistic for reference countries (HTML)")
+    p.add_argument("--kind", required=True)
+    p.add_argument("--name", required=True)
+    p.add_argument("--focus", help="relations: show FOCUS -> country")
+    p.add_argument("--years", help="e.g. 1990-2025 (default: all dates)")
+    p.add_argument("--all", action="store_true", help="all countries, not only reference ones")
+    p.add_argument("--out", type=Path, help="HTML file (default: <scenario>/views/<name>.html)")
+    p.add_argument("--no-open", action="store_true", help="do not open a browser")
 
     # formulas
     pf = sub.add_parser("formulas", help="list/add/edit/remove formulas").add_subparsers(dest="action", required=True)
@@ -81,13 +100,17 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--type", required=True, choices=["float", "int"])
     p.add_argument("--valmin", required=True, type=float)
     p.add_argument("--valmax", required=True, type=float)
-    p = pf.add_parser("edit", help="rename / change type or range; migrates narrated data")
+    p.add_argument("--description", required=True, help="one-sentence meaning and scale, read by LLMs")
+    p.add_argument("--default", type=float, help="value assumed for unfilled cells (omit = must be filled)")
+    p = pf.add_parser("edit", help="rename / change type, range, default, description; migrates narrated data")
     p.add_argument("--kind", required=True)
     p.add_argument("--name", required=True)
     p.add_argument("--rename")
     p.add_argument("--type", choices=["float", "int"])
     p.add_argument("--valmin", type=float)
     p.add_argument("--valmax", type=float)
+    p.add_argument("--default", help="new default; '' removes it")
+    p.add_argument("--description")
     p.add_argument("--clip", action="store_true", help="round/clip existing values into the new definition")
     p = pf.add_parser("remove")
     p.add_argument("--kind", required=True)
@@ -140,6 +163,20 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--downloaded", default="", help="download date, YYYY-MM-DD")
     p.add_argument("--description", default="")
     p.add_argument("--scale", type=float, default=1.0, help="multiply values (e.g. 1e-9 for billions)")
+    p = ph.add_parser("gaps", help="missing values in years a country exists")
+    p.add_argument("--name", required=True)
+    p = ph.add_parser("fill", help="fill gaps (never overwrites); every value is logged in history/fill-log.csv",
+                      description="Typical order: --method source (other data), then interpolate, then extrapolate.")
+    p.add_argument("--name", required=True)
+    p.add_argument("--method", required=True, choices=history.FILL_METHODS)
+    p.add_argument("--source-file", type=Path, help="method source: file with the same statistic")
+    p.add_argument("--source-format", default="wide", choices=history.FORMATS)
+    p.add_argument("--source-scale", type=float, default=1.0, help="e.g. 1e9 when the source is in billions")
+    p.add_argument("--source-label", default="", help="written to the log, e.g. 'IMF WEO Apr 2026, NGDPD'")
+    p.add_argument("--window", type=int, default=3, help="extrapolate: years used to estimate the growth")
+    p.add_argument("--tags", help="limit to these tags (comma separated)")
+    p.add_argument("--author", required=True)
+    p.add_argument("--dry-run", action="store_true")
     return parser
 
 
@@ -162,6 +199,30 @@ def run(args: argparse.Namespace) -> int:
             _print_table(scenario.tags_table, args.json)
         case "dates":
             print(",".join(map(str, scenario.dates)))
+        case "groups":
+            table = scenario.groups_table.copy()
+            for c in ("from", "to"):
+                table[c] = table[c].astype("Int64")
+            _print_table(table.set_index(["group", "tag"]), args.json)
+        case "context":
+            print(context(scenario, args.target))
+        case "review":
+            warnings = review(scenario, args.kind, args.name, args.jump)
+            print(f"# {len(warnings)} warning(s)")
+            if not warnings.empty:
+                _print_table(warnings, args.json)
+        case "reference-map":
+            from simulator.reference_map import build_map, write_map
+
+            fig = build_map(scenario, args.kind, args.name, args.years, args.focus, args.all)
+            out = args.out or scenario.root / "views" / f"{fm.get_formula(scenario, args.kind, args.name).slug}"\
+                f"{'-' + args.focus.lower() if args.focus else ''}.html"
+            write_map(fig, out)
+            print(f"# map written to {out}")
+            if not args.no_open:
+                import webbrowser
+
+                webbrowser.open(out.resolve().as_uri())
         case "validate":
             issues = validate(scenario)
             for issue in issues:
@@ -179,11 +240,13 @@ def run(args: argparse.Namespace) -> int:
                 _print_table(load_template(args.kind).fields, args.json)
             elif args.action == "add":
                 f = fm.add_formula(scenario, args.kind, args.name, args.type, args.valmin, args.valmax,
+                                   args.description, args.default,
                                    author=args.author, rationale=args.rationale)
                 print(f"added {f}")
             elif args.action == "edit":
                 f = fm.edit_formula(scenario, args.kind, args.name, args.rename, args.type,
-                                    args.valmin, args.valmax, args.clip, args.author, args.rationale)
+                                    args.valmin, args.valmax, args.clip, args.author, args.rationale,
+                                    args.default, args.description)
                 print(f"edited -> {f}")
             elif args.action == "remove":
                 f = fm.remove_formula(scenario, args.kind, args.name, args.purge, args.author, args.rationale)
@@ -215,6 +278,22 @@ def run(args: argparse.Namespace) -> int:
         case "history":
             if args.action == "list":
                 _print_table(history.load_metadata(scenario), args.json)
+            elif args.action == "gaps":
+                gaps = history.find_gaps(scenario, args.name)
+                print(f"# {args.name}: {int(gaps['missing'].sum())} missing value(s) in {len(gaps)} tag(s)")
+                if not gaps.empty:
+                    _print_table(gaps.set_index("tag"), args.json)
+            elif args.action == "fill":
+                tags = None if args.tags is None else [t.strip().upper() for t in args.tags.split(",") if t.strip()]
+                rows = history.fill_gaps(
+                    scenario, args.name, args.method, args.source_file, args.source_format,
+                    args.source_scale, args.source_label, args.window, args.author, tags, args.dry_run,
+                )
+                verb = "would fill" if args.dry_run else "filled"
+                print(f"# {verb} {len(rows)} value(s) with {args.method}")
+                if not rows.empty:
+                    summary = rows.groupby("tag")["year"].apply(lambda y: history.compress_years(sorted(y)))
+                    _print_table(summary.to_frame("years"), args.json)
             else:
                 report = history.import_history(
                     scenario, args.name, args.source_file, args.format, args.unit, args.source,

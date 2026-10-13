@@ -3,3 +3,5 @@ name,str,true,"Unique lowercase name of the grade; its slug (spaces -> '-') is u
 type,str,true,"Value type: float or int"
 valmin,float,true,"Lower bound of the value (inclusive)"
 valmax,float,true,"Upper bound of the value (inclusive)"
+default,float,false,"Value the simulator assumes for an unfilled cell; empty = no default (the cell must be filled)"
+description,str,true,"One-sentence meaning of the statistic and its scale, read by LLMs filling the data"

@@ -5,6 +5,8 @@ using a change curve from `interpolation.py`. Targets:
     internal-grades        "POL"
     relations-directed     "POL:RUS"  (from POL towards RUS; row POL, column RUS)
     relations-doublesided  "POL:RUS"  (unordered; both matrix cells are written)
+Each side may also be a group from groups.csv ("@NATO") or "*" (all countries). Such
+targets are written only in years the country is a member and exists; other years are skipped.
 """
 
 from __future__ import annotations
@@ -63,12 +65,63 @@ def parse_targets(kind: str, targets: str | list[str]) -> list[str] | list[tuple
         if len(sides) != 2 or not all(sides):
             raise SimulatorError(f"Relation target must be 'AAA{PAIR_SEPARATOR}BBB', got {t!r}")
         a, b = sides
-        if a == b:
+        if a == b and _is_explicit(a):
             raise SimulatorError(f"A relation needs two different tags, got {t!r}")
         if kind == RELATIONS_DOUBLESIDED:
             a, b = sorted((a, b))
         pairs.append((a, b))
     return list(dict.fromkeys(pairs))
+
+
+GROUP_PREFIX = "@"
+WILDCARD = "*"
+
+Target = str | tuple[str, str]
+Mask = np.ndarray | None  # active years of a target; None = explicit tag, must exist in every year
+
+
+def _is_explicit(side: str) -> bool:
+    return not side.startswith(GROUP_PREFIX) and side != WILDCARD
+
+
+def _expand_side(scenario: Scenario, side: str, years: list[int]) -> dict[str, Mask]:
+    if _is_explicit(side):
+        scenario.check_tags([side])
+        return {side: None}
+    alive = scenario.existence(years)
+    member = alive if side == WILDCARD else scenario.membership(side[1:], years) & alive
+    return {tag: member[tag].to_numpy() for tag in member.columns if member[tag].any()}
+
+
+def _and(a: Mask, b: Mask) -> Mask:
+    if a is None:
+        return b
+    return a if b is None else a & b
+
+
+def expand_targets(scenario: Scenario, kind: str, targets: str | list[str], years: list[int]) -> dict[Target, Mask]:
+    """Expand groups and wildcards. Returns target -> active-year mask (None = explicit target)."""
+    out: dict[Target, Mask] = {}
+    for parsed in parse_targets(kind, targets):
+        if isinstance(parsed, str):
+            out.update(_expand_side(scenario, parsed, years))
+            continue
+        side_a, side_b = (_expand_side(scenario, s, years) for s in parsed)
+        for a, mask_a in side_a.items():
+            for b, mask_b in side_b.items():
+                if a == b:
+                    continue  # a group may contain the other side; explicit A:A is rejected in parse_targets
+                pair = tuple(sorted((a, b))) if kind == RELATIONS_DOUBLESIDED else (a, b)
+                mask = _and(mask_a, mask_b)
+                if mask is not None and not mask.any():
+                    continue
+                if pair in out:  # listed twice: explicit wins, otherwise union of active years
+                    prev = out[pair]
+                    mask = None if prev is None or mask is None else prev | mask
+                out[pair] = mask
+    if not out:
+        raise SimulatorError(f"Targets {targets!r} expand to nothing in {years[0]}..{years[-1]}")
+    return out
 
 
 def _target_label(target: str | tuple[str, str]) -> str:
@@ -132,14 +185,13 @@ def _apply(scenario: Scenario, store: NarratedStore, op: Operation) -> Result:
     kind = resolve_kind(op.kind)
     formula = get_formula(scenario, kind, op.name)
     years = scenario.years_between(*parse_years(op.years))
-    targets = parse_targets(kind, op.targets)
-    scenario.check_tags([t for target in targets for t in _target_tags(target)])
+    targets = expand_targets(scenario, kind, op.targets, years)
 
     exist = scenario.existence(years)
-    for target in targets:
+    for target, mask in targets.items():
         for tag in _target_tags(target):
             missing = [y for y in years if not exist.at[y, tag]]
-            if missing:
+            if missing and mask is None:
                 raise SimulatorError(
                     f"{tag} does not exist in {missing[0]}..{missing[-1]} (see exists_from/exists_to in tags.csv)"
                 )
@@ -151,11 +203,13 @@ def _apply(scenario: Scenario, store: NarratedStore, op: Operation) -> Result:
 
     preview = pd.DataFrame(index=pd.Index(years, name="year"), dtype=float)
     written = skipped = 0
-    for target in targets:
+    for target, mask in targets.items():
         start = op.start
         if isinstance(start, str):
             if start.strip().lower() != CURRENT:
                 start = float(start)
+            elif mask is not None:
+                raise SimulatorError(f"start='{CURRENT}' is not allowed with group/wildcard targets")
             else:
                 start = _get(store, kind, formula.slug, years[0], target)
                 if np.isnan(start):
@@ -174,8 +228,11 @@ def _apply(scenario: Scenario, store: NarratedStore, op: Operation) -> Result:
                     f"({formula.type} in [{formula.valmin}, {formula.valmax}]); pass clip to clip them"
                 )
             vals = formula.coerce(vals)
-        preview[_target_label(target)] = vals
-        for year, value in zip(years, vals):
+        active = np.ones(len(years), dtype=bool) if mask is None else mask
+        preview[_target_label(target)] = np.where(active, vals, np.nan)
+        for year, value, on in zip(years, vals, active):
+            if not on:
+                continue
             if op.only_empty and not np.isnan(_get(store, kind, formula.slug, year, target)):
                 skipped += 1
                 continue
@@ -232,8 +289,7 @@ def show(
     kind = resolve_kind(kind)
     formula = get_formula(scenario, kind, name)
     yrs = scenario.years_between(*parse_years(years))
-    tgts = parse_targets(kind, targets)
-    scenario.check_tags([t for target in tgts for t in _target_tags(target)])
+    tgts = expand_targets(scenario, kind, targets, yrs)
     store = NarratedStore(scenario)
     return pd.DataFrame(
         {_target_label(t): [_get(store, kind, formula.slug, y, t) for y in yrs] for t in tgts},
@@ -273,3 +329,25 @@ def missing_report(scenario: Scenario, kind: str | None = None, name: str | None
                 "first_year_with_gaps": first_gap,
             })
     return pd.DataFrame(rows)
+
+
+def effective_values(scenario: Scenario, kind: str, name: str, year: int) -> pd.Series | pd.DataFrame:
+    """Values the simulator should use: unfilled cells get the formula default.
+
+    Cells of countries that do not exist in `year` and the relation diagonal stay NaN;
+    so do unfilled cells of formulas without a default (they have to be filled).
+    """
+    kind = resolve_kind(kind)
+    formula = get_formula(scenario, kind, name)
+    if year not in scenario.dates:
+        raise SimulatorError(f"Year {year} is not a scenario date")
+    vals = NarratedStore(scenario).values(kind, formula.slug, year).copy()
+    alive = scenario.existence([year]).loc[year].to_numpy()
+    if kind == INTERNAL_GRADES:
+        valid = alive
+    else:
+        valid = alive[:, None] & alive[None, :]
+        np.fill_diagonal(valid, False)
+    if formula.default is not None:
+        vals = vals.fillna(formula.default)
+    return vals.where(valid)

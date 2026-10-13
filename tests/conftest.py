@@ -19,18 +19,18 @@ def scenario(tmp_path: Path) -> Scenario:
     }).to_csv(root / "tags.csv", index=False)
     pd.DataFrame({"date": range(1990, 1996)}).to_csv(root / "dates.csv", index=False)
     (root / "formulas" / "internal-grades.csv").write_text(
-        "name,type,valmin,valmax\n"
-        "stability,float,0,100\n"
-        "war exhaustion,float,0,100\n"
-        "riots,int,0,1\n"
-        "population index,int,0,1000\n"
+        "name,type,valmin,valmax,default,description\n"
+        "stability,float,0,100,,Stability 0-100\n"
+        "war exhaustion,float,0,100,0,Weariness 0-100\n"
+        "riots,int,0,1,0,Serious riots\n"
+        "population index,int,0,1000,,Test int\n"
     )
     (root / "formulas" / "relations-directed.csv").write_text(
-        "name,type,valmin,valmax,from,to\n"
-        "diplomatic relation towards,float,-100,100,TAG,TAG\n"
+        "name,type,valmin,valmax,from,to,default,description\n"
+        "diplomatic relation towards,float,-100,100,TAG,TAG,0,Diplomacy\n"
     )
     (root / "formulas" / "relations-doublesided.csv").write_text(
-        "name,type,valmin,valmax,side-a,side-b\n"
-        "in war,int,0,1,TAG,TAG\n"
+        "name,type,valmin,valmax,side-a,side-b,default,description\n"
+        "in war,int,0,1,TAG,TAG,0,Open war\n"
     )
     return Scenario(root)
