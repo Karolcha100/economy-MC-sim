@@ -1,6 +1,7 @@
-"""Automatic review of narrated data: warnings only, never errors (see AGENTS/Conversations/phase-1.md, G1).
+"""Automatic review of narrated data: warnings only, never errors (see AGENTS/phases/phase-1/notes.md, G1).
 
-Checks: large year-to-year jumps of continuous statistics and changelog entries without a rationale.
+Checks: large year-to-year jumps of continuous statistics, changelog entries without a rationale and
+values far from their seed (`seed.py`).
 """
 
 from __future__ import annotations
@@ -9,11 +10,13 @@ import numpy as np
 import pandas as pd
 
 from simulator.formulas import get_formula, list_formulas
+from simulator.seed import seed_deviations
 from simulator.scenario import Scenario
 from simulator.store import NarratedStore
 from simulator.templates import INTERNAL_GRADES, KINDS, RELATIONS_DOUBLESIDED, resolve_kind
 
 DEFAULT_JUMP = 0.25  # share of the formula range
+DEFAULT_SEED_DEVIATION = 15.0  # points away from the seed value (decision Y2)
 COLUMNS = ["check", "kind", "name", "target", "year", "message"]
 
 
@@ -43,7 +46,8 @@ def _jumps(scenario: Scenario, store: NarratedStore, f, threshold: float) -> lis
 
 
 def review(
-    scenario: Scenario, kind: str | None = None, name: str | None = None, jump: float = DEFAULT_JUMP
+    scenario: Scenario, kind: str | None = None, name: str | None = None, jump: float = DEFAULT_JUMP,
+    seed_deviation: float = DEFAULT_SEED_DEVIATION,
 ) -> pd.DataFrame:
     store = NarratedStore(scenario)
     rows: list[dict] = []
@@ -53,6 +57,8 @@ def review(
         for f in formulas:
             if f.type == "float":
                 rows += _jumps(scenario, store, f, jump)
+    rows += [r for r in seed_deviations(scenario, seed_deviation)
+             if (kind is None or r["kind"] == resolve_kind(kind)) and (name is None or r["name"] == name)]
 
     log_path = scenario.narrated_dir / "changelog.csv"
     if log_path.exists():

@@ -19,7 +19,7 @@ from simulator.templates import INTERNAL_GRADES
 
 INDEX_NAME = "tag"
 CHANGELOG_COLUMNS = [
-    "timestamp", "author", "operation", "kind", "name", "targets", "years", "params", "rationale",
+    "timestamp", "author", "operation", "kind", "name", "targets", "years", "params", "rationale", "sources",
 ]
 
 Key = tuple[str, str | None, int]
@@ -127,6 +127,11 @@ def append_changelog(scenario: Scenario, rows: list[dict]) -> None:
         if isinstance(rec["params"], dict):
             rec["params"] = json.dumps(rec["params"], ensure_ascii=False, sort_keys=True)
         records.append(rec)
+    if path.exists():
+        header = read_csv(path, nrows=0).columns.tolist()
+        if header != CHANGELOG_COLUMNS:  # older file without newer columns: rewrite once with the full header
+            old = read_csv(path, dtype=str, keep_default_na=False).reindex(columns=CHANGELOG_COLUMNS, fill_value="")
+            write_csv(old, path, index=False)
     pd.DataFrame(records, columns=CHANGELOG_COLUMNS).to_csv(
         path, mode="a", header=not path.exists(), index=False, encoding=ENCODING
     )

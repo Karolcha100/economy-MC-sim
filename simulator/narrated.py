@@ -162,6 +162,7 @@ class Operation:
     only_empty: bool = False
     clip: bool = False
     rationale: str = ""
+    sources: str | list[str] = ""  # URLs / "title, outlet, date" of what the values are based on
 
     @classmethod
     def from_dict(cls, data: dict) -> Operation:
@@ -276,6 +277,8 @@ def apply_operations(
                     "only_empty": r.operation.only_empty, "clip": r.operation.clip,
                 },
                 "rationale": r.operation.rationale or rationale,
+                "sources": r.operation.sources if isinstance(r.operation.sources, str)
+                else " | ".join(r.operation.sources),
             }
             for r in results
         ])

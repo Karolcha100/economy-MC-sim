@@ -90,6 +90,23 @@ def validate(scenario: Scenario) -> list[Issue]:
                 err(where, f"unknown tag columns: {extra[:10]}")
             if path.stem not in set(meta["name"]):
                 warn(where, "no entry in history/metadata.csv")
+        for path in sorted((scenario.history_dir / "dyadic").glob("*.csv")):
+            where = f"history/dyadic/{path.name}"
+            df = read_csv(path, dtype={"side_a": str, "side_b": str})
+            if list(df.columns) != ["date", "side_a", "side_b", "value"]:
+                err(where, "columns must be date,side_a,side_b,value")
+                continue
+            if not df["date"].isin(dates).all():
+                err(where, "dates outside dates.csv")
+            unknown = sorted((set(df["side_a"]) | set(df["side_b"])) - set(tags.index))
+            if unknown:
+                err(where, f"unknown tags: {unknown[:10]}")
+            if (df["side_a"] >= df["side_b"]).any():
+                err(where, "pairs must be ordered side_a < side_b (symmetric data)")
+            if df.duplicated(["date", "side_a", "side_b"]).any():
+                err(where, "duplicated pairs")
+            if path.stem not in set(meta["name"]):
+                warn(where, "no entry in history/metadata.csv")
 
     # narrated ------------------------------------------------------------------------
     store = NarratedStore(scenario)

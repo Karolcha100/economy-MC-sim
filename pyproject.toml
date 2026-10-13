@@ -12,9 +12,13 @@ dependencies = [
 dev = ["pytest>=8"]
 notebooks = ["jupyter", "matplotlib", "seaborn"]
 viz = ["plotly>=5"]
+sources = ["openpyxl", "country_converter"]  # wgi-xlsx and ucdp-dyadic formats
 
 [tool.setuptools]
-packages = ["simulator"]
+packages = ["simulator", "agents_board"]
+
+[tool.setuptools.package-data]
+agents_board = ["static/*.html"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

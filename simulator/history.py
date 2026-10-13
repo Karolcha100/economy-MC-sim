@@ -15,11 +15,14 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from simulator import sources
 from simulator.io import ENCODING, SimulatorError, read_csv, slugify, write_csv
 from simulator.scenario import Scenario
 
-FORMATS = ("worldbank", "wide", "imf-datamapper")
-METADATA_COLUMNS = ["name", "unit", "source", "source_code", "downloaded", "description"]
+FORMATS = ("worldbank", "wide", "imf-datamapper", "owid", "wgi-xlsx")
+DYADIC_FORMATS = ("geonames-neighbours", "ucdp-dyadic", "pair-ranges")
+METADATA_COLUMNS = ["name", "unit", "source", "source_code", "downloaded", "description", "shape"]
+SHAPES = ("country", "dyad-symmetric")  # country-year table / pairs of countries (history/dyadic/)
 FILL_LOG_COLUMNS = ["timestamp", "author", "name", "tag", "year", "value", "method", "source"]
 FILL_METHODS = ("source", "interpolate", "extrapolate")
 INDEX_NAME = "date"
@@ -30,7 +33,10 @@ IMF_TO_TAG = {"UVK": "XKX", "WBG": "PSE"}
 
 def _read_worldbank(path: Path) -> pd.DataFrame:
     """World Bank bulk CSV: one row per country, one column per year."""
-    raw = read_csv(path, dtype={"Country Code": str})
+    try:
+        raw = read_csv(path, dtype={"Country Code": str})
+    except pd.errors.ParserError:  # preamble lines have fewer fields than the table
+        raw = pd.DataFrame()
     if "Country Code" not in raw.columns:
         # Original downloads start with 4 lines of preamble.
         raw = read_csv(path, skiprows=4, dtype={"Country Code": str})
@@ -63,12 +69,24 @@ def _read_imf_datamapper(path: Path) -> pd.DataFrame:
     return df.rename(columns=IMF_TO_TAG).sort_index()
 
 
-def read_source(path: Path, fmt: str) -> pd.DataFrame:
-    """Read a source file into a dates x country-codes frame."""
-    readers = {"worldbank": _read_worldbank, "wide": _read_wide, "imf-datamapper": _read_imf_datamapper}
-    if fmt not in readers:
-        raise SimulatorError(f"Unknown format {fmt!r}; use one of {FORMATS}")
-    return readers[fmt](Path(path)).apply(pd.to_numeric, errors="coerce")
+def read_source(path: Path, fmt: str, column: str | None = None, sheet: str | None = None) -> pd.DataFrame:
+    """Read a source file into a dates x country-codes frame.
+
+    `column`: value column of an OWID file (needed when it has several); `sheet`: WGI sheet (pv, cc, ...).
+    """
+    path = Path(path)
+    if fmt == "owid":
+        df = sources.read_owid(path, column)
+    elif fmt == "wgi-xlsx":
+        if not sheet:
+            raise SimulatorError(f"format wgi-xlsx needs a sheet: one of {sorted(sources.WGI_SHEETS)}")
+        df = sources.read_wgi_xlsx(path, sheet)
+    else:
+        readers = {"worldbank": _read_worldbank, "wide": _read_wide, "imf-datamapper": _read_imf_datamapper}
+        if fmt not in readers:
+            raise SimulatorError(f"Unknown format {fmt!r}; use one of {FORMATS}")
+        df = readers[fmt](path)
+    return df.apply(pd.to_numeric, errors="coerce")
 
 
 def import_history(
@@ -82,12 +100,14 @@ def import_history(
     downloaded: str = "",
     description: str = "",
     scale: float = 1.0,
+    column: str | None = None,
+    sheet: str | None = None,
 ) -> pd.DataFrame:
     """Import a statistic and return a per-tag completeness report."""
     slug = slugify(name)
     if not slug:
         raise SimulatorError(f"Invalid statistic name {name!r}")
-    df = read_source(source_path, fmt) * scale
+    df = read_source(source_path, fmt, column, sheet) * scale
 
     dropped = sorted(set(df.columns) - set(scenario.tags))
     df = df.reindex(index=scenario.dates, columns=scenario.tags).astype(float)
@@ -95,12 +115,8 @@ def import_history(
 
     with scenario.lock():
         write_csv(df, scenario.history_dir / f"{slug}.csv")
-        meta = load_metadata(scenario)
-        meta = meta[meta["name"] != slug]
-        row = {"name": slug, "unit": unit, "source": source, "source_code": source_code,
-               "downloaded": downloaded, "description": description}
-        meta = pd.concat([meta, pd.DataFrame([row])], ignore_index=True).sort_values("name")
-        write_csv(meta, scenario.history_dir / "metadata.csv", index=False)
+        _save_metadata(scenario, {"name": slug, "unit": unit, "source": source, "source_code": source_code,
+                                  "downloaded": downloaded, "description": description, "shape": "country"})
         # A fresh import replaces earlier gap fills of this statistic.
         log = load_fill_log(scenario)
         if (log["name"] == slug).any():
@@ -115,7 +131,60 @@ def load_metadata(scenario: Scenario) -> pd.DataFrame:
     path = scenario.history_dir / "metadata.csv"
     if not path.exists():
         return pd.DataFrame(columns=METADATA_COLUMNS, dtype=str)
-    return read_csv(path, dtype=str, keep_default_na=False)
+    meta = read_csv(path, dtype=str, keep_default_na=False)
+    if "shape" not in meta.columns:  # files written before dyadic data existed
+        meta["shape"] = "country"
+    return meta[METADATA_COLUMNS]
+
+
+def _save_metadata(scenario: Scenario, row: dict) -> None:
+    meta = load_metadata(scenario)
+    meta = meta[meta["name"] != row["name"]]
+    meta = pd.concat([meta, pd.DataFrame([row])], ignore_index=True).sort_values("name")
+    write_csv(meta[METADATA_COLUMNS], scenario.history_dir / "metadata.csv", index=False)
+
+
+def import_dyadic(
+    scenario: Scenario,
+    name: str,
+    source_path: Path,
+    fmt: str,
+    unit: str = "",
+    source: str = "",
+    source_code: str = "",
+    downloaded: str = "",
+    description: str = "",
+) -> pd.DataFrame:
+    """Import pair data into `history/dyadic/<name>.csv` (date, side_a, side_b, value; side_a < side_b).
+
+    Only scenario dates, known tags and years in which both countries exist are kept.
+    Returns the kept rows.
+    """
+    slug = slugify(name)
+    if fmt == "geonames-neighbours":
+        df = sources.read_geonames_neighbours(Path(source_path), scenario.dates)
+    elif fmt == "ucdp-dyadic":
+        df = sources.read_ucdp_dyadic(Path(source_path), min_year=scenario.dates[0])
+    elif fmt == "pair-ranges":
+        df = sources.read_pair_ranges(Path(source_path))
+    else:
+        raise SimulatorError(f"Unknown dyadic format {fmt!r}; use one of {DYADIC_FORMATS}")
+    df = df[df["date"].isin(scenario.dates) & df["side_a"].isin(scenario.tags) & df["side_b"].isin(scenario.tags)]
+    alive = scenario.existence()
+    both = [bool(alive.at[d, a] and alive.at[d, b]) for d, a, b in zip(df["date"], df["side_a"], df["side_b"])]
+    df = df[both].sort_values(["date", "side_a", "side_b"]).reset_index(drop=True)
+    with scenario.lock():
+        write_csv(df, scenario.history_dir / "dyadic" / f"{slug}.csv", index=False)
+        _save_metadata(scenario, {"name": slug, "unit": unit, "source": source, "source_code": source_code,
+                                  "downloaded": downloaded, "description": description, "shape": "dyad-symmetric"})
+    return df
+
+
+def load_dyadic(scenario: Scenario, name: str) -> pd.DataFrame:
+    path = scenario.history_dir / "dyadic" / f"{slugify(name)}.csv"
+    if not path.exists():
+        raise SimulatorError(f"No dyadic history {name!r} ({path})")
+    return read_csv(path, dtype={"side_a": str, "side_b": str})
 
 
 def load_history(scenario: Scenario, name: str) -> pd.DataFrame:

@@ -57,12 +57,36 @@ Rules:
 - **196 countries**: all sovereign World Bank economies (22 dependent territories such as Hong Kong,
   Puerto Rico, Macao, Greenland are **not** in the scenario) plus **Taiwan (`TWN`)**. Kosovo (`XKX`,
   from 2008) and Palestine (`PSE`, from 1994) are included.
-- **Continuity**: Russia (`RUS`) continues the USSR and Serbia (`SRB`) continues Yugoslavia — both
-  exist from 1990. Germany (`DEU`) exists from 1990 (the GDR is not modelled); Yemen from 1990.
+- **Continuity**: Russia (`RUS`) continues the USSR, Serbia (`SRB`) continues Yugoslavia and Czechia (`CZE`)
+  continues Czechoslovakia — all exist from 1990 (Slovakia from 1993). Germany (`DEU`) exists from 1990 (the GDR is not modelled); Yemen from 1990.
 - **Existence** (`exists_from`) = year of independence, any time during that year
   (former USSR republics 1991, CZE/SVK 1993, BIH 1992, MNE 2006, ...). No values before that year.
 - **GDP gaps** were filled (IMF, then interpolation/extrapolation); every estimated value is listed in
   `history/fill-log.csv` and marked `*` by `context`. North Korea (`PRK`) has no GDP at all.
+
+## Seed values (first version of narrated data from real indicators)
+
+Rules: `scenarios/<scenario>/seeds.csv` (`kind,name,source,transform,a,b,note`), editable without code.
+
+| transform | value |
+|---|---|
+| `linear` | `a + b * x` (x = history statistic) |
+| `per-1000-linear` | `a + b * (x / population * 1000)` |
+| `pairs-at-least` | pair value 1 where the dyadic history value >= `a` |
+
+Values are clipped to the formula range; gaps inside an indicator's range are interpolated linearly;
+years before its first / after its last value stay empty (for LLMs). Seeds are written with author
+`seed:<source>` and **never overwrite filled cells**, so re-running keeps LLM corrections.
+
+```bash
+python -m simulator seed --dry-run          # what would be written
+python -m simulator seed                    # all rules (or --name stability)
+python -m simulator review                  # also warns when a value is > 15 points from its seed
+```
+
+Current rules in `world-1990-2025`: `stability` (WGI PV), `corruption` (WGI CC), `civilization level`
+(100 x HDI), `net migration` (5 x per 1000), `in war` (UCDP levels 1-2), `neighbours` (GeoNames +
+`data/manual/historical-land-borders.csv`).
 
 ## Filling narrated data (for LLM agents)
 
@@ -92,6 +116,9 @@ python -m simulator set --kind doublesided --name "in war" --targets RUS:UKR \
 # Continue from the value already stored in the first year, fill only empty cells
 python -m simulator set --kind grade --name stability --targets POL --years 2000-2010 \
     --start current --end 75 --only-empty --author claude-opus-5-5
+
+# Sources the values are based on (repeatable; stored in narrated/changelog.csv)
+python -m simulator set ... --sources "https://example.org/article" --sources "Title, Outlet, 2014-03-18"
 
 # Year-by-year values
 python -m simulator set --kind grade --name "war exhaustion" --targets UKR --years 2022-2025 \
@@ -147,7 +174,7 @@ python -m simulator batch ops.json --author claude-opus-5-5
 }
 ```
 
-Operation keys: `kind, name, targets, years, curve, start, end, values, params, only_empty, clip, rationale`.
+Operation keys: `kind, name, targets, years, curve, start, end, values, params, only_empty, clip, rationale, sources`.
 Group/wildcard targets (`@NATO`, `*`) cannot use `start: "current"`.
 If any operation fails, nothing is written. Later operations see values set by earlier ones.
 
@@ -178,7 +205,26 @@ python -m simulator history import --name gdp-current-usd \
 python -m simulator history list
 ```
 
-`--format wide` takes a CSV already shaped `date,<TAG>,<TAG>,...`. The output always has every
+Formats: `worldbank` (WDI bulk CSV), `wide` (`date,<TAG>,<TAG>,...`), `imf-datamapper` (IMF API JSON),
+`owid` (Our World in Data grapher CSV; `--column` if it has several value columns), `wgi-xlsx`
+(official WGI workbook; `--sheet pv|cc|va|ge|rq|rl`). Raw files and their origin: `data/README.md`.
+
+Statistics currently imported into `world-1990-2025` (see `history list`): GDP, WGI political stability and
+control of corruption, HDI, TI CPI, happiness (Cantril ladder), net migration, migrant stock share.
+
+Pair data (`history/dyadic/<name>.csv`: `date,side_a,side_b,value`, symmetric, `side_a < side_b`):
+
+```bash
+python -m simulator history import-dyadic --name land-borders --format geonames-neighbours \
+    --source-file data/geonames/countryInfo.txt
+python -m simulator history import-dyadic --name ucdp-armed-conflict --format ucdp-dyadic \
+    --source-file data/ucdp/Dyadic_v25_1.csv     # 2 = interstate war, 1 = opposite sides incl. secondary party
+```
+
+`--format pair-ranges` reads hand-made pairs valid for year ranges (`side_a,side_b,from,to,note`), e.g.
+`data/manual/historical-land-borders.csv`. `context POL:RUS` shows the pair data. `wgi-xlsx` and `ucdp-dyadic` need `pip install -e ".[sources]"`.
+
+The `wide` format takes a CSV already shaped `date,<TAG>,<TAG>,...`. The output always has every
 scenario tag and date (gaps = empty); a completeness report is printed.
 
 Gaps (missing values in years a country exists) and filling them — existing values are never changed,

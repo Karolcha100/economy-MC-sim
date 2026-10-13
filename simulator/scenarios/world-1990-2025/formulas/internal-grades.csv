@@ -6,7 +6,7 @@ revanchism,float,0,100,,"Strength of the wish to regain lost territory, influenc
 war exhaustion,float,0,100,0,"Weariness of the population with war, also after a past war and without an ongoing one: 0 = none, 50 = clear opposition to further war effort, 100 = refusal to keep fighting."
 government popularity,float,0,100,,"Public support for the ruling government: 0 = universally rejected, 50 = split society, 100 = near-universal support."
 social sensitivity,float,0,100,,"How strongly society reacts to hardship, casualties and economic losses: 0 = very resilient and tolerant of losses, 100 = minor losses cause strong political reactions."
-civilization level,float,0,100,,"Overall development of the society (education, technology, health, institutions, quality of life): 0 = least developed in the world, 100 = most developed in the world."
+civilization level,float,0,100,,"Development of the society on an absolute scale (education, technology, health, institutions, quality of life), seeded as 100 x HDI: ~30 = least developed countries today, ~95 = most developed today; rises when a country develops even if others do too."
 immigration,float,0,100,,"Intensity of immigration relative to the population: 0 = practically none, 50 = high and politically visible, 100 = extreme inflow changing the society within years."
 emigration,float,0,100,,"Intensity of emigration relative to the population: 0 = practically none, 50 = high, noticeable brain drain, 100 = mass exodus."
 assimilation,float,0,100,,"How well immigrants and minorities integrate into the majority society: 0 = isolated parallel societies, 100 = full assimilation."
@@ -14,3 +14,4 @@ immigration crisis,int,0,1,0,"1 = a serious immigration crisis at any time durin
 riots,int,0,1,0,"1 = serious riots at any time during the year (large-scale, violent, nationally significant unrest; peaceful protests and isolated incidents do not count)."
 epidemic,int,0,1,0,"1 = a serious epidemic at any time during the year (significant mortality or disruption of normal life, e.g. COVID-19 in 2020-2021)."
 mobilized,int,0,1,0,1 = partial or full military mobilisation at any time during the year; possible without an ongoing war.
+net migration,float,-100,100,0,"Net migration intensity (immigrants minus emigrants per year, relative to population): seeded as 5 x net migration per 1000 inhabitants, so +-20 per mille = +-100; negative = net emigration."

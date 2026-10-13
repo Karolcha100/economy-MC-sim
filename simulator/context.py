@@ -12,7 +12,7 @@ import math
 import pandas as pd
 
 from simulator.formulas import Formula, list_formulas
-from simulator.history import compress_years, load_fill_log, load_history, load_metadata
+from simulator.history import compress_years, load_dyadic, load_fill_log, load_history, load_metadata
 from simulator.io import read_csv
 from simulator.narrated import PAIR_SEPARATOR
 from simulator.scenario import Scenario
@@ -75,7 +75,7 @@ def _history_lines(scenario: Scenario, tag: str) -> list[str]:
     log = load_fill_log(scenario)
     years = scenario.dates[::HISTORY_STEP] + ([scenario.dates[-1]] if (len(scenario.dates) - 1) % HISTORY_STEP else [])
     lines = []
-    for name in meta.index:
+    for name in meta.index[meta["shape"] == "country"]:
         series = load_history(scenario, name)[tag]
         estimated = set(log[(log["name"] == name) & (log["tag"] == tag)]["year"].astype(int))
         cells = [f"{y}: {_fmt(series[y])}{'*' if y in estimated else ''}" for y in years]
@@ -114,6 +114,17 @@ def pair_context(scenario: Scenario, a: str, b: str) -> str:
     scenario.check_tags([a, b])
     store = NarratedStore(scenario)
     lines = _country_header(scenario, a) + _country_header(scenario, b) + [""]
+    meta = load_metadata(scenario).set_index("name")
+    dyadic = meta.index[meta["shape"] == "dyad-symmetric"]
+    if len(dyadic):
+        lines.append("History (pairs, real data):")
+        x, y = sorted((a, b))
+        for name in dyadic:
+            d = load_dyadic(scenario, name)
+            d = d[(d["side_a"] == x) & (d["side_b"] == y)]
+            values = {yr: float("nan") for yr in scenario.dates} | dict(zip(d["date"], d["value"]))
+            lines.append(f"- {name} [{meta.at[name, 'unit']}]: {compress_series(values)}")
+        lines.append("")
     for kind in (RELATIONS_DIRECTED, RELATIONS_DOUBLESIDED):
         lines.append(f"Relations ({kind}):")
         for f in list_formulas(scenario, kind):

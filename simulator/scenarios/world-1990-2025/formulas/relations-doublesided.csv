@@ -2,3 +2,4 @@ name,type,valmin,valmax,side-a,side-b,default,description
 in war,int,0,1,TAG,TAG,0,"1 = open armed conflict between the two states at any time during the year, declared or not (e.g. Russia-Ukraine from 2014)."
 in hybrid war,int,0,1,TAG,TAG,0,"1 = sustained hostile actions below open war between the two states at any time during the year (sabotage, major cyberattacks, weaponised migration, disinformation campaigns)."
 neighbours,int,0,1,TAG,TAG,0,1 = the two states share a land border in that year.
+in war crisis,int,0,1,TAG,TAG,0,"1 = a war crisis between the two states at any time during the year: a lighter form of war short of open war (armed incidents, border clashes, mobilisation against each other, ultimatums, fighting through proxies); open war is 'in war'."

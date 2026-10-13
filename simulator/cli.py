@@ -17,7 +17,8 @@ import pandas as pd
 from simulator import formulas as fm
 from simulator import history, narrated
 from simulator.context import context
-from simulator.review import DEFAULT_JUMP, review
+from simulator.review import DEFAULT_JUMP, DEFAULT_SEED_DEVIATION, review
+from simulator.seed import apply_seeds
 from simulator.interpolation import CURVES
 from simulator.io import SimulatorError
 from simulator.scenario import Scenario
@@ -79,6 +80,11 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--kind")
     p.add_argument("--name")
     p.add_argument("--jump", type=float, default=DEFAULT_JUMP, help="share of the value range (default 0.25)")
+    p.add_argument("--seed-deviation", type=float, default=DEFAULT_SEED_DEVIATION,
+                   help="warn when a value is this many points away from its seed (default 15)")
+    p = sub.add_parser("seed", help="write seed values from real indicators into empty cells (rules: seeds.csv)")
+    p.add_argument("--name", help="only the rule(s) of this formula")
+    p.add_argument("--dry-run", action="store_true")
     p = sub.add_parser("reference-map", help="world map of a statistic for reference countries (HTML)")
     p.add_argument("--kind", required=True)
     p.add_argument("--name", required=True)
@@ -134,6 +140,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--clip", action="store_true", help="clip values into [valmin, valmax] instead of failing")
     p.add_argument("--author", required=True, help="who sets the values (model name or 'user')")
     p.add_argument("--rationale", default="", help="why / based on what (recommended)")
+    p.add_argument("--sources", action="append", default=[],
+                   help="URL or 'title, outlet, date' the values are based on (repeatable)")
     p.add_argument("--dry-run", action="store_true", help="show computed values, write nothing")
 
     # batch
@@ -163,6 +171,14 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--downloaded", default="", help="download date, YYYY-MM-DD")
     p.add_argument("--description", default="")
     p.add_argument("--scale", type=float, default=1.0, help="multiply values (e.g. 1e-9 for billions)")
+    p.add_argument("--column", help="owid: value column when the file has several")
+    p.add_argument("--sheet", help="wgi-xlsx: pv (political stability), cc (control of corruption), va, ge, rq, rl")
+    p = ph.add_parser("import-dyadic", help="pairs of countries (history/dyadic/), e.g. borders, wars")
+    p.add_argument("--name", required=True)
+    p.add_argument("--source-file", required=True, type=Path)
+    p.add_argument("--format", required=True, choices=history.DYADIC_FORMATS)
+    for opt in ("--unit", "--source", "--source-code", "--downloaded", "--description"):
+        p.add_argument(opt, default="")
     p = ph.add_parser("gaps", help="missing values in years a country exists")
     p.add_argument("--name", required=True)
     p = ph.add_parser("fill", help="fill gaps (never overwrites); every value is logged in history/fill-log.csv",
@@ -207,10 +223,15 @@ def run(args: argparse.Namespace) -> int:
         case "context":
             print(context(scenario, args.target))
         case "review":
-            warnings = review(scenario, args.kind, args.name, args.jump)
+            warnings = review(scenario, args.kind, args.name, args.jump, args.seed_deviation)
             print(f"# {len(warnings)} warning(s)")
             if not warnings.empty:
                 _print_table(warnings, args.json)
+        case "seed":
+            report = apply_seeds(scenario, args.name, args.dry_run)
+            _print_table(report.set_index(["kind", "name", "source"]), args.json)
+            if args.dry_run:
+                print("# dry run: nothing written")
         case "reference-map":
             from simulator.reference_map import build_map, write_map
 
@@ -255,7 +276,7 @@ def run(args: argparse.Namespace) -> int:
             op = narrated.Operation(
                 kind=args.kind, name=args.name, targets=args.targets, years=args.years,
                 curve=args.curve, start=args.start, end=args.end, values=args.values,
-                params=dict(args.param), only_empty=args.only_empty, clip=args.clip,
+                params=dict(args.param), only_empty=args.only_empty, clip=args.clip, sources=args.sources,
             )
             results = narrated.apply_operations(scenario, [op], args.author, args.rationale, args.dry_run)
             _print_results(results, args.dry_run, args.json)
@@ -278,6 +299,14 @@ def run(args: argparse.Namespace) -> int:
         case "history":
             if args.action == "list":
                 _print_table(history.load_metadata(scenario), args.json)
+            elif args.action == "import-dyadic":
+                rows = history.import_dyadic(
+                    scenario, args.name, args.source_file, args.format, args.unit, args.source,
+                    args.source_code, args.downloaded, args.description,
+                )
+                pairs = rows[["side_a", "side_b"]].drop_duplicates()
+                print(f"# imported {args.name}: {len(rows)} rows, {len(pairs)} pairs, "
+                      f"years {rows['date'].min()}-{rows['date'].max()}" if len(rows) else f"# {args.name}: no rows")
             elif args.action == "gaps":
                 gaps = history.find_gaps(scenario, args.name)
                 print(f"# {args.name}: {int(gaps['missing'].sum())} missing value(s) in {len(gaps)} tag(s)")
@@ -297,7 +326,7 @@ def run(args: argparse.Namespace) -> int:
             else:
                 report = history.import_history(
                     scenario, args.name, args.source_file, args.format, args.unit, args.source,
-                    args.source_code, args.downloaded, args.description, args.scale,
+                    args.source_code, args.downloaded, args.description, args.scale, args.column, args.sheet,
                 )
                 incomplete = report[report["filled"] < report["total"]]
                 print(f"# imported {args.name}: {len(report)} tags, {int(report['filled'].sum())} values, "

@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGENTS board</title>
+<style>
+:root {
+  --bg: #f6f7f9; --panel: #fff; --text: #1d2330; --muted: #6b7385; --line: #e2e5eb;
+  --accent: #2f6fdb; --accent-soft: #e8f0fd; --warn: #b8590b; --warn-soft: #fdf0e3;
+  --ok: #1f8a4c; --ok-soft: #e5f5ec; --danger: #c0392b; --code: #f1f3f6;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #15181e; --panel: #1d2129; --text: #e4e7ed; --muted: #949cad; --line: #2e3440;
+          --accent: #6ea0f5; --accent-soft: #23314a; --warn: #f0a35e; --warn-soft: #3a2c1e;
+          --ok: #5cc98b; --ok-soft: #1d3428; --danger: #ff7b6b; --code: #262b35; }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text);
+       display: grid; grid-template-rows: auto 1fr; }
+header { display: flex; gap: 12px; align-items: center; padding: 8px 16px; border-bottom: 1px solid var(--line);
+         background: var(--panel); flex-wrap: wrap; }
+header h1 { font-size: 15px; margin: 0; }
+header .meta { color: var(--muted); font-size: 12px; }
+header .spacer { flex: 1; }
+button, select, input, textarea { font: inherit; color: inherit; }
+button { background: var(--accent); color: #fff; border: 0; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+button.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+button:disabled { opacity: .5; cursor: default; }
+select, input, textarea { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
+main { display: grid; grid-template-columns: minmax(260px, 30%) 1fr; min-height: 0; }
+#tree { overflow: auto; border-right: 1px solid var(--line); padding: 8px 8px 24px; background: var(--panel); }
+#tree details { margin-left: 10px; }
+#tree > details { margin-left: 0; }
+#tree summary { cursor: pointer; padding: 3px 4px; border-radius: 4px; font-weight: 600; }
+#tree summary .count { color: var(--muted); font-weight: 400; }
+.leaf { display: flex; gap: 6px; align-items: baseline; padding: 3px 6px 3px 22px; border-radius: 4px; cursor: pointer; }
+.leaf:hover { background: var(--accent-soft); }
+.leaf.active { background: var(--accent); color: #fff; }
+.leaf .badge { font-size: 11px; }
+.leaf .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.empty { color: var(--muted); padding: 2px 22px; font-size: 12px; }
+#detail { display: grid; grid-template-rows: auto 1fr auto; min-height: 0; }
+#detail-head { padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+#detail-head h2 { font-size: 16px; margin: 0 0 2px; }
+#detail-head .where { color: var(--muted); font-size: 12px; }
+#detail-head a { color: var(--accent); }
+#context { overflow: auto; padding: 12px 20px; min-height: 0; }
+#context .md { max-width: 980px; }
+#form { border-top: 2px solid var(--accent); background: var(--panel); padding: 10px 16px; display: grid; gap: 8px; }
+#form[hidden] { display: none; }
+#form .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+#form label { font-weight: 600; }
+#form textarea { width: 100%; min-height: 140px; height: 24vh; resize: vertical; }
+#form input[type=text] { flex: 1; min-width: 200px; }
+.hint { color: var(--muted); font-size: 12px; }
+.msg { font-size: 13px; }
+.msg.err { color: var(--danger); }
+.msg.ok { color: var(--ok); }
+.pill { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--code); color: var(--muted); }
+.pill.open { background: var(--warn-soft); color: var(--warn); }
+.pill.done { background: var(--ok-soft); color: var(--ok); }
+.md h1, .md h2, .md h3, .md h4 { margin: 14px 0 6px; line-height: 1.3; }
+.md h1 { font-size: 19px; } .md h2 { font-size: 17px; } .md h3 { font-size: 15px; } .md h4 { font-size: 14px; }
+.md p { margin: 6px 0; }
+.md ul, .md ol { margin: 4px 0; padding-left: 22px; }
+.md code { background: var(--code); padding: 0 4px; border-radius: 3px; font-size: 13px; }
+.md pre { background: var(--code); padding: 8px 10px; border-radius: 6px; overflow: auto; }
+.md pre code { background: none; padding: 0; }
+.md blockquote { margin: 6px 0; padding: 2px 12px; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 6px 6px 0; }
+.md table { border-collapse: collapse; margin: 8px 0; display: block; overflow: auto; }
+.md td, .md th { border: 1px solid var(--line); padding: 4px 8px; text-align: left; vertical-align: top; }
+.md hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }
+.related { margin-top: 18px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.related h3 { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.decision { margin-top: 10px; padding: 8px 12px; border-radius: 6px; background: var(--ok-soft); }
+#toast { position: fixed; right: 16px; bottom: 16px; padding: 10px 14px; border-radius: 8px; background: var(--ok); color: #fff; display: none; }
+@media (max-width: 760px) { main { grid-template-columns: 1fr; grid-template-rows: 40vh 1fr; } #tree { border-right: 0; border-bottom: 1px solid var(--line); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>AGENTS board</h1>
+  <label>Drzewo:
+    <select id="view">
+      <option value="waiting">Co czeka na mnie</option>
+      <option value="type">Według rodzaju</option>
+      <option value="files">Według plików</option>
+    </select>
+  </label>
+  <span class="meta" id="meta"></span>
+  <span class="spacer"></span>
+  <span class="pill" id="mode"></span>
+  <button class="secondary" id="reload" title="Wczytaj pliki ponownie">Odśwież</button>
+</header>
+<main>
+  <nav id="tree"></nav>
+  <section id="detail">
+    <div id="detail-head"><h2>Wybierz pozycję z drzewa</h2><div class="where">Po lewej: co czeka na Ciebie, zadania, pytania, rozmowy.</div></div>
+    <div id="context"></div>
+    <div id="form" hidden></div>
+  </section>
+</main>
+<div id="toast"></div>
+<script>
+const CONFIG = /*__CONFIG__*/null;
+const STATUS_ICON = {" ": "🟠", "~": "🔵", "x": "✅", "?": "⏸️", ">": "➡️", "-": "❌"};
+let STATE = null, SELECTED = null, INDEX = {};
+
+// ---------- markdown (small subset: headings, lists, quotes, tables, code, bold, italics) ----------
+function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+function inline(s) {
+  // code spans first (as placeholders), so **bold `code` text** still works
+  const codes = [];
+  s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push("<code>" + esc(c) + "</code>"); return "\u0000" + (codes.length - 1) + "\u0000"; });
+  s = s.replace(/^\[(.)\]\s/, (_, st) => (STATUS_ICON[st] || "[" + st + "]") + " ");
+  s = esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+            .replace(/(^|[\s(])\*(?!\s)(.+?)\*(?=[\s).,:;]|$)/g, "$1<em>$2</em>")
+            .replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  return s.replace(/\u0000(\d+)\u0000/g, (_, n) => codes[+n]);
+}
+function md(text) {
+  const lines = text.replace(/\r/g, "").split("\n"), out = [];
+  let i = 0;
+  const listStack = [];
+  const closeLists = (depth = 0) => { while (listStack.length > depth) out.push("</" + listStack.pop().tag + ">"); };
+  while (i < lines.length) {
+    let line = lines[i];
+    if (/^```/.test(line)) {
+      closeLists(); const buf = []; i++;
+      while (i < lines.length && !/^```/.test(lines[i])) buf.push(lines[i++]);
+      out.push("<pre><code>" + esc(buf.join("\n")) + "</code></pre>"); i++; continue;
+    }
+    if (/^\s*\|.*\|\s*$/.test(line)) {
+      closeLists(); const rows = [];
+      while (i < lines.length && /^\s*\|.*\|\s*$/.test(lines[i])) rows.push(lines[i++]);
+      const cells = r => r.trim().replace(/^\||\|$/g, "").split("|").map(c => c.trim());
+      let html = "<table>";
+      rows.forEach((r, k) => {
+        if (/^\s*\|[\s:|-]+\|\s*$/.test(r)) return;
+        const tag = k === 0 ? "th" : "td";
+        html += "<tr>" + cells(r).map(c => `<${tag}>${inline(c)}</${tag}>`).join("") + "</tr>";
+      });
+      out.push(html + "</table>"); continue;
+    }
+    let m;
+    if ((m = line.match(/^(#{1,4})\s+(.*)$/))) { closeLists(); out.push(`<h${m[1].length}>${inline(m[2])}</h${m[1].length}>`); i++; continue; }
+    if (/^\s*(---|\*\*\*)\s*$/.test(line)) { closeLists(); out.push("<hr>"); i++; continue; }
+    if (/^>/.test(line)) {
+      closeLists(); const buf = [];
+      while (i < lines.length && /^>/.test(lines[i])) buf.push(lines[i++].replace(/^>\s?/, ""));
+      out.push("<blockquote>" + md(buf.join("\n")) + "</blockquote>"); continue;
+    }
+    if ((m = line.match(/^(\s*)([-*]|\d+\.)\s+(.*)$/))) {
+      const depth = Math.floor(m[1].length / 2) + 1, tag = /\d/.test(m[2]) ? "ol" : "ul";
+      while (listStack.length < depth) { out.push("<" + tag + ">"); listStack.push({tag}); }
+      closeLists(depth);
+      let content = m[3]; i++;
+      while (i < lines.length && /^\s{2,}\S/.test(lines[i]) && !/^\s*([-*]|\d+\.)\s+/.test(lines[i])) content += " " + lines[i++].trim();
+      out.push("<li>" + inline(content) + "</li>"); continue;
+    }
+    if (!line.trim()) { closeLists(); i++; continue; }
+    closeLists(); const buf = [line]; i++;
+    while (i < lines.length && lines[i].trim() && !/^(#{1,4}\s|>|\s*([-*]|\d+\.)\s|```|\s*\|)/.test(lines[i])) buf.push(lines[i++]);
+    out.push("<p>" + buf.map(inline).join("<br>") + "</p>");
+  }
+  closeLists();
+  return out.join("\n");
+}
+
+// ---------- data ----------
+async function load() {
+  if (CONFIG.state) { STATE = CONFIG.state; }
+  else {
+    const r = await fetch("/api/state");
+    STATE = await r.json();
+    if (!r.ok) { alert(STATE.error || "Błąd"); return; }
+  }
+  INDEX = {};
+  for (const k of ["todos", "issues", "talk", "files"]) for (const it of STATE[k]) INDEX[it.key] = it;
+  document.getElementById("meta").textContent = "stan plików: " + STATE.generated;
+  renderTree();
+  if (SELECTED && INDEX[SELECTED]) select(SELECTED); else if (SELECTED) clearDetail();
+}
+
+function leaf(it, label) {
+  const div = document.createElement("div");
+  div.className = "leaf" + (it.key === SELECTED ? " active" : "");
+  div.dataset.key = it.key;
+  let badge = "";
+  if (it.kind === "todo") badge = STATUS_ICON[it.status] || it.status;
+  else if (it.kind === "issue") badge = it.status === "open" ? "❓" : (it.status === "answered" ? "✅" : "·");
+  else if (it.kind === "talk") badge = it.owner === "llm" ? "🤖" : "🧑";
+  else badge = "📄";
+  const text = (label || it.title).replace(/`/g, "");
+  div.innerHTML = `<span class="badge">${badge}</span><span class="t">${esc(text)}</span>`;
+  div.title = text;
+  div.onclick = () => select(it.key);
+  return div;
+}
+function group(title, children, open = false) {
+  const d = document.createElement("details");
+  if (open) d.open = true;
+  const n = children.filter(c => c.classList && c.classList.contains("leaf")).length;
+  d.innerHTML = `<summary>${esc(title)} ${n ? `<span class="count">(${n})</span>` : ""}</summary>`;
+  if (!children.length) { const e = document.createElement("div"); e.className = "empty"; e.textContent = "nic"; d.appendChild(e); }
+  children.forEach(c => d.appendChild(c));
+  return d;
+}
+function by(list, f) { const m = new Map(); for (const x of list) { const k = f(x); if (!m.has(k)) m.set(k, []); m.get(k).push(x); } return m; }
+
+function renderTree() {
+  const tree = document.getElementById("tree"), view = document.getElementById("view").value;
+  const openState = {};
+  tree.querySelectorAll("details").forEach(d => openState[d.querySelector("summary").textContent.replace(/\s*\(\d+\)$/, "")] = d.open);
+  tree.innerHTML = "";
+  const W = STATE.waiting, items = keys => keys.map(k => INDEX[k]).filter(Boolean);
+  const prio = ["Ważne", "Średnie", "Małe"];
+  const talkFiles = [...new Set(STATE.talk.map(t => t.path))];
+  if (view === "waiting") {
+    const issueGroups = [...by(items(W.issues), i => i.path)].map(([p, l]) => group(p, l.map(i => leaf(i)), true));
+    const todoGroups = prio.map(p => group(p, items(W.todos).filter(t => t.group === p).map(t => leaf(t, t.extra.id + ". " + t.title)), p === "Ważne"));
+    const talkLeaves = talkFiles.map(p => {
+      const entries = STATE.talk.filter(t => t.path === p), last = entries[entries.length - 1];
+      return leaf(last, (last.owner === "llm" ? "Agent czeka na odpowiedź: " : "Ostatni wpis (Twój): ") + last.title);
+    });
+    tree.append(
+      group("Pytania bez decyzji", issueGroups, true),
+      group("Twoje zadania (otwarte)", todoGroups, true),
+      group("Wymiana zdań", talkLeaves, true),
+      group("Uwagi dla LLM", STATE.files.filter(f => f.path === "talk/od-autora-dla-llmow.md").map(f => leaf(f, "Dodaj uwagę dla agentów")), false),
+    );
+  } else if (view === "type") {
+    const phases = [...by(STATE.issues, i => i.group)].map(([ph, l]) =>
+      group(ph, [...by(l, i => i.extra.file)].map(([f, ll]) => group(f, ll.map(i => leaf(i)))), false));
+    const authorTodos = prio.map(p => group(p, STATE.todos.filter(t => t.owner === "author" && t.group === p).map(t => leaf(t, t.extra.id + ". " + t.title))));
+    const llmTodos = STATE.todos.filter(t => t.owner === "llm").map(t => leaf(t, t.extra.id + ". " + t.title));
+    const talks = talkFiles.map(p => group(p, STATE.talk.filter(t => t.path === p).slice().reverse().map(t => leaf(t)), true));
+    tree.append(group("Pytania i decyzje", phases, true), group("Zadania autora", authorTodos, true),
+                group("Zadania agentów", llmTodos), group("Wymiana zdań (od najnowszych)", talks));
+  } else {
+    const folders = [...by(STATE.files, f => f.group)].map(([g, l]) => group(g + "/", l.map(f => leaf(f, f.path.split("/").pop())), true));
+    tree.append(...folders);
+  }
+  tree.querySelectorAll("details").forEach(d => {
+    const t = d.querySelector("summary").textContent.replace(/\s*\(\d+\)$/, "");
+    if (t in openState) d.open = openState[t];
+  });
+}
+
+// ---------- detail + forms ----------
+function clearDetail() {
+  SELECTED = null;
+  document.getElementById("detail-head").innerHTML = "<h2>Pozycja zniknęła po odświeżeniu</h2>";
+  document.getElementById("context").innerHTML = ""; document.getElementById("form").hidden = true;
+}
+function fileText(path) { const f = STATE.files.find(f => f.path === path); return f ? f.text : ""; }
+function vscode(it) { return "vscode://file/" + encodeURI(STATE.root + "/" + it.path) + ":" + it.line; }
+
+function relatedReport(id) {
+  const text = fileText("todo/author/raport-TODO-autora.md");
+  const parts = text.split(/\n---\s*\n/).filter(p => p.includes("[" + id + "]"));
+  return parts.length ? parts.map(md).join("<hr>") : "";
+}
+function relatedLlmReport(id) {
+  const text = fileText("todo/llm/raport-TODO-LLM.md");
+  const parts = text.split(/\n---\s*\n/).filter(p => p.includes("[" + id + "]"));
+  return parts.length ? parts.map(md).join("<hr>") : "";
+}
+
+function select(key) {
+  SELECTED = key;
+  history.replaceState(null, "", "#" + encodeURIComponent(key));
+  document.querySelectorAll(".leaf").forEach(l => l.classList.toggle("active", l.dataset.key === key));
+  const it = INDEX[key];
+  const head = document.getElementById("detail-head");
+  let pill = "";
+  if (it.kind === "todo") pill = `<span class="pill ${["x"].includes(it.status) ? "done" : "open"}">${STATE.statuses[it.status] || it.status}</span>`;
+  if (it.kind === "issue") pill = `<span class="pill ${it.status === "open" ? "open" : "done"}">${it.status === "open" ? "czeka na decyzję" : "rozstrzygnięte"}</span>`;
+  if (it.kind === "talk") pill = `<span class="pill">${it.owner === "llm" ? "agent" : "autor"}</span>`;
+  head.innerHTML = `<h2>${inline(it.title)} ${pill}</h2><div class="where">${esc(it.path)}:${it.line} · <a href="${vscode(it)}">otwórz w VS Code</a></div>`;
+
+  let html = `<div class="md">${md(it.text)}</div>`;
+  if (it.kind === "todo") {
+    const rel = it.owner === "author" ? relatedReport(it.extra.id) : relatedLlmReport(it.extra.id);
+    if (rel) html += `<div class="related"><h3>Wpisy w raporcie dla ${esc(it.extra.id)}</h3><div class="md">${rel}</div></div>`;
+  }
+  if (it.kind === "talk") {
+    const entries = STATE.talk.filter(t => t.path === it.path), idx = entries.findIndex(t => t.key === it.key);
+    if (idx > 0) html = `<div class="related" style="margin-top:0;border:0"><h3>Poprzedni wpis</h3><div class="md">${md(entries[idx - 1].text)}</div></div><hr>` + html;
+  }
+  document.getElementById("context").innerHTML = html;
+  document.getElementById("context").scrollTop = 0;
+  renderForm(it);
+}
+
+// ---------- editor: Tab / Shift+Tab indent, Enter continues lists (like VS Code), Ctrl+Enter sends ----------
+const INDENT = "  ";
+function insertText(ta, text) {
+  ta.focus();
+  if (!document.execCommand || !document.execCommand("insertText", false, text)) {  // execCommand keeps Ctrl+Z
+    ta.setRangeText(text, ta.selectionStart, ta.selectionEnd, "end");
+  }
+  ta.dispatchEvent(new Event("input"));
+}
+function smartEditor(ta, onSubmit) {
+  ta.addEventListener("keydown", e => {
+    const v = ta.value, start = ta.selectionStart, end = ta.selectionEnd;
+    const lineStart = v.lastIndexOf("\n", start - 1) + 1;
+    if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) { e.preventDefault(); onSubmit(); return; }
+    if (e.key === "Tab") {
+      e.preventDefault();
+      const blockEnd = v.indexOf("\n", end) === -1 ? v.length : v.indexOf("\n", end);
+      const block = v.slice(lineStart, blockEnd);
+      const lines = block.split("\n");
+      const isItem = /^\s*([-*]|\d+\.)\s/.test(lines[0]);
+      if (!e.shiftKey && start === end && !isItem) { insertText(ta, INDENT); return; }
+      // list line or selection: indent/outdent whole lines; a newly nested ordered item restarts at 1.
+      const changed = e.shiftKey ? lines.map(l => l.startsWith(INDENT) ? l.slice(INDENT.length) : l.replace(/^ /, ""))
+                                 : lines.map(l => INDENT + (lines.length === 1 ? l.replace(/^(\s*)\d+\.(\s)/, "$11.$2") : l));
+      ta.setSelectionRange(lineStart, blockEnd);
+      insertText(ta, changed.join("\n"));
+      if (start === end) { const pos = lineStart + changed.join("\n").length; ta.setSelectionRange(pos, pos); }
+      else ta.setSelectionRange(lineStart, lineStart + changed.join("\n").length);
+      return;
+    }
+    if (e.key === "Enter" && !e.shiftKey && start === end) {
+      const line = v.slice(lineStart, start);
+      const m = line.match(/^(\s*)([-*]|(\d+)\.)(\s+)(.*)$/);
+      if (m) {
+        e.preventDefault();
+        if (!m[5].trim()) {                     // empty item: finish the list
+          ta.setSelectionRange(lineStart, start); insertText(ta, m[1] ? m[1].slice(INDENT.length) : ""); return;
+        }
+        const marker = m[3] ? (parseInt(m[3], 10) + 1) + "." : m[2];
+        insertText(ta, "\n" + m[1] + marker + " ");
+        return;
+      }
+      const ind = line.match(/^(\s+)\S/);
+      if (ind) { e.preventDefault(); insertText(ta, "\n" + ind[1]); }
+    }
+  });
+}
+
+function draftKey(it, suffix = "") { return "draft:" + it.key + suffix; }
+function getDraft(k) { try { return localStorage.getItem(k) || ""; } catch { return ""; } }
+function setDraft(k, v) { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch {} }
+
+function renderForm(it) {
+  const form = document.getElementById("form");
+  form.innerHTML = ""; form.hidden = true;
+  if (CONFIG.readOnly) return;
+  let spec = null;
+  if (it.kind === "issue" && it.status === "open")
+    spec = { label: `Twoja decyzja dla ${it.extra.id}`, action: "decision", button: "Zapisz decyzję",
+             hint: "Trafi do pola „Decyzja” w " + it.path + ".",
+             payload: text => ({ path: it.path, id: it.extra.id, text, version: it.version }) };
+  else if (it.kind === "issue")
+    spec = { info: "Decyzja już jest. Zmianę dopisz ręcznie w pliku (link u góry) — wcześniejszych wpisów nie zmieniamy." };
+  else if (it.kind === "todo" && it.owner === "author")
+    spec = { label: `Wpis do raportu: [${it.extra.id}]`, action: "report", button: "Dodaj wpis do raportu",
+             title: it.title.replace(/`/g, ""), status: true,
+             hint: "Trafi na koniec todo/author/raport-TODO-autora.md z datą i podpisem.",
+             payload: (text, title) => ({ id: it.extra.id, title, text, version: STATE.versions.report }) };
+  else if (it.kind === "todo")
+    spec = { info: "Zadanie agentów — możesz skomentować je w wymianie zdań albo we własnym raporcie." };
+  else if (it.kind === "talk")
+    spec = { label: "Nowy wpis w wymianie zdań", action: "talk", button: "Dodaj wpis",
+             title: it.owner === "llm" ? "Re: " + it.title.replace(/^Re:\s*/, "") : "",
+             hint: "Trafi na koniec " + it.path + " (z datą, podpisem i separatorem ---).",
+             payload: (text, title) => ({ path: it.path, title, text, version: it.version }) };
+  else if (it.kind === "file" && it.path === "talk/od-autora-dla-llmow.md")
+    spec = { label: "Nowa uwaga dla agentów", action: "note", button: "Dodaj uwagę",
+             hint: "Zostanie dopisana jako kolejny numer na liście „Uwagi”.",
+             payload: text => ({ text, version: STATE.versions.notes }) };
+  if (!spec) return;
+  form.hidden = false;
+  if (spec.info) { form.innerHTML = `<div class="hint">${esc(spec.info)}</div>`; return; }
+
+  const dk = draftKey(it), tk = draftKey(it, ":title");
+  form.innerHTML = `
+    <div class="row"><label>${esc(spec.label)}</label><span class="hint">${esc(spec.hint)} Podpis (Autor, data, godzina) dodaje się sam. Szkic zapisuje się sam. Tab/Shift+Tab — wcięcie, Enter na liście — następny punkt, Ctrl+Enter — wyślij.</span></div>
+    ${spec.title !== undefined ? `<div class="row"><span>Tytuł:</span><input type="text" id="f-title"></div>` : ""}
+    <textarea id="f-text" placeholder="Pisz tutaj — tekst, na który odpowiadasz, jest wyżej."></textarea>
+    <div class="row">
+      <button id="f-send">${esc(spec.button)}</button>
+      ${spec.status ? `<span>Status zadania:</span><select id="f-status">${Object.entries(STATE.statuses).map(([k, v]) =>
+          `<option value="${esc(k)}" ${k === it.status ? "selected" : ""}>[${esc(k)}] ${esc(v)}</option>`).join("")}</select>
+          <button class="secondary" id="f-status-only">Zmień tylko status</button>` : ""}
+      <span class="msg" id="f-msg"></span>
+    </div>`;
+  const ta = document.getElementById("f-text"), ti = document.getElementById("f-title");
+  smartEditor(ta, () => document.getElementById("f-send").click());
+  ta.value = getDraft(dk);
+  ta.oninput = () => setDraft(dk, ta.value);
+  if (ti) { ti.value = getDraft(tk) || spec.title; ti.oninput = () => setDraft(tk, ti.value); }
+  document.getElementById("f-send").onclick = async () => {
+    const ok = await post(spec.action, spec.payload(ta.value, ti ? ti.value : ""));
+    if (!ok) return;
+    const st = document.getElementById("f-status");
+    if (st && st.value !== it.status) {
+      await load();
+      const fresh = INDEX[it.key];
+      if (fresh) await post("status", { path: fresh.path, id: fresh.extra.id, status: st.value, version: fresh.version });
+    }
+    setDraft(dk, ""); setDraft(tk, ""); toast("Zapisano"); await load();
+  };
+  const so = document.getElementById("f-status-only");
+  if (so) so.onclick = async () => {
+    if (await post("status", { path: it.path, id: it.extra.id, status: document.getElementById("f-status").value, version: it.version })) {
+      toast("Status zmieniony"); await load();
+    }
+  };
+}
+
+async function post(action, data) {
+  const msg = document.getElementById("f-msg");
+  if (msg) { msg.className = "msg"; msg.textContent = "Zapisuję…"; }
+  try {
+    const r = await fetch("/api/" + action, { method: "POST", headers: { "Content-Type": "application/json", "X-Board-Token": CONFIG.token }, body: JSON.stringify(data) });
+    const res = await r.json();
+    if (!r.ok) { if (msg) { msg.className = "msg err"; msg.textContent = res.error || "Błąd"; } return false; }
+    if (msg) msg.textContent = "";
+    return true;
+  } catch (e) { if (msg) { msg.className = "msg err"; msg.textContent = "Brak połączenia z serwerem: " + e; } return false; }
+}
+function toast(t) { const el = document.getElementById("toast"); el.textContent = t; el.style.display = "block"; setTimeout(() => el.style.display = "none", 2000); }
+
+document.getElementById("view").onchange = () => { try { localStorage.setItem("view", document.getElementById("view").value); } catch {} renderTree(); };
+document.getElementById("reload").onclick = () => CONFIG.state ? location.reload() : load();
+document.getElementById("mode").textContent = CONFIG.readOnly ? "tylko podgląd" : "podgląd + odpowiadanie";
+try { const v = localStorage.getItem("view"); if (v) document.getElementById("view").value = v; } catch {}
+if (CONFIG.state) document.getElementById("reload").hidden = true;
+if (location.hash.length > 1) SELECTED = decodeURIComponent(location.hash.slice(1));
+window.addEventListener("hashchange", () => {
+  const key = decodeURIComponent(location.hash.slice(1));
+  if (key && key !== SELECTED && INDEX[key]) select(key);
+});
+load();
+</script>
+</body>
+</html>
