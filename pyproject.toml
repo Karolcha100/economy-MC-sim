@@ -1,0 +1,19 @@
+[project]
+name = "economics-model-pol-vs-rus"
+version = "0.1.0"
+description = "Monte-Carlo simulation of the international economy"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+notebooks = ["jupyter", "matplotlib", "seaborn"]
+
+[tool.setuptools]
+packages = ["simulator"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

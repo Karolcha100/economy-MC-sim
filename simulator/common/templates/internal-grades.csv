@@ -1,0 +1,5 @@
+field,dtype,required,description
+name,str,true,"Unique lowercase name of the grade; its slug (spaces -> '-') is used in files"
+type,str,true,"Value type: float or int"
+valmin,float,true,"Lower bound of the value (inclusive)"
+valmax,float,true,"Upper bound of the value (inclusive)"
