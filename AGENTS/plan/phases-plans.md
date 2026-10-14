@@ -1,6 +1,6 @@
 # Plan faz — proponowana kolejność
 
-*Aktualizują agenci po każdej zmianie planu (z datą). Opis zakresu faz: `phases-description.md`. Ostatnia zmiana: 2026-10-14 04:14 — Claude Opus 5.5*
+*Aktualizują agenci po każdej zmianie planu (z datą). Opis zakresu faz: `phases-description.md`. Ostatnia zmiana: 2026-10-14 05:13 — Claude Opus 5.5*
 
 Legenda: ✅ zrobione · ⏳ następne / w toku · ⏸ czeka · 💤 później
 
@@ -13,11 +13,10 @@ Legenda: ✅ zrobione · ⏳ następne / w toku · ⏸ czeka · 💤 później
 | 1 | **Phase 1.0** — planowanie danych | ✅ | Pytania i decyzje: `AGENTS/phases/phase-1/agents-issues-1…4.md`. |
 | 2 | **Phase 1.1** — narzędzia danych | ✅ | `simulator/`: templates, wzory, dane opisowe, historia, walidacja. |
 | 3 | **Phase 1.2a** — prawdziwe wskaźniki | ✅ | Wskaźniki w `history/`, wartości startowe w `narrated/` (`seeds.csv`). Otwarty drobiazg: A17. |
-| 4 | **Phase 2.0** — projekt silnika | ⏳ prawie gotowe | `AGENTS/phases/phase-2/design.md`; czekają A23 (@T009), A24 (@T010), A25 (zatwierdzenie). |
-| 5 | **Phase 1.2b-pilot** — dane opisowe z prasy (Tier 1) | ⏸ po A25 | LLM-y z wyszukiwarką: ~25 krajów, kluczowe statystyki opisowe i relacje (w tym `economic dependence`). |
-| 6 | **Phase 2.1** — szkielet silnika | 💤 | Dwie regresje, dwie tury, drzewo scenariuszy; uczony na danych prawdziwych + pilocie. |
-| 7 | **Phase 1.2b** — reszta danych opisowych | 💤 | Pozostałe kraje i statystyki, w kolejności ważności z 2.1. |
-| 8 | **Phase 2.2** — pełny model | 💤 | Wszystkie dane, backtest, kalibracja; potem narzędzia analizy scenariuszy. |
+| 4 | **Phase 2.0** — projekt silnika | ⏳ czeka na A25 | `AGENTS/phases/phase-2/design.md` (wersja 1); zostało tylko zatwierdzenie. |
+| 5 | **Phase 1.2b** — wszystkie dane opisowe z prasy | ⏸ planowanie: A26 | LLM-y z wyszukiwarką, ~392 zadania (państwo × statystyki / relacje); plan: `AGENTS/phases/phase-1.2b/agents-issues-0.md`. |
+| 6 | **Phase 2.1** — szkielet silnika | 💤 | Dwie regresje, dwie tury, drzewo scenariuszy; uczony na kompletnych danych. |
+| 7 | **Phase 2.2** — pełny model | 💤 | Wszystkie dane, backtest, kalibracja; potem narzędzia analizy scenariuszy. |
 | — | Porządek w `AGENTS/` + GUI `agents_board` | ✅ | Podgląd, odpowiadanie, wątki, graf, wzmianki @, briefing, okno przypięte. |
 | — | Później | 💤 | `future-work.md`: GUI do edycji danych, dynamiczne organizacje, LFS/Parquet. |
 
@@ -37,8 +36,7 @@ Legenda: ✅ zrobione · ⏳ następne / w toku · ⏸ czeka · 💤 później
 ## Dlaczego taka kolejność (krótko)
 
 - **1.2a przed 2.1:** regresja potrzebuje zmiennych. Bez wskaźników ma tylko PKB. Import wskaźników to jedna sesja agenta, a dane od razu przydają się w obu miejscach: jako zmienne regresji i jako wartości startowe danych opisowych.
-- **Pilot 1.2b przed 2.1** (autor, @A22): silnik przewiduje też dane opisowe i relacje (R2), więc potrzebuje ich do nauki już w szkielecie.
-- **Reszta 1.2b po 2.1:** wypełnienie wszystkiego to miliony komórek; szkielet silnika pokaże, które statystyki są najważniejsze.
+- **Całe 1.2b przed 2.1** (autor, @A22, @A23): silnik przewiduje też dane opisowe i relacje (R2), a autor nie chce wskaźnika "wypełnione/niewypełnione" — więc wszystkie dane muszą być przed nauką.
 - **2.2 na końcu:** pełny model ma sens dopiero wtedy, gdy są dane opisowe i backtest pokazał, że prosty model działa.
 
 ## Dłuższe wyjaśnienia

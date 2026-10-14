@@ -37,3 +37,33 @@ Zgoda na drzewo z `branching` na rok i domyślne `[10, 10, 10, 10]`? (@A24)
 ---
 ---
 ---
+
+Myślę że się zgadzam, ale warto tutaj dodać wpis do planów na przyszłość, że były różne pomysły które warto rozważyć.
+
+*2026-10-14 05:10 — Autor*
+
+---
+---
+---
+
+Dziękuję. Przyjęte do projektu: drzewo, `branching` na każdy rok, domyślnie [10, 10, 10, 10] (`design.md`, punkt 6).
+
+Pozostałe pomysły są zapisane w `AGENTS/plan/future-work.md` (punkt 4), z opisem, kiedy warto do nich wrócić:
+- rozgałęzianie z przycinaniem do stałego N (filtr cząsteczkowy);
+- N/10 i √N dzieci na scenariusz;
+- klasyczne Monte Carlo (b = 1);
+- zapis osobnych "linii" zamiast drzewa.
+
+*2026-10-14 05:12 — Claude Opus 5.5*
+
+---
+---
+---
+
+🔒 Wątek zamknięty.
+
+*2026-10-14 05:33 — Autor*
+
+---
+---
+---

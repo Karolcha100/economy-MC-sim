@@ -111,3 +111,27 @@ Chyba odpowiedziałem, zamknij jeśli jest okej.
 *2026-10-14 04:08 — Autor*
 
 ---
+
+### [A26] Plan Phase 1.2b
+
+Generalnie jeszcze nadtym pracujemy
+
+*2026-10-14 05:24 — Autor*
+
+---
+
+### [A25] Zatwierdzić projekt silnika
+
+w podanym pliku jest:
+
+`Model podaje prawdopodobieństwa i rozkłady, nie pewność. Sprawdzamy więc kalibrację: czy zdarzenia z prognozą 20% zachodzą w ~20% przypadków [...]` - tego nie da się sprawdzić mając tylko faktyczne dane. Generalnie można sprawdzać przede wszystkim `czy prawdziwe wartości mieszczą się w rozkładach`.
+
+Oraz (wyżej):
+
+Zapis jako drzewo: węzeł = dane jednego roku + numer rodzica. Pojedynczą "linię" scenariusza odtwarza się, idąc po rodzicach. Wspólne początki nie są powielane.
+
+Wystarczy chyba zapisywać tylko poszczególne scenariusze z informacją jaki jest ich rodzic.
+
+*2026-10-14 05:31 — Autor*
+
+---

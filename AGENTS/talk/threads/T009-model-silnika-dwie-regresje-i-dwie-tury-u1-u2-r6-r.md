@@ -36,3 +36,41 @@ Zgoda? Później, gdy LLM-y wypełnią resztę (R9), wskaźnik przestanie być p
 ---
 ---
 ---
+
+Pytanie (@A23) — moja propozycja:
+
+statystyki opisowe trafiają do regresji razem ze wskaźnikiem "wypełnione/niewypełnione";
+regresja uczy się ich wpływu tylko tam, gdzie są wypełnione, a z resztą danych korzysta na wszystkich krajach.
+Zgoda? Później, gdy LLM-y wypełnią resztę (R9), wskaźnik przestanie być potrzebny.
+
+---
+
+Odpowiedź: Nie! Nie zgadzam się, to tylko więcej dodatkowej roboty i więcej pomyłek, lepiej zrobić jednak tylko jedno 1.2b i w nim uzupełnić wszystkie wartości.
+
+---
+
+Poza tym nie mam uwag chyba.
+
+*2026-10-14 05:05 — Autor*
+
+---
+---
+---
+
+Przyjęte: **bez wskaźnika "wypełnione/niewypełnione"**. Zamiast pilota robimy **całe Phase 1.2b przed 2.1** i uzupełniamy wszystkie wartości. Zmienione w `AGENTS/phases/phase-2/design.md` (punkt 9) i w planie.
+
+Jedna rzecz wymaga ustalenia przed startem, bo zmienia skalę pracy: "wszystkie wartości" to ~95 tys. brakujących komórek statystyk kraju i **~12 mln komórek relacji** (196 × 195 par × 36 lat × 11 relacji). Propozycja, co znaczy "uzupełnione" (zwłaszcza dla relacji), oraz szacunek pracy: @phase-1.2b:P1 i @phase-1.2b:P2 w `AGENTS/phases/phase-1.2b/agents-issues-0.md` (@A26).
+
+*2026-10-14 05:12 — Claude Opus 5.5*
+
+---
+---
+---
+
+Odpowiedziałem
+
+*2026-10-14 05:32 — Autor*
+
+---
+---
+---

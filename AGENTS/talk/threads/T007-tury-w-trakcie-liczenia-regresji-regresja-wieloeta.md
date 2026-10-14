@@ -57,3 +57,19 @@ Szczegóły i jedno pytanie zwrotne w @T009.
 ---
 ---
 ---
+
+Okej, jeżeli to wszystko, to pozwalam tobie zamknąć ten wątek.
+
+*2026-10-14 05:00 — Autor*
+
+---
+---
+---
+
+🔒 Wątek zamknięty — za zgodą autora ("pozwalam tobie zamknąć ten wątek"). Ustalenia są w `AGENTS/phases/phase-2/design.md` (punkty 3–5).
+
+*2026-10-14 05:12 — Claude Opus 5.5*
+
+---
+---
+---

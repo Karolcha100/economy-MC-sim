@@ -77,6 +77,8 @@ Zgoda autora (A10) jest: 2026-10-14. Pytania o przeliczenia skal: `AGENTS/phases
 - [x] **L25. Nowe wzory z decyzji Phase 2.0**: `state collapse` (S2), `economic dependence` (@T007). *(zrobione: 2026-10-14 04:14)*
 - [x] **L26. GUI: poprawki po @T006 i @phase-2:U5** (zamykanie okna przypiętego, przyciski, bloki kodu w listach, numeracja list). *(zrobione: 2026-10-14 04:14, raport: raport-TODO-LLM.md)*
 
-## Phase 1.2b-pilot (następna po zatwierdzeniu projektu, @A25)
+## Phase 1.2b (całość przed 2.1 — decyzja @A23)
 
-- [?] **L27. Pilot 1.2b**: instrukcja dla agentów wypełniających (L8) + lista krajów Tier 1 + wybór statystyk do pilota (w tym `economic dependence`, `state collapse`), potem wypełnianie. *Czeka na @A25.*
+- [-] **L27. Pilot 1.2b** — *porzucone 2026-10-14 05:13: autor wybrał całe 1.2b zamiast pilota (@A23); zastępuje L28–L29.*
+- [x] **L28. Plan Phase 1.2b**: `AGENTS/phases/phase-1.2b/agents-issues-0.md` (P1–P5). *(zrobione: 2026-10-14 05:13)*
+- [?] **L29. Przygotowanie 1.2b**: instrukcja dla agentów wypełniających (@L8), `confirm-default`, `missing --by-country`, kolejka zadań. *Czeka na @A26.*

@@ -19,6 +19,7 @@ Rzeczy, które blokują dalszą pracę agentów. Zasady (numeracja `A…`, statu
 - [x] **A20. Odpowiedzieć na `AGENTS/phases/phase-2/agents-issues-1.md`** (U1–U5): skutki Twoich decyzji R1–R5 — regresja na 35 obserwacjach, relacje, **wybuch liczby scenariuszy i pamięci (~25 GB/rok)**, tury, plik konfiguracyjny. *(zamknięte 2026-10-14 04:14 za zgodą autora; dalsze ustalenia w @T009, @T010)* *(dodane 2026-10-14 03:24)*
 - [x] **A21. Szum w Monte Carlo** — rozpisane opcje w wątku @T008; wybór domyślnej. *(dodane 2026-10-14 03:24)*
 - [x] **A22. Kolejność: 1.2b przed 2.1?** — moja propozycja w @T005 (2.0 dokończyć → pilot 1.2b → 2.1 → reszta 1.2b → 2.2). *(dodane 2026-10-14 03:24)*
-- [ ] **A23. Brakujące dane opisowe w regresji** — pytanie w @T009 (wskaźnik "wypełnione/niewypełnione"). *(dodane 2026-10-14 04:14)*
-- [ ] **A24. Rozgałęzianie scenariuszy** — drzewo z `branching` na rok, domyślnie [10, 10, 10, 10] = 10 000 scenariuszy końcowych; liczby w @T010. *(dodane 2026-10-14 04:14)*
-- [ ] **A25. Zatwierdzić projekt silnika** `AGENTS/phases/phase-2/design.md` (zbiera wszystkie decyzje Phase 2.0). Po zatwierdzeniu Phase 2.0 jest zamknięta i ruszamy z pilotem 1.2b. *(dodane 2026-10-14 04:14)*
+- [x] **A23. Brakujące dane opisowe w regresji** — pytanie w @T009 (wskaźnik "wypełnione/niewypełnione"). *(odpowiedź: nie — całe 1.2b przed 2.1, 2026-10-14 05:13)* *(dodane 2026-10-14 04:14)*
+- [x] **A24. Rozgałęzianie scenariuszy** — drzewo z `branching` na rok, domyślnie [10, 10, 10, 10] = 10 000 scenariuszy końcowych; liczby w @T010. *(odpowiedź: zgoda + inne pomysły w future-work, 2026-10-14 05:13)* *(dodane 2026-10-14 04:14)*
+- [~] **A25. Zatwierdzić projekt silnika** `AGENTS/phases/phase-2/design.md` (zbiera wszystkie decyzje Phase 2.0). Po zatwierdzeniu Phase 2.0 jest zamknięta. *(zmiana planu: zamiast pilota całe 1.2b, @A26)* *(dodane 2026-10-14 04:14)*
+- [~] **A26. Plan Phase 1.2b** — `AGENTS/phases/phase-1.2b/agents-issues-0.md`: co znaczy "uzupełnione" dla ~12 mln komórek relacji (@phase-1.2b:P1), skala i budżet (~392 zadania agentów, @phase-1.2b:P2), przygotowania (@phase-1.2b:P3), kontrola jakości. *(dodane 2026-10-14 05:13)*

@@ -61,3 +61,11 @@ Oba poprawione:
 ---
 ---
 ---
+
+🔒 Wątek zamknięty.
+
+*2026-10-14 04:59 — Autor*
+
+---
+---
+---

@@ -263,3 +263,17 @@ Każdy wpis: `### [L…] tytuł`, co zrobiono, gdzie, jak sprawdzono, co został
 *2026-10-14 04:14 — Claude Opus 5.5*
 
 ---
+
+### [L28] Zmiana planu po @A23: całe Phase 1.2b przed 2.1
+
+- Decyzja autora w @T009: bez wskaźnika "wypełnione/niewypełnione", zamiast pilota całe 1.2b.
+- `AGENTS/phases/phase-1.2b/agents-issues-0.md` (P1–P5):
+  - co znaczy "uzupełnione" przy ~95 tys. pustych komórek statystyk i ~12 mln komórek relacji (propozycja: lista istotnych partnerów + `confirm-default`);
+  - skala ~392 zadań agentów;
+  - przygotowania i kontrola jakości.
+- `design.md` → wersja 1 (punkty 6 i 9); `future-work.md` punkt 4 (inne warianty rozgałęziania, @T010).
+- Wątki: @T007 zamknięty za zgodą autora; @T009, @T010 — odpowiedzi.
+
+*2026-10-14 05:13 — Claude Opus 5.5*
+
+---

@@ -44,7 +44,7 @@ Wkład z regresji E sumuje się po wszystkich partnerach i dodaje do wyniku regr
 
 - Krok = 1 rok, horyzont z konfiguracji (domyślnie 4 lata).
 - **Drzewo:** z każdego scenariusza wychodzi `b` scenariuszy-dzieci. Każde dziecko = przewidywanie z rodzica + szum (R4). Liczba scenariuszy rośnie wykładniczo (U3): b, b², b³, b⁴.
-- `b` z konfiguracji, osobno dla każdego roku. Domyślnie `[10, 10, 10, 10]`, co daje **10 000 scenariuszy końcowych**.
+- `b` z konfiguracji, osobno dla każdego roku. Domyślnie `[10, 10, 10, 10]`, co daje **10 000 scenariuszy końcowych** (przyjęte, @T010; inne warianty: `AGENTS/plan/future-work.md`, punkt 4).
 - **Zapis jako drzewo:** węzeł = dane jednego roku + numer rodzica. Pojedynczą "linię" scenariusza odtwarza się, idąc po rodzicach. Wspólne początki nie są powielane.
 - **Rozmiar** (horyzont 4, float32, relacje rzadkie = ~5% par):
 
@@ -69,9 +69,9 @@ Opcje w konfiguracji: `fixed` (stały odsetek zakresu), `historical` (typowy bł
 - Model podaje **prawdopodobieństwa i rozkłady**, nie pewność. Sprawdzamy więc kalibrację: czy zdarzenia z prognozą 20% zachodzą w ~20% przypadków i czy prawdziwe wartości mieszczą się w rozkładach.
 - Porównanie z prostymi modelami odniesienia ("jak w zeszłym roku").
 
-## 9. Brakujące dane opisowe (R7, R9) — otwarte
+## 9. Dane opisowe do nauki (R7, R9, @T009)
 
-Po pilocie 1.2b dane opisowe będą tylko dla ~25 krajów Tier 1. Wspólna regresja (U1) uczy się na wszystkich krajach, więc trzeba ustalić, co z resztą. Pytanie w @T009.
+Decyzja autora: **bez wskaźnika "wypełnione/niewypełnione"**. Przed Phase 2.1 robimy całe Phase 1.2b i uzupełniamy wszystkie wartości. Co znaczy "uzupełnione" dla relacji, ustala `AGENTS/phases/phase-1.2b/agents-issues-0.md` (P1). Silnik czyta dane przez wartości domyślne wzorów (`effective_values`).
 
 ## 10. Technologia (S3)
 
@@ -100,4 +100,4 @@ seed = 42                       # powtarzalność
 
 ---
 
-*Wersja 0: 2026-10-14 04:10 — Claude Opus 5.5*
+*Wersja 0: 2026-10-14 04:10 — Claude Opus 5.5; wersja 1 (decyzje A23, A24): 2026-10-14 05:13 — Claude Opus 5.5*
