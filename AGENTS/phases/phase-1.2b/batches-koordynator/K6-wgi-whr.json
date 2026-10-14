@@ -1,0 +1,2085 @@
+{
+ "rationale": "K6 pkt 1 (zgoda autora 2026-10-14, @A38): po poprawce kodów krajów w imporcie (ROM/ZAR/WBG/KSV, OWID_KOS) prawdziwe dane WGI i WHR zastępują szacunki agentów w latach z danymi; lata przed i po przesunięte o różnicę na granicy, żeby seria łączyła się płynnie. Wzory jak w seeds.csv (50 − 20 × WGI, 10 × Cantril).",
+ "operations": [
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1990",
+   "curve": "constant",
+   "start": 58.92
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1991",
+   "curve": "constant",
+   "start": 58.92
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1992",
+   "curve": "constant",
+   "start": 58.92
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1993",
+   "curve": "constant",
+   "start": 58.92
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1994",
+   "curve": "constant",
+   "start": 58.92
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1995",
+   "curve": "constant",
+   "start": 58.92
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1996",
+   "curve": "constant",
+   "start": 58.92
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1997",
+   "curve": "constant",
+   "start": 60.958
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1998",
+   "curve": "constant",
+   "start": 62.996
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "1999",
+   "curve": "constant",
+   "start": 61.604
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2000",
+   "curve": "constant",
+   "start": 60.212
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2001",
+   "curve": "constant",
+   "start": 59.513
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2002",
+   "curve": "constant",
+   "start": 58.814
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2003",
+   "curve": "constant",
+   "start": 58.214
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2004",
+   "curve": "constant",
+   "start": 56.45
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2005",
+   "curve": "constant",
+   "start": 55.21
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2006",
+   "curve": "constant",
+   "start": 54.184
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2007",
+   "curve": "constant",
+   "start": 54.606
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2008",
+   "curve": "constant",
+   "start": 53.724
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2009",
+   "curve": "constant",
+   "start": 56.196
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2010",
+   "curve": "constant",
+   "start": 57.048
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2011",
+   "curve": "constant",
+   "start": 56.67
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2012",
+   "curve": "constant",
+   "start": 57.628
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2013",
+   "curve": "constant",
+   "start": 56.016
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2014",
+   "curve": "constant",
+   "start": 54.478
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2015",
+   "curve": "constant",
+   "start": 53.408
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2016",
+   "curve": "constant",
+   "start": 53.556
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2017",
+   "curve": "constant",
+   "start": 52.82
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2018",
+   "curve": "constant",
+   "start": 54.534
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2019",
+   "curve": "constant",
+   "start": 54.73
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2020",
+   "curve": "constant",
+   "start": 51.964
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2021",
+   "curve": "constant",
+   "start": 51.218
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2022",
+   "curve": "constant",
+   "start": 49.666
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2023",
+   "curve": "constant",
+   "start": 49.666
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2024",
+   "curve": "constant",
+   "start": 49.666
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "ROU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 50.666
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1990",
+   "curve": "constant",
+   "start": 78.958
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1991",
+   "curve": "constant",
+   "start": 79.625
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1992",
+   "curve": "constant",
+   "start": 80.291
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1993",
+   "curve": "constant",
+   "start": 80.958
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1994",
+   "curve": "constant",
+   "start": 81.625
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1995",
+   "curve": "constant",
+   "start": 82.291
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1996",
+   "curve": "constant",
+   "start": 82.958
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1997",
+   "curve": "constant",
+   "start": 80.646
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1998",
+   "curve": "constant",
+   "start": 78.334
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "1999",
+   "curve": "constant",
+   "start": 78.759
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2000",
+   "curve": "constant",
+   "start": 79.184
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2001",
+   "curve": "constant",
+   "start": 79.092
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2002",
+   "curve": "constant",
+   "start": 79.0
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2003",
+   "curve": "constant",
+   "start": 80.53
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2004",
+   "curve": "constant",
+   "start": 78.894
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2005",
+   "curve": "constant",
+   "start": 78.868
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2006",
+   "curve": "constant",
+   "start": 80.81
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2007",
+   "curve": "constant",
+   "start": 77.622
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2008",
+   "curve": "constant",
+   "start": 75.224
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2009",
+   "curve": "constant",
+   "start": 78.258
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2010",
+   "curve": "constant",
+   "start": 79.158
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2011",
+   "curve": "constant",
+   "start": 79.15
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2012",
+   "curve": "constant",
+   "start": 76.594
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2013",
+   "curve": "constant",
+   "start": 76.762
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2014",
+   "curve": "constant",
+   "start": 76.416
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2015",
+   "curve": "constant",
+   "start": 76.218
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2016",
+   "curve": "constant",
+   "start": 77.332
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2017",
+   "curve": "constant",
+   "start": 78.924
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2018",
+   "curve": "constant",
+   "start": 80.35
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2019",
+   "curve": "constant",
+   "start": 81.104
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2020",
+   "curve": "constant",
+   "start": 81.846
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2021",
+   "curve": "constant",
+   "start": 81.382
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2022",
+   "curve": "constant",
+   "start": 80.89
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2023",
+   "curve": "constant",
+   "start": 80.89
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2024",
+   "curve": "constant",
+   "start": 80.89
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "COD",
+   "years": "2025",
+   "curve": "constant",
+   "start": 80.89
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "1994",
+   "curve": "constant",
+   "start": 49.57
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "1995",
+   "curve": "constant",
+   "start": 49.37
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "1996",
+   "curve": "constant",
+   "start": 49.17
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "1997",
+   "curve": "constant",
+   "start": 49.33
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "1998",
+   "curve": "constant",
+   "start": 49.49
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "1999",
+   "curve": "constant",
+   "start": 50.625
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2000",
+   "curve": "constant",
+   "start": 51.76
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2001",
+   "curve": "constant",
+   "start": 54.176
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2002",
+   "curve": "constant",
+   "start": 56.592
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2003",
+   "curve": "constant",
+   "start": 57.564
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2004",
+   "curve": "constant",
+   "start": 50.426
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2005",
+   "curve": "constant",
+   "start": 59.938
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2006",
+   "curve": "constant",
+   "start": 56.062
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2007",
+   "curve": "constant",
+   "start": 52.336
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2008",
+   "curve": "constant",
+   "start": 58.806
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2009",
+   "curve": "constant",
+   "start": 52.168
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2010",
+   "curve": "constant",
+   "start": 52.27
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2011",
+   "curve": "constant",
+   "start": 59.066
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2012",
+   "curve": "constant",
+   "start": 55.152
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2013",
+   "curve": "constant",
+   "start": 55.174
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2014",
+   "curve": "constant",
+   "start": 55.67
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2015",
+   "curve": "constant",
+   "start": 59.708
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2016",
+   "curve": "constant",
+   "start": 53.66
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2017",
+   "curve": "constant",
+   "start": 51.234
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2018",
+   "curve": "constant",
+   "start": 54.532
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2019",
+   "curve": "constant",
+   "start": 57.088
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2020",
+   "curve": "constant",
+   "start": 61.56
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2021",
+   "curve": "constant",
+   "start": 65.228
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2022",
+   "curve": "constant",
+   "start": 64.054
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2023",
+   "curve": "constant",
+   "start": 65.054
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2024",
+   "curve": "constant",
+   "start": 65.054
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "PSE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 65.054
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2008",
+   "curve": "constant",
+   "start": 62.976
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2009",
+   "curve": "constant",
+   "start": 61.708
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2010",
+   "curve": "constant",
+   "start": 62.308
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2011",
+   "curve": "constant",
+   "start": 62.364
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2012",
+   "curve": "constant",
+   "start": 63.068
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2014",
+   "curve": "constant",
+   "start": 59.722
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2015",
+   "curve": "constant",
+   "start": 61.192
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2016",
+   "curve": "constant",
+   "start": 58.756
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2018",
+   "curve": "constant",
+   "start": 60.56
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2019",
+   "curve": "constant",
+   "start": 60.822
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2020",
+   "curve": "constant",
+   "start": 59.26
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2021",
+   "curve": "constant",
+   "start": 56.826
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2022",
+   "curve": "constant",
+   "start": 55.276
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2023",
+   "curve": "constant",
+   "start": 55.026
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2024",
+   "curve": "constant",
+   "start": 52.026
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "XKX",
+   "years": "2025",
+   "curve": "constant",
+   "start": 53.026
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1990",
+   "curve": "constant",
+   "start": 51.04
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1991",
+   "curve": "constant",
+   "start": 46.04
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1992",
+   "curve": "constant",
+   "start": 41.04
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1993",
+   "curve": "constant",
+   "start": 41.04
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1994",
+   "curve": "constant",
+   "start": 41.04
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1995",
+   "curve": "constant",
+   "start": 41.04
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1996",
+   "curve": "constant",
+   "start": 38.04
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1997",
+   "curve": "constant",
+   "start": 39.019
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1998",
+   "curve": "constant",
+   "start": 39.998
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "1999",
+   "curve": "constant",
+   "start": 48.789
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2000",
+   "curve": "constant",
+   "start": 57.58
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2001",
+   "curve": "constant",
+   "start": 49.142
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2002",
+   "curve": "constant",
+   "start": 40.704
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2003",
+   "curve": "constant",
+   "start": 43.6
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2004",
+   "curve": "constant",
+   "start": 48.814
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2005",
+   "curve": "constant",
+   "start": 48.288
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2006",
+   "curve": "constant",
+   "start": 47.032
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2007",
+   "curve": "constant",
+   "start": 46.038
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2008",
+   "curve": "constant",
+   "start": 46.388
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2009",
+   "curve": "constant",
+   "start": 42.812
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2010",
+   "curve": "constant",
+   "start": 44.528
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2011",
+   "curve": "constant",
+   "start": 46.278
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2012",
+   "curve": "constant",
+   "start": 48.354
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2013",
+   "curve": "constant",
+   "start": 46.418
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2014",
+   "curve": "constant",
+   "start": 49.018
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2015",
+   "curve": "constant",
+   "start": 46.364
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2016",
+   "curve": "constant",
+   "start": 44.664
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2017",
+   "curve": "constant",
+   "start": 49.03
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2018",
+   "curve": "constant",
+   "start": 49.276
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2019",
+   "curve": "constant",
+   "start": 39.156
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2020",
+   "curve": "constant",
+   "start": 39.822
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2021",
+   "curve": "constant",
+   "start": 38.366
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2022",
+   "curve": "constant",
+   "start": 40.24
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2023",
+   "curve": "constant",
+   "start": 40.24
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2024",
+   "curve": "constant",
+   "start": 40.24
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "ROU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40.24
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1990",
+   "curve": "constant",
+   "start": 60.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1991",
+   "curve": "constant",
+   "start": 63.333
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1992",
+   "curve": "constant",
+   "start": 66.667
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1993",
+   "curve": "constant",
+   "start": 70.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1994",
+   "curve": "constant",
+   "start": 85.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1995",
+   "curve": "constant",
+   "start": 90.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1996",
+   "curve": "constant",
+   "start": 100.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1997",
+   "curve": "constant",
+   "start": 100.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1998",
+   "curve": "constant",
+   "start": 100.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "1999",
+   "curve": "constant",
+   "start": 100.0
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2000",
+   "curve": "constant",
+   "start": 99.484
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2001",
+   "curve": "constant",
+   "start": 94.501
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2002",
+   "curve": "constant",
+   "start": 89.518
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2003",
+   "curve": "constant",
+   "start": 90.558
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2004",
+   "curve": "constant",
+   "start": 97.756
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2005",
+   "curve": "constant",
+   "start": 92.572
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2006",
+   "curve": "constant",
+   "start": 94.934
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2007",
+   "curve": "constant",
+   "start": 93.57
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2008",
+   "curve": "constant",
+   "start": 90.062
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2009",
+   "curve": "constant",
+   "start": 90.02
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2010",
+   "curve": "constant",
+   "start": 93.934
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2011",
+   "curve": "constant",
+   "start": 94.26
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2012",
+   "curve": "constant",
+   "start": 91.718
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2013",
+   "curve": "constant",
+   "start": 93.844
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2014",
+   "curve": "constant",
+   "start": 93.358
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2015",
+   "curve": "constant",
+   "start": 92.778
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2016",
+   "curve": "constant",
+   "start": 94.492
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2017",
+   "curve": "constant",
+   "start": 96.788
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2018",
+   "curve": "constant",
+   "start": 91.614
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2019",
+   "curve": "constant",
+   "start": 82.488
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2020",
+   "curve": "constant",
+   "start": 85.71
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2021",
+   "curve": "constant",
+   "start": 83.156
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2022",
+   "curve": "constant",
+   "start": 89.554
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2023",
+   "curve": "constant",
+   "start": 90.221
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2024",
+   "curve": "constant",
+   "start": 90.887
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "COD",
+   "years": "2025",
+   "curve": "constant",
+   "start": 91.554
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "1994",
+   "curve": "constant",
+   "start": 79.114
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "1995",
+   "curve": "constant",
+   "start": 78.614
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "1996",
+   "curve": "constant",
+   "start": 78.114
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "1997",
+   "curve": "constant",
+   "start": 77.596
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "1998",
+   "curve": "constant",
+   "start": 77.078
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "1999",
+   "curve": "constant",
+   "start": 79.283
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2000",
+   "curve": "constant",
+   "start": 81.488
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2001",
+   "curve": "constant",
+   "start": 83.178
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2002",
+   "curve": "constant",
+   "start": 84.868
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2003",
+   "curve": "constant",
+   "start": 75.316
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2004",
+   "curve": "constant",
+   "start": 73.326
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2005",
+   "curve": "constant",
+   "start": 80.818
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2006",
+   "curve": "constant",
+   "start": 85.404
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2007",
+   "curve": "constant",
+   "start": 87.432
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2008",
+   "curve": "constant",
+   "start": 89.808
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2009",
+   "curve": "constant",
+   "start": 90.866
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2010",
+   "curve": "constant",
+   "start": 89.472
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2011",
+   "curve": "constant",
+   "start": 88.712
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2012",
+   "curve": "constant",
+   "start": 89.12
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2013",
+   "curve": "constant",
+   "start": 85.576
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2014",
+   "curve": "constant",
+   "start": 89.7
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2015",
+   "curve": "constant",
+   "start": 93.082
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2016",
+   "curve": "constant",
+   "start": 89.418
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2017",
+   "curve": "constant",
+   "start": 83.012
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2018",
+   "curve": "constant",
+   "start": 86.096
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2019",
+   "curve": "constant",
+   "start": 87.786
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2020",
+   "curve": "constant",
+   "start": 90.364
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2021",
+   "curve": "constant",
+   "start": 86.736
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2022",
+   "curve": "constant",
+   "start": 86.358
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2023",
+   "curve": "constant",
+   "start": 95.358
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2024",
+   "curve": "constant",
+   "start": 96.358
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "PSE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 90.358
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2008",
+   "curve": "constant",
+   "start": 29.758
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2009",
+   "curve": "constant",
+   "start": 41.39
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2010",
+   "curve": "constant",
+   "start": 70.896
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2011",
+   "curve": "constant",
+   "start": 70.842
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2012",
+   "curve": "constant",
+   "start": 70.77
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2013",
+   "curve": "constant",
+   "start": 69.322
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2014",
+   "curve": "constant",
+   "start": 56.816
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2015",
+   "curve": "constant",
+   "start": 54.008
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2016",
+   "curve": "constant",
+   "start": 55.718
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2017",
+   "curve": "constant",
+   "start": 54.89
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2018",
+   "curve": "constant",
+   "start": 63.508
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2019",
+   "curve": "constant",
+   "start": 56.972
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2020",
+   "curve": "constant",
+   "start": 55.584
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2021",
+   "curve": "constant",
+   "start": 52.272
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2022",
+   "curve": "constant",
+   "start": 55.048
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2023",
+   "curve": "constant",
+   "start": 67.048
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2024",
+   "curve": "constant",
+   "start": 63.048
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "XKX",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60.048
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2008",
+   "curve": "constant",
+   "start": 53.343
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2009",
+   "curve": "constant",
+   "start": 53.629
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2010",
+   "curve": "constant",
+   "start": 53.914
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2011",
+   "curve": "constant",
+   "start": 54.2
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2012",
+   "curve": "constant",
+   "start": 52.22
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2013",
+   "curve": "constant",
+   "start": 54.055
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2014",
+   "curve": "constant",
+   "start": 55.89
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2015",
+   "curve": "constant",
+   "start": 54.01
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2016",
+   "curve": "constant",
+   "start": 52.79
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2017",
+   "curve": "constant",
+   "start": 56.62
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2018",
+   "curve": "constant",
+   "start": 61.0
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2019",
+   "curve": "constant",
+   "start": 63.252
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2020",
+   "curve": "constant",
+   "start": 63.72
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2021",
+   "curve": "constant",
+   "start": 64.55
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2022",
+   "curve": "constant",
+   "start": 63.68
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2023",
+   "curve": "constant",
+   "start": 65.61
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2024",
+   "curve": "constant",
+   "start": 66.59
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "XKX",
+   "years": "2025",
+   "curve": "constant",
+   "start": 69.1
+  }
+ ]
+}

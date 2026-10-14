@@ -136,3 +136,31 @@ def test_reference_map(scenario):
     assert list(fig.frames[-1].data[0].z) == [60, None]
     with pytest.raises(SimulatorError, match="focus"):
         build_map(scenario, "directed", "diplomatic relation towards")
+
+
+def test_drop_tags_removes_country_everywhere(grouped, tmp_path):
+    from simulator.drop import drop_tags
+    from simulator.narrated import confirm_default
+
+    src = tmp_path / "pop.csv"
+    pd.DataFrame({"date": range(1990, 1996), "POL": [1.0] * 6, "DEU": [2.0] * 6, "UKR": [3.0] * 6,
+                  "RUS": [4.0] * 6}).to_csv(src, index=False)
+    import_history(grouped, "population", src, fmt="wide")
+    apply_operations(grouped, [
+        Operation(kind="grade", name="stability", targets="*", years="1992", curve="constant", start=50),
+        Operation(kind="directed", name="diplomatic relation towards", targets="DEU:UKR,POL:DEU",
+                  years="1992", curve="constant", start=10),
+        Operation(kind="doublesided", name="in war", targets="DEU:RUS", years="1992", curve="constant", start=1),
+    ], author="t")
+    confirm_default(grouped, "grade", "all", "DEU,POL", "1990-1995", "t")
+    changed = drop_tags(grouped, "DEU", author="t", note="K7")
+    assert changed["tables"] == 2 and changed["history"] == 1 and changed["narrated"] >= 3 and changed["confirmed"] == 1
+    assert "DEU" not in grouped.tags and "DEU" not in load_history(grouped, "population").columns
+    grades = pd.read_csv(grouped.year_dir(1992) / "internal-grades.csv", index_col="tag")
+    assert "DEU" not in grades.index and grades.loc["POL", "stability"] == 50
+    dip = pd.read_csv(grouped.year_dir(1992) / "relations-directed" / "diplomatic-relation-towards.csv", index_col="tag")
+    assert "DEU" not in dip.index and "DEU" not in dip.columns
+    assert "DEU" not in set(pd.read_csv(grouped.root / "groups.csv")["tag"])
+    assert validate(grouped) == []
+    with pytest.raises(SimulatorError, match="Unknown tags"):
+        drop_tags(grouped, "DEU", author="t")

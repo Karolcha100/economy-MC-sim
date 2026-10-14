@@ -1,0 +1,131 @@
+{
+ "rationale": "K3 (zgoda autora 2026-10-14, @A36): ocena par na 2025 według AGENTS/phases/phase-1.2b/poprawki/K3-wpisy-2025.md. ARE–YEM (do decyzji) bez zmian.",
+ "operations": [
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "IRN:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "jednorazowe uderzenia USA (VI 2025) i odwet, bez wojny"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "IRN:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "jednorazowe uderzenia USA (VI 2025) i odwet, bez wojny"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "IND:PAK",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "4 dni walk (V 2025), poniżej progu 1000 zabitych"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "IND:PAK",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "4 dni walk (V 2025), poniżej progu 1000 zabitych"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "AFG:PAK",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "walki graniczne X 2025, zawieszenie broni"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "AFG:PAK",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "walki graniczne X 2025, zawieszenie broni"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "COD:RWA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "jest in war; in war wyklucza in war crisis (reguła K1, zgoda autora)"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "ARM:AZE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "porozumienie pokojowe VIII 2025, bez starć"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "CHN:IND",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "odprężenie w 2025, bez starć"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "COL:PER",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "spór o wyspę bez użycia siły"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "LBY:SDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "słabe źródła"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "RWA:ZWE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "ZWE nie walczyło w misji SAMIDRC"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "BDI:RWA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "zamknięta granica, bez starć w 2025"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "ARE:SDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "oskarżenia, bez bezpośredniego starcia"
+  }
+ ]
+}

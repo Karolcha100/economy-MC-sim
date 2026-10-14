@@ -33,6 +33,13 @@ def make_handler(board: Board, token: str, read_only: bool):
         "close-thread": lambda d: board.close_thread(d["path"], d["version"], d.get("text", "")),
         "note": lambda d: board.append_note(d["text"], d["version"]),
         "koniec": lambda d: board.write_koniec(list(d.get("answered", [])), d.get("note", "")),
+        "issue-move": lambda d: board.move_issue(d["path"], d["id"], d["version"], d.get("text", ""),
+                                                 bool(d.get("task", True)), bool(d.get("report", True)),
+                                                 d.get("priority", "Ważne")),
+        "issue-final": lambda d: board.final_answer(d["path"], d["id"], d["text"], d["version"]),
+        "issue-request": lambda d: board.request_proposal(d["path"], d["id"], d["version"]),
+        "issue-proposal": lambda d: board.answer_proposal(d["path"], d["id"], bool(d["accept"]), d["version"],
+                                                          d.get("text", "")),
     }
 
     class Handler(BaseHTTPRequestHandler):

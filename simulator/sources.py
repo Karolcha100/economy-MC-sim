@@ -15,6 +15,11 @@ from simulator.io import ENCODING, SimulatorError, read_csv
 
 DYAD_COLUMNS = ["date", "side_a", "side_b", "value"]
 
+# Old or non-standard country codes used by some sources -> our ISO3 tags (K6, Phase 1.2b):
+# WGI uses ROM/ZAR/WBG/KSV/ADO/TMP, Our World in Data uses OWID_KOS for Kosovo.
+CODE_ALIASES = {"ROM": "ROU", "ZAR": "COD", "WBG": "PSE", "KSV": "XKX", "ADO": "AND", "TMP": "TLS",
+                "OWID_KOS": "XKX"}
+
 # Sheets of the official WGI file (https://www.worldbank.org/content/dam/sites/govindicators/doc/wgidataset.xlsx).
 WGI_SHEETS = {
     "pv": "Political StabilityNoViolence",
@@ -42,7 +47,8 @@ def read_owid(path: Path, column: str | None = None) -> pd.DataFrame:
         if len(candidates) != 1:
             raise SimulatorError(f"{path}: pick a value column with --column, one of {candidates}")
         column = candidates[0]
-    df = df[df["code"].astype(str).str.fullmatch(r"[A-Z]{3}")]
+    df = df.assign(code=df["code"].astype(str).replace(CODE_ALIASES))
+    df = df[df["code"].str.fullmatch(r"[A-Z]{3}")]
     return df.pivot_table(index="year", columns="code", values=column, aggfunc="first").sort_index()
 
 
@@ -61,7 +67,8 @@ def read_wgi_xlsx(path: Path, sheet: str) -> pd.DataFrame:
         int(years[c]): pd.to_numeric(data[c], errors="coerce").values
         for c in raw.columns if fields[c] == "Estimate"
     }
-    return pd.DataFrame(out, index=data[code_col].astype(str).values).T.sort_index()
+    codes = data[code_col].astype(str).replace(CODE_ALIASES).values
+    return pd.DataFrame(out, index=codes).T.sort_index()
 
 
 # --- dyadic -----------------------------------------------------------------------------

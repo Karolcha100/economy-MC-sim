@@ -3,13 +3,16 @@
 The .md files stay the source of truth; this module only relies on their conventions:
     TODO item       - [ ] **A12. title** rest of the line…   (indented lines continue the item)
     issue section   ### W1. 🔴 title  …  - **Decyzja:** text
+                    decision '⏳ w toku → @A43 …' = moved to a task (T019); '✅ …' = final answer;
+                    optional '- **Propozycja końcowa:** …' = the agent's final proposal for the author to accept
     thread          talk/threads/T001-slug.md: header '# T001 · title', then entries separated by
                     three '---' lines, each ending with a signature '*YYYY-MM-DD HH:MM — who*'
                     optional header line '*Odgałęzienie od: T002*' (sub-thread); an entry starting with
                     '🔒' closes the thread
     archive         talk/wymiana-zdan-*.md: the old single conversation, read-only in the GUI
     briefing        talk/briefings/RRRR-MM-DD-HHMM.md: the agent's end-of-session summary (newest shown)
-    koniec          talk/koniec/RRRR-MM-DD-HHMM.md: what the author answered, written by the [Koniec] button
+    koniec          talk/koniec/RRRR-MM-DD-HHMM.md: what the author answered, written by the [Koniec] button —
+                    his GUI actions plus every entry signed '— Autor' after the previous Koniec
     mention         @T002, @A12, @L3, @phase-2:R1 — links to threads, tasks and questions
 Every write checks a content hash taken when the page was rendered, so an answer never
 overwrites a file that changed in the meantime (e.g. edited in VS Code).
@@ -33,12 +36,20 @@ PRIORITY_FILES = {"WAZNE": "Ważne", "SREDNIE": "Średnie", "MALE": "Małe"}
 TODO_RE = re.compile(r"^- \[(?P<status>.)\] \*\*(?P<id>[AL]\d+)\.\s*(?P<title>.*?)\*\*(?P<rest>.*)$")
 ISSUE_RE = re.compile(r"^### (?P<id>[A-Z]+\d+)\.\s*(?P<title>.*)$")
 DECISION_MARK = "- **Decyzja:**"
+PROPOSAL_MARK = "- **Propozycja końcowa:**"
+PROPOSAL_WAITING = "(czeka na agenta)"
+PROPOSAL_REJECTED = "❌"
+IN_PROGRESS_MARK = "⏳"
+PRIORITY_PREFIX = {"Ważne": "WAZNE", "Średnie": "SREDNIE", "Małe": "MALE"}
 SEPARATOR = "---\n---\n---"
 LLM_SIGNATURE_RE = re.compile(r"—\s*(Claude|GPT|Gemini|LLM|model)", re.IGNORECASE)
 SIGNATURE_RE = re.compile(r"^\*\d{4}-\d{2}-\d{2} \d{2}:\d{2} — .+\*$")
 THREAD_TITLE_RE = re.compile(r"^# (?P<id>T\d+) · (?P<title>.+)$")
 PARENT_RE = re.compile(r"^\*Odgałęzienie od: (?P<parent>T\d+)\*$", re.MULTILINE)
 CLOSED_MARK = "🔒"
+REPORT_ENTRY_RE = re.compile(r"^### \[(?P<id>[A-Z]\d+)\] (?P<title>.+)$")
+AUTHOR_SIGNATURE_RE = re.compile(r"^\*(?P<date>\d{4}-\d{2}-\d{2} \d{2}:\d{2}) — Autor\*$")
+ITEM_ID_RE = re.compile(r"^(?P<id>[A-Z][A-Za-z-]*\d+)\b")
 HELP = Path(__file__).parent / "HELP.md"
 
 
@@ -111,6 +122,56 @@ def thread_header(thread_id: str, title: str, parent: str = "") -> str:
             "`*RRRR-MM-DD GG:MM — kto*`. Nowe wpisy tylko na końcu, wcześniejszych nie edytujemy.*")
 
 
+def _field_text(section: list[str], mark: str) -> str:
+    """'- **Decyzja:** text' plus its indented continuation lines -> text ('' if missing or empty)."""
+    idx = next((k for k, line in enumerate(section) if line.startswith(mark)), None)
+    if idx is None:
+        return ""
+    text = section[idx][len(mark):].strip()
+    return text + "".join("\n" + line.strip() for line in section[idx + 1:] if line.startswith("  ") and line.strip())
+
+
+def _issue_bounds(lines: list[str], issue_id: str) -> tuple[int, int]:
+    start = next((i for i, line in enumerate(lines) if (m := ISSUE_RE.match(line)) and m["id"] == issue_id), None)
+    if start is None:
+        raise BoardError(f"Nie ma pytania {issue_id}")
+    end = next((j for j in range(start + 1, len(lines)) if lines[j].startswith(("### ", "## "))), len(lines))
+    return start, end
+
+
+def _set_field(lines: list[str], issue_id: str, mark: str, text: str, after: str = DECISION_MARK) -> None:
+    """Replace (or add after the `after` field) one '- **Field:**' line with its continuation lines."""
+    start, end = _issue_bounds(lines, issue_id)
+    first, *rest = (text.strip() or " ").splitlines()
+    new = [f"{mark} {first}".rstrip()] + [f"  {r}" if r.strip() else "" for r in rest]
+    idx = next((j for j in range(start, end) if lines[j].startswith(mark)), None)
+    if idx is None:
+        anchor = next((j for j in range(start, end) if lines[j].startswith(after)), None)
+        if anchor is None:
+            raise BoardError(f"{issue_id} nie ma pola {after}")
+        idx = anchor + 1
+        while idx < end and lines[idx].startswith("  "):
+            idx += 1
+        lines[idx:idx] = new
+        return
+    stop = idx + 1
+    while stop < end and lines[stop].startswith("  "):
+        stop += 1
+    lines[idx:stop] = new
+
+
+def merge_answered(*lists: list[str]) -> list[str]:
+    """Join answer lists without repeating an item (same leading id: A35, T018, K1…; else same text)."""
+    seen, out = set(), []
+    for item in (x for lst in lists for x in lst):
+        m = ITEM_ID_RE.match(item)
+        key = m["id"] if m else item
+        if key not in seen:
+            seen.add(key)
+            out.append(item)
+    return out
+
+
 # --- tree model --------------------------------------------------------------------------
 
 @dataclass
@@ -181,18 +242,24 @@ class Board:
                         break
                 section = lines[start:end]
                 decision_idx = next((k for k, line in enumerate(section) if line.startswith(DECISION_MARK)), None)
-                decision = ""
-                if decision_idx is not None:
-                    decision = section[decision_idx][len(DECISION_MARK):].strip()
-                    decision += "".join("\n" + line.strip() for line in section[decision_idx + 1:]
-                                        if line.startswith("  ") and line.strip())
+                decision = _field_text(section, DECISION_MARK)
+                proposal = _field_text(section, PROPOSAL_MARK)
+                if decision_idx is None:
+                    status = "no-field"
+                elif not decision:
+                    status = "open"
+                elif decision.startswith(IN_PROGRESS_MARK):
+                    ready = proposal and not proposal.startswith((PROPOSAL_WAITING, PROPOSAL_REJECTED))
+                    status = "proposal" if ready else "in-progress"
+                else:
+                    status = "answered"
                 m = ISSUE_RE.match(lines[start])
                 items.append(Item(
                     key=f"issue:{self.rel(path)}:{m['id']}", kind="issue", title=f"{m['id']}. {m['title']}",
                     path=self.rel(path), line=start + 1, text="\n".join(section).rstrip(),
-                    status="answered" if decision else ("open" if decision_idx is not None else "no-field"),
-                    owner="author", group=path.parent.name, version=file_version(path),
-                    extra={"id": m["id"], "decision": decision, "file": path.name},
+                    status=status, owner="author", group=path.parent.name, version=file_version(path),
+                    extra={"id": m["id"], "decision": decision, "proposal": proposal, "file": path.name,
+                           "task": (t["id"] if (t := re.search(r"@(?P<id>A\d+)", decision)) else "")},
                 ))
         return items
 
@@ -236,6 +303,44 @@ class Board:
         return [{"name": p.stem, "path": self.rel(p), "text": p.read_text(encoding="utf-8")}
                 for p in sorted(folder.glob("*.md"), reverse=True)] if folder.exists() else []
 
+    def last_koniec(self) -> str:
+        """'YYYY-MM-DD HH:MM' of the newest [Koniec] summary, '' if none."""
+        folder = self.root / "talk" / "koniec"
+        stems = sorted(p.stem for p in folder.glob("*.md")) if folder.exists() else []
+        if not stems or not re.fullmatch(r"\d{4}-\d{2}-\d{2}-\d{4}", stems[-1]):
+            return ""
+        s = stems[-1]
+        return f"{s[:10]} {s[11:13]}:{s[13:15]}"
+
+    def activity(self, since: str | None = None) -> list[str]:
+        """What the author wrote in the files since the last [Koniec] (signed '— Autor'), also outside the GUI:
+        thread entries (new thread / reply / closing) and entries in raport-TODO-autora.md."""
+        since = self.last_koniec() if since is None else since
+        out = []
+        for t in self.threads():
+            if t.extra["archive"]:
+                continue
+            entries = t.extra["entries"]
+            new = [e for e in entries if e["owner"] == "author" and e["signature"][:16] > since]
+            if not new:
+                continue
+            if entries and entries[0] in new:
+                what = "nowy wątek"
+            elif any(e["text"].lstrip().startswith(CLOSED_MARK) for e in new):
+                what = "zamknięty"
+            else:
+                what = "odpowiedź w wątku"
+            out.append(f"{t.extra['id']} · {t.title} — {what}")
+        report = self.root / "todo" / "author" / "raport-TODO-autora.md"
+        if report.exists():
+            for body in re.split(r"\n---[ \t]*\n", report.read_text(encoding="utf-8")):
+                lines = body.splitlines()
+                head = next((m for line in lines if (m := REPORT_ENTRY_RE.match(line))), None)
+                sig = next((m for line in reversed(lines) if (m := AUTHOR_SIGNATURE_RE.match(line.strip()))), None)
+                if head and sig and sig["date"] > since:
+                    out.append(f"{head['id']}. {head['title'].strip()} — wpis w raporcie")
+        return out
+
     def files(self) -> list[Item]:
         return [
             Item(key=f"file:{self.rel(p)}", kind="file", title=self.rel(p), path=self.rel(p), line=1,
@@ -258,7 +363,7 @@ class Board:
             "briefings": self.briefings(),
             "help": HELP.read_text(encoding="utf-8") if HELP.exists() else "",
             "waiting": {
-                "issues": [i.key for i in issues if i.status == "open"],
+                "issues": [i.key for i in issues if i.status in ("open", "proposal")],
                 "todos": [t.key for t in todos if t.owner == "author" and t.status in OPEN_STATUSES],
                 "threads": [t.key for t in waiting_threads],
             },
@@ -267,6 +372,8 @@ class Board:
                 "notes": file_version(notes_path),
             },
             "statuses": STATUSES,
+            "since": self.last_koniec(),
+            "activity": self.activity(),
         }
 
     # --- writing ---------------------------------------------------------------------
@@ -351,6 +458,90 @@ class Board:
                       + f"\n\n{SEPARATOR}\n\n{text}\n\n*{now()} — Autor*\n\n{SEPARATOR}\n")
         return self.rel(path)
 
+    # --- question -> task / report (T019) ------------------------------------------------
+    def _issue_lines(self, rel: str, version: str) -> tuple[Path, list[str]]:
+        path = self.resolve(rel)
+        if not path.name.startswith("agents-issues-"):
+            raise BoardError("To nie jest plik pytań.")
+        return path, _check_version(path, version).split("\n")
+
+    def next_author_task_id(self) -> str:
+        ids = [int(m["id"][1:]) for p in self.root.glob("todo/author/*.md")
+               for line in p.read_text(encoding="utf-8").splitlines()
+               if (m := TODO_RE.match(line)) and m["id"].startswith("A")]
+        return f"A{max(ids, default=0) + 1}"
+
+    def move_issue(self, rel: str, issue_id: str, version: str, preliminary: str = "",
+                   to_task: bool = True, to_report: bool = True, priority: str = "Ważne") -> dict:
+        """Open question -> new author task and/or report entry; the question shows '⏳ w toku → @A…'."""
+        if not (to_task or to_report):
+            raise BoardError("Wybierz zadanie, raport albo oba.")
+        path, lines = self._issue_lines(rel, version)
+        start, end = _issue_bounds(lines, issue_id)
+        if _field_text(lines[start:end], DECISION_MARK):
+            raise BoardError(f"{issue_id} ma już decyzję.")
+        title = ISSUE_RE.match(lines[start])["title"].strip()
+        mention = f"@{path.parent.name}:{issue_id}"
+        preliminary = preliminary.strip()
+        ref = ""
+        if to_task:
+            if priority not in PRIORITY_PREFIX:
+                raise BoardError(f"Nieznany priorytet {priority!r}")
+            task_file = next(self.root.glob(f"todo/author/{PRIORITY_PREFIX[priority]}*.md"), None)
+            if task_file is None:
+                raise BoardError(f"Brak pliku zadań {PRIORITY_PREFIX[priority]}")
+            ref = self.next_author_task_id()
+            tlines = task_file.read_text(encoding="utf-8").split("\n")
+            last = max((i for i, line in enumerate(tlines) if TODO_RE.match(line)), default=len(tlines) - 1)
+            while last + 1 < len(tlines) and tlines[last + 1].startswith("  "):
+                last += 1
+            tlines.insert(last + 1, f"- [ ] **{ref}. {issue_id}: {title}** — z pytania {mention}"
+                                    f" (`{self.rel(path)}`). *(dodane {now()})*")
+            _write_atomic(task_file, "\n".join(tlines))
+        if to_report:
+            report = self.root / "todo" / "author" / "raport-TODO-autora.md"
+            self.append_report(ref or f"{path.parent.name}:{issue_id}", f"{issue_id}: {title}",
+                               preliminary or "(bez wstępnej odpowiedzi)", file_version(report))
+        target = f"@{ref}" if ref else "raport"
+        _set_field(lines, issue_id, DECISION_MARK, f"{IN_PROGRESS_MARK} w toku → {target}"
+                   + (f" (wstępnie: {preliminary})" if preliminary else ""))
+        _write_atomic(path, "\n".join(lines))
+        return {"task": ref}
+
+    def final_answer(self, rel: str, issue_id: str, text: str, version: str) -> None:
+        """The author closes a question that was in progress with his own final answer."""
+        text = text.strip()
+        if not text:
+            raise BoardError("Pusta odpowiedź.")
+        path, lines = self._issue_lines(rel, version)
+        start, end = _issue_bounds(lines, issue_id)
+        decision = _field_text(lines[start:end], DECISION_MARK)
+        ref = re.search(r"@(A\d+)", decision)
+        _set_field(lines, issue_id, DECISION_MARK, f"✅ {text}" + (f" (po @{ref[1]})" if ref else ""))
+        _write_atomic(path, "\n".join(lines))
+
+    def request_proposal(self, rel: str, issue_id: str, version: str) -> None:
+        path, lines = self._issue_lines(rel, version)
+        _set_field(lines, issue_id, PROPOSAL_MARK, PROPOSAL_WAITING)
+        _write_atomic(path, "\n".join(lines))
+
+    def answer_proposal(self, rel: str, issue_id: str, accept: bool, version: str, comment: str = "") -> None:
+        """Accept the agent's final proposal (-> decision ✅) or reject it with a comment (back to 'w toku')."""
+        path, lines = self._issue_lines(rel, version)
+        start, end = _issue_bounds(lines, issue_id)
+        proposal = _field_text(lines[start:end], PROPOSAL_MARK)
+        if not proposal or proposal.startswith((PROPOSAL_WAITING, PROPOSAL_REJECTED)):
+            raise BoardError(f"{issue_id} nie ma propozycji do oceny.")
+        if accept:
+            decision = _field_text(lines[start:end], DECISION_MARK)
+            ref = re.search(r"@(A\d+)", decision)
+            _set_field(lines, issue_id, DECISION_MARK,
+                       f"✅ {proposal} (propozycja agenta zaakceptowana{f', po @{ref[1]}' if ref else ''})")
+        else:
+            _set_field(lines, issue_id, PROPOSAL_MARK, f"{PROPOSAL_REJECTED} odrzucona {now()}"
+                       + (f": {comment.strip()}" if comment.strip() else "") + f"\n(poprzednia: {proposal})")
+        _write_atomic(path, "\n".join(lines))
+
     def write_koniec(self, answered: list[str], note: str = "") -> dict:
         """The author pressed [Koniec]: write what was answered this session and return a prompt for the agent."""
         folder = self.root / "talk" / "koniec"
@@ -359,6 +550,7 @@ class Board:
         path = folder / f"{stamp}.md"
         lines = [f"# Koniec sesji autora — {now()}", "",
                  "Autor skończył odpowiadać w AGENTS board. Na co odpowiedział w tej sesji:", ""]
+        answered = merge_answered(answered, self.activity())
         lines += [f"- {item}" for item in answered] or ["- (GUI nie wykrył zmian — sprawdź wątki i pytania)"]
         if note.strip():
             lines += ["", "Uwaga autora:", "", note.strip()]

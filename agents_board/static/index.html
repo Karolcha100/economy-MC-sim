@@ -89,6 +89,8 @@ main { display: grid; grid-template-columns: var(--nav-w, 30%) 6px minmax(0, 1fr
 .md td, .md th { border: 1px solid var(--line); padding: 4px 8px; text-align: left; vertical-align: top; }
 .md hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }
 .related { margin-top: 18px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.embedded { margin: 8px 0; border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; }
+.embedded > summary { cursor: pointer; font-weight: 600; }
 .related h3 { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
 .decision { margin-top: 10px; padding: 8px 12px; border-radius: 6px; background: var(--ok-soft); }
 body.graph-mode main { grid-template-columns: var(--nav-w-graph, 58%) 6px minmax(0, 1fr); }
@@ -137,6 +139,8 @@ a.mention { color: var(--accent); background: var(--accent-soft); border-radius:
       <option value="files">Według plików</option>
     </select>
   </label>
+  <button class="secondary" id="back-btn" title="Wstecz (Alt+←, boczny przycisk myszy)">◀</button>
+  <button class="secondary" id="fwd-btn" title="Dalej (Alt+→, boczny przycisk myszy)">▶</button>
   <span class="meta" id="meta"></span>
   <span class="spacer"></span>
   <span class="pill" id="mode"></span>
@@ -268,7 +272,7 @@ async function load() {
   MENTIONS = [
     ...STATE.threads.filter(t => !t.extra.archive).map(t => ({ token: t.extra.id, label: t.title, key: t.key, open: !t.extra.closed, kind: "wątek" })),
     ...STATE.todos.map(t => ({ token: t.extra.id, label: t.title.replace(/`/g, ""), key: t.key, open: [" ", "~", "?"].includes(t.status), kind: t.owner === "author" ? "zadanie autora" : "zadanie agenta" })),
-    ...STATE.issues.map(i => ({ token: i.group + ":" + i.extra.id, label: i.title, key: i.key, open: i.status === "open", kind: i.status === "open" ? "pytanie bez decyzji" : "pytanie" })),
+    ...STATE.issues.map(i => ({ token: i.group + ":" + i.extra.id, label: i.title, key: i.key, open: ["open", "proposal"].includes(i.status), kind: ISSUE_STATE[i.status] || "pytanie" })),
   ];
   MENTIONS.sort((a, b) => (b.open - a.open));
   MENTION_KEYS = {};
@@ -295,9 +299,11 @@ function getItem(key) {
   }
   return INDEX[base];
 }
+const ISSUE_STATE = { open: "czeka na decyzję", "in-progress": "w toku (zadanie / raport)", proposal: "propozycja agenta do oceny", answered: "rozstrzygnięte" };
+const ISSUE_BADGE = { open: "❓", "in-progress": "🔄", proposal: "🤖", answered: "✅" };
 function badgeOf(it) {
   if (it.kind === "todo") return STATUS_ICON[it.status] || it.status;
-  if (it.kind === "issue") return it.status === "open" ? "❓" : (it.status === "answered" ? "✅" : "·");
+  if (it.kind === "issue") return ISSUE_BADGE[it.status] || "·";
   if (it.kind === "thread") return it.extra.archive ? "🗄️" : it.extra.closed ? "🔒" : (it.owner === "llm" ? "🤖" : "💬");
   if (it.kind === "new-thread") return "➕";
   if (it.kind === "entry") return it.owner === "llm" ? "🤖" : "🧑";
@@ -344,30 +350,24 @@ function hierarchyToDom(n, depth = 0) {
   return group(n.title, n.children.map(c => hierarchyToDom(c, depth + 1)), depth < 1);
 }
 
-// SESSION = what was waiting when the author started answering; cleared by [Koniec]
-function loadSession() { try { return JSON.parse(localStorage.getItem("session") || "null"); } catch { return null; } }
-function saveSession(v) { try { localStorage.setItem("session", JSON.stringify(v)); } catch {} }
-function waitingNow() {
-  const W = STATE.waiting, out = {};
-  for (const k of [...W.issues, ...W.todos, ...W.threads]) {
-    const it = INDEX[k]; if (!it) continue;
-    out[k] = it.kind === "todo" ? todoLabel(it) : it.kind === "thread" ? threadLabel(it) : it.title;
+// SESSION = what the author did in the GUI since the last [Koniec] (decisions, statuses, replies…).
+// The server adds what he wrote in the files ("— Autor" signatures after the last Koniec, also from VS Code):
+// STATE.activity. Changes made by agents never count as the author's answers.
+function loadSession() { try { const s = JSON.parse(localStorage.getItem("session2") || "null"); return s && s.done ? s : { done: {} }; } catch { return { done: {} }; } }
+function saveSession(v) { try { v ? localStorage.setItem("session2", JSON.stringify(v)) : localStorage.removeItem("session2"); } catch {} }
+function labelOf(it) { return it.kind === "todo" ? todoLabel(it) : it.kind === "thread" ? threadLabel(it) : it.title; }
+function recordDone(key, what) {
+  const it = INDEX[key.split("#")[0]]; if (!it) return;
+  const ses = loadSession(); ses.done[it.key] = labelOf(it) + (what ? " — " + what : ""); saveSession(ses);
+}
+function answeredKeys() { return Object.keys(loadSession().done); }
+function answeredList() {   // same rule as merge_answered() in model.py: one line per id (A35, T018, K1…)
+  const seen = new Set(), out = [];
+  for (const x of [...Object.values(loadSession().done), ...(STATE.activity || [])]) {
+    const m = x.match(/^([A-Z][A-Za-z-]*\d+)\b/), k = m ? m[1] : x;
+    if (!seen.has(k)) { seen.add(k); out.push(x); }
   }
   return out;
-}
-function ensureSession() {
-  let ses = loadSession();
-  if (!ses || !ses.waiting) { ses = { start: STATE.generated, waiting: waitingNow() }; saveSession(ses); }
-  else {   // items that became waiting later (e.g. a new agent reply) join the session list
-    const now = waitingNow(); let changed = false;
-    for (const [k, v] of Object.entries(now)) if (!(k in ses.waiting)) { ses.waiting[k] = v; changed = true; }
-    if (changed) saveSession(ses);
-  }
-  return ses;
-}
-function answeredKeys() {
-  const ses = ensureSession(), now = waitingNow();
-  return Object.keys(ses.waiting).filter(k => !(k in now));
 }
 function renderTree() {
   const tree = document.getElementById("tree"), view = document.getElementById("view").value;
@@ -422,13 +422,13 @@ let COLLAPSE_DEFAULTS = COLLAPSED_SAVED === null;  // first visit: fold groups w
 function saveCollapsed() { try { localStorage.setItem("collapsed", JSON.stringify([...COLLAPSED])); } catch {} }
 function isOpen(it) {
   if (it.kind === "todo") return [" ", "~", "?"].includes(it.status);
-  if (it.kind === "issue") return it.status === "open";
+  if (it.kind === "issue") return ["open", "in-progress", "proposal"].includes(it.status);
   if (it.kind === "thread") return !it.extra.archive;
   return false;
 }
 function nodeColor(it) {
   if (it.kind === "todo") return { " ": "#e8871e", "~": "#2f6fdb", "x": "#1f8a4c", "?": "#8a8f9c", ">": "#8a8f9c", "-": "#c0392b" }[it.status] || "#8a8f9c";
-  if (it.kind === "issue") return it.status === "open" ? "#e8871e" : "#1f8a4c";
+  if (it.kind === "issue") return { open: "#e8871e", "in-progress": "#2f6fdb", proposal: "#8e44ad" }[it.status] || "#1f8a4c";
   if (it.kind === "thread") return it.owner === "llm" && !it.extra.archive ? "#2f6fdb" : "#8a8f9c";
   return "#8a8f9c";
 }
@@ -558,6 +558,24 @@ function relatedReport(id) {
   const parts = reportSections(fileText("todo/author/raport-TODO-autora.md"), id);
   return parts.length ? parts.map(md).join("<hr>") : "";
 }
+// documents a task points to (backticked AGENTS/… .md paths, question mentions @phase:K1), shown inside the task
+function linkedDocs(text) {
+  const out = [], seen = new Set();
+  for (const m of text.matchAll(/`(?:AGENTS\/)?([\w./-]+\.md)`/g)) {
+    const path = m[1];
+    if (seen.has(path) || /agents-issues-\d+\.md$/.test(path) || /^todo\//.test(path)) continue;
+    const t = fileText(path); if (!t) continue;
+    seen.add(path);
+    out.push(`<details class="embedded" open><summary>📄 ${esc(path)}</summary><div class="md">${md(t)}</div></details>`);
+  }
+  for (const m of text.matchAll(/@([\w.-]+:[A-Z]+\d+)/g)) {
+    const key = MENTION_KEYS[m[1]], it = key && INDEX[key];
+    if (!it || it.kind !== "issue" || seen.has(key)) continue;
+    seen.add(key);
+    out.push(`<details class="embedded" open><summary>❓ ${esc(m[1])} · ${esc(it.title)}</summary><div class="md">${md(it.text)}</div></details>`);
+  }
+  return out.join("");
+}
 function relatedLlmReport(id) {
   const text = fileText("todo/llm/raport-TODO-LLM.md");
   const parts = text.split(/\n---\s*\n/).filter(p => p.includes("[" + id + "]"));
@@ -582,7 +600,7 @@ function threadHtml(t, focus) {
 }
 function pillOf(it) {
   if (it.kind === "todo") return `<span class="pill ${["x"].includes(it.status) ? "done" : "open"}">${STATE.statuses[it.status] || it.status}</span>`;
-  if (it.kind === "issue") return `<span class="pill ${it.status === "open" ? "open" : "done"}">${it.status === "open" ? "czeka na decyzję" : "rozstrzygnięte"}</span>`;
+  if (it.kind === "issue") return `<span class="pill ${["open", "proposal"].includes(it.status) ? "open" : "done"}">${ISSUE_STATE[it.status] || "pytanie"}</span>`;
   if (it.kind === "thread") return `<span class="pill ${it.extra.archive || it.extra.closed ? "" : (it.owner === "llm" ? "open" : "done")}">${it.extra.archive ? "archiwum (tylko odczyt)" : it.extra.closed ? "zamknięty" : (it.owner === "llm" ? "agent odpowiedział" : "czeka na agenta")}</span>`;
   return "";
 }
@@ -591,25 +609,35 @@ function contentHtml(it, entryIdx) {
   if (it.kind === "thread") html = threadHtml(it, entryIdx);
   else if (it.kind === "new-thread") html = `<div class="md"><p>Nowy temat rozmowy z agentami${it.extra.parent ? ` — odgałęzienie od ${inline("@" + it.extra.parent)}` : ""}. Powstanie plik <code>AGENTS/talk/threads/T…-tytul.md</code>; agent odpowie w tym samym wątku. Wpisz <code>@</code>, żeby wskazać wątek, zadanie albo pytanie.</p></div>`;
   else if (it.kind === "koniec") {
-    const done = answeredKeys().map(k => (loadSession().waiting || {})[k] || k);
+    const done = answeredList();
     html = `<div class="md"><h3>Na co odpowiedziałeś w tej sesji (${done.length})</h3>` +
       (done.length ? "<ul>" + done.map(d => `<li>${inline(d)}</li>`).join("") + "</ul>" : "<p>GUI nie wykrył zmian.</p>") +
+      `<p class="hint">Liczone od ostatniego Konca (${esc(STATE.since || "brak")}): Twoje działania w GUI oraz wpisy podpisane „— Autor” w wątkach i raporcie (także dopisane w VS Code).</p>` +
       `<p>„Zakończ sesję” zapisze tę listę do <code>AGENTS/talk/koniec/</code>, skopiuje do schowka prompt dla agenta (wklej go w okno czatu w VS Code) i wyczyści odhaczone pozycje z „Co czeka na mnie”.</p></div>
       <div id="koniec-result"></div>`;
   }
   else if (it.kind === "briefing") html = `<div class="briefing-list hint">Wcześniejsze: ${(STATE.briefings || []).map(b => `<a data-key="briefing:${esc(b.name)}">${esc(b.name)}</a>`).join("") || "brak"}</div><div class="md">${md(it.text)}</div>`;
   else html = `<div class="md">${md(it.text)}</div>`;
   if (it.kind === "todo") {
+    const docs = linkedDocs(it.text);
+    if (docs) html += `<div class="related"><h3>Treść, na którą odpowiadasz</h3>${docs}</div>`;
     const rel = it.owner === "author" ? relatedReport(it.extra.id) : relatedLlmReport(it.extra.id);
     if (rel) html += `<div class="related"><h3>Wpisy w raporcie dla ${esc(it.extra.id)}</h3><div class="md">${rel}</div></div>`;
+  }
+  if (it.kind === "issue" && it.status !== "open") {
+    const rel = [it.extra.task, it.group + ":" + it.extra.id].filter(Boolean).map(relatedReport).filter(Boolean).join("<hr>");
+    if (rel) html += `<div class="related"><h3>Rozmowa pod zadaniem${it.extra.task ? " " + esc(it.extra.task) : ""}</h3><div class="md">${rel}</div></div>`;
   }
   return html;
 }
 
-function select(key) {
+// Each opened item is a browser history entry, so ◀ ▶, Alt+←/→ and the side mouse buttons move
+// between documents. Re-rendering the same item (e.g. after a reload) does not add an entry.
+function select(key, fromHistory = false) {
   const [baseKey, entryIdx] = key.includes("#") ? [key.split("#")[0], +key.split("#")[1]] : [key, -1];
   SELECTED = key;
-  history.replaceState(null, "", "#" + encodeURIComponent(key));
+  const hash = "#" + encodeURIComponent(key);
+  if (!fromHistory && location.hash !== hash) history.pushState(null, "", hash);
   document.querySelectorAll(".leaf, .g-leaf").forEach(l => l.classList.toggle("active", l.dataset.key === key));
   const it = getItem(key);
   if (!it) return clearDetail();
@@ -777,10 +805,22 @@ function renderForm(it) {
   form.innerHTML = ""; form.hidden = true;
   if (CONFIG.readOnly) return;
   let spec = null;
+  const ISSUE = { path: it.path, id: it.extra.id, version: it.version };
   if (it.kind === "issue" && it.status === "open")
     spec = { label: `Twoja decyzja dla ${it.extra.id}`, action: "decision", button: "Zapisz decyzję",
-             hint: "Trafi do pola „Decyzja” w " + it.path + ".",
-             payload: text => ({ path: it.path, id: it.extra.id, text, version: it.version }) };
+             hint: "„Zapisz decyzję” → pole Decyzja. „↪ Przenieś” → zadanie i/lub raport; tekst z pola to wstępna odpowiedź (może być pusty).",
+             payload: text => ({ ...ISSUE, text }), move: true };
+  else if (it.kind === "issue" && it.status === "in-progress")
+    spec = { label: `Odpowiedź końcowa dla ${it.extra.id}`, action: "issue-final", button: "✍️ Zapisz odpowiedź końcową",
+             hint: "Gdy sprawa w zadaniu jest skończona: wpisz odpowiedź albo poproś agenta o propozycję końcową.",
+             payload: text => ({ ...ISSUE, text }),
+             extra: (it.extra.proposal || "").startsWith("(czeka") ? [] :
+               [{ label: "🤖 Poproś o propozycję końcową", action: "issue-request", what: "prośba o propozycję końcową", payload: () => ISSUE }] };
+  else if (it.kind === "issue" && it.status === "proposal")
+    spec = { label: `Propozycja końcowa agenta dla ${it.extra.id}`, action: "issue-proposal", button: "✅ Akceptuję propozycję",
+             hint: "„Nie” zapisze odrzucenie z komentarzem z pola; sprawa wraca do zadania.",
+             payload: text => ({ ...ISSUE, accept: true, text }),
+             extra: [{ label: "❌ Nie (komentarz z pola)", action: "issue-proposal", what: "propozycja odrzucona", payload: text => ({ ...ISSUE, accept: false, text }) }] };
   else if (it.kind === "issue")
     spec = { info: "Decyzja już jest. Zmianę dopisz ręcznie w pliku (link u góry) — wcześniejszych wpisów nie zmieniamy." };
   else if (it.kind === "todo" && it.owner === "author")
@@ -805,7 +845,7 @@ function renderForm(it) {
   else if (it.kind === "koniec")
     spec = { label: "Uwaga dla agenta (opcjonalnie)", action: "koniec", button: "✅ Zakończ sesję i skopiuj prompt",
              hint: "Lista odpowiedzi jest wyżej.",
-             payload: text => ({ answered: answeredKeys().map(k => (loadSession().waiting || {})[k] || k), note: text }) };
+             payload: text => ({ answered: Object.values(loadSession().done), note: text }) };
   else if (it.kind === "file" && it.path === "talk/od-autora-dla-llmow.md")
     spec = { label: "Nowa uwaga dla agentów", action: "note", button: "Dodaj uwagę",
              hint: "Zostanie dopisana jako kolejny numer na liście „Uwagi”.",
@@ -829,6 +869,10 @@ function renderForm(it) {
       ${spec.status ? `<span>Status zadania:</span><select id="f-status">${Object.entries(STATE.statuses).map(([k, v]) =>
           `<option value="${esc(k)}" ${k === it.status ? "selected" : ""}>[${esc(k)}] ${esc(v)}</option>`).join("")}</select>
           <button class="secondary" id="f-status-only">Zmień tylko status</button>` : ""}
+      ${spec.move ? `<span>↪</span><select id="f-move-to"><option value="both">zadanie + raport</option><option value="task">tylko zadanie</option><option value="report">tylko raport</option></select>
+          <select id="f-move-prio">${PRIO.map(p => `<option>${p}</option>`).join("")}</select>
+          <button class="secondary" id="f-move">↪ Przenieś</button>` : ""}
+      ${(spec.extra || []).map((x, i) => `<button class="secondary" id="f-extra-${i}">${esc(x.label)}</button>`).join("")}
       ${spec.close ? `<button class="secondary" id="f-close" title="Dopisuje 🔒 (tekst z pola jako uwaga)">🔒 Zamknij wątek</button>` : ""}
       ${branchBtn}
       <span class="msg" id="f-msg"></span>
@@ -839,7 +883,7 @@ function renderForm(it) {
   const bb = document.getElementById("f-branch"); if (bb) bb.onclick = () => select("new-thread:" + it.extra.id);
   const cb = document.getElementById("f-close");
   if (cb) cb.onclick = async () => {
-    if (await post("close-thread", { path: it.path, version: it.version, text: ta.value })) { setDraft(dk, ""); toast("Wątek zamknięty"); await load(); }
+    if (await post("close-thread", { path: it.path, version: it.version, text: ta.value })) { recordDone(it.key, "zamknięty"); setDraft(dk, ""); toast("Wątek zamknięty"); await load(); }
   };
   ta.value = getDraft(dk);
   ta.oninput = () => setDraft(dk, ta.value);
@@ -847,6 +891,10 @@ function renderForm(it) {
   document.getElementById("f-send").onclick = async () => {
     const ok = await post(spec.action, spec.payload(ta.value, ti ? ti.value : ""));
     if (!ok) return;
+    const WHAT = { decision: "decyzja", report: "wpis w raporcie", thread: "odpowiedź w wątku", note: "uwaga dla agentów",
+                   "issue-final": "odpowiedź końcowa", "issue-proposal": "propozycja zaakceptowana" };
+    if (WHAT[spec.action]) recordDone(it.key, WHAT[spec.action]);
+    if (spec.action === "new-thread" && ok.path) { await load(); recordDone("thread:" + ok.path, "nowy wątek"); }
     if (spec.action === "new-thread" && ok.path) SELECTED = "thread:" + ok.path;
     if (spec.action === "koniec") {
       saveSession(null);
@@ -864,14 +912,27 @@ function renderForm(it) {
     if (st && st.value !== it.status) {
       await load();
       const fresh = INDEX[it.key];
-      if (fresh) await post("status", { path: fresh.path, id: fresh.extra.id, status: st.value, version: fresh.version });
+      if (fresh && await post("status", { path: fresh.path, id: fresh.extra.id, status: st.value, version: fresh.version })) recordDone(it.key, "wpis w raporcie, status [" + st.value + "]");
     }
     setDraft(dk, ""); setDraft(tk, ""); toast("Zapisano"); await load();
   };
+  (spec.extra || []).forEach((x, i) => document.getElementById("f-extra-" + i).onclick = async () => {
+    if (await post(x.action, x.payload(ta.value))) { recordDone(it.key, x.what); setDraft(dk, ""); toast("Zapisano"); await load(); }
+  });
+  const mv = document.getElementById("f-move");
+  if (mv) mv.onclick = async () => {
+    const to = document.getElementById("f-move-to").value;
+    const ok = await post("issue-move", { ...ISSUE, text: ta.value, task: to !== "report", report: to !== "task",
+                                          priority: document.getElementById("f-move-prio").value });
+    if (!ok) return;
+    recordDone(it.key, "przeniesione" + (ok.task ? " do @" + ok.task : " do raportu"));
+    setDraft(dk, ""); toast(ok.task ? "Utworzono zadanie " + ok.task : "Dodano wpis do raportu"); await load();
+  };
   const so = document.getElementById("f-status-only");
   if (so) so.onclick = async () => {
-    if (await post("status", { path: it.path, id: it.extra.id, status: document.getElementById("f-status").value, version: it.version })) {
-      toast("Status zmieniony"); await load();
+    const nst = document.getElementById("f-status").value;
+    if (await post("status", { path: it.path, id: it.extra.id, status: nst, version: it.version })) {
+      recordDone(it.key, "status [" + nst + "]"); toast("Status zmieniony"); await load();
     }
   };
 }
@@ -899,10 +960,13 @@ document.getElementById("mode").textContent = CONFIG.readOnly ? "tylko podgląd"
 try { const v = localStorage.getItem("view"); if (v) document.getElementById("view").value = v; } catch {}
 if (CONFIG.state) document.getElementById("reload").hidden = true;
 if (location.hash.length > 1) SELECTED = decodeURIComponent(location.hash.slice(1));
-window.addEventListener("hashchange", () => {
+window.addEventListener("popstate", () => {
   const key = decodeURIComponent(location.hash.slice(1));
-  if (key && key !== SELECTED && getItem(key)) select(key);
+  if (key && key !== SELECTED && getItem(key)) select(key, true);
 });
+document.getElementById("back-btn").onclick = () => history.back();
+document.getElementById("fwd-btn").onclick = () => history.forward();
+// the side mouse buttons need no code: the browser maps them to history.back()/forward() itself
 load();
 </script>
 </body>

@@ -84,3 +84,11 @@ def test_sources_are_logged_and_old_changelog_is_upgraded(scenario):
     df = pd.read_csv(log, keep_default_na=False)
     assert list(df.columns) == CHANGELOG_COLUMNS
     assert df["sources"].tolist() == ["", "https://a | Title, Outlet, 2020"]
+
+
+def test_old_country_codes_are_mapped(tmp_path):
+    from simulator.sources import read_owid
+    src = tmp_path / "h.csv"
+    src.write_text("entity,code,year,score\nKosovo,OWID_KOS,2011,5.4\nWorld,OWID_WRL,2011,5.0\nPoland,POL,2011,5.8\n")
+    df = read_owid(src)
+    assert sorted(df.columns) == ["POL", "XKX"] and df.loc[2011, "XKX"] == 5.4

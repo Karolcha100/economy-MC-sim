@@ -167,6 +167,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--years", required=True)
     p.add_argument("--author", required=True)
     p.add_argument("--note", default="")
+    p = sub.add_parser("drop-tags", help="remove countries from the whole scenario (decision A39 / K7)")
+    p.add_argument("--tags", required=True, help="comma separated tags")
+    p.add_argument("--author", required=True)
+    p.add_argument("--note", default="")
     p = sub.add_parser("audit", help="compare narrated data of all countries with real indicators (rules: audit.csv)")
     p.add_argument("--out", type=Path, help="folder for the markdown report (default: <scenario>/views/)")
     p = sub.add_parser("queue", help="write the Phase 1.2b task queue (markdown) for filling agents")
@@ -319,6 +323,11 @@ def run(args: argparse.Namespace) -> int:
         case "confirm-default":
             n = narrated.confirm_default(scenario, args.kind, args.name, args.targets, args.years, args.author, args.note)
             print(f"# confirmed defaults: {n} row(s)")
+        case "drop-tags":
+            from simulator.drop import drop_tags
+
+            changed = drop_tags(scenario, args.tags, args.author, args.note)
+            print("# dropped; files changed: " + ", ".join(f"{k} {v}" for k, v in changed.items()))
         case "audit":
             from simulator.audit import run_audit, write_report
 

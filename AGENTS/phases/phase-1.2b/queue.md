@@ -149,56 +149,56 @@ Postęp liczbowo: `python -m simulator --scenario world-1990-2025 missing --by-c
 | 141 | RWA | Rwanda |  | [x] 2026-10-14 08:16 | [x] 2026-10-14 08:19 | A: 40 op., review 2 (1994 ludobójstwo — uzasadnione); B: 203 op., 17 partnerów, review 1 (COD 1996 — uzasadnione) |
 | 142 | COG | Congo, Rep. |  | [x] 2026-10-14 08:16 | [x] 2026-10-14 08:17 | A: 39 op., review 0; B: 175 op., 22 partnerów, review 0 |
 | 143 | MUS | Mauritius |  | [x] 2026-10-14 08:16 | [x] 2026-10-14 08:18 | A: 38 op., review 0; B: 131 op., 18 partnerów, review 0 |
-| 144 | BHS | Bahamas, The |  | [x] 2026-10-14 08:17 | [x] 2026-10-14 08:18 | A: 30 op., review 0; B: 47 op., 11 partnerów, review 0 |
+| 144 | BHS | Bahamas, The |  | [-] 2026-10-14 08:17 | [-] 2026-10-14 08:18 | A: 30 op., review 0; B: 47 op., 11 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
 | 145 | NAM | Namibia |  | [x] 2026-10-14 08:17 | [x] 2026-10-14 08:18 | A: 37 op., review 0; B: 119 op., 14 partnerów, review 0 |
-| 146 | BRN | Brunei Darussalam |  | [x] 2026-10-14 08:18 | [x] 2026-10-14 08:18 | A: 24 op., review 0; B: 156 op., 19 partnerów, review 1 (CHN 1991 — uzasadnione) |
+| 146 | BRN | Brunei Darussalam |  | [-] 2026-10-14 08:18 | [-] 2026-10-14 08:18 | A: 24 op., review 0; B: 156 op., 19 partnerów, review 1 (CHN 1991 — uzasadnione) — usunięte z modelu 2026-10-14 (@A39) |
 | 147 | MWI | Malawi |  | [x] 2026-10-14 08:19 | [x] 2026-10-14 08:19 | B: 203 op., 17 partnerów, review 0; A: 43 op., review 0 |
-| 148 | GNQ | Equatorial Guinea |  | [x] 2026-10-14 08:19 | [x] 2026-10-14 12:51 | A: 41 op., review 0; B: agent przerwany limitem API na końcu; dane 100%, validate 0, review 0 (bez raportu agenta) |
+| 148 | GNQ | Equatorial Guinea |  | [-] 2026-10-14 08:19 | [-] 2026-10-14 12:51 | A: 41 op., review 0; B: agent przerwany limitem API na końcu; dane 100%, validate 0, review 0 (bez raportu agenta) — usunięte z modelu 2026-10-14 (@A39) |
 | 149 | XKX | Kosovo |  | [x] 2026-10-14 12:51 | [x] 2026-10-14 12:51 | A: 40 op., review 0; corruption/violence risk/HDI/happiness w całości szacunek; B: 111 op., 15 partnerów, review 0 |
 | 150 | SSD | South Sudan |  | [x] 2026-10-14 12:51 | [x] 2026-10-14 08:20 | B: 161 op., 19 partnerów, review 0; A: agent przerwany limitem API na końcu; dane 100%, validate 0, review 0 (bez raportu agenta) |
 | 151 | TGO | Togo |  | [x] 2026-10-14 08:19 | [x] 2026-10-14 12:54 | A: 37 op., review 0; B: 145 op., 17 partnerów, review 0 (ponowione po limicie API) |
 | 152 | MRT | Mauritania |  | [x] 2026-10-14 12:51 | [x] 2026-10-14 12:57 | A: agent przerwany limitem API na końcu; dane 100%, validate 0, review 0 (bez raportu agenta); B: 107 op., 14 partnerów, review 0 (ponowione po limicie API) |
-| 153 | MCO | Monaco |  | [x] 2026-10-14 12:51 | [x] 2026-10-14 12:51 | A: 24 op., review 0; B: agent przerwany limitem API na końcu; dane 100%, validate 0, review 0 (bez raportu agenta) |
+| 153 | MCO | Monaco |  | [-] 2026-10-14 12:51 | [-] 2026-10-14 12:51 | A: 24 op., review 0; B: agent przerwany limitem API na końcu; dane 100%, validate 0, review 0 (bez raportu agenta) — usunięte z modelu 2026-10-14 (@A39) |
 | 154 | MNE | Montenegro |  | [x] 2026-10-14 12:56 | [x] 2026-10-14 12:56 | A: 20 op., review 0; B: 139 op., 17 partnerów, review 0 |
-| 155 | LIE | Liechtenstein |  | [x] 2026-10-14 12:54 | [x] 2026-10-14 12:57 | A: 24 op., review 0 (ponowione po limicie API); B: 96 op., 12 partnerów, review 0 |
-| 156 | BRB | Barbados |  | [x] 2026-10-14 12:54 | [x] 2026-10-14 12:56 | A: 34 op., review 0 (ponowione po limicie API); B: 189 op., 23 partnerów, review 0 |
+| 155 | LIE | Liechtenstein |  | [-] 2026-10-14 12:54 | [-] 2026-10-14 12:57 | A: 24 op., review 0 (ponowione po limicie API); B: 96 op., 12 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 156 | BRB | Barbados |  | [-] 2026-10-14 12:54 | [-] 2026-10-14 12:56 | A: 34 op., review 0 (ponowione po limicie API); B: 189 op., 23 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
 | 157 | MDV | Maldives |  | [x] 2026-10-14 12:55 | [x] 2026-10-14 12:56 | A: 57 op., review 1 (2019 zmiana rządu — uzasadnione); B: 150 op., 18 partnerów, review 0 |
 | 158 | SLE | Sierra Leone |  | [x] 2026-10-14 12:56 | [x] 2026-10-14 12:57 | A: 57 op., review 3 (1996/1997/2018 — uzasadnione); B: 164 op., 20 partnerów, review 0 |
-| 159 | FJI | Fiji |  | [x] 2026-10-14 12:59 | [x] 2026-10-14 12:57 | A: 32 op., review 0; LUKA: happiness puste 1990–2025 (brak WHR) — missing 94.1%; B: 127 op., 15 partnerów, review 0; A: happiness uzupełnione (FJI-A-happiness.json, 7 op.) — missing 100% |
+| 159 | FJI | Fiji |  | [-] 2026-10-14 12:59 | [-] 2026-10-14 12:57 | A: 32 op., review 0; LUKA: happiness puste 1990–2025 (brak WHR) — missing 94.1%; B: 127 op., 15 partnerów, review 0; A: happiness uzupełnione (FJI-A-happiness.json, 7 op.) — missing 100% — usunięte z modelu 2026-10-14 (@A39) |
 | 160 | LBR | Liberia |  | [x] 2026-10-14 12:57 | [x] 2026-10-14 12:57 | B: 119 op., 13 partnerów, review 0; A: 43 op., review 0 |
 | 161 | SWZ | Eswatini |  | [x] 2026-10-14 12:55 | [x] 2026-10-14 12:56 | A: 31 op., review 0; B: 114 op., 14 partnerów, review 0 |
 | 162 | DJI | Djibouti |  | [x] 2026-10-14 12:56 | [x] 2026-10-14 12:57 | A: 42 op., review 0; B: 151 op., 20 partnerów, review 4 (ERI 2008/2018, IRN 2016/2023 — uzasadnione) |
 | 163 | SUR | Suriname |  | [x] 2026-10-14 12:58 | [x] 2026-10-14 12:58 | B: 146 op., 17 partnerów, review 0; A: 40 op., review 0 |
-| 164 | AND | Andorra |  | [x] 2026-10-14 12:58 | [x] 2026-10-14 12:58 | A: 37 op., review 0; corruption/violence risk w całości szacunek (brak WGI); B: 76 op., 10 partnerów, review 0 |
+| 164 | AND | Andorra |  | [-] 2026-10-14 12:58 | [-] 2026-10-14 12:58 | A: 37 op., review 0; corruption/violence risk w całości szacunek (brak WGI); B: 76 op., 10 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
 | 165 | BTN | Bhutan |  | [x] 2026-10-14 12:58 | [x] 2026-10-14 12:59 | A: 28 op., review 0; happiness 2019–25 uzupełnione przez koordynatora (stała 50.82); B: 110 op., 14 partnerów, review 0 |
 | 166 | BDI | Burundi |  | [x] 2026-10-14 13:00 | [x] 2026-10-14 13:01 | A: 54 op., review 0; B: 229 op., 20 partnerów, review 0 |
 | 167 | BLZ | Belize |  | [x] 2026-10-14 12:59 | [x] 2026-10-14 12:59 | B: 77 op., 11 partnerów, review 0 (wartości stałe 1990–2025); A: 30 op., review 0 |
 | 168 | CAF | Central African Republic |  | [x] 2026-10-14 13:00 | [x] 2026-10-14 13:01 | A: 39 op., review 0; B: 191 op., 20 partnerów, review 0 |
-| 169 | CPV | Cabo Verde |  | [x] 2026-10-14 13:00 | [x] 2026-10-14 13:00 | A: 31 op., review 0; B: 138 op., 19 partnerów, review 0 |
-| 170 | LCA | St. Lucia |  | [x] 2026-10-14 13:00 | [x] 2026-10-14 13:00 | B: 133 op., 19 partnerów, review 0; A: 31 op., review 0 |
+| 169 | CPV | Cabo Verde |  | [-] 2026-10-14 13:00 | [-] 2026-10-14 13:00 | A: 31 op., review 0; B: 138 op., 19 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 170 | LCA | St. Lucia |  | [-] 2026-10-14 13:00 | [-] 2026-10-14 13:00 | B: 133 op., 19 partnerów, review 0; A: 31 op., review 0 — usunięte z modelu 2026-10-14 (@A39) |
 | 171 | GMB | Gambia, The |  | [x] 2026-10-14 13:00 | [x] 2026-10-14 13:01 | A: 39 op., review 3 (1994, 2016, 2017 — uzasadnione); B: 211 op., 22 partnerów, review 5 (CHN/TWN 1995 i 2016, IRN 2010 — uzasadnione) |
 | 172 | LSO | Lesotho |  | [x] 2026-10-14 13:01 | [x] 2026-10-14 13:01 | A: 35 op., review 3 (1994, 2014 — uzasadnione); B: 53 op., 7 partnerów, review 1 (CHN 1994 — uzasadnione) |
-| 173 | GNB | Guinea-Bissau |  | [x] 2026-10-14 13:02 | [x] 2026-10-14 13:02 | B: 774 op., 18 partnerów, review 1 (PRT 2025 75→−40 — do przejrzenia); A: 70 op., review 1 (war exhaustion 1999 — uzasadnione) |
-| 174 | SYC | Seychelles |  | [x] 2026-10-14 13:01 | [x] 2026-10-14 13:03 | A: 39 op., review 0; B: 152 op., 18 partnerów, review 0 |
-| 175 | ATG | Antigua and Barbuda |  | [x] 2026-10-14 13:02 | [x] 2026-10-14 13:02 | A: 40 op., review 0; B: 180 op., 23 partnerów, review 0 |
-| 176 | ERI | Eritrea |  | [x] 2026-10-14 13:02 | [x] 2026-10-14 13:04 | A: 42 op., review 0; B: 195 op., 20 partnerów, review 18 (ETH 1998/2018/2022, SOM 2007/2018, DJI 2008/2018, YEM 1999 — uzasadnione) |
-| 177 | SMR | San Marino |  | [x] 2026-10-14 13:03 | [x] 2026-10-14 13:02 | B: 91 op., 11 partnerów, review 0; A: 38 op., review 0 |
-| 178 | TLS | Timor-Leste |  | [x] 2026-10-14 13:03 | [x] 2026-10-14 13:03 | B: 141 op., 19 partnerów, review 0; A: 35 op., review 0; corruption/violence risk/happiness w całości szacunek (brak WGI/WHR) |
+| 173 | GNB | Guinea-Bissau |  | [-] 2026-10-14 13:02 | [-] 2026-10-14 13:02 | B: 774 op., 18 partnerów, review 1 (PRT 2025 75→−40 — do przejrzenia); A: 70 op., review 1 (war exhaustion 1999 — uzasadnione) — usunięte z modelu 2026-10-14 (@A39) |
+| 174 | SYC | Seychelles |  | [-] 2026-10-14 13:01 | [-] 2026-10-14 13:03 | A: 39 op., review 0; B: 152 op., 18 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 175 | ATG | Antigua and Barbuda |  | [-] 2026-10-14 13:02 | [-] 2026-10-14 13:02 | A: 40 op., review 0; B: 180 op., 23 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 176 | ERI | Eritrea |  | [-] 2026-10-14 13:02 | [-] 2026-10-14 13:04 | A: 42 op., review 0; B: 195 op., 20 partnerów, review 18 (ETH 1998/2018/2022, SOM 2007/2018, DJI 2008/2018, YEM 1999 — uzasadnione) — usunięte z modelu 2026-10-14 (@A39) |
+| 177 | SMR | San Marino |  | [-] 2026-10-14 13:03 | [-] 2026-10-14 13:02 | B: 91 op., 11 partnerów, review 0; A: 38 op., review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 178 | TLS | Timor-Leste |  | [-] 2026-10-14 13:03 | [-] 2026-10-14 13:03 | B: 141 op., 19 partnerów, review 0; A: 35 op., review 0; corruption/violence risk/happiness w całości szacunek (brak WGI/WHR) — usunięte z modelu 2026-10-14 (@A39) |
 | 179 | COM | Comoros |  | [x] 2026-10-14 13:04 | [x] 2026-10-14 13:04 | A: 35 op., review 0; B: 560 op., 16 partnerów, review 0 |
-| 180 | SLB | Solomon Islands |  | [x] 2026-10-14 13:04 | [x] 2026-10-14 13:04 | A: 60 op., review 0; B: 125 op., 13 partnerów, review 2 (AUS 2003 RAMSI — uzasadnione) |
-| 181 | GRD | Grenada |  | [x] 2026-10-14 13:04 | [x] 2026-10-14 13:03 | B: 161 op., 26 partnerów, review 0; A: 33 op., review 0 |
-| 182 | VUT | Vanuatu |  | [x] 2026-10-14 13:04 | [x] 2026-10-14 13:04 | A: 32 op., review 0; B: 83 op., 14 partnerów, review 0 |
-| 183 | WSM | Samoa |  | [x] 2026-10-14 13:05 | [x] 2026-10-14 13:05 | B: 176 op., 21 partnerów, review 0 (wartości głównie stałe); A: 29 op., review 0 |
-| 184 | VCT | St. Vincent and the Grenadines |  | [x] 2026-10-14 13:05 | [x] 2026-10-14 13:06 | A: 32 op., review 0; B: 209 op., 23 partnerów, review 0 |
-| 185 | KNA | St. Kitts and Nevis |  | [x] 2026-10-14 13:06 | [x] 2026-10-14 13:06 | B: 160 op., 22 partnerów, review 0; A: 30 op., review 0 |
-| 186 | STP | Sao Tome and Principe |  | [x] 2026-10-14 13:05 | [x] 2026-10-14 13:06 | A: 37 op., review 0; B: 161 op., 19 partnerów, review 8 (CHN/TWN 1997 i 2016 — uzasadnione) |
-| 187 | DMA | Dominica |  | [x] 2026-10-14 13:06 | [x] 2026-10-14 13:06 | A: 36 op., review 0; B: 182 op., 22 partnerów, review 1 (TWN 2004 — uzasadnione) |
-| 188 | TON | Tonga |  | [x] 2026-10-14 13:06 | [x] 2026-10-14 13:08 | A: 30 op., review 1 (corruption 2005 — seed WGI); B: 55 op., 19 partnerów, review 0 |
-| 189 | FSM | Micronesia, Fed. Sts. |  | [x] 2026-10-14 13:06 | [x] 2026-10-14 13:07 | A: 20 op., review 0; B: 47 op., 19 partnerów, review 0 (wartości stałe) |
-| 190 | KIR | Kiribati |  | [x] 2026-10-14 13:07 | [x] 2026-10-14 13:08 | A: 33 op., review 0; B: 76 op., 15 partnerów, review 4 (TWN/CHN 2003/2005/2019) |
-| 191 | PLW | Palau |  | [x] 2026-10-14 13:07 | [x] 2026-10-14 13:09 | A: 29 op., review 0; B: 91 op., 12 partnerów, review 1 (TWN 1999 — uzasadnione) |
-| 192 | MHL | Marshall Islands |  | [x] 2026-10-14 13:08 | [x] 2026-10-14 13:07 | B: 98 op., 14 partnerów, review 0; A: 36 op., review 0 |
-| 193 | NRU | Naoero |  | [x] 2026-10-14 13:08 | [x] 2026-10-14 13:08 | B: 67 op., 16 partnerów, review 14 (TWN/CHN 2002/2005/2024 — uzasadnione); A: 39 op., review 0 |
-| 194 | TUV | Tuvalu |  | [x] 2026-10-14 13:08 | [x] 2026-10-14 13:08 | A: 21 op., review 0; B: 37 op., 17 partnerów, review 0 |
+| 180 | SLB | Solomon Islands |  | [-] 2026-10-14 13:04 | [-] 2026-10-14 13:04 | A: 60 op., review 0; B: 125 op., 13 partnerów, review 2 (AUS 2003 RAMSI — uzasadnione) — usunięte z modelu 2026-10-14 (@A39) |
+| 181 | GRD | Grenada |  | [-] 2026-10-14 13:04 | [-] 2026-10-14 13:03 | B: 161 op., 26 partnerów, review 0; A: 33 op., review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 182 | VUT | Vanuatu |  | [-] 2026-10-14 13:04 | [-] 2026-10-14 13:04 | A: 32 op., review 0; B: 83 op., 14 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 183 | WSM | Samoa |  | [-] 2026-10-14 13:05 | [-] 2026-10-14 13:05 | B: 176 op., 21 partnerów, review 0 (wartości głównie stałe); A: 29 op., review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 184 | VCT | St. Vincent and the Grenadines |  | [-] 2026-10-14 13:05 | [-] 2026-10-14 13:06 | A: 32 op., review 0; B: 209 op., 23 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 185 | KNA | St. Kitts and Nevis |  | [-] 2026-10-14 13:06 | [-] 2026-10-14 13:06 | B: 160 op., 22 partnerów, review 0; A: 30 op., review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 186 | STP | Sao Tome and Principe |  | [-] 2026-10-14 13:05 | [-] 2026-10-14 13:06 | A: 37 op., review 0; B: 161 op., 19 partnerów, review 8 (CHN/TWN 1997 i 2016 — uzasadnione) — usunięte z modelu 2026-10-14 (@A39) |
+| 187 | DMA | Dominica |  | [-] 2026-10-14 13:06 | [-] 2026-10-14 13:06 | A: 36 op., review 0; B: 182 op., 22 partnerów, review 1 (TWN 2004 — uzasadnione) — usunięte z modelu 2026-10-14 (@A39) |
+| 188 | TON | Tonga |  | [-] 2026-10-14 13:06 | [-] 2026-10-14 13:08 | A: 30 op., review 1 (corruption 2005 — seed WGI); B: 55 op., 19 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 189 | FSM | Micronesia, Fed. Sts. |  | [-] 2026-10-14 13:06 | [-] 2026-10-14 13:07 | A: 20 op., review 0; B: 47 op., 19 partnerów, review 0 (wartości stałe) — usunięte z modelu 2026-10-14 (@A39) |
+| 190 | KIR | Kiribati |  | [-] 2026-10-14 13:07 | [-] 2026-10-14 13:08 | A: 33 op., review 0; B: 76 op., 15 partnerów, review 4 (TWN/CHN 2003/2005/2019) — usunięte z modelu 2026-10-14 (@A39) |
+| 191 | PLW | Palau |  | [-] 2026-10-14 13:07 | [-] 2026-10-14 13:09 | A: 29 op., review 0; B: 91 op., 12 partnerów, review 1 (TWN 1999 — uzasadnione) — usunięte z modelu 2026-10-14 (@A39) |
+| 192 | MHL | Marshall Islands |  | [-] 2026-10-14 13:08 | [-] 2026-10-14 13:07 | B: 98 op., 14 partnerów, review 0; A: 36 op., review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 193 | NRU | Naoero |  | [-] 2026-10-14 13:08 | [-] 2026-10-14 13:08 | B: 67 op., 16 partnerów, review 14 (TWN/CHN 2002/2005/2024 — uzasadnione); A: 39 op., review 0 — usunięte z modelu 2026-10-14 (@A39) |
+| 194 | TUV | Tuvalu |  | [-] 2026-10-14 13:08 | [-] 2026-10-14 13:08 | A: 21 op., review 0; B: 37 op., 17 partnerów, review 0 — usunięte z modelu 2026-10-14 (@A39) |
 | 195 | PRK | Korea, Dem. People's Rep. |  | [x] 2026-10-14 13:08 | [x] 2026-10-14 13:12 | A: 39 op., review 0; happiness/civilization w całości szacunek; B: 275 op., 22 partnerów, review 2 (KOR 2020, UKR 2022 — uzasadnione) |
 | 196 | TWN | Taiwan |  | [x] 2026-10-14 13:09 | [x] 2026-10-14 13:11 | A: 41 op., review 2 (2008, 2016 zmiana rządu — uzasadnione); B: 196 op., 40 partnerów, review 20 (zmiany uznania ROC/ChRL — uzasadnione) |

@@ -2,7 +2,7 @@
 
 Jedno miejsce, które zbiera decyzje 1.2b i pokazuje, co dalej. Szczegóły: `agents-issues-0.md` (P1–P5), `agents-issues-1.md` (Q1–Q8), `instrukcja-wypelniania.md`, wątki @T011 i @T012.
 
-*Aktualizuje agent; ostatnia zmiana: 2026-10-14 13:56 — Claude Opus 5.5*
+*Aktualizuje agent; ostatnia zmiana: 2026-10-14 16:28 — Claude Opus 5.5*
 
 ---
 
@@ -45,7 +45,7 @@ Przed Phase 2.1 wszystkie dane opisowe są uzupełnione (@A23):
 4. ✅ Model: **Haiku jako agenci Claude Code** (test: `AGENTS/phases/phase-1.2b/test-modeli.md`); start **na sygnał autora** (@T016).
 4b. ✅ Uruchamianie agentów (@L34): koordynator w Claude Code, 20 agentów Haiku naraz.
 5. ✅ Wypełnianie: wszystkie 392 zadania naraz (decyzja autora w czacie), skończone 2026-10-14 13:15; `missing` 100%. Raport: `AGENTS/phases/phase-1.2b/raport-wypelniania.md`.
-5b. ⏳ Poprawki po wypełnieniu: decyzje K1–K8 (`AGENTS/phases/phase-1.2b/agents-issues-2.md`); plan i koszty `AGENTS/phases/phase-1.2b/plan-poprawek.md`; K3 zrobione (@L43), reszta czeka na @A34–@A39 (@L41–@L46).
+5b. ⏳ Poprawki po wypełnieniu (`AGENTS/phases/phase-1.2b/plan-poprawek.md`): zrobione K3, K5, K6, K7 (31 państw usuniętych, zostało 165); K1, K2, K4 i pilot założeń czekają na wspólny start @A43 (`AGENTS/phases/phase-1.2b/poprawki/faza-edycji-danych.md`).
 6. ⏳ Kontrola (A31):
    - ✅ automatyczny `audit` dla wszystkich krajów: `AGENTS/phases/phase-1.2b/audit/audit-2026-10-14-1312.md`;
    - ~~przegląd próbki~~ → `AGENTS/plan/future-work.md` (@phase-1.2b:K8);

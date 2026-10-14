@@ -3,7 +3,7 @@ gdp-current-usd,USD,World Bank WDI,NY.GDP.MKTP.CD,2026-10-08,GDP (current US$),c
 happiness-cantril,Cantril ladder 0..10,World Happiness Report (Gallup) via Our World in Data,happiness-cantril-ladder,2026-10-14,"Life evaluation, 3-year averages",country
 hdi,index 0..1,UNDP Human Development Report via Our World in Data,human-development-index,2026-10-14,Human Development Index,country
 land-borders,1 = shared land border,GeoNames countryInfo.txt (today's borders),,2026-10-14,Countries sharing a land border; current borders applied to all years both countries exist,dyad-symmetric
-land-borders-historical,1 = shared land border,manual: data/manual/historical-land-borders.csv,,2026-10-14,"Borders that existed only before today's borders (USSR, Czechoslovakia, Yugoslavia, Sudan before 2011)",dyad-symmetric
+land-borders-historical,1 = shared land border,manual: data/manual/historical-land-borders.csv,,2026-10-14,"Borders that existed only before today's borders (USSR, Czechoslovakia, Yugoslavia, Sudan before 2011); plus borders missing in GeoNames (BWA-ZMB)",dyad-symmetric
 migrant-stock-share,% of population,World Bank WDI (UN DESA International Migrant Stock),SM.POP.TOTL.ZS,2026-10-14,International migrant stock; every 5 years,country
 net-migration,people per year (immigrants - emigrants),World Bank WDI (UN Population Division),SM.POP.NETM,2026-10-14,Net migration,country
 population,people,World Bank WDI (UN Population Division),SP.POP.TOTL,2026-10-14,Total population (needed for migration rates),country

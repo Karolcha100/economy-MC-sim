@@ -9,7 +9,7 @@
 0. **`AGENTS/README.md`**: mapa folderu i zasady. Szybki przegląd stanu: `venv/bin/python -m agents_board --static /tmp/board.html` (albo przeglądanie plików).
 1. **`AGENTS/talk/od-autora-dla-llmow.md`**: przeczytaj nowe uwagi i oznacz każdą jako przeczytaną, dopisując na końcu jej linii `— *przeczytane: RRRR-MM-DD (model)*`. Poza tym w tym pliku **nic nie piszesz**.
 2. **`AGENTS/plan/phases-plans.md`**: na jakim etapie jest projekt.
-2b. **Najnowszy plik w `AGENTS/talk/koniec/`** (jeśli jest nowszy niż Twój ostatni briefing): lista tego, na co autor odpowiedział w GUI — od tego zaczynasz.
+2b. **Najnowszy plik w `AGENTS/talk/koniec/`** (jeśli jest nowszy niż Twój ostatni briefing): lista tego, na co autor odpowiedział w GUI — od tego zaczynasz. **Mimo to sprawdź pliki zmienione od Twojego ostatniego briefingu** (`find AGENTS -name "*.md" -newer AGENTS/talk/briefings/<ostatni>.md` albo `git status`) i przeczytaj tylko je — lista z Konca może być niepełna (@T020).
 3. **`AGENTS/todo/author/raport-TODO-autora.md`**: nowe wpisy autora. Na każdy odpowiedz blokiem LLM (format niżej).
 4. **`AGENTS/talk/threads/`**: wątki, w których ostatni wpis jest od autora. Odpowiadasz w tym samym wątku. `wymiana-zdan-A1.md` to archiwum: nic tam nie dopisujemy.
 5. **`TODO-dla-LLM.md`** (ten folder): wybierz zadanie.
@@ -108,3 +108,29 @@ Nie zmieniaj ich bez aktualizacji `agents_board/model.py` i testów `tests/test_
 ## Pytania o opinię (uwaga autora, wątek T017)
 
 "Co ty na to…?", "jak widzisz…?", "co sądzisz…?" to **pytania o opinię, nie zgoda na działanie**. Odpowiadasz plusami, minusami i rekomendacją, dodajesz zadanie A z decyzją i niczego nie uruchamiasz, dopóki autor wyraźnie nie zdecyduje ("robimy", "zgoda", "wybieram…").
+
+## Plany i raporty: jeden plik na zadanie (@T022)
+
+Plan poprawki, raport albo propozycja dla konkretnego zadania lub pytania = **osobny plik** (np. `AGENTS/phases/phase-1.2b/poprawki/K1-import-ucdp.md`), podlinkowany w tym zadaniu. Plik zbiorczy może istnieć, ale tylko jako spis z linkami.
+
+**Każdy plik dla autora zaczyna się od sekcji „Co masz zrobić”** (uwaga autora 2026-10-14, @A36/@A37/@A38): jednym-dwoma zdaniami problem prostymi słowami, potem **pytanie albo decyzja do podjęcia** z gotowymi opcjami (np. „wystarczy: tak, −30”). Szczegóły techniczne dopiero niżej. To samo w blokach odpowiedzi w raporcie autora.
+
+## Praca wielu agentów naraz (wnioski z reguły „tylko 2025”, zaakceptowane: @A35)
+
+Szczegóły: `AGENTS/phases/phase-1.2b/regula-2025.md`.
+1. **Komórki wspólne dla dwóch państw** (relacje dwustronne) nie są zadaniem agentów krajowych. Robi je jeden agent w osobnym zadaniu „przegląd par”; agenci krajowi tylko zgłaszają kandydatów.
+2. **Każde ograniczenie ma ścieżkę dla wyjątków**: „nie zmieniaj X” zawsze razem z „zgłoś kandydata do pliku CSV Y” (np. `para, lata, typ, źródło`), żeby koordynator dopisał je skryptem, a nie z 392 raportów.
+3. **`confirm-default` nie potwierdza zgłoszonych wyjątków** (opcja `--except`, @L48).
+4. **Plan fazy ma krok koordynatora** po fali agentów: rozstrzygnięcie zgłoszeń, zanim `missing` = 100% zamknie fazę.
+5. **Pilot na zróżnicowanych przypadkach** (np. państwo z wojnami i państwo bez) przed pełną falą.
+6. **Jedno źródło zasad**: zmiana reguły w prompcie agenta = zmiana w instrukcji fazy (albo wyraźny zapis, że prompt ją zastępuje).
+
+*Dopisane 2026-10-14 14:30 — Claude Opus 5.5*
+
+## Pytania przeniesione do zadań (@T019)
+
+- Pytanie z Decyzją `⏳ w toku → @A43` to sprawa przeniesiona do zadania (i/lub raportu): rozmowa toczy się pod zadaniem, odpowiadasz w raporcie jak zwykle.
+- `- **Propozycja końcowa:** (czeka na agenta)` = autor prosi o propozycję końcową: zastąp `(czeka na agenta)` swoją propozycją (zwięzłą, tak by mogła stać się decyzją). Autor w GUI ją akceptuje (Decyzja `✅ …`) albo odrzuca (`❌ odrzucona …: komentarz`) — wtedy rozmowa wraca do zadania.
+- Pola Decyzja `⏳ …` nie zmieniasz; `✅ …` wpisuje autor (GUI).
+
+*Dopisane 2026-10-14 15:23 — Claude Opus 5.5*

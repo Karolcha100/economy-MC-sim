@@ -261,6 +261,20 @@ python -m simulator audit --out AGENTS/phases/phase-1.2b/audit
 The map shows the reference countries (`reference-countries.csv`) with a year slider and works
 offline. Needs `pip install -e ".[viz]"` (plotly). Files go to `scenarios/<scenario>/views/` (not in git).
 
+## Removing countries
+
+`drop-tags` deletes countries from the whole scenario: `tags.csv`, `groups.csv`, `reference-countries.csv`,
+history (columns and dyadic rows) and every narrated file, plus their confirmed defaults. Logs
+(`history/fill-log.csv`, `narrated/changelog.csv`) keep their rows; re-importing a source later ignores
+columns that are not in `tags.csv`.
+
+```bash
+python -m simulator drop-tags --tags TUV,NRU --author MODEL --note "why"
+```
+
+Source files with old country codes (WGI: ROM, ZAR, WBG, KSV, ADO, TMP; Our World in Data: OWID_KOS) are
+mapped to our tags on import (`CODE_ALIASES` in `sources.py`).
+
 ## Validation
 
 ```bash

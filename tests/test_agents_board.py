@@ -235,3 +235,63 @@ def test_koniec_writes_summary_and_prompt(root):
     text = (root / res["path"]).read_text()
     assert res["path"].startswith("talk/koniec/") and "- A1. Pierwsze" in text and "dzięki" in text
     assert "AGENTS/" + res["path"] in res["prompt"]
+
+
+def test_koniec_counts_author_entries_since_last_koniec(root):
+    from agents_board.model import merge_answered
+    b = Board(root)
+    (root / "talk" / "koniec").mkdir()
+    (root / "talk" / "koniec" / "2026-10-14-0100.md").write_text("stary koniec")
+    assert b.last_koniec() == "2026-10-14 01:00"
+    # T001: author entry 01:00 is not newer than the last Koniec, agent entries never count
+    assert b.activity() == []
+    b.append_thread("talk/threads/T001-pytanie.md", "dalej", file_version(root / "talk/threads/T001-pytanie.md"))
+    b.create_thread("Nowy temat", "treść")
+    b.append_report("A1", "Pierwsze", "uwaga", file_version(root / "todo/author/raport-TODO-autora.md"))
+    act = b.activity()
+    assert "T001 · Pytanie — odpowiedź w wątku" in act and "T002 · Nowy temat — nowy wątek" in act
+    assert "A1. Pierwsze — wpis w raporcie" in act
+    assert merge_answered(["A1. Pierwsze — status [x]"], act)[0] == "A1. Pierwsze — status [x]"
+    assert len(merge_answered(["A1. Pierwsze — status [x]"], act)) == 3
+    text = (root / b.write_koniec([])["path"]).read_text()
+    assert "T002 · Nowy temat — nowy wątek" in text and "A1. Pierwsze" in text
+
+
+def test_question_to_task_and_final_answer(root):
+    b = Board(root)
+    rel = "phases/phase-x/agents-issues-0.md"
+    res = b.move_issue(rel, "W1", file_version(root / rel), "chyba tak", to_task=True, to_report=True)
+    assert res["task"] == "A3"
+    todo = (root / "todo/author/WAZNE-TODO-dla-autora.md").read_text()
+    assert "- [ ] **A3. W1: 🔴 Skala** — z pytania @phase-x:W1" in todo
+    assert todo.index("A3.") > todo.index("A2.")
+    assert "### [A3] W1: 🔴 Skala" in (root / "todo/author/raport-TODO-autora.md").read_text()
+    w1 = next(i for i in b.issues() if i.extra["id"] == "W1")
+    assert w1.status == "in-progress" and w1.extra["task"] == "A3" and "wstępnie: chyba tak" in w1.extra["decision"]
+    assert w1.key not in b.state()["waiting"]["issues"]
+
+    b.request_proposal(rel, "W1", file_version(root / rel))
+    assert next(i for i in b.issues() if i.extra["id"] == "W1").status == "in-progress"
+    text = (root / rel).read_text().replace("- **Propozycja końcowa:** (czeka na agenta)", "- **Propozycja końcowa:** skala 0..100")
+    (root / rel).write_text(text)
+    w1 = next(i for i in b.issues() if i.extra["id"] == "W1")
+    assert w1.status == "proposal" and w1.key in b.state()["waiting"]["issues"]
+    b.answer_proposal(rel, "W1", False, file_version(root / rel), "za mało")
+    assert next(i for i in b.issues() if i.extra["id"] == "W1").status == "in-progress"
+    (root / rel).write_text((root / rel).read_text().replace("- **Propozycja końcowa:** ❌", "- **Propozycja końcowa:** nowa\n  ❌", 1))
+    b.answer_proposal(rel, "W1", True, file_version(root / rel))
+    w1 = next(i for i in b.issues() if i.extra["id"] == "W1")
+    assert w1.status == "answered" and w1.extra["decision"].startswith("✅ nowa")
+    assert "### W2." in (root / rel).read_text()   # the next question is untouched
+
+
+def test_question_final_answer_by_author(root):
+    b = Board(root)
+    rel = "phases/phase-x/agents-issues-0.md"
+    b.move_issue(rel, "W1", file_version(root / rel), "", to_task=False, to_report=True)
+    assert "### [phase-x:W1]" in (root / "todo/author/raport-TODO-autora.md").read_text()
+    b.final_answer(rel, "W1", "Tak, skala 0..100", file_version(root / rel))
+    w1 = next(i for i in b.issues() if i.extra["id"] == "W1")
+    assert w1.status == "answered" and w1.extra["decision"] == "✅ Tak, skala 0..100"
+    with pytest.raises(BoardError, match="ma już decyzję"):
+        b.move_issue(rel, "W1", file_version(root / rel))

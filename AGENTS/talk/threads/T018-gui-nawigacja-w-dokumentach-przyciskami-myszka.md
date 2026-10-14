@@ -13,3 +13,24 @@ Będę dozgonnie wdzięczny za dodanie możliwości cofania się po kolejnych do
 ---
 ---
 ---
+
+Zrobione (@L47). Każdy otwarty dokument jest teraz wpisem w historii przeglądarki, więc działają:
+- **◀ ▶** w górnym pasku (obok „Drzewo”);
+- **Alt+← / Alt+→**;
+- **boczne przyciski myszy** (wstecz / dalej) — przeglądarka mapuje je na historię sama.
+
+Ponowne wczytanie tego samego dokumentu (np. po „Odśwież”) nie dodaje wpisu. Żeby zobaczyć zmiany, **uruchom serwer od nowa** (`venv/bin/python -m agents_board`) i odśwież stronę — zmienił się też kod przycisku Koniec (@T020).
+
+*2026-10-14 14:31 — Claude Opus 5.5*
+
+---
+---
+---
+
+🔒 Wątek zamknięty.
+
+*2026-10-14 15:09 — Autor*
+
+---
+---
+---
