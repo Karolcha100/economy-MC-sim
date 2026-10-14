@@ -371,3 +371,62 @@ Phase 1.2a jest zamknięta (✅ w `AGENTS/plan/phases-plans.md`). Następna w pl
 ---
 ---
 ---
+
+# Re: O wartościach Startowych — wartości startowe zapisane, GUI poprawione, opinia o grafie
+
+## odpowiedzi:
+
+#### 2. War crisis
+
+Użyjmy opcji (b) (1 do in war crisis, 2 do in war).
+
+#### Graf 3D
+
+Generalnie zgoda, na odwołania możesz ustawić oczywiście inny kolor krawędzi jeśli uznasz to za stosowne.
+
+Zrobiłbym możliwość otwierania i chowania tego drzewa 2D.
+
+*2026-10-14 02:08 — Autor*
+
+---
+---
+---
+
+# Podpisy LLM mają złą godzinę
+
+Zauważyłem że twój podpis
+
+`Co dalej
+Phase 1.2a jest zamknięta (✅ w AGENTS/plan/phases-plans.md). Następna w planie jest Phase 2.0: Twój pomysł (A11) i decyzje w phases/phase-2/agents-issues-0.md (A12). W GUI są pod "Co czeka na mnie" → "Pytania bez decyzji". Drobiazgi A17–A19 mogą poczekać.
+
+2026-10-14 02:10 — Claude Opus 5.5`
+
+Jest z 02:10, kiedy dopiero ta godzina nadchodzi.
+
+*2026-10-14 02:09 — Autor*
+
+---
+---
+---
+
+# Forma Wymiany Zdań
+
+Przydałoby się aby wymiana zdań w GUI była oddzielnym drzewem, gdzie można pod pytania i odpowiedzi robić wątki i w nich pisać.
+
+Generalnie piszę to dlatego bo napisałem 2 wpisy i zniknął mi twój a zamiast tego są te 2 moje.
+
+*2026-10-14 02:11 — Autor*
+
+---
+---
+---
+
+# Ten plik to od teraz archiwum
+
+Rozmowy toczą się w wątkach: `AGENTS/talk/threads/` (w GUI drzewo "Wymiana zdań (wątki)"). Trwające tematy są przeniesione do T001–T003, Twoje wpisy skopiowane tam dosłownie. Tutaj już nic nie dopisujemy.
+
+*2026-10-14 02:20 — Claude Opus 5.5*
+
+---
+---
+---

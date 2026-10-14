@@ -3,7 +3,13 @@
 The .md files stay the source of truth; this module only relies on their conventions:
     TODO item       - [ ] **A12. title** rest of the line…   (indented lines continue the item)
     issue section   ### W1. 🔴 title  …  - **Decyzja:** text
-    conversation    entries separated by three '---' lines, each starting with '# title'
+    thread          talk/threads/T001-slug.md: header '# T001 · title', then entries separated by
+                    three '---' lines, each ending with a signature '*YYYY-MM-DD HH:MM — who*'
+                    optional header line '*Odgałęzienie od: T002*' (sub-thread); an entry starting with
+                    '🔒' closes the thread
+    archive         talk/wymiana-zdan-*.md: the old single conversation, read-only in the GUI
+    briefing        talk/briefings/RRRR-MM-DD-HHMM.md: the agent's end-of-session summary (newest shown)
+    mention         @T002, @A12, @L3, @phase-2:R1 — links to threads, tasks and questions
 Every write checks a content hash taken when the page was rendered, so an answer never
 overwrites a file that changed in the meantime (e.g. edited in VS Code).
 """
@@ -14,6 +20,7 @@ import hashlib
 import os
 import re
 import tempfile
+import unicodedata
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from pathlib import Path
@@ -27,6 +34,11 @@ ISSUE_RE = re.compile(r"^### (?P<id>[A-Z]+\d+)\.\s*(?P<title>.*)$")
 DECISION_MARK = "- **Decyzja:**"
 SEPARATOR = "---\n---\n---"
 LLM_SIGNATURE_RE = re.compile(r"—\s*(Claude|GPT|Gemini|LLM|model)", re.IGNORECASE)
+SIGNATURE_RE = re.compile(r"^\*\d{4}-\d{2}-\d{2} \d{2}:\d{2} — .+\*$")
+THREAD_TITLE_RE = re.compile(r"^# (?P<id>T\d+) · (?P<title>.+)$")
+PARENT_RE = re.compile(r"^\*Odgałęzienie od: (?P<parent>T\d+)\*$", re.MULTILINE)
+CLOSED_MARK = "🔒"
+HELP = Path(__file__).parent / "HELP.md"
 
 
 class BoardError(Exception):
@@ -81,6 +93,21 @@ def split_entries(text: str) -> list[tuple[int, str]]:
         if "".join(chunk).strip():
             out.append((first, "\n".join(chunk).strip()))
     return out
+
+
+def ascii_slug(text: str, limit: int = 50) -> str:
+    """'Forma wymiany zdań' -> 'forma-wymiany-zdan' (no Polish letters in file names)."""
+    text = unicodedata.normalize("NFKD", text.replace("ł", "l").replace("Ł", "L"))
+    text = "".join(c for c in text if not unicodedata.combining(c)).lower()
+    return re.sub(r"[^a-z0-9]+", "-", text).strip("-")[:limit].rstrip("-") or "watek"
+
+
+def thread_header(thread_id: str, title: str, parent: str = "") -> str:
+    return (f"# {thread_id} · {title}\n\n"
+            + (f"*Odgałęzienie od: {parent}*\n\n" if parent else "")
+            + 
+            "*Wątek. Wpisy oddzielone trzema liniami `---`; każdy kończy się podpisem "
+            "`*RRRR-MM-DD GG:MM — kto*`. Nowe wpisy tylko na końcu, wcześniejszych nie edytujemy.*")
 
 
 # --- tree model --------------------------------------------------------------------------
@@ -168,19 +195,45 @@ class Board:
                 ))
         return items
 
-    def talk(self) -> list[Item]:
+    def threads(self) -> list[Item]:
+        """Conversation threads (talk/threads/) plus old conversation files as read-only archives."""
         items = []
-        for path in sorted(self.root.glob("talk/wymiana-zdan-*.md")):
-            for k, (line_no, body) in enumerate(split_entries(path.read_text(encoding="utf-8"))):
-                title_line = next((line for line in body.splitlines() if line.startswith("# ")), None)
-                title = title_line[2:].strip() if title_line else ("Zasady pliku" if k == 0 else body.splitlines()[0][:60])
+        paths = [(p, False) for p in sorted(self.root.glob("talk/threads/T*.md"))]
+        paths += [(p, True) for p in sorted(self.root.glob("talk/wymiana-zdan-*.md"))]
+        for path, archive in paths:
+            parts = split_entries(path.read_text(encoding="utf-8"))
+            if not parts:
+                continue
+            header_line, header = parts[0]
+            m = THREAD_TITLE_RE.match(header.splitlines()[0]) if not archive else None
+            entries = []
+            for line_no, body in (parts if archive else parts[1:]):
                 last = body.splitlines()[-1]
-                items.append(Item(
-                    key=f"talk:{self.rel(path)}:{line_no}", kind="talk", title=title, path=self.rel(path),
-                    line=line_no, text=body, owner="llm" if LLM_SIGNATURE_RE.search(last) else "author",
-                    group=path.stem, version=file_version(path),
-                ))
+                title_line = next((x for x in body.splitlines() if x.startswith("# ")), None)
+                entries.append({
+                    "line": line_no, "text": body,
+                    "owner": "llm" if LLM_SIGNATURE_RE.search(last) else "author",
+                    "title": (title_line[2:].strip() if title_line else body.splitlines()[0].strip())[:90],
+                    "signature": last.strip("* ") if SIGNATURE_RE.match(last.strip()) else "",
+                })
+            thread_id = m["id"] if m else path.stem
+            title = m["title"].strip() if m else f"Archiwum: {path.stem}"
+            parent = PARENT_RE.search(header)
+            closed = archive or any(e["text"].lstrip().startswith(CLOSED_MARK) for e in entries)
+            items.append(Item(
+                key=f"thread:{self.rel(path)}", kind="thread", title=title, path=self.rel(path),
+                line=header_line, text=header, owner=entries[-1]["owner"] if entries else "author",
+                group="archive" if archive else "threads", version=file_version(path),
+                extra={"id": thread_id, "entries": entries, "archive": archive, "closed": closed,
+                       "parent": parent["parent"] if parent else ""},
+            ))
         return items
+
+    def briefings(self) -> list[dict]:
+        """Agent briefings, newest first: [{name, text}]."""
+        folder = self.root / "talk" / "briefings"
+        return [{"name": p.stem, "path": self.rel(p), "text": p.read_text(encoding="utf-8")}
+                for p in sorted(folder.glob("*.md"), reverse=True)] if folder.exists() else []
 
     def files(self) -> list[Item]:
         return [
@@ -191,23 +244,22 @@ class Board:
         ]
 
     def state(self) -> dict:
-        todos, issues, talk = self.todos(), self.issues(), self.talk()
-        last_talk = {}
-        for t in talk:
-            last_talk[t.path] = t
-        waiting_talk = [t for t in last_talk.values() if t.owner == "llm"]
+        todos, issues, threads = self.todos(), self.issues(), self.threads()
+        waiting_threads = [t for t in threads if not t.extra["closed"] and t.owner == "llm"]
         notes_path = self.root / "talk" / "od-autora-dla-llmow.md"
         return {
             "root": str(self.root),
             "generated": now(),
             "todos": [asdict(t) for t in todos],
             "issues": [asdict(i) for i in issues],
-            "talk": [asdict(t) for t in talk],
+            "threads": [asdict(t) for t in threads],
             "files": [asdict(f) for f in self.files()],
+            "briefings": self.briefings(),
+            "help": HELP.read_text(encoding="utf-8") if HELP.exists() else "",
             "waiting": {
                 "issues": [i.key for i in issues if i.status == "open"],
                 "todos": [t.key for t in todos if t.owner == "author" and t.status in OPEN_STATUSES],
-                "talk": [t.key for t in waiting_talk],
+                "threads": [t.key for t in waiting_threads],
             },
             "versions": {
                 "report": file_version(self.root / "todo" / "author" / "raport-TODO-autora.md"),
@@ -263,16 +315,40 @@ class Board:
         content += f"\n\n### [{todo_id}] {title.strip()}\n\n{text}\n\n*{now()} — Autor*\n\n---\n"
         _write_atomic(path, content)
 
-    def append_talk(self, rel: str, title: str, text: str, version: str) -> None:
-        title, text = title.strip(), text.strip()
-        if not title or not text:
-            raise BoardError("Potrzebny tytuł i treść.")
+    def append_thread(self, rel: str, text: str, version: str) -> None:
+        """Add the author's entry at the end of a thread."""
+        text = text.strip()
+        if not text:
+            raise BoardError("Pusty wpis.")
+        if not rel.startswith("talk/threads/"):
+            raise BoardError("Można pisać tylko w wątkach (talk/threads/); stara wymiana zdań to archiwum.")
         path = self.resolve(rel)
         content = _check_version(path, version).rstrip()
         if not content.endswith(SEPARATOR):
             content += "\n\n" + SEPARATOR
-        content += f"\n\n# {title}\n\n{text}\n\n*{now()} — Autor*\n\n{SEPARATOR}\n"
+        content += f"\n\n{text}\n\n*{now()} — Autor*\n\n{SEPARATOR}\n"
         _write_atomic(path, content)
+
+    def close_thread(self, rel: str, version: str, note: str = "") -> None:
+        """The author closes a thread: an entry starting with 🔒."""
+        text = f"{CLOSED_MARK} Wątek zamknięty." + (f" {note.strip()}" if note.strip() else "")
+        self.append_thread(rel, text, version)
+
+    def create_thread(self, title: str, text: str, parent: str = "") -> str:
+        """Start a new thread file (optionally branched from another thread); returns its path."""
+        title, text, parent = " ".join(title.split()), text.strip(), parent.strip()
+        if not title or not text:
+            raise BoardError("Potrzebny tytuł i treść.")
+        if parent and not re.fullmatch(r"T\d+", parent):
+            raise BoardError(f"Zły numer wątku nadrzędnego: {parent!r}")
+        folder = self.root / "talk" / "threads"
+        folder.mkdir(parents=True, exist_ok=True)
+        numbers = [int(m.group(1)) for p in folder.glob("T*.md") if (m := re.match(r"T(\d+)", p.name))]
+        thread_id = f"T{max(numbers, default=0) + 1:03d}"
+        path = folder / f"{thread_id}-{ascii_slug(title)}.md"
+        _write_atomic(path, thread_header(thread_id, title, parent)
+                      + f"\n\n{SEPARATOR}\n\n{text}\n\n*{now()} — Autor*\n\n{SEPARATOR}\n")
+        return self.rel(path)
 
     def append_note(self, text: str, version: str) -> None:
         text = " ".join(text.split())

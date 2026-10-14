@@ -14,4 +14,4 @@ Drobiazgi, kiedy będzie chwila. Zasady: `INSTRUKCJA.md`.
   Ewentualnie dopisać inne grupy (G7, BRICS, SCO, Trójmorze).
 - [ ] **A8. `AGENTS/plan/phases-description.md`**: opis Phase 1.0 nadal wspomina `agents-issues.md` (stara nazwa; teraz `agents-issues-1.md`). To Twój tekst, więc go nie zmieniałem.
 - [ ] **A9. Środowisko na innym komputerze**: `python3 -m venv venv && venv/bin/pip install -e ".[dev,viz,notebooks]"`.
-- [ ] **A18. Widok grafu zadań** (Twój pomysł z 3D): moja opinia i propozycja (graf 2D w tym samym GUI) w `AGENTS/talk/wymiana-zdan-A1.md`. Robimy? *(dodane 2026-10-14 02:10)*
+- [x] **A18. Widok grafu zadań** (Twój pomysł z 3D): moja opinia i propozycja (graf 2D w tym samym GUI) w `AGENTS/talk/wymiana-zdan-A1.md`. Robimy? *(dodane 2026-10-14 02:10; odpowiedź: tak, ze zwijaniem — zrobione 2026-10-14 02:22, wątek T003)*

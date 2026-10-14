@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from agents_board.model import Board, BoardError, StaleFile, file_version, split_entries
+from agents_board.model import Board, BoardError, StaleFile, ascii_slug, file_version, split_entries
 from agents_board.server import make_handler, render_page
 
 ISSUES = """# Pytania
@@ -56,6 +56,32 @@ odpowiedź
 """
 
 
+THREAD = """# T001 · Pytanie
+
+*Wątek.*
+
+---
+---
+---
+
+Pytanie autora
+
+*2026-10-14 01:00 — Autor*
+
+---
+---
+---
+
+Odpowiedź
+
+*2026-10-14 01:05 — Claude Opus 5.5*
+
+---
+---
+---
+"""
+
+
 @pytest.fixture
 def root(tmp_path: Path) -> Path:
     r = tmp_path / "AGENTS"
@@ -66,6 +92,8 @@ def root(tmp_path: Path) -> Path:
     (r / "todo" / "author" / "WAZNE-TODO-dla-autora.md").write_text(TODO)
     (r / "todo" / "author" / "raport-TODO-autora.md").write_text("Raport\n\n---\n")
     (r / "talk" / "wymiana-zdan-A1.md").write_text(TALK)
+    (r / "talk" / "threads").mkdir()
+    (r / "talk" / "threads" / "T001-pytanie.md").write_text(THREAD)
     (r / "talk" / "od-autora-dla-llmow.md").write_text("Uwagi:\n\n1. Pierwsza.\n")
     return r
 
@@ -76,11 +104,13 @@ def test_parse(root):
     assert issues["W1"].status == "open" and issues["W2"].extra["decision"] == "Zgoda"
     todos = {t.extra["id"]: t for t in b.todos()}
     assert todos["A1"].status == " " and "ciąg dalszy" in todos["A1"].text and todos["A1"].group == "Ważne"
-    talk = b.talk()
-    assert [t.owner for t in talk] == ["author", "author", "llm"]
-    assert talk[-1].title == "Re: Pytanie autora"
+    threads = {t.extra["id"]: t for t in b.threads()}
+    t1, archive = threads["T001"], threads["wymiana-zdan-A1"]
+    assert t1.title == "Pytanie" and [e["owner"] for e in t1.extra["entries"]] == ["author", "llm"]
+    assert t1.extra["entries"][1]["signature"] == "2026-10-14 01:05 — Claude Opus 5.5"
+    assert archive.extra["archive"] and len(archive.extra["entries"]) == 3
     st = b.state()
-    assert st["waiting"]["issues"] == [issues["W1"].key] and st["waiting"]["talk"] == [talk[-1].key]
+    assert st["waiting"]["issues"] == [issues["W1"].key] and st["waiting"]["threads"] == [t1.key]
 
 
 def test_split_entries_handles_consecutive_separators():
@@ -118,11 +148,18 @@ def test_status_report_talk_note(root):
     b.append_report("A1", "Pierwsze", "zrobione", file_version(rep))
     assert "### [A1] Pierwsze\n\nzrobione\n\n*" in rep.read_text() and rep.read_text().endswith("— Autor*\n\n---\n")
 
-    talk = "talk/wymiana-zdan-A1.md"
-    b.append_talk(talk, "Re: Re", "dzięki", file_version(root / talk))
-    entries = split_entries((root / talk).read_text())
-    assert entries[-1][1].startswith("# Re: Re\n\ndzięki") and len(entries) == 4
-    assert b.talk()[-1].owner == "author"
+    thread = "talk/threads/T001-pytanie.md"
+    b.append_thread(thread, "dzięki", file_version(root / thread))
+    t1 = next(t for t in b.threads() if t.extra["id"] == "T001")
+    assert t1.owner == "author" and t1.extra["entries"][-1]["text"].startswith("dzięki")
+    with pytest.raises(BoardError, match="archiwum"):
+        b.append_thread("talk/wymiana-zdan-A1.md", "x", file_version(root / "talk/wymiana-zdan-A1.md"))
+
+    new = b.create_thread("Forma wymiany zdań", "treść")
+    assert new == "talk/threads/T002-forma-wymiany-zdan.md"
+    t2 = next(t for t in b.threads() if t.extra["id"] == "T002")
+    assert t2.title == "Forma wymiany zdań" and t2.extra["entries"][0]["owner"] == "author"
+    assert ascii_slug("Łódź — źródła") == "lodz-zrodla"
 
     notes = root / "talk/od-autora-dla-llmow.md"
     b.append_note("Druga  uwaga", file_version(notes))
@@ -163,3 +200,31 @@ def test_server_requires_token(root):
         assert e.value.code == 409
     finally:
         srv.shutdown()
+
+
+def test_branch_close_and_briefings(root):
+    b = Board(root)
+    child = b.create_thread("Wzmianki", "treść", parent="T001")
+    assert "*Odgałęzienie od: T001*" in (root / child).read_text()
+    threads = {t.extra["id"]: t for t in b.threads()}
+    assert threads["T002"].extra["parent"] == "T001" and not threads["T002"].extra["closed"]
+    with pytest.raises(BoardError, match="nadrzędnego"):
+        b.create_thread("x", "y", parent="../T001")
+
+    t1 = "talk/threads/T001-pytanie.md"
+    b.close_thread(t1, file_version(root / t1), "dzięki")
+    t = next(x for x in b.threads() if x.extra["id"] == "T001")
+    assert t.extra["closed"] and t.extra["entries"][-1]["text"].startswith("🔒 Wątek zamknięty. dzięki")
+    assert t.key not in b.state()["waiting"]["threads"]  # closed threads never wait
+
+    (root / "talk" / "briefings").mkdir()
+    (root / "talk" / "briefings" / "2026-10-14-0100.md").write_text("stary")
+    (root / "talk" / "briefings" / "2026-10-14-0200.md").write_text("nowy")
+    assert [x["text"] for x in b.state()["briefings"]] == ["nowy", "stary"]
+
+
+def test_state_includes_help():
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        st = Board(Path(d)).state()
+    assert "AGENTS board" in st["help"]

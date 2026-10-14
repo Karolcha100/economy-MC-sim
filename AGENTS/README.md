@@ -25,7 +25,9 @@ AGENTS/
     llm/                          zadania agentów L…, raport agentów, instrukcja
   talk/
     od-autora-dla-llmow.md        ogólne uwagi autora (agenci tylko oznaczają jako przeczytane)
-    wymiana-zdan-A1.md            dłuższa rozmowa
+    threads/T001-….md             rozmowy: jeden temat = jeden wątek; odgałęzienia, zamykanie 🔒 (od 2026-10-14)
+    briefings/RRRR-MM-DD-GGMM.md  podsumowanie każdej sesji agenta (to samo co w okienku czatu)
+    wymiana-zdan-A1.md            archiwum dawnej rozmowy (tylko odczyt)
 ```
 
 ## Zasady
@@ -39,7 +41,15 @@ AGENTS/
 
 ## GUI: `python -m agents_board`
 
-- Drzewo: co czeka na autora (pytania bez decyzji, zadania A, wymiana zdań), zadania agentów, wszystkie pliki.
+- Drzewa do wyboru:
+  - "Co czeka na mnie": pytania bez decyzji, otwarte zadania A, wątki z odpowiedzią agenta, ➕ nowy wątek;
+  - "Wymiana zdań (wątki)": wątki → wpisy, cała rozmowa jako karty, pole "Odpowiedz w wątku";
+  - "Według rodzaju" i "Według plików";
+  - "Graf": drzewo 2D, klik w grupę zwija/rozwija, czerwone krawędzie = odwołania między numerami (A13 ↔ L3…).
+- "📋 Briefing" (u góry): podsumowanie ostatniej sesji agenta; "❓ Instrukcja": pełna instrukcja GUI (`agents_board/HELP.md`).
+- "📌 Przypnij obok": druga, tylko do czytania kolumna po prawej (np. briefing obok wątku); szerokości i wysokość pola odpowiedzi zmienia się, przeciągając szare paski.
+- Wzmianki: w każdym polu wpisz `@`, żeby wskazać wątek (`@T002`), zadanie (`@A12`, `@L3`) albo pytanie (`@phase-2:R1`); w tekście stają się linkami.
+- W wątku: "↳ Nowy wątek od tego" (odgałęzienie) i "🔒 Zamknij wątek".
 - Po kliknięciu pozycji widać jej pełny tekst, a pod nim pole odpowiedzi. Tekst zostaje na ekranie podczas pisania.
 - Odpowiedzi trafiają do właściwych plików `.md` (pole Decyzja, raport autora, wymiana zdań), a pliki dalej można edytować ręcznie.
 - `python -m agents_board --read-only` — tylko podgląd.

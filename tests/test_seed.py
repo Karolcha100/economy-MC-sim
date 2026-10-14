@@ -76,3 +76,29 @@ def test_review_flags_deviation_from_seed(seeded):
     w = review(seeded)
     dev = w[w["check"] == "seed-deviation"]
     assert dev[["target", "year"]].values.tolist() == [["POL", 1993]]
+
+
+def test_pairs_between_and_safe_reset(seeded, tmp_path):
+    from simulator.io import SimulatorError
+    from simulator.seed import reset_seeded
+
+    levels = tmp_path / "levels.csv"
+    pd.DataFrame({"side_a": ["POL", "DEU"], "side_b": ["RUS", "RUS"], "from": [1990, 1990], "to": [1990, 1990],
+                  "note": ["", ""]}).to_csv(levels, index=False)
+    import_dyadic(seeded, "levels", levels, "pair-ranges")  # all value 1
+    (seeded.root / "seeds.csv").write_text(
+        "kind,name,source,transform,a,b,note\n"
+        "relations-doublesided,in war,levels,pairs-between,2,2,only level 2\n"
+    )
+    assert apply_seeds(seeded).set_index("name").at["in war", "written"] == 0
+    (seeded.root / "seeds.csv").write_text(
+        "kind,name,source,transform,a,b,note\n"
+        "relations-doublesided,in war,levels,pairs-between,1,1,level 1\n"
+    )
+    assert apply_seeds(seeded).set_index("name").at["in war", "written"] == 2
+    assert reset_seeded(seeded, "doublesided", "in war") == 4  # 2 pairs x 2 cells
+    assert show(seeded, "doublesided", "in war", "POL:RUS", "1990")["POL:RUS"].isna().all()
+    apply_operations(seeded, [Operation(kind="doublesided", name="in war", targets="POL:RUS", years="1991",
+                                        curve="constant", start=1, rationale="manual")], author="llm")
+    with pytest.raises(SimulatorError, match="non-seed"):
+        reset_seeded(seeded, "doublesided", "in war")

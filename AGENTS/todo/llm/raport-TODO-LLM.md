@@ -150,3 +150,116 @@ Każdy wpis: `### [L…] tytuł`, co zrobiono, gdzie, jak sprawdzono, co został
 *2026-10-14 02:10 — Claude Opus 5.5*
 
 ---
+
+### [L17] [L18] [L19] Graf, wątki, wojny (opcja b)
+
+- **L19:**
+  - nowa transformacja `pairs-between` (wartości od a do b) i `python -m simulator seed --name … --reset`. Reset czyści wzór tylko wtedy, gdy w changelogu są wyłącznie zapisy wartości startowych; inaczej odmawia;
+  - `in war` po resecie: 52 par-lat (UCDP poziom 2); `in war crisis`: 251 par-lat (poziom 1, np. RUS–UKR 2014–2021).
+- **L18:**
+  - wątki `AGENTS/talk/threads/T001-….md` (nagłówek `# T001 · tytuł`, wpisy oddzielone `---` ×3, podpis w ostatniej linii);
+  - GUI: drzewo "Wymiana zdań (wątki)", rozmowa jako karty, odpowiedź w wątku, nowy wątek;
+  - "Co czeka na mnie" pokazuje każdy wątek z ostatnim wpisem agenta;
+  - `wymiana-zdan-A1.md` = archiwum, tylko odczyt, z notką na końcu;
+  - trwające tematy przeniesione do T001–T003, wpisy autora skopiowane dosłownie.
+- **L17:** widok "Graf":
+  - drzewo 2D z zwijaniem i rozwijaniem; przy pierwszym otwarciu zwinięte są grupy bez otwartych spraw;
+  - czerwone krawędzie odwołań wyciągane z numerów w tekstach: A…/L… → zadania, T… → wątki, inne litery → pytania;
+  - kolor węzła = status.
+- Sprawdzenie:
+  - 64 testy;
+  - Firefox przez Selenium na kopii `AGENTS/`: odpowiedź w wątku, nowy wątek, zwinięcie grupy w grafie (118 → 43 węzły), brak błędów w konsoli;
+  - zrzuty ekranu.
+
+  Selenium i jego sterownik usunięte po teście.
+
+*2026-10-14 02:22 — Claude Opus 5.5*
+
+---
+
+### [L20] [L21] Wątki (odgałęzienia, zamykanie, @) i briefing
+
+- **Odgałęzienia:**
+  - `create_thread(..., parent)` → linia `*Odgałęzienie od: T…*`;
+  - GUI: przycisk "↳ Nowy wątek od tego", w drzewie wątki-dzieci wiszą pod rodzicem.
+- **Zamykanie:**
+  - wpis zaczynający się od `🔒`; przycisk "🔒 Zamknij wątek";
+  - zamknięte wątki trafiają do grupy "Zamknięte" i nigdy nie czekają w "Co czeka na mnie";
+  - T001 i T003 zamknięte zgodnie z ostatnimi wpisami autora.
+- **Wzmianki `@`:**
+  - podpowiadanie w każdym polu tekstowym (lista z numerem, statusem i tytułem; strzałki, Enter/Tab, Esc);
+  - w tekście klikalne linki;
+  - w grafie krawędzie, `@phase-2:R1` łączy się tylko z pytaniem z tej fazy.
+- **Briefing:**
+  - pliki `AGENTS/talk/briefings/RRRR-MM-DD-GGMM.md`;
+  - przycisk "📋 Briefing" pokazuje najnowszy, a wcześniejsze są jako linki;
+  - obowiązek dopisany do instrukcji agentów.
+- Sprawdzenie:
+  - 65 testów (w tym odgałęzienie, zamykanie, kolejność briefingów);
+  - Firefox przez Selenium na kopii: podpowiedź `@R1` → `@phase-2:R1`, wysłany wpis z linkami, odgałęzienie T006, zamknięcie wątku, przycisk Briefing i klik we wzmiankę.
+
+  Narzędzia testowe usunięte.
+
+*2026-10-14 02:37 — Claude Opus 5.5*
+
+---
+
+### [L22] GUI: instrukcja, okna, odgałęzienia
+
+- "❓ Instrukcja": treść w `agents_board/HELP.md` (edytowalna), dołączona do stanu GUI.
+- "📌 Przypnij obok": druga kolumna tylko do czytania (dowolna pozycja, np. briefing); pole odpowiedzi zawsze dla okna głównego.
+- Przeciągane paski: szerokość menu (osobno dla widoku Graf), szerokość okna przypiętego, wysokość pola odpowiedzi; zapamiętywane w przeglądarce.
+- Odgałęzienie pokazuje wpisy rodzica do chwili odgałęzienia (po dacie pierwszego wpisu), rekurencyjnie.
+- Skróty zmian: CRE/MOD/DEL (pamięć, instrukcja agentów, briefing).
+- Sprawdzenie:
+  - Firefox przez Selenium na kopii: instrukcja; T006 z 5 wpisami T002; przypięcie briefingu; przeciąganie pasków; zachowanie po odświeżeniu;
+  - zrzut ekranu;
+  - 65 testów.
+
+*2026-10-14 03:24 — Claude Opus 5.5*
+
+---
+
+### [L23] Phase 2.0 — runda 1
+
+- `agents-issues-1.md`, U1–U5:
+  - regularyzacja i agregaty zamiast pełnej listy krajów (U1);
+  - model relacji na parach (U2);
+  - rozgałęzianie z przycinaniem do N, rzadkie relacje, float32, wiele rdzeni (U3 — 10¹⁶ ścieżek i ~25 GB/rok bez tego);
+  - tury w obrębie roku (U4);
+  - `engine.toml` (U5).
+- Wątki:
+  - @T008 — trzy opcje szumu; bootstrap nie jest zasobożerny (~1 MB);
+  - @T005 — kolejność: 2.0 → pilot 1.2b → 2.1;
+  - @T007 — tury.
+- Zamknięte za zgodą autora: @T002, @T004.
+
+*2026-10-14 03:24 — Claude Opus 5.5*
+
+---
+
+### [L24] [L25] [L26] Projekt silnika, nowe wzory, poprawki GUI
+
+- `AGENTS/phases/phase-2/design.md` v0 — wszystkie decyzje Phase 2.0 w jednym miejscu:
+  - dwie wspólne regresje (wewnętrzna i par), dwie tury;
+  - zdarzenia przez regresję logistyczną;
+  - drzewo scenariuszy z `branching` na rok, szum, uczenie i sprawdzanie;
+  - numpy float32;
+  - `engine.toml`.
+- Wątki:
+  - @T009 — podsumowanie modelu (U2), odpowiedzi R7 i S3, pytanie o brakujące dane opisowe;
+  - @T010 — rozgałęzianie z liczbami: b=10 → 10 000 scenariuszy, ~1 GB; b=100 niewykonalne (~9 TB).
+- Wzory: `state collapse` (0/1), `economic dependence` (0–100, skierowana).
+- GUI:
+  - `[hidden]` wygrywa z regułami układu (po zamknięciu okna przypiętego pole odpowiedzi skakało na środek);
+  - przyciski okna przypiętego na środku, zielony i czerwony;
+  - bloki kodu wewnątrz list (formatowanie U5);
+  - listy numerowane zachowują numer z tekstu.
+- Sprawdzenie:
+  - Firefox przez Selenium: pozycja pola odpowiedzi przed i po zamknięciu okna przypiętego = 481 px w obu przypadkach;
+  - zrzut ekranu U5;
+  - 66 testów.
+
+*2026-10-14 04:14 — Claude Opus 5.5*
+
+---

@@ -87,3 +87,27 @@ Oznaczam jako "W toku" bo może coś jeszcze dodasz od siebie, odpowiedziałem w
 > 🤖 **ODPOWIEDŹ LLM — koniec**
 
 ---
+
+### [A21] Szum w Monte Carlo
+
+Odpowiedziałem, podałeś dobrą propozycję
+
+*2026-10-14 03:37 — Autor*
+
+---
+
+### [A22] Kolejność: 1.2b przed 2.1?
+
+Tak, zgadzam się.
+
+*2026-10-14 03:38 — Autor*
+
+---
+
+### [A20] Odpowiedzieć na AGENTS/phases/phase-2/agents-issues-1.md
+
+Chyba odpowiedziałem, zamknij jeśli jest okej.
+
+*2026-10-14 04:08 — Autor*
+
+---

@@ -10,7 +10,7 @@
 1. **`AGENTS/talk/od-autora-dla-llmow.md`**: przeczytaj nowe uwagi i oznacz każdą jako przeczytaną, dopisując na końcu jej linii `— *przeczytane: RRRR-MM-DD (model)*`. Poza tym w tym pliku **nic nie piszesz**.
 2. **`AGENTS/plan/phases-plans.md`**: na jakim etapie jest projekt.
 3. **`AGENTS/todo/author/raport-TODO-autora.md`**: nowe wpisy autora. Na każdy odpowiedz blokiem LLM (format niżej).
-4. **`AGENTS/talk/wymiana-zdan-A1.md`**: nowe wypowiedzi autora.
+4. **`AGENTS/talk/threads/`**: wątki, w których ostatni wpis jest od autora. Odpowiadasz w tym samym wątku. `wymiana-zdan-A1.md` to archiwum: nic tam nie dopisujemy.
 5. **`TODO-dla-LLM.md`** (ten folder): wybierz zadanie.
 6. Najnowsze pola **Decyzja** w `AGENTS/phases/phase-*/agents-issues-N.md`.
 
@@ -66,7 +66,15 @@ W `raport-TODO-autora.md` (i podobnych) **nie edytujesz tekstu autora**. Wyjąte
 ---
 ```
 
-## Wymiana zdań (`wymiana-zdan-A1.md`)
+## Wątki (`AGENTS/talk/threads/T001-….md`) — od 2026-10-14
+
+- Jeden temat = jeden plik. Nagłówek `# T001 · tytuł`, potem wpisy oddzielone trzema liniami `---`.
+- Wpis agenta: treść, pusta linia, podpis `*RRRR-MM-DD GG:MM — model*` jako **ostatnia linia**, pusta linia, `---` ×3. Wcześniejszych wpisów nie edytujesz.
+- Nowy temat od agenta: nowy plik z kolejnym numerem T i nagłówkiem jak w `agents_board/model.py` (`thread_header`); odgałęzienie od innego wątku: linia `*Odgałęzienie od: T002*` pod tytułem.
+- Wątek jest **zamknięty**, gdy któryś wpis zaczyna się od `🔒`. W zamkniętym wątku nie odpowiadasz; zamykasz tylko na wyraźne życzenie autora (z cytatem).
+- **Wzmianki**: `@T002` (wątek), `@A12` / `@L3` (zadanie), `@phase-2:R1` (pytanie w fazie). GUI robi z nich linki i krawędzie grafu. Używaj ich w wątkach, raportach i briefingu.
+
+## Archiwum: wymiana zdań (`wymiana-zdan-A1.md`, do 2026-10-14)
 
 Wpis zaczyna się od `---` ×3 i `# tytuł`, kończy podpisem z datą i godziną oraz **`---` ×3 na końcu** (prośba autora). Wcześniejszych wpisów nie edytujesz.
 
@@ -83,6 +91,10 @@ Nie zmieniaj ich bez aktualizacji `agents_board/model.py` i testów `tests/test_
 - raport autora: wpisy `### [A13] tytuł`.
 
 ## Ustalenia, które obowiązują zawsze
+
+- **Godzina w podpisie zawsze z `date "+%Y-%m-%d %H:%M"`**, uruchomionego tuż przed podpisem, nigdy szacowana (wątek T001).
+- **Briefing** (wątek T004): na koniec każdej sesji zapisz `AGENTS/talk/briefings/RRRR-MM-DD-GGMM.md` (godzina z `date`) z **tą samą treścią**, co odpowiedź w oknie czatu; w punktach "Do odpowiedzi" użyj wzmianek `@…`. GUI pokazuje go pod przyciskiem "📋 Briefing".
+- **Odpowiedź w oknie czatu** (uwaga autora nr 2): tylko (1) **Zmiany**: ścieżki plików z oznaczeniem **CRE/MOD/DEL** (created/modified/deleted; trzy litery — wątek T004); (2) **Do odpowiedzi**: rzeczy dla autora z miejscem w drzewie GUI (np. "Co czeka na mnie → Pytania bez decyzji → …") i bardzo krótkim opisem. Reszta trafia do plików w `AGENTS/`.
 
 - Komunikacja z autorem i pliki w `AGENTS/` po polsku; kod, nazwy plików i danych, `README.md` po angielsku.
 - Konwencje scenariusza `world-1990-2025` (lista państw, kontynuacje ZSRR/Jugosławii, `exists_from`): `simulator/README.md`.

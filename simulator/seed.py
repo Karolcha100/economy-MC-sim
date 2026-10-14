@@ -5,6 +5,7 @@ change them without code. Transforms:
     linear           value = a + b * x                      (x = history statistic)
     per-1000-linear  value = a + b * (x / population * 1000) (needs history 'population')
     pairs-at-least   pair value 1 where the dyadic history value >= a (relations only)
+    pairs-between    pair value 1 where a <= dyadic history value <= b (relations only)
 Values are clipped to the formula range (and rounded for int formulas). Gaps inside an indicator's
 range are interpolated linearly; years before its first / after its last value stay empty (for LLMs).
 Seeds never overwrite filled cells, so corrections made later by LLMs survive a re-run.
@@ -24,7 +25,8 @@ from simulator.scenario import Scenario
 from simulator.store import NarratedStore, append_changelog
 from simulator.templates import INTERNAL_GRADES, RELATIONS_DOUBLESIDED, resolve_kind
 
-TRANSFORMS = ("linear", "per-1000-linear", "pairs-at-least")
+TRANSFORMS = ("linear", "per-1000-linear", "pairs-at-least", "pairs-between")
+PAIR_TRANSFORMS = ("pairs-at-least", "pairs-between")
 SEED_COLUMNS = ["kind", "name", "source", "transform", "a", "b", "note"]
 
 
@@ -80,10 +82,13 @@ def country_values(scenario: Scenario, rule: Rule, formula: Formula) -> pd.DataF
 
 def pair_values(scenario: Scenario, rule: Rule) -> pd.DataFrame:
     """Pairs (date, side_a, side_b) that get value 1."""
-    if rule.transform != "pairs-at-least":
-        raise SimulatorError(f"{rule.name}: relations need the pairs-at-least transform")
+    if rule.transform not in PAIR_TRANSFORMS:
+        raise SimulatorError(f"{rule.name}: relations need one of the transforms {PAIR_TRANSFORMS}")
     d = load_dyadic(scenario, rule.source)
-    return d[d["value"] >= rule.a][["date", "side_a", "side_b"]]
+    keep = d["value"] >= rule.a
+    if rule.transform == "pairs-between":
+        keep &= d["value"] <= rule.b
+    return d[keep][["date", "side_a", "side_b"]]
 
 
 def apply_seeds(scenario: Scenario, name: str | None = None, dry_run: bool = False) -> pd.DataFrame:
@@ -142,6 +147,34 @@ def apply_seeds(scenario: Scenario, name: str | None = None, dry_run: bool = Fal
             store.flush()
             append_changelog(scenario, log)
     return pd.DataFrame(report)
+
+
+def reset_seeded(scenario: Scenario, kind: str, name: str) -> int:
+    """Delete all values of a formula that so far was written only by seeds (before re-seeding with new rules).
+
+    Refuses when the changelog shows any other write (e.g. an LLM correction), so no manual work is lost.
+    """
+    kind = resolve_kind(kind)
+    formula = get_formula(scenario, kind, name)
+    log_path = scenario.narrated_dir / "changelog.csv"
+    if log_path.exists():
+        log = read_csv(log_path, dtype=str, keep_default_na=False)
+        own = log[(log["kind"] == kind) & (log["name"] == formula.name) & log["operation"].isin(["set"])]
+        if not own.empty:
+            raise SimulatorError(
+                f"{formula.name!r} has {len(own)} non-seed write(s) in the changelog; reset would lose them"
+            )
+    with scenario.lock():
+        store = NarratedStore(scenario)
+        cleared = 0
+        for year in scenario.dates:
+            if store.has_file(kind, formula.slug, year):
+                cleared += int(store.values(kind, formula.slug, year).notna().to_numpy().sum())
+                store.drop(kind, formula.slug, year)
+        store.flush()
+        append_changelog(scenario, [{"author": "seed", "operation": "seed-reset", "kind": kind, "name": formula.name,
+                                     "params": {"cleared_cells": cleared}, "rationale": "re-seed with changed rules"}])
+    return cleared
 
 
 def seed_deviations(scenario: Scenario, threshold: float) -> list[dict]:

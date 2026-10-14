@@ -16,3 +16,5 @@ Poza tym żaden model LLM nie ma prawa tutaj pisać czegokolwiek!
 Uwagi:
 
 1. Edytowałem `phase-1/agents-issues.md` na `phase-1/agents-issues-1.md`. Generalnie każdą nową wymianę issues oznaczamy kolejną liczbą. — *przeczytane: 2026-10-13 (Claude Opus 5.5)*
+
+2. Generalnie, w okienku w którym (Ja - Autor) promptuje, model LLM powinien wypisać tylko: - 1. Zmiany - Same lokalizacje plików z dopiskiem C/M/D (created, modified, deleted). - 2. Rzeczy na które mam odpowiedzieć - z lokalizacją w drzewie zadań. - z króciutkim opisem. — *przeczytane: 2026-10-14 (Claude Opus 5.5)*

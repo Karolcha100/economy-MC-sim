@@ -58,9 +58,25 @@ Zgoda autora (A10) jest: 2026-10-14. Pytania o przeliczenia skal: `AGENTS/phases
 
 ## Phase 1.2b — przegląd danych startowych przez LLM (później)
 
-- [ ] **L15. Przegląd 111 par UCDP poziomu 1** w `in war` (strony wspierające, np. NATO vs Serbia 1999): zostawić / usunąć zgodnie z opisem wzoru; po decyzji A19. *(dodane 2026-10-14 02:10)*
+- [ ] **L15. Przegląd 111 par UCDP poziomu 1** — od A19 są w `in war crisis`, nie w `in war` (strony wspierające, np. NATO vs Serbia 1999): zostawić / usunąć zgodnie z opisem wzoru; po decyzji A19. *(dodane 2026-10-14 02:10)*
 
 ## GUI
 
 - [x] **L16. Poprawki GUI po A16**: kolorowe ikony statusów, edytor jak w VS Code (Tab, listy, Ctrl+Enter), przełączanie pozycji przez `#`. *(zrobione: 2026-10-14 02:10, raport: raport-TODO-LLM.md)*
-- [?] **L17. Widok grafu zadań** (2D, powiązania z numerów A/L/W… w tekstach). *Czeka na A18.*
+- [x] **L17. Widok grafu zadań** (2D, powiązania z numerów A/L/W… w tekstach). *(zrobione: 2026-10-14 02:22, raport: raport-TODO-LLM.md)*
+- [x] **L18. Wątki w wymianie zdań** (prośba autora, T002): `talk/threads/`, drzewo w GUI, archiwum A1. *(zrobione: 2026-10-14 02:22, raport: raport-TODO-LLM.md)*
+- [x] **L19. Opcja (b) dla wojen** (A19): `in war` = UCDP poziom 2, `in war crisis` = poziom 1; bezpieczny reset wartości startowych. *(zrobione: 2026-10-14 02:22, raport: raport-TODO-LLM.md)*
+- [x] **L20. Wątki: odgałęzienia, zamykanie, wzmianki @** (@T002). *(zrobione: 2026-10-14 02:37, raport: raport-TODO-LLM.md)*
+- [x] **L21. Briefing w GUI** (@T004) + obowiązek zapisu briefingu na koniec sesji. *(zrobione: 2026-10-14 02:37, raport: raport-TODO-LLM.md)*
+- [x] **L22. GUI: instrukcja, okno przypięte, regulowane rozmiary, kontekst rodzica w odgałęzieniach, skróty CRE/MOD/DEL** (@T002, @T004, @T006). *(zrobione: 2026-10-14 03:24, raport: raport-TODO-LLM.md)*
+
+## Phase 2.0 — runda 1
+
+- [x] **L23. `AGENTS/phases/phase-2/agents-issues-1.md`** (U1–U5: skutki R1–R5) + wątek @T008 (szum, R5) + odpowiedzi @T005, @T007. *(zrobione: 2026-10-14 03:24, raport: raport-TODO-LLM.md)*
+- [x] **L24. Plan implementacji Phase 2.1** po decyzjach @A12 (R6–S3), @A20, @A21, @A22. *(zrobione: 2026-10-14 04:14 — `AGENTS/phases/phase-2/design.md` v0 + @T009, @T010; raport: raport-TODO-LLM.md)*
+- [x] **L25. Nowe wzory z decyzji Phase 2.0**: `state collapse` (S2), `economic dependence` (@T007). *(zrobione: 2026-10-14 04:14)*
+- [x] **L26. GUI: poprawki po @T006 i @phase-2:U5** (zamykanie okna przypiętego, przyciski, bloki kodu w listach, numeracja list). *(zrobione: 2026-10-14 04:14, raport: raport-TODO-LLM.md)*
+
+## Phase 1.2b-pilot (następna po zatwierdzeniu projektu, @A25)
+
+- [?] **L27. Pilot 1.2b**: instrukcja dla agentów wypełniających (L8) + lista krajów Tier 1 + wybór statystyk do pilota (w tym `economic dependence`, `state collapse`), potem wypełnianie. *Czeka na @A25.*

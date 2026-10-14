@@ -28,7 +28,9 @@ def make_handler(board: Board, token: str, read_only: bool):
         "decision": lambda d: board.write_decision(d["path"], d["id"], d["text"], d["version"]),
         "status": lambda d: board.set_status(d["path"], d["id"], d["status"], d["version"]),
         "report": lambda d: board.append_report(d["id"], d["title"], d["text"], d["version"]),
-        "talk": lambda d: board.append_talk(d["path"], d["title"], d["text"], d["version"]),
+        "thread": lambda d: board.append_thread(d["path"], d["text"], d["version"]),
+        "new-thread": lambda d: {"path": board.create_thread(d["title"], d["text"], d.get("parent", ""))},
+        "close-thread": lambda d: board.close_thread(d["path"], d["version"], d.get("text", "")),
         "note": lambda d: board.append_note(d["text"], d["version"]),
     }
 
@@ -70,12 +72,12 @@ def make_handler(board: Board, token: str, read_only: bool):
             try:
                 length = int(self.headers.get("Content-Length", 0))
                 data = json.loads(self.rfile.read(length) or b"{}")
-                actions[action](data)
+                result = actions[action](data)
             except StaleFile as e:
                 return self._json(HTTPStatus.CONFLICT, {"error": str(e)})
             except (BoardError, KeyError, ValueError) as e:
                 return self._json(HTTPStatus.BAD_REQUEST, {"error": str(e)})
-            self._json(HTTPStatus.OK, {"ok": True})
+            self._json(HTTPStatus.OK, {"ok": True, **(result if isinstance(result, dict) else {})})
 
     return Handler
 

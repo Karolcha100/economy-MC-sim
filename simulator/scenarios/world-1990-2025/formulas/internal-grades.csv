@@ -15,3 +15,4 @@ riots,int,0,1,0,"1 = serious riots at any time during the year (large-scale, vio
 epidemic,int,0,1,0,"1 = a serious epidemic at any time during the year (significant mortality or disruption of normal life, e.g. COVID-19 in 2020-2021)."
 mobilized,int,0,1,0,1 = partial or full military mobilisation at any time during the year; possible without an ongoing war.
 net migration,float,-100,100,0,"Net migration intensity (immigrants minus emigrants per year, relative to population): seeded as 5 x net migration per 1000 inhabitants, so +-20 per mille = +-100; negative = net emigration."
+state collapse,int,0,1,0,"1 = the state collapsed at any time during the year: central government lost control over most of the territory or ceased to function (e.g. Somalia 1991, Libya 2011, Yemen 2015); affects the country and its neighbours."

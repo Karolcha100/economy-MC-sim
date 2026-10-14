@@ -18,7 +18,7 @@ from simulator import formulas as fm
 from simulator import history, narrated
 from simulator.context import context
 from simulator.review import DEFAULT_JUMP, DEFAULT_SEED_DEVIATION, review
-from simulator.seed import apply_seeds
+from simulator.seed import apply_seeds, load_rules, reset_seeded
 from simulator.interpolation import CURVES
 from simulator.io import SimulatorError
 from simulator.scenario import Scenario
@@ -84,6 +84,8 @@ def build_parser() -> argparse.ArgumentParser:
                    help="warn when a value is this many points away from its seed (default 15)")
     p = sub.add_parser("seed", help="write seed values from real indicators into empty cells (rules: seeds.csv)")
     p.add_argument("--name", help="only the rule(s) of this formula")
+    p.add_argument("--reset", action="store_true",
+                   help="with --name: first delete the formula's values (only if nothing but seeds wrote them)")
     p.add_argument("--dry-run", action="store_true")
     p = sub.add_parser("reference-map", help="world map of a statistic for reference countries (HTML)")
     p.add_argument("--kind", required=True)
@@ -228,6 +230,11 @@ def run(args: argparse.Namespace) -> int:
             if not warnings.empty:
                 _print_table(warnings, args.json)
         case "seed":
+            if args.reset:
+                if not args.name or args.dry_run:
+                    raise SimulatorError("--reset needs --name and cannot be combined with --dry-run")
+                rule = load_rules(scenario, args.name)[0]
+                print(f"# reset {args.name}: {reset_seeded(scenario, rule.kind, args.name)} cell(s) cleared")
             report = apply_seeds(scenario, args.name, args.dry_run)
             _print_table(report.set_index(["kind", "name", "source"]), args.json)
             if args.dry_run:
