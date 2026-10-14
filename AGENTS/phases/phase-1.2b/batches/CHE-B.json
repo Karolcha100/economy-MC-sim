@@ -1,0 +1,2233 @@
+{
+ "rationale": "CHE, zadanie B: relacje od CHE do 24 partnerow (sasiedzi, mocarstwa, UE/EFTA, Azja, Ukraina, Iran, Izrael, Turcja); hybrid attacks = 0 (CH neutralna)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:AUT",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Austria: sasiad, scisla wspolpraca regionalna i EFTA/OECD; bez sporow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:AUT",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Austria: sasiad i partner UE; bilateralne sprawy bez napiec"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "DEU: wazny partner; odrzucenie EOG w referendum 1992 chlodzi relacje z UE",
+   "sources": [
+    "Referendum o EWG/EOG, 6.12.1992 (Bundeskanzlei)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "DEU: wazny partner; pakiety bilateralne I (1999) i II (2004) poprawiaja relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:DEU",
+   "years": "2010-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "DEU: relacje stabilne; spory podatkowe nie zmieniaja oficjalnego stanowiska"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "DEU: wspolne sankcje wobec Rosji i tryb pakietu UE (zerwanie rozmow ramowych 2021, rozmowy od 2024) chlodza relacje",
+   "sources": [
+    "https://www.eda.admin.ch/en/development-relations-switzerland-eu"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "FRA: wazny partner; odrzucenie EOG w referendum 1992 chlodzi relacje z UE",
+   "sources": [
+    "Referendum o EWG/EOG, 6.12.1992 (Bundeskanzlei)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "FRA: wazny partner; pakiety bilateralne I (1999) i II (2004) poprawiaja relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:FRA",
+   "years": "2010-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "FRA: relacje stabilne; spory podatkowe nie zmieniaja oficjalnego stanowiska"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "FRA: wspolne sankcje wobec Rosji i tryb pakietu UE (zerwanie rozmow ramowych 2021, rozmowy od 2024) chlodza relacje",
+   "sources": [
+    "https://www.eda.admin.ch/en/development-relations-switzerland-eu"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:ITA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "ITA: wazny partner; odrzucenie EOG w referendum 1992 chlodzi relacje z UE",
+   "sources": [
+    "Referendum o EWG/EOG, 6.12.1992 (Bundeskanzlei)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:ITA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "ITA: wazny partner; pakiety bilateralne I (1999) i II (2004) poprawiaja relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:ITA",
+   "years": "2010-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "ITA: relacje stabilne; spory podatkowe nie zmieniaja oficjalnego stanowiska"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:ITA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "ITA: wspolne sankcje wobec Rosji i tryb pakietu UE (zerwanie rozmow ramowych 2021, rozmowy od 2024) chlodza relacje",
+   "sources": [
+    "https://www.eda.admin.ch/en/development-relations-switzerland-eu"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:LIE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "Liechtenstein: unia celna i walutowa, reprezentacja dyplomatyczna przez CH; bardzo bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "USA: stosunki poprawne; spor o aktywa z czasow wojny (ugoda 1998) chlodzi"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:USA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "USA: stabilne partnerstwo; sprawa UBS 2008 i wymiana danych podatkowych"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:USA",
+   "years": "2010-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "USA: bliskie partnerstwo gospodarcze i finansowe; FATCA od 2013"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:USA",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "USA: relacje bez zmian; Szwajcaria neutralna wobec wojny w Ukrainie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:USA",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "USA: cla 39% od sierpnia 2025, porozumienie o 15% (listopad 2025) - chlod w relacjach handlowych",
+   "sources": [
+    "https://www.iamexpat.ch/expat-info/swiss-news/us-tariffs-switzerland-reduced-39-15",
+    "https://www.aljazeera.com/economy/2025/11/14/us-to-slash-tariffs-on-switzerland-to-15-from-crippling-39"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Chiny: relacje normalizowane po 1989; umiarkowanie chlodne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:CHN",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Chiny: rozmowy o umowie o wolnym handlu (podpisana 2013)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:CHN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Chiny: umowa o wolnym handlu w mocy od 2014; relacje stabilne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Rosja (ZSRR->RUS): relacje poprawne, pomoc gospodarcza, brak konfliktu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Rosja: stosunki poprawne, bez wiekszych konfliktow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Rosja: aneksja Krymu 2014; CH przyjela sankcje dot. Krymu, stosunki ochlodzone"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Rosja: wojna w Ukrainie; CH przyjela sankcje UE od 28.02.2022; Moskwa krytykuje, formalne stosunki utrzymane",
+   "sources": [
+    "https://www.admin.ch/gov/en/start/documentation/media-releases/media-releases-federal-council.msg-id-87386.html",
+    "https://www.swissinfo.ch/eng/switzerland-adopts-most-of-eus-new-russia-sanctions-package/91460348"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Wielka Brytania: bliski partner EFTA i gospodarczy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:GBR",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Wielka Brytania: bliski partner; po Brexicie utrzymana ciaglosc umow handlowych"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Japonia: partner gospodarczy i kulturalny; relacje bez sporow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Indie: relacje rozwojowe, handel umiarkowany"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:IND",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Indie: umowa EFTA-Indie (w mocy od 2010); stabilne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:UKR",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Ukraina: relacje od niepodleglosci 1991, pomoc rozwojowa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:UKR",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Ukraina: pomoc rozwojowa; stosunki poprawne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Ukraina: wsparcie humanitarne po 2014 r."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Ukraina: sankcje wobec Rosji, pomoc humanitarna, szczyt pokojowy w Burgenstock (czerwiec 2024, bez Rosji)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/June_2024_Ukraine_peace_summit"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:POL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Polska: partner w Europie; relacje dobre"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:POL",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Polska: partner UE; stabilne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Holandia: partner UE, gospodarczy i logistyczny; bez sporow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Belgia: siedziba UE i NATO; bliskie stosunki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Hiszpania: partner UE; relacje stabilne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Szwecja: podobna tradycja neutralnosci, bliska wspolpraca nordycka i EFTA do 1995"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Norwegia: czlonek EFTA; bliska wspolpraca, energia i sprawy europejskie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:SGP",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Singapur: relacje handlowe; umowa o wolnym handlu negocjowana"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:SGP",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Singapur: umowa EFTA-Singapur w mocy od 2003"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:KOR",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Korea Pld.: relacje handlowe rosna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:KOR",
+   "years": "2006-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Korea Pld.: umowa EFTA-Korea w mocy od 2006"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Arabia Saudyjska: relacje handlowe (ropa), bez sporow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:TUR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Turcja: partner handlowy; umowa EFTA o wolnym handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:TUR",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Turcja: zamach stanu 2016 i napiecia wokol diaspory; relacje formalne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:ISR",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Izrael: bliskie stosunki; umowa EFTA-Izrael o wolnym handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:ISR",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Izrael: wojna w Gazie od 2023 r.; CH krytykuje dzialania humanitarne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:IRN",
+   "years": "1990-2012",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Iran: relacje poprawne, chlodne z powodu sankcji; CH reprezentuje interesy USA w Iranie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CHE:IRN",
+   "years": "2013-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Iran: rozmowy nuklearne w Genewie (2013-2015); CH jako panstwo opiekuncze USA"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Austria: bliskie sasiedztwo, wspolna kultura niemieckojezyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "DEU: sympatia umiarkowana; spory podatkowe nie zmieniaja ogolnej opinii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FRA: sympatia umiarkowana; spory podatkowe nie zmieniaja ogolnej opinii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ITA: sympatia umiarkowana; spory podatkowe nie zmieniaja ogolnej opinii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:LIE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Liechtenstein: bliskie sasiedztwo, wspolna historia i rodziny"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "USA: sprawa aktywow z czasow wojny (1996-1998) obniza sympatie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:USA",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "USA: sympatia umiarkowana; kultura masowa, turystyka"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "USA: cla (2025) i naciski wobec banków obnizaja sympatie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Chiny: obojetnosc; krytyka praw czlowieka w debacie publicznej"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: sympatia kulturalna (kultura, jezyki, turystyka)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Rosja: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "Rosja: aneksja Krymu 2014 obniza opinie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "Rosja: wojna w Ukrainie 2022; silna krytyka opinii publicznej"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Wielka Brytania: sympatia, kultura i turystyka"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Japonia: sympatia kulturalna i gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Indie: obojetnosc z lekka sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:UKR",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Ukraina: sympatia umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:UKR",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Ukraina: zyczliwa obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Ukraina: sympatia po 2014 r., solidarnosc z ofiarami wojny"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Ukraina: silna sympatia po inwazji 2022 r.; przyjecie uchodzcow",
+   "sources": [
+    "https://en.wikipedia.org/wiki/June_2024_Ukraine_peace_summit"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Polska: obojetnosc z lekka sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Holandia: sympatia, bliskie sasiedztwo gospodarcze"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Belgia: obojetnosc z lekka sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Hiszpania: sympatia (turystyka, kultura)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Szwecja: sympatia (neutralnosc, EFTA)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Norwegia: sympatia, bliska wspolpraca EFTA"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Singapur: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Korea Pld.: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Arabia Saudyjska: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:TUR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Turcja: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:TUR",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Turcja: spory o agitacje diaspory i wypowiedzi rzadu obnizaja opinie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:ISR",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Izrael: sympatia, bliskie sasiedztwo polityczne w debacie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:ISR",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Izrael: wojna w Gazie 2023-2025 obniza sympatie, duze rozdzwieki w opinii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CHE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Iran: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:AUT",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "AUT: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:AUT",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "AUT: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:AUT",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "AUT: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "DEU: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:DEU",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "DEU: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "DEU: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "FRA: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:FRA",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "FRA: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "FRA: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:ITA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ITA: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:ITA",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "ITA: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:ITA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "ITA: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:NLD",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "NLD: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:NLD",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "NLD: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:NLD",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "NLD: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:BEL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BEL: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:BEL",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BEL: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:BEL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "BEL: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:ESP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ESP: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:ESP",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "ESP: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:ESP",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "ESP: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:SWE",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SWE: po odrzuceniu EOG (1992) CH zalezy od umow bilateralnych z UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:SWE",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "SWE: pakiety bilateralne I i II; swobodny przeplyw osob i dostep do rynku UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "SWE: impas w rozmowach ramowych (2021), pakiet UE z 2025 r.; CH czuje presje",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2025/10/21/council-greenlights-switzerland-s-association-to-eu-programmes/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:LIE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Liechtenstein: CH nie czuje zaleznosci od LIE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:USA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "USA: zaleznosc bezpieczenstwa i finansowa; CH zachowuje neutralnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:USA",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: cla 39% (sierpien 2025) zwiekszaja poczucie zaleznosci",
+   "sources": [
+    "https://www.iamexpat.ch/expat-info/swiss-news/us-tariffs-switzerland-reduced-39-15"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Chiny: zaleznosc od rynku eksportowego i FTA z 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: CH nie widzi zaleznosci politycznej ani militarnej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Wielka Brytania: zaleznosc od umow handlowych po Brexicie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Japonia: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Indie: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Norwegia: zaleznosc energetyczna i EFTA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Singapur: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Korea Pld.: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Arabia Saudyjska: dostawy ropy, bez zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Turcja: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Izrael: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CHE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Iran: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "AUT: wplyw CH umiarkowany (bankowosc, dyplomacja dobrych uslug)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "DEU: wplyw CH umiarkowany (bankowosc, dyplomacja dobrych uslug)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "FRA: wplyw CH umiarkowany (bankowosc, dyplomacja dobrych uslug)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ITA: wplyw CH umiarkowany (bankowosc, dyplomacja dobrych uslug)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NLD: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BEL: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ESP: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SWE: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:LIE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Liechtenstein: CH widzi silny wplyw (unia celna, waluta, reprezentacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "USA: wplyw CH ograniczony (bankowosc, rynek finansowy)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Chiny: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Japonia: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Indie: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Ukraina: wplyw CH ograniczony (pomoc rozwojowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Ukraina: wplyw CH rosnie (konferencja pokojowa 2024, pomoc)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/June_2024_Ukraine_peace_summit"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "POL: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SGP: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "KOR: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SAU: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NOR: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ISR: wplyw CH ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CHE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Iran: CH jako panstwo opiekuncze i kanal dyplomatyczny"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:AUT",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "AUT: ograniczenie polityki przez UE w sprawach gospodarczych i regulacyjnych"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:AUT",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "AUT: sankcje wobec Rosji przyjete z UE (2022) zwiekszaja wplyw UE",
+   "sources": [
+    "https://www.admin.ch/gov/en/start/documentation/media-releases/media-releases-federal-council.msg-id-87386.html"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "DEU: ograniczenie polityki przez UE w sprawach gospodarczych i regulacyjnych"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "DEU: sankcje wobec Rosji przyjete z UE (2022) zwiekszaja wplyw UE",
+   "sources": [
+    "https://www.admin.ch/gov/en/start/documentation/media-releases/media-releases-federal-council.msg-id-87386.html"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "FRA: ograniczenie polityki przez UE w sprawach gospodarczych i regulacyjnych"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FRA: sankcje wobec Rosji przyjete z UE (2022) zwiekszaja wplyw UE",
+   "sources": [
+    "https://www.admin.ch/gov/en/start/documentation/media-releases/media-releases-federal-council.msg-id-87386.html"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:ITA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ITA: ograniczenie polityki przez UE w sprawach gospodarczych i regulacyjnych"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:ITA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ITA: sankcje wobec Rosji przyjete z UE (2022) zwiekszaja wplyw UE",
+   "sources": [
+    "https://www.admin.ch/gov/en/start/documentation/media-releases/media-releases-federal-council.msg-id-87386.html"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:NLD",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NLD: ograniczona zaleznosc polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:NLD",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NLD: wspolne sankcje wobec Rosji z UE w 2022 r."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:BEL",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BEL: ograniczona zaleznosc polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:BEL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BEL: wspolne sankcje wobec Rosji z UE w 2022 r."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:ESP",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ESP: ograniczona zaleznosc polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:ESP",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ESP: wspolne sankcje wobec Rosji z UE w 2022 r."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:SWE",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SWE: ograniczona zaleznosc polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "SWE: wspolne sankcje wobec Rosji z UE w 2022 r."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:LIE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Liechtenstein: zaleznosc od CH (waluta, unia celna), nie odwrotnie"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "USA: zaleznosc bezpieczenstwa i presja w sprawach finansowych (UBS, FATCA)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Chiny: zaleznosc gospodarcza, brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Rosja: brak zaleznosci politycznej CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: umiarkowana zaleznosc od umow handlowych"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Japonia: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Indie: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Ukraina: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Polska: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Norwegia: zaleznosc energetyczna w ramach EFTA"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Singapur: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Korea Pld.: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Arabia Saudyjska: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Turcja: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Izrael: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CHE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Iran: brak zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:LIE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Liechtenstein: CH dominuje (unia celna, waluta, reprezentacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Austria: umiarkowany wplyw CH (bankowosc, rynek finansowy)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Niemcy: umiarkowany wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Francja: umiarkowany wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wlochy: umiarkowany wplyw CH (Ticino, transport)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Holandia: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Belgia: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Hiszpania: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Szwecja: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: ograniczony wplyw CH (finanse, dobre uslugi)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Chiny: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Rosja: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Japonia: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Indie: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: ograniczony wplyw CH (pomoc, mediacja w 2024)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Polska: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Singapur: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Korea Pld.: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Arabia Saudyjska: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Norwegia: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Turcja: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Izrael: ograniczony wplyw CH"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CHE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Iran: CH jako panstwo opiekuncze USA, kanal dyplomatyczny"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:LIE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Liechtenstein: niewielka zaleznosc gospodarcza CH od LIE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Austria: zaleznosc handlowa i turystyczna; kryzys w AUT uderza w CH"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Niemcy: najwazniejszy partner handlowy; kryzys w DEU wyraznie uderza w CH"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Francja: wazny partner handlowy i energetyczny (sieci)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Wlochy: wazny partner handlowy i transport"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Holandia: port Rotterdam i dostawy gazu, logistyka"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Belgia: umiarkowana zaleznosc (handel, logistyka)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Hiszpania: umiarkowana zaleznosc handlowa"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Szwecja: niewielka zaleznosc gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:USA",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: duzy rynek zbytu (farmacja, zegarki)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:USA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: rynek zbytu farmacji i zegarkow; zaleznosc rosnie"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:CHN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Chiny: maly rynek zbytu i zrodlo towarow"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:CHN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Chiny: rosnacy rynek eksportu i zrodlo importu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:RUS",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Rosja: dostawy energii (gaz, ropa) przez UE; zaleznosc umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Rosja: po sankcjach 2022 dostawy energii spadly",
+   "sources": [
+    "https://www.admin.ch/gov/en/start/documentation/media-releases/media-releases-federal-council.msg-id-87386.html"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Wielka Brytania: wazny partner handlowy i finansowy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Japonia: partner handlowy, umiarkowana zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Indie: niewielka zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Ukraina: niewielka zaleznosc gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: niewielka zaleznosc gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Norwegia: energia i wspolpraca EFTA"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Singapur: wazny partner w Azji, zaleznosc umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Korea Pld.: partner handlowy, zaleznosc niewielka"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Arabia Saudyjska: dostawy ropy, zaleznosc umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Turcja: niewielka zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Izrael: niewielka zaleznosc (technologie)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CHE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Iran: niewielka zaleznosc gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "CHE:AUT,CHE:DEU,CHE:FRA,CHE:ITA,CHE:LIE,CHE:USA,CHE:CHN,CHE:RUS,CHE:GBR,CHE:JPN,CHE:IND,CHE:POL,CHE:NLD,CHE:BEL,CHE:ESP,CHE:SWE,CHE:NOR,CHE:SGP,CHE:KOR,CHE:SAU,CHE:TUR,CHE:ISR,CHE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "CH nie prowadzi dzialan hybrydowych wobec zadnego z partnerow (neutralnosc, brak sabotazy i kampanii dezinformacyjnych)"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "CHE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "CH nie prowadzi dzialan hybrydowych wobec zadnego z partnerow (neutralnosc, brak sabotazy i kampanii dezinformacyjnych)"
+  }
+ ]
+}

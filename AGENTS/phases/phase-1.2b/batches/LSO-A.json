@@ -1,0 +1,50 @@
+{
+  "rationale": "LSO, zadanie A (tryb oszczedny): junta wojskowa do 1993, kryzysy 1994 (odsuniecie rzadu) i 1998 (zamieszki w Maseru, interwencja SADC), dominacja LCD 1999-2014, kryzysy koalicyjne 2015-2020, rzad Matekane od 2022; happiness 1990-2011 jako szacunek (spadek w szczycie epidemii HIV, 2000-2005), plynne polaczenie z 2012; korupcja, violence risk i civilization 1990-95 oraz 2023-25 uzupelnione od wartosci istniejacych; flagi: riots 1998, epidemic 2020-2021 (COVID); HIV nie flagowany (spojnie z SWZ/BWA); social sensitivity podwyzszona 2020-21 (straty lockdownu w przemysle tekstylnym); wyszukiwarka nieuzyta",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "1990-1993", "curve": "linear", "start": 25, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "1994-1995", "curve": "manual", "values": [15, 35]},
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "1996-1997", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "1998-1998", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "1999-2013", "curve": "linear", "start": 35, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "2014-2014", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "2015-2022", "curve": "linear", "start": 40, "end": 38},
+    {"kind": "grade", "name": "stability", "targets": "LSO", "years": "2023-2025", "curve": "linear", "start": 45, "end": 52},
+
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "1990-1992", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "1993-1993", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "1994-1995", "curve": "manual", "values": [30, 40]},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "1996-1997", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "1998-1998", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "1999-2007", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "2008-2014", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "2015-2016", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "2017-2020", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "2021-2022", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "LSO", "years": "2023-2025", "curve": "linear", "start": 50, "end": 52},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "LSO", "years": "1990-2019", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LSO", "years": "2020-2021", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LSO", "years": "2022-2025", "curve": "constant", "start": 62},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "LSO", "years": "1990-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "LSO", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "assimilation", "targets": "LSO", "years": "1990-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "happiness", "targets": "LSO", "years": "1990-1995", "curve": "linear", "start": 50, "end": 48},
+    {"kind": "grade", "name": "happiness", "targets": "LSO", "years": "1996-2004", "curve": "linear", "start": 48, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "LSO", "years": "2005-2011", "curve": "linear", "start": 42, "end": 48.5},
+
+    {"kind": "grade", "name": "civilization level", "targets": "LSO", "years": "2023-2025", "curve": "linear", "start": "current", "end": 55.7, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "LSO", "years": "1990-1995", "curve": "linear", "start": 47.5, "end": 48.2},
+    {"kind": "grade", "name": "corruption", "targets": "LSO", "years": "2022-2025", "curve": "linear", "start": "current", "end": 57.5, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "LSO", "years": "1990-1995", "curve": "linear", "start": 46, "end": 45.5},
+    {"kind": "grade", "name": "violence risk", "targets": "LSO", "years": "2022-2025", "curve": "linear", "start": "current", "end": 51.5, "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "LSO", "years": "1998-1998", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "LSO", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

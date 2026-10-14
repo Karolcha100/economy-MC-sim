@@ -1,0 +1,1461 @@
+{
+ "rationale": "MEX, zadanie B (tryb oszczedny): relacje MEX->X dla 22 partnerow (sasiedzi USA/GTM/BLZ, CAN, Ameryka Lacinska, CHN/RUS, UE i G7, JPN/KOR, UKR, ISR); hybrid attacks domyslne 0 (MEX nie prowadzi dzialan hybrydowych); bez zmian w relacjach dwustronnych (brak wojny i kryzysu UCDP z MEX; 2025 bez zmian)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "1990-1993",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "1994-2000",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "2001-2005",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "2006-2012",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "2013-2016",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:USA",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:USA",
+   "years": "2009-2016",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:USA",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:USA",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:USA",
+   "years": "1990-2018",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:USA",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:USA",
+   "years": "1990-1993",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:USA",
+   "years": "1994-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:GTM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:GTM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:GTM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:GTM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:GTM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:GTM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:GTM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:BLZ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:BLZ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:BLZ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:BLZ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:BLZ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:BLZ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:BLZ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:HND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:HND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:HND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:HND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:HND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:HND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:HND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:SLV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:SLV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:SLV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:SLV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:SLV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:SLV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:SLV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:VEN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:VEN",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:VEN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:CHN",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:CHN",
+   "years": "2001-2018",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:CHN",
+   "years": "2019-2024",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:CHN",
+   "years": "1990-2004",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:CHN",
+   "years": "2005-2025",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:CHN",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:CHN",
+   "years": "2001-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:CHN",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:CHN",
+   "years": "2001-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:ESP",
+   "years": "1990-2018",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:ESP",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:ISR",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MEX:ISR",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:ISR",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MEX:ISR",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MEX:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MEX:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MEX:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MEX:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MEX:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  }
+ ]
+}

@@ -1,0 +1,1325 @@
+{
+ "rationale": "LAO, zadanie B (tryb oszczedny): relacje od Laosu do 18 partnerow (sasiedzi CHN/THA/VNM/KHM/MMR, mocarstwa USA/RUS/JPN/KOR/AUS/FRA/DEU/GBR/IND, ASEAN IDN/MYS/SGP/PHL). Laos jest panstwem jednopartyjnym zaleznym od Chin i Wietnamu (sojusz z VNM, rosnaca zaleznosc od CHN po 2009/2016, kolej 2021); relacje z THA z przerwa po starciach 1987-88. Partnerzy nieistotni: pozostale pary potwierdzone jako domyslne. Dwustronne in war / in war crisis: bez wpisow 1990-2025 (brak konfliktu zbrojnego i poziomu 1 w UCDP z udzialem LAO; konflikt THA-KHM 2025 nie dotyczy LAO). hybrid attacks = 0 (brak dzialan hybrydowych przez LAO).",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:CHN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:CHN",
+   "years": "1995-2008",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:CHN",
+   "years": "2009-2020",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:CHN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:CHN",
+   "years": "2002-2015",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:CHN",
+   "years": "2002-2015",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:CHN",
+   "years": "2002-2015",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:CHN",
+   "years": "2002-2015",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:THA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:THA",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:THA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:THA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:THA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:THA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:THA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:THA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:THA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:VNM",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:VNM",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:KHM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:MMR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:MMR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:MMR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:MMR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:MMR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:MMR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:MMR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:MMR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:MMR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:USA",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:USA",
+   "years": "1992-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:RUS",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:RUS",
+   "years": "1992-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:RUS",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:RUS",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:RUS",
+   "years": "1992-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:RUS",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:RUS",
+   "years": "1992-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:KOR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:KOR",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:KOR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:KOR",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:IDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:MYS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "LAO:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  }
+ ]
+}

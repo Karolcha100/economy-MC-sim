@@ -1,0 +1,47 @@
+{
+  "rationale": "GRD, zadanie A (statystyki państwa), tryb oszczędny. Brak danych WHR dla GRD: happiness oszacowane przez porównanie z LCA i innymi państwami karaibskimi średniego rozwoju (skala 10 x Cantril); spadek w 2024 po huraganie Beryl (lipiec 2024, szkody ok. 173 mln USD). Stabilna parlamentarna demokracja bez kryzysów instytucjonalnych, zmiany rządów w wyborach (m.in. 2008, 2022; NDC zdobyło 9 z 15 mandatów w 2022). Brak sporów terytorialnych, przemoc polityczna niska. Wartości istniejące (corruption, violence risk, civilization level) uzupełnione tylko w brakujących latach, płynnie połączone z istniejącymi.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "GRD", "years": "1990-1996", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "stability", "targets": "GRD", "years": "1997-2007", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "GRD", "years": "2008-2012", "curve": "constant", "start": 78},
+    {"kind": "grade", "name": "stability", "targets": "GRD", "years": "2013-2021", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "GRD", "years": "2022-2025", "curve": "constant", "start": 80},
+
+    {"kind": "grade", "name": "corruption", "targets": "GRD", "years": "1990-1995", "curve": "linear", "start": 33.0, "end": 32.7},
+    {"kind": "grade", "name": "corruption", "targets": "GRD", "years": "2023-2025", "curve": "constant", "start": 40.3},
+
+    {"kind": "grade", "name": "violence risk", "targets": "GRD", "years": "1990-1995", "curve": "constant", "start": 32.0},
+    {"kind": "grade", "name": "violence risk", "targets": "GRD", "years": "2023-2025", "curve": "constant", "start": 29.1},
+
+    {"kind": "grade", "name": "happiness", "targets": "GRD", "years": "1990-1996", "curve": "constant", "start": 58},
+    {"kind": "grade", "name": "happiness", "targets": "GRD", "years": "1997-2004", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "happiness", "targets": "GRD", "years": "2005-2019", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "happiness", "targets": "GRD", "years": "2020-2021", "curve": "constant", "start": 59},
+    {"kind": "grade", "name": "happiness", "targets": "GRD", "years": "2022-2023", "curve": "linear", "start": 60, "end": 61},
+    {"kind": "grade", "name": "happiness", "targets": "GRD", "years": "2024", "curve": "constant", "start": 58},
+    {"kind": "grade", "name": "happiness", "targets": "GRD", "years": "2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "GRD", "years": "1990-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "GRD", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "1990-1994", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "1995-2002", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "2003-2007", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "2008-2012", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "2013-2017", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "2018-2021", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "2022-2023", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "GRD", "years": "2024-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "GRD", "years": "1990-1999", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GRD", "years": "2000-2025", "curve": "constant", "start": 58},
+
+    {"kind": "grade", "name": "civilization level", "targets": "GRD", "years": "1990-2001", "curve": "linear", "start": 70.5, "end": 74.0},
+    {"kind": "grade", "name": "civilization level", "targets": "GRD", "years": "2024-2025", "curve": "constant", "start": 79.1},
+
+    {"kind": "grade", "name": "assimilation", "targets": "GRD", "years": "1990-2000", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "GRD", "years": "2001-2025", "curve": "constant", "start": 68},
+
+    {"kind": "grade", "name": "epidemic", "targets": "GRD", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

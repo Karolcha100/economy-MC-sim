@@ -1,0 +1,56 @@
+{
+  "rationale": "MYS, zadanie A, tryb oszczedny: dominacja BN do 2017 (spadek 1998 i 2008), przesilenie 2018-21 (zmiana rzadu, rzad bez wyborow 2020), odbudowa stabilnosci za Anwara 2022-25 (Merdeka 2025: aprobata 55%); COVID 2020-21; reforma dotacji paliwa 2024 jako wzrost wrazliwosci spolecznej; startowe wartosci uzupelnione do istniejacych",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "1990-1997", "curve": "linear", "start": 74, "end": 76},
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "1998-1999", "curve": "linear", "start": 64, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "2000-2007", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "2008-2010", "curve": "linear", "start": 65, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "2011-2017", "curve": "linear", "start": 68, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "2018-2019", "curve": "linear", "start": 62, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "2020-2021", "curve": "linear", "start": 45, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "MYS", "years": "2022-2025", "curve": "linear", "start": 56, "end": 65},
+
+    {"kind": "grade", "name": "corruption", "targets": "MYS", "years": "1990-1995", "curve": "linear", "start": 44, "end": 42.4, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MYS", "years": "2023-2025", "curve": "linear", "start": 45, "end": 44, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MYS", "years": "1990-1996", "curve": "linear", "start": 55, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MYS", "years": "1997-1999", "curve": "linear", "start": 54, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MYS", "years": "2000-2010", "curve": "linear", "start": 50, "end": 57.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MYS", "years": "1990-2001", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "social revanchism", "targets": "MYS", "years": "2002-2025", "curve": "linear", "start": 4, "end": 5},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MYS", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "1990-1997", "curve": "linear", "start": 60, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "1998-1999", "curve": "linear", "start": 42, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2000-2003", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2004-2007", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2008-2009", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2010-2013", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2014-2017", "curve": "linear", "start": 42, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2018-2019", "curve": "linear", "start": 65, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2020-2021", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2022-2023", "curve": "linear", "start": 50, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "MYS", "years": "2024-2025", "curve": "linear", "start": 49, "end": 55},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MYS", "years": "1990-1997", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MYS", "years": "1998-1999", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MYS", "years": "2000-2013", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MYS", "years": "2014-2016", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MYS", "years": "2017-2023", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MYS", "years": "2024-2025", "curve": "linear", "start": 60, "end": 62},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MYS", "years": "2024-2025", "curve": "linear", "start": 82.2, "end": 82.5, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MYS", "years": "1990-2000", "curve": "linear", "start": 58, "end": 56},
+    {"kind": "grade", "name": "assimilation", "targets": "MYS", "years": "2001-2010", "curve": "linear", "start": 55, "end": 52},
+    {"kind": "grade", "name": "assimilation", "targets": "MYS", "years": "2011-2019", "curve": "linear", "start": 52, "end": 48},
+    {"kind": "grade", "name": "assimilation", "targets": "MYS", "years": "2020-2025", "curve": "linear", "start": 47, "end": 45},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MYS", "years": "2020-2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MYS", "years": "1990-1995", "curve": "linear", "start": 40, "end": 39, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MYS", "years": "2023-2025", "curve": "linear", "start": 47, "end": 46.5, "only_empty": true}
+  ]
+}

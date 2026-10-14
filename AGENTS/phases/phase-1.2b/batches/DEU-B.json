@@ -1,0 +1,1839 @@
+{
+ "rationale": "DEU, zadanie B: relacje od DEU do 32 partnerow (9 sasiadow, UE/NATO, mocarstwa, Bliski Wschod i energia, inni). Hybrid attacks towards = domyslne 0 (DEU nie prowadzi dzialan hybrydowych; zostanie potwierdzone confirm-default). Dwustronne: in war crisis DEU-SRB 1999 (UCDP poziom 1, z seeda) zostawiona - do decyzji koordynatora; in war 2025 bez zmian (DEU nie prowadzi zbrojnego konfliktu z zadnym panstwem; incydenty dronow i sabotaze w 2025 nie sa zbrojnymi dzialaniami panstwa, wiec nie liczone).",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:FRA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "FRA: motor UE, bliska wspolpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:FRA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "FRA: napiecia Merz-Macron o obronnosc i budzet UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:POL,DEU:RUS",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "POL: traktat graniczny 1990/1991; relacje poprawne z ciezarem historii; RUS: partnerstwo za Jelcyna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:POL",
+   "years": "1999-2014",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "POL: wspolne czlonkostwo w NATO i UE; dobre relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:POL",
+   "years": "2015-2023",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "POL: spory o praworzadnosc za rzadow PiS"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:POL",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "POL: odnowienie wspolpracy po zmianie rzadu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:NLD,DEU:BEL,DEU:AUT,DEU:DNK,DEU:SWE,DEU:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NLD: stabilny sojusznik w UE i NATO; BEL: stabilny sojusznik w UE i NATO; AUT: bliski partner w UE, wspolne interesy gospodarcze; DNK: stabilny partner nordycki w UE i NATO; SWE: partner nordycki w UE i NATO; FIN: partner nordycki w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:LUX,DEU:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "LUX: maly partner UE, bliskie relacje Beneluksu; NOR: partner NATO; dostawy gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:CHE,DEU:ITA,DEU:ESP,DEU:JPN,DEU:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "CHE: dobre relacje; spory podatkowe i bankowe nie zmieniaja ogolu; ITA: wspolne ramy UE i NATO; zmienne rzady bez zerwania; ESP: partner UE i NATO; JPN: partner G7; wspolne interesy gospodarcze i bezpieczenstwa; KOR: partner gospodarczy i technologiczny"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:CZE",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "CZE: po rozpadzie CSFR; przejsciowe napiecia (restytucja, wypedzenia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:CZE",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "CZE: czlonkostwo CZE w NATO (1999) i UE (2004); dobre relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:HUN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "HUN: partner V4 i UE (czlonkostwo 2004)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:HUN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "HUN: rzad Orbana: konflikty z UE o praworzadnosc i migracje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:UKR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "UKR: nowe panstwo; relacje poprawne, sprawy nuklearne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:UKR",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "UKR: wspolpraca gospodarcza i polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "UKR: Majdan, Donbas; Niemcy w formacie normandzkim i Minsku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "UKR: pelne poparcie dla Ukrainy po inwazji 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:BLR",
+   "years": "1991-2009",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR: formalne relacje, Partnerstwo Wschodnie UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:BLR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "BLR: relacje minimalne, rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "BLR: sfalszowane wybory 2020, represje, instrumentalizacja migrantow 2021"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:TUR",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR: partner NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:TUR",
+   "years": "2003-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR: negocjacje akcesyjne UE, wspolpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:TUR",
+   "years": "2014-2016",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR: wspolpraca migracyjna przed umowa z 2016"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:TUR",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR: kryzys dyplomatyczny: aresztowania obywateli niemieckich w Turcji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR: stabilizacja, ale czeste napiecia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:USA",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "USA: sojusznik NATO; zjednoczenie Niemiec"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:USA",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: spor o wojne w Iraku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:USA",
+   "years": "2005-2016",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "USA: silne partnerstwo transatlantyckie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:USA",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "USA: administracja Trumpa: cla, Iran, presja na NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:USA",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "USA: odnowienie partnerstwa za Bidena"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: Trump 2.0: cla i spor o NATO/Ukraine; spotkanie Merz-Trump (czerwiec 2025) uprzejme, ale napiete",
+   "sources": [
+    "NPR, Trump will meet German Chancellor Merz at the White House, 2025-06-05 (https://www.npr.org/2025/06/05/nx-s1-5422334/germany-chancellor-merz-trump-white-house)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:RUS",
+   "years": "1999-2007",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "RUS: bliskie relacje za Putina i Schroedera"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:RUS",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "RUS: wojna w Gruzji 2008; chlodniejsze relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "RUS: aneksja Krymu, sankcje, sprawa Skripala i Nawalnego"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "RUS: pelnoskalowa inwazja na Ukraine 2022; ambasada otwarta, relacje zamrozone"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "CHN: sankcje po 1989 w duzej mierze zniesione"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:CHN",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "CHN: partnerstwo gospodarcze, handel rosnie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "CHN: partnerstwo strategiczne, glowny partner handlowy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "CHN: de-risking; rzad nazywa Chiny rywalem systemowym",
+   "sources": [
+    "China Briefing, China-Germany ties 2025: Merz's leadership impact on trade and investment (https://www.china-briefing.com/news/china-germany-relations-2025-merz-leadership-trade-investment/)",
+    "Atlantic Council, Germany's policy on China: from win-win to strategic competition (https://www.atlanticcouncil.org/in-depth-research-reports/report/germanys-policy-on-china-from-win-win-to-strategic-competition/)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:GBR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "GBR: bliski sojusznik w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:GBR",
+   "years": "2016-2020",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "GBR: Brexit: oziebienie relacji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:GBR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "GBR: odnowienie wspolpracy po Brexicie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IND",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "IND: partner, ale w niewielkim stopniu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IND",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "IND: strategiczne partnerstwo, konsultacje rzadowe"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "BRA: partner bez bliskich wiezi politycznych"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TWN: brak oficjalnych stosunkow (zasada jednych Chin); kontakty gospodarcze i chipy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:ISR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "ISR: wspolpraca wojskowa i naukowa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:ISR",
+   "years": "2000-2023",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "ISR: Staatsraeson, bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "ISR: spory o wojne w Gazie; relacje nadal bliskie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IRN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "IRN: zamach w Mykonos (1992); napiecia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IRN",
+   "years": "1997-2005",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "IRN: dialog krytyczny"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IRN",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "IRN: program jadrowy, sankcje UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IRN",
+   "years": "2015-2018",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "IRN: JCPOA; wspolpraca E3"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IRN",
+   "years": "2019-2021",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "IRN: po wyjsciu USA z JCPOA; dialog"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IRN",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "IRN: dostawy dronow dla Rosji, represje wewnetrzne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "IRN: uruchomienie mechanizmu snapback sankcji ONZ"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:SAU",
+   "years": "1990-2017",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "SAU: partner energetyczny i handlowy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:SAU",
+   "years": "2018-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SAU: zabojstwo Chaszukdzigo (2018): odwolanie ambasadora, ograniczenia eksportu broni"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "QAT: partner gazowy i inwestycyjny, bez spornych kwestii"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:SRB",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "SRB: wojny w Jugoslawii; uznanie Chorwacji i Slowenii"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:SRB",
+   "years": "1999-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SRB: bombardowanie 1999 (NATO); relacje normalizuja sie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "DEU:SRB",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SRB: wspolpraca, aspiracje Serbii do UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:FRA,DEU:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "FRA: wysoka sympatia spoleczna, bliskie wiezi kulturowe; NOR: wysoka sympatia, bliski kraj nordycki"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:POL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "POL: umiarkowana sympatia; obawy o granice i historie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:POL",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "POL: sympatia rosnie: bliskie sasiedztwo, wymiana, Erasmus"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "NLD: duza sympatia, bliskie sasiedztwo"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:BEL,DEU:LUX,DEU:CHE,DEU:ESP,DEU:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "BEL: umiarkowana sympatia; LUX: umiarkowana sympatia; CHE: umiarkowana sympatia; ESP: umiarkowana sympatia; FIN: umiarkowana sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:AUT,DEU:DNK,DEU:ITA,DEU:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "AUT: sympatia, bliskie wiezi kulturowe; DNK: sympatia, bliskie sasiedztwo; ITA: wysoka sympatia, kulturowe wiezi; SWE: sympatia, wspolne wartosci"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:CZE",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "CZE: pamiec historyczna, ograniczona sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:CZE",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "CZE: rosnaca sympatia po przystapieniu do UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:HUN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "HUN: umiarkowana sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:HUN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "HUN: polaryzacja wokol rzadu Orbana"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "UKR: ograniczone zainteresowanie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "UKR: Majdan i Donbas: wzrost sympatii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "UKR: duze poparcie spoleczne po inwazji 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "BLR: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR: sympatia dla ruchu demokratycznego 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:TUR,DEU:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR: ambiwalencja wobec tureckiej diaspory; CHN: Tiananmen w pamieci"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:TUR",
+   "years": "2000-2012",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:TUR",
+   "years": "2013-2020",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR: protesty Gezi, polaryzacja, spory po 2016"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "TUR: konflikty z rzadem Erdogana i aresztowania"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:USA",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "USA: bardzo wysoka sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:USA",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: sprzeciw wobec wojny w Iraku"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:USA",
+   "years": "2005-2016",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: wysoka sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:USA",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: spadek sympatii za prezydentury Trumpa"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:USA",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "USA: odbudowa sympatii za Bidena"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "USA: Pew (2025): 33% Niemcow ma pozytywny stosunek do USA; 73% uwaza relacje za zle (jesien 2025)",
+   "sources": [
+    "Pew Research Center, German views of the U.S. and the U.S.-Germany relationship, 2025-11-24 (https://www.pewresearch.org/global/2025/11/24/german-views-of-the-u-s-germany-relationship-turn-sharply-negative/)",
+    "Pew Research Center, Views of the United States in 24 nations, 2025-06-11 (https://www.pewresearch.org/global/2025/06/11/views-of-the-united-states/)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "RUS: ograniczona sympatia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:RUS",
+   "years": "2000-2007",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "RUS: wspolpraca, sympatia do Rosjan"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:RUS",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "RUS: chlodniejsze nastroje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "RUS: aneksja Krymu, wojna w Donbasie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "RUS: inwazja 2022; silne antyrosyjskie nastroje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:CHN",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "CHN: neutralnie, rosnaca wymiana"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:CHN",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "CHN: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "CHN: COVID-19, Xinjiang, zarzuty szpiegostwa"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:GBR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "GBR: wysoka sympatia, wiezi kulturowe"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:GBR",
+   "years": "2016-2020",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "GBR: Brexit obnizyl sympatie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:GBR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "GBR: stopniowa poprawa po Brexicie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "JPN: szacunek i sympatia, kultura i gospodarka"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:IND,DEU:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "IND: neutralnie; BRA: neutralnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:KOR,DEU:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "KOR: sympatia gospodarcza i kulturowa; TWN: sympatia dla demokracji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:ISR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ISR: umiarkowanie neutralnie, pamiec historyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:ISR",
+   "years": "2000-2023",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "ISR: sympatia, wspolne wartosci"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ISR: polaryzacja po wojnie w Gazie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:IRN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "IRN: zamach w Mykonos (1992), terroryzm"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:IRN",
+   "years": "1997-2005",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "IRN: nieufnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:IRN",
+   "years": "2006-2015",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "IRN: program jadrowy, retoryka Ahmadineżada"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:IRN",
+   "years": "2016-2021",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "IRN: nieufnosc, represje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:IRN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "IRN: protesty 2022, drony dla Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:SAU",
+   "years": "1990-2017",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "SAU: ambiwalencja, prawa czlowieka"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:SAU",
+   "years": "2018-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "SAU: zabojstwo Chaszukdzigo, krytyka wojny w Jemenie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "QAT: obojetnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:SRB",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "SRB: wojny w Bosni i Kosowie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "DEU:SRB",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "SRB: stopniowa poprawa, ale pamiec 1999"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:FRA,DEU:POL,DEU:NLD,DEU:BEL,DEU:LUX,DEU:AUT,DEU:CHE,DEU:CZE,DEU:DNK,DEU:ITA,DEU:ESP,DEU:SWE,DEU:FIN,DEU:HUN,DEU:TUR,DEU:GBR,DEU:JPN,DEU:TWN,DEU:ISR,DEU:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "FRA: DEU nie czuje sie zalezne; wspolna polityka UE; POL: DEU nie czuje sie zalezne; wspolna polityka UE; NLD: DEU nie czuje sie zalezne; wspolna polityka UE; BEL: DEU nie czuje sie zalezne; wspolna polityka UE; LUX: DEU nie czuje sie zalezne; wspolna polityka UE; AUT: DEU nie czuje sie zalezne; wspolna polityka UE; CHE: DEU nie czuje sie zalezne; wspolna polityka UE; CZE: DEU nie czuje sie zalezne; wspolna polityka UE; DNK: DEU nie czuje sie zalezne; wspolna polityka UE; ITA: DEU nie czuje sie zalezne; wspolna polityka UE; ESP: DEU nie czuje sie zalezne; wspolna polityka UE; SWE: DEU nie czuje sie zalezne; wspolna polityka UE; FIN: DEU nie czuje sie zalezne; wspolna polityka UE; HUN: DEU nie czuje sie zalezne; wspolna polityka UE; TUR: czesc NATO; wspolpraca migracyjna; GBR: brak istotnej zaleznosci; JPN: brak istotnej zaleznosci; TWN: zaleznosc od chipow (TSMC); ISR: brak istotnej zaleznosci; NOR: brak istotnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UKR: DEU nie czuje zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UKR: wsparcie i zobowiazania wobec Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: zaleznosc wojskowa w NATO i parasol nuklearny"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:USA",
+   "years": "2017-2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: zaleznosc od USA w bezpieczenstwie; sceptycyzm wobec Trumpa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "USA: Trump 2.0: poczucie wiekszej zaleznosci i podatnosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "RUS: niska zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:RUS",
+   "years": "2000-2011",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "RUS: gaz i ropa z Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:RUS",
+   "years": "2012-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "RUS: Nord Stream: wysoka zaleznosc energetyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "RUS: dywersyfikacja dostaw po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:CHN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "CHN: niska zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:CHN",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "CHN: zaleznosc od rynku i surowcow chinskich; de-risking od 2023"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:IND,DEU:KOR,DEU:BRA,DEU:IRN,DEU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "IND: brak istotnej zaleznosci; KOR: brak istotnej zaleznosci; BRA: brak istotnej zaleznosci; IRN: brak istotnej zaleznosci; SRB: brak istotnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SAU: zaleznosc od ropy (do 2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:QAT",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "QAT: brak istotnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "DEU:QAT",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "QAT: LNG z Kataru po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "FRA: integracja UE ogranicza polityke zagraniczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:POL,DEU:NLD,DEU:BEL,DEU:LUX,DEU:AUT,DEU:CHE,DEU:CZE,DEU:DNK,DEU:ITA,DEU:ESP,DEU:SWE,DEU:FIN,DEU:HUN,DEU:CHN,DEU:GBR,DEU:ISR,DEU:SAU,DEU:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "POL: ograniczenia wynikajace z czlonkostwa w UE; NLD: ograniczenia wynikajace z czlonkostwa w UE; BEL: ograniczenia wynikajace z czlonkostwa w UE; LUX: ograniczenia wynikajace z czlonkostwa w UE; AUT: ograniczenia wynikajace z czlonkostwa w UE; CHE: ograniczenia wynikajace z czlonkostwa w UE; CZE: ograniczenia wynikajace z czlonkostwa w UE; DNK: ograniczenia wynikajace z czlonkostwa w UE; ITA: ograniczenia wynikajace z czlonkostwa w UE; ESP: ograniczenia wynikajace z czlonkostwa w UE; SWE: ograniczenia wynikajace z czlonkostwa w UE; FIN: ograniczenia wynikajace z czlonkostwa w UE; HUN: ograniczenia wynikajace z czlonkostwa w UE; CHN: ograniczona zaleznosc polityczna; GBR: brak istotnej zaleznosci politycznej; ISR: brak istotnej zaleznosci; SAU: brak istotnej zaleznosci; NOR: brak istotnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:UKR,DEU:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UKR: brak realnej zaleznosci; BLR: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:TUR",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR: NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:TUR",
+   "years": "2015-2020",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR: umowa migracyjna z 2016: Turcja ma dzwignie wobec DEU"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR: NATO; umowa migracyjna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: parasol nuklearny i zaleznosc wojskowa w NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "RUS: niska zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:RUS",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "RUS: zaleznosc energetyczna ogranicza polityke"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "RUS: po 2022 zaleznosc znacznie zredukowana"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "DEU:JPN,DEU:IND,DEU:KOR,DEU:BRA,DEU:TWN,DEU:IRN,DEU:SRB,DEU:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "JPN: brak istotnej zaleznosci; IND: brak istotnej zaleznosci; KOR: brak istotnej zaleznosci; BRA: brak istotnej zaleznosci; TWN: brak istotnej zaleznosci; IRN: brak istotnej zaleznosci; SRB: brak istotnej zaleznosci; QAT: brak istotnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "FRA: DEU ma duzy wplyw w UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:POL,DEU:NLD,DEU:ITA,DEU:ESP,DEU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "POL: wplyw w UE i regionie; NLD: wplyw w UE; ITA: wplyw w UE; ESP: wplyw w UE; GBR: wplyw w UE do 2016; potem mniejszy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:BEL,DEU:AUT,DEU:CZE,DEU:SWE,DEU:FIN,DEU:HUN,DEU:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "BEL: wplyw w UE; AUT: wplyw w UE; CZE: wplyw w regionie; SWE: wplyw w UE; FIN: wplyw w UE; HUN: wplyw w UE i regionie; NOR: wplyw przez NATO i energie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:LUX,DEU:CHE,DEU:DNK,DEU:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "LUX: wplyw w UE; CHE: wplyw gospodarczy; DNK: wplyw w UE; RUS: wplyw przez handel i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "UKR: wplyw gospodarczy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "UKR: wplyw przez UE i formaty negocjacyjne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "UKR: DEU koordynuje pomoc dla Ukrainy w UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:TUR,DEU:USA,DEU:CHN,DEU:JPN,DEU:IRN,DEU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR: wplyw przez NATO i UE; USA: wplyw gospodarczy, ograniczony polityczny; CHN: wplyw gospodarczy; JPN: wplyw gospodarczy; IRN: wplyw przez sankcje i E3; SRB: wplyw przez UE na Balkanach"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:IND,DEU:KOR,DEU:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "IND: ograniczony wplyw; KOR: ograniczony wplyw; BRA: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:TWN,DEU:ISR,DEU:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TWN: ograniczony wplyw; ISR: ograniczony wplyw; SAU: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "DEU:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "QAT: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "FRA: sila ekonomiczna DEU w UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:POL,DEU:NLD,DEU:ITA,DEU:ESP,DEU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "POL: wplyw ekonomiczny i w UE; NLD: wplyw ekonomiczny i w UE; ITA: wplyw w UE; ESP: wplyw w UE; GBR: wplyw w UE do 2016"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:BEL,DEU:AUT,DEU:CZE,DEU:SWE,DEU:FIN,DEU:HUN,DEU:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BEL: wplyw w UE; AUT: wplyw w UE; CZE: wplyw gospodarczy; SWE: wplyw w UE; FIN: wplyw w UE; HUN: wplyw gospodarczy; NOR: wplyw przez NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:LUX,DEU:CHE,DEU:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "LUX: wplyw w UE; CHE: wplyw gospodarczy; DNK: wplyw w UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "UKR: wplyw gospodarczy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "UKR: wplyw przez UE i pomoc"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "UKR: pomoc militarna i finansowa"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:TUR",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR: wplyw przez NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:TUR",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR: napiecia dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR: wplyw przez NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:USA,DEU:CHN,DEU:JPN,DEU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "USA: ograniczony wplyw DEU na USA; CHN: ograniczony wplyw; JPN: ograniczony wplyw; SRB: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:RUS",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "RUS: dzwignia gospodarcza i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "RUS: sankcje i pakiety UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:IND,DEU:KOR,DEU:BRA,DEU:ISR,DEU:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "IND: ograniczony wplyw; KOR: ograniczony wplyw; BRA: ograniczony wplyw; ISR: ograniczony wplyw; SAU: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:TWN,DEU:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TWN: ograniczony wplyw; QAT: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:IRN",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "IRN: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:IRN",
+   "years": "2015-2018",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "IRN: JCPOA: wplyw E3"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "DEU:IRN",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "IRN: ograniczony wplyw po wyjsciu USA z JCPOA"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:FRA,DEU:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FRA: Francja to najwazniejszy rynek zbytu w UE; NLD: porty (Rotterdam) i handel"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:POL,DEU:BEL,DEU:AUT,DEU:CHE,DEU:ITA,DEU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "POL: wazny partner handlowy i produkcyjny; BEL: handel i porty; AUT: handel i dostawy; CHE: handel i finanse; ITA: handel; GBR: handel i inwestycje"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:LUX,DEU:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "LUX: maly partner; DNK: handel"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "CZE: lancuchy dostaw w przemysle motoryzacyjnym"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:ESP,DEU:HUN,DEU:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "ESP: handel; HUN: produkcja i handel; TUR: handel i produkcja"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:SWE,DEU:FIN,DEU:JPN,DEU:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "SWE: handel; FIN: handel; JPN: handel i technologie; KOR: handel i technologie"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UKR: niewielki udzial w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "BLR: niewielki udzial w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: duzy rynek zbytu, handel i inwestycje"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:USA",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: USA najwiekszy rynek zbytu poza UE; cla 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "RUS: niewielka zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:RUS",
+   "years": "2000-2011",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "RUS: gaz i ropa, rosnaco"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:RUS",
+   "years": "2012-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "RUS: ok. polowa importu gazu z Rosji (Nord Stream)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:RUS",
+   "years": "2022",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "RUS: szok energetyczny 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:RUS",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "RUS: po wycofaniu z rosyjskiego gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:CHN",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "CHN: niewielka zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:CHN",
+   "years": "2001-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "CHN: rosnacy handel"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:CHN",
+   "years": "2011-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "CHN: wazny partner handlowy, komponenty"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "CHN: Chiny najwiekszym partnerem handlowym DEU w 2025",
+   "sources": [
+    "Intinsight, Friedrich Merz China visit signals strategic reset (https://intinsight.com/2026/02/friedrich-merz-china-visit-strategic-reset/) - China najwiekszym partnerem handlowym DEU w 2025",
+    "China Briefing, China-Germany ties 2025: Merz's leadership impact on trade and investment (https://www.china-briefing.com/news/china-germany-relations-2025-merz-leadership-trade-investment/)",
+    "Atlantic Council, Germany's policy on China: from win-win to strategic competition (https://www.atlanticcouncil.org/in-depth-research-reports/report/germanys-policy-on-china-from-win-win-to-strategic-competition/)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:IND,DEU:BRA,DEU:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "IND: niewielki udzial w handlu; BRA: niewielki udzial w handlu; ISR: niewielki udzial w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:TWN",
+   "years": "1990-2018",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "TWN: niewielka zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:TWN",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 6,
+   "rationale": "TWN: chipy i polprzewodniki"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:IRN,DEU:QAT",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "IRN: niewielka zaleznosc; QAT: niewielka zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:IRN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "IRN: sankcje ograniczaja handel"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:SAU,DEU:NOR",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SAU: ropa; NOR: gaz i energia"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:SAU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 6,
+   "rationale": "SAU: ropa, mniejszy udzial po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:QAT",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "QAT: LNG"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:NOR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NOR: norweski gaz po 2022 zastapil czesc rosyjskiego"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "DEU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "SRB: niewielka zaleznosc"
+  }
+ ]
+}

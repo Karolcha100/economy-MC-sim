@@ -1,0 +1,1437 @@
+{
+  "rationale": "JPN, zadanie B (tryb oszczedny): relacje od Japonii do 21 partnerow (sasiedzi morscy, sojusznicy, mocarstwa, partnerzy energetyczni i handlowi, Rosja po 2022, Chiny po nowym kryzysie 2025). Dwustronne: brak wojny i kryzysu wojennego (UCDP/aktualne zdarzenia 2025: radar lock-on CHN-JPN 12.2025 to incydent, nie kryzys wojenny). Hybrid attacks: brak dzialan Japonii, zostaje domyslne 0.",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:USA",
+      "years": "1990-2024",
+      "curve": "constant",
+      "start": 85
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:USA",
+      "years": "2025",
+      "curve": "constant",
+      "start": 80
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CHN",
+      "years": "2000-2005",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CHN",
+      "years": "2006-2011",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CHN",
+      "years": "2012-2014",
+      "curve": "constant",
+      "start": -25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CHN",
+      "years": "2015-2019",
+      "curve": "constant",
+      "start": -10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CHN",
+      "years": "2020-2024",
+      "curve": "constant",
+      "start": -15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CHN",
+      "years": "2025",
+      "curve": "constant",
+      "start": -35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:CHN",
+      "years": "1990-2004",
+      "curve": "constant",
+      "start": -5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:CHN",
+      "years": "2005-2011",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:CHN",
+      "years": "2012-2014",
+      "curve": "constant",
+      "start": -55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:CHN",
+      "years": "2015-2024",
+      "curve": "constant",
+      "start": -40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:CHN",
+      "years": "2025",
+      "curve": "constant",
+      "start": -50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:CHN",
+      "years": "2000-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:KOR",
+      "years": "1990-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:KOR",
+      "years": "1998-2011",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:KOR",
+      "years": "2012-2016",
+      "curve": "constant",
+      "start": -10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:KOR",
+      "years": "2017-2021",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:KOR",
+      "years": "2022-2024",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:KOR",
+      "years": "2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:KOR",
+      "years": "1990-2011",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:KOR",
+      "years": "2012-2021",
+      "curve": "constant",
+      "start": -15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:KOR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:KOR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:KOR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:KOR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:KOR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:KOR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:PRK",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:PRK",
+      "years": "2002-2005",
+      "curve": "constant",
+      "start": -15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:PRK",
+      "years": "2006-2025",
+      "curve": "constant",
+      "start": -45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:PRK",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": -70
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:PRK",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:PRK",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:PRK",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:PRK",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:RUS",
+      "years": "1990-2010",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:RUS",
+      "years": "2011-2021",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:RUS",
+      "years": "1990-2021",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -60
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:RUS",
+      "years": "1990-2021",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:IND",
+      "years": "1990-2006",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:IND",
+      "years": "2007-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:AUS",
+      "years": "1990-2006",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:AUS",
+      "years": "2007-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:GBR",
+      "years": "1990-2022",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:GBR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:IDN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:IDN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:IDN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:IDN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:IDN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:IDN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:IDN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:PHL",
+      "years": "1990-2024",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:PHL",
+      "years": "2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:PHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:PHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:PHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:PHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:PHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:PHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:VNM",
+      "years": "1990-2013",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:VNM",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:SAU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:SAU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:SAU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:SAU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:SAU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:SAU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:SAU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:ARE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:ARE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:ARE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:ARE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:ARE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:ARE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:ARE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:QAT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:QAT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:QAT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:QAT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:QAT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:QAT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:QAT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:IRN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:IRN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:IRN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:IRN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:IRN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:IRN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:IRN",
+      "years": "1990-2011",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:IRN",
+      "years": "2012-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JPN:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JPN:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JPN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JPN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JPN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JPN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JPN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5
+    }
+  ]
+}

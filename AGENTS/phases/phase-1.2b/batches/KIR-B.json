@@ -1,0 +1,613 @@
+{
+ "rationale": "KIR, zadanie B (oszczedny): relacje KIR -> 15 partnerow (AUS, NZL, FJI, USA, CHN, TWN, JPN, KOR, GBR, TUV, MHL, NRU, FSM, WSM, TON). Okresy: 1990-2002; 2003-2004 (krotka zmiana uznania Tarawy z Tajwanu na ChRL, z pamieci, niezweryfikowane); 2005-2018 (uznanie Tajwanu); 2019-2024 (zerwanie z Tajwanem i uznanie ChRL 2019); 2025 (przeglad pomocy NZ i odwolane spotkania I 2025; wizyta Wang Yi V 2025; umowa o wspolpracy rozwojowej z ChRL XII 2025; patrol boat AUS I 2025, nowa wysoka komisja). Zaleznosc ekonomiczna wg pomocy i rybolowstwa (AUS najwiekszy donor). TUV: wspolna historia Gilbert i Ellice. Hybrid 0 (brak dzialan KIR ponizej wojny). Dwustronne: brak wojny i kryzysu KIR z innym panstwem w 1990-2025; bez zmian. Pozostale pary potwierdzone domyslnie.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:CHN",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:TWN",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:AUS",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:NZL",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:FSM,KIR:KOR,KIR:MHL,KIR:NRU,KIR:TON,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:FJI,KIR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:GBR,KIR:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:TUV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:TWN",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:CHN",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:CHN",
+   "years": "2005-2018",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:TWN",
+   "years": "2005-2018",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:CHN",
+   "years": "2019-2024",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:TWN",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:NZL",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:AUS",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "KIR:CHN",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:CHN",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:FJI,KIR:NRU,KIR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:AUS,KIR:FSM,KIR:GBR,KIR:JPN,KIR:MHL,KIR:TON,KIR:TWN,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:NZL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:TUV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:CHN",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:CHN",
+   "years": "2005-2018",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "KIR:CHN",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:CHN",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:TWN",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:FSM,KIR:MHL,KIR:NRU,KIR:TON,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:TUV",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:FJI,KIR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:NZL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:TWN",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:CHN",
+   "years": "2003-2018",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:TWN",
+   "years": "2005-2018",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:CHN",
+   "years": "2019-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:TWN",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "KIR:CHN",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "KIR:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "KIR:CHN,KIR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "KIR:JPN,KIR:NZL,KIR:TWN,KIR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "KIR:FJI",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "KIR:AUS,KIR:FSM,KIR:MHL,KIR:NRU,KIR:TON,KIR:TUV,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:CHN,KIR:TWN",
+   "years": "1990-2018",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:FSM,KIR:MHL,KIR:NRU,KIR:TON,KIR:TUV,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:FJI",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:NZL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:CHN",
+   "years": "2019-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:TWN",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "KIR:CHN",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "KIR:CHN,KIR:KOR,KIR:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "KIR:GBR,KIR:JPN,KIR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "KIR:NZL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "KIR:AUS,KIR:FJI,KIR:FSM,KIR:MHL,KIR:NRU,KIR:TON,KIR:TUV,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:TWN",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:CHN",
+   "years": "1990-2018",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:FSM,KIR:MHL,KIR:NRU,KIR:TON,KIR:TUV,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:FJI,KIR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:JPN,KIR:NZL,KIR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:TWN",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:TWN",
+   "years": "2005-2018",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:CHN",
+   "years": "2019-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:TWN",
+   "years": "2019-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "KIR:CHN",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "KIR:AUS,KIR:CHN,KIR:FJI,KIR:FSM,KIR:GBR,KIR:JPN,KIR:KOR,KIR:MHL,KIR:NRU,KIR:NZL,KIR:TON,KIR:TUV,KIR:TWN,KIR:USA,KIR:WSM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  }
+ ]
+}

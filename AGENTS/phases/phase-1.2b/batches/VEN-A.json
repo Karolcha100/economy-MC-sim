@@ -1,0 +1,981 @@
+{
+  "rationale": "VEN, zadanie A (statystyki państwa 1990-2025)",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "1990-1991",
+      "curve": "linear",
+      "rationale": "Rząd Péreza po Caracazo (1989): kryzys ekonomiczny i protesty, ale wybory i instytucje działają.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 55,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "1992-1993",
+      "curve": "manual",
+      "rationale": "Dwa zamachy stanu (4 II i 27 XI 1992), impeachment Péreza w maju 1993, rząd tymczasowy Velásqueza.",
+      "sources": [
+        "Wikipedia (en): 1992 Venezuelan coup attempts",
+        "Wikipedia (en): Impeachment of Carlos Andrés Pérez (1993)"
+      ],
+      "values": [
+        35,
+        30
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "1994-1995",
+      "curve": "linear",
+      "rationale": "Caldera (od lutego 1994): kryzys bankowy i ratowanie banków, potem stabilizacja instytucji.",
+      "sources": [
+        "Wikipedia (en): 1994 Venezuelan banking crisis"
+      ],
+      "start": 35,
+      "end": 45
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "1996-1998",
+      "curve": "linear",
+      "rationale": "Druga połowa kadencji Caldery: rząd przetrwał, ale zmiany polityki gospodarczej i wybory 1998 budziły napięcia.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 45,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "1999",
+      "curve": "constant",
+      "rationale": "Konstytuanta (lipiec 1999) przejęła uprawnienia Kongresu; konflikt instytucjonalny, nowa konstytucja (grudzień 1999).",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 40
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2000-2001",
+      "curve": "constant",
+      "rationale": "Konsolidacja rządów Cháveza po nowej konstytucji; instytucje działają, konflikty bieżące.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 45
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2002-2003",
+      "curve": "constant",
+      "rationale": "Zamach stanu z kwietnia 2002 (krótkotrwałe odsunięcie Cháveza) i strajk generalny z PDVSA (grudzień 2002 - luty 2003).",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 25
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2004",
+      "curve": "constant",
+      "rationale": "Referendum odwoławcze w sierpniu 2004 wygrane przez Cháveza; kryzys zażegnany w ramach instytucji.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 35
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2005-2009",
+      "curve": "linear",
+      "rationale": "Dominacja jednego obozu politycznego; przegrane referendum konstytucyjne (2007) i wygrane referendum o limicie kadencji (2009).",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 45,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2010-2012",
+      "curve": "constant",
+      "rationale": "Przerwy w dostawach prądu (2010), choroba Cháveza (2011-2012); przewidywalność spadła, ale rząd działa.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 40
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2013-2014",
+      "curve": "linear",
+      "rationale": "Śmierć Cháveza (marzec 2013), wybory Maduro z wąską przewagą i kwestionowane (kwiecień 2013), protesty La Salida (2014).",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 30,
+      "end": 25
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2015-2016",
+      "curve": "linear",
+      "rationale": "Opozycja z większością w Zgromadzeniu (2015); konflikt z TSJ, zawieszenie referendum odwoławczego (2016).",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 25,
+      "end": 20
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2017-2019",
+      "curve": "manual",
+      "rationale": "2017: Zgromadzenie Konstytucyjne i równoległe instytucje; 2018: kwestionowana reelekcja; 2019: Guaidó jako równoległy prezydent uznany przez ok. 50 państw.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro",
+        "Wikipedia (en): Juan Guaidó"
+      ],
+      "values": [
+        15,
+        15,
+        12
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2020-2022",
+      "curve": "linear",
+      "rationale": "Bojkot wyborów parlamentarnych (2020), rozmowy w Meksyku (2021), dalsze spory o władzę między obozami (Guaidó); stopniowe zmniejszanie napięcia.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 15,
+      "end": 20
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "VEN",
+      "years": "2023-2025",
+      "curve": "manual",
+      "rationale": "2023: porozumienie z Barbadosu i prawybory opozycji; 2024: kwestionowane wybory i represje, nakaz aresztowania Gonzáleza (wrzesień 2024); 2025: presja USA i rząd Maduro w izolacji.",
+      "sources": [
+        "The Carter Center, Center Finds Democracy Thwarted in Venezuela, https://www.cartercenter.org/stories/center-finds-democracy-thwarted-in-venezuela/",
+        "NPR, Venezuelans protest Sunday's contested presidential election results, 2024-07-30, https://www.npr.org/2024/07/30/nx-s1-5056312/venezuelans-protest-sundays-contested-presidential-election-results-for-a-second-day",
+        "Al Jazeera, Venezuela prosecutor seeks arrest warrant for opposition candidate Gonzalez, 2024-09-02, https://www.aljazeera.com/news/2024/9/2/venezuela-prosecutor-seeks-arrest-warrant-for-opposition-candidate-gonzalez"
+      ],
+      "values": [
+        25,
+        20,
+        15
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "VEN",
+      "years": "1990-1991",
+      "curve": "linear",
+      "rationale": "Po Caracazo: protesty i represje, ale bez stałej przemocy politycznej; wartość wstępna przed serią danych WGI (1996).",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 45,
+      "end": 48
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "VEN",
+      "years": "1992-1995",
+      "curve": "manual",
+      "rationale": "Zamachy stanu z 1992 r. z ofiarami śmiertelnymi, uzbrojone grupy i wysoka przestępczość; zgodnie z łagodnym wzrostem do 1996.",
+      "sources": [
+        "Wikipedia (en): 1992 Venezuelan coup attempts"
+      ],
+      "values": [
+        55,
+        52,
+        55,
+        58
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "VEN",
+      "years": "2022-2025",
+      "curve": "linear",
+      "rationale": "Kontynuacja od wartości z 2022 (WGI). 2024: zabici podczas protestów po wyborach; brak wojny domowej, ale przemoc uzbrojonych grup i represje.",
+      "sources": [
+        "NPR, Venezuelans protest Sunday's contested presidential election results, 2024-07-30, https://www.npr.org/2024/07/30/nx-s1-5056312/venezuelans-protest-sundays-contested-presidential-election-results-for-a-second-day",
+        "The Carter Center, Center Finds Democracy Thwarted in Venezuela, https://www.cartercenter.org/stories/center-finds-democracy-thwarted-in-venezuela/"
+      ],
+      "start": "current",
+      "end": 76,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "VEN",
+      "years": "1990-1995",
+      "curve": "linear",
+      "rationale": "Skandale za Péreza (impeachment za defraudację 1993), kryzys bankowy 1994 z insiderskimi pożyczkami; poziom zbliżony do pierwszych danych WGI (1996: 67).",
+      "sources": [
+        "Wikipedia (en): Impeachment of Carlos Andrés Pérez (1993)",
+        "Wikipedia (en): 1994 Venezuelan banking crisis"
+      ],
+      "start": 58,
+      "end": 66.5
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "VEN",
+      "years": "2022-2025",
+      "curve": "linear",
+      "rationale": "Kontynuacja od 2022 (83). Rządy Maduro: korupcja w sektorze naftowym i sieciach wojskowo-politycznych; wartość zbliża się do 'państwa przejętego przez sieci'.",
+      "sources": [
+        "The Carter Center, Center Finds Democracy Thwarted in Venezuela, https://www.cartercenter.org/stories/center-finds-democracy-thwarted-in-venezuela/",
+        "Al Jazeera, Venezuela prosecutor seeks arrest warrant for opposition candidate Gonzalez, 2024-09-02, https://www.aljazeera.com/news/2024/9/2/venezuela-prosecutor-seeks-arrest-warrant-for-opposition-candidate-gonzalez"
+      ],
+      "start": "current",
+      "end": 85,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "VEN",
+      "years": "1990-1994",
+      "curve": "linear",
+      "rationale": "Szacunek (przed danymi Cantril): kryzys po Caracazo, rosnąca inflacja i bezrobocie w pierwszych latach dekady.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 55,
+      "end": 45
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "VEN",
+      "years": "1995-1998",
+      "curve": "linear",
+      "rationale": "Recesja i program stabilizacyjny (1996), potem poprawa cen ropy i nadzieja na zmianę (1998).",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 45,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "VEN",
+      "years": "1999-2000",
+      "curve": "linear",
+      "rationale": "Ożywienie cen ropy, poparcie dla Cháveza na początku kadencji; tragedia Vargas (grudzień 1999) obniża nastrój.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 50,
+      "end": 55
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "VEN",
+      "years": "2001-2004",
+      "curve": "manual",
+      "rationale": "2001: wzrost dochodów z ropy; 2002: zamach stanu i strajk; 2003: niedobory i inflacja; 2004: odbicie po przywróceniu produkcji.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "values": [
+        58,
+        55,
+        47,
+        53
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "VEN",
+      "years": "2005-2010",
+      "curve": "linear",
+      "rationale": "Boom na ropę i programy socjalne; 2010 przerwy w dostawach prądu; wartość płynnie łączy się z Cantril od 2011.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 58,
+      "end": 67
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "VEN",
+      "years": "2023-2025",
+      "curve": "linear",
+      "rationale": "Kontynuacja od 2023 (70,9 = 100 x HDI). Brak nowych danych HDI: wartość stabilna, kryzys gospodarczy i emigracja hamują wzrost.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": "current",
+      "end": 71.2,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "VEN",
+      "years": "1990-2004",
+      "curve": "linear",
+      "rationale": "Spór o Esequibo obecny w świadomości społecznej, ale bez dużego poparcia dla rewizji granic.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 10,
+      "end": 8
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "VEN",
+      "years": "2005-2014",
+      "curve": "constant",
+      "rationale": "Retoryka narodowa Cháveza; roszczenie do Esequibo marginalne w opinii publicznej.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 10
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "VEN",
+      "years": "2015-2022",
+      "curve": "linear",
+      "rationale": "Ponowne podniesienie sporu o Esequibo przez władze (2015 i później), wzrost poparcia dla roszczenia.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 12,
+      "end": 18
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "VEN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "rationale": "Referendum w sprawie Esequibo (grudzień 2023): oficjalnie ok. 95% 'za', przy niskiej frekwencji; to poparcie dla roszczenia, nie dominujący nastrój.",
+      "sources": [
+        "CNN, A Venezuelan vote on an oil-rich region of Guyana raises concerns of a South American military conflict, 2023-12-01, https://www.cnn.com/2023/12/01/americas/venezuela-essequibo-referendum-guyana-intl/index.html"
+      ],
+      "start": 25
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "VEN",
+      "years": "1990-1998",
+      "curve": "linear",
+      "rationale": "Roszczenie do Esequibo formalnie obecne, ale nie priorytet polityki zagranicznej.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 5,
+      "end": 3
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "VEN",
+      "years": "1999-2004",
+      "curve": "linear",
+      "rationale": "Chávez: retoryka antyamerykańska i integracja latynoamerykańska; roszczenie terytorialne rzadko eksponowane.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 4,
+      "end": 8
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "VEN",
+      "years": "2005-2013",
+      "curve": "linear",
+      "rationale": "Rosnąca rola państwa w polityce zagranicznej (ALBA); Esequibo pozostaje w tle.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 8,
+      "end": 12
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "VEN",
+      "years": "2014-2015",
+      "curve": "linear",
+      "rationale": "Ponowne odświeżenie roszczenia do Esequibo w polityce władz (2015).",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 15,
+      "end": 25
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "VEN",
+      "years": "2016-2022",
+      "curve": "linear",
+      "rationale": "Sprawa Esequibo w Międzynarodowym Trybunale Sprawiedliwości; władze utrzymują roszczenie jako stały cel polityki.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 25,
+      "end": 32
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "VEN",
+      "years": "2023-2025",
+      "curve": "manual",
+      "rationale": "2023: referendum w sprawie Esequibo; 2024: ustawa o utworzeniu stanu 'Guayana Esequiba' (podpisana w kwietniu 2024); 2025: plan wyboru gubernatora tego stanu.",
+      "sources": [
+        "CNN, A Venezuelan vote on an oil-rich region of Guyana raises concerns of a South American military conflict, 2023-12-01, https://www.cnn.com/2023/12/01/americas/venezuela-essequibo-referendum-guyana-intl/index.html",
+        "France 24, Venezuela's parliament approves creation of state in disputed oil-rich Essequibo, 2024-03-22, https://www.france24.com/en/americas/20240322-venezuela-s-parliament-approves-creation-of-state-in-disputed-oil-rich-essequibo"
+      ],
+      "values": [
+        45,
+        50,
+        50
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "1990-1991",
+      "curve": "linear",
+      "rationale": "Pérez po Caracazo: spadek poparcia dla polityki gospodarczej.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 40,
+      "end": 35
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "1992-1993",
+      "curve": "manual",
+      "rationale": "Dwa zamachy stanu, potem impeachment Péreza; niskie poparcie dla rządu.",
+      "sources": [
+        "Wikipedia (en): 1992 Venezuelan coup attempts",
+        "Wikipedia (en): Impeachment of Carlos Andrés Pérez (1993)"
+      ],
+      "values": [
+        25,
+        20
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "1994-1996",
+      "curve": "linear",
+      "rationale": "Caldera: kryzys bankowy i program 'Agenda Venezuela' (1996) mało popularny.",
+      "sources": [
+        "Wikipedia (en): 1994 Venezuelan banking crisis"
+      ],
+      "start": 30,
+      "end": 25
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "1997-1998",
+      "curve": "linear",
+      "rationale": "Pod koniec kadencji Caldery poparcie rośnie; kampania 1998 przynosi zmianę nastrojów (Chávez prowadzi w sondażach).",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 30,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "1999-2000",
+      "curve": "manual",
+      "rationale": "Początek rządów Cháveza: wysokie poparcie (ok. 65% w sondażach).",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "values": [
+        65,
+        65
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2001-2003",
+      "curve": "manual",
+      "rationale": "2001: spadek po reformach; 2002: zamach stanu i strajk obniżają poparcie; 2003: strajk trwa.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "values": [
+        60,
+        45,
+        40
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2004-2006",
+      "curve": "manual",
+      "rationale": "2004: referendum odwoławcze wygrane (ok. 59%); 2005-2006: wzrost poparcia dzięki cenom ropy.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "values": [
+        55,
+        60,
+        62
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2007-2009",
+      "curve": "manual",
+      "rationale": "2007: porażka referendum konstytucyjnego; 2008: inflacja; 2009: poparcie dla wygranego referendum o kadencji.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "values": [
+        55,
+        50,
+        52
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2010-2011",
+      "curve": "manual",
+      "rationale": "2010: przerwy w dostawach prądu i inflacja; 2011: pogorszenie stanu zdrowia Cháveza.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "values": [
+        45,
+        40
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2012",
+      "curve": "constant",
+      "rationale": "Wybory prezydenckie (październik 2012) wygrane przez Cháveza z ok. 55%.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 50
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2013-2014",
+      "curve": "manual",
+      "rationale": "2013: wąskie zwycięstwo Maduro w wyborach; 2014: protesty La Salida i represje.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "values": [
+        40,
+        30
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2015-2016",
+      "curve": "manual",
+      "rationale": "2015: porażka rządu w wyborach parlamentarnych; 2016: kryzys gospodarczy, niskie poparcie w sondażach.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "values": [
+        25,
+        20
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2017-2019",
+      "curve": "manual",
+      "rationale": "2017: Zgromadzenie Konstytucyjne; 2018: kwestionowane wybory; 2019: spór o władzę z Guaidó, poparcie niskie.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro",
+        "Wikipedia (en): Juan Guaidó"
+      ],
+      "values": [
+        22,
+        25,
+        22
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2020-2022",
+      "curve": "constant",
+      "rationale": "Niskie poparcie w sondażach (ok. 20-25%) w czasie pandemii, bojkotu i kryzysu negocjacji.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 25
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "VEN",
+      "years": "2023-2025",
+      "curve": "manual",
+      "rationale": "2023: porozumienie z Barbadosu i poprawa nastrojów wśród opozycji; 2024: kwestionowany wynik wyborów; 2025: niskie poparcie w sondażach.",
+      "sources": [
+        "The Carter Center, Center Finds Democracy Thwarted in Venezuela, https://www.cartercenter.org/stories/center-finds-democracy-thwarted-in-venezuela/",
+        "NPR, Venezuelans protest Sunday's contested presidential election results, 2024-07-30, https://www.npr.org/2024/07/30/nx-s1-5056312/venezuelans-protest-sundays-contested-presidential-election-results-for-a-second-day"
+      ],
+      "values": [
+        25,
+        20,
+        20
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "1990-1991",
+      "curve": "linear",
+      "rationale": "Po Caracazo (1989) każda podwyżka cen i cięcie wydatków wywołują protesty.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 80,
+      "end": 78
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "1992-1994",
+      "curve": "manual",
+      "rationale": "Zamachy stanu, impeachment, kryzys bankowy: straty szybko przeradzają się w sprzeciw.",
+      "sources": [
+        "Wikipedia (en): 1992 Venezuelan coup attempts",
+        "Wikipedia (en): 1994 Venezuelan banking crisis"
+      ],
+      "values": [
+        72,
+        68,
+        70
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "1995-1998",
+      "curve": "linear",
+      "rationale": "Inflacja i cięcia socjalne (1996), ale nastroje zaczynają się zmieniać przed wyborami 1998.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 68,
+      "end": 58
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "1999-2001",
+      "curve": "linear",
+      "rationale": "Początek rządów Cháveza: wysokie zaufanie, mniejsza wrażliwość na straty.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 50,
+      "end": 45
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2002-2003",
+      "curve": "manual",
+      "rationale": "Zamach i strajk: utrata dochodów i niedobory zamieniają się w silny sprzeciw.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "values": [
+        55,
+        60
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2004-2007",
+      "curve": "constant",
+      "rationale": "Wzrost dochodów z ropy łagodzi wpływ strat.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 45
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2008-2010",
+      "curve": "linear",
+      "rationale": "Inflacja i przerwy w dostawach prądu (2010) zwiększają wrażliwość na straty.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 50,
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2011-2013",
+      "curve": "linear",
+      "rationale": "Inflacja i niedobory żywności przy stagnacji gospodarki.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 60,
+      "end": 65
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2014-2015",
+      "curve": "constant",
+      "rationale": "Niedobory, inflacja i protesty La Salida: straty szybko wywołują sprzeciw.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 80
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2016-2019",
+      "curve": "linear",
+      "rationale": "Hiperinflacja: każde pogorszenie warunków wywołuje protest, ale represje i emigracja tłumią ruch.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 75,
+      "end": 70
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2020-2022",
+      "curve": "linear",
+      "rationale": "Dolaryzacja obniża ceny, a sprzeciw jest tłumiony; wrażliwość spada.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 70,
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "VEN",
+      "years": "2023-2025",
+      "curve": "manual",
+      "rationale": "2023: poprawa warunków po porozumieniu z Barbadosu; 2024: represje i sankcje; 2025: presja USA i ograniczenia gospodarcze.",
+      "sources": [
+        "The Carter Center, Center Finds Democracy Thwarted in Venezuela, https://www.cartercenter.org/stories/center-finds-democracy-thwarted-in-venezuela/",
+        "Al Jazeera, Venezuela prosecutor seeks arrest warrant for opposition candidate Gonzalez, 2024-09-02, https://www.aljazeera.com/news/2024/9/2/venezuela-prosecutor-seeks-arrest-warrant-for-opposition-candidate-gonzalez"
+      ],
+      "values": [
+        60,
+        65,
+        65
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "VEN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "rationale": "Migranci głównie z Kolumbii i dawni imigranci europejscy są dobrze zintegrowani; brak sygnałów segregacji.",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 70
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "VEN",
+      "years": "2002",
+      "curve": "constant",
+      "rationale": "Kwiecień 2002: gwałtowne starcia podczas zamachu stanu, poważne zamieszki w Caracas.",
+      "sources": [
+        "Wikipedia (en): Hugo Chávez"
+      ],
+      "start": 1
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "VEN",
+      "years": "2014",
+      "curve": "constant",
+      "rationale": "Protesty La Salida: gwałtowne starcia i barykady, dziesiątki ofiar śmiertelnych.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 1
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "VEN",
+      "years": "2017",
+      "curve": "constant",
+      "rationale": "Protesty antyrządowe w 2017 (ponad 100 zabitych) - poważne, ogólnokrajowe zamieszki.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 1
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "VEN",
+      "years": "2024",
+      "curve": "constant",
+      "rationale": "Protesty po kwestionowanych wyborach 2024 z zabitymi i masowymi aresztowaniami.",
+      "sources": [
+        "NPR, Venezuelans protest Sunday's contested presidential election results, 2024-07-30, https://www.npr.org/2024/07/30/nx-s1-5056312/venezuelans-protest-sundays-contested-presidential-election-results-for-a-second-day",
+        "The Carter Center, Center Finds Democracy Thwarted in Venezuela, https://www.cartercenter.org/stories/center-finds-democracy-thwarted-in-venezuela/",
+        "Wikipedia (en): 2024 Venezuelan presidential election protests"
+      ],
+      "start": 1
+    },
+    {
+      "kind": "grade",
+      "name": "epidemic",
+      "targets": "VEN",
+      "years": "2020",
+      "curve": "constant",
+      "rationale": "Pandemia COVID-19: poważne zakłócenie życia i wzrost śmiertelności (jak w anchorach 2020).",
+      "sources": [
+        "Wikipedia (en): History of Venezuela"
+      ],
+      "start": 1
+    },
+    {
+      "kind": "grade",
+      "name": "mobilized",
+      "targets": "VEN",
+      "years": "2019",
+      "curve": "constant",
+      "rationale": "Grudzień 2019: Maduro zarządził mobilizację ok. 5600 żołnierzy w odpowiedzi na okręt brytyjski u wybrzeży Gujany.",
+      "sources": [
+        "Wikipedia (en): Nicolás Maduro"
+      ],
+      "start": 1
+    },
+    {
+      "kind": "grade",
+      "name": "mobilized",
+      "targets": "VEN",
+      "years": "2025",
+      "curve": "constant",
+      "rationale": "Sierpień 2025: mobilizacja milicji (ok. 4,5 mln deklarowanych) w odpowiedzi na okręty USA; listopad 2025: 'masowa mobilizacja' sił zbrojnych.",
+      "sources": [
+        "Anadolu Agency, Maduro orders expansion of Venezuela's militia amid rising US military pressure, 2025, https://www.aa.com.tr/en/americas/maduro-orders-expansion-of-venezuela-s-militia-amid-rising-us-military-pressure/3678870",
+        "Peoples Dispatch, Venezuela mobilizes 4.5 million militia members as US deploys troops to the Caribbean, 2025-08-20, https://peoplesdispatch.org/2025/08/20/venezuela-mobilizes-4-5-million-militia-members-as-us-deploys-troops-to-the-caribbean/",
+        "CNN, Venezuela announces 'massive mobilization' of military forces as America's largest warship sails into region, 2025-11-11, https://www.cnn.com/2025/11/11/americas/venezuela-military-mobilization-us-buildup-intl-latam"
+      ],
+      "start": 1
+    }
+  ]
+}

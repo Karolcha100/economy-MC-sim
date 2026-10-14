@@ -1,0 +1,1029 @@
+{
+ "rationale": "LUX, zadanie B (tryb oszczedny): relacje od LUX do 35 partnerow (sasiedzi BEL/DEU/FRA, Benelux, UE/NATO, USA/GBR, UKR po 1991 z poparciem po 2014 i 2022, RUS od 2014 ujemnie, mocne po 2022, CHN/JPN/CHE/NOR/SGP, SRB z 1992-1999, pozostali nowi czlonkowie UE (HUN, ROU, BGR, HRV, SVK, SVN, EST, LVA, LTU, CYP, MLT) wspolna grupa, od 2004 mocniej); economic dependence wysoka wobec sasiadow (praca transgraniczna, handel, finanse); hybrid attacks domyslne 0; in war bez zmian (brak konfliktu z udzialem LUX)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:CHN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SRB",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:RUS",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:HUN,LUX:ROU,LUX:BGR,LUX:CYP,LUX:MLT",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:POL,LUX:CZE",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SWE,LUX:AUT,LUX:FIN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:ESP,LUX:PRT,LUX:GRC,LUX:IRL,LUX:DNK,LUX:CHE,LUX:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:GBR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:DEU,LUX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:BEL,LUX:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 90
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:UKR",
+   "years": "1991-1991",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SVN,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SRB",
+   "years": "1992-1998",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:RUS",
+   "years": "1992-2013",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:UKR",
+   "years": "1992-2013",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SVK",
+   "years": "1993-2003",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SWE,LUX:AUT,LUX:FIN",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:CHN",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SRB",
+   "years": "1999-1999",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SRB",
+   "years": "2000-2000",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SRB",
+   "years": "2001-2008",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:POL,LUX:CZE,LUX:HUN,LUX:SVK,LUX:SVN,LUX:ROU,LUX:BGR,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU,LUX:CYP,LUX:MLT",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:SRB",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:GBR",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:USA",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LUX:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:HUN,LUX:ROU,LUX:BGR,LUX:CYP,LUX:MLT,LUX:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:GRC,LUX:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:ESP,LUX:PRT,LUX:DNK,LUX:SWE,LUX:AUT,LUX:FIN,LUX:POL,LUX:CZE,LUX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:IRL,LUX:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:GBR",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:DEU,LUX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:SVN,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:CHN",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LUX:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:HUN,LUX:ROU,LUX:BGR,LUX:CYP,LUX:MLT,LUX:USA,LUX:RUS,LUX:JPN,LUX:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:GBR,LUX:CHE,LUX:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:ESP,LUX:PRT,LUX:GRC,LUX:IRL,LUX:DNK,LUX:SWE,LUX:AUT,LUX:FIN,LUX:POL,LUX:CZE,LUX:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:DEU,LUX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:BEL,LUX:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:SVN,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LUX:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:HUN,LUX:ROU,LUX:BGR,LUX:CYP,LUX:MLT,LUX:RUS,LUX:JPN,LUX:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:ITA,LUX:ESP,LUX:PRT,LUX:GRC,LUX:IRL,LUX:DNK,LUX:SWE,LUX:AUT,LUX:FIN,LUX:POL,LUX:CZE,LUX:GBR,LUX:CHN,LUX:CHE,LUX:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:BEL,LUX:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:DEU,LUX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:SVN,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU,LUX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LUX:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:HUN,LUX:ROU,LUX:BGR,LUX:CYP,LUX:MLT,LUX:RUS,LUX:CHN,LUX:JPN,LUX:NOR,LUX:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:ESP,LUX:PRT,LUX:GRC,LUX:IRL,LUX:DNK,LUX:SWE,LUX:AUT,LUX:FIN,LUX:POL,LUX:CZE,LUX:USA,LUX:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:GBR,LUX:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:DEU,LUX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:BEL,LUX:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:SVN,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LUX:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:RUS,LUX:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:CHN,LUX:JPN,LUX:CHE,LUX:NOR,LUX:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:HUN,LUX:ROU,LUX:BGR,LUX:CYP,LUX:MLT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:ITA,LUX:ESP,LUX:PRT,LUX:GRC,LUX:IRL,LUX:DNK,LUX:SWE,LUX:AUT,LUX:FIN,LUX:POL,LUX:CZE,LUX:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:DEU,LUX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:SVN,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LUX:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:CHN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SRB",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:RUS",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:HUN,LUX:ROU,LUX:BGR,LUX:CYP,LUX:MLT",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:POL,LUX:CZE",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SWE,LUX:AUT,LUX:FIN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:CHE,LUX:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:DEU,LUX:ITA,LUX:ESP,LUX:PRT,LUX:GRC,LUX:IRL,LUX:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:GBR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:USA",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:BEL,LUX:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:UKR",
+   "years": "1991-1991",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SVN,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SRB",
+   "years": "1992-1998",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:RUS",
+   "years": "1992-2013",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:UKR",
+   "years": "1992-2013",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SVK",
+   "years": "1993-2003",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SWE,LUX:AUT,LUX:FIN",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:CHN",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SRB",
+   "years": "1999-1999",
+   "curve": "constant",
+   "start": -60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SRB",
+   "years": "2000-2001",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SRB",
+   "years": "2002-2008",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:USA",
+   "years": "2003-2008",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:HUN,LUX:SVK,LUX:SVN,LUX:ROU,LUX:BGR,LUX:HRV,LUX:EST,LUX:LVA,LUX:LTU,LUX:CYP,LUX:MLT",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:POL,LUX:CZE",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:SRB",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:USA",
+   "years": "2009-2016",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:GBR",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:USA",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LUX:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85
+  }
+ ]
+}

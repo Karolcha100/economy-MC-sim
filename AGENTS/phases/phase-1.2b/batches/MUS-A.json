@@ -1,0 +1,54 @@
+{
+  "rationale": "MUS, zadanie A (statystyki państwa), tryb oszczędny. Stabilność: stabilna demokracja parlamentarna z pokojową zmianą władzy (1995, 2000, 2005, 2014, 2019, 2024); spadek w 1999 (zamieszki Kaya) i w 2019-2020 (zmiana rządu, katastrofa Wakashio). Korupcja: wartości z 1996-2022 bez zmian, uzupełniono 1990-1995 i 2023-2025 na poziomie 2022. Szczęście: uzupełniono 1990-2010 (przed 2005 estymacja) tak, by łączyło się z wartością z 2011. Cywilizacja: uzupełniono 2024-2025 (wzrost jak w poprzednich latach). Przemoc: uzupełniono 1990-1995 i 2023-2025 wokół wartości z 1996 i 2022. Rewanżyzm społeczny i rządowy: spór o Chagos (ICJ 2019, UN GA, porozumienie z W. Brytanią 2025); wartości estymowane (niska pewność). Popularność rządu: estymacja bez sondaży, dołek w 2020 (Wakashio). Wrażliwość i asymilacja: estymacja (mały odsetek migrantów, stabilna wielokulturowość). Flagi: riots 1999 (zamieszki Kaya), epidemic 2020-2021 (COVID, jak w anchors). Istniejące wartości nietknięte (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "1990-1994", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "1995-1998", "curve": "constant", "start": 78},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "1999", "curve": "constant", "start": 74},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "2000-2004", "curve": "linear", "start": 76, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "2005-2014", "curve": "constant", "start": 82},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "2015-2018", "curve": "linear", "start": 82, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "2019-2020", "curve": "constant", "start": 78},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "2021-2023", "curve": "linear", "start": 80, "end": 81},
+    {"kind": "grade", "name": "stability", "targets": "MUS", "years": "2024-2025", "curve": "linear", "start": 80, "end": 82},
+
+    {"kind": "grade", "name": "corruption", "targets": "MUS", "years": "1990-1995", "curve": "linear", "start": 50.5, "end": 49.6, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MUS", "years": "2023-2025", "curve": "constant", "start": 41.8, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MUS", "years": "1990-1999", "curve": "linear", "start": 53, "end": 54, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MUS", "years": "2000-2010", "curve": "linear", "start": 54, "end": 54.7, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MUS", "years": "2024-2025", "curve": "linear", "start": 81.0, "end": 81.4, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MUS", "years": "1990-1995", "curve": "linear", "start": 29.5, "end": 28.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MUS", "years": "2023-2025", "curve": "constant", "start": 33.3, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MUS", "years": "1990-1999", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "social revanchism", "targets": "MUS", "years": "2000-2018", "curve": "linear", "start": 25, "end": 30},
+    {"kind": "grade", "name": "social revanchism", "targets": "MUS", "years": "2019-2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MUS", "years": "1990-2000", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "government revanchism", "targets": "MUS", "years": "2001-2010", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "government revanchism", "targets": "MUS", "years": "2011-2018", "curve": "linear", "start": 25, "end": 30},
+    {"kind": "grade", "name": "government revanchism", "targets": "MUS", "years": "2019-2024", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government revanchism", "targets": "MUS", "years": "2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "1990-1994", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "1995-1999", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2000-2004", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2005-2009", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2010-2014", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2015-2018", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2019", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2020", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2021-2023", "curve": "linear", "start": 42, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MUS", "years": "2024-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MUS", "years": "1990-1999", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MUS", "years": "2000-2025", "curve": "linear", "start": 50, "end": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MUS", "years": "1990-2025", "curve": "linear", "start": 62, "end": 60},
+
+    {"kind": "grade", "name": "riots", "targets": "MUS", "years": "1999", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "MUS", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "rationale": "LBR, zadanie A (statystyki państwa), tryb oszczędny. Wojna domowa 1990-1996 (upadek państwa, Doe zabity 1990, ECOMOG), druga wojna 1999-2003 (LURD, wyjazd Taylora w VIII 2003), wybory 1997/2005/2011/2017/2023 i pokojowe przekazania władzy 2006, 2018, 2024; Ebola 2014-2015, COVID 2020; CPI 2024 = 27, 2025 = 28; protesty 2025 (pokojowe). Wartości 1990-1998 dla cywilizacji i zaufania oparte na szacunku, bez pełnych danych HDI; popularność rządu w latach bez sondaży to szacunek.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "LBR", "years": "1990-1995", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "stability", "targets": "LBR", "years": "1996-1998", "curve": "linear", "start": 5, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "LBR", "years": "1999-2003", "curve": "linear", "start": 30, "end": 5},
+    {"kind": "grade", "name": "stability", "targets": "LBR", "years": "2004-2005", "curve": "linear", "start": 15, "end": 35},
+    {"kind": "grade", "name": "stability", "targets": "LBR", "years": "2006-2011", "curve": "linear", "start": 40, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "LBR", "years": "2012-2017", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "LBR", "years": "2018-2025", "curve": "linear", "start": 62, "end": 57},
+
+    {"kind": "grade", "name": "corruption", "targets": "LBR", "years": "1990-1995", "curve": "linear", "start": 78, "end": 80},
+    {"kind": "grade", "name": "corruption", "targets": "LBR", "years": "2023-2025", "curve": "manual", "values": [69, 70, 69]},
+
+    {"kind": "grade", "name": "happiness", "targets": "LBR", "years": "1990-1995", "curve": "linear", "start": 20, "end": 24},
+    {"kind": "grade", "name": "happiness", "targets": "LBR", "years": "1996-2003", "curve": "linear", "start": 30, "end": 26},
+    {"kind": "grade", "name": "happiness", "targets": "LBR", "years": "2004-2010", "curve": "linear", "start": 28, "end": 38},
+
+    {"kind": "grade", "name": "civilization level", "targets": "LBR", "years": "1990-1993", "curve": "linear", "start": 37, "end": 33},
+    {"kind": "grade", "name": "civilization level", "targets": "LBR", "years": "1994-1998", "curve": "linear", "start": 33, "end": 39},
+    {"kind": "grade", "name": "civilization level", "targets": "LBR", "years": "2024-2025", "curve": "linear", "start": 51.3, "end": 51.6},
+
+    {"kind": "grade", "name": "violence risk", "targets": "LBR", "years": "1990-1995", "curve": "constant", "start": 100},
+    {"kind": "grade", "name": "violence risk", "targets": "LBR", "years": "2023-2025", "curve": "linear", "start": 55.8, "end": 55.5},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "LBR", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "LBR", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "1990-1995", "curve": "linear", "start": 25, "end": 15},
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "1996-1997", "curve": "linear", "start": 25, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "1998-2003", "curve": "linear", "start": 45, "end": 10},
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "2004-2005", "curve": "linear", "start": 25, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "2006-2011", "curve": "linear", "start": 60, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "2012-2017", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "2018-2022", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "LBR", "years": "2023-2025", "curve": "manual", "values": [30, 45, 40]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBR", "years": "1990-1995", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBR", "years": "1996-2005", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBR", "years": "2006-2025", "curve": "constant", "start": 65},
+
+    {"kind": "grade", "name": "assimilation", "targets": "LBR", "years": "1990-1995", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "assimilation", "targets": "LBR", "years": "1996-2003", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "LBR", "years": "2004-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBR", "years": "1990-1994", "curve": "linear", "start": 30, "end": 60},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBR", "years": "1995-1996", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBR", "years": "1997-1998", "curve": "linear", "start": 60, "end": 45},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBR", "years": "1999-2003", "curve": "linear", "start": 40, "end": 75},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBR", "years": "2004-2010", "curve": "linear", "start": 60, "end": 20},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBR", "years": "2011-2025", "curve": "linear", "start": 20, "end": 5},
+
+    {"kind": "grade", "name": "state collapse", "targets": "LBR", "years": "1990-1996", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "state collapse", "targets": "LBR", "years": "2003", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "LBR", "years": "2014-2015", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "LBR", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "rationale": "JAM, zadanie A (statystyki państwa), tryb oszczędny: stabilna demokracja dwupartyjna z pokojowymi zmianami władzy (1992, 2007, 2016, 2025), epizod kryzysu instytucjonalnego 2010–2011 (Tivoli, stan wyjątkowy, dymisja Goldinga); brak roszczeń terytorialnych; popularność rządów ~35–55 z sondaży (Don Anderson 2024: niekorzystna ocena premiera ok. 40%, PNP prowadzi); brak wojny i flag zdarzeń; przemoc (zabójstwa) malejąca po 2023 (1404 → ok. 1140 w 2024)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "JAM", "years": "1990-1995", "curve": "linear", "start": 68, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "JAM", "years": "1996-2005", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "JAM", "years": "2006-2009", "curve": "linear", "start": 70, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "JAM", "years": "2010-2011", "curve": "linear", "start": 66, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "JAM", "years": "2012-2016", "curve": "linear", "start": 58, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "JAM", "years": "2017-2025", "curve": "linear", "start": 70, "end": 71},
+
+    {"kind": "grade", "name": "corruption", "targets": "JAM", "years": "1990-1995", "curve": "linear", "start": 45, "end": 46.2},
+    {"kind": "grade", "name": "corruption", "targets": "JAM", "years": "2023-2025", "curve": "linear", "start": 50.5, "end": 50},
+
+    {"kind": "grade", "name": "happiness", "targets": "JAM", "years": "1990-1999", "curve": "linear", "start": 58, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "JAM", "years": "2000-2004", "curve": "linear", "start": 55, "end": 56},
+    {"kind": "grade", "name": "happiness", "targets": "JAM", "years": "2005-2010", "curve": "linear", "start": 56, "end": 60},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "JAM", "years": "1990-2025", "curve": "linear", "start": 1, "end": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "JAM", "years": "1990-2025", "curve": "linear", "start": 0, "end": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "1990-1992", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "1993-1999", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "2000-2005", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "2006-2007", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "2008-2011", "curve": "linear", "start": 45, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "2012-2015", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "2016-2019", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "2020-2023", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "JAM", "years": "2024-2025", "curve": "linear", "start": 35, "end": 42},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "JAM", "years": "1990-1999", "curve": "linear", "start": 60, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "JAM", "years": "2000-2010", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "JAM", "years": "2011-2019", "curve": "linear", "start": 55, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "JAM", "years": "2020-2025", "curve": "linear", "start": 55, "end": 60},
+
+    {"kind": "grade", "name": "civilization level", "targets": "JAM", "years": "2024-2025", "curve": "linear", "start": 72.2, "end": 72.4},
+
+    {"kind": "grade", "name": "assimilation", "targets": "JAM", "years": "1990-2025", "curve": "linear", "start": 75, "end": 75},
+
+    {"kind": "grade", "name": "violence risk", "targets": "JAM", "years": "1990-1995", "curve": "linear", "start": 49.5, "end": 48},
+    {"kind": "grade", "name": "violence risk", "targets": "JAM", "years": "2023-2025", "curve": "linear", "start": 42.5, "end": 40.5}
+  ]
+}

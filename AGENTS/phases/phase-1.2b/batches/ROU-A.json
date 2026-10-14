@@ -1,0 +1,995 @@
+{
+  "rationale": "ROU, zadanie A (statystyki państwa), tryb pełny",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 45,
+      "rationale": "1990: władza FSN po rewolucji; czerwcowa mineriada 1990 i wrzesień 1991 (górnicy w Bukareszcie) obalają rząd Romana; potem rząd Stolojana",
+      "sources": [
+        "Wikipedia (en), Mineriad",
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 35
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 40,
+      "rationale": "rząd Văcăroiu (1992-1996) z większością parlamentarną; długie rządy bez kryzysu gabinetu",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 45
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "1996-1999",
+      "curve": "linear",
+      "start": 50,
+      "rationale": "zmiana władzy 1996 (CDR, Constantinescu) bez przemocy; kryzysy rządów Ciorbei (1998) i Vasile (1998-1999); technokratyczny rząd Isărescu",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 42
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2000-2004",
+      "curve": "linear",
+      "start": 42,
+      "rationale": "rząd Năstase (PSD) z większością; stabilizacja, akcesja do NATO 2004 bez kryzysu gabinetu",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2005-2008",
+      "curve": "linear",
+      "start": 60,
+      "rationale": "rząd Tăriceanu (2004-2008); konflikt z prezydentem Băsescu, referendum o zawieszeniu prezydenta 2007",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 55
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2009-2011",
+      "curve": "linear",
+      "start": 55,
+      "rationale": "rząd Boc: kryzys 2009 (spór z prezydentem), potem stabilna większość PDL-UDMR",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 58
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2012",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "zawieszenie prezydenta Băsescu (lipiec 2012) i konflikt instytucjonalny z Trybunałem Konstytucyjnym; zmiana rządu na Pontę",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2013-2014",
+      "curve": "linear",
+      "start": 52,
+      "rationale": "rząd Ponty (USL, potem PSD-ALDE) z większością; spory koalicyjne bez upadku",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 55
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2015",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "dymisja rządu Ponty (listopad 2015) po protestach po pożarze klubu Colectiv; rząd techniczny Cioloș",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2016",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "rząd Cioloș działa do wyborów grudnia 2016; nowa większość PSD-ALDE bez kryzysu",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2017-2018",
+      "curve": "linear",
+      "start": 40,
+      "rationale": "upadek rządu Grindeanu (czerwiec 2017, nieudane zaufanie), dymisja Tudose (2018); konflikt rządu z prezydentem i KE",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 35
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2019",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "rząd Dăncilă pod kontrolą Dragnei, ostre spory z prezydentem i UE; w listopadzie zmiana na rząd Orbána (PNL)",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2020",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "rząd Orbána (do listopada 2020) i rząd Cîțu (PNL) bez kryzysu gabinetu mimo pandemii",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2021",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "upadek rządu Cîțu jesienią 2021; rząd Ciucă (PNL-PSD, od listopada 2021)",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2022-2023",
+      "curve": "linear",
+      "start": 55,
+      "rationale": "rząd Ciucă (do czerwca 2023), potem rząd Ciolacu (PSD-PNL) z szeroką większością",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments",
+        "Wikipedia (en), 2024–2028 legislature of the Romanian Parliament"
+      ],
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2024",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "unieważnienie pierwszej tury wyborów prezydenckich przez Trybunał Konstytucyjny (6.12.2024): kryzys konstytucyjny",
+      "sources": [
+        "CNN, Romania's top court annuls presidential election result, 2024-12-06"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ROU",
+      "years": "2025",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "dymisja rządu Ciolacu i 47 dni rządu tymczasowego przed rządem Bolojana (czerwiec 2025); nowy prezydent Dan (maj 2025); koalicja napięta, bez upadku w 2025",
+      "sources": [
+        "Wikipedia (en), 2024–2028 legislature of the Romanian Parliament",
+        "Wikipedia (en), 2025 Romanian presidential election"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "brak danych TI przed 1995; okres po 1989 (nomenklatura, prywatyzacja), na poziomie RUS 1990 (60), wyraźnie powyżej POL (46)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "1996-2000",
+      "curve": "linear",
+      "start": 60,
+      "rationale": "lata 90.: rząd CDR poprawia wizerunek; CPI ok. 3/10 w 2000 (szacunek); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ],
+      "end": 57
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2001-2005",
+      "curve": "linear",
+      "start": 57,
+      "rationale": "CPI ok. 2,8-3,0 w 2001-2005 (szacunek); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ],
+      "end": 55
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2006-2010",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "CPI ok. 3,5-3,8 w latach 2006-2010 (szacunek); skala 100 - CPI - 3; POL 2010 = 40, RUS 2010 = 72",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2011",
+      "curve": "constant",
+      "start": 54,
+      "rationale": "przejście na skalę CPI 0-100 (2012); CPI 2011 ok. 42-43 (szacunek)",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2012",
+      "curve": "constant",
+      "start": 53,
+      "rationale": "CPI 2012 = 44 (wg TI); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2013-2014",
+      "curve": "constant",
+      "start": 54,
+      "rationale": "CPI 2013-2014 = 43 (wg TI); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2015",
+      "curve": "constant",
+      "start": 51,
+      "rationale": "CPI 2015 = 46 (wartość w scenariuszu ti-cpi); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2016-2018",
+      "curve": "constant",
+      "start": 49,
+      "rationale": "CPI 2016-2018 = 48 (wg TI); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2019-2020",
+      "curve": "constant",
+      "start": 53,
+      "rationale": "CPI 2019 i 2020 = 44 (2020 wartość w scenariuszu ti-cpi); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2021",
+      "curve": "constant",
+      "start": 52,
+      "rationale": "CPI 2021 = 45 (wg TI); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2022-2024",
+      "curve": "constant",
+      "start": 51,
+      "rationale": "CPI 2022-2023 = 46, 2024 = 46 (wg TI i zestawień 2025); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ROU",
+      "years": "2025",
+      "curve": "constant",
+      "start": 52,
+      "rationale": "CPI 2025 = 45 (TI, 10.02.2026: najniższy wynik w UE razem z BGR i HUN, o 1 pkt wyżej niż 2012); skala 100 - CPI - 3",
+      "sources": [
+        "Transparency International, CPI 2025 Romania (transparency.org.ro, 10.02.2026); CPI 2012–2024 wg pamięci TI"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ROU",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 45,
+      "rationale": "przed 2005 szacunek na skali życzliwości (brak danych Cantril); 1990: nadzieja po rewolucji, potem szok transformacji",
+      "sources": [],
+      "end": 40
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ROU",
+      "years": "1992-1999",
+      "curve": "linear",
+      "start": 38,
+      "rationale": "lata 90.: recesja, hiperinflacja i bezrobocie; szacunek na skali bez danych źródłowych",
+      "sources": [],
+      "end": 36
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ROU",
+      "years": "2000-2010",
+      "curve": "linear",
+      "start": 40,
+      "rationale": "poprawa po 2000 (wzrost PKB, perspektywa UE/NATO); szacunek do 2011 (51,78 wg istniejących danych), tak by łączyło się płynnie",
+      "sources": [],
+      "end": 49.5
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ROU",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 25,
+      "rationale": "po 1989: silne sympatie dla zjednoczenia z Mołdawią (Basarabia); nacjonalizm (PRM od 1991) na marginesie",
+      "sources": [
+        "The Romania Journal, How Many Romanians Support Unification with Moldova?"
+      ],
+      "end": 22
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ROU",
+      "years": "1996-2004",
+      "curve": "constant",
+      "start": 22,
+      "rationale": "PRM (Tudor) ok. 19% w 2000 wyborach; roszczenia terytorialne w retoryce marginalnych ugrupowań, nie w większości społeczeństwa",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ROU",
+      "years": "2005-2014",
+      "curve": "linear",
+      "start": 20,
+      "rationale": "spadek znaczenia PRM; sympatie dla zjednoczenia utrzymują się na umiarkowanym poziomie",
+      "sources": [
+        "The Romania Journal, How Many Romanians Support Unification with Moldova?"
+      ],
+      "end": 22
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ROU",
+      "years": "2015-2019",
+      "curve": "linear",
+      "start": 25,
+      "rationale": "rosnąca sympatia dla zjednoczenia z Mołdawią (sondaże 2015-2019); AUR powstaje w 2019",
+      "sources": [
+        "The Romania Journal, How Many Romanians Support Unification with Moldova?"
+      ],
+      "end": 28
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ROU",
+      "years": "2020-2023",
+      "curve": "linear",
+      "start": 30,
+      "rationale": "AUR (od 2019) wpisuje zjednoczenie z Mołdawią do programu; sondaże rozbieżne metodologicznie (2022: ok. 74%, 2023: 33%)",
+      "sources": [
+        "The Romania Journal, How Many Romanians Support Unification with Moldova?"
+      ],
+      "end": 32
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ROU",
+      "years": "2024",
+      "curve": "constant",
+      "start": 33,
+      "rationale": "AUR ok. 14% w wyborach parlamentarnych 2024; hasło zjednoczenia w centrum jego tożsamości",
+      "sources": [
+        "CSIS, European Election Watch: Romania 2025",
+        "The Romania Journal, How Many Romanians Support Unification with Moldova?"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ROU",
+      "years": "2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Simion (AUR) przegrywa 2. turę 2025 wynikiem 46,4%; poparcie dla unii w sondażach late-2025 ok. 47%, ale niespójne metodologicznie; wartość zachowawcza 35",
+      "sources": [
+        "Wikipedia (en), 2025 Romanian presidential election",
+        "The Romania Journal, How Many Romanians Support Unification with Moldova?"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "ROU",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 5,
+      "rationale": "rządy FSN/Iliescu: oficjalna polityka wobec Mołdawii ostrożna, bez roszczeń terytorialnych",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 3
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "ROU",
+      "years": "1996-2004",
+      "curve": "linear",
+      "start": 3,
+      "rationale": "rządy CDR i PSD: polityka prozachodnia, brak roszczeń",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 2
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "ROU",
+      "years": "2005-2014",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "rządy PD/PNL/PSD/USL: nastawienie na NATO i UE, brak roszczeń terytorialnych",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "ROU",
+      "years": "2015-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "rządy PNL/PSD bez roszczeń; wsparcie europejskiej ścieżki Mołdawii, retoryczne wzmianki w kampaniach",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 55,
+      "rationale": "FSN/Iliescu: poparcie po rewolucji wysokie (wybory 1990), spadek po mineriadach 1990-1991",
+      "sources": [
+        "Wikipedia (en), Mineriad"
+      ],
+      "end": 40
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 28,
+      "rationale": "rząd Văcăroiu: niepopularne reformy, niskie oceny; estymacja (brak wiarygodnych sondaży w zestawieniu)",
+      "sources": [],
+      "end": 25
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "1996-1999",
+      "curve": "linear",
+      "start": 25,
+      "rationale": "rządy CDR (Ciorbea, Vasile): kryzysy, spadek poparcia; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 18
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2000-2004",
+      "curve": "linear",
+      "start": 20,
+      "rationale": "rząd Năstase: wzrost poparcia w 2000-2004 (wzrost PKB); estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 30
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2005-2007",
+      "curve": "linear",
+      "start": 40,
+      "rationale": "rząd Tăriceanu: początkowo wysokie poparcie po wyborach 2004, potem spadek w konflikcie z prezydentem",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 28
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2008-2011",
+      "curve": "linear",
+      "start": 18,
+      "rationale": "rząd Boc: cięcia płac 2010 (ok. 25%), bardzo niskie poparcie; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 12
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2012",
+      "curve": "constant",
+      "start": 22,
+      "rationale": "rząd Ponty (USL) po zmianie władzy w 2012: początkowo umiarkowane poparcie, konflikt z prezydentem; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2013-2014",
+      "curve": "linear",
+      "start": 40,
+      "rationale": "rząd Ponty: poparcie na poziomie średnim; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 35
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2015",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "protesty po pożarze Colectiv, dymisja rządu Ponty; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2016",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "rząd Cioloș: poparcie wyższe niż poprzedników (technokracja); estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2017-2018",
+      "curve": "linear",
+      "start": 30,
+      "rationale": "rządy Grindeanu, Tudose: niepopularne spory z prezydentem i UE; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ],
+      "end": 25
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2019",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "rząd Dăncilă: jedno z najniższych poparć w okresie; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2020",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "rząd Orbána i Cîțu w pandemii: poparcie niskie-średnie; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2021",
+      "curve": "constant",
+      "start": 33,
+      "rationale": "rząd Ciucă (od listopada 2021): umiarkowane poparcie; estymacja",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2022-2024",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "rządy Ciucă i Ciolacu: poparcie na poziomie 30; estymacja (wyszukiwarka nie dała wiarygodnych sondaży rządowych)",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ROU",
+      "years": "2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "rząd Bolojana: pakiet oszczędnościowy (VAT 19 -> 21%, zamrożenie płac w sektorze publicznym, protesty) obniża poparcie; estymacja, brak sondaży rządowych w wyszukiwarce",
+      "sources": [
+        "BalkanInsight, Romania Rolls Out Austerity Measures to Curb Soaring Deficit, 2025-07-01"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "ludność silnie reaguje na straty i ceny (mineriady, protesty 1990-1991)",
+      "sources": [
+        "Wikipedia (en), Mineriad"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 75,
+      "rationale": "transformacja, wysoka inflacja i bezrobocie; reakcje na cięcia",
+      "sources": [],
+      "end": 70
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "1996-2004",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "kryzysy 1996-1999 i reformy 2000-2004: wysoka wrażliwość na koszty",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2005-2008",
+      "curve": "linear",
+      "start": 70,
+      "rationale": "wzrost gospodarczy 2005-2008 obniża wrażliwość na koszty",
+      "sources": [],
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2009-2011",
+      "curve": "linear",
+      "start": 60,
+      "rationale": "kryzys 2009 i cięcia płac w sektorze publicznym (2010): silna reakcja społeczna",
+      "sources": [],
+      "end": 70
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2012-2015",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "cięcia i napięcia polityczne 2012, protesty po pożarze Colectiv 2015",
+      "sources": [
+        "Wikipedia (en), List of Romanian governments"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2016-2019",
+      "curve": "linear",
+      "start": 70,
+      "rationale": "wzrost płac 2016-2019 zmniejsza wrażliwość na koszty",
+      "sources": [],
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "pandemia: straty dochodów i ograniczenia reagują umiarkowanie",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2022-2023",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "inflacja 2022-2023 (ok. 14-16%) podnosi wrażliwość na koszty",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2024",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "inflacja spada w 2024; wrażliwość umiarkowana",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ROU",
+      "years": "2025",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "pakiet Bolojana: 10% cięcia funduszu płac, mniej premii, zwolnienia; liczne protesty i strajki związkowe",
+      "sources": [
+        "BalkanInsight, Romania Rolls Out Austerity Measures to Curb Soaring Deficit, 2025-07-01"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "ROU",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Węgrzy w Siedmiogrodzie częściowo zintegrowani; Romowie w marginalizacji; brak masowej imigracji",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "ROU",
+      "years": "2000-2025",
+      "curve": "linear",
+      "start": 55,
+      "rationale": "słaba integracja Romów; napływ uchodźców z Ukrainy 2022 (w dużej części tranzytem) bez poważnego kryzysu integracyjnego",
+      "sources": [],
+      "end": 53
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ROU",
+      "years": "1990",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "marzec 1990 starcia etniczne w Târgu Mureș, czerwcowa mineriada w Bukareszcie",
+      "sources": [
+        "Wikipedia (en), Mineriad"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ROU",
+      "years": "1991",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "wrzesień 1991 mineriada z przemocą w Bukareszcie",
+      "sources": [
+        "Wikipedia (en), Mineriad"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ROU",
+      "years": "1992-1995",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "przemoc polityczna ograniczona; brak zamachów i powstań",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ROU",
+      "years": "1996-2004",
+      "curve": "constant",
+      "start": 32,
+      "rationale": "przemoc polityczna niska; estymacja (WGI-PS brak w scenariuszu)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ROU",
+      "years": "2005-2014",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "przemoc polityczna niska; estymacja",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ROU",
+      "years": "2015-2020",
+      "curve": "constant",
+      "start": 28,
+      "rationale": "protesty 2015-2018 pokojowe w większości; estymacja",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ROU",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 27,
+      "rationale": "brak poważnej przemocy politycznej; ryzyko terrorystyczne niskie; estymacja",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "ROU",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 84.5,
+      "rationale": "2023 = 84,5 (istniejące); 2024-2025 ekstrapolacja trendu HDI (+0,2-0,4 rocznie); dane HDI za 2024-2025 nieznane",
+      "sources": [],
+      "end": 85.1,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "ROU",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "czerwcowa mineriada 1990 (przemoc w Bukareszcie), wrzesień 1991 mineriada obalająca rząd Romana; poważne i ogólnokrajowe zamieszki",
+      "sources": [
+        "Wikipedia (en), Mineriad"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "epidemic",
+      "targets": "ROU",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "COVID-19: wysoka nadumieralność w 2020 i silna fala w 2021 (jedna z najgorszych w UE)",
+      "sources": []
+    }
+  ]
+}

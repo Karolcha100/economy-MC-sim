@@ -1,0 +1,51 @@
+{
+  "rationale": "MHL, zadanie A (tryb oszczędny): brak danych WHR (happiness szacunkowo wg małych państw Pacyfiku, FJI/WSM, i HDI); stabilność stabilnej demokracji parlamentarnej (zmiany rządów po wyborach 2023, przejście do Heine 01.2024; referendum 2025 bez kryzysu); corruption, violence risk i civilization uzupełnione wg trendu istniejących wartości i HDI; popularność rządu bez sondaży (estymacja); pandemia 2020-2021 (zamknięte granice) jako flaga epidemii; reszta statystyk wg małego, stabilnego państwa bez roszczeń terytorialnych",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "1990-1999", "curve": "constant", "start": 74},
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "2000-2007", "curve": "linear", "start": 74, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "2008-2009", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "2010-2015", "curve": "linear", "start": 70, "end": 76},
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "2016-2019", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "2020-2021", "curve": "linear", "start": 76, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "2022-2023", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "MHL", "years": "2024-2025", "curve": "linear", "start": 72, "end": 74},
+
+    {"kind": "grade", "name": "corruption", "targets": "MHL", "years": "1990-1999", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MHL", "years": "2000-2004", "curve": "linear", "start": 55, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MHL", "years": "2023-2025", "curve": "constant", "start": 42.3, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MHL", "years": "1990-2002", "curve": "constant", "start": 27, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MHL", "years": "2023-2025", "curve": "constant", "start": 28.9, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MHL", "years": "1990-1999", "curve": "linear", "start": 61, "end": 63, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "MHL", "years": "2000-2010", "curve": "linear", "start": 63, "end": 66.3, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "MHL", "years": "2024-2025", "curve": "linear", "start": 73.6, "end": 74, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MHL", "years": "1990-1999", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "happiness", "targets": "MHL", "years": "2000-2009", "curve": "linear", "start": 50, "end": 52},
+    {"kind": "grade", "name": "happiness", "targets": "MHL", "years": "2010-2019", "curve": "linear", "start": 52, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "MHL", "years": "2020-2021", "curve": "linear", "start": 55, "end": 52},
+    {"kind": "grade", "name": "happiness", "targets": "MHL", "years": "2022-2025", "curve": "linear", "start": 52, "end": 54},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MHL", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MHL", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MHL", "years": "1990-1999", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MHL", "years": "2000-2008", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MHL", "years": "2009-2019", "curve": "linear", "start": 45, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MHL", "years": "2020-2022", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MHL", "years": "2023-2025", "curve": "linear", "start": 45, "end": 50},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MHL", "years": "1990-2019", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MHL", "years": "2020-2021", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MHL", "years": "2022-2025", "curve": "linear", "start": 55, "end": 50},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MHL", "years": "1990-1999", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "MHL", "years": "2000-2009", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "MHL", "years": "2010-2019", "curve": "linear", "start": 62, "end": 58},
+    {"kind": "grade", "name": "assimilation", "targets": "MHL", "years": "2020-2025", "curve": "constant", "start": 58},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MHL", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "rationale": "ETH, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Etiopii: upadek Derga i wojna domowa 1990-91 (stabilność 5 w 1991, flaga state collapse), wojna z Erytreą 1998-2000 (mobilizacja), protesty 2005, 2015-17 i 2020, wojna w Tigraju 2020-22, konflikty w Amharze i Oromii 2023-25. Potwierdzono przez wyszukiwarkę (2 wyszukiwania): Fano trwa przez cały 2025, porozumienie z jedną frakcją w grudniu 2025; birr deprecjonowany od lipca 2024 (presja cen). Brak wiarygodnych sondaży: popularność rządu i nastroje to oszacowania. Istniejące wartości nie są zmieniane (only_empty), uzupełnione są luki przy ciągłości.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "1990", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "1991", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "1992-1994", "curve": "linear", "start": 15, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "1995-1997", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "1998-2004", "curve": "linear", "start": 50, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "2005-2006", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "2007-2014", "curve": "linear", "start": 58, "end": 65},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "2015-2017", "curve": "manual", "values": [60, 45, 35]},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "2018-2019", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "2020-2021", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "stability", "targets": "ETH", "years": "2022-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "violence risk", "targets": "ETH", "years": "1990-1991", "curve": "linear", "start": 90, "end": 92, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "ETH", "years": "1992-1995", "curve": "linear", "start": 90, "end": 80, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "ETH", "years": "2022-2025", "curve": "linear", "start": "current", "end": 85, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "ETH", "years": "1990-1995", "curve": "linear", "start": 70, "end": 69.4, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "ETH", "years": "2022-2025", "curve": "linear", "start": "current", "end": 58, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "ETH", "years": "1990-1995", "curve": "linear", "start": 30, "end": 34, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "ETH", "years": "1996-2004", "curve": "linear", "start": 34, "end": 37, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "ETH", "years": "2005-2010", "curve": "linear", "start": 38, "end": 40.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "ETH", "years": "1990-1992", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "social revanchism", "targets": "ETH", "years": "1993-1997", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "social revanchism", "targets": "ETH", "years": "1998-2000", "curve": "manual", "values": [40, 45, 35]},
+    {"kind": "grade", "name": "social revanchism", "targets": "ETH", "years": "2001-2019", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "social revanchism", "targets": "ETH", "years": "2020-2022", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "social revanchism", "targets": "ETH", "years": "2023-2025", "curve": "linear", "start": 35, "end": 40},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "ETH", "years": "1990-1991", "curve": "manual", "values": [25, 5]},
+    {"kind": "grade", "name": "government revanchism", "targets": "ETH", "years": "1992-1997", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "government revanchism", "targets": "ETH", "years": "1998-2000", "curve": "manual", "values": [40, 50, 35]},
+    {"kind": "grade", "name": "government revanchism", "targets": "ETH", "years": "2001-2017", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "ETH", "years": "2018-2019", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "government revanchism", "targets": "ETH", "years": "2020-2022", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "ETH", "years": "2023-2025", "curve": "linear", "start": 25, "end": 40},
+
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "1990-1991", "curve": "manual", "values": [12, 40]},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "1992-1994", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "1995-1997", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "1998-2000", "curve": "manual", "values": [62, 68, 62]},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2001-2004", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2005-2006", "curve": "manual", "values": [45, 50]},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2007-2010", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2011-2014", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2015-2016", "curve": "manual", "values": [45, 35]},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2017", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2018-2019", "curve": "manual", "values": [65, 72]},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2020-2021", "curve": "manual", "values": [60, 55]},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2022", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "ETH", "years": "2023-2025", "curve": "manual", "values": [45, 42, 42]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "1990-1991", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "1992-1995", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "1996-2004", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "2005-2010", "curve": "linear", "start": 65, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "2011-2014", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "2015-2017", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "2018-2022", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ETH", "years": "2023-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "civilization level", "targets": "ETH", "years": "1990-1999", "curve": "linear", "start": 23, "end": 28.5, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "ETH", "years": "2023-2025", "curve": "linear", "start": "current", "end": 50.7, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "ETH", "years": "1990-1994", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "ETH", "years": "1995-2017", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "assimilation", "targets": "ETH", "years": "2018-2019", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "ETH", "years": "2020-2025", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "riots", "targets": "ETH", "years": "2005", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "ETH", "years": "2015-2017", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "ETH", "years": "2020", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "ETH", "years": "2020", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "mobilized", "targets": "ETH", "years": "1990-1991", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "ETH", "years": "1998-2000", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "ETH", "years": "2020-2022", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "state collapse", "targets": "ETH", "years": "1991", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "ETH", "years": "1990-1991", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ETH", "years": "1992-1994", "curve": "linear", "start": 35, "end": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ETH", "years": "1995-1997", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ETH", "years": "1998-2000", "curve": "manual", "values": [25, 30, 35]},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ETH", "years": "2001-2002", "curve": "linear", "start": 15, "end": 5},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ETH", "years": "2020-2022", "curve": "manual", "values": [30, 60, 70]},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ETH", "years": "2023-2025", "curve": "manual", "values": [40, 35, 35]}
+  ]
+}

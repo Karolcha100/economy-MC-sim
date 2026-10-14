@@ -1,0 +1,29 @@
+{
+  "rationale": "SGP, zadanie A (tryb oszczędny): stabilne instytucje PAP (bez kryzysów rządowych), bardzo niska korupcja, brak roszczeń terytorialnych; popularność rządu jako przybliżenie wyników wyborów (1991 ~61%, 1997 ~65%, 2001 ~75%, 2011 ~60%, 2015 ~70%, 2020 ~61%, 2025 ~65%); migracja i asymilacja (udział migrantów 24% -> 46%); COVID 2020-2021; wartości brakujące uzupełnione płynnie do istniejących serii",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SGP", "years": "1990-2010", "curve": "constant", "start": 90, "end": 90},
+    {"kind": "grade", "name": "stability", "targets": "SGP", "years": "2011-2025", "curve": "constant", "start": 88, "end": 88},
+    {"kind": "grade", "name": "happiness", "targets": "SGP", "years": "1990-2000", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "happiness", "targets": "SGP", "years": "2001-2010", "curve": "linear", "start": 60.5, "end": 65.2},
+    {"kind": "grade", "name": "corruption", "targets": "SGP", "years": "1990-1995", "curve": "linear", "start": 8.0, "end": 7.9},
+    {"kind": "grade", "name": "corruption", "targets": "SGP", "years": "2023-2025", "curve": "constant", "start": 8.1, "end": 8.1},
+    {"kind": "grade", "name": "social revanchism", "targets": "SGP", "years": "1990-2025", "curve": "constant", "start": 2, "end": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "SGP", "years": "1990-2025", "curve": "constant", "start": 0, "end": 0},
+    {"kind": "grade", "name": "government popularity", "targets": "SGP", "years": "1990-1996", "curve": "constant", "start": 63, "end": 63},
+    {"kind": "grade", "name": "government popularity", "targets": "SGP", "years": "1997-2001", "curve": "linear", "start": 65, "end": 72},
+    {"kind": "grade", "name": "government popularity", "targets": "SGP", "years": "2002-2006", "curve": "linear", "start": 72, "end": 66},
+    {"kind": "grade", "name": "government popularity", "targets": "SGP", "years": "2007-2011", "curve": "linear", "start": 66, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "SGP", "years": "2012-2015", "curve": "linear", "start": 60, "end": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "SGP", "years": "2016-2020", "curve": "linear", "start": 70, "end": 61},
+    {"kind": "grade", "name": "government popularity", "targets": "SGP", "years": "2021-2025", "curve": "linear", "start": 61, "end": 66},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SGP", "years": "1990-2010", "curve": "constant", "start": 50, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SGP", "years": "2011-2025", "curve": "constant", "start": 56, "end": 56},
+    {"kind": "grade", "name": "civilization level", "targets": "SGP", "years": "2024-2025", "curve": "linear", "start": 94.7, "end": 94.9},
+    {"kind": "grade", "name": "assimilation", "targets": "SGP", "years": "1990-2000", "curve": "constant", "start": 65, "end": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "SGP", "years": "2001-2010", "curve": "linear", "start": 65, "end": 58},
+    {"kind": "grade", "name": "assimilation", "targets": "SGP", "years": "2011-2025", "curve": "constant", "start": 56, "end": 56},
+    {"kind": "grade", "name": "violence risk", "targets": "SGP", "years": "1990-1995", "curve": "linear", "start": 28.0, "end": 27.7},
+    {"kind": "grade", "name": "violence risk", "targets": "SGP", "years": "2023-2025", "curve": "constant", "start": 21.0, "end": 21.0},
+    {"kind": "grade", "name": "epidemic", "targets": "SGP", "years": "2020-2021", "curve": "constant", "start": 1, "end": 1}
+  ]
+}

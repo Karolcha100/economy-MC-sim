@@ -1,0 +1,1621 @@
+{
+ "rationale": "COD, zadanie B (oszczedny): relacje COD -> 20 partnerow (sasiedzi AGO/BDI/CAF/COG/RWA/UGA/ZMB/ZWE/TZA/SSD/SDN; BEL/FRA dawne mocarstwa; USA/CHN/RUS/DEU/ZAF/IND/ARE; ARE: handel zlotem). Wojna z lat 1990-2024 nie zmieniona. in war crisis COD-RWA 2025 = 1 (kontynuacja proxy M23 po 2022-2024). in war 2025 nie dopisane (wątpliwość: bezposredni udzial RDF w 2025 do rozstrzygniecia przez koordynatora). Hybrid 0 (default). Pozostale pary potwierdza confirm-default.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:AGO",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:AGO",
+   "years": "1997-2001",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:AGO",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:AGO",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": -15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:AGO",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:AGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:AGO",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:AGO",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:AGO",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:AGO",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:AGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:AGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:BDI",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:BDI",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:BDI",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:BDI",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:BDI",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:BDI",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:BDI",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:BDI",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:BDI",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:BDI",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:BDI",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:BDI",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:CAF",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:CAF",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:CAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:CAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:CAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:CAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:CAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:CAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:COG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:COG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:COG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:COG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:COG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:COG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:COG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:RWA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:RWA",
+   "years": "1996-2008",
+   "curve": "constant",
+   "start": -85
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:RWA",
+   "years": "2009-2021",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:RWA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -80
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:RWA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:RWA",
+   "years": "1996-2008",
+   "curve": "constant",
+   "start": -60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:RWA",
+   "years": "2009-2021",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:RWA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:RWA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:RWA",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:RWA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:RWA",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:RWA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:RWA",
+   "years": "1996-2002",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:RWA",
+   "years": "2003-2008",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:RWA",
+   "years": "2009-2021",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:RWA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:RWA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:RWA",
+   "years": "1996-2002",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:RWA",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:RWA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:UGA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:UGA",
+   "years": "1997-2003",
+   "curve": "constant",
+   "start": -60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:UGA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:UGA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:UGA",
+   "years": "1997-2003",
+   "curve": "constant",
+   "start": -50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:UGA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:UGA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:UGA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:UGA",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:UGA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:UGA",
+   "years": "1997-2003",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:UGA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:UGA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:UGA",
+   "years": "1997-2003",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:UGA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:UGA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ZMB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:ZMB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:ZMB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:ZMB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:ZMB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:ZMB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:ZMB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ZWE",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ZWE",
+   "years": "1997-2002",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ZWE",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:ZWE",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:ZWE",
+   "years": "1997-2002",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:ZWE",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:ZWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:ZWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:ZWE",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:ZWE",
+   "years": "1997-2002",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:ZWE",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:ZWE",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:ZWE",
+   "years": "1997-2002",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:ZWE",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:ZWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:TZA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:TZA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:TZA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:TZA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:TZA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:TZA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:TZA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:SDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:SDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:SDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:SDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:SDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:SDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:SDN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:BEL",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:BEL",
+   "years": "1997-2001",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:BEL",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:BEL",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:BEL",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:BEL",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:BEL",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:FRA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:FRA",
+   "years": "1997-2001",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:FRA",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:FRA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:FRA",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:FRA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:FRA",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:USA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:USA",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:USA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:USA",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:CHN",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:CHN",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:CHN",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:CHN",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:CHN",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:CHN",
+   "years": "2002-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ZAF",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ZAF",
+   "years": "1997-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ARE",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:ARE",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:ARE",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:ARE",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:ARE",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:ARE",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "COD:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "COD:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "COD:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "COD:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "COD:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "COD:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "COD:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "COD:RWA",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 1
+  }
+ ]
+}

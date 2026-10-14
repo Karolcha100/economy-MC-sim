@@ -1,0 +1,60 @@
+{
+  "rationale": "RWA, zadanie A (statystyki państwa), tryb oszczędny. Stabilność: wojna domowa i kryzys rządowy 1990-93, genocyd i upadek państwa 1994 (wartość 5), wspólny rząd GNU 1995-99, zmiana prezydenta 2000, konsolidacja po 2002, stabilny system autorytarny po 2003 (wybory 2024: 99,18%; referendum 2015 znosi limit kadencji). Przemoc: wojna 1990-94 i genocyd 1994; po 1996 ciągłość z WGI; 2023-25 estymacja (granica z DRC, FDLR, M23). Korupcja 1990-95 jako ciągłość z reżimu Habyarimany i rok 1994; 2023-25 ciągłość z WGI. Szczęśliwość przed 2011 i 2022-25 to estymacja (brak Cantril/WHR, nie znaleziono wyniku WHR 2025). Poparcie rządu: sondaże Afrobarometru pokazują wysokie poparcie po 2003. Rząd rewanżyzm: polityka wpływów w Kongu (1998-2008, 2022-25 wsparcie M23 wg ONZ). Epidemia: 2020-21 (COVID, lockdowny). Stan wojenny 1994; mobilizacja 1990-94, 1996-98 (wojny w Zairze/DRC). Wojenne zmęczenie: estymacja po 1994 i przy wojnach kongijskich.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "RWA", "years": "1990-1993", "curve": "manual", "values": [60, 55, 50, 45]},
+    {"kind": "grade", "name": "stability", "targets": "RWA", "years": "1994-1994", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "stability", "targets": "RWA", "years": "1995-2025", "curve": "manual",
+     "values": [30, 35, 40, 45, 45, 40, 50, 58, 62, 65, 67, 68, 70, 70, 71, 72, 73, 73, 73, 73, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]},
+
+    {"kind": "grade", "name": "corruption", "targets": "RWA", "years": "1990-1995", "curve": "manual", "values": [62, 62.5, 63, 63.5, 66, 65.5], "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "RWA", "years": "2023-2025", "curve": "manual", "values": [38.5, 38.2, 38.0], "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "RWA", "years": "1990-2010", "curve": "manual",
+     "values": [45, 44, 43, 42, 15, 18, 22, 25, 27, 28, 30, 31, 32, 33, 33, 33, 33.5, 34, 35, 36, 38], "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "RWA", "years": "2022-2025", "curve": "manual", "values": [32.6, 33.0, 33.2, 33.5], "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "RWA", "years": "1990-1995", "curve": "manual", "values": [70, 75, 80, 85, 100, 92], "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "RWA", "years": "2023-2025", "curve": "manual", "values": [49.5, 50, 52], "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "RWA", "years": "1990-1993", "curve": "constant", "start": 6},
+    {"kind": "grade", "name": "social revanchism", "targets": "RWA", "years": "1994-2025", "curve": "constant", "start": 4},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "RWA", "years": "1990-1993", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "government revanchism", "targets": "RWA", "years": "1994-1997", "curve": "constant", "start": 8},
+    {"kind": "grade", "name": "government revanchism", "targets": "RWA", "years": "1998-2008", "curve": "constant", "start": 12},
+    {"kind": "grade", "name": "government revanchism", "targets": "RWA", "years": "2009-2021", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "RWA", "years": "2022-2025", "curve": "constant", "start": 20},
+
+    {"kind": "grade", "name": "government popularity", "targets": "RWA", "years": "1990-1993", "curve": "manual", "values": [45, 40, 35, 30]},
+    {"kind": "grade", "name": "government popularity", "targets": "RWA", "years": "1994-1994", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government popularity", "targets": "RWA", "years": "1995-1995", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "RWA", "years": "1996-1999", "curve": "linear", "start": 55, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "RWA", "years": "2000-2002", "curve": "linear", "start": 70, "end": 80},
+    {"kind": "grade", "name": "government popularity", "targets": "RWA", "years": "2003-2010", "curve": "constant", "start": 85},
+    {"kind": "grade", "name": "government popularity", "targets": "RWA", "years": "2011-2025", "curve": "constant", "start": 88},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "RWA", "years": "1990-1993", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "RWA", "years": "1994-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "civilization level", "targets": "RWA", "years": "1990-1994", "curve": "manual", "values": [29.0, 29.2, 29.3, 29.4, 26.0], "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "RWA", "years": "2024-2025", "curve": "manual", "values": [58.5, 59.2], "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "RWA", "years": "1990-1993", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "RWA", "years": "1994-1994", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "assimilation", "targets": "RWA", "years": "1995-1999", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "assimilation", "targets": "RWA", "years": "2000-2010", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "RWA", "years": "2011-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "RWA", "years": "1990-1993", "curve": "linear", "start": 5, "end": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "RWA", "years": "1994-1995", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "war exhaustion", "targets": "RWA", "years": "1996-1999", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "war exhaustion", "targets": "RWA", "years": "2000-2002", "curve": "linear", "start": 25, "end": 20},
+
+    {"kind": "grade", "name": "mobilized", "targets": "RWA", "years": "1990-1994", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "RWA", "years": "1996-1998", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "state collapse", "targets": "RWA", "years": "1994-1994", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "RWA", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

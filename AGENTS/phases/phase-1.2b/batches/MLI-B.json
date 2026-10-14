@@ -1,0 +1,2117 @@
+{
+ "rationale": "MLI, zadanie B (tryb oszczędny): relacje od MLI do 21 partnerów: sąsiedzi (DZA, MRT, SEN, GIN, CIV, BFA, NER), AES/ECOWAS i handel (TGO, NGA, GHA, BEN), mocarstwa i partnerzy (USA, CHN, RUS, FRA, DEU, GBR, TUR, ARE, CHE), spór (UKR). Zmiany: ECOWAS 2022 (CIV, NGA), AES od 2023 (BFA, NER), FRA od 2022 (zerwanie współpracy wojskowej), RUS od 2020 (Wagner, potem Africa Corps), UKR od 2024 (zerwanie stosunków, sierpień 2024), DZA 2025 (odwołanie ambasadorów, kryzys dronowy). Wartości z wiedzy modelu i wyników wyszukiwarki (3 zapytania, lata 2023-2025). Hybrid attacks = 0 dla wszystkich partnerów (wątpliwe: FRA, dezinformacja, nie potwierdzone). Dwustronne: plik UCDP dla MLI jest pusty (brak wojen państwowych 1990-2024); in war 2025 = 0; in war crisis 2025 z DZA już wpisane przez agenta DZA; UKR 2024-25 (zarzuty o wsparcie rebeliantów, zaprzeczone) nie wpisane, do decyzji koordynatora.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:DZA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:DZA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:MRT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:SEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:GIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:CIV",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:CIV",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:BFA",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:BFA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:NER",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:NER",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:TGO",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:NGA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:NGA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:GHA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:BEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:USA",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:RUS",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:FRA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:DEU",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:TUR",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:TUR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:UKR",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -100
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:UKR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "MLI:CHE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  }
+ ]
+}

@@ -1,0 +1,1710 @@
+{
+ "rationale": "NIC, zadanie B (oszczedny): relacje od NIC do 17 partnerow (sasiedzi CRI/HND, Ameryka Lac./Srodkowa, USA, RUS, CHN, TWN, ESP, IRN, BLR, DOM). Okresy: 1990-96, 1997-2006, 2007-17, 2018-20, 2021-25. Brak UCDP dla NIC: in war / in war crisis bez wpisow (pary dwustronne -> confirm-default). Hybrid 0.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:TWN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:USA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:PAN,NIC:MEX,NIC:CUB,NIC:ESP,NIC:DOM",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:HND,NIC:SLV,NIC:GTM,NIC:VEN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CRI,NIC:BOL,NIC:RUS,NIC:IRN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:BLR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CHN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:TWN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CUB,NIC:USA",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:VEN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:PAN,NIC:MEX,NIC:ESP,NIC:DOM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:HND,NIC:SLV,NIC:GTM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CRI,NIC:BOL,NIC:RUS,NIC:IRN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:BLR",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CHN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:VEN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CUB",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:RUS",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:BOL,NIC:TWN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:HND,NIC:PAN,NIC:MEX,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:BLR",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CHN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CRI,NIC:USA",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:VEN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CUB",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:RUS",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:TWN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:PAN,NIC:MEX,NIC:ESP,NIC:IRN,NIC:BLR,NIC:DOM",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:HND",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:BOL",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CHN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CRI",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:USA",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CUB,NIC:VEN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:RUS",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CHN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:BOL,NIC:BLR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:HND,NIC:PAN,NIC:MEX,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:SLV",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:GTM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:CRI",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": -35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": -60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NIC:TWN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": -100
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:USA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:ESP",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:HND,NIC:MEX,NIC:CUB,NIC:VEN,NIC:TWN,NIC:DOM",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CRI,NIC:SLV,NIC:GTM,NIC:PAN,NIC:BOL,NIC:IRN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:RUS,NIC:CHN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:BLR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:USA",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:ESP",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:HND,NIC:MEX,NIC:CUB,NIC:VEN,NIC:TWN,NIC:DOM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CRI,NIC:SLV,NIC:GTM,NIC:PAN,NIC:BOL,NIC:IRN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:RUS,NIC:CHN,NIC:BLR",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:ESP",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CUB,NIC:VEN,NIC:RUS",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:HND,NIC:MEX,NIC:BOL,NIC:USA,NIC:TWN,NIC:DOM",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:CHN,NIC:IRN,NIC:BLR",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CRI",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:ESP",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CUB,NIC:VEN,NIC:RUS",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:HND,NIC:MEX,NIC:BOL,NIC:TWN,NIC:DOM",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:USA,NIC:CHN,NIC:IRN,NIC:BLR",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CRI",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": -15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:ESP",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CUB,NIC:VEN,NIC:RUS",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:HND,NIC:MEX,NIC:BOL,NIC:CHN,NIC:TWN,NIC:DOM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:IRN,NIC:BLR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NIC:CRI",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": -15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:USA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:TWN,NIC:ESP",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:MEX,NIC:CUB,NIC:VEN,NIC:BOL,NIC:RUS,NIC:CHN,NIC:IRN,NIC:DOM",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:GTM,NIC:PAN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:BLR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:USA",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:TWN,NIC:ESP",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:MEX,NIC:CUB,NIC:VEN,NIC:BOL,NIC:RUS,NIC:CHN,NIC:IRN,NIC:DOM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:BLR",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:USA",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:VEN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CHN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CUB,NIC:RUS,NIC:TWN,NIC:ESP",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:MEX,NIC:BOL,NIC:IRN,NIC:DOM",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:BLR",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:USA",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:VEN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CHN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CUB,NIC:RUS,NIC:TWN,NIC:ESP",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:MEX,NIC:BOL,NIC:IRN,NIC:DOM",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:BLR",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:VEN,NIC:CHN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:RUS",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CUB,NIC:ESP",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:MEX,NIC:BOL,NIC:TWN,NIC:IRN,NIC:DOM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:BLR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CRI",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:HND,NIC:SLV,NIC:MEX",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:VEN,NIC:BOL,NIC:ESP,NIC:DOM",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CUB,NIC:USA,NIC:RUS,NIC:CHN,NIC:TWN,NIC:IRN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:BLR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CRI",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:HND,NIC:SLV,NIC:MEX",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:VEN,NIC:BOL,NIC:ESP,NIC:DOM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CUB,NIC:USA,NIC:RUS,NIC:CHN,NIC:TWN,NIC:IRN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:BLR",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CRI",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:HND,NIC:SLV,NIC:MEX,NIC:VEN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:BOL,NIC:RUS,NIC:CHN,NIC:ESP,NIC:DOM",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CUB,NIC:USA,NIC:TWN,NIC:IRN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:BLR",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CRI",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:HND,NIC:SLV,NIC:MEX,NIC:VEN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:BOL,NIC:RUS,NIC:CHN,NIC:ESP,NIC:DOM",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CUB,NIC:USA,NIC:TWN,NIC:IRN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:BLR",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CRI",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:HND,NIC:SLV,NIC:MEX,NIC:VEN,NIC:CHN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:GTM,NIC:PAN,NIC:BOL,NIC:RUS,NIC:ESP,NIC:DOM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:CUB,NIC:USA,NIC:TWN,NIC:IRN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NIC:BLR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:USA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:TWN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:MEX,NIC:CUB,NIC:VEN,NIC:BOL,NIC:RUS,NIC:CHN,NIC:ESP,NIC:IRN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:DOM",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:BLR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:GTM,NIC:PAN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:USA",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:TWN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:MEX,NIC:CUB,NIC:VEN,NIC:BOL,NIC:RUS,NIC:CHN,NIC:ESP,NIC:IRN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:BLR,NIC:DOM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:GTM,NIC:PAN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:USA",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:VEN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CUB,NIC:CHN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:RUS,NIC:TWN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:MEX,NIC:BOL,NIC:ESP,NIC:IRN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:BLR,NIC:DOM",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:GTM,NIC:PAN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:USA",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:VEN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CUB,NIC:CHN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:RUS,NIC:TWN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:MEX,NIC:BOL,NIC:ESP,NIC:IRN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:BLR,NIC:DOM",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:GTM,NIC:PAN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:VEN,NIC:CHN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CUB",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:RUS",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:MEX,NIC:BOL,NIC:TWN,NIC:ESP,NIC:IRN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:BLR,NIC:DOM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:GTM,NIC:PAN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:CRI,NIC:HND",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:MEX,NIC:CUB,NIC:VEN,NIC:BOL,NIC:USA,NIC:RUS,NIC:CHN,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:BLR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:TWN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:CRI,NIC:HND",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:MEX,NIC:CUB,NIC:VEN,NIC:BOL,NIC:USA,NIC:RUS,NIC:CHN,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:BLR",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:TWN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:VEN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:MEX,NIC:CUB,NIC:BOL,NIC:USA,NIC:RUS,NIC:CHN,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:BLR",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:TWN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:VEN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:MEX,NIC:CUB,NIC:BOL,NIC:USA,NIC:RUS,NIC:CHN,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:BLR",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:TWN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:VEN,NIC:CHN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:SLV,NIC:GTM,NIC:PAN,NIC:MEX,NIC:CUB,NIC:BOL,NIC:USA,NIC:RUS,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:BLR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NIC:TWN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:USA",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CRI,NIC:PAN,NIC:MEX,NIC:TWN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:HND,NIC:SLV,NIC:GTM,NIC:CUB,NIC:VEN,NIC:CHN,NIC:ESP",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:DOM",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BOL,NIC:RUS,NIC:IRN",
+   "years": "1990-1996",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BLR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:USA",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CRI,NIC:PAN,NIC:MEX,NIC:VEN,NIC:TWN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:HND,NIC:SLV,NIC:GTM,NIC:CUB,NIC:CHN,NIC:ESP",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:DOM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BOL,NIC:RUS,NIC:IRN",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BLR",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:VEN",
+   "years": "2007-2009",
+   "curve": "linear",
+   "start": 10,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:VEN",
+   "years": "2010-2017",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:USA",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CHN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CRI,NIC:PAN,NIC:MEX,NIC:CUB,NIC:TWN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:HND,NIC:SLV,NIC:GTM,NIC:RUS,NIC:ESP",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:DOM",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BOL,NIC:IRN",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BLR",
+   "years": "2007-2017",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:USA",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:VEN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CHN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CRI,NIC:PAN,NIC:MEX,NIC:CUB,NIC:TWN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:HND,NIC:SLV,NIC:GTM,NIC:RUS,NIC:ESP",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:DOM",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BOL,NIC:IRN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BLR",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:USA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CHN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:VEN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:CRI,NIC:PAN,NIC:MEX,NIC:CUB",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:HND,NIC:SLV,NIC:GTM,NIC:RUS,NIC:ESP",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:DOM",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BOL,NIC:TWN,NIC:IRN",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NIC:BLR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "NIC:CRI,NIC:HND,NIC:SLV,NIC:GTM,NIC:PAN,NIC:MEX,NIC:CUB,NIC:VEN,NIC:BOL,NIC:USA,NIC:RUS,NIC:CHN,NIC:TWN,NIC:ESP,NIC:IRN,NIC:DOM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "NIC:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 0
+  }
+ ]
+}

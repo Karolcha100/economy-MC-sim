@@ -1,0 +1,1515 @@
+{
+ "rationale": "EST, zadanie B (relacje od EST do 13 partnerów + dwustronne EST-RUS 2025)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:RUS",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "po niepodległości trudne rozmowy o wycofaniu wojsk i granicy, bez zerwania stosunków"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "spór o granicę (traktat 1996 bez ratyfikacji), sprawa rosyjskojęzycznej mniejszości i obywatelstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "traktat graniczny parafowany 2005 i wycofany przez Rosję; napięcia wokół pomnika Brązowego Żołnierza i cyberataków 2007"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -65,
+   "rationale": "aneksja Krymu i wojna w Donbasie; sankcje, ograniczenie kontaktów politycznych"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "pełna wojna Rosji z Ukrainą; Estonia najbardziej krytyczna wobec Moskwy w UE, ograniczanie obsady dyplomatycznej; incydent powietrzny 2025",
+   "sources": [
+    "Estonia and Allies Denounce 'Reckless' Russian Air Incursion, The Moscow Times, 2025-09-20, https://www.themoscowtimes.com/2025/09/20/estonia-and-allies-denounce-reckless-russian-air-incursion-a90578",
+    "Estonia triggers NATO Article 4 after longest Russian airspace violation of 2025, Army Recognition, 2025, https://www.armyrecognition.com/news/aerospace-news/2025/estonia-triggers-nato-article-4-after-longest-russian-airspace-violation-of-2025",
+    "NATO, EU condemn Russia as Estonia says airspace was violated for 12 minutes, CBC, 2025-09, https://www.cbc.ca/lite/story/1.7638294"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:RUS",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "opinia publiczna po okupacji sowieckiej, obecność wojsk rosyjskich"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "spory o obywatelstwo i język, nieufność wobec polityki Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "nieufność po 2007 (cyberataki, zamieszki); w tle sprawy historyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "aneksja Krymu i wojna w Donbasie; w sondażach silna nieufność wobec Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "pełna wojna Rosji z Ukrainą; w Estonii dominujący sprzeciw wobec Rosji",
+   "sources": [
+    "The bear in the Baltics: Reassessing the Russian threat in Estonia, ECFR, https://ecfr.eu/publication/the-bear-in-the-baltics-reassessing-the-russian-threat-in-estonia/",
+    "Estonia, Latvia, Lithuania Create Fortified Border as Russia War Fears Grow, Bloomberg, 2025, https://www.bloomberg.com/graphics/2025-baltics-border/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "wojska rosyjskie w kraju do 1994, dominacja gospodarcza i energetyczna Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "zależność energetyczna i od rosyjskiego rynku; spadek po wycofaniu wojsk"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "zależność energetyczna i rynkowa malejąca po wejściu do UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "energia i sieć elektroenergetyczna BRELL w rosyjskim układzie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:RUS",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "po 2022 zależność znacznie zmniejszona (sankcje, dywersyfikacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "synchronizacja z siecią europejską (luty 2025) i odcięcie od BRELL"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:RUS",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielki wpływ Estonii na Rosję"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wpływ przez UE i NATO, ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "wpływ przez sankcje UE, które Estonia promowała"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "wpływ przez sankcje UE i głos w NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "wojska rosyjskie w kraju do sierpnia 1994; nacisk na politykę zagraniczną"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:RUS",
+   "years": "1995-2013",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "ograniczony nacisk polityczny i wojskowy po wycofaniu wojsk"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:RUS",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 6,
+   "rationale": "zagrożenie ze strony Rosji wpływa na politykę bezpieczeństwa, ale bez realnych ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:RUS",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielki realny wpływ Estonii na Rosję"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "wpływ przez wsparcie sankcji UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wpływ przez sankcje i polityczną presję w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:RUS",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "wysoka zależność: handel, energia i tranzyt przez Rosję"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "handel i energia nadal silnie związane z Rosją"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "udział Rosji w handlu spada po wejściu do UE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "niewielki udział Rosji w handlu po sankcjach"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "prawie zerowa zależność po sankcjach UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "współpraca bałtycka, wspólne stanowisko w sprawach integracji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:LVA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "wspólne członkostwo w UE i NATO od 2004; bliska współpraca bałtycka"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sąsiedzi i partnerzy bałtyccy, ale z dystansem kulturowym"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:LVA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "sąsiedzi w UE i NATO; wspólna historia bałtycka"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielka zależność od Łotwy (tranzyt, kolej, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "niewielki wpływ w ramach współpracy bałtyckiej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:LVA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "wpływ w ramach współpracy bałtyckiej w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "brak istotnego ograniczenia polityki Estonii przez Łotwę"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielki realny wpływ na Łotwę"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 6,
+   "rationale": "niewielki udział Łotwy w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:LVA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "udział Łotwy w handlu i tranzycie ok. kilku procent"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "współpraca bałtycka, wspólne cele integracyjne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:LTU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "wspólne członkostwo w UE i NATO; współpraca obronna bałtycka"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "bałtyccy partnerzy, mniejsze zainteresowanie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:LTU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "sąsiedzi w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielka zależność od Litwy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielki wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:LTU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "wpływ w ramach UE i współpracy bałtyckiej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "brak istotnego ograniczenia politycznego"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielki realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "udział Litwy w handlu kilka procent"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:FIN",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Finlandia wspierała niepodległość Estonii i jej integrację z Zachodem"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:FIN",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "bliskie partnerstwo, także po wejściu Finlandii do NATO w 2023"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:FIN",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "bliskość kulturowa i językowa, popularność Finlandii w Estonii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:FIN",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "silna sympatia społeczna; wspólne więzi i turystyka"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:FIN",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "zależność od fińskich inwestycji i połączeń promowych"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:FIN",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "zależność gospodarcza od Finlandii zmniejszona po wejściu do UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:FIN",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "wpływ Estonii na Finlandię niewielki"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:FIN",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "wpływ przez relacje gospodarcze i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:FIN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "brak istotnych ograniczeń politycznych ze strony Finlandii"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:FIN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ Estonii, w tym przez inwestycje i współpracę"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:FIN",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Finlandia to największy inwestor i jeden z głównych partnerów handlowych"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:FIN",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Finlandia nadal jednym z głównych partnerów handlowych i inwestorów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:SWE",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "dobre stosunki, wsparcie niepodległości i reform"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:SWE",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "bliskie relacje w UE; Szwecja członkiem NATO od 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:SWE",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "umiarkowana sympatia, dobre kontakty kulturalne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:SWE",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "umiarkowana sympatia społeczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:SWE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielka zależność; szwedzkie banki i inwestycje w Estonii"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:SWE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "ograniczony wpływ w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:SWE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "brak politycznych ograniczeń ze strony Szwecji"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:SWE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielki realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:SWE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "szwedzkie banki i inwestycje w Estonii"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:POL",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "stosunki poprawne, ale ograniczone przed wejściem do NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:POL",
+   "years": "2000-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "współpraca w ramach kandydatury do UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:POL",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "wspólne członkostwo w UE i NATO; bliska współpraca na wschodniej flance"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:POL",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "mały wzajemny kontakt społeczny"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:POL",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "umiarkowana sympatia i wspólne zagrożenie ze strony Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:POL",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielka zależność od Polski"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:POL",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 6,
+   "rationale": "ograniczony wpływ przez UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:POL",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "brak politycznych ograniczeń ze strony Polski"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:POL",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "niewielki realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:POL",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielki udział Polski w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:DEU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "poparcie Niemiec dla integracji bałtyckiej, ale ograniczona rola"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "partnerstwo w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:DEU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "silne partnerstwo; Niemcy wspierają wschodnią flankę NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:DEU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "umiarkowana sympatia, dobre kontakty gospodarcze"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:DEU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "umiarkowana sympatia społeczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielka zależność od Niemiec"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "wpływ w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "brak istotnych ograniczeń politycznych"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 7,
+   "rationale": "ograniczony wpływ przez UE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Niemcy to jeden z głównych odbiorców eksportu z Estonii"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:USA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "uznanie niepodległości Estonii i wsparcie reform"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:USA",
+   "years": "2004-2024",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "sojusz w NATO, wspólne ćwiczenia, obecność wojsk USA"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "gwarancje NATO utrzymane, ale napięcia w polityce wobec Europy i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:USA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "wysoka sympatia społeczna dla USA"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:USA",
+   "years": "2004-2024",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "wysoka sympatia społeczna dla USA i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "sympatia pozostaje, ale spadła w związku z polityką wobec Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:USA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "zależność od USA w gwarancjach bezpieczeństwa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:USA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "zależność wojskowa od gwarancji NATO i USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:USA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielki wpływ na USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:USA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "wpływ przez NATO i lobbing"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:USA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "brak istotnych ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:USA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "USA realnie wpływają na politykę bezpieczeństwa przez NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:USA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "ograniczony realny wpływ na USA"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:USA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "niewielki udział USA w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:GBR",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "wsparcie niepodległości i reform"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:GBR",
+   "years": "2004-2019",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "partnerstwo w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Wielka Brytania prowadzi batalion NATO w Estonii (od 2017); silne wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:GBR",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "umiarkowana sympatia społeczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:GBR",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "umiarkowana sympatia społeczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:GBR",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "zależność od UK w gwarancjach bezpieczeństwa (ogólnie)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:GBR",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "brytyjski batalion NATO w Estonii zwiększa zależność wojskową"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "ograniczony wpływ przez NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:GBR",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "brak istotnych ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:GBR",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "obecność brytyjskiego batalionu wpływa na politykę obronną"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "ograniczony realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "niewielki udział UK w handlu, znaczenie finansowe"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:FRA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "poprawne stosunki, ograniczone kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:FRA",
+   "years": "2004-2018",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "partnerstwo w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:FRA",
+   "years": "2019-2022",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "chłodniej przez dialog Francji z Rosją i sceptycyzm Estonii"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:FRA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Francja wspiera Ukrainę i wschodnią flankę NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:FRA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "umiarkowana, niska znajomość Francji w społeczeństwie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:FRA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "niewielka zależność od Francji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:FRA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:FRA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "brak istotnych ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:FRA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "ograniczony realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:FRA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielki udział Francji w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:UKR",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "poparcie niepodległości Ukrainy, ale słabe więzi"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "kontakty w ramach partnerstwa wschodniego"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "po 2014 silne poparcie dla Ukrainy wobec agresji Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "pełne poparcie dla Ukrainy w pełnoskalowej wojnie; duża pomoc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "obojętność, mniejsze zainteresowanie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "sympatia wzrosła po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "silna sympatia społeczna dla Ukrainy po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielka zależność od Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielki wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wpływ przez wsparcie i doradztwo"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "wpływ przez pomoc i presję polityczną"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "brak ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielki realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielki realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wpływ przez pomoc wojskową i polityczną"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "praktycznie brak zależności gospodarczej Estonii od Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:BLR",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "niskie kontakty, dystans wobec Łukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:BLR",
+   "years": "2004-2019",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "chłodne relacje, sprzeciw wobec polityki Białorusi"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "sprzeciw wobec represji po wyborach 2020 i wsparcia Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "obojętność, niewielkie kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "negatywne nastroje po represjach 2020 i wojnie na Ukrainie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielka zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielki wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "brak istotnych ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielki realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielki udział Białorusi w handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:CHN",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "poprawne stosunki, handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:CHN",
+   "years": "2004-2019",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "współpraca gospodarcza rośnie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "EST:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "krytyka Chin w sprawach praw człowieka i Ujgurów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:CHN",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "umiarkowana, nie wysoka świadomość"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "EST:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "obojętność, sceptycyzm wobec Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "EST:CHN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielka zależność od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "EST:CHN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "niewielki wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "EST:CHN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "brak ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "EST:CHN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "niewielki realny wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "EST:CHN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "rosnący import z Chin, ale niewielka zależność"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "EST:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "19.09.2025 trzy rosyjskie MiG-31 w przestrzeni powietrznej Estonii (ok. 12 min) przy Vaindloo; Estonia wnioskuje o konsultacje art. 4 NATO; spory o boje na Narwie i GPS",
+   "sources": [
+    "Estonia and Allies Denounce 'Reckless' Russian Air Incursion, The Moscow Times, 2025-09-20, https://www.themoscowtimes.com/2025/09/20/estonia-and-allies-denounce-reckless-russian-air-incursion-a90578",
+    "Estonia triggers NATO Article 4 after longest Russian airspace violation of 2025, Army Recognition, 2025, https://www.armyrecognition.com/news/aerospace-news/2025/estonia-triggers-nato-article-4-after-longest-russian-airspace-violation-of-2025",
+    "NATO, EU condemn Russia as Estonia says airspace was violated for 12 minutes, CBC, 2025-09, https://www.cbc.ca/lite/story/1.7638294",
+    "The bear in the Baltics: Reassessing the Russian threat in Estonia, ECFR, https://ecfr.eu/publication/the-bear-in-the-baltics-reassessing-the-russian-threat-in-estonia/",
+    "Estonia, Latvia, Lithuania Create Fortified Border as Russia War Fears Grow, Bloomberg, 2025, https://www.bloomberg.com/graphics/2025-baltics-border/"
+   ]
+  }
+ ]
+}

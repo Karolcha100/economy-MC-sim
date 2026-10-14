@@ -1,0 +1,661 @@
+{
+  "rationale": "PRT, zadanie B (tryb oszczedny): relacje od PRT do 43 partnerow (sasiad ESP; UE/NATO: gr. 'EU' 23 panstw wspolne D=60/S=40; mocarstwa USA, DEU, FRA, GBR, CHN, RUS; Lusofonia: BRA, AGO, MOZ, CPV, GNB, STP, TLS; konflikty i napiecia: UKR (od 2022), SRB (1999), IRQ (1991), ISR i PSE (uznanie Palestyny 21.09.2025); VEN (diaspora, od 2018 spadek)). hybrid attacks = 0 (PRT nie prowadzi dzialan hybrydowych). Relacje dwustronne: bez zmian; wpisy UCDP 1990-2024 nietkniete; brak nowego konfliktu 2025. Sprawdzone w wyszukiwarce: uznanie Palestyny 2025; wzajemne wydalenia dyplomatow PRT-RUS 2022.",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:SRB",
+      "years": "1990-1998",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:USA",
+      "years": "1990-2002",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:IRQ",
+      "years": "1990-2002",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:RUS",
+      "years": "1990-2013",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:VEN",
+      "years": "1990-2017",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:GBR",
+      "years": "1990-2019",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:ISR",
+      "years": "1990-2024",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:AUT,PRT:BEL,PRT:BGR,PRT:CYP,PRT:CZE,PRT:DNK,PRT:FIN,PRT:GRC,PRT:HUN,PRT:IRL,PRT:ITA,PRT:LUX,PRT:MLT,PRT:NLD,PRT:POL,PRT:ROU,PRT:SWE,PRT:AGO,PRT:MOZ",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:CPV,PRT:GNB,PRT:STP,PRT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:ESP,PRT:DEU,PRT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:EST,PRT:HRV,PRT:LTU,PRT:LVA,PRT:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:PSE",
+      "years": "1994-2024",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:SRB",
+      "years": "1999-2001",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:TLS",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:SRB",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:USA",
+      "years": "2003-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:IRQ",
+      "years": "2003-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:RUS",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:VEN",
+      "years": "2018-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:GBR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:ISR",
+      "years": "2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PRT:PSE",
+      "years": "2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:USA",
+      "years": "1990-2002",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:RUS",
+      "years": "1990-2013",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:VEN",
+      "years": "1990-2017",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:ISR",
+      "years": "1990-2024",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:AUT,PRT:BEL,PRT:BGR,PRT:CYP,PRT:CZE,PRT:DNK,PRT:FIN,PRT:GRC,PRT:HUN,PRT:IRL,PRT:ITA,PRT:LUX,PRT:MLT,PRT:NLD,PRT:POL,PRT:ROU,PRT:SWE,PRT:ESP,PRT:MOZ",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:CPV,PRT:GNB,PRT:STP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:FRA,PRT:AGO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:DEU,PRT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:IRQ",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": -15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:EST,PRT:HRV,PRT:LTU,PRT:LVA,PRT:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:PSE",
+      "years": "1994-2024",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:SRB",
+      "years": "1999-2001",
+      "curve": "constant",
+      "start": -10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:TLS",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:USA",
+      "years": "2003-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:RUS",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": -5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:VEN",
+      "years": "2018-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:ISR",
+      "years": "2025",
+      "curve": "constant",
+      "start": -5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PRT:PSE",
+      "years": "2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PRT:CPV,PRT:GNB,PRT:STP,PRT:CHN,PRT:RUS,PRT:MOZ",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PRT:ESP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PRT:FRA,PRT:GBR,PRT:AGO,PRT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PRT:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PRT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PRT:TLS",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PRT:CPV,PRT:GNB,PRT:STP,PRT:USA,PRT:CHN,PRT:MOZ",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PRT:ESP,PRT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PRT:DEU,PRT:GBR,PRT:AGO,PRT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PRT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PRT:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PRT:TLS",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PRT:CPV,PRT:GNB,PRT:STP,PRT:CHN,PRT:MOZ",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PRT:ESP,PRT:FRA,PRT:GBR,PRT:AGO,PRT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PRT:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PRT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PRT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PRT:TLS",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PRT:CPV,PRT:GNB,PRT:STP,PRT:MOZ,PRT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PRT:ESP,PRT:AGO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PRT:FRA,PRT:DEU,PRT:GBR,PRT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PRT:CHN,PRT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PRT:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PRT:TLS",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PRT:CPV,PRT:GNB,PRT:STP,PRT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PRT:ESP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PRT:FRA,PRT:AGO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PRT:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PRT:GBR,PRT:USA,PRT:CHN,PRT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PRT:MOZ",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PRT:TLS",
+      "years": "2002-2025",
+      "curve": "constant",
+      "start": 2
+    }
+  ]
+}

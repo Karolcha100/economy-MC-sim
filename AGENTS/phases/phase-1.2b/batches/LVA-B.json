@@ -1,0 +1,4492 @@
+{
+ "rationale": "LVA, zadanie B: relacje od LVA do 14 partnerów (sąsiedzi, mocarstwa, sojusznicy NATO/UE, partnerzy handlowi). Hybrid attacks towards = domyślne 0 (LVA nie prowadzi działań hybrydowych; potwierdzone confirm-default). Dwustronne: bez zmian; brak par UCDP dla LVA; in war crisis RUS-LVA 2025 nie wpisana (brak pewności co do zbrojnego incydentu między państwami).",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:RUS",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Rosja: sąsiad z dużą mniejszością rosyjskojęzyczną, wojska sowieckie do sierpnia 1994, zależność energetyczna i tranzytowa; wrogość rośnie po 2014, a po 2022 jest skrajna",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:BLR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:BLR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:BLR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:BLR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:BLR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:BLR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:BLR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:BLR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:BLR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:BLR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:BLR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:BLR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:BLR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:BLR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407",
+    "https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407",
+    "https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407",
+    "https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407",
+    "https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407",
+    "https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407",
+    "https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Białoruś: sąsiad; stosunki chłodne od 2020 (fałszerstwo wyborów, presja migracyjna i przemyt balonami, zamknięcie przejść granicznych w 2021 i 2025)",
+   "sources": [
+    "https://www.themoscowtimes.com/2025/03/18/latvia-restricts-border-crossings-with-russia-and-belarus-a88407",
+    "https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:LTU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:LTU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:LTU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:LTU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:LTU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:LTU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:LTU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Litwa: partner bałtycki (Rada Bałtycka, wspólne członkostwo w NATO i UE), bliskie stosunki bez poważnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:EST",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:EST",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:EST",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:EST",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:EST",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:EST",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:EST",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:EST",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:EST",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:EST",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:EST",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:EST",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:EST",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:EST",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Estonia: partner bałtycki; drobne spory graniczne w latach 90., potem pełna współpraca w NATO i UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:POL",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:POL",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:POL",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:POL",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:POL",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:POL",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:POL",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polska: sojusznik NATO i UE, region Europy Środkowej i Bałtyckiej, bez istotnych sporów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FIN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FIN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FIN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FIN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FIN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FIN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FIN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FIN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FIN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FIN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FIN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FIN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FIN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FIN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FIN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FIN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FIN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FIN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FIN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FIN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FIN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Finlandia: kraj nordycki, partner UE; umiarkowane związki gospodarcze i energetyczne (połączenia elektryczne przez Bałtyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:SWE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:SWE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:SWE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:SWE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:SWE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:SWE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:SWE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:SWE",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:SWE",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:SWE",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:SWE",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:SWE",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:SWE",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:SWE",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:SWE",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:SWE",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:SWE",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:SWE",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:SWE",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:SWE",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:SWE",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Szwecja: partner nordycki; szwedzkie banki mają dużą pozycję w sektorze bankowym Łotwy (zależność finansowa)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:DEU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:DEU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:DEU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:DEU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:DEU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:DEU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:DEU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:DEU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:DEU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:DEU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:DEU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:DEU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:DEU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:DEU",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Niemcy: największy partner UE, handel i inwestycje; dystans wobec polityki energetycznej Niemiec wobec Rosji przed 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FRA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FRA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FRA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FRA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FRA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FRA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FRA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FRA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FRA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FRA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FRA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FRA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FRA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FRA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FRA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FRA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FRA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FRA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FRA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FRA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FRA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FRA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FRA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FRA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FRA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FRA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FRA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FRA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Francja: sojusznik NATO i UE; stosunki poprawne, bez istotnych zależności"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:GBR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:GBR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:GBR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:GBR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:GBR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:GBR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:GBR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:GBR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:GBR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:GBR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:GBR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:GBR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:GBR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:GBR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:GBR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:GBR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:GBR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:GBR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:GBR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:GBR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:GBR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:GBR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:GBR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:GBR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:GBR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:GBR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:GBR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:GBR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Wielka Brytania: silny partner bezpieczeństwa, szkolenie wojska, poparcie po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:USA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:USA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:USA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:USA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:USA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:USA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:USA",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: gwarant bezpieczeństwa NATO; wysoka zależność militarna i wysokie poparcie społeczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CAN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CAN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CAN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CAN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CAN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CAN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CAN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CAN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CAN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CAN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CAN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CAN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CAN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CAN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CAN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CAN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CAN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CAN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CAN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CAN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CAN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CAN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CAN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CAN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CAN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CAN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CAN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CAN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CAN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CAN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CAN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CAN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CAN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CAN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CAN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Kanada: prowadzi wielonarodowy batalion NATO w Łotwie od 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:UKR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:UKR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:UKR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:UKR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:UKR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:UKR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:UKR",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Ukraina: państwo na wschodniej granicy UE/NATO; poparcie rośnie po 2014, silne po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CHN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CHN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CHN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CHN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CHN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CHN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CHN",
+   "years": "1995-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "LVA:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich",
+   "sources": [
+    "https://china-cee.eu/2025/11/26/latvia-monthly-briefing-latvia-china-cooperation-in-a-time-of-geopolitical-change/",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Latvia_relations"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "LVA:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich",
+   "sources": [
+    "https://china-cee.eu/2025/11/26/latvia-monthly-briefing-latvia-china-cooperation-in-a-time-of-geopolitical-change/",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Latvia_relations"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "LVA:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich",
+   "sources": [
+    "https://china-cee.eu/2025/11/26/latvia-monthly-briefing-latvia-china-cooperation-in-a-time-of-geopolitical-change/",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Latvia_relations"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "LVA:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich",
+   "sources": [
+    "https://china-cee.eu/2025/11/26/latvia-monthly-briefing-latvia-china-cooperation-in-a-time-of-geopolitical-change/",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Latvia_relations"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "LVA:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich",
+   "sources": [
+    "https://china-cee.eu/2025/11/26/latvia-monthly-briefing-latvia-china-cooperation-in-a-time-of-geopolitical-change/",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Latvia_relations"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "LVA:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich",
+   "sources": [
+    "https://china-cee.eu/2025/11/26/latvia-monthly-briefing-latvia-china-cooperation-in-a-time-of-geopolitical-change/",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Latvia_relations"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "LVA:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Chiny: partner handlowy o umiarkowanym znaczeniu; spadek handlu 2022-2025 i spór z 2023 r. o suwerenność państw postsowieckich",
+   "sources": [
+    "https://china-cee.eu/2025/11/26/latvia-monthly-briefing-latvia-china-cooperation-in-a-time-of-geopolitical-change/",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Latvia_relations"
+   ]
+  }
+ ]
+}

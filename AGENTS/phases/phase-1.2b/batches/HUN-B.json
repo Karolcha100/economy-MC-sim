@@ -1,0 +1,2265 @@
+{
+  "rationale": "HUN, zadanie B: relacje od HUN do 20 partnerow (sasiedzi AUT SVK UKR ROU SRB HRV SVN; V4 POL CZE; mocarstwa USA RUS CHN DEU FRA GBR ITA; TUR ISR SWE JPN); hybrid attacks = 0 (HUN nie prowadzi dzialan hybrydowych). Relacje dwustronne in war / in war crisis: bez nowych wpisow (brak wojny i zdarzen typu war crisis HUN z partnerem w 2025); HUN-SRB 1999 in war crisis (UCDP) pozostawione bez zmian - do rozstrzygniecia przez koordynatora.",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:AUT",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. transformacja, wspolpraca regionalna"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:AUT",
+      "years": "1996-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. partner UE/Schengen, bez sporow"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:AUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. spoleczenstwo: pozytywny stosunek do sasiada"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:AUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. zaleznosc gospodarcza od austriackiego kapitalu, mala polityczna"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:AUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. ograniczony wplyw na polityke Austrii"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:AUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. ograniczenia wylacznie w ramach UE"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:AUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. umiarkowany wplyw w regionie"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:AUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Austria: sasiad, partner UE/Schengen; austriackie banki i inwestycje w HUN; bez sporow o mniejszosci. austriackie banki i inwestycje istotne dla HUN"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:AUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec AUT brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SVK",
+      "years": "1993-1998",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. epoka Meciara: spory o mniejszosc wegierska i ustawe jezykowa, Gabcikovo"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SVK",
+      "years": "1999-2009",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. rzad Dzurinda: normalizacja, wspolne NATO i UE"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SVK",
+      "years": "2010-2015",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. spor o nowelizacje obywatelstwa 2010 i dekrety Benesa"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SVK",
+      "years": "2016-2025",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. bliskie stanowisko Orban-Fico w sprawach migracji i energii"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:SVK",
+      "years": "1993-2009",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. nieufnosc wobec Slowacji (jezyk, mniejszosc)"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:SVK",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": -5,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. spory zlagodzone, nadal chlodny stosunek"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. mala zaleznosc od Slowacji"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. wplyw przez mniejszosc i wspolne projekty"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. brak istotnego ograniczenia polityki zagranicznej HUN"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. umiarkowany wplyw w regionie"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Slowacja: sasiad; spory o Gabcikovo-Nagymaros, ustawy jezykowe, dekrety Benesa i obywatelstwo 2010; od 2016 bliskie stanowisko Orban-Fico. Slowacja wazny partner handlowy, wspolne lancuchy dostaw motoryzacji"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:SVK",
+      "years": "1993-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec SVK brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:UKR",
+      "years": "1991-1995",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. niepodleglosc Ukrainy; mniejszosc wegierska jako temat dwustronny"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:UKR",
+      "years": "1996-2013",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. poprawne relacje, sprawy mniejszosci w rozmowach"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:UKR",
+      "years": "2014-2016",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. dobra wspolpraca w okresie Poroszenki"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:UKR",
+      "years": "2017-2021",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. ustawa oswiatowa 2017 i blokady w komisji NATO-Ukraina; relacje chlodne"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:UKR",
+      "years": "2022-2023",
+      "curve": "constant",
+      "start": -20,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. wojna: HUN odrzuca dostawy broni i sankcje energetyczne, sprzeciw wobec akcesji"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:UKR",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": -25,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. wizyta Orbana w Kijowie 2024, ale nadal weto i spory o mniejszosc",
+      "sources": [
+        "Hungary's Orban in Kyiv for talks with Zelenskyy in first visit since the war began, NPR, 2024-07-02 (https://www.npr.org/2024/07/02/nx-s1-5026348/orban-hungary-ukraine-kyiv-meets-with-zelenskyy)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:UKR",
+      "years": "1991-2013",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. neutralnie"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:UKR",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": -5,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. konflikt w Donbasie, spory o mniejszosc"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -15,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. wojna i spory o mniejszosc wegierska"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. slaba zaleznosc polityczna"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. tranzyt ropy Druzba przez Ukraine zalezny od Kijowa"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. wplyw przez mniejszosc i wspolnote regionalna"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. brak istotnego ograniczenia polityki HUN przez Ukraine"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:UKR",
+      "years": "1991-2016",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:UKR",
+      "years": "2017-2021",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. wplyw przez mniejszosc i blokady"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. weto HUN w sprawie postepow akcesji UE i pomocy"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. Ukraina mala gospodarczo dla HUN"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Ukraina: sasiad; mniejszosc wegierska na Zakarpaciu; spor o ustawe oswiatowa 2017 i blokada komisji NATO-Ukraina; wojna od 2022; weto HUN wobec postepow akcesji UE. tranzyt Druzby przez Ukraine dla dostaw do HUN"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec UKR brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ROU",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. napiecia wokol mniejszosci wegierskiej po 1989 (Tirgu Mures)"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ROU",
+      "years": "1996-2003",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. traktat podstawowy 1996, wspolpraca NATO i UE"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ROU",
+      "years": "2004-2009",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. wspolne cele UE i NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ROU",
+      "years": "2010-2015",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. spory o autonomie Szeklerow i ustawy o obywatelstwie"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ROU",
+      "years": "2016-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. pragmatyczne relacje, retoryka o autonomii w tle"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:ROU",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": -20,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. krytyka traktowania mniejszosci wegierskiej"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:ROU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": -15,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. utrzymujaca sie nieufnosc"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:ROU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. mala zaleznosc"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:ROU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. wplyw przez mniejszosc w Siedmiogrodzie"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:ROU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. ograniczenie wylacznie przez ramy UE/NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:ROU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. umiarkowany wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:ROU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Rumunia: sasiad; mniejszosc wegierska w Siedmiogrodzie; traktat z 1996; spory o autonomie i obywatelstwo. Rumunia wazny, ale nie krytyczny partner handlowy"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:ROU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec ROU brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SRB",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. wojny jugoslowianskie: neutralnosc HUN, uchodzcy"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SRB",
+      "years": "1996-1999",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. zaostrzenie przed bombardowaniem NATO 1999"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SRB",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. normalizacja po 2000, sprawy mniejszosci w Wojwodinie"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SRB",
+      "years": "2010-2016",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. bliskie kontakty rzadow"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SRB",
+      "years": "2017-2025",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. sojusz Orban-Vucic, wspolne projekty infrastrukturalne"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:SRB",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": -15,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. pamiec wojen jugoslowianskich i bombardowan 1999"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:SRB",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. lagodniejszy stosunek"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:SRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. mala zaleznosc"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:SRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. wplyw przez mniejszosc w Wojwodinie"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:SRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. brak istotnego ograniczenia"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:SRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. umiarkowany wplyw przez mniejszosc i inwestycje"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:SRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Serbia (Jugoslawia do 2006): sasiad; wojny jugoslowianskie; bombardowania NATO 1999 z udzialem HUN; po 2010 bliskie relacje Orban-Vucic. maly handel z Serbia"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:SRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec SRB brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:HRV",
+      "years": "1991-1995",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. wojna w Chorwacji; HUN neutralna, uchodzcy"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:HRV",
+      "years": "1996-2003",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. normalizacja po wojnie"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:HRV",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. partnerstwo UE i NATO, Chorwacja w UE od 2013"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:HRV",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. sympatia, turystyka, bez sporow"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:HRV",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:HRV",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. umiarkowany wplyw w regionie"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:HRV",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:HRV",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. umiarkowany wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:HRV",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Chorwacja: sasiad (Drawa, Baranja); dobre relacje, bez sporow. maly handel"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:HRV",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec HRV brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SVN",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. dobre sasiedztwo"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SVN",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. partnerstwo UE, wspolna polityka regionalna"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. sympatia"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Slowenia: sasiad; dobre relacje, bez sporow. maly handel"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:SVN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec SVN brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:POL",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. V4 i wspolne cele euroatlantyckie"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:POL",
+      "years": "1996-2003",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. V4, wspolpraca w NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:POL",
+      "years": "2004-2015",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. V4, wspolne cele w UE"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:POL",
+      "years": "2016-2023",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. bliskie stanowisko rzadow PiS i Fidesz, wspolne weta w UE"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:POL",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. ochlodzenie po zmianie rzadu w Polsce"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:POL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. sympatia do Polakow, bliskosc historyczna"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:POL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. brak istotnej zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:POL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. wplyw w V4"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:POL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:POL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. umiarkowany wplyw w V4"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:POL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Polska: partner V4 i UE/NATO; bliskie stanowisko 2016-2023 (wspolne weto w sprawach praworzadnosci); ochlodzenie 2024-2025. Polska wazny ale nie krytyczny partner"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:POL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec POL brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CZE",
+      "years": "1990-1992",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. CSFR: dekrety Benesa, spory o Gabcikovo-Nagymaros"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CZE",
+      "years": "1993-2003",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. normalizacja, wspolpraca regionalna"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CZE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. V4, wspolne cele UE i NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:CZE",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. dekrety Benesa"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:CZE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. neutralnie"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:CZE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:CZE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. wplyw w V4"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:CZE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:CZE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. umiarkowany wplyw w V4"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:CZE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Czechy (CSFR do 1992): sasiad w V4; dekrety Benesa, Gabcikovo-Nagymaros; poprawa po 1993. maly handel, lancuchy motoryzacyjne"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:CZE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec CZE brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:USA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. wsparcie dla przystapienia do NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:USA",
+      "years": "1996-2003",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. wejscie do NATO 1999, wspolne misje"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:USA",
+      "years": "2004-2009",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. partnerstwo sojusznicze"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:USA",
+      "years": "2010-2016",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. chlodniej: krytyka praworzadnosci w czasach Obamy"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:USA",
+      "years": "2017-2020",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. ocieplenie za administracji Trumpa"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:USA",
+      "years": "2021-2024",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. administracja Bidena: krytyka praworzadnosci i polityki wobec Rosji"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:USA",
+      "years": "2025",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. spotkanie w Bialym Domu 7.11.2025, poparcie Trumpa",
+      "sources": [
+        "Trump heaps praise on Hungary's Viktor Orban in White House meeting, ABC News, 2025-11-07 (https://abcnews.com/Politics/trump-meet-hungarys-viktor-orban-white-house/story?id=127269587)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:USA",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. sympatia dla USA w latach 90."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:USA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. spadek sympatii"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. zaleznosc od gwarancji bezpieczenstwa NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. ograniczony wplyw na polityke USA"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. USA kierownictwo NATO i presja w sprawach energii i Chin ograniczaja polityke HUN"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. maly wplyw HUN na USA"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "USA: mocarstwo i gwarant NATO; wejscie HUN do NATO 1999; ochlodzenie 2010-2016 i 2021-2024; spotkanie Orban-Trump 7.11.2025. inwestycje i handel umiarkowane"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec USA brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:RUS",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wyjscie wojsk sowieckich 1991, zerwanie z ZSRR"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:RUS",
+      "years": "1996-2009",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. poprawne relacje, dostawy energii"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:RUS",
+      "years": "2010-2021",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wspolpraca energetyczna, Paks II (umowa 2014)"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wojna: HUN potepia najazd, ale blokuje sankcje energetyczne",
+      "sources": [
+        "EU exempts Hungary's Paks II nuclear project from Russia sanctions, Nuclear Engineering International, 2024 (https://www.neimagazine.com/news/eu-exempts-hungarys-paks-ii-nuclear-project-from-russia-sanctions/)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:RUS",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -40,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. pamiec okupacji sowieckiej i 1956/1968"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:RUS",
+      "years": "1996-2009",
+      "curve": "constant",
+      "start": -30,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. nieufnosc wobec Rosji"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:RUS",
+      "years": "2010-2021",
+      "curve": "constant",
+      "start": -25,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. poprawa wizerunku za rzadow Orbana"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -35,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wojna w Ukrainie"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:RUS",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. zaleznosc energetyczna"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:RUS",
+      "years": "1996-2009",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. zaleznosc energetyczna"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:RUS",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. gaz, ropa i jadrowka zalezne od Rosji"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:RUS",
+      "years": "1990-2013",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. ograniczony wplyw na Rosje"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:RUS",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wplyw przez weto w UE wobec sankcji"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:RUS",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wojska i wplyw Rosji w regionie"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:RUS",
+      "years": "1996-2013",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. slabnacy wplyw polityczny"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:RUS",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wplyw Rosji na polityke wobec wojny"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:RUS",
+      "years": "1990-2013",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. minimalny wplyw HUN na Rosje"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:RUS",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. wplyw przez glosowania w UE"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:RUS",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. gaz i ropa z Rosji"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:RUS",
+      "years": "1996-2025",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Rosja (ZSRR do 1991): wyjscie wojsk sowieckich 1991; gaz i ropa z Rosji (Druzba); Paks II z Rosatomem od 2014; po 2022 polityka HUN wobec wojny. dostawy gazu i ropy z Rosji kluczowe dla gospodarki HUN",
+      "sources": [
+        "Trump exempts Hungary from Russian oil and gas sanctions, Al Jazeera, 2025-11-07 (https://www.aljazeera.com/news/2025/11/7/hungarian-leader-viktor-orban-to-meet-us-president-donald-trump)",
+        "EU exempts Hungary's Paks II nuclear project from Russia sanctions, Nuclear Engineering International, 2024 (https://www.neimagazine.com/news/eu-exempts-hungarys-paks-ii-nuclear-project-from-russia-sanctions/)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec RUS brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CHN",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. poczatkowe relacje, male kontakty"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CHN",
+      "years": "1996-2009",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. pragmatyczne relacje, pierwsze inwestycje"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CHN",
+      "years": "2010-2015",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. otwarcie na Wschod, kredyty i projekt kolei Budapeszt-Belgrad"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CHN",
+      "years": "2016-2023",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. wspolpraca gospodarcza; HUN blokuje wspolne stanowisko UE o Morzu Poludniowochinskim 2016"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:CHN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. wizyta Xi w Budapeszcie 2024, partnerstwo 'all-weather', inwestycje EV",
+      "sources": [
+        "Xi and China's Electric Cars Drive Into Hungary, CEPA (https://cepa.org/article/xi-and-china-electric-cars-drive-into-hungary/)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:CHN",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": -5,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. obojetnosc"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:CHN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. obawy o wplyw Chin"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:CHN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": -15,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. obawy o warunki pracy i wplyw inwestycji"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:CHN",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. mala zaleznosc"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:CHN",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. zaleznosc od chinskich inwestycji i akumulatorow"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. znikomy wplyw na Chiny"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:CHN",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:CHN",
+      "years": "2010-2015",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. wplyw chinskich inwestycji"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:CHN",
+      "years": "2016-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. HUN ogranicza wspolne stanowiska UE wobec Chin"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. znikomy wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:CHN",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. maly handel"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:CHN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. rosnace inwestycje"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:CHN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Chiny: inwestycje (akumulatory, pojazdy elektryczne), Belt and Road; partnerstwo strategiczne 2024; zaangazowanie rzadu Orbana. akumulatory, pojazdy elektryczne, chinskie inwestycje",
+      "sources": [
+        "Xi and China's Electric Cars Drive Into Hungary, CEPA (https://cepa.org/article/xi-and-china-electric-cars-drive-into-hungary/)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec CHN brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:DEU",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. wsparcie dla integracji z UE"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:DEU",
+      "years": "1996-2009",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. partner UE i NATO, bliskie stosunki"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:DEU",
+      "years": "2010-2015",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. spory o migracje 2015 mimo wspolpracy"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:DEU",
+      "years": "2016-2021",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. spory o praworzadnosc i budzet UE"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:DEU",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. roznice w sprawie Ukrainy i Rosji"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:DEU",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. pozytywny stosunek"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:DEU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. stosunek przyjazny z nutka sporow"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:DEU",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. zaleznosc gospodarcza od Niemiec"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:DEU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. zaleznosc gospodarcza od Niemiec"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:DEU",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. Niemcy wplywaja na polityke UE"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:DEU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. Niemcy wplywaja na polityke UE i finansowanie"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. maly wplyw HUN na Niemcy"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:DEU",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. najwazniejszy partner handlowy"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:DEU",
+      "years": "1996-2025",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Niemcy: najwazniejszy partner handlowy i inwestor HUN (motoryzacja); spory o praworzadnosc i Ukraine po 2016. Niemcy najwazniejszy partner handlowy i inwestor"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:DEU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec DEU brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:FRA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. wspolpraca w UE i NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:FRA",
+      "years": "1996-2009",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. partnerstwo, dobre kontakty"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:FRA",
+      "years": "2010-2015",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. poprawne stosunki"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:FRA",
+      "years": "2016-2021",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. roznice w sprawie migracji i praworzadnosci"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:FRA",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. roznice w sprawie Ukrainy"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. umiarkowana sympatia"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. mala zaleznosc"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. ograniczony wplyw w UE"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. ograniczenia w ramach UE"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Francja: partner UE i NATO; roznice w sprawie migracji, praworzadnosci i Ukrainy po 2016. umiarkowany handel"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec FRA brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:GBR",
+      "years": "1990-2019",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. partnerstwo w UE i NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:GBR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. po brexicie: relacje poprawne"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. sympatia"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Wielka Brytania: partner UE i NATO do 2020; po brexicie relacje poprawne. maly handel"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec GBR brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ITA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. partnerstwo UE/NATO"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ITA",
+      "years": "1996-2025",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. bliskie relacje centroprawicy"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:ITA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. umiarkowana sympatia"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:ITA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. mala zaleznosc"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:ITA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:ITA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:ITA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:ITA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Wlochy: partner UE i NATO; bliskie relacje z rzadami centroprawicy. wazny partner handlowy"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:ITA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec ITA brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:TUR",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. partner NATO, umiarkowane kontakty"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:TUR",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. bliskie relacje Orban-Erdogan"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:TUR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. sympatia kulturowa"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:TUR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:TUR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:TUR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:TUR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. znikomy wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:TUR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Turcja: partner NATO; sympatia kulturowa; bliskie relacje Orban-Erdogan po 2010. maly handel"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:TUR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec TUR brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ISR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. poczatkowe kontakty"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ISR",
+      "years": "1996-2009",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. umiarkowane kontakty"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ISR",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. ocieplenie"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:ISR",
+      "years": "2018-2025",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. bliskosc Orban-Netanjahu, wizyty w Budapeszcie"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. umiarkowana sympatia"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. znikomy wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. znikomy wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Izrael: poprawa relacji po 2018 (bliskosc Orban-Netanjahu); niewielka wspolpraca gospodarcza. maly handel"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec ISR brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SWE",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. dobre relacje"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SWE",
+      "years": "2010-2022",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. chlodniej: krytyka praworzadnosci"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SWE",
+      "years": "2023-2024",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. opoznienie ratyfikacji akcesji Szwecji do NATO (zatwierdzona w 2024)"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:SWE",
+      "years": "2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. po ratyfikacji relacje nadal chlodne"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:SWE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. umiarkowana sympatia"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:SWE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:SWE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. znikomy wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:SWE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:SWE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. znikomy wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:SWE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Szwecja: partner UE; opoznienie ratyfikacji akcesji do NATO (2023-2024), chlodne relacje. maly handel"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:SWE",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec SWE brak zdarzen w 1990-2025"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:JPN",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. poczatek inwestycji japonskich"
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "HUN:JPN",
+      "years": "1996-2025",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. poprawne relacje, inwestycje"
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "HUN:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. umiarkowana sympatia"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "HUN:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. brak zaleznosci"
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "HUN:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. ograniczony wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "HUN:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. brak ograniczen"
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "HUN:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. znikomy wplyw"
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "HUN:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Japonia: inwestor (produkcja, motoryzacja); poprawne relacje. inwestycje japonskie, mala zaleznosc"
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "HUN:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "brak dzialan hybrydowych HUN wobec tego panstwa (sabotaz, cyberatak, dezinformacja, presja migracyjna); wobec JPN brak zdarzen w 1990-2025"
+    }
+  ]
+}

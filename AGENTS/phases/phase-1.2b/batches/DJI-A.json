@@ -1,0 +1,58 @@
+{
+  "rationale": "DJI, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Dżibuti: rządy Gouleda (jednopartyjne do 1992), powstanie Afarów FRUD 1991-1994, pokój 1994, sukcesja Guelleha 1999, zmiana konstytucji 2010 (usunięcie limitu kadencji), bojkot wyborów 2013, spór z Erytreą o Doumeirę 2008, COVID 2020-2021. Brak wyszukiwania. Wartości z wskaźników (corruption 1996-2022, violence risk 1996-2022, civilization level 1995-2023, happiness 2011-2014, net migration) nie zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "DJI", "years": "1990-1993", "curve": "linear", "start": 62, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "DJI", "years": "1994-1998", "curve": "linear", "start": 50, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "DJI", "years": "1999-2009", "curve": "linear", "start": 60, "end": 66, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "DJI", "years": "2010-2016", "curve": "linear", "start": 66, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "DJI", "years": "2017-2025", "curve": "constant", "start": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "DJI", "years": "1990-1995", "curve": "linear", "start": 62.5, "end": 64, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "DJI", "years": "2023-2025", "curve": "constant", "start": 66, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "DJI", "years": "1990-1993", "curve": "linear", "start": 46, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "DJI", "years": "1994-1999", "curve": "linear", "start": 42, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "DJI", "years": "2000-2010", "curve": "linear", "start": 45, "end": 49, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "DJI", "years": "2015-2019", "curve": "linear", "start": 43, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "DJI", "years": "2020-2021", "curve": "constant", "start": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "DJI", "years": "2022-2025", "curve": "linear", "start": 43, "end": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "DJI", "years": "1990-2007", "curve": "constant", "start": 5, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "DJI", "years": "2008-2010", "curve": "constant", "start": 8, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "DJI", "years": "2011-2025", "curve": "constant", "start": 5, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "DJI", "years": "1990-1992", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "DJI", "years": "1993-1994", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "DJI", "years": "1995-1998", "curve": "linear", "start": 58, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "DJI", "years": "1999-2009", "curve": "linear", "start": 62, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "DJI", "years": "2010-2016", "curve": "linear", "start": 70, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "DJI", "years": "2017-2025", "curve": "linear", "start": 65, "end": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "DJI", "years": "1990-1993", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DJI", "years": "1994-2009", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DJI", "years": "2010-2016", "curve": "linear", "start": 62, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DJI", "years": "2017-2025", "curve": "linear", "start": 66, "end": 70, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "DJI", "years": "1990-1994", "curve": "linear", "start": 29.6, "end": 31.4, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "DJI", "years": "2024-2025", "curve": "linear", "start": 51.6, "end": 52, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "DJI", "years": "1990-1994", "curve": "linear", "start": 45, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "DJI", "years": "1995-2010", "curve": "linear", "start": 40, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "DJI", "years": "2011-2025", "curve": "constant", "start": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "DJI", "years": "1990-2007", "curve": "constant", "start": 5, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "DJI", "years": "2008-2010", "curve": "constant", "start": 15, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "DJI", "years": "2011-2025", "curve": "constant", "start": 8, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "DJI", "years": "1990-1990", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "violence risk", "targets": "DJI", "years": "1991-1991", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "violence risk", "targets": "DJI", "years": "1992-1994", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "violence risk", "targets": "DJI", "years": "1995-1995", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "violence risk", "targets": "DJI", "years": "2023-2025", "curve": "constant", "start": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "DJI", "years": "1991-1994", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "DJI", "years": "1995-1996", "curve": "constant", "start": 15, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "DJI", "years": "2020-2021", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

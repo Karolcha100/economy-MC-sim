@@ -1,0 +1,46 @@
+{
+  "rationale": "VCT, zadanie A (statystyki państwa), tryb oszczędny. Brak danych WHR dla VCT: happiness oszacowane przez porównanie z LCA i innymi karaibskimi państwami średniego rozwoju (10 x Cantril), nieco niżej ze względu na niższy dochód na osobę. Stabilna parlamentarna demokracja; zmiany rządów pokojowe w 2001 (ULP) i 2025 (NDP wygrała 27 listopada 2025: 14 z 15 mandatów; Friday premierem od 28 listopada). Niska przemoc polityczna, bez wojen i zamieszek. Civilization level 1990-1999 i 2024-2025 wg HDI (ok. 0,66 -> 0,70, potem ok. 0,80). Corruption 1990-2003 jako przejście do wartości z 2004, 2023-2025 jako kontynuacja serii WGI. Government popularity: NDP do 2001, ULP 2001-2025 z osłabieniem po 2016 i 2023, rok 2025 jako zmiana rządu. Epidemia 2020 (COVID). Brak zamieszek i kryzysów w 2024 (wyszukiwanie nic nie znalazło). Net migration i wartości seedowane (violence risk 1996-2022, corruption 2004-2022, civilization 2000-2023) nietknięte.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "VCT", "years": "1990-2000", "curve": "constant", "start": 77, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "VCT", "years": "2001-2022", "curve": "constant", "start": 78, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "VCT", "years": "2023-2025", "curve": "constant", "start": 76, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "VCT", "years": "1990-2003", "curve": "linear", "start": 42, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "VCT", "years": "2023-2025", "curve": "constant", "start": 35, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "VCT", "years": "1990-1995", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "VCT", "years": "2023-2025", "curve": "constant", "start": 29.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "VCT", "years": "1990-1995", "curve": "constant", "start": 56, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "VCT", "years": "1996-2004", "curve": "constant", "start": 57, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "VCT", "years": "2005-2019", "curve": "linear", "start": 58, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "VCT", "years": "2020-2021", "curve": "constant", "start": 56, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "VCT", "years": "2022-2025", "curve": "linear", "start": 57, "end": 59, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "VCT", "years": "1990-2025", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "VCT", "years": "1990-2025", "curve": "constant", "start": 0, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "1990-1995", "curve": "linear", "start": 50, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "1996-2000", "curve": "linear", "start": 48, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "2001-2005", "curve": "linear", "start": 58, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "2006-2010", "curve": "linear", "start": 55, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "2011-2015", "curve": "linear", "start": 50, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "2016-2020", "curve": "linear", "start": 48, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "2021-2022", "curve": "constant", "start": 42, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "2023-2024", "curve": "linear", "start": 40, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "VCT", "years": "2025", "curve": "constant", "start": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "VCT", "years": "1990-1999", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "VCT", "years": "2000-2019", "curve": "linear", "start": 60, "end": 58, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "VCT", "years": "2020-2021", "curve": "linear", "start": 58, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "VCT", "years": "2022-2025", "curve": "constant", "start": 62, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "VCT", "years": "1990-1999", "curve": "linear", "start": 66, "end": 69.5, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "VCT", "years": "2024-2025", "curve": "linear", "start": 80.0, "end": 80.6, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "VCT", "years": "1990-2000", "curve": "constant", "start": 70, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "VCT", "years": "2001-2025", "curve": "constant", "start": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "VCT", "years": "2020", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

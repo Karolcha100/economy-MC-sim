@@ -1,0 +1,657 @@
+{
+ "rationale": "SYR, zadanie A (statystyki państwa), tryb pełny",
+ "operations": [
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "SYR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Reżim Hafeza al-Asada po konsolidacji (po 1982); instytucje przewidywalne, brak kryzysów rządów; przemoc poza tą statystyką",
+   "sources": [
+    "Wikipedia (en), Hafez al-Assad"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "SYR",
+   "years": "2000-2010",
+   "curve": "linear",
+   "start": 66,
+   "end": 70,
+   "rationale": "Sukcesja 2000 (Bashar al-Asad) przeprowadzona gładko; kryzys po wycofaniu z Libanu i zabójstwie Haririego 2005 nie zmienia funkcjonowania rządu; 2008-2010 stabilnie",
+   "sources": [
+    "Wikipedia (en), Bashar al-Assad"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "SYR",
+   "years": "2011-2012",
+   "curve": "linear",
+   "start": 40,
+   "end": 25,
+   "rationale": "Powstanie 2011: rekonstrukcje gabinetu i dezercje; w sierpniu 2012 premier Riad Hidżab przechodzi do opozycji; instytucje tracą ciągłość",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "SYR",
+   "years": "2013-2016",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Rząd działa tylko w części terytorium; państwo kierowane przez służby i wojsko, bez normalnych instytucji; poniżej 0 nie schodzi, bo Damaszek funkcjonuje",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "SYR",
+   "years": "2017-2023",
+   "curve": "linear",
+   "start": 20,
+   "end": 22,
+   "rationale": "Odzyskiwanie terytorium z pomocą Rosji i Iranu, ale instytucje puste; gospodarka po Caesar Act (2020) w upadku",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "SYR",
+   "years": "2024-2024",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Do 8 grudnia 2024 rząd słabo, ale funkcjonował; upadek państwa w grudniu; wartość roczna",
+   "sources": [
+    "Fall of the Assad regime, Wikipedia, https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime",
+    "The Assad regime falls. What happens now?, Brookings, https://www.brookings.edu/articles/the-assad-regime-falls-what-happens-now/"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Rząd przejściowy (powołany 29 marca 2025), deklaracja konstytucyjna, Zgromadzenie Ludowe (październik 2025): instytucje w budowie, ale kruche; SDF i Suwajda poza pełną kontrolą",
+   "sources": [
+    "Syrian transitional government, Wikipedia, https://en.wikipedia.org/wiki/Syrian_transitional_government",
+    "Syria's Transition Advances Amid Persistent Security Challenges, Soufan Center, 2026-07-15, https://thesoufancenter.org/intelbrief-2026-july-15/",
+    "Syria's new parliament can build institutions and trust, Crisis Group, https://www.crisisgroup.org/opd/middle-east-north-africa/syria/syrias-new-parliament-can-build-institutions-and-trust"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "SYR",
+   "years": "1990-1995",
+   "curve": "linear",
+   "start": 65,
+   "end": 67,
+   "only_empty": true,
+   "rationale": "Przed 1996 brak serii; ciągłość z wartością 1996 (67,6): patronat i sieci klientelistyczne reżimu, poziom jak w latach 1996-2000",
+   "sources": [
+    "Estymacja (ciągłość z serią 1996+)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "SYR",
+   "years": "2023-2025",
+   "curve": "linear",
+   "start": 86,
+   "end": 85,
+   "only_empty": true,
+   "rationale": "Po upadku reżimu sieci Asadów częściowo rozbite, ale patronat, przemyt kaptagonu i korupcja w administracji nadal na najwyższym poziomie; 2025 zapowiedzi walki z korupcją bez wyraźnego skutku",
+   "sources": [
+    "The Assad regime falls. What happens now?, Brookings, https://www.brookings.edu/articles/the-assad-regime-falls-what-happens-now/",
+    "Syrian transitional government, Wikipedia, https://en.wikipedia.org/wiki/Syrian_transitional_government"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "SYR",
+   "years": "1990-2004",
+   "curve": "linear",
+   "start": 52,
+   "end": 49,
+   "only_empty": true,
+   "rationale": "Brak serii Cantril dla Syrii przed 2011; estymacja na skali: stabilny autorytaryzm, niski-średni dochód, łagodny spadek",
+   "sources": [
+    "Estymacja (brak danych Gallup/WHR przed 2011)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "SYR",
+   "years": "2005-2010",
+   "curve": "linear",
+   "start": 49,
+   "end": 48,
+   "only_empty": true,
+   "rationale": "Brak danych; susza 2006-2010 i pogorszenie warunków życia na wsi; ciągłość z 2011 (47,35)",
+   "sources": [
+    "Estymacja (brak danych Gallup/WHR przed 2011)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "SYR",
+   "years": "2019-2023",
+   "curve": "linear",
+   "start": 33,
+   "end": 30,
+   "only_empty": true,
+   "rationale": "Gospodarka w kryzysie (inflacja, kurs, Caesar Act), trzęsienie ziemi 2023; ciągłość z trendem 2015-2018 (30-35)",
+   "sources": [
+    "Ciągłość z seriami Cantril 2015-2018 (World Happiness Report)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "SYR",
+   "years": "2024-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 38,
+   "only_empty": true,
+   "rationale": "2024: kryzys energetyczny i przemoc, upadek reżimu w grudniu; 2025: wyraźna ulga po zmianie przy dużej niepewności; estymacja",
+   "sources": [
+    "Ciągłość z seriami Cantril 2015-2018 (World Happiness Report)",
+    "The New Syria - One Year After al-Sharaa's Rise to Power, INSS, https://www.inss.org.il/publication/syria-year-after/"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social revanchism",
+   "targets": "SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Golan (zajęty przez Izrael 1967) i Hatay (1939) to powszechna narracja publiczna; szerokie poparcie dla odzyskania Golanu, ale bez aktywnej mobilizacji; porównanie z TUR 40",
+   "sources": [
+    "Wikipedia (en), Golan Heights"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social revanchism",
+   "targets": "SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Temat Golanu nadal obecny, ale wojna domowa i podziały zdominowały nastroje społeczne",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social revanchism",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Izraelska okupacja strefy buforowej po grudniu 2024 wraca jako temat publiczny; nastroje antyizraelskie rosną",
+   "sources": [
+    "Syria's Sharaa: Israel has acted with 'brutality,' but talks not at dead end, Times of Israel, https://www.timesofisrael.com/syrias-sharaa-israel-has-acted-with-brutality-but-talks-with-it-not-at-dead-end/",
+    "Defying Trump, Israel Expands Buffer Zone in Syria, Soufan Center, 2025-12-04, https://thesoufancenter.org/intelbrief-2025-december-4/"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government revanchism",
+   "targets": "SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Odzyskanie Golanu to stały cel oficjalnej polityki (retoryka, negocjacje z Izraelem 1991-2000), ale bez działań zbrojnych po 1973; poziom 50 = powtarzalny cel",
+   "sources": [
+    "Wikipedia (en), Golan Heights"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government revanchism",
+   "targets": "SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Reżim w czasie wojny: retoryka o Golanie utrzymana, ale priorytetem przetrwanie; sojusz z Iranem i Hezbollahem",
+   "sources": [
+    "Wikipedia (en), Syria-Israel relations"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government revanchism",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Rząd al-Szary deklaruje, że Golan pozostanie syryjski, ale szuka porozumienia z Izraelem; cel formalnie istnieje, nie jest priorytetem działań",
+   "sources": [
+    "At the UN, Sharaa says peace with Israel possible, but vows Golan will remain Syrian, Times of Israel, https://www.timesofisrael.com/at-the-un-sharaa-says-peace-with-israel-possible-but-vows-golan-will-remain-syrian/",
+    "Syria's Sharaa: Israel has acted with 'brutality,' but talks not at dead end, Times of Israel, https://www.timesofisrael.com/syrias-sharaa-israel-has-acted-with-brutality-but-talks-with-it-not-at-dead-end/"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Brak wiarygodnych sondaży; estymacja: reżim Hafeza al-Asada, wizerunek stabilności; poziom jak w kotwicach CHN/RUS",
+   "sources": [
+    "Estymacja (brak wiarygodnych sondaży)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "2000-2004",
+   "curve": "constant",
+   "start": 68,
+   "rationale": "Początek rządów Bashara al-Asada, okres nadziei reformatorskiej (Damascus Spring 2000-2001)",
+   "sources": [
+    "Wikipedia (en), Damascus Spring"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "2005-2010",
+   "curve": "linear",
+   "start": 62,
+   "end": 58,
+   "rationale": "Po 2005 spadek: izolacja międzynarodowa, kryzys libański, susza i bieda; estymacja",
+   "sources": [
+    "Estymacja (brak wiarygodnych sondaży)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "2011-2012",
+   "curve": "linear",
+   "start": 40,
+   "end": 25,
+   "rationale": "Powstanie: poparcie mniejszości i części klasy średniej, większość sunnicka przeciw; estymacja",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "2013-2019",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Obszary pod kontrolą reżimu popierają go (alawici, chrześcijanie, druzowie, część miast), ale w całym kraju estymacja ok. 30",
+   "sources": [
+    "Estymacja (brak wiarygodnych sondaży)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "2020-2023",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Kryzys gospodarczy, Caesar Act, lokalne protesty; estymacja",
+   "sources": [
+    "Estymacja (brak wiarygodnych sondaży)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "2024-2024",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Przed upadkiem poparcie bardzo niskie; Asad uciekł 8 grudnia 2024; wartość roczna",
+   "sources": [
+    "Fall of the Assad regime, Wikipedia, https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Rząd przejściowy: silne poparcie w większości sunnickiej; po przemocy w marcu i lipcu alienacja alawitów i druzów; estymacja",
+   "sources": [
+    "2025 massacres of Syrian Alawites, Wikipedia, https://en.wikipedia.org/wiki/2025_massacres_of_Syrian_Alawites",
+    "Hundreds killed in Druze-majority Sweida city after sectarian violence, France 24, 2025-07-15, https://www.france24.com/en/middle-east/20250715-syrian-government-forces-set-to-enter-predominantly-druze-city-of-sweida"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Represje ograniczają przełożenie strat i kryzysów (susza 2006-2010) na otwartą opozycję; pamięć Hamy 1982; poniżej Rosji i Turcji",
+   "sources": [
+    "Wikipedia (en), Hama massacre"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "SYR",
+   "years": "2011-2012",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Straty i represje szybko przekładają się na masowy sprzeciw wobec rządu",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "SYR",
+   "years": "2013-2019",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Wyczerpanie i strach; straty nie przekładają się już na otwartą opozycję",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "SYR",
+   "years": "2020-2023",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Rosnące ceny, kurs, głód; lokalne protesty",
+   "sources": [
+    "Estymacja"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "SYR",
+   "years": "2024-2024",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Kryzys gospodarczy i energetyczny, lokalne protesty przed upadkiem; wartość roczna",
+   "sources": [
+    "Fall of the Assad regime, Wikipedia, https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Wrażliwość na koszty (prąd, płace, ceny) rośnie wraz z oczekiwaniami po zmianie; przemoc w marcu i lipcu jako koszt",
+   "sources": [
+    "2025 massacres of Syrian Alawites, Wikipedia, https://en.wikipedia.org/wiki/2025_massacres_of_Syrian_Alawites",
+    "Hundreds killed in Druze-majority Sweida city after sectarian violence, France 24, 2025-07-15, https://www.france24.com/en/middle-east/20250715-syrian-government-forces-set-to-enter-predominantly-druze-city-of-sweida"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "civilization level",
+   "targets": "SYR",
+   "years": "2024-2025",
+   "curve": "linear",
+   "start": 56.4,
+   "end": 56.0,
+   "only_empty": true,
+   "rationale": "Brak HDI za 2024-2025; kontynuacja z 2023 (56,4) z lekkim spadkiem po wojnie i rozpadzie usług zdrowia i edukacji; estymacja",
+   "sources": [
+    "Estymacja (brak HDI; ciągłość z serią 2020-2023)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "assimilation",
+   "targets": "SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Sunnicka większość i świecki nacjonalizm baasistowski; chrześcijanie i druzowie zintegrowani; Kurdowie (część bez obywatelstwa) i obozy palestyńskie wykluczone; ok. 1,2 mln Irakijczyków po 2003 w dużej mierze poza systemem",
+   "sources": [
+    "Wikipedia (en), Iraqi refugees in Syria"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "assimilation",
+   "targets": "SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Silna polaryzacja sekciarska i przymusowe przemieszczenia wewnętrzne; separacja społeczności",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "assimilation",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Przemoc sekciarska w marcu i lipcu, napięcia z alawitami i druzami; deklaracje jedności narodowej bez skutku",
+   "sources": [
+    "2025 massacres of Syrian Alawites, Wikipedia, https://en.wikipedia.org/wiki/2025_massacres_of_Syrian_Alawites",
+    "Hundreds killed in Druze-majority Sweida city after sectarian violence, France 24, 2025-07-15, https://www.france24.com/en/middle-east/20250715-syrian-government-forces-set-to-enter-predominantly-druze-city-of-sweida"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "state collapse",
+   "targets": "SYR",
+   "years": "2014-2016",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "ISIS i rebelianci kontrolują większość terytorium (m.in. Rakka, północ i wschód); rząd utrzymuje głównie zachód. 2016 granicznie (Palmyra odbita w marcu), flaga utrzymana",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "state collapse",
+   "targets": "SYR",
+   "years": "2024-2024",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "8 grudnia 2024 rząd Asada i armia przestają funkcjonować; Damaszek zajęty przez opozycję",
+   "sources": [
+    "Fall of the Assad regime, Wikipedia, https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime",
+    "The Assad regime falls. What happens now?, Brookings, https://www.brookings.edu/articles/the-assad-regime-falls-what-happens-now/"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "riots",
+   "targets": "SYR",
+   "years": "2011-2011",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Masowe, coraz bardziej gwałtowne protesty w całym kraju (Daraa, Hims, Hama) i brutalna pacyfikacja: ogólnokrajowe zamieszki",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "epidemic",
+   "targets": "SYR",
+   "years": "2020-2020",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "COVID-19: lockdowny i załamanie usług zdrowia; zgodnie z kotwicami (2020 = 1 dla wszystkich państw)",
+   "sources": [
+    "Zgodnie z kotwicami formulas list (epidemic 2020)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "mobilized",
+   "targets": "SYR",
+   "years": "2011-2012",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Mobilizacja rezerwistów i pobór w czasie powstania i początku wojny domowej; 2013-2016 bez wyraźnego zdarzenia formalnej mobilizacji, flaga nieustawiona",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "SYR",
+   "years": "2011-2012",
+   "curve": "linear",
+   "start": 10,
+   "end": 25,
+   "rationale": "Początek wojny domowej; zmęczenie rośnie wraz z masowymi stratami 2012",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "SYR",
+   "years": "2013-2016",
+   "curve": "linear",
+   "start": 35,
+   "end": 60,
+   "rationale": "Ataki chemiczne 2013 (Ghuta), masowe przesiedlenia i zniszczenia; wojna bez końca",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "SYR",
+   "years": "2017-2019",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Trzecia faza wojny: zniszczenia, oblężenia (m.in. Ghuta, Idlib), wielka liczba uchodźców",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "SYR",
+   "years": "2020-2023",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Wojna w stanie zamrożonym, ale kryzys gospodarczy, Caesar Act i ciągłe ataki; wyczerpanie wysokie",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "SYR",
+   "years": "2024-2024",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Rok upadku reżimu po 13 latach wojny; wyczerpanie społeczeństwa; wartość roczna",
+   "sources": [
+    "Fall of the Assad regime, Wikipedia, https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime",
+    "The Assad regime falls. What happens now?, Brookings, https://www.brookings.edu/articles/the-assad-regime-falls-what-happens-now/"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Po upadku Asada: ulga i chęć odbudowy, ale ciągłe walki (Suwajda) i przemoc w marcu; spadek względem 2024",
+   "sources": [
+    "2025 massacres of Syrian Alawites, Wikipedia, https://en.wikipedia.org/wiki/2025_massacres_of_Syrian_Alawites",
+    "Clashes continue in Syria's Sweida despite ceasefire as death toll tops 900, France 24, 2025-07-18, https://www.france24.com/en/live-news/20250718-new-clashes-rock-syria-s-druze-heartland-as-tribal-fighters-reinforce-bedouin"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "SYR",
+   "years": "1990-1995",
+   "curve": "linear",
+   "start": 53,
+   "end": 56,
+   "only_empty": true,
+   "rationale": "Brak danych WGI przed 1996; ciągłość z 1996 (56,96): autorytarne państwo bez powstania po 1982; estymacja",
+   "sources": [
+    "Estymacja (ciągłość z serią 1996+, wzór 50-20 x WGI)"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "SYR",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": 100,
+   "only_empty": true,
+   "rationale": "Ciągłe zbrojne konflikty na terytorium (siły rządowe, HTS, SDF, Izrael, ISIS)",
+   "sources": [
+    "Wikipedia (en), Syrian civil war"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "SYR",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 90,
+   "only_empty": true,
+   "rationale": "Marzec (ponad 1400 zabitych wg raportu, S4/S5) i lipiec (ponad 1000 zabitych, S13): przemoc poważna, ale mniej ciągła niż w latach wojny",
+   "sources": [
+    "2025 massacres of Syrian Alawites, Wikipedia, https://en.wikipedia.org/wiki/2025_massacres_of_Syrian_Alawites",
+    "More than 1,400 killed in sectarian violence in coastal Syria, report finds, Al Jazeera, 2025-07-22, https://www.aljazeera.com/news/2025/7/22/more-than-1400-killed-in-sectarian-violence-in-coastal-syria-report-finds",
+    "Clashes continue in Syria's Sweida despite ceasefire as death toll tops 900, France 24, 2025-07-18, https://www.france24.com/en/live-news/20250718-new-clashes-rock-syria-s-druze-heartland-as-tribal-fighters-reinforce-bedouin"
+   ]
+  }
+ ]
+}

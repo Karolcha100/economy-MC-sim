@@ -1,0 +1,4386 @@
+{
+ "rationale": "THA, zadanie B: relacje od THA do 19 partnerów (sąsiedzi MMR/LAO/KHM/MYS, ASEAN: VNM/IDN/SGP/PHL, CHN, USA, JPN, IND, RUS, KOR, AUS, DEU, FRA, GBR, SAU). Wartości z kotwic 1990/2000/2010/2020/2025, liniowo między nimi. in war THA-KHM 2025 (starcia graniczne lipiec 2025, poza UCDP, dane do 2024). in war crisis nie dopisywane poza 2025; ewentualne kryzysy 2008-2010 do decyzji koordynatora.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MMR",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": -15,
+   "end": -6
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MMR",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": -5,
+   "end": 13
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MMR",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 15,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MMR",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MMR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MMR",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": -30,
+   "end": -26
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MMR",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": -25,
+   "end": -30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MMR",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": -30,
+   "end": -35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MMR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MMR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MMR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MMR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MMR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MMR",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MMR",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 60,
+   "end": 64
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MMR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MMR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MMR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MMR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MMR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MMR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MMR",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 50,
+   "end": 54
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MMR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MMR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MMR",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 5,
+   "end": 6
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MMR",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 6,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MMR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MMR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:LAO",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 40,
+   "end": 49
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:LAO",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 50,
+   "end": 59
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:LAO",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:LAO",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:LAO",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 25,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:LAO",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 30,
+   "end": 34
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:LAO",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:LAO",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:LAO",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:LAO",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:LAO",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:LAO",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:LAO",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:LAO",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 60,
+   "end": 64
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:LAO",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:LAO",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:LAO",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:LAO",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:LAO",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:LAO",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:LAO",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:LAO",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:LAO",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:LAO",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:LAO",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:LAO",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 8,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:LAO",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:LAO",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KHM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 0,
+   "end": -9
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KHM",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": -10,
+   "end": -28
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KHM",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": -30,
+   "end": 6
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KHM",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": -65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KHM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": -10,
+   "end": -19
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KHM",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": -20,
+   "end": -38
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KHM",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": -40,
+   "end": -31
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KHM",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": -30,
+   "end": -70
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KHM",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KHM",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KHM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KHM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KHM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KHM",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 60,
+   "end": 64
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KHM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KHM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KHM",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KHM",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KHM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KHM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KHM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 60,
+   "end": 64
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KHM",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 65,
+   "end": 70
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KHM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KHM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KHM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 5,
+   "end": 6
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KHM",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 6,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KHM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KHM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MYS",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 45,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MYS",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 50,
+   "end": 54
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MYS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:MYS",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MYS",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 20,
+   "end": 24
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MYS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MYS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:MYS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MYS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MYS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MYS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:MYS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MYS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MYS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MYS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:MYS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MYS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MYS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MYS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:MYS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MYS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MYS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MYS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:MYS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MYS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MYS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MYS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:MYS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:VNM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 0,
+   "end": 36
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:VNM",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 40,
+   "end": 49
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:VNM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:VNM",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 50,
+   "end": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:VNM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": -15,
+   "end": -2
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:VNM",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 0,
+   "end": 9
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:VNM",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 10,
+   "end": 19
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:VNM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:VNM",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:VNM",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:VNM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:VNM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:VNM",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:VNM",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:VNM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:VNM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:VNM",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:VNM",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:VNM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:VNM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:VNM",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:VNM",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:VNM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:VNM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:VNM",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 4,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:VNM",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:VNM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:VNM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IDN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 50,
+   "end": 54
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IDN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IDN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IDN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IDN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IDN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IDN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IDN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IDN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SGP",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 50,
+   "end": 59
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SGP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SGP",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 20,
+   "end": 24
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SGP",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 25,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SGP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SGP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SGP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SGP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SGP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SGP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:PHL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:PHL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:PHL",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:PHL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:PHL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:PHL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:PHL",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:PHL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:PHL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:PHL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:PHL",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:PHL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:PHL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:PHL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:PHL",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:PHL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:PHL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:PHL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:PHL",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:PHL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:PHL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:PHL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:PHL",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:PHL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:PHL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:PHL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:PHL",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:PHL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:CHN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 40,
+   "end": 58
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:CHN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 60,
+   "end": 64
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:CHN",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 65,
+   "end": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:CHN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 15,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:CHN",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 20,
+   "end": 6
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:CHN",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": -5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:CHN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 25,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:CHN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:CHN",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 30,
+   "end": 39
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:CHN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:CHN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:CHN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 15,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:CHN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 20,
+   "end": 29
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:CHN",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 30,
+   "end": 39
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:CHN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:CHN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:CHN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 10,
+   "end": 14
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:CHN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 15,
+   "end": 24
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:CHN",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 25,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:CHN",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:USA",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 70,
+   "end": 74
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:USA",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 75,
+   "end": 66
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:USA",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 65,
+   "end": 56
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:USA",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:USA",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 40,
+   "end": 36
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:USA",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 35,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:USA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:USA",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 40,
+   "end": 36
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:USA",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 35,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:USA",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 30,
+   "end": 26
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:USA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:USA",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 30,
+   "end": 26
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:USA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:USA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:USA",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 40,
+   "end": 36
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:USA",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 35,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:USA",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 30,
+   "end": 26
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:USA",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 25,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:USA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:USA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:USA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:USA",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 25,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:USA",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 20,
+   "end": 16
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:USA",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 15,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:USA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:JPN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 75,
+   "end": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:JPN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:JPN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 60,
+   "end": 56
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:JPN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:JPN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:JPN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 35,
+   "end": 26
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:JPN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 25,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:JPN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:JPN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 20,
+   "end": 24
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:JPN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:JPN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 25,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:JPN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 20,
+   "end": 16
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:JPN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:JPN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:JPN",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 30,
+   "end": 26
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:JPN",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 25,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:JPN",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 20,
+   "end": 16
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:JPN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IND",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 40,
+   "end": 44
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IND",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 45,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IND",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 50,
+   "end": 54
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:IND",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IND",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 15,
+   "end": 18
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IND",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 18,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:IND",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IND",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IND",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:IND",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IND",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IND",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:IND",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IND",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IND",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:IND",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IND",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IND",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:IND",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IND",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IND",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:IND",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:RUS",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 45,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:RUS",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 50,
+   "end": 54
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:RUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:RUS",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 10,
+   "end": 14
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:RUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:RUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:RUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:RUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:RUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:RUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:RUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:RUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:RUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:RUS",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 3,
+   "end": 4
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:RUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 4
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:RUS",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 4,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KOR",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KOR",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 60,
+   "end": 64
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KOR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:KOR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KOR",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 20,
+   "end": 24
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KOR",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 25,
+   "end": 34
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KOR",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 35,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:KOR",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 40,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KOR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KOR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KOR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:KOR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KOR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KOR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KOR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:KOR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KOR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KOR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KOR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:KOR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KOR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KOR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KOR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:KOR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KOR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KOR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KOR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:KOR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:AUS",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 50,
+   "end": 54
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:AUS",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:AUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:AUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:AUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:AUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:AUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:AUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:AUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:DEU",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:DEU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:DEU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:DEU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:DEU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:DEU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:DEU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:DEU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:DEU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:DEU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:DEU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:DEU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:DEU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:DEU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:DEU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:DEU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:FRA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:FRA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:FRA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:FRA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:FRA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:FRA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:FRA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:FRA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:FRA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:FRA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:FRA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:FRA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:FRA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:FRA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:FRA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:GBR",
+   "years": "1990-1999",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SAU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SAU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SAU",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 60,
+   "end": 56
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "THA:SAU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SAU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SAU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SAU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "THA:SAU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SAU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SAU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SAU",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 15,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "THA:SAU",
+   "years": "2020-2025",
+   "curve": "linear",
+   "start": 12,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SAU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SAU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SAU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "THA:SAU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SAU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SAU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SAU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "THA:SAU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SAU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SAU",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SAU",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "THA:SAU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SAU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SAU",
+   "years": "2000-2009",
+   "curve": "linear",
+   "start": 15,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SAU",
+   "years": "2010-2019",
+   "curve": "linear",
+   "start": 12,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "THA:SAU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "THA:KHM",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1
+  }
+ ]
+}

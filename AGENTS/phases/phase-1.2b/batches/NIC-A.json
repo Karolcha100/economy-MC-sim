@@ -1,0 +1,60 @@
+{
+  "rationale": "NIC, zadanie A (tryb oszczedny): okresy wg wydarzen. Stabilnosc: transformacja i pakty 1990-1996, pakt Aleman-Ortega 1997-2001, konflikt Bolanos-Aleman 2002-2005, powrot Ortegi 2006-2011, konsolidacja 2012-2017, kryzys 2018-2019 (protesty, represje), autorytarna konsolidacja 2020-2025 (wybory 2021, reforma 2025). Korupcja: piniata 1990-1991, ciaglosc z istniejacych wartosci. Przemoc: powstania recontras 1990-1995, ciaglosc z istniejacych wartosci. Happiness 1990-2010 (szacunek, przed 2011). Cywilizacja 2024-2025 (ciaglosc z HDI). Flagi: riots 2018, epidemic 2020. War exhaustion: po wojnie kontras 1990-1997.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "NIC", "years": "1990-1996", "curve": "linear", "start": 52, "end": 46},
+    {"kind": "grade", "name": "stability", "targets": "NIC", "years": "1997-2001", "curve": "linear", "start": 46, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "NIC", "years": "2002-2005", "curve": "linear", "start": 48, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "NIC", "years": "2006-2011", "curve": "linear", "start": 40, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "NIC", "years": "2012-2017", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "NIC", "years": "2018-2019", "curve": "manual", "values": [50, 38]},
+    {"kind": "grade", "name": "stability", "targets": "NIC", "years": "2020-2025", "curve": "linear", "start": 38, "end": 45},
+
+    {"kind": "grade", "name": "happiness", "targets": "NIC", "years": "1990-1992", "curve": "linear", "start": 40, "end": 38},
+    {"kind": "grade", "name": "happiness", "targets": "NIC", "years": "1993-1999", "curve": "linear", "start": 38, "end": 44},
+    {"kind": "grade", "name": "happiness", "targets": "NIC", "years": "2000-2004", "curve": "linear", "start": 44, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "NIC", "years": "2005-2010", "curve": "linear", "start": 46, "end": 50},
+
+    {"kind": "grade", "name": "corruption", "targets": "NIC", "years": "1990-1990", "curve": "constant", "start": 66},
+    {"kind": "grade", "name": "corruption", "targets": "NIC", "years": "1991-1991", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "corruption", "targets": "NIC", "years": "1992-1995", "curve": "linear", "start": 68, "end": 62},
+    {"kind": "grade", "name": "corruption", "targets": "NIC", "years": "2022-2025", "curve": "linear", "start": "current", "end": 78, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "NIC", "years": "1990-1995", "curve": "linear", "start": 78, "end": 62},
+    {"kind": "grade", "name": "violence risk", "targets": "NIC", "years": "2022-2025", "curve": "linear", "start": "current", "end": 53, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "NIC", "years": "1990-2006", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "social revanchism", "targets": "NIC", "years": "2007-2017", "curve": "linear", "start": 5, "end": 6},
+    {"kind": "grade", "name": "social revanchism", "targets": "NIC", "years": "2018-2025", "curve": "constant", "start": 6},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "NIC", "years": "1990-2006", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "NIC", "years": "2007-2012", "curve": "linear", "start": 6, "end": 10},
+    {"kind": "grade", "name": "government revanchism", "targets": "NIC", "years": "2013-2025", "curve": "constant", "start": 10},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "NIC", "years": "1990-1993", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "NIC", "years": "1994-1997", "curve": "linear", "start": 35, "end": 10},
+
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "1990-1992", "curve": "linear", "start": 60, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "1993-1996", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "1997-2001", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "2002-2006", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "2007-2011", "curve": "linear", "start": 45, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "2012-2017", "curve": "linear", "start": 65, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "2018-2019", "curve": "manual", "values": [42, 30]},
+    {"kind": "grade", "name": "government popularity", "targets": "NIC", "years": "2020-2025", "curve": "linear", "start": 30, "end": 35},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "NIC", "years": "1990-1995", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NIC", "years": "1996-2006", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NIC", "years": "2007-2017", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NIC", "years": "2018-2019", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NIC", "years": "2020-2025", "curve": "linear", "start": 65, "end": 60},
+
+    {"kind": "grade", "name": "assimilation", "targets": "NIC", "years": "1990-2006", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "NIC", "years": "2007-2017", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "NIC", "years": "2018-2025", "curve": "linear", "start": 60, "end": 58},
+
+    {"kind": "grade", "name": "civilization level", "targets": "NIC", "years": "2023-2025", "curve": "linear", "start": "current", "end": 71.5, "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "NIC", "years": "2018-2018", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "NIC", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "rationale": "BDI, zadanie A (tryb oszczedny): zamach i wojna domowa 1993-2005 (zamach 1996), kryzys 2015 (trzecia kadencja, proba puczu), smierc Nkurunziza i wybor Ndayishimiego 2020, wybory 2025 bez realnej opozycji, kryzys paliwowy i dolarowy 2023-2025, pobyt wojsk w DRC; brakujace lata trendem do istniejacych wartosci, bez zrodel",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "1990-1992", "curve": "linear", "start": 50, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "1993-1993", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "1994-1995", "curve": "linear", "start": 20, "end": 25},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "1996-1996", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "1997-2002", "curve": "linear", "start": 20, "end": 25},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "2003-2004", "curve": "linear", "start": 25, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "2005-2009", "curve": "linear", "start": 35, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "2010-2014", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "2015-2015", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "2016-2019", "curve": "linear", "start": 30, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "BDI", "years": "2020-2025", "curve": "linear", "start": 50, "end": 48},
+
+    {"kind": "grade", "name": "violence risk", "targets": "BDI", "years": "1990-1992", "curve": "linear", "start": 50, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "BDI", "years": "1993-1993", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "violence risk", "targets": "BDI", "years": "1994-1995", "curve": "linear", "start": 95, "end": 93, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "BDI", "years": "2023-2025", "curve": "linear", "start": 74, "end": 72, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "BDI", "years": "1990-1995", "curve": "linear", "start": 60, "end": 63.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "BDI", "years": "2023-2025", "curve": "linear", "start": 80.4, "end": 79.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "BDI", "years": "1990-1992", "curve": "linear", "start": 40, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BDI", "years": "1993-1995", "curve": "linear", "start": 30, "end": 26, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BDI", "years": "1996-2004", "curve": "linear", "start": 25, "end": 28, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BDI", "years": "2005-2010", "curve": "linear", "start": 30, "end": 36, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BDI", "years": "2021-2025", "curve": "linear", "start": 37.5, "end": 37, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "BDI", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "BDI", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "1990-1992", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "1993-1993", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "1994-1995", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "1996-2002", "curve": "linear", "start": 28, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "2003-2004", "curve": "linear", "start": 30, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "2005-2009", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "2010-2014", "curve": "linear", "start": 58, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "2015-2015", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "2016-2019", "curve": "linear", "start": 30, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "2020-2022", "curve": "linear", "start": 35, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "BDI", "years": "2023-2025", "curve": "linear", "start": 48, "end": 42},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "BDI", "years": "1990-1992", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BDI", "years": "1993-2005", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BDI", "years": "2006-2014", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BDI", "years": "2015-2015", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BDI", "years": "2016-2022", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BDI", "years": "2023-2025", "curve": "linear", "start": 55, "end": 60},
+
+    {"kind": "grade", "name": "civilization level", "targets": "BDI", "years": "2024-2025", "curve": "linear", "start": 44.0, "end": 44.3, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "BDI", "years": "1990-1992", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "BDI", "years": "1993-2005", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "assimilation", "targets": "BDI", "years": "2006-2014", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "BDI", "years": "2015-2025", "curve": "linear", "start": 40, "end": 35},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "BDI", "years": "1993-1995", "curve": "linear", "start": 30, "end": 50},
+    {"kind": "grade", "name": "war exhaustion", "targets": "BDI", "years": "1996-2004", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "war exhaustion", "targets": "BDI", "years": "2005-2010", "curve": "linear", "start": 45, "end": 20},
+    {"kind": "grade", "name": "war exhaustion", "targets": "BDI", "years": "2011-2014", "curve": "linear", "start": 20, "end": 10},
+    {"kind": "grade", "name": "war exhaustion", "targets": "BDI", "years": "2015-2019", "curve": "constant", "start": 12},
+    {"kind": "grade", "name": "war exhaustion", "targets": "BDI", "years": "2020-2022", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "war exhaustion", "targets": "BDI", "years": "2023-2025", "curve": "linear", "start": 10, "end": 15},
+
+    {"kind": "grade", "name": "riots", "targets": "BDI", "years": "2015-2015", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

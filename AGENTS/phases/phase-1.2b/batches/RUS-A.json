@@ -1,0 +1,997 @@
+{
+  "rationale": "RUS, zadanie A (statystyki państwa), tryb pełny",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 45,
+      "end": 30,
+      "rationale": "1990: schyłek ZSRR, spór Gorbaczow-Jelcyn; 1991: pucz sierpniowy i rozpad ZSRR w grudniu, instytucje bez przewidywalności",
+      "sources": [
+        "Wikipedia (en), Dissolution of the Soviet Union"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "1992-1993",
+      "curve": "linear",
+      "start": 35,
+      "end": 25,
+      "rationale": "rządy Gajdara; konflikt prezydenta z Radą Najwyższą; ostrzał parlamentu w Moskwie w X 1993 (kryzys konstytucyjny)",
+      "sources": [
+        "Wikipedia (en), 1993 Russian constitutional crisis"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "1994-1995",
+      "curve": "linear",
+      "start": 35,
+      "end": 40,
+      "rationale": "rządy Czernomyrdina; po 1993 r. stabilizacja układu prezydenckiego (wojna w Czeczenii liczona w violence risk)"
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "1996-1997",
+      "curve": "linear",
+      "start": 45,
+      "end": 42,
+      "rationale": "wybory 1996 i druga kadencja Jelcyna; choroba prezydenta, ale rządy przewidywalne"
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "1998-1999",
+      "curve": "linear",
+      "start": 30,
+      "end": 35,
+      "rationale": "kryzys finansowy VIII 1998 (default, dymisja rządu Kirijenki, powrót Primakowa); w 1999 dymisja Primakowa i szybka zmiana premiera",
+      "sources": [
+        "Wikipedia (en), 1998 Russian financial crisis"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2000-2003",
+      "curve": "linear",
+      "start": 55,
+      "end": 65,
+      "rationale": "konsolidacja władzy przez Putina; przewidywalne rządy technokratów, mniej kryzysów gabinetowych"
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2004-2007",
+      "curve": "linear",
+      "start": 68,
+      "end": 72,
+      "rationale": "ustabilizowany układ władzy; zmiany systemu wyborczego i partyjnego bez kryzysu rządu"
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2008-2010",
+      "curve": "linear",
+      "start": 72,
+      "end": 68,
+      "rationale": "tandem Putin-Miedwiediew; kryzys 2008-2009 (spadek PKB) bez kryzysu rządu"
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2011-2012",
+      "curve": "linear",
+      "start": 60,
+      "end": 62,
+      "rationale": "protesty po wyborach do Dumy (XII 2011) i powrót Putina do prezydentury (2012) podważają legitymizację instytucji",
+      "sources": [
+        "Wikipedia (en), 2011-2013 Russian protests"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2013-2019",
+      "curve": "linear",
+      "start": 68,
+      "end": 72,
+      "rationale": "stabilny układ władzy; sankcje i kryzys rubla 2014-2015 bez kryzysu rządu; protesty po reformie emerytalnej 2018 bez wpływu na instytucje"
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2020-2021",
+      "curve": "linear",
+      "start": 68,
+      "end": 66,
+      "rationale": "zmiany konstytucyjne 2020, pandemia, sprawa Nawalnego i represje 2021"
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2022-2023",
+      "curve": "linear",
+      "start": 52,
+      "end": 45,
+      "rationale": "częściowa mobilizacja IX 2022 (chaos administracyjny); bunt Wagnera w VI 2023 (uzbrojony marsz na Moskwę)",
+      "sources": [
+        "Wikipedia (en), 2022 Russian mobilization",
+        "Wikipedia (en), Wagner Group rebellion"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "RUS",
+      "years": "2024-2025",
+      "curve": "linear",
+      "start": 55,
+      "end": 58,
+      "rationale": "stabilizacja po buncie Wagnera; wybory prezydenckie 2024 bez zakłóceń; rząd Miszustina bez kryzysu gabinetu"
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "RUS",
+      "years": "1990-1992",
+      "curve": "linear",
+      "start": 40,
+      "end": 55,
+      "rationale": "1990-1991: konflikty etniczne, napięcia w Czeczenii (deklaracja suwerenności 1991) i Osetii Północnej; 1992: konflikt w Prigorodnym (Osetia-Inguszetia)"
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "RUS",
+      "years": "1993-1995",
+      "curve": "linear",
+      "start": 62,
+      "end": 78,
+      "rationale": "1993: zbrojne starcia w Moskwie (X); 1994-1995: pierwsza wojna czeczeńska, zamach w Budionnowsku (VI 1995); przemoc zbrojna na terytorium",
+      "sources": [
+        "Wikipedia (en), First Chechen War"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "RUS",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 68,
+      "end": 71,
+      "rationale": "2023: bunt Wagnera (zbrojne starcia w Rostowie); 2024: zamach w Crocus City Hall (III 2024, ponad 140 ofiar) i ataki w Dagestanie; 2025: kolejne zamachy w Moskwie; poziom zgodny z 50-20 x WGI (dane WGI 2023-25 niedostępne w scenariuszu)",
+      "sources": [
+        "https://www.themoscowtimes.com/2025/06/23/russian-investigators-conclude-crocus-terror-probe-claim-attack-was-carried-out-in-ukraines-interests-a89542"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 60,
+      "end": 63,
+      "rationale": "okres ZSRR: nomenklatura i szara strefa; korupcja systemowa, ale państwo jeszcze nie przechwycone przez sieci"
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "RUS",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 67,
+      "end": 71,
+      "rationale": "liberalizacja cen i prywatyzacja 1992, 'pożyczki za akcje' 1995; korupcja polityczna i urzędnicza rośnie, koniec w poziomie z 1996"
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "RUS",
+      "years": "2023-2024",
+      "curve": "linear",
+      "start": 71.5,
+      "end": 75.5,
+      "rationale": "TI CPI: wynik Rosji spadł do 26/100 w 2023 (z pamięci) i 22/100 w 2024 (więcej korupcji); wartość w skali 100 - CPI, zgodnie z rokiem 2022 (69,6)",
+      "sources": [
+        "https://www.transparency.org/en/countries/russia"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "RUS",
+      "years": "2025",
+      "curve": "constant",
+      "start": 75.5,
+      "rationale": "TI CPI 2025: Rosja 22/100, bez zmiany względem 2024 (najgorszy wynik od 2012)",
+      "sources": [
+        "https://www.transparency.org/en/countries/russia"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 52,
+      "end": 45,
+      "rationale": "szacunek (brak badań): schyłek ZSRR, pogorszenie zaopatrzenia przed szokiem cenowym 1992"
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "RUS",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 38,
+      "end": 30,
+      "rationale": "szok reform 1992 (inflacja, bezrobocie); najniższe wskaźniki satysfakcji w latach 90."
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "RUS",
+      "years": "1996-2000",
+      "curve": "linear",
+      "start": 32,
+      "end": 38,
+      "rationale": "stopniowa poprawa po 1996; kryzys 1998 hamuje wzrost"
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "RUS",
+      "years": "2001-2005",
+      "curve": "linear",
+      "start": 40,
+      "end": 45,
+      "rationale": "wzrost dochodów realnych po 1999 (ceny ropy, konsumpcja); około 4,5 na drabinie Cantrila w 2005"
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "RUS",
+      "years": "2006-2010",
+      "curve": "linear",
+      "start": 46,
+      "end": 50,
+      "rationale": "stabilny wzrost dochodów przed kryzysem 2008; około 5,0 w 2010; płynne połączenie z 2011 (52,84)"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 35,
+      "end": 40,
+      "rationale": "rosnące poczucie utraty pozycji (rozpad ZSRR, Krym i Ukraina w debacie publicznej)"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "1992-1993",
+      "curve": "linear",
+      "start": 50,
+      "end": 55,
+      "rationale": "LDPR Żyrinowskiego (ok. 23% w wyborach 1993) z hasłami odzyskania wpływów i wielkiego mocarstwa"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "1994-1996",
+      "curve": "linear",
+      "start": 55,
+      "end": 45,
+      "rationale": "po wybuchu pierwszej wojny czeczeńskiej poparcie dla hasła 'mocarstwa' słabnie w latach 1995-96"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "1997-2000",
+      "curve": "linear",
+      "start": 42,
+      "end": 48,
+      "rationale": "kryzys 1998 i wojna w Kosowie (1999) wzmacniają nastroje antyzachodnie"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "2001-2004",
+      "curve": "linear",
+      "start": 48,
+      "end": 46,
+      "rationale": "umiarkowany poziom; duma narodowa przy wzroście cen ropy"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "2005-2008",
+      "curve": "linear",
+      "start": 50,
+      "end": 52,
+      "rationale": "wypowiedź Putina (2005) o rozpadzie ZSRR jako 'największej katastrofie geopolitycznej'; wojna z Gruzją (2008)"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "2009-2013",
+      "curve": "linear",
+      "start": 53,
+      "end": 55,
+      "rationale": "stopniowe umacnianie idei wielkiego mocarstwa w przekazie państwowym"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "2014-2015",
+      "curve": "linear",
+      "start": 68,
+      "end": 65,
+      "rationale": "aneksja Krymu (III 2014) z szerokim poparciem opinii publicznej"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "2016-2019",
+      "curve": "linear",
+      "start": 62,
+      "end": 60,
+      "rationale": "poziom wysoki i stabilny; poparcie dla polityki zagranicznej bez przełomu"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "2020-2021",
+      "curve": "linear",
+      "start": 63,
+      "end": 65,
+      "rationale": "zmiany konstytucyjne 2020 z odwołaniem do historycznej roli państwa"
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "RUS",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": 72,
+      "end": 68,
+      "rationale": "Levada (XII 2025): 73% popiera działania armii rosyjskiej na Ukrainie; poparcie słabnie nieznacznie wraz ze zmęczeniem wojną",
+      "sources": [
+        "https://euromaidanpress.com/2025/12/24/support-for-continuing-war-in-ukraine-drops-to-record-low-among-russians/"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Związek w 1990-1991 (Gorbaczow, Jelcyn): cele państwowe nie są rewizjonistyczne"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "1992-1994",
+      "curve": "linear",
+      "start": 15,
+      "end": 25,
+      "rationale": "doktryna 'bliskiej zagranicy' (Kozyriew, 1992-93), misje pokojowe w Abchazji i Naddniestrzu; wzrost zdecydowania w 1994"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "1995-1999",
+      "curve": "linear",
+      "start": 30,
+      "end": 40,
+      "rationale": "doktryna Primakowa: wielobiegunowość, sprzeciw wobec rozszerzenia NATO, wojna w Kosowie"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "2000-2007",
+      "curve": "linear",
+      "start": 42,
+      "end": 50,
+      "rationale": "odbudowa pozycji mocarstwa, spory z Zachodem (przemówienie w Monachium 2007)"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "2008",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "wojna z Gruzją (VIII 2008) i doktryna 'uprzywilejowanych interesów'"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "2009-2013",
+      "curve": "linear",
+      "start": 62,
+      "end": 65,
+      "rationale": "polityka wobec 'bliskiej zagranicy' (Unia Euroazjatycka, OUBZ), kontynuacja"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "2014",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "aneksja Krymu i wsparcie separatystów w Donbasie"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "2015-2021",
+      "curve": "constant",
+      "start": 80,
+      "rationale": "interwencja w Syrii, polityka wpływów; zgodnie z przykładem z opisu statystyki ('Rosja po 2008 ~80')"
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 90,
+      "rationale": "pełnoskalowa wojna na Ukrainie i aneksje czterech obwodów (IX 2022): cel państwowy"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 55,
+      "end": 50,
+      "rationale": "1990: poparcie dla Gorbaczowa słabnie; 1991: wybór Jelcyna (VI 1991) przy szerokim poparciu"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "1992-1993",
+      "curve": "linear",
+      "start": 28,
+      "end": 30,
+      "rationale": "szok cenowy 1992; kryzys konstytucyjny 1993"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "1994-1995",
+      "curve": "linear",
+      "start": 25,
+      "end": 20,
+      "rationale": "wojna czeczeńska (XII 1994) obniża poparcie prezydenta"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "1996",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "kampania wyborcza 1996 i ponowny wybór Jelcyna"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "1997-1998",
+      "curve": "linear",
+      "start": 22,
+      "end": 18,
+      "rationale": "seria dymisji rządów; kryzys 1998"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "1999",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "nominacja Putina na premiera (VIII 1999)"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2000-2001",
+      "curve": "linear",
+      "start": 55,
+      "end": 60,
+      "rationale": "prezydentura Putina (wybory III 2000), szybki wzrost poparcia; skok wobec 1999 to zmiana realna"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2002-2007",
+      "curve": "linear",
+      "start": 65,
+      "end": 72,
+      "rationale": "wysoki poziom poparcia przy wzroście dochodów"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2008",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "Putin premierem, Miedwiediew prezydentem"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2009-2010",
+      "curve": "linear",
+      "start": 72,
+      "end": 70,
+      "rationale": "kryzys gospodarczy; poparcie utrzymane"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2011-2013",
+      "curve": "linear",
+      "start": 62,
+      "end": 65,
+      "rationale": "protesty po wyborach do Dumy; powrót Putina do prezydentury (2012)"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2014",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "aneksja Krymu: skok poparcia"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2015-2017",
+      "curve": "constant",
+      "start": 80,
+      "rationale": "wysokie poparcie utrzymujące się mimo sankcji"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2018-2019",
+      "curve": "linear",
+      "start": 70,
+      "end": 65,
+      "rationale": "reforma emerytalna (2018) obniża poparcie"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2020-2021",
+      "curve": "linear",
+      "start": 62,
+      "end": 60,
+      "rationale": "pandemia i spadek dochodów (poziom wg Levada, ok. 60)"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2022",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "wojna na Ukrainie: efekt wzrostu poparcia po rozpoczęciu wojny (szacunek)"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2023",
+      "curve": "constant",
+      "start": 80,
+      "rationale": "poparcie po buncie Wagnera (szacunek, bez wyniku wyszukiwania dla 2023)"
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "RUS",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 85,
+      "rationale": "Levada: 88% (II 2025), 86% (VI 2025), ok. 85% pod koniec 2025",
+      "sources": [
+        "https://www.levada.ru/en/2025/03/05/ratings-of-february-2025-sentiments-opinions-on-the-state-of-affairs-in-the-country-approval-of-authorities-trust-in-politicians-and-parties-presidential-electoral-ratings/",
+        "https://www.levada.ru/en/2025/07/14/ratings-of-june-2025-sentiments-opinions-on-the-state-of-affairs-in-the-country-approval-of-authorities-trust-in-politicians-and-parties-presidential-electoral-ratings/",
+        "https://new.intellinews.com/articles/putin-ends-2025-with-high-approval-ratings-418100"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "niedobory zaopatrzenia i strajki górników 1989-1991: straty szybko zamieniają się w protest"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 70,
+      "end": 60,
+      "rationale": "szok cenowy 1992; wojna w Czeczenii (straty żołnierzy, opór społeczny)"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "1996-1999",
+      "curve": "linear",
+      "start": 55,
+      "end": 50,
+      "rationale": "zaległości w wypłatach, strajki górników (1996-98), kryzys 1998"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "2000-2007",
+      "curve": "linear",
+      "start": 45,
+      "end": 40,
+      "rationale": "wzrost dochodów z ropy: społeczeństwo znosi straty bez reakcji politycznej"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "2008-2010",
+      "curve": "linear",
+      "start": 45,
+      "end": 48,
+      "rationale": "kryzys 2008-2009: straty dochodów, brak masowego sprzeciwu"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "2011-2013",
+      "curve": "linear",
+      "start": 52,
+      "end": 50,
+      "rationale": "protesty 2011-2012 po fałszerstwach wyborczych: wrażliwość rośnie, potem wycofanie"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "2014-2017",
+      "curve": "linear",
+      "start": 38,
+      "end": 42,
+      "rationale": "euforia po Krymie i sankcje; kryzys rubla 2015 zwiększa wrażliwość"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "2018",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "reforma emerytalna (VI 2018): masowy sprzeciw wobec strat"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "2019-2021",
+      "curve": "linear",
+      "start": 48,
+      "end": 42,
+      "rationale": "stopniowe wyciszenie po reformie emerytalnej; pandemia bez masowego sprzeciwu"
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "RUS",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": 40,
+      "end": 35,
+      "rationale": "mobilizacja IX 2022 (protesty, ucieczka mężczyzn) przy ogólnej akceptacji wojny; reakcja na straty gospodarcze słaba"
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "RUS",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "ZSRR: sowiecka polityka asymilacyjna, rosyjski jako język wspólny"
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "RUS",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 58,
+      "end": 50,
+      "rationale": "powroty Rosjan z republik; napięcia z migrantami z Kaukazu; wojna czeczeńska pogłębia podziały"
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "RUS",
+      "years": "1996-2000",
+      "curve": "constant",
+      "start": 48,
+      "rationale": "słaba integracja migrantów z Azji Środkowej i Kaukazu"
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "RUS",
+      "years": "2001-2009",
+      "curve": "linear",
+      "start": 45,
+      "end": 42,
+      "rationale": "osiedlanie się migrantów zarobkowych w miastach przy słabej integracji"
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "RUS",
+      "years": "2010-2013",
+      "curve": "linear",
+      "start": 42,
+      "end": 40,
+      "rationale": "zamieszki na Manieżnej (XII 2010) i w Biriulowie (X 2013): konflikty etniczne"
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "RUS",
+      "years": "2014-2021",
+      "curve": "linear",
+      "start": 38,
+      "end": 35,
+      "rationale": "napięcia wokół migracji z Azji Środkowej"
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "RUS",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": 35,
+      "end": 30,
+      "rationale": "po zamachu w Crocus City Hall (2024) fala nastrojów antymigranckich i wzrost izolacji społeczności migrantów",
+      "sources": [
+        "https://www.themoscowtimes.com/2025/06/23/russian-investigators-conclude-crocus-terror-probe-claim-attack-was-carried-out-in-ukraines-interests-a89542"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "RUS",
+      "years": "2024-2025",
+      "curve": "linear",
+      "start": 83.5,
+      "end": 83.7,
+      "rationale": "seed 100 x HDI: brak danych HDI 2024-2025 w scenariuszu; ekstrapolacja trendu z 2022 (82,6) i 2023 (83,2)"
+    },
+    {
+      "kind": "grade",
+      "name": "state collapse",
+      "targets": "RUS",
+      "years": "1991",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "rozpad ZSRR (XII 1991): centralny rząd związkowy przestał działać",
+      "sources": [
+        "Wikipedia (en), Dissolution of the Soviet Union"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "RUS",
+      "years": "1993",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "zbrojne starcia w Moskwie (III-IV X 1993): poważne zamieszki o zasięgu ogólnokrajowym"
+    },
+    {
+      "kind": "grade",
+      "name": "epidemic",
+      "targets": "RUS",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "COVID-19: znaczna nadumieralność w 2020 i szczególnie w 2021"
+    },
+    {
+      "kind": "grade",
+      "name": "mobilized",
+      "targets": "RUS",
+      "years": "2022",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "częściowa mobilizacja IX 2022",
+      "sources": [
+        "Wikipedia (en), 2022 Russian mobilization"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "1994-1995",
+      "curve": "linear",
+      "start": 30,
+      "end": 55,
+      "rationale": "pierwsza wojna czeczeńska: rosnące straty i sprzeciw (Budionnowsk, VI 1995)"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "1996",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "zawieszenie broni w Chasawjurcie (VIII 1996), zmęczenie wojną"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "1997-1998",
+      "curve": "linear",
+      "start": 25,
+      "end": 20,
+      "rationale": "po wojnie: zmęczenie, ale bez nowego konfliktu"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "1999-2002",
+      "curve": "linear",
+      "start": 25,
+      "end": 35,
+      "rationale": "druga wojna czeczeńska; rosnące straty"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2003-2005",
+      "curve": "linear",
+      "start": 30,
+      "end": 20,
+      "rationale": "reintegracja Czeczenii; spadek zmęczenia"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2006-2008",
+      "curve": "linear",
+      "start": 15,
+      "end": 10,
+      "rationale": "niskie zaangażowanie publiczne po zakończeniu operacji w Czeczenii"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2014-2015",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "wojna w Donbasie: niskie zaangażowanie publiczne"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2016-2021",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "zamrożony konflikt w Donbasie"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2022",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "wojna na pełną skalę i mobilizacja"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2023",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "przedłużająca się wojna"
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2024",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "rosnący odsetek zwolenników rozmów pokojowych (Levada)",
+      "sources": [
+        "https://euromaidanpress.com/2025/12/24/support-for-continuing-war-in-ukraine-drops-to-record-low-among-russians/"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "RUS",
+      "years": "2025",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Levada (XII 2025): 25% za kontynuacją wojny, 66% za rozpoczęciem rozmów pokojowych",
+      "sources": [
+        "https://euromaidanpress.com/2025/12/24/support-for-continuing-war-in-ukraine-drops-to-record-low-among-russians/"
+      ]
+    }
+  ]
+}

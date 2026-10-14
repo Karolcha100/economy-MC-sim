@@ -1,0 +1,1677 @@
+{
+  "rationale": "VCT, zadanie B (oszczedny): relacje VCT -> 23 partnerow (mocarstwa USA/GBR/CAN/CHN/RUS/FRA/IND/BRA; Tajwan, Izrael; Kuba, Wenezuela; TTO, JAM, BRB; OECS: LCA, GRD, DMA, ATG, KNA; GUY, HTI, DOM). Wartosci orientacyjne z wiedzy ogolnej. Wyszukiwanie 2 razy (2025): wybory 27 XI 2025 wygrala NDP, premier G. Friday, koniec 24 lat rzadow ULP; rzad potwierdzil uznanie Tajwanu i odrzucil zmiane na ChRL, wiec CHN bez stosunkow dyplomatycznych. Zmiany dla CUB/VEN od 2025 tylko symboliczne (nie sprawdzono dokladnego kursu). Dwustronne: brak konfliktow VCT z partnerami w UCDP; in war i in war crisis zostaja puste (potwierdzenie domyslne); neighbours 0 (brak granicy ladowej). Hybrid attacks 0 dla wszystkich (brak dzialan VCT).",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:USA",
+      "years": "2000-2014",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:USA",
+      "years": "2015-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:USA",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:USA",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:USA",
+      "years": "1990-2014",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:USA",
+      "years": "2015-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:GBR",
+      "years": "1990-2014",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:GBR",
+      "years": "2015-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:CHN",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:CHN",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:FRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:CUB",
+      "years": "1990-2000",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:CUB",
+      "years": "2001-2024",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:CUB",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:CUB",
+      "years": "1990-2000",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:CUB",
+      "years": "2001-2024",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:CUB",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:CUB",
+      "years": "1990-2000",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:CUB",
+      "years": "2001-2024",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:CUB",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:CUB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:CUB",
+      "years": "1990-2000",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:CUB",
+      "years": "2001-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:CUB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:CUB",
+      "years": "1990-2000",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:CUB",
+      "years": "2001-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:CUB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:VEN",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:VEN",
+      "years": "2004-2015",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:VEN",
+      "years": "2016-2024",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:VEN",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:VEN",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:VEN",
+      "years": "2004-2015",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:VEN",
+      "years": "2016-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:VEN",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:VEN",
+      "years": "2004-2015",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:VEN",
+      "years": "2016-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:VEN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:VEN",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:VEN",
+      "years": "2004-2015",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:VEN",
+      "years": "2016-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:VEN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:VEN",
+      "years": "1990-2003",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:VEN",
+      "years": "2004-2015",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:VEN",
+      "years": "2016-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:VEN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:JAM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:LCA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:GRD",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:DMA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:KNA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:GUY",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "VCT:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "rationale": "FSM, zadanie A (tryb oszczędny): happiness bez żadnych danych (brak WHR) - seria oszacowana wg sąsiadów z Pacyfiku w danych (WSM ~51, VUT ~58-60, SLB ~45-52); stability bez wartości startowych: stabilne instytucje (wybory co 4 lata, pokojowe przekazania władzy, bez kryzysów rządowych); corruption 1990-2003 płynnie do 2004; violence risk 1990-2002 i 2023-2025 płynnie do istniejącej serii; civilization 1990-1999 i 2024-2025 zgodnie z trendem HDI; brak roszczeń terytorialnych i wojny (revanchism 0-2, war exhaustion domyślnie 0); epidemia 2020 (COVID) jak w kotwicach; pozostałe flagi 0 (domyślne)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "FSM", "years": "1990-1999", "curve": "linear", "start": 72, "end": 75},
+    {"kind": "grade", "name": "stability", "targets": "FSM", "years": "2000-2009", "curve": "linear", "start": 75, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "FSM", "years": "2010-2019", "curve": "linear", "start": 74, "end": 76},
+    {"kind": "grade", "name": "stability", "targets": "FSM", "years": "2020-2025", "curve": "linear", "start": 76, "end": 77},
+    {"kind": "grade", "name": "corruption", "targets": "FSM", "years": "1990-2003", "curve": "linear", "start": 48, "end": 44},
+    {"kind": "grade", "name": "corruption", "targets": "FSM", "years": "2023-2025", "curve": "constant", "start": 40.3, "end": 40.3},
+    {"kind": "grade", "name": "happiness", "targets": "FSM", "years": "1990-2004", "curve": "linear", "start": 51, "end": 52},
+    {"kind": "grade", "name": "happiness", "targets": "FSM", "years": "2005-2025", "curve": "linear", "start": 52, "end": 54},
+    {"kind": "grade", "name": "social revanchism", "targets": "FSM", "years": "1990-2025", "curve": "constant", "start": 2, "end": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "FSM", "years": "1990-2025", "curve": "constant", "start": 0, "end": 0},
+    {"kind": "grade", "name": "government popularity", "targets": "FSM", "years": "1990-1999", "curve": "linear", "start": 55, "end": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "FSM", "years": "2000-2014", "curve": "linear", "start": 52, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "FSM", "years": "2015-2025", "curve": "linear", "start": 50, "end": 52},
+    {"kind": "grade", "name": "social sensitivity", "targets": "FSM", "years": "1990-2025", "curve": "constant", "start": 50, "end": 50},
+    {"kind": "grade", "name": "civilization level", "targets": "FSM", "years": "1990-1999", "curve": "linear", "start": 57.5, "end": 59.5},
+    {"kind": "grade", "name": "civilization level", "targets": "FSM", "years": "2024-2025", "curve": "linear", "start": 61.6, "end": 61.8},
+    {"kind": "grade", "name": "assimilation", "targets": "FSM", "years": "1990-2025", "curve": "constant", "start": 65, "end": 65},
+    {"kind": "grade", "name": "violence risk", "targets": "FSM", "years": "1990-2002", "curve": "linear", "start": 36, "end": 37.5},
+    {"kind": "grade", "name": "violence risk", "targets": "FSM", "years": "2023-2025", "curve": "constant", "start": 25.8, "end": 25.8},
+    {"kind": "grade", "name": "epidemic", "targets": "FSM", "years": "2020", "curve": "constant", "start": 1, "end": 1}
+  ]
+}

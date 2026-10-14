@@ -1,0 +1,51 @@
+{
+  "rationale": "PAN, zadanie A (tryb oszczędny): statystyki państwa 1990-2025; wartości z wiedzy modelu, lata 2023-2025 uzupełnione wyszukiwaniem (zamieszki Bocas del Toro 2025, rekordowy napływ przez Darién 2022-2023, sondaż popularności Mulino 2025, CPI 2024 = 33)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "PAN", "years": "1990-1994", "curve": "linear", "start": 50, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "PAN", "years": "1995-2004", "curve": "linear", "start": 60, "end": 63},
+    {"kind": "grade", "name": "stability", "targets": "PAN", "years": "2005-2014", "curve": "linear", "start": 63, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "PAN", "years": "2015-2019", "curve": "linear", "start": 74, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "PAN", "years": "2020-2023", "curve": "linear", "start": 72, "end": 64},
+    {"kind": "grade", "name": "stability", "targets": "PAN", "years": "2024-2025", "curve": "linear", "start": 66, "end": 62},
+
+    {"kind": "grade", "name": "corruption", "targets": "PAN", "years": "1990-1995", "curve": "linear", "start": 66, "end": 56},
+    {"kind": "grade", "name": "corruption", "targets": "PAN", "years": "2022-2025", "curve": "linear", "start": "current", "end": 66, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "PAN", "years": "1990-1995", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "happiness", "targets": "PAN", "years": "1996-2005", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "happiness", "targets": "PAN", "years": "2006-2010", "curve": "linear", "start": 65, "end": 67.5},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "PAN", "years": "1990-2025", "curve": "linear", "start": 5, "end": 4},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "PAN", "years": "1990-1999", "curve": "linear", "start": 12, "end": 8},
+    {"kind": "grade", "name": "government revanchism", "targets": "PAN", "years": "2000-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "1990-1994", "curve": "linear", "start": 60, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "1995-1998", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "1999-2004", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "2005-2008", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "2009-2013", "curve": "linear", "start": 70, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "2014-2018", "curve": "linear", "start": 50, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "2019-2023", "curve": "linear", "start": 40, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "PAN", "years": "2024-2025", "curve": "linear", "start": 50, "end": 30},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAN", "years": "1990-1999", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAN", "years": "2000-2019", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAN", "years": "2020-2025", "curve": "linear", "start": 55, "end": 62},
+
+    {"kind": "grade", "name": "civilization level", "targets": "PAN", "years": "2023-2025", "curve": "linear", "start": "current", "end": 84.7, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "PAN", "years": "1990-2009", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "PAN", "years": "2010-2019", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "PAN", "years": "2020-2025", "curve": "linear", "start": 62, "end": 58},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "PAN", "years": "1990-1993", "curve": "linear", "start": 30, "end": 5},
+
+    {"kind": "grade", "name": "epidemic", "targets": "PAN", "years": "2020-2021", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "PAN", "years": "2025-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "immigration crisis", "targets": "PAN", "years": "2022-2024", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "violence risk", "targets": "PAN", "years": "1990-1995", "curve": "linear", "start": 60, "end": 48},
+    {"kind": "grade", "name": "violence risk", "targets": "PAN", "years": "2022-2025", "curve": "linear", "start": "current", "end": 48, "only_empty": true}
+  ]
+}

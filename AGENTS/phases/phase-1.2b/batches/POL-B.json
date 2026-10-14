@@ -1,0 +1,1897 @@
+{
+ "rationale": "POL, zadanie B: relacje od POL do 23 partnerow (sasiedzi, mocarstwa, UE/NATO, inni); hybrid attacks = domyslne 0 (POL nie prowadzi dzialan hybrydowych)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "V4/CEE partners: stable EU/NATO allies; slightly cooler under illiberal governments in Hungary and Czechia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "V4/CEE partners: stable EU/NATO allies; slightly cooler under illiberal governments in Hungary and Czechia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "V4/CEE partners: stable EU/NATO allies; slightly cooler under illiberal governments in Hungary and Czechia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "V4/CEE partners: stable EU/NATO allies; slightly cooler under illiberal governments in Hungary and Czechia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Polish public: moderate sympathy for CZE/HUN/ROU; no major disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Polish public: moderate sympathy for CZE/HUN/ROU; no major disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland does not see itself as dependent on CZE/HUN/ROU"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Noticeable Polish influence in V4 and CEE policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Little political or military constraint from CZE/HUN/ROU"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Noticeable but limited Polish influence on CEE partners"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:CZE,POL:HUN,POL:ROU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Important but not critical trade partners"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SVK",
+   "years": "1993-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Slovakia: stable allies; cooler rhetoric under the Fico government since Oct 2023 (critical of Ukraine aid), formal relations intact"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SVK",
+   "years": "2004-2022",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Slovakia: stable allies; cooler rhetoric under the Fico government since Oct 2023 (critical of Ukraine aid), formal relations intact"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SVK",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Slovakia: stable allies; cooler rhetoric under the Fico government since Oct 2023 (critical of Ukraine aid), formal relations intact"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Polish public: moderate sympathy for Slovaks"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland does not see itself as dependent on Slovakia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Limited Polish influence in Slovakia"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "No meaningful political or military constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Limited Polish influence in Slovakia"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Moderate trade partner; not critical"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Baltic allies: early-1990s friction over Polish minority rights in Lithuania, then close NATO eastern-flank cooperation (Suwalki corridor)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Baltic allies: early-1990s friction over Polish minority rights in Lithuania, then close NATO eastern-flank cooperation (Suwalki corridor)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Baltic allies: early-1990s friction over Polish minority rights in Lithuania, then close NATO eastern-flank cooperation (Suwalki corridor)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Baltic allies: early-1990s friction over Polish minority rights in Lithuania, then close NATO eastern-flank cooperation (Suwalki corridor)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Polish public: moderate and rising sympathy for Baltic states after EU/NATO accession"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Polish public: moderate and rising sympathy for Baltic states after EU/NATO accession"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland does not see itself as dependent on the Baltic states"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Noticeable Polish influence in Baltic security policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "No meaningful constraint on Polish policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Noticeable Polish influence on Baltic partners"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:LTU,POL:LVA,POL:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Small trade shares"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Nordic partners: EU/NATO allies, close cooperation on security and the Baltic region"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Nordic partners: EU/NATO allies, close cooperation on security and the Baltic region"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Polish public: good sympathy for Nordic countries"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland does not see itself as dependent on the Nordic states"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Limited Polish influence over Nordic states"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "No meaningful constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Limited Polish influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:SWE,POL:DNK,POL:FIN,POL:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Trade and energy (Norwegian LNG and gas) matter but are not critical"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Major EU/NATO partners: stable diplomatic relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Major EU/NATO partners: stable diplomatic relations"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Polish public: good sympathy for France, UK and Italy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland does not see itself as dependent on these partners"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Noticeable Polish influence within EU and NATO decision-making"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Limited constraint on Polish security policy (NATO and EU frameworks)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Noticeable but limited Polish influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:FRA,POL:GBR,POL:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Important trade partners, not critical"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:TUR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Turkey: NATO partner; relations rose with Polish support for Turkish EU bid (2004-2013), cooled during Erdogan's authoritarian drift, warmer in 2022-2025 Ukraine mediation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:TUR",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Turkey: NATO partner; relations rose with Polish support for Turkish EU bid (2004-2013), cooled during Erdogan's authoritarian drift, warmer in 2022-2025 Ukraine mediation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:TUR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Turkey: NATO partner; relations rose with Polish support for Turkish EU bid (2004-2013), cooled during Erdogan's authoritarian drift, warmer in 2022-2025 Ukraine mediation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:TUR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Turkey: NATO partner; relations rose with Polish support for Turkish EU bid (2004-2013), cooled during Erdogan's authoritarian drift, warmer in 2022-2025 Ukraine mediation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:TUR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Turkey: NATO partner; relations rose with Polish support for Turkish EU bid (2004-2013), cooled during Erdogan's authoritarian drift, warmer in 2022-2025 Ukraine mediation"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Polish public: mild, mostly indifferent view of Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland does not see itself as dependent on Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Limited Polish influence over Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Little constraint on Polish security policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Limited Polish influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Small economic dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SRB",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Serbia (Yugoslav successor): neutral in the early 1990s; cooler during the 1999 NATO intervention, then normalised"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SRB",
+   "years": "1996-2000",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Serbia (Yugoslav successor): neutral in the early 1990s; cooler during the 1999 NATO intervention, then normalised"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SRB",
+   "years": "2001-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Serbia (Yugoslav successor): neutral in the early 1990s; cooler during the 1999 NATO intervention, then normalised"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:SRB",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Serbia (Yugoslav successor): neutral in the early 1990s; cooler during the 1999 NATO intervention, then normalised"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:SRB",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Polish public: negative after the Yugoslav wars and the 1999 bombing, neutral later"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:SRB",
+   "years": "1996-2000",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Polish public: negative after the Yugoslav wars and the 1999 bombing, neutral later"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:SRB",
+   "years": "2001-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polish public: negative after the Yugoslav wars and the 1999 bombing, neutral later"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "No dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Negligible influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "No political or military dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Negligible influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Negligible trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:MDA",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Moldova: Poland supports its European course; strongest support after 2022 (EU candidate status)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:MDA",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Moldova: Poland supports its European course; strongest support after 2022 (EU candidate status)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:MDA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Moldova: Poland supports its European course; strongest support after 2022 (EU candidate status)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:MDA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Moldova: Poland supports its European course; strongest support after 2022 (EU candidate status)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Polish public: low interest, mildly positive"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "No dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Limited Polish influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "No constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Limited Polish influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Negligible trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:DEU",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Germany: largest Polish trade partner and EU core; cool under PiS (Nord Stream, reparations), sharp drop in 2022-2023 (reparations claim), improved under the Tusk government from 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:DEU",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Germany: largest Polish trade partner and EU core; cool under PiS (Nord Stream, reparations), sharp drop in 2022-2023 (reparations claim), improved under the Tusk government from 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:DEU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Germany: largest Polish trade partner and EU core; cool under PiS (Nord Stream, reparations), sharp drop in 2022-2023 (reparations claim), improved under the Tusk government from 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Germany: largest Polish trade partner and EU core; cool under PiS (Nord Stream, reparations), sharp drop in 2022-2023 (reparations claim), improved under the Tusk government from 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:DEU",
+   "years": "2022-2023",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Germany: largest Polish trade partner and EU core; cool under PiS (Nord Stream, reparations), sharp drop in 2022-2023 (reparations claim), improved under the Tusk government from 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:DEU",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Germany: largest Polish trade partner and EU core; cool under PiS (Nord Stream, reparations), sharp drop in 2022-2023 (reparations claim), improved under the Tusk government from 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:DEU",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Polish public: generally positive; cooled in 2022-2023 over reparations and energy disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:DEU",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Polish public: generally positive; cooled in 2022-2023 over reparations and energy disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:DEU",
+   "years": "2004-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Polish public: generally positive; cooled in 2022-2023 over reparations and energy disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Polish public: generally positive; cooled in 2022-2023 over reparations and energy disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:DEU",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Poland sees itself as economically dependent on Germany"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:DEU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Poland sees itself as economically dependent on Germany"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Noticeable Polish influence within the EU"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:DEU",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Germany can constrain Polish EU and energy policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:DEU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Germany can constrain Polish EU and energy policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Limited Polish influence on German policy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:DEU",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Germany is Poland's largest export market; a German crisis clearly hurts Poland"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:DEU",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Germany is Poland's largest export market; a German crisis clearly hurts Poland"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:DEU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Germany is Poland's largest export market; a German crisis clearly hurts Poland"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Russia: relations improved in the 1990s, deteriorated after 2004 and sharply after 2014 and 2022; in 2025 all Russian consulates closed after alleged GRU-linked railway sabotage, embassies still open"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Russia: relations improved in the 1990s, deteriorated after 2004 and sharply after 2014 and 2022; in 2025 all Russian consulates closed after alleged GRU-linked railway sabotage, embassies still open"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:RUS",
+   "years": "2004-2007",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Russia: relations improved in the 1990s, deteriorated after 2004 and sharply after 2014 and 2022; in 2025 all Russian consulates closed after alleged GRU-linked railway sabotage, embassies still open"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:RUS",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Russia: relations improved in the 1990s, deteriorated after 2004 and sharply after 2014 and 2022; in 2025 all Russian consulates closed after alleged GRU-linked railway sabotage, embassies still open"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "Russia: relations improved in the 1990s, deteriorated after 2004 and sharply after 2014 and 2022; in 2025 all Russian consulates closed after alleged GRU-linked railway sabotage, embassies still open"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:RUS",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "Russia: relations improved in the 1990s, deteriorated after 2004 and sharply after 2014 and 2022; in 2025 all Russian consulates closed after alleged GRU-linked railway sabotage, embassies still open"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "Russia: relations improved in the 1990s, deteriorated after 2004 and sharply after 2014 and 2022; in 2025 all Russian consulates closed after alleged GRU-linked railway sabotage, embassies still open",
+   "sources": [
+    "Poland to close last Russian consulate in response to train line sabotage, Notes from Poland, 2025-11-19 (https://notesfrompoland.com/2025/11/19/poland-to-close-last-russian-consulate-in-response-to-train-line-sabotage/)",
+    "Poland closes last Russian consulate over alleged railway sabotage, Anadolu Agency, 2025-11 (https://www.aa.com.tr/en/europe/poland-closes-last-russian-consulate-in-country-over-alleged-railway-sabotage/3747954)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polish public: strongly negative, especially after 2014 and 2022 (Russian aggression)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Polish public: strongly negative, especially after 2014 and 2022 (Russian aggression)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "Polish public: strongly negative, especially after 2014 and 2022 (Russian aggression)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -65,
+   "rationale": "Polish public: strongly negative, especially after 2014 and 2022 (Russian aggression)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "Polish public: strongly negative, especially after 2014 and 2022 (Russian aggression)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Poland sees its energy and security dependence on Russia shrinking through diversification"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Poland sees its energy and security dependence on Russia shrinking through diversification"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Poland sees its energy and security dependence on Russia shrinking through diversification"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Poland sees its energy and security dependence on Russia shrinking through diversification"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland sees its energy and security dependence on Russia shrinking through diversification"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Poland sees little ability to influence Russia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:RUS",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland sees little ability to influence Russia"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Political and military constraint from Russia fell after NATO (1999) and EU (2004) membership"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Political and military constraint from Russia fell after NATO (1999) and EU (2004) membership"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Political and military constraint from Russia fell after NATO (1999) and EU (2004) membership"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Political and military constraint from Russia fell after NATO (1999) and EU (2004) membership"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Political and military constraint from Russia fell after NATO (1999) and EU (2004) membership"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Poland's influence on Russia limited, mostly through EU sanctions after 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:RUS",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland's influence on Russia limited, mostly through EU sanctions after 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Russian gas and oil were a major share of Polish energy supply until 2022; after the 2022 embargo and LNG diversification dependence fell sharply"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:RUS",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Russian gas and oil were a major share of Polish energy supply until 2022; after the 2022 embargo and LNG diversification dependence fell sharply"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Russian gas and oil were a major share of Polish energy supply until 2022; after the 2022 embargo and LNG diversification dependence fell sharply"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Russian gas and oil were a major share of Polish energy supply until 2022; after the 2022 embargo and LNG diversification dependence fell sharply"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:UKR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Ukraine: strong support after 2014 and 2022; frictions over grain (2023) and the 2025 row over the UPA unit name cooled relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:UKR",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Ukraine: strong support after 2014 and 2022; frictions over grain (2023) and the 2025 row over the UPA unit name cooled relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Ukraine: strong support after 2014 and 2022; frictions over grain (2023) and the 2025 row over the UPA unit name cooled relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Ukraine: strong support after 2014 and 2022; frictions over grain (2023) and the 2025 row over the UPA unit name cooled relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:UKR",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Ukraine: strong support after 2014 and 2022; frictions over grain (2023) and the 2025 row over the UPA unit name cooled relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:UKR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Ukraine: strong support after 2014 and 2022; frictions over grain (2023) and the 2025 row over the UPA unit name cooled relations",
+   "sources": [
+    "IBRiS for Wirtualna Polska: 65.5% of Poles think relations with Ukraine deteriorated in 2025, Kyiv Post (https://www.kyivpost.com/post/63563)",
+    "IBRiS June 2025: 35% of Poles back Ukraine's EU accession, 37% NATO, Brussels Signal (https://brusselssignal.eu/2025/06/opinion-poll-poles-oppose-ukraines-accession-to-both-nato-and-eu/)",
+    "Mieroszewski Centre, Nov-Dec 2024: 25% of Poles view Ukrainians positively, 30% negatively (https://mieroszewski.pl/en/knowledge/public-opinion-research/ukraine-as-seen-by-poles-2025)",
+    "SW Research June 2025 on UPA unit naming row, Kyiv Independent (https://kyivindependent.com/more-than-half-of-poles-view-ukraine-more-negatively-after-military-unit-name-row-poll-shows/)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:UKR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Polish public: warm after 2022, cooling in 2024-2025 (IBRiS 65.5% see deterioration, UPA dispute, migrant competition)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:UKR",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Polish public: warm after 2022, cooling in 2024-2025 (IBRiS 65.5% see deterioration, UPA dispute, migrant competition)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Polish public: warm after 2022, cooling in 2024-2025 (IBRiS 65.5% see deterioration, UPA dispute, migrant competition)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Polish public: warm after 2022, cooling in 2024-2025 (IBRiS 65.5% see deterioration, UPA dispute, migrant competition)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:UKR",
+   "years": "2022-2023",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Polish public: warm after 2022, cooling in 2024-2025 (IBRiS 65.5% see deterioration, UPA dispute, migrant competition)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:UKR",
+   "years": "2024",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Polish public: warm after 2022, cooling in 2024-2025 (IBRiS 65.5% see deterioration, UPA dispute, migrant competition)",
+   "sources": [
+    "IBRiS for Wirtualna Polska: 65.5% of Poles think relations with Ukraine deteriorated in 2025, Kyiv Post (https://www.kyivpost.com/post/63563)",
+    "IBRiS June 2025: 35% of Poles back Ukraine's EU accession, 37% NATO, Brussels Signal (https://brusselssignal.eu/2025/06/opinion-poll-poles-oppose-ukraines-accession-to-both-nato-and-eu/)",
+    "Mieroszewski Centre, Nov-Dec 2024: 25% of Poles view Ukrainians positively, 30% negatively (https://mieroszewski.pl/en/knowledge/public-opinion-research/ukraine-as-seen-by-poles-2025)",
+    "SW Research June 2025 on UPA unit naming row, Kyiv Independent (https://kyivindependent.com/more-than-half-of-poles-view-ukraine-more-negatively-after-military-unit-name-row-poll-shows/)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:UKR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Polish public: warm after 2022, cooling in 2024-2025 (IBRiS 65.5% see deterioration, UPA dispute, migrant competition)",
+   "sources": [
+    "IBRiS for Wirtualna Polska: 65.5% of Poles think relations with Ukraine deteriorated in 2025, Kyiv Post (https://www.kyivpost.com/post/63563)",
+    "IBRiS June 2025: 35% of Poles back Ukraine's EU accession, 37% NATO, Brussels Signal (https://brusselssignal.eu/2025/06/opinion-poll-poles-oppose-ukraines-accession-to-both-nato-and-eu/)",
+    "Mieroszewski Centre, Nov-Dec 2024: 25% of Poles view Ukrainians positively, 30% negatively (https://mieroszewski.pl/en/knowledge/public-opinion-research/ukraine-as-seen-by-poles-2025)",
+    "SW Research June 2025 on UPA unit naming row, Kyiv Independent (https://kyivindependent.com/more-than-half-of-poles-view-ukraine-more-negatively-after-military-unit-name-row-poll-shows/)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland does not see itself as dependent on Ukraine"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Noticeable Polish influence in Ukraine (EU/NATO path, Eastern Partnership)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Noticeable Polish influence in Ukraine (EU/NATO path, Eastern Partnership)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "No constraint on Polish policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:UKR",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Poland is a leading advocate of Ukraine's EU path and a major military and humanitarian supporter after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Poland is a leading advocate of Ukraine's EU path and a major military and humanitarian supporter after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Poland is a leading advocate of Ukraine's EU path and a major military and humanitarian supporter after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Poland is a leading advocate of Ukraine's EU path and a major military and humanitarian supporter after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Ukrainian labour and trade matter more after 2022; dependence still limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Ukrainian labour and trade matter more after 2022; dependence still limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:BLR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Belarus: relations collapsed after the 2020 crackdown and the 2021 migrant border crisis; closures of crossings in 2021-2025 and Belarus' role in the war; partial thaw in late 2025 (two crossings reopened on a trial basis)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:BLR",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Belarus: relations collapsed after the 2020 crackdown and the 2021 migrant border crisis; closures of crossings in 2021-2025 and Belarus' role in the war; partial thaw in late 2025 (two crossings reopened on a trial basis)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:BLR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "Belarus: relations collapsed after the 2020 crackdown and the 2021 migrant border crisis; closures of crossings in 2021-2025 and Belarus' role in the war; partial thaw in late 2025 (two crossings reopened on a trial basis)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Belarus: relations collapsed after the 2020 crackdown and the 2021 migrant border crisis; closures of crossings in 2021-2025 and Belarus' role in the war; partial thaw in late 2025 (two crossings reopened on a trial basis)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:BLR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "Belarus: relations collapsed after the 2020 crackdown and the 2021 migrant border crisis; closures of crossings in 2021-2025 and Belarus' role in the war; partial thaw in late 2025 (two crossings reopened on a trial basis)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:BLR",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "Belarus: relations collapsed after the 2020 crackdown and the 2021 migrant border crisis; closures of crossings in 2021-2025 and Belarus' role in the war; partial thaw in late 2025 (two crossings reopened on a trial basis)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:BLR",
+   "years": "2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "Belarus: relations collapsed after the 2020 crackdown and the 2021 migrant border crisis; closures of crossings in 2021-2025 and Belarus' role in the war; partial thaw in late 2025 (two crossings reopened on a trial basis)",
+   "sources": [
+    "Poland closed all Belarus crossings from 12 Sep 2025 (Zapad-2025), reopened part on 25 Sep; reopened Kuznica and Bobrowniki on 17 Nov 2025 on trial basis, Kyiv Independent (https://kyivindependent.com/poland-reopens-2-border-crossings-with-belarus-citing-business-security-grounds/)",
+    "Poland reopens two border crossings with Belarus, Xinhua, 2025-11-14 (https://english.news.cn/20251114/2497f761062341edb18c4903afa96581/c.html)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:BLR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Polish public: negative after 2020-2021 and during the Belarusian war support"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:BLR",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Polish public: negative after 2020-2021 and during the Belarusian war support"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:BLR",
+   "years": "2014-2019",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Polish public: negative after 2020-2021 and during the Belarusian war support"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:BLR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "Polish public: negative after 2020-2021 and during the Belarusian war support"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Polish public: negative after 2020-2021 and during the Belarusian war support"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:BLR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Poland sees limited dependence on Belarus"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland sees limited dependence on Belarus"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:BLR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Poland has some influence on Belarus through transit and EU sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Poland has some influence on Belarus through transit and EU sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Little Belarusian constraint on Polish policy; the threat comes from Russia's use of Belarus"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Poland's influence on Minsk reduced after 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Poland's influence on Minsk reduced after 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:BLR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Transit and trade reduced after the 2021-2023 border closures"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Transit and trade reduced after the 2021-2023 border closures"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CHN",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "China: pragmatic relations; Poland joined the Belt and Road memorandum in 2015, relations cooled slightly after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "China: pragmatic relations; Poland joined the Belt and Road memorandum in 2015, relations cooled slightly after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "China: pragmatic relations; Poland joined the Belt and Road memorandum in 2015, relations cooled slightly after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "China: pragmatic relations; Poland joined the Belt and Road memorandum in 2015, relations cooled slightly after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:CHN",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Polish public: mostly indifferent to negative, more so after 2020 (human rights, Russia-China alignment)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:CHN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Polish public: mostly indifferent to negative, more so after 2020 (human rights, Russia-China alignment)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Polish public: mostly indifferent to negative, more so after 2020 (human rights, Russia-China alignment)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Polish public: mostly indifferent to negative, more so after 2020 (human rights, Russia-China alignment)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Poland depends on Chinese supply chains (electronics, EVs) but does not see itself subordinated"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Negligible Polish influence on China"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "No political or military constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Negligible Polish influence on China"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:CHN",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Chinese imports grew strongly, especially after 2004 and in 2022-2025 (industry, electronics)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:CHN",
+   "years": "2004-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Chinese imports grew strongly, especially after 2004 and in 2022-2025 (industry, electronics)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Chinese imports grew strongly, especially after 2004 and in 2022-2025 (industry, electronics)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:USA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "United States: Poland's main security ally; NATO enlargement 1999, US troops and rotations from 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:USA",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "United States: Poland's main security ally; NATO enlargement 1999, US troops and rotations from 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "United States: Poland's main security ally; NATO enlargement 1999, US troops and rotations from 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "POL:USA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "United States: Poland's main security ally; NATO enlargement 1999, US troops and rotations from 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:USA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Polish public: consistently positive, among the most favourable views of any country"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:USA",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Polish public: consistently positive, among the most favourable views of any country"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Polish public: consistently positive, among the most favourable views of any country"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "POL:USA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Polish public: consistently positive, among the most favourable views of any country"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:USA",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Poland sees itself as dependent on US security guarantees"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "POL:USA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Poland sees itself as dependent on US security guarantees"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "POL:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Poland has little influence on US policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:USA",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Political and military dependence: US troops and nuclear-sharing-related security role since 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Political and military dependence: US troops and nuclear-sharing-related security role since 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "POL:USA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Political and military dependence: US troops and nuclear-sharing-related security role since 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "POL:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Limited Polish influence on US policy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:USA",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Trade with the US modest; LNG supply and US investment matter more after 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:USA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "Trade with the US modest; LNG supply and US investment matter more after 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "POL:USA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Trade with the US modest; LNG supply and US investment matter more after 2014"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "POL:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Sept 2025: Russian drones entered Polish airspace and were engaged by Polish and allied aircraft (armed incident); Nov 2025 railway sabotage attributed to GRU-linked agents (not armed, not counted)",
+   "sources": [
+    "Poland, Romania scramble jets over drone incursion; last Russian consulate in Gdansk to be shut, WION, 2025-11 (https://www.wionews.com/world/poland-romania-scramble-jets-over-drone-incursion-last-remaining-russian-consulate-in-gdansk-to-be-shut-after-railway-sabotage-1763548153886/amp)"
+   ]
+  }
+ ]
+}

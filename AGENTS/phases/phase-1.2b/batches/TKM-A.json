@@ -1,0 +1,47 @@
+{
+  "rationale": "TKM, zadanie A (tryb oszczędny): autorytarna republika (Niyazow, potem Berdimuhamedowowie); sukcesje 2006 i 2022 uporządkowane, bez kryzysów rządowych; popularność i nastroje estymowane (brak wiarygodnych sondaży); brakujące lata wskaźników uzupełnione do istniejących wartości; 2023-2025 wg BTI 2026 i Freedom House (koncentracja władzy, niedobory, lokalne protesty, represje)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "TKM", "years": "1996-2001", "curve": "linear", "start": 60, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "TKM", "years": "2002-2006", "curve": "linear", "start": 64, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "TKM", "years": "2007-2012", "curve": "linear", "start": 66, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "TKM", "years": "2013-2021", "curve": "linear", "start": 72, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "TKM", "years": "2022-2025", "curve": "linear", "start": 72, "end": 70},
+
+    {"kind": "grade", "name": "violence risk", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 40, "end": 41, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "TKM", "years": "2023-2025", "curve": "constant", "start": 52, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 69, "end": 70.3, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "TKM", "years": "2023-2025", "curve": "linear", "start": 78.6, "end": 78.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 55, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "TKM", "years": "1996-2005", "curve": "linear", "start": 45, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "TKM", "years": "2006-2010", "curve": "linear", "start": 52, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "TKM", "years": "2022-2025", "curve": "linear", "start": 53, "end": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "TKM", "years": "1991-2025", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "government revanchism", "targets": "TKM", "years": "1991-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 60, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "TKM", "years": "1996-2001", "curve": "linear", "start": 64, "end": 66},
+    {"kind": "grade", "name": "government popularity", "targets": "TKM", "years": "2002-2006", "curve": "linear", "start": 62, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "TKM", "years": "2007-2012", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "TKM", "years": "2013-2021", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "TKM", "years": "2022-2025", "curve": "linear", "start": 58, "end": 50},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TKM", "years": "1996-2005", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TKM", "years": "2006-2015", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TKM", "years": "2016-2021", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TKM", "years": "2022-2025", "curve": "linear", "start": 52, "end": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 61, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "TKM", "years": "1996-2004", "curve": "linear", "start": 60, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "TKM", "years": "2024-2025", "curve": "linear", "start": 76.9, "end": 77.3, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "TKM", "years": "1991-1995", "curve": "linear", "start": 62, "end": 68},
+    {"kind": "grade", "name": "assimilation", "targets": "TKM", "years": "1996-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "epidemic", "targets": "TKM", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

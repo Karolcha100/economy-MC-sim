@@ -1,0 +1,54 @@
+{
+  "rationale": "PRK, zadanie A (statystyki państwa), tryb oszczędny. Brak danych WHR/HDI/polls dla KRL: wartości szacowane porównaniem z CHN, IRN, SYR, SOM; kryzys głodu 1995-1998 i lockdown 2020-2021 jako zdarzenia; uzupełnienia 1990-1995 i 2023-2025 płynnie do istniejących wartości.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "PRK", "years": "1990-1993", "curve": "linear", "start": 70, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "PRK", "years": "1994-1996", "curve": "linear", "start": 62, "end": 56},
+    {"kind": "grade", "name": "stability", "targets": "PRK", "years": "1997-2002", "curve": "linear", "start": 58, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "PRK", "years": "2003-2010", "curve": "linear", "start": 66, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "PRK", "years": "2011-2013", "curve": "linear", "start": 62, "end": 56},
+    {"kind": "grade", "name": "stability", "targets": "PRK", "years": "2014-2019", "curve": "linear", "start": 60, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "PRK", "years": "2020-2025", "curve": "linear", "start": 64, "end": 66},
+
+    {"kind": "grade", "name": "corruption", "targets": "PRK", "years": "1990-1995", "curve": "linear", "start": 73, "end": 75.7},
+    {"kind": "grade", "name": "corruption", "targets": "PRK", "years": "2023-2025", "curve": "linear", "start": 82.2, "end": 82.6},
+
+    {"kind": "grade", "name": "violence risk", "targets": "PRK", "years": "1990-1995", "curve": "linear", "start": 55, "end": 59.5},
+    {"kind": "grade", "name": "violence risk", "targets": "PRK", "years": "2023-2025", "curve": "constant", "start": 58.2},
+
+    {"kind": "grade", "name": "happiness", "targets": "PRK", "years": "1990-1993", "curve": "linear", "start": 42, "end": 38},
+    {"kind": "grade", "name": "happiness", "targets": "PRK", "years": "1994-1998", "curve": "linear", "start": 35, "end": 28},
+    {"kind": "grade", "name": "happiness", "targets": "PRK", "years": "1999-2004", "curve": "linear", "start": 30, "end": 33},
+    {"kind": "grade", "name": "happiness", "targets": "PRK", "years": "2005-2010", "curve": "linear", "start": 35, "end": 38},
+    {"kind": "grade", "name": "happiness", "targets": "PRK", "years": "2011-2019", "curve": "linear", "start": 38, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "PRK", "years": "2020-2025", "curve": "linear", "start": 40, "end": 38},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "PRK", "years": "1990-1999", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "social revanchism", "targets": "PRK", "years": "2000-2010", "curve": "linear", "start": 20, "end": 22},
+    {"kind": "grade", "name": "social revanchism", "targets": "PRK", "years": "2011-2025", "curve": "linear", "start": 22, "end": 25},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "PRK", "years": "1990-1999", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government revanchism", "targets": "PRK", "years": "2000-2010", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "government revanchism", "targets": "PRK", "years": "2011-2023", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government revanchism", "targets": "PRK", "years": "2024-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "government popularity", "targets": "PRK", "years": "1990-1993", "curve": "linear", "start": 65, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "PRK", "years": "1994-1998", "curve": "linear", "start": 55, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "PRK", "years": "1999-2010", "curve": "linear", "start": 45, "end": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "PRK", "years": "2011-2019", "curve": "linear", "start": 55, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "PRK", "years": "2020-2025", "curve": "linear", "start": 60, "end": 55},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "PRK", "years": "1990-1994", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PRK", "years": "1995-1999", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PRK", "years": "2000-2010", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PRK", "years": "2011-2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "civilization level", "targets": "PRK", "years": "1990-1995", "curve": "linear", "start": 60, "end": 52},
+    {"kind": "grade", "name": "civilization level", "targets": "PRK", "years": "1996-2000", "curve": "linear", "start": 51, "end": 50},
+    {"kind": "grade", "name": "civilization level", "targets": "PRK", "years": "2001-2010", "curve": "linear", "start": 51, "end": 56},
+    {"kind": "grade", "name": "civilization level", "targets": "PRK", "years": "2011-2025", "curve": "linear", "start": 57, "end": 58},
+
+    {"kind": "grade", "name": "assimilation", "targets": "PRK", "years": "1990-2025", "curve": "constant", "start": 65},
+
+    {"kind": "grade", "name": "epidemic", "targets": "PRK", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

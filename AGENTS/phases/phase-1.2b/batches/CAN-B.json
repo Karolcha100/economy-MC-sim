@@ -1,0 +1,877 @@
+{
+ "rationale": "CAN, zadanie B: relacje od CAN do 25 partnerow (USA, sasiedzi i sojusznicy G7/NATO, Europa, Ukraina i Rosja, Bialorus, Chiny, Indie, Japonia i Korea, Australia/NZ, Izrael, Iran, Palestyna). Hybrid attacks = domyslne 0 (CAN nie prowadzi dzialan hybrydowych). in war / in war crisis: bez nowych wpisow (brak konfliktu CAN z partnerem w 2025); wpisy UCDP 1991 IRQ, 1999 SRB, 2024 YEM zostawione bez zmian (do decyzji koordynatora).",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 85
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:USA",
+   "years": "2017-2024",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:GBR,CAN:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:FRA,CAN:DEU,CAN:JPN,CAN:NZL,CAN:IRL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:ITA,CAN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:DNK",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:DNK",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:FIN",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:FIN",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:SWE",
+   "years": "1990-2023",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:SWE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:POL",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:POL",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 90
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:CHN",
+   "years": "1990-2017",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:CHN",
+   "years": "2018-2024",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:IND",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:IND",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": -25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:IND",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:IRN",
+   "years": "1990-2011",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:IRN",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": -70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:ISR",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:ISR",
+   "years": "2006-2015",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:ISR",
+   "years": "2016-2022",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:ISR",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:PSE",
+   "years": "1994-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "CAN:PSE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:USA",
+   "years": "2017-2024",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:GBR,CAN:ITA,CAN:NOR,CAN:POL,CAN:AUS,CAN:IRL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:FRA,CAN:DEU,CAN:DNK,CAN:SWE,CAN:JPN,CAN:NZL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:ESP,CAN:FIN,CAN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 90
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:CHN",
+   "years": "1990-2017",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:CHN",
+   "years": "2018-2025",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:IND",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:IND",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:IRN",
+   "years": "1990-2011",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:IRN",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:ISR",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:ISR",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "CAN:PSE",
+   "years": "1994-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:USA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:AUS,CAN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:IRL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:ESP,CAN:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:PSE",
+   "years": "1994-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:MEX,CAN:FRA,CAN:DEU,CAN:ITA,CAN:NOR,CAN:DNK,CAN:FIN,CAN:SWE,CAN:POL,CAN:RUS,CAN:JPN,CAN:KOR,CAN:IND,CAN:NZL,CAN:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "CAN:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:USA,CAN:MEX,CAN:ITA,CAN:DNK,CAN:FIN,CAN:SWE,CAN:POL,CAN:RUS,CAN:JPN,CAN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:FRA,CAN:DEU,CAN:NOR,CAN:NZL,CAN:IRL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:GBR,CAN:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:ESP,CAN:IND,CAN:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "CAN:PSE",
+   "years": "1994-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CAN:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CAN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CAN:AUS,CAN:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CAN:NZL,CAN:ESP,CAN:FRA,CAN:DEU,CAN:ITA,CAN:NOR,CAN:DNK,CAN:FIN,CAN:SWE,CAN:POL,CAN:RUS,CAN:CHN,CAN:JPN,CAN:KOR,CAN:IRL,CAN:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CAN:UKR,CAN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CAN:IND,CAN:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "CAN:PSE",
+   "years": "1994-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:USA,CAN:AUS,CAN:FRA,CAN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:NZL,CAN:ITA,CAN:NOR,CAN:MEX,CAN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:ESP,CAN:DNK,CAN:FIN,CAN:SWE,CAN:POL,CAN:KOR,CAN:IRL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:RUS,CAN:CHN,CAN:IND,CAN:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "CAN:PSE",
+   "years": "1994-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 4
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:DEU,CAN:GBR,CAN:KOR,CAN:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:FRA,CAN:ITA,CAN:RUS,CAN:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:ESP,CAN:NOR,CAN:DNK,CAN:FIN,CAN:SWE,CAN:POL,CAN:NZL,CAN:IRN,CAN:ISR,CAN:IRL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:UKR,CAN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "CAN:PSE",
+   "years": "1994-2025",
+   "curve": "constant",
+   "start": 0
+  }
+ ]
+}

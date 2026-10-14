@@ -2,7 +2,7 @@
 
 Jedno miejsce, które zbiera decyzje 1.2b i pokazuje, co dalej. Szczegóły: `agents-issues-0.md` (P1–P5), `agents-issues-1.md` (Q1–Q8), `instrukcja-wypelniania.md`, wątki @T011 i @T012.
 
-*Aktualizuje agent; ostatnia zmiana: 2026-10-14 06:50 — Claude Opus 5.5*
+*Aktualizuje agent; ostatnia zmiana: 2026-10-14 13:56 — Claude Opus 5.5*
 
 ---
 
@@ -31,7 +31,8 @@ Przed Phase 2.1 wszystkie dane opisowe są uzupełnione (@A23):
 
 | Sprawa | Gdzie |
 |---|---|
-| P2 — model | Haiku w Claude Code (test @T015); przegląd tylko próbki + `audit` dla wszystkich (@A31) |
+| P2 — model | Haiku w Claude Code (test @T015) — użyty; przegląd tylko próbki + `audit` dla wszystkich (@A31) |
+| K1–K8 — poprawki po wypełnieniu | `agents-issues-2.md` (@A33) |
 
 ## Kroki
 
@@ -42,11 +43,12 @@ Przed Phase 2.1 wszystkie dane opisowe są uzupełnione (@A23):
    - `missing --by-country`;
    - kolejka zadań `queue.md` (196 państw × zadanie A/B).
 4. ✅ Model: **Haiku jako agenci Claude Code** (test: `AGENTS/phases/phase-1.2b/test-modeli.md`); start **na sygnał autora** (@T016).
-4b. ⏸ Program uruchamiający agentów (kolejka → zadanie → batch → `validate`), po wyborze modelu (@L34).
-5. ⏸ Wypełnianie: kraje referencyjne → Twój przegląd na mapie (@A6) → Tier 1 → reszta.
-6. ⏸ Kontrola (A31):
-   - automatyczny `audit` dla wszystkich krajów (gotowy: `python -m simulator --scenario world-1990-2025 audit --out AGENTS/phases/phase-1.2b/audit`);
-   - przegląd **próbki** (kraje referencyjne + Tier 1) przez drugiego agenta;
+4b. ✅ Uruchamianie agentów (@L34): koordynator w Claude Code, 20 agentów Haiku naraz.
+5. ✅ Wypełnianie: wszystkie 392 zadania naraz (decyzja autora w czacie), skończone 2026-10-14 13:15; `missing` 100%. Raport: `AGENTS/phases/phase-1.2b/raport-wypelniania.md`.
+5b. ⏳ Poprawki po wypełnieniu: decyzje K1–K8 (`AGENTS/phases/phase-1.2b/agents-issues-2.md`); plan i koszty `AGENTS/phases/phase-1.2b/plan-poprawek.md`; K3 zrobione (@L43), reszta czeka na @A34–@A39 (@L41–@L46).
+6. ⏳ Kontrola (A31):
+   - ✅ automatyczny `audit` dla wszystkich krajów: `AGENTS/phases/phase-1.2b/audit/audit-2026-10-14-1312.md`;
+   - ~~przegląd próbki~~ → `AGENTS/plan/future-work.md` (@phase-1.2b:K8);
    - potem `missing` = 100% → Phase 2.1.
 
 ## Statystyki do wypełnienia (po Q1–Q8)

@@ -1,0 +1,1558 @@
+{
+  "rationale": "DOM, zadanie B (oszczedny): relacje od DOM do 17 partnerow. Sasiad HTI (migracja, napiecia 2018-25, ujemna opinia spoleczna); USA (glowny partner, CAFTA, diaspora); VEN (Petrocaribe ok. 2005-2017, pozniej spadek); zmiana uznania z Tajwanu na ChRL w 2018; Rosja slabe relacje, spadek po 2022. Hybrid attacks: domyslne 0. in war / in war crisis: bez zmian (brak wpisow UCDP dla DOM, brak konfliktu w 2025).",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:HTI",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CUB",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:VEN,DOM:COL,DOM:TTO",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:ESP",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CAN,DOM:MEX,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:RUS",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:FRA,DOM:JAM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:HTI",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CUB",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:VEN,DOM:FRA,DOM:JAM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CHN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:ESP",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CAN,DOM:MEX,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:COL,DOM:TTO",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:RUS",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:USA",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:HTI",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CUB,DOM:COL,DOM:TTO",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:VEN",
+      "years": "2010-2014",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:VEN",
+      "years": "2015-2017",
+      "curve": "linear",
+      "start": 45,
+      "end": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CHN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:ESP",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CAN,DOM:MEX,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:RUS",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:FRA,DOM:JAM",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:USA",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:HTI",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": -5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CUB",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:VEN",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": -10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CHN,DOM:CAN,DOM:MEX,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:ESP",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:COL,DOM:TTO",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:RUS",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:FRA,DOM:JAM",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:USA",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:HTI",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CUB",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:VEN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CHN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:ESP",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:CAN,DOM:MEX,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:COL,DOM:TTO",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "DOM:FRA,DOM:JAM",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:HTI",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CUB,DOM:FRA,DOM:TTO",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:VEN,DOM:COL",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:ESP",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CAN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:MEX,DOM:NLD,DOM:GBR,DOM:PAN,DOM:JAM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:RUS",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:DEU",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:HTI",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": -35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CUB,DOM:MEX,DOM:NLD,DOM:GBR,DOM:PAN,DOM:JAM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:VEN,DOM:COL",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CHN,DOM:RUS",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:ESP",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CAN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:DEU",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:FRA,DOM:TTO",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:USA",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:HTI",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CUB,DOM:DEU",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:VEN,DOM:MEX,DOM:NLD,DOM:GBR,DOM:PAN,DOM:JAM",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CHN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:ESP",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CAN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:COL,DOM:RUS",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:FRA,DOM:TTO",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:USA",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:HTI",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": -35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CUB,DOM:MEX,DOM:NLD,DOM:GBR,DOM:PAN,DOM:JAM",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:VEN",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CHN,DOM:COL,DOM:RUS",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:ESP",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CAN",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:DEU",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:FRA,DOM:TTO",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:USA",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:HTI",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CUB,DOM:FRA,DOM:TTO",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:VEN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CHN,DOM:COL",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:ESP",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:CAN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:MEX,DOM:NLD,DOM:GBR,DOM:PAN,DOM:JAM",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "DOM:DEU",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:VEN,DOM:ESP",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CHN,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:VEN,DOM:ESP",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:USA",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CHN,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:VEN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:ESP",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:USA",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:VEN,DOM:CHN,DOM:ESP",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:USA",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "DOM:VEN,DOM:CHN,DOM:ESP",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:MEX",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:HTI",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:VEN,DOM:CAN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:CHN,DOM:RUS",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:ESP",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:MEX",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:HTI",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:VEN,DOM:CAN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:CHN,DOM:RUS",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:ESP",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:MEX",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:HTI",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:VEN,DOM:CAN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:CHN,DOM:RUS",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:ESP",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:MEX",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:HTI",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:VEN,DOM:CHN,DOM:CAN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:ESP",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:RUS",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:MEX",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:HTI",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:VEN,DOM:CHN,DOM:CAN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:ESP",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "DOM:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CHN,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:VEN,DOM:ESP",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CHN,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:VEN,DOM:ESP",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:USA",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CHN,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:VEN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:ESP",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:USA",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:VEN,DOM:CHN,DOM:ESP",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:USA",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CAN,DOM:MEX,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:PAN,DOM:TTO,DOM:JAM",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "DOM:VEN,DOM:CHN,DOM:ESP",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:CHN,DOM:CAN,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:TTO",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:HTI",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:VEN,DOM:ESP,DOM:MEX,DOM:PAN,DOM:JAM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:CHN,DOM:CAN,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:TTO",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:HTI",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:VEN,DOM:ESP,DOM:MEX,DOM:PAN,DOM:JAM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:CHN,DOM:CAN,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:TTO",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:HTI",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:VEN,DOM:ESP,DOM:MEX,DOM:PAN,DOM:JAM",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:CHN,DOM:CAN,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:TTO",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:HTI",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:VEN,DOM:ESP,DOM:MEX,DOM:PAN,DOM:JAM",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:USA,DOM:CUB,DOM:CHN,DOM:CAN,DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:FRA,DOM:TTO",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:HTI",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "DOM:VEN,DOM:ESP,DOM:MEX,DOM:PAN,DOM:JAM",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:HTI,DOM:CUB,DOM:CHN,DOM:RUS,DOM:FRA,DOM:TTO,DOM:JAM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:VEN,DOM:CAN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:ESP,DOM:MEX",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:HTI,DOM:CUB,DOM:RUS,DOM:FRA,DOM:TTO,DOM:JAM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:VEN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:CHN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:ESP,DOM:MEX",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:CAN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:USA",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:HTI,DOM:CUB,DOM:RUS,DOM:FRA,DOM:TTO,DOM:JAM",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:VEN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:CHN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:ESP,DOM:MEX",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:CAN",
+      "years": "2010-2017",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:USA",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:HTI,DOM:CUB,DOM:FRA,DOM:TTO,DOM:JAM",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:VEN,DOM:CHN,DOM:ESP,DOM:MEX",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:CAN",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:COL,DOM:RUS,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2018-2021",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:USA",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:HTI,DOM:CUB,DOM:RUS,DOM:FRA,DOM:TTO,DOM:JAM",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:VEN,DOM:COL,DOM:NLD,DOM:DEU,DOM:GBR,DOM:PAN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:CHN,DOM:ESP,DOM:MEX",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "DOM:CAN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 20
+    }
+  ]
+}

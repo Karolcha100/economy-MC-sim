@@ -1,0 +1,61 @@
+{
+  "rationale": "NGA, zadanie A (tryb oszczędny): okresy wg historii Nigerii 1990-2025 (rządy Babangidy i Abachy, zamach i upadek 1993, transformacja 1999, wybory 2007/2011/2015/2023, protesty 2012 i EndSARS 2020, konflikt z Boko Haram od 2009); wartości szacunkowe z wiedzy, brak sondaży; corruption, happiness, violence risk i civilization level uzupełnione tylko tam, gdzie brakuje wartości startowych",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "1990-1992", "curve": "linear", "start": 38, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "1993-1998", "curve": "manual", "values": [25, 22, 20, 22, 24, 30]},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "1999-2005", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "2006-2007", "curve": "linear", "start": 40, "end": 36},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "2008-2010", "curve": "manual", "values": [35, 34, 37]},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "2011-2014", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "2015-2018", "curve": "manual", "values": [50, 48, 45, 46]},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "2019-2023", "curve": "manual", "values": [46, 42, 42, 42, 38]},
+    {"kind": "grade", "name": "stability", "targets": "NGA", "years": "2024-2025", "curve": "linear", "start": 36, "end": 34},
+
+    {"kind": "grade", "name": "corruption", "targets": "NGA", "years": "1990-1995", "curve": "linear", "start": 72, "end": 73.5},
+    {"kind": "grade", "name": "corruption", "targets": "NGA", "years": "2023-2025", "curve": "linear", "start": 72.2, "end": 72.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "NGA", "years": "1990-1994", "curve": "linear", "start": 48, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "NGA", "years": "1995-1998", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "happiness", "targets": "NGA", "years": "1999-2004", "curve": "linear", "start": 42, "end": 45},
+    {"kind": "grade", "name": "happiness", "targets": "NGA", "years": "2005-2010", "curve": "linear", "start": 45, "end": 48},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "NGA", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "NGA", "years": "1990-1999", "curve": "constant", "start": 18},
+    {"kind": "grade", "name": "government revanchism", "targets": "NGA", "years": "2000-2025", "curve": "constant", "start": 15},
+
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "1990-1992", "curve": "linear", "start": 30, "end": 28},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "1993-1998", "curve": "manual", "values": [22, 18, 18, 18, 24, 30]},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "1999-2003", "curve": "linear", "start": 35, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "2004-2007", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "2008-2010", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "2011-2014", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "2015-2018", "curve": "manual", "values": [55, 52, 45, 45]},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "2019-2023", "curve": "manual", "values": [42, 38, 36, 35, 35]},
+    {"kind": "grade", "name": "government popularity", "targets": "NGA", "years": "2024-2025", "curve": "manual", "values": [30, 28]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "NGA", "years": "1990-1993", "curve": "linear", "start": 62, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NGA", "years": "1994-1998", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NGA", "years": "1999-2011", "curve": "linear", "start": 62, "end": 68},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NGA", "years": "2012-2019", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NGA", "years": "2020-2025", "curve": "linear", "start": 72, "end": 78},
+
+    {"kind": "grade", "name": "assimilation", "targets": "NGA", "years": "1990-1999", "curve": "linear", "start": 50, "end": 48},
+    {"kind": "grade", "name": "assimilation", "targets": "NGA", "years": "2000-2009", "curve": "linear", "start": 48, "end": 42},
+    {"kind": "grade", "name": "assimilation", "targets": "NGA", "years": "2010-2025", "curve": "linear", "start": 42, "end": 38},
+
+    {"kind": "grade", "name": "civilization level", "targets": "NGA", "years": "2024-2025", "curve": "linear", "start": 56.2, "end": 56.6},
+
+    {"kind": "grade", "name": "violence risk", "targets": "NGA", "years": "1990-1995", "curve": "linear", "start": 66, "end": 70},
+    {"kind": "grade", "name": "violence risk", "targets": "NGA", "years": "2023-2025", "curve": "linear", "start": 86, "end": 87},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "NGA", "years": "2009-2015", "curve": "linear", "start": 10, "end": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "NGA", "years": "2016-2025", "curve": "constant", "start": 15},
+
+    {"kind": "grade", "name": "riots", "targets": "NGA", "years": "1993", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "NGA", "years": "2012", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "NGA", "years": "2020", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "NGA", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

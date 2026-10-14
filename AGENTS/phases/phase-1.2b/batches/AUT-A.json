@@ -1,0 +1,65 @@
+{
+  "rationale": "AUT, zadanie A, tryb oszczędny: stabilna demokracja z wielką koalicją; koalicje ÖVP-FPÖ 2000-2002 (sankcje UE, kryzys Knittelfeld, wybory 2002), rozłam BZÖ 2005-06, Ibiza 2019 (rząd tymczasowy), upadek rządu Kurza 2021, rekordowa ~155-dniowa tworzenie rządu po wyborach 2024 (rząd Stockera od 3.03.2025); kryzys migracyjny 2015; COVID 2020-21; kotwice DEU/CHE/NOR",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "1990-1994", "curve": "constant", "start": 84},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "1995-1999", "curve": "linear", "start": 84, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2000-2002", "curve": "linear", "start": 78, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2003-2006", "curve": "linear", "start": 62, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2007-2015", "curve": "linear", "start": 62, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2016-2017", "curve": "linear", "start": 72, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2018-2019", "curve": "linear", "start": 60, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2020", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2021", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2022-2023", "curve": "linear", "start": 56, "end": 64},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2024", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "AUT", "years": "2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "violence risk", "targets": "AUT", "years": "1990-1995", "curve": "linear", "start": 20, "end": 22, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "AUT", "years": "2023-2025", "curve": "constant", "start": 37, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "AUT", "years": "1990-1995", "curve": "linear", "start": 14, "end": 15, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "AUT", "years": "2023-2025", "curve": "linear", "start": 24.6, "end": 24.4, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "AUT", "years": "1990-1995", "curve": "linear", "start": 68, "end": 69, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "AUT", "years": "1996-2010", "curve": "linear", "start": 69, "end": 72, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "AUT", "years": "1990-2000", "curve": "linear", "start": 5, "end": 4},
+    {"kind": "grade", "name": "social revanchism", "targets": "AUT", "years": "2001-2015", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "social revanchism", "targets": "AUT", "years": "2016-2025", "curve": "linear", "start": 4, "end": 5},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "AUT", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "1990-1994", "curve": "linear", "start": 58, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "1995-1999", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2000-2002", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2003-2005", "curve": "linear", "start": 38, "end": 34},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2006-2010", "curve": "constant", "start": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2011-2015", "curve": "linear", "start": 42, "end": 36},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2016-2018", "curve": "linear", "start": 36, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2019", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2020", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2021", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2022-2023", "curve": "linear", "start": 38, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2024", "curve": "constant", "start": 33},
+    {"kind": "grade", "name": "government popularity", "targets": "AUT", "years": "2025", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUT", "years": "1990-1994", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUT", "years": "1995-2002", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUT", "years": "2003-2005", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUT", "years": "2006-2015", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUT", "years": "2016-2021", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUT", "years": "2022-2023", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUT", "years": "2024-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "AUT", "years": "2024-2025", "curve": "linear", "start": 93.2, "end": 93.4, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "AUT", "years": "1990-1999", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "AUT", "years": "2000-2010", "curve": "linear", "start": 62, "end": 56},
+    {"kind": "grade", "name": "assimilation", "targets": "AUT", "years": "2011-2015", "curve": "linear", "start": 56, "end": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "AUT", "years": "2016-2020", "curve": "linear", "start": 50, "end": 48},
+    {"kind": "grade", "name": "assimilation", "targets": "AUT", "years": "2021-2025", "curve": "linear", "start": 48, "end": 46},
+
+    {"kind": "grade", "name": "immigration crisis", "targets": "AUT", "years": "2015", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "AUT", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

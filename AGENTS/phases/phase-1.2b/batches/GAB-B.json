@@ -1,0 +1,57 @@
+{
+  "rationale": "GAB, zadanie B: relacje od GAB do 16 partnerow (sasiedzi CMR, GNQ, COG; CAF, TCD (CEMAC); FRA - kolonializm, baza wojskowa, do 2022 silna zaleznosc, po 2023 oslabienie; USA, CHN - ropa i pozyczki; RUS, GBR, DEU, ESP, ZAF, NGA, ARE, BRA). Tryb oszczedny. Brak wpisow in war / in war crisis: brak konfliktu miedzypanstwowego z udzialem GAB (UCDP pusto).",
+  "operations": [
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:CMR,GAB:COG", "years": "1990-2025", "curve": "constant", "start": 40},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:CAF,GAB:USA", "years": "1990-2025", "curve": "constant", "start": 35},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:TCD,GAB:GBR,GAB:DEU,GAB:ESP", "years": "1990-2025", "curve": "constant", "start": 30},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:GNQ,GAB:ZAF,GAB:BRA,GAB:ARE", "years": "1990-2025", "curve": "constant", "start": 25},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:NGA,GAB:RUS", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:CHN", "years": "1990-2025", "curve": "constant", "start": 50},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:FRA", "years": "1990-2022", "curve": "constant", "start": 75},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "GAB:FRA", "years": "2023-2025", "curve": "linear", "start": 60, "end": 50},
+
+    {"kind": "directed", "name": "social view towards", "targets": "GAB:FRA", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "social view towards", "targets": "GAB:USA", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "social view towards", "targets": "GAB:GBR,GAB:DEU,GAB:ZAF,GAB:COG,GAB:CAF", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "social view towards", "targets": "GAB:CHN,GAB:RUS,GAB:ESP,GAB:NGA,GAB:BRA,GAB:CMR,GAB:TCD", "years": "1990-2025", "curve": "constant", "start": 5},
+    {"kind": "directed", "name": "social view towards", "targets": "GAB:ARE", "years": "1990-2025", "curve": "constant", "start": 0},
+    {"kind": "directed", "name": "social view towards", "targets": "GAB:GNQ", "years": "1990-2025", "curve": "constant", "start": -5},
+
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "GAB:FRA", "years": "1990-2025", "curve": "constant", "start": 50},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "GAB:USA", "years": "1990-2025", "curve": "constant", "start": 25},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "GAB:CHN", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "GAB:GBR", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "GAB:DEU,GAB:ARE,GAB:GNQ", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "GAB:ESP,GAB:ZAF,GAB:NGA,GAB:BRA,GAB:CMR,GAB:COG,GAB:CAF,GAB:TCD,GAB:RUS", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "directed", "name": "perceived power towards", "targets": "GAB:GNQ,GAB:COG", "years": "1990-2025", "curve": "constant", "start": 25},
+    {"kind": "directed", "name": "perceived power towards", "targets": "GAB:CMR", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "perceived power towards", "targets": "GAB:CAF,GAB:FRA", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "perceived power towards", "targets": "GAB:TCD", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "perceived power towards", "targets": "GAB:USA,GAB:CHN,GAB:RUS,GAB:GBR,GAB:DEU,GAB:ESP,GAB:ZAF,GAB:NGA,GAB:ARE,GAB:BRA", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "directed", "name": "real subordination towards", "targets": "GAB:FRA", "years": "1990-2022", "curve": "constant", "start": 55},
+    {"kind": "directed", "name": "real subordination towards", "targets": "GAB:FRA", "years": "2023-2025", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "directed", "name": "real subordination towards", "targets": "GAB:USA,GAB:CHN", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "real subordination towards", "targets": "GAB:RUS,GAB:GBR,GAB:ARE,GAB:CMR,GAB:GNQ,GAB:COG", "years": "1990-2025", "curve": "constant", "start": 5},
+    {"kind": "directed", "name": "real subordination towards", "targets": "GAB:DEU,GAB:ESP,GAB:ZAF,GAB:NGA,GAB:CAF,GAB:TCD", "years": "1990-2025", "curve": "constant", "start": 3},
+    {"kind": "directed", "name": "real subordination towards", "targets": "GAB:BRA", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "directed", "name": "real power towards", "targets": "GAB:GNQ,GAB:COG", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "real power towards", "targets": "GAB:CMR", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "real power towards", "targets": "GAB:CAF", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "real power towards", "targets": "GAB:TCD", "years": "1990-2025", "curve": "constant", "start": 8},
+    {"kind": "directed", "name": "real power towards", "targets": "GAB:FRA", "years": "1990-2025", "curve": "constant", "start": 5},
+    {"kind": "directed", "name": "real power towards", "targets": "GAB:USA,GAB:CHN,GAB:RUS,GAB:GBR,GAB:ZAF,GAB:ARE", "years": "1990-2025", "curve": "constant", "start": 3},
+    {"kind": "directed", "name": "real power towards", "targets": "GAB:DEU,GAB:ESP,GAB:NGA,GAB:BRA", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "directed", "name": "economic dependence", "targets": "GAB:CHN", "years": "1990-2025", "curve": "constant", "start": 45},
+    {"kind": "directed", "name": "economic dependence", "targets": "GAB:FRA", "years": "1990-2025", "curve": "constant", "start": 40},
+    {"kind": "directed", "name": "economic dependence", "targets": "GAB:USA", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "economic dependence", "targets": "GAB:GNQ", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "economic dependence", "targets": "GAB:GBR,GAB:DEU,GAB:ESP,GAB:ZAF,GAB:ARE,GAB:CMR,GAB:COG", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "economic dependence", "targets": "GAB:BRA,GAB:NGA,GAB:RUS,GAB:CAF,GAB:TCD", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "directed", "name": "hybrid attacks towards", "targets": "GAB:CMR,GAB:GNQ,GAB:COG,GAB:CAF,GAB:TCD,GAB:FRA,GAB:USA,GAB:CHN,GAB:RUS,GAB:GBR,GAB:DEU,GAB:ESP,GAB:ZAF,GAB:NGA,GAB:ARE,GAB:BRA", "years": "1990-2025", "curve": "constant", "start": 0}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "rationale": "OMN, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Omanu (monarchia absolutna, brak wiarygodnych sondaży): stabilność instytucji wysoka i przewidywalna (sukcesja 2020 bez kryzysu; zmiany w rządzie 2011 po protestach jako dołek), protesty w Sohar i innych miastach w 2011 jako jedyne poważne zamieszki (flaga riots), brak wojen i mobilizacji (zaangażowanie w Jemen bez udziału militarnego), epidemia 2020-2021, zachowanie wartości WGI/HDI/Cantril z istniejących danych (only_empty); asymilacja umiarkowanie niska (duża, odseparowana populacja migrantów zarobkowych ok. 25-45%).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "OMN", "years": "1990-2010", "curve": "linear", "start": 78, "end": 80, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "OMN", "years": "2011", "curve": "constant", "start": 72, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "OMN", "years": "2012-2019", "curve": "constant", "start": 79, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "OMN", "years": "2020-2025", "curve": "constant", "start": 78, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "OMN", "years": "1990-1995", "curve": "linear", "start": 43, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "OMN", "years": "2023-2025", "curve": "linear", "start": 48.9, "end": 48, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "OMN", "years": "1990-2011", "curve": "linear", "start": 60, "end": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "OMN", "years": "1990-1999", "curve": "linear", "start": 62, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "OMN", "years": "2024-2025", "curve": "linear", "start": 85.8, "end": 86.5, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "OMN", "years": "1990-1995", "curve": "linear", "start": 34, "end": 32.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "OMN", "years": "2023-2025", "curve": "linear", "start": 39.4, "end": 38, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "OMN", "years": "1990-2025", "curve": "constant", "start": 3, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "OMN", "years": "1990-2025", "curve": "constant", "start": 2, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "OMN", "years": "1990-1999", "curve": "linear", "start": 70, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "OMN", "years": "2000-2010", "curve": "linear", "start": 72, "end": 74, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "OMN", "years": "2011", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "OMN", "years": "2012-2019", "curve": "linear", "start": 68, "end": 74, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "OMN", "years": "2020-2025", "curve": "linear", "start": 74, "end": 76, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "OMN", "years": "1990-2010", "curve": "linear", "start": 50, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "OMN", "years": "2011-2016", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "OMN", "years": "2017-2025", "curve": "linear", "start": 58, "end": 62, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "OMN", "years": "1990-1999", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "OMN", "years": "2000-2014", "curve": "linear", "start": 45, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "OMN", "years": "2015-2025", "curve": "linear", "start": 40, "end": 35, "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "OMN", "years": "2011", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "OMN", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

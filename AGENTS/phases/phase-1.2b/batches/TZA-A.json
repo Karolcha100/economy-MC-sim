@@ -1,0 +1,42 @@
+{
+  "rationale": "TZA, zadanie A (tryb oszczedny): okresy wg przebiegu historii Tanzanii (jednopartyjnosc -> wielopartyjnosc 1992, Mkapa, Kikwete, Magufuli 2015-2021, sukcesja Samii 2021, wybory 29.10.2025 z zamieszkami i zakazem opozycji); luki w istniejacych seriach uzupelnione plynnie (only_empty, start current); flagi tylko dla 2020 (COVID, zgodnie z kotwicami) i 2025 (zamieszki po wyborach)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "TZA", "years": "1990-1995", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "stability", "targets": "TZA", "years": "1996-2014", "curve": "constant", "start": 72},
+    {"kind": "grade", "name": "stability", "targets": "TZA", "years": "2015-2020", "curve": "linear", "start": 70, "end": 65},
+    {"kind": "grade", "name": "stability", "targets": "TZA", "years": "2021-2024", "curve": "linear", "start": 66, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "TZA", "years": "2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "corruption", "targets": "TZA", "years": "1990-1996", "curve": "linear", "start": 60, "end": 64.056, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "TZA", "years": "2022-2025", "curve": "linear", "start": "current", "end": 56, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "TZA", "years": "1990-2011", "curve": "linear", "start": 40, "end": 38, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "TZA", "years": "1990-1996", "curve": "linear", "start": 55, "end": 62.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "TZA", "years": "2022-2024", "curve": "linear", "start": "current", "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "TZA", "years": "2025", "curve": "constant", "start": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "TZA", "years": "1990-2025", "curve": "constant", "start": 4},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "TZA", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "TZA", "years": "1990-1995", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "TZA", "years": "1996-2005", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "TZA", "years": "2006-2014", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "TZA", "years": "2015-2020", "curve": "linear", "start": 65, "end": 72},
+    {"kind": "grade", "name": "government popularity", "targets": "TZA", "years": "2021-2024", "curve": "linear", "start": 75, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "TZA", "years": "2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "TZA", "years": "1990-2021", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TZA", "years": "2022-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "TZA", "years": "2023-2025", "curve": "linear", "start": "current", "end": 56.5, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "TZA", "years": "1990-2014", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "TZA", "years": "2015-2017", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "TZA", "years": "2018-2025", "curve": "constant", "start": 62},
+
+    {"kind": "grade", "name": "epidemic", "targets": "TZA", "years": "2020", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "TZA", "years": "2025", "curve": "constant", "start": 1}
+  ]
+}

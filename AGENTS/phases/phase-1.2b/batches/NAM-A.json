@@ -1,0 +1,53 @@
+{
+  "rationale": "NAM, zadanie A (tryb oszczedny): niepodleglosc 1990 i stabilne rzady SWAPO (wybory 1994, 2005, 2009, 2014, 2019, 2024); afera Fishrot 2019; smierc prezydenta Geingoba 2024 i kontestowane wybory 2024; zmiana prezydenta 2025; konflikt Caprivi (1994, 1998-1999) krotko podbija przemoc; COVID 2020-2021 (epidemia). Wartosci szacunkowe z wiedzy, bez wyszukiwan. Istniejace wartosci (corruption 1996-2022, violence risk 1996-2022, happiness 2011+, civilization level 1990-2023) nie sa zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "1990-1991", "curve": "linear", "start": 68, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "1992-1999", "curve": "linear", "start": 70, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "2000-2004", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "2005-2014", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "2015-2018", "curve": "constant", "start": 74},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "2019-2020", "curve": "linear", "start": 73, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "2021-2023", "curve": "constant", "start": 66},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "2024", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "NAM", "years": "2025", "curve": "constant", "start": 65},
+
+    {"kind": "grade", "name": "corruption", "targets": "NAM", "years": "1990-1995", "curve": "linear", "start": 32, "end": 33.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "NAM", "years": "2022-2025", "curve": "linear", "start": "current", "end": 46, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "NAM", "years": "1990-1995", "curve": "linear", "start": 52, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "NAM", "years": "1996-2002", "curve": "linear", "start": 50, "end": 46, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "NAM", "years": "2003-2010", "curve": "linear", "start": 46, "end": 48.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "NAM", "years": "1990-1993", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "social revanchism", "targets": "NAM", "years": "1994-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "NAM", "years": "1990-1993", "curve": "constant", "start": 12},
+    {"kind": "grade", "name": "government revanchism", "targets": "NAM", "years": "1994-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "1990-1994", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "1995-1999", "curve": "constant", "start": 72},
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "2000-2004", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "2005-2009", "curve": "constant", "start": 72},
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "2010-2014", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "2015-2019", "curve": "linear", "start": 68, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "2020-2023", "curve": "linear", "start": 59, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "NAM", "years": "2024-2025", "curve": "linear", "start": 45, "end": 50},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "NAM", "years": "1990-2014", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NAM", "years": "2015-2025", "curve": "linear", "start": 60, "end": 63},
+
+    {"kind": "grade", "name": "civilization level", "targets": "NAM", "years": "2023-2025", "curve": "linear", "start": "current", "end": 67.2, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "NAM", "years": "1990-2010", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "NAM", "years": "2011-2025", "curve": "linear", "start": 55, "end": 53},
+
+    {"kind": "grade", "name": "violence risk", "targets": "NAM", "years": "1990-1995", "curve": "linear", "start": 40, "end": 34, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "NAM", "years": "2022-2025", "curve": "linear", "start": "current", "end": 38, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "NAM", "years": "1990-1991", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "war exhaustion", "targets": "NAM", "years": "1992-1997", "curve": "linear", "start": 38, "end": 25},
+    {"kind": "grade", "name": "war exhaustion", "targets": "NAM", "years": "1998-2025", "curve": "linear", "start": 25, "end": 8},
+
+    {"kind": "grade", "name": "epidemic", "targets": "NAM", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

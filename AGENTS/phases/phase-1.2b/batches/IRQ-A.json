@@ -1,0 +1,84 @@
+{
+  "rationale": "IRQ, zadanie A (statystyki państwa), tryb oszczędny. Reżim Saddama 1990-2002 (wojna z Kuwejtem, powstania 1991, sankcje); 2003 upadek państwa i okupacja; 2004-2011 wojna domowa i kryzysy rządów; 2014-2017 ISIS; 2019 protesty; 2022 i 2025 długie negocjacje rządowe (wybory 11.11.2025, ok. pół roku bez pełnego rządu). Wyszukiwarka 2023-2025: CPI 2024 = 26; sondaż Gallup 2023 ~69% poparcia dla Sudaniego; drony na Kurdystanie 2025, zamachy ISIS 2025.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "1990-1991", "curve": "linear", "start": 60, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "1992-2002", "curve": "linear", "start": 45, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2003-2004", "curve": "linear", "start": 10, "end": 15},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2005-2007", "curve": "linear", "start": 20, "end": 15},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2008-2010", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2011-2013", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2014-2016", "curve": "linear", "start": 20, "end": 25},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2017-2018", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2019-2022", "curve": "linear", "start": 20, "end": 25},
+    {"kind": "grade", "name": "stability", "targets": "IRQ", "years": "2023-2025", "curve": "linear", "start": 38, "end": 35},
+
+    {"kind": "grade", "name": "corruption", "targets": "IRQ", "years": "1990-1995", "curve": "linear", "start": 68, "end": 82},
+    {"kind": "grade", "name": "corruption", "targets": "IRQ", "years": "2023-2025", "curve": "linear", "start": 74, "end": 71},
+
+    {"kind": "grade", "name": "happiness", "targets": "IRQ", "years": "1990-1991", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "IRQ", "years": "1992-1995", "curve": "linear", "start": 38, "end": 35},
+    {"kind": "grade", "name": "happiness", "targets": "IRQ", "years": "1996-2002", "curve": "linear", "start": 36, "end": 38},
+    {"kind": "grade", "name": "happiness", "targets": "IRQ", "years": "2003", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "happiness", "targets": "IRQ", "years": "2004-2007", "curve": "linear", "start": 33, "end": 30},
+    {"kind": "grade", "name": "happiness", "targets": "IRQ", "years": "2008-2010", "curve": "linear", "start": 35, "end": 45},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "IRQ", "years": "1990-1991", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "social revanchism", "targets": "IRQ", "years": "1992-2002", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "social revanchism", "targets": "IRQ", "years": "2003-2025", "curve": "constant", "start": 15},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "IRQ", "years": "1990-1991", "curve": "linear", "start": 90, "end": 60},
+    {"kind": "grade", "name": "government revanchism", "targets": "IRQ", "years": "1992-2002", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government revanchism", "targets": "IRQ", "years": "2003-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "1990-1991", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "1992-2002", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2003-2004", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2005-2007", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2008-2010", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2011-2013", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2014-2016", "curve": "linear", "start": 25, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2017-2018", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2019", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2020-2022", "curve": "linear", "start": 20, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2023-2024", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "IRQ", "years": "2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "IRQ", "years": "1990-2002", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "IRQ", "years": "2003-2010", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "IRQ", "years": "2011-2018", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "IRQ", "years": "2019-2020", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "social sensitivity", "targets": "IRQ", "years": "2021-2025", "curve": "constant", "start": 72},
+
+    {"kind": "grade", "name": "civilization level", "targets": "IRQ", "years": "2024-2025", "curve": "linear", "start": 69.6, "end": 70.0},
+
+    {"kind": "grade", "name": "violence risk", "targets": "IRQ", "years": "1990-1991", "curve": "linear", "start": 55, "end": 92},
+    {"kind": "grade", "name": "violence risk", "targets": "IRQ", "years": "1992-1995", "curve": "linear", "start": 88, "end": 86.5},
+    {"kind": "grade", "name": "violence risk", "targets": "IRQ", "years": "2023-2025", "curve": "linear", "start": 95, "end": 90},
+
+    {"kind": "grade", "name": "assimilation", "targets": "IRQ", "years": "1990-2002", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "IRQ", "years": "2003-2016", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "assimilation", "targets": "IRQ", "years": "2017-2025", "curve": "linear", "start": 25, "end": 30},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "1990", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "1991-1995", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "1996-2002", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "2003-2010", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "2011-2013", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "2014-2017", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "2018-2021", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "IRQ", "years": "2022-2025", "curve": "constant", "start": 25},
+
+    {"kind": "grade", "name": "mobilized", "targets": "IRQ", "years": "1990", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "IRQ", "years": "1991", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "IRQ", "years": "2003", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "IRQ", "years": "2014", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "riots", "targets": "IRQ", "years": "2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "IRQ", "years": "2022", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "state collapse", "targets": "IRQ", "years": "1991", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "state collapse", "targets": "IRQ", "years": "2003", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "IRQ", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

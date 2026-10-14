@@ -1,0 +1,53 @@
+{
+  "rationale": "MAR, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Maroka (monarchia konstytucyjna, brak zamachów stanu od 1972; alternacja 1998; konstytucja 2011; rząd po wyborach 2016-17 po 5-miesięcznym kryzysie formowania; protesty Hirak Rif 2016-17; trzęsienie ziemi 2023; GenZ 212 wrzesień-październik 2025, zamieszki w 23 prowincjach, 3 ofiary). Wojna o Saharę Zachodnią do zawieszenia broni 1991; zaangażowanie społeczne w sprawę Sahary jako rewanżyzm społeczny i rządowy. Brak wiarygodnych sondaży: popularność rządu szacowana. Epidemia 2020 (COVID). Istniejące wartości nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "1990-1997", "curve": "linear", "start": 62, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "1998-2002", "curve": "linear", "start": 62, "end": 68, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "2003-2010", "curve": "linear", "start": 68, "end": 66, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "2011-2013", "curve": "linear", "start": 60, "end": 64, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "2014-2016", "curve": "linear", "start": 64, "end": 58, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "2017-2020", "curve": "linear", "start": 58, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "2021-2024", "curve": "linear", "start": 62, "end": 63, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MAR", "years": "2025-2025", "curve": "constant", "start": 58, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "MAR", "years": "1990-1995", "curve": "linear", "start": 56, "end": 52.138, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MAR", "years": "2022-2025", "curve": "linear", "start": "current", "end": 56.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MAR", "years": "1990-1999", "curve": "linear", "start": 45, "end": 46, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MAR", "years": "2000-2010", "curve": "linear", "start": 46, "end": 47.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MAR", "years": "1990-1991", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MAR", "years": "1992-2025", "curve": "constant", "start": 25, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MAR", "years": "1990-1991", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MAR", "years": "1992-2016", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MAR", "years": "2017-2025", "curve": "linear", "start": 42, "end": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MAR", "years": "1990-1997", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MAR", "years": "1998-2002", "curve": "linear", "start": 45, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MAR", "years": "2003-2010", "curve": "linear", "start": 55, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MAR", "years": "2011-2016", "curve": "linear", "start": 50, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MAR", "years": "2017-2020", "curve": "linear", "start": 48, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MAR", "years": "2021-2024", "curve": "linear", "start": 42, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MAR", "years": "2025-2025", "curve": "constant", "start": 33, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MAR", "years": "1990-1995", "curve": "linear", "start": 65, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MAR", "years": "1996-2019", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MAR", "years": "2020-2022", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MAR", "years": "2023-2025", "curve": "linear", "start": 64, "end": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MAR", "years": "1990-2014", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MAR", "years": "2015-2025", "curve": "linear", "start": 60, "end": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MAR", "years": "1990-1995", "curve": "linear", "start": 60, "end": 54.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MAR", "years": "2022-2025", "curve": "linear", "start": "current", "end": 57.5, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MAR", "years": "2023-2025", "curve": "linear", "start": "current", "end": 72.2, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "MAR", "years": "1990-1991", "curve": "linear", "start": 30, "end": 20, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "MAR", "years": "1992-1999", "curve": "linear", "start": 15, "end": 5, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MAR", "years": "2020-2020", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "riots", "targets": "MAR", "years": "2025-2025", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

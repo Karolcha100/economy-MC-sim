@@ -1,0 +1,35 @@
+{
+  "rationale": "MNE, zadanie A (statystyki państwa), tryb oszczędny: niepodległość 2006, NATO 2017, kryzysy rządowe 2020-2023 (stabilność, poparcie rządu); reszta na poziomie regionalnym i z istniejących wskaźników; only_empty - istniejące wartości nietknięte",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MNE", "years": "2006-2010", "curve": "linear", "start": 60, "end": 61, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MNE", "years": "2011-2019", "curve": "linear", "start": 61, "end": 58, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MNE", "years": "2020-2022", "curve": "linear", "start": 58, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MNE", "years": "2023-2025", "curve": "linear", "start": 45, "end": 52, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MNE", "years": "2006-2010", "curve": "linear", "start": 55, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MNE", "years": "2011-2019", "curve": "linear", "start": 42, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MNE", "years": "2020-2022", "curve": "linear", "start": 45, "end": 33, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MNE", "years": "2023-2025", "curve": "linear", "start": 40, "end": 42, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MNE", "years": "2006-2019", "curve": "constant", "start": 10, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MNE", "years": "2020-2025", "curve": "linear", "start": 11, "end": 12, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MNE", "years": "2006-2025", "curve": "constant", "start": 1, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNE", "years": "2006-2019", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNE", "years": "2020-2022", "curve": "linear", "start": 62, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNE", "years": "2023-2025", "curve": "linear", "start": 70, "end": 65, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MNE", "years": "2006-2025", "curve": "constant", "start": 65, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MNE", "years": "2006-2010", "curve": "linear", "start": 50, "end": 51, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MNE", "years": "2024-2025", "curve": "linear", "start": 86.5, "end": 86.8, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MNE", "years": "2023-2025", "curve": "constant", "start": 51.2, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "MNE", "years": "2023-2025", "curve": "linear", "start": 52.4, "end": 51.5, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MNE", "years": "2020-2021", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "rationale": "BOL, zadanie A (statystyki państwa), tryb oszczędny: szacunki z wiedzy o historii Boliwii (rządy 1990-2019, puczowe i protestacyjne kryzysy 2003, 2005, 2019); lata 2023-2025 sprawdzone w wyszukiwarce (próba puczu 26.06.2024 bez ofiar, blokady zwolenników Moralesa 09-11.2024, blokady czerwiec 2025 Llallagua z 4-8 zabitymi wg różnych źródeł); flagi riots tylko dla 2003, 2005, 2019, 2025; epidemic 2020-2021 (COVID)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "1990-1993", "curve": "linear", "start": 55, "end": 54},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "1994-1997", "curve": "linear", "start": 56, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "1998-2002", "curve": "linear", "start": 60, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2003-2005", "curve": "linear", "start": 25, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2006-2009", "curve": "linear", "start": 42, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2010-2014", "curve": "linear", "start": 60, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2015-2018", "curve": "linear", "start": 66, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2019", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2020", "curve": "constant", "start": 38},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2021-2022", "curve": "linear", "start": 48, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2023-2024", "curve": "linear", "start": 42, "end": 35},
+    {"kind": "grade", "name": "stability", "targets": "BOL", "years": "2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "corruption", "targets": "BOL", "years": "1990-1995", "curve": "linear", "start": 68, "end": 67},
+    {"kind": "grade", "name": "corruption", "targets": "BOL", "years": "2023-2025", "curve": "linear", "start": 67.8, "end": 68.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "BOL", "years": "1990-2004", "curve": "linear", "start": 44, "end": 47},
+    {"kind": "grade", "name": "happiness", "targets": "BOL", "years": "2005-2010", "curve": "linear", "start": 48, "end": 54},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "BOL", "years": "1990-2013", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "social revanchism", "targets": "BOL", "years": "2014-2018", "curve": "constant", "start": 28},
+    {"kind": "grade", "name": "social revanchism", "targets": "BOL", "years": "2019-2025", "curve": "constant", "start": 22},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "BOL", "years": "1990-1995", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "BOL", "years": "1996-2005", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "government revanchism", "targets": "BOL", "years": "2006-2012", "curve": "linear", "start": 30, "end": 35},
+    {"kind": "grade", "name": "government revanchism", "targets": "BOL", "years": "2013-2018", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "government revanchism", "targets": "BOL", "years": "2019-2020", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government revanchism", "targets": "BOL", "years": "2021-2025", "curve": "constant", "start": 25},
+
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "1990-1993", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "1994-1997", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "1998-2001", "curve": "linear", "start": 45, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2002-2003", "curve": "linear", "start": 25, "end": 15},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2004-2005", "curve": "linear", "start": 45, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2006-2008", "curve": "linear", "start": 70, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2009-2014", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2015-2018", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2019-2020", "curve": "linear", "start": 30, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2021-2022", "curve": "linear", "start": 50, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2023-2024", "curve": "linear", "start": 30, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "BOL", "years": "2025", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "BOL", "years": "1990-1999", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BOL", "years": "2000-2005", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BOL", "years": "2006-2014", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BOL", "years": "2015-2018", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BOL", "years": "2019-2022", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BOL", "years": "2023-2025", "curve": "constant", "start": 75},
+
+    {"kind": "grade", "name": "civilization level", "targets": "BOL", "years": "2024-2025", "curve": "linear", "start": 73.8, "end": 74.3},
+
+    {"kind": "grade", "name": "assimilation", "targets": "BOL", "years": "1990-2005", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "BOL", "years": "2006-2018", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "BOL", "years": "2019-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "violence risk", "targets": "BOL", "years": "1990-1995", "curve": "linear", "start": 52, "end": 52.5},
+    {"kind": "grade", "name": "violence risk", "targets": "BOL", "years": "2023", "curve": "constant", "start": 56},
+    {"kind": "grade", "name": "violence risk", "targets": "BOL", "years": "2024", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "violence risk", "targets": "BOL", "years": "2025", "curve": "constant", "start": 64},
+
+    {"kind": "grade", "name": "riots", "targets": "BOL", "years": "2003", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "BOL", "years": "2005", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "BOL", "years": "2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "BOL", "years": "2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "BOL", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

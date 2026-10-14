@@ -1,0 +1,1557 @@
+{
+ "rationale": "PNG, zadanie B (oszczedny): relacje PNG -> 12 partnerow (AUS, IDN, NZL, SLB, VUT, FJI, CHN, JPN, KOR, USA, GBR, SGP). AUS: bliska wspolpraca, sceptycyzm spoleczny po 1997 (Sandline), traktat Pukpuk (wzajemna obrona, podpisany 6 X 2025, jeszcze nie w mocy) podnosi 2025 relacje i zaleznosc odczuwana. IDN: granica na Nowej Gwinei, spoleczna rezerwa wobec sprawy Papui Zachodniej. CHN: najwazniejszy partner handlowy/inwestor, rosnaca zaleznosc finansowa, opinie spoleczne ostrozne; brak potwierdzonej umowy policyjnej z Chinami. USA: umowa o wspolpracy obronnej 2023 (wzrost 2023-2025). JPN: LNG i pomoc od 2010 (zaleznosc gospodarcza). Dwustronne: brak wojny i kryzysu miedzy PNG a innym panstwem w 1990-2025 wg UCDP i zrodel; bez zmian. PNG nie prowadzi dzialan hybrydowych (0). Pozostale pary potwierdzone domyslnie.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:AUS,PNG:KOR,PNG:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:CHN,PNG:GBR,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:KOR,PNG:USA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:CHN,PNG:KOR,PNG:USA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:AUS,PNG:NZL,PNG:JPN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:IDN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:CHN,PNG:KOR",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:USA",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:AUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 85
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:IDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:NZL,PNG:JPN,PNG:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "PNG:CHN,PNG:KOR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:AUS,PNG:SLB,PNG:VUT,PNG:FJI,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:KOR,PNG:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:AUS,PNG:SLB,PNG:VUT,PNG:FJI,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:CHN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:KOR,PNG:USA",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:AUS,PNG:SLB,PNG:VUT,PNG:FJI,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:CHN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:KOR,PNG:USA",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:AUS,PNG:SLB,PNG:VUT,PNG:FJI,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:IDN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:CHN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:KOR,PNG:USA",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:GBR",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:AUS,PNG:SLB,PNG:VUT,PNG:FJI,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:IDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:KOR,PNG:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "PNG:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:IDN,PNG:NZL,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:CHN,PNG:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:IDN,PNG:NZL,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:CHN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:IDN,PNG:NZL,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:CHN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:IDN,PNG:NZL,PNG:USA,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:KOR,PNG:GBR",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:CHN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:JPN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:IDN,PNG:NZL,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:KOR,PNG:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "PNG:JPN,PNG:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:AUS,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:NZL,PNG:CHN,PNG:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:VUT",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:AUS,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:NZL,PNG:CHN,PNG:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:VUT",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:AUS,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:NZL,PNG:CHN,PNG:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:VUT",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:AUS,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:IDN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:NZL,PNG:CHN,PNG:JPN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:VUT",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:AUS,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:IDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:NZL,PNG:CHN,PNG:JPN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:VUT",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:IDN,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:NZL,PNG:CHN,PNG:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:IDN,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:NZL,PNG:CHN,PNG:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:IDN,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:NZL,PNG:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:CHN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:IDN,PNG:KOR,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:NZL,PNG:JPN,PNG:USA",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:CHN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:AUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:IDN,PNG:KOR,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:NZL,PNG:JPN,PNG:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:SLB,PNG:VUT,PNG:FJI,PNG:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "PNG:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:AUS,PNG:CHN,PNG:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:IDN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:NZL,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:VUT",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:AUS,PNG:CHN,PNG:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:IDN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:NZL,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:VUT",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:AUS,PNG:CHN,PNG:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:IDN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:NZL,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:VUT",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:AUS,PNG:CHN,PNG:JPN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:IDN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:NZL,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:VUT",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:AUS,PNG:CHN,PNG:JPN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:IDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:NZL,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:SLB,PNG:FJI",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:VUT",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "PNG:KOR,PNG:USA,PNG:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:IDN,PNG:FJI",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:NZL,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:SLB,PNG:VUT,PNG:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:JPN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:AUS",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:IDN,PNG:FJI",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:NZL,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:SLB,PNG:VUT,PNG:GBR",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:CHN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:JPN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:AUS,PNG:CHN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:IDN,PNG:FJI",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:NZL,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:SLB,PNG:VUT,PNG:GBR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:JPN",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:AUS,PNG:JPN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:IDN,PNG:FJI",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:NZL,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:SLB,PNG:VUT,PNG:GBR",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:CHN",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:AUS,PNG:JPN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:IDN,PNG:FJI",
+   "years": "2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:NZL,PNG:KOR,PNG:USA,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:SLB,PNG:VUT,PNG:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "PNG:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "PNG:AUS,PNG:IDN,PNG:NZL,PNG:SLB,PNG:VUT,PNG:FJI,PNG:CHN,PNG:JPN,PNG:KOR,PNG:USA,PNG:GBR,PNG:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "PNG:AUS,PNG:IDN,PNG:NZL,PNG:SLB,PNG:VUT,PNG:FJI,PNG:CHN,PNG:JPN,PNG:KOR,PNG:USA,PNG:GBR,PNG:SGP",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "PNG:AUS,PNG:IDN,PNG:NZL,PNG:SLB,PNG:VUT,PNG:FJI,PNG:CHN,PNG:JPN,PNG:KOR,PNG:USA,PNG:GBR,PNG:SGP",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "PNG:AUS,PNG:IDN,PNG:NZL,PNG:SLB,PNG:VUT,PNG:FJI,PNG:CHN,PNG:JPN,PNG:KOR,PNG:USA,PNG:GBR,PNG:SGP",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "PNG:AUS,PNG:IDN,PNG:NZL,PNG:SLB,PNG:VUT,PNG:FJI,PNG:CHN,PNG:JPN,PNG:KOR,PNG:USA,PNG:GBR,PNG:SGP",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0
+  }
+ ]
+}

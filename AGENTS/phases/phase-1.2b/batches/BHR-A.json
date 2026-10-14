@@ -1,0 +1,48 @@
+{
+  "rationale": "BHR, zadanie A (tryb oszczędny): statystyki państwa 1990-2025; wartości z wiedzy modelu; 2023-2025 sprawdzone wyszukiwaniem (brak protestów 2024-25, cięcia subsydiów 2023-24 bez odzewu ulicy; aresztowania sieci IRGC dopiero 2026, poza zakresem); 2011 powstanie (zamieszki, spadek stabilności i popularności); monarchia bez wyborów rządu, PM Salman bin Hamad od 2020 (następstwo po śmierci Khalify)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "BHR", "years": "1990-1993", "curve": "linear", "start": 70, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "BHR", "years": "1994-1999", "curve": "linear", "start": 62, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "BHR", "years": "2000-2005", "curve": "linear", "start": 62, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "BHR", "years": "2006-2010", "curve": "linear", "start": 70, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "BHR", "years": "2011-2013", "curve": "linear", "start": 45, "end": 47},
+    {"kind": "grade", "name": "stability", "targets": "BHR", "years": "2014-2019", "curve": "linear", "start": 48, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "BHR", "years": "2020-2025", "curve": "linear", "start": 55, "end": 58},
+
+    {"kind": "grade", "name": "corruption", "targets": "BHR", "years": "1990-1995", "curve": "linear", "start": 45, "end": 43.4},
+    {"kind": "grade", "name": "corruption", "targets": "BHR", "years": "2023-2025", "curve": "linear", "start": 47.2, "end": 47.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "BHR", "years": "1990-1994", "curve": "linear", "start": 62, "end": 58},
+    {"kind": "grade", "name": "happiness", "targets": "BHR", "years": "1995-1999", "curve": "linear", "start": 52, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "BHR", "years": "2000-2010", "curve": "linear", "start": 56, "end": 58},
+
+    {"kind": "grade", "name": "violence risk", "targets": "BHR", "years": "1990-1995", "curve": "linear", "start": 42, "end": 55},
+    {"kind": "grade", "name": "violence risk", "targets": "BHR", "years": "2023-2025", "curve": "constant", "start": 58, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "BHR", "years": "2024-2025", "curve": "linear", "start": 90.0, "end": 90.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "BHR", "years": "1990-2025", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "government revanchism", "targets": "BHR", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "BHR", "years": "1990-1994", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "BHR", "years": "1995-1999", "curve": "linear", "start": 42, "end": 48},
+    {"kind": "grade", "name": "government popularity", "targets": "BHR", "years": "2000-2002", "curve": "linear", "start": 55, "end": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "BHR", "years": "2003-2010", "curve": "linear", "start": 68, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "BHR", "years": "2011-2015", "curve": "linear", "start": 30, "end": 32},
+    {"kind": "grade", "name": "government popularity", "targets": "BHR", "years": "2016-2019", "curve": "linear", "start": 35, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "BHR", "years": "2020-2025", "curve": "linear", "start": 40, "end": 42},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "BHR", "years": "1990-1994", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BHR", "years": "1995-2010", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BHR", "years": "2011-2016", "curve": "linear", "start": 65, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BHR", "years": "2017-2025", "curve": "linear", "start": 65, "end": 62},
+
+    {"kind": "grade", "name": "assimilation", "targets": "BHR", "years": "1990-1999", "curve": "linear", "start": 40, "end": 36},
+    {"kind": "grade", "name": "assimilation", "targets": "BHR", "years": "2000-2010", "curve": "linear", "start": 36, "end": 32},
+    {"kind": "grade", "name": "assimilation", "targets": "BHR", "years": "2011-2025", "curve": "linear", "start": 32, "end": 30},
+
+    {"kind": "grade", "name": "riots", "targets": "BHR", "years": "1994-1995", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "BHR", "years": "2011", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "BHR", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

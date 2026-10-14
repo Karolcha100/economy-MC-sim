@@ -1,0 +1,56 @@
+{
+  "rationale": "MOZ, zadanie A (tryb oszczedny): okresy wg historii Mozambiku (wojna domowa do GPA 1992, wybory wielopartyjne 1994, okres wzrostu 2005-2010, kryzys dlugu ukrytego 2016, COVID 2020, insurgencja Cabo Delgado od 2017, protesty po wyborach 2024-2025); luki w seriach uzupelnione plynnie (only_empty, start current); flagi riots 2008, 2010, 2024, 2025 (zamieszki w Maputo, protesty powyborcze), epidemic 2020 (COVID, jak w kotwicach), war exhaustion po wojnie domowej 1990-1999",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "1990-1992", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "1993-1994", "curve": "linear", "start": 56, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "1995-2004", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "2005-2010", "curve": "linear", "start": 60, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "2011-2014", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "2015-2017", "curve": "linear", "start": 60, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "2018-2019", "curve": "linear", "start": 52, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "2020-2023", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "MOZ", "years": "2024-2025", "curve": "linear", "start": 38, "end": 42},
+
+    {"kind": "grade", "name": "corruption", "targets": "MOZ", "years": "1990-1995", "curve": "linear", "start": 60, "end": 58.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MOZ", "years": "2022-2025", "curve": "linear", "start": "current", "end": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MOZ", "years": "1990-1994", "curve": "linear", "start": 35, "end": 39, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MOZ", "years": "1995-2004", "curve": "linear", "start": 39.5, "end": 42.5, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MOZ", "years": "2005-2010", "curve": "linear", "start": 43, "end": 46.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MOZ", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MOZ", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MOZ", "years": "1990-1994", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MOZ", "years": "1995-2004", "curve": "linear", "start": 52, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MOZ", "years": "2005-2009", "curve": "linear", "start": 55, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "MOZ", "years": "2010-2014", "curve": "linear", "start": 65, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MOZ", "years": "2015-2019", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MOZ", "years": "2020-2023", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MOZ", "years": "2024-2025", "curve": "linear", "start": 30, "end": 25},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MOZ", "years": "1990-2007", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MOZ", "years": "2008-2010", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MOZ", "years": "2011-2023", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MOZ", "years": "2024-2025", "curve": "linear", "start": 62, "end": 65},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MOZ", "years": "2023-2025", "curve": "linear", "start": "current", "end": 50.2, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MOZ", "years": "1990-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MOZ", "years": "1990-1995", "curve": "manual", "values": [90, 90, 80, 65, 55, 52], "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MOZ", "years": "2022-2025", "curve": "manual", "values": [75.76, 76, 85, 82], "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "MOZ", "years": "2008", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "MOZ", "years": "2010", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "MOZ", "years": "2024", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "MOZ", "years": "2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MOZ", "years": "2020", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "MOZ", "years": "1990-1991", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "war exhaustion", "targets": "MOZ", "years": "1992-1995", "curve": "linear", "start": 55, "end": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "MOZ", "years": "1996-1999", "curve": "linear", "start": 12, "end": 5}
+  ]
+}

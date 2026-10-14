@@ -1,0 +1,799 @@
+{
+  "rationale": "NZL, zadanie B (oszczedny): relacje NZL -> 30 partnerow (AUS, USA, GBR, CAN, CHN, JPN, KOR, DEU, FRA, IND, SGP, TWN, RUS, UKR, MYS, PHL, IDN, VNM, FJI, PNG, WSM, TON, SLB, VUT, KIR, TUV, NRU, FSM, MHL, PLW); USA 2025 obnizone (cla 15% od VIII 2025), CHN: najwiekszy partner handlowy, dystans spoleczny od 2020; RUS i UKR: zmiana po 2014 i 2022; FJI: kryzys po zamachu 2006; hybrid attacks: NZL nie prowadzi dzialan (0 przez confirm-default); dwustronne: bez wpisow 2025 (NZL nie prowadzi dzialan wojskowych wobec YEM w 2025; wpis NZL-YEM 2024 z UCDP do przegladu); reszta confirm-default",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 85
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:AUS,NZL:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:AUS,NZL:JPN,NZL:KIR,NZL:TUV,NZL:NRU,NZL:FSM,NZL:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:AUS,NZL:GBR,NZL:KIR,NZL:TUV,NZL:NRU,NZL:FSM,NZL:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:USA",
+      "years": "2000-2024",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:USA",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:USA",
+      "years": "2000-2024",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:USA",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:USA,NZL:KOR,NZL:DEU,NZL:FRA,NZL:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:USA,NZL:CHN,NZL:KOR,NZL:DEU,NZL:FRA,NZL:IND,NZL:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:GBR,NZL:WSM,NZL:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:GBR,NZL:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:CAN,NZL:CHN,NZL:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:CAN,NZL:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:CAN,NZL:JPN,NZL:SGP",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:CHN",
+      "years": "1990-2007",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:CHN",
+      "years": "2008-2016",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:CHN",
+      "years": "2017-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:CHN",
+      "years": "1990-2019",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:CHN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:CHN",
+      "years": "1990-2000",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:CHN",
+      "years": "2001-2008",
+      "curve": "linear",
+      "start": 20,
+      "end": 35
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:CHN",
+      "years": "2009-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:JPN,NZL:DEU,NZL:WSM,NZL:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:JPN,NZL:DEU,NZL:WSM,NZL:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:JPN,NZL:FRA,NZL:IND,NZL:SGP,NZL:TWN,NZL:RUS,NZL:FJI,NZL:PNG,NZL:WSM,NZL:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:JPN,NZL:TWN,NZL:PNG,NZL:WSM,NZL:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:KOR,NZL:SGP,NZL:PNG,NZL:SLB,NZL:VUT,NZL:KIR,NZL:TUV,NZL:NRU,NZL:FSM,NZL:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:KOR,NZL:SGP,NZL:PNG,NZL:SLB,NZL:VUT,NZL:KIR,NZL:TUV,NZL:NRU,NZL:FSM,NZL:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:KOR,NZL:DEU,NZL:MYS,NZL:SLB,NZL:VUT,NZL:KIR,NZL:TUV,NZL:NRU,NZL:FSM,NZL:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:KOR,NZL:DEU,NZL:FRA,NZL:IND,NZL:SGP,NZL:RUS,NZL:FJI,NZL:SLB,NZL:VUT,NZL:KIR,NZL:TUV,NZL:NRU,NZL:FSM,NZL:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:KOR,NZL:IND,NZL:MYS,NZL:PHL,NZL:IDN,NZL:FJI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:DEU,NZL:FRA,NZL:TWN,NZL:RUS,NZL:VNM,NZL:PNG,NZL:WSM,NZL:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:FRA",
+      "years": "1990-1996",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:FRA",
+      "years": "1997-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:FRA",
+      "years": "1990-1996",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:FRA",
+      "years": "1997-2000",
+      "curve": "linear",
+      "start": -20,
+      "end": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:FRA",
+      "years": "2001-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:IND",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:IND",
+      "years": "2000-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:IND,NZL:TWN,NZL:MYS,NZL:PHL,NZL:IDN,NZL:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:TWN,NZL:RUS,NZL:MYS,NZL:PHL,NZL:IDN,NZL:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:RUS",
+      "years": "1990-2013",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:RUS",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": -5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:RUS",
+      "years": "1990-2013",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:RUS",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -50
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:RUS,NZL:MYS,NZL:PHL,NZL:IDN,NZL:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:UKR",
+      "years": "1991-2021",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:MYS,NZL:PHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:MYS,NZL:PHL,NZL:IDN,NZL:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:PHL,NZL:IDN,NZL:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:IDN,NZL:VNM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:FJI",
+      "years": "1990-2005",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:FJI",
+      "years": "2006-2013",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:FJI",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:FJI",
+      "years": "1990-2005",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:FJI",
+      "years": "2006-2013",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:FJI",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:FJI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:FJI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:PNG,NZL:SLB,NZL:VUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:PNG,NZL:SLB,NZL:VUT",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:WSM,NZL:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:SLB,NZL:VUT,NZL:KIR,NZL:TUV,NZL:NRU,NZL:FSM,NZL:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NZL:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NZL:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NZL:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NZL:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NZL:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NZL:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NZL:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 1
+    }
+  ]
+}

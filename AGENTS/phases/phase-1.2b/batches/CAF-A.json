@@ -1,0 +1,55 @@
+{
+  "rationale": "CAF, zadanie A, tryb oszczędny: rządy Kolingby (1990-1992), Patassego (1993-2002, mutiny 1996-1999, zamach 2003), Bozizego (2003-2012, rebelie na północy), zamach Séléki i upadek państwa (2013-2014), Samba-Panza (2014-2016), Touadera (od 2016); skala wg kotwic (SOM, SYR, VEN, POL); happiness przed 2011 i po 2019 oszacowane porównaniem z podobnymi państwami (w historii brak WHR dla CAF, wartości 2011-2019 były już w CSV)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "1990-1992", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "1993-1995", "curve": "manual", "values": [50, 45, 40]},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "1996-1999", "curve": "linear", "start": 30, "end": 20},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "2000-2002", "curve": "linear", "start": 20, "end": 10},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "2003-2003", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "2004-2012", "curve": "linear", "start": 10, "end": 20},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "2013-2014", "curve": "manual", "values": [5, 8]},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "2015-2015", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "2016-2020", "curve": "linear", "start": 15, "end": 25},
+    {"kind": "grade", "name": "stability", "targets": "CAF", "years": "2021-2025", "curve": "linear", "start": 25, "end": 30},
+
+    {"kind": "grade", "name": "corruption", "targets": "CAF", "years": "1990-1995", "curve": "linear", "start": 70, "end": 72.5},
+    {"kind": "grade", "name": "corruption", "targets": "CAF", "years": "2022-2025", "curve": "linear", "start": "current", "end": 74.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "CAF", "years": "1990-2010", "curve": "linear", "start": 42, "end": 35.5},
+    {"kind": "grade", "name": "happiness", "targets": "CAF", "years": "2019-2025", "curve": "linear", "start": "current", "end": 34, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "CAF", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "CAF", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "1990-1992", "curve": "linear", "start": 25, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "1993-1995", "curve": "manual", "values": [40, 38, 35]},
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "1996-2002", "curve": "linear", "start": 33, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "2003-2005", "curve": "manual", "values": [30, 45, 55]},
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "2006-2012", "curve": "linear", "start": 55, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "2013-2015", "curve": "manual", "values": [15, 25, 25]},
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "2016-2020", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "CAF", "years": "2021-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "CAF", "years": "1990-1995", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CAF", "years": "1996-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "CAF", "years": "2023-2025", "curve": "linear", "start": "current", "end": 42, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "CAF", "years": "1990-1995", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "CAF", "years": "1996-2012", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "CAF", "years": "2013-2016", "curve": "manual", "values": [35, 30, 25, 25]},
+    {"kind": "grade", "name": "assimilation", "targets": "CAF", "years": "2017-2025", "curve": "linear", "start": 25, "end": 35},
+
+    {"kind": "grade", "name": "violence risk", "targets": "CAF", "years": "1990-1995", "curve": "linear", "start": 50, "end": 70},
+    {"kind": "grade", "name": "violence risk", "targets": "CAF", "years": "2022-2025", "curve": "linear", "start": "current", "end": 92, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "CAF", "years": "2005-2012", "curve": "linear", "start": 15, "end": 30},
+    {"kind": "grade", "name": "war exhaustion", "targets": "CAF", "years": "2013-2019", "curve": "manual", "values": [40, 50, 55, 50, 45, 45, 40]},
+    {"kind": "grade", "name": "war exhaustion", "targets": "CAF", "years": "2020-2025", "curve": "linear", "start": 40, "end": 35},
+
+    {"kind": "grade", "name": "epidemic", "targets": "CAF", "years": "2020-2020", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "CAF", "years": "1996-1996", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "state collapse", "targets": "CAF", "years": "2013-2014", "curve": "constant", "start": 1}
+  ]
+}

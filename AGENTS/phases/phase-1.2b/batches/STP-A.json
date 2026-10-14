@@ -1,0 +1,51 @@
+{
+  "rationale": "STP, zadanie A (statystyki państwa), tryb oszczędny. Brak danych WHR: happiness oszacowane porównaniem z podobnymi państwami (Afryka Subsaharyjska, niski-średni rozwój, małe państwo). Luki w wskaźnikach startowych wypełnione płynnie z istniejącymi wartościami. Przebieg polityczny: transformacja 1990-91, niepokoje 1995, zamach 2003, zmiany rządów, kryzys 2024-25 (dymisja premiera Trovoady w styczniu 2025).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "1990-1991", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "1992-1994", "curve": "linear", "start": 55, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "1995-1996", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "1997-2001", "curve": "linear", "start": 52, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "2002-2003", "curve": "linear", "start": 48, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "2004-2010", "curve": "linear", "start": 35, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "2011-2016", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "2017-2021", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "STP", "years": "2022-2025", "curve": "manual", "values": [55, 52, 42, 35]},
+
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "1990-1991", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "1992-1995", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "1996-2001", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "2002-2003", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "2004-2010", "curve": "linear", "start": 30, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "2011-2015", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "2016-2021", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "STP", "years": "2022-2025", "curve": "manual", "values": [45, 42, 36, 34]},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "STP", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "STP", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "STP", "years": "1990-2021", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "STP", "years": "2022-2025", "curve": "linear", "start": 62, "end": 65},
+
+    {"kind": "grade", "name": "assimilation", "targets": "STP", "years": "1990-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "happiness", "targets": "STP", "years": "1990-1995", "curve": "linear", "start": 45, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "STP", "years": "1996-2000", "curve": "linear", "start": 42, "end": 44},
+    {"kind": "grade", "name": "happiness", "targets": "STP", "years": "2001-2005", "curve": "linear", "start": 44, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "STP", "years": "2006-2010", "curve": "linear", "start": 46, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "STP", "years": "2011-2015", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "happiness", "targets": "STP", "years": "2016-2020", "curve": "linear", "start": 50, "end": 47},
+    {"kind": "grade", "name": "happiness", "targets": "STP", "years": "2021-2025", "curve": "linear", "start": 47, "end": 48},
+
+    {"kind": "grade", "name": "corruption", "targets": "STP", "years": "1990-1995", "curve": "linear", "start": 38, "end": 41.5},
+    {"kind": "grade", "name": "corruption", "targets": "STP", "years": "2023-2025", "curve": "linear", "start": 44.5, "end": 45.5},
+
+    {"kind": "grade", "name": "violence risk", "targets": "STP", "years": "1990-1995", "curve": "linear", "start": 30, "end": 31},
+    {"kind": "grade", "name": "violence risk", "targets": "STP", "years": "2023-2025", "curve": "linear", "start": 37.5, "end": 36},
+
+    {"kind": "grade", "name": "civilization level", "targets": "STP", "years": "1990-1995", "curve": "linear", "start": 45, "end": 47.5},
+    {"kind": "grade", "name": "civilization level", "targets": "STP", "years": "1996-2004", "curve": "linear", "start": 47.5, "end": 53},
+    {"kind": "grade", "name": "civilization level", "targets": "STP", "years": "2024-2025", "curve": "linear", "start": 64, "end": 64.3},
+
+    {"kind": "grade", "name": "epidemic", "targets": "STP", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

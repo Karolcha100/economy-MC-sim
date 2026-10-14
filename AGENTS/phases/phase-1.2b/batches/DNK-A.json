@@ -1,0 +1,46 @@
+{
+  "rationale": "DNK, zadanie A (statystyki państwa), tryb oszczędny. Stabilność instytucji bardzo wysoka (jak NOR/CHE), spadek w 2022 przy tworzeniu rządu po wyborach. Korupcja, szczęście i wskaźniki (violence risk, civilization level) łączą się płynnie z istniejącymi wartościami. Poparcie rządu wg sondaży 2023–2025 (ok. 54% w maju 2025, ok. 40% w grudniu 2025). Pozostałe statystyki wg kotwic (NOR, CHE, DEU) i historii państwa.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "DNK", "years": "1990-1996", "curve": "constant", "start": 88},
+    {"kind": "grade", "name": "stability", "targets": "DNK", "years": "1997-2010", "curve": "constant", "start": 90},
+    {"kind": "grade", "name": "stability", "targets": "DNK", "years": "2011-2021", "curve": "constant", "start": 89},
+    {"kind": "grade", "name": "stability", "targets": "DNK", "years": "2022-2022", "curve": "constant", "start": 84},
+    {"kind": "grade", "name": "stability", "targets": "DNK", "years": "2023-2025", "curve": "linear", "start": 85, "end": 87},
+
+    {"kind": "grade", "name": "corruption", "targets": "DNK", "years": "1990-1995", "curve": "linear", "start": 5.6, "end": 5.4},
+    {"kind": "grade", "name": "corruption", "targets": "DNK", "years": "2022-2025", "curve": "linear", "start": 1.946, "end": 2.2, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "DNK", "years": "1990-2010", "curve": "linear", "start": 74, "end": 78},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "DNK", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "DNK", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "1990-1992", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "1993-1996", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "1997-2000", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "2001-2009", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "2010-2014", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "2015-2019", "curve": "linear", "start": 35, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "2020-2021", "curve": "linear", "start": 58, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "2022-2024", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "government popularity", "targets": "DNK", "years": "2025-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "DNK", "years": "1990-2008", "curve": "constant", "start": 42},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DNK", "years": "2009-2025", "curve": "linear", "start": 42, "end": 48},
+
+    {"kind": "grade", "name": "civilization level", "targets": "DNK", "years": "2023-2025", "curve": "linear", "start": 96.2, "end": 96.5, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "DNK", "years": "1990-2000", "curve": "linear", "start": 74, "end": 72},
+    {"kind": "grade", "name": "assimilation", "targets": "DNK", "years": "2001-2010", "curve": "linear", "start": 72, "end": 66},
+    {"kind": "grade", "name": "assimilation", "targets": "DNK", "years": "2011-2019", "curve": "linear", "start": 66, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "DNK", "years": "2020-2025", "curve": "linear", "start": 60, "end": 58},
+
+    {"kind": "grade", "name": "violence risk", "targets": "DNK", "years": "1990-1995", "curve": "constant", "start": 21.2},
+    {"kind": "grade", "name": "violence risk", "targets": "DNK", "years": "2022-2025", "curve": "linear", "start": 32.7, "end": 33.0, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "DNK", "years": "2003-2014", "curve": "constant", "start": 10},
+
+    {"kind": "grade", "name": "epidemic", "targets": "DNK", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "rationale": "CRI, zadanie A (statystyki państwa), tryb oszczędny: szacunki z wiedzy o historii Kostaryki; dla rządu Chaves (2022-2025) orientacyjnie wyniki sondaży CIEP-UCR (wartości pozytywnych ocen, 58-64% w 2025 r.)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "CRI", "years": "1990-2005", "curve": "linear", "start": 84, "end": 86},
+    {"kind": "grade", "name": "stability", "targets": "CRI", "years": "2006-2017", "curve": "linear", "start": 86, "end": 85},
+    {"kind": "grade", "name": "stability", "targets": "CRI", "years": "2018-2022", "curve": "linear", "start": 85, "end": 79},
+    {"kind": "grade", "name": "stability", "targets": "CRI", "years": "2023-2025", "curve": "linear", "start": 78, "end": 77},
+
+    {"kind": "grade", "name": "corruption", "targets": "CRI", "years": "1990-1995", "curve": "linear", "start": 37.0, "end": 36.4},
+    {"kind": "grade", "name": "corruption", "targets": "CRI", "years": "2023-2025", "curve": "linear", "start": 41.5, "end": 43.5},
+
+    {"kind": "grade", "name": "violence risk", "targets": "CRI", "years": "1990-1995", "curve": "linear", "start": 36, "end": 35},
+    {"kind": "grade", "name": "violence risk", "targets": "CRI", "years": "2023-2025", "curve": "linear", "start": 31, "end": 33},
+
+    {"kind": "grade", "name": "happiness", "targets": "CRI", "years": "1990-2000", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "happiness", "targets": "CRI", "years": "2001-2010", "curve": "linear", "start": 72, "end": 72.5},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "CRI", "years": "1990-2009", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "social revanchism", "targets": "CRI", "years": "2010-2011", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "social revanchism", "targets": "CRI", "years": "2012-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "CRI", "years": "1990-2009", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "CRI", "years": "2010-2012", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "government revanchism", "targets": "CRI", "years": "2013-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "1990-1994", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "1995-1998", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "1999-2002", "curve": "linear", "start": 48, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "2003-2006", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "2007-2010", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "2011-2014", "curve": "linear", "start": 60, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "2015-2018", "curve": "linear", "start": 45, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "2019-2021", "curve": "linear", "start": 35, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "CRI", "years": "2022-2025", "curve": "manual", "values": [40, 52, 56, 60]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "CRI", "years": "1990-2017", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CRI", "years": "2018-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "CRI", "years": "1990-2010", "curve": "linear", "start": 58, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "CRI", "years": "2011-2019", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "CRI", "years": "2020-2025", "curve": "linear", "start": 58, "end": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "CRI", "years": "2024-2025", "curve": "linear", "start": 83.6, "end": 83.9},
+
+    {"kind": "grade", "name": "epidemic", "targets": "CRI", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

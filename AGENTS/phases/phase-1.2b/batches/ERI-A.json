@@ -1,0 +1,58 @@
+{
+  "rationale": "ERI, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Erytrei (niepodległość 1993, wojna z Etiopią 1998-2000, reżim jednej partii bez wyborów, pobór bezterminowy, sankcje i emigracja 2009-2018, pokój z Etiopią 2018, udział w wojnie w Tigraju 2020-2022). Brak WHR i sondaży: happiness, popularność rządu i nastroje to oszacowania przez porównanie z Somalią, Indiami, Syrią i Etiopią. Istniejące wartości (corruption 1996-2022, violence risk 1996-2022, civilization level 2005-2023) nie są zmieniane; luki uzupełniono z płynnym połączeniem (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "ERI", "years": "1993-1997", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "ERI", "years": "1998-2001", "curve": "linear", "start": 60, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "ERI", "years": "2002-2017", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "ERI", "years": "2018-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "corruption", "targets": "ERI", "years": "1993-1995", "curve": "linear", "start": 36, "end": 38.8},
+    {"kind": "grade", "name": "corruption", "targets": "ERI", "years": "2022-2025", "curve": "constant", "start": "current", "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "ERI", "years": "1993-1997", "curve": "linear", "start": 42, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "ERI", "years": "1998-2001", "curve": "linear", "start": 40, "end": 34},
+    {"kind": "grade", "name": "happiness", "targets": "ERI", "years": "2002-2005", "curve": "linear", "start": 34, "end": 38},
+    {"kind": "grade", "name": "happiness", "targets": "ERI", "years": "2006-2010", "curve": "constant", "start": 38},
+    {"kind": "grade", "name": "happiness", "targets": "ERI", "years": "2011-2017", "curve": "linear", "start": 38, "end": 36},
+    {"kind": "grade", "name": "happiness", "targets": "ERI", "years": "2018-2025", "curve": "linear", "start": 36, "end": 34},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "ERI", "years": "1993-1997", "curve": "constant", "start": 8},
+    {"kind": "grade", "name": "social revanchism", "targets": "ERI", "years": "1998-2001", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "social revanchism", "targets": "ERI", "years": "2002-2017", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "social revanchism", "targets": "ERI", "years": "2018-2025", "curve": "constant", "start": 12},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "ERI", "years": "1993-1997", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "ERI", "years": "1998-2001", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "government revanchism", "targets": "ERI", "years": "2002-2025", "curve": "constant", "start": 20},
+
+    {"kind": "grade", "name": "government popularity", "targets": "ERI", "years": "1993-1997", "curve": "linear", "start": 70, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "ERI", "years": "1998-2001", "curve": "linear", "start": 65, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "ERI", "years": "2002-2017", "curve": "linear", "start": 48, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ERI", "years": "2018-2019", "curve": "linear", "start": 30, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ERI", "years": "2020-2025", "curve": "linear", "start": 40, "end": 30},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "ERI", "years": "1993-1997", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ERI", "years": "1998-2001", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ERI", "years": "2002-2025", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "civilization level", "targets": "ERI", "years": "1993-2004", "curve": "linear", "start": 37.5, "end": 47},
+    {"kind": "grade", "name": "civilization level", "targets": "ERI", "years": "2023-2025", "curve": "linear", "start": "current", "end": 50.8, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "ERI", "years": "1993-1997", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "ERI", "years": "1998-2009", "curve": "linear", "start": 53, "end": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "ERI", "years": "2010-2025", "curve": "linear", "start": 49, "end": 45},
+
+    {"kind": "grade", "name": "violence risk", "targets": "ERI", "years": "1993-1995", "curve": "linear", "start": 55, "end": 64},
+    {"kind": "grade", "name": "violence risk", "targets": "ERI", "years": "2022-2025", "curve": "linear", "start": "current", "end": 72, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "ERI", "years": "2020", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "ERI", "years": "1998-2000", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "ERI", "years": "1998-2000", "curve": "linear", "start": 20, "end": 60},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ERI", "years": "2001-2009", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ERI", "years": "2010-2017", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ERI", "years": "2018-2019", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ERI", "years": "2020-2022", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "war exhaustion", "targets": "ERI", "years": "2023-2025", "curve": "linear", "start": 40, "end": 30}
+  ]
+}

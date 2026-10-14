@@ -1,0 +1,46 @@
+{
+  "rationale": "MLT, zadanie A (statystyki państwa), tryb oszczędny. Stabilność: dwupartyjny system bez przemocy; spadki w 1996, 2017 (wybory przedterminowe), 2019 (afera Caruana Galizia, dymisja Muscata), 2020-2021 pandemia (epidemia = 1). Korupcja: wskaźnik CPI 51 (2023), 46 (2024), 49 (2025) - uzupełniono 2023-2025 w tej logice. Popularność rządu, nastroje i rewanżyzm: estymacja bez sondaży (niska pewność). Asymilacja obniżona wraz ze wzrostem udziału migrantów (ok. 4% w 1990, ok. 22% w 2020). Uzupełniono tylko brakujące lata wskaźników startowych (korupcja 1990-1995 i 2023-2025, przemoc 1990-1995 i 2023-2025, szczęście 1990-2010, cywilizacja 2024-2025); istniejących wartości nie zmieniano (only_empty). Flagi migracji i zamieszek pozostawiono na domyślnej 0.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MLT", "years": "1990-1995", "curve": "constant", "start": 84},
+    {"kind": "grade", "name": "stability", "targets": "MLT", "years": "1996-1998", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "MLT", "years": "1999-2016", "curve": "constant", "start": 84},
+    {"kind": "grade", "name": "stability", "targets": "MLT", "years": "2017-2018", "curve": "constant", "start": 79},
+    {"kind": "grade", "name": "stability", "targets": "MLT", "years": "2019", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "stability", "targets": "MLT", "years": "2020-2021", "curve": "linear", "start": 72, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "MLT", "years": "2022-2025", "curve": "linear", "start": 80, "end": 82},
+
+    {"kind": "grade", "name": "corruption", "targets": "MLT", "years": "1990-1995", "curve": "linear", "start": 42, "end": 40.8, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MLT", "years": "2023-2025", "curve": "manual", "values": [46.5, 49.5, 48.0], "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MLT", "years": "1990-1995", "curve": "linear", "start": 24.0, "end": 23.6, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MLT", "years": "2023-2025", "curve": "constant", "start": 31.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MLT", "years": "1990-1999", "curve": "linear", "start": 58, "end": 59, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MLT", "years": "2000-2010", "curve": "linear", "start": 59, "end": 59.5, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MLT", "years": "2024-2025", "curve": "linear", "start": 92.7, "end": 93.0, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MLT", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MLT", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "1990-1995", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "1996-1998", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "1999-2012", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "2013-2016", "curve": "linear", "start": 58, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "2017-2018", "curve": "linear", "start": 56, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "2019", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "2020-2021", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MLT", "years": "2022-2025", "curve": "linear", "start": 50, "end": 48},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MLT", "years": "1990-1999", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MLT", "years": "2000-2025", "curve": "linear", "start": 48, "end": 52},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MLT", "years": "1990-2009", "curve": "linear", "start": 70, "end": 66},
+    {"kind": "grade", "name": "assimilation", "targets": "MLT", "years": "2010-2014", "curve": "linear", "start": 66, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "MLT", "years": "2015-2019", "curve": "linear", "start": 62, "end": 56},
+    {"kind": "grade", "name": "assimilation", "targets": "MLT", "years": "2020-2025", "curve": "linear", "start": 55, "end": 53},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MLT", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

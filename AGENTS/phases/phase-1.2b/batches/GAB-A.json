@@ -1,0 +1,59 @@
+{
+  "rationale": "GAB, zadanie A (statystyki państwa), tryb oszczędny. Okres Omara Bongo 1990–2008 (transycja wielopartyjna 1990, wybory 1993 i porozumienia 1994, konsolidacja i boom naftowy); śmierć Omara Bongo i sukcesja Ali Bongo 2009 (wybory sporne, zamieszki w Port-Gentil 2009); Ali Bongo 2010–2022 (wybory 2016 i zamieszki po nich, udar 2018, nieudany zamach 2019, kryzys cen ropy i program MFW); zamach wojskowy 30 sierpnia 2023 (Oligui Nguema); okres przejściowy 2024 (referendum konstytucyjne); wybory prezydenckie kwiecień 2025 (wstępnie 90,35%, potwierdzone przez Sąd Konstytucyjny). Lata 2023–2025 sprawdzone w wyszukiwarce. Wartości zgodne z istniejącymi szeregami (corruption 1996–2022, violence risk 1996–2022, happiness 2012–2025, civilization level 1990–2023). Flagi tylko w latach zdarzeń (riots 2009, 2016; epidemic COVID 2020–2021).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "1990-1993", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "1994-1999", "curve": "linear", "start": 45, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2000-2008", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2009", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2010-2015", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2016", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2017-2018", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2019", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2020-2022", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2023", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2024", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "stability", "targets": "GAB", "years": "2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "corruption", "targets": "GAB", "years": "1990-1995", "curve": "linear", "start": 74, "end": 72.5},
+    {"kind": "grade", "name": "corruption", "targets": "GAB", "years": "2023-2025", "curve": "manual", "values": [70, 68, 66]},
+
+    {"kind": "grade", "name": "violence risk", "targets": "GAB", "years": "1990-1995", "curve": "linear", "start": 52, "end": 48.5},
+    {"kind": "grade", "name": "violence risk", "targets": "GAB", "years": "2023-2025", "curve": "manual", "values": [50, 48, 46]},
+
+    {"kind": "grade", "name": "happiness", "targets": "GAB", "years": "1990-1994", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "GAB", "years": "1995-2004", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "GAB", "years": "2005-2008", "curve": "linear", "start": 42, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "GAB", "years": "2009-2011", "curve": "manual", "values": [38, 39, 40]},
+
+    {"kind": "grade", "name": "civilization level", "targets": "GAB", "years": "2024-2025", "curve": "linear", "start": 73.5, "end": 73.8},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "GAB", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "GAB", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "1990-1993", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "1994-1999", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2000-2008", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2009-2010", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2011-2015", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2016-2019", "curve": "linear", "start": 30, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2020-2022", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2023", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2024", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "GAB", "years": "2025", "curve": "constant", "start": 75},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "GAB", "years": "1990-1993", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GAB", "years": "1994-1999", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GAB", "years": "2000-2015", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GAB", "years": "2016-2019", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GAB", "years": "2020-2022", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GAB", "years": "2023-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "GAB", "years": "1990-2025", "curve": "linear", "start": 55, "end": 50},
+
+    {"kind": "grade", "name": "riots", "targets": "GAB", "years": "2009", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "GAB", "years": "2016", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "GAB", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

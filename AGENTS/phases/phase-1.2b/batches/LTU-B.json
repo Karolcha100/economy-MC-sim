@@ -1,0 +1,2662 @@
+{
+  "rationale": "LTU, zadanie B: relacje od LTU do 17 partnerow (sasiedzi, mocarstwa, Nordycy, UE/NATO, Ukraina, Tajwan, Chiny); hybrid attacks = domyslne 0 (LTU nie prowadzi dzialan hybrydowych); in war crisis: tylko LTU-RUS 1991",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:LVA",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Kraje baltyckie: wspolna polityka obronna i regionalna, dobre relacje w UE i NATO (Rada Baltycka, wspolne projekty infrastrukturalne)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:LVA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Kraje baltyckie: wspolna polityka obronna i regionalna, dobre relacje w UE i NATO (Rada Baltycka, wspolne projekty infrastrukturalne)."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:LVA",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Spoleczenstwo: solidarnosc baltycka, ale z nieufnoscia wobec mniejszosci rosyjskojezycznej na Lotwie."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:LVA",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Spoleczenstwo: solidarnosc baltycka, ale z nieufnoscia wobec mniejszosci rosyjskojezycznej na Lotwie."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:LVA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Spoleczenstwo: solidarnosc baltycka, ale z nieufnoscia wobec mniejszosci rosyjskojezycznej na Lotwie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:LVA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Litwa nie czuje zaleznosci od Lotwy."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:LVA",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Litwa postrzega wplyw na Lotwe w sprawach regionalnych i UE jako przecietny."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:LVA",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Litwa postrzega wplyw na Lotwe w sprawach regionalnych i UE jako przecietny."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:LVA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci politycznej i wojskowej od Lotwy."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:LVA",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Realny wplyw Litwy na Lotwe przecietny (wspolna polityka baltycka, infrastruktura, energia)."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:LVA",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Realny wplyw Litwy na Lotwe przecietny (wspolna polityka baltycka, infrastruktura, energia)."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:LVA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Realny wplyw Litwy na Lotwe przecietny (wspolna polityka baltycka, infrastruktura, energia)."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:LVA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Handel z Lotwa wazny, ale nie krytyczny (ok. 10% obrotow, wymiana ze sciezka tranzytu)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:EST",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Kraje baltyckie: dobre relacje w UE i NATO, wspolne stanowisko w sprawach bezpieczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:EST",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Kraje baltyckie: dobre relacje w UE i NATO, wspolne stanowisko w sprawach bezpieczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:EST",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Spoleczenstwo: sympatia dla Estonii w ramach wspolnoty baltyckiej."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:EST",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Spoleczenstwo: sympatia dla Estonii w ramach wspolnoty baltyckiej."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:EST",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Brak poczucia zaleznosci od Estonii."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:EST",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Przecietny wplyw Litwy w regionie baltyckim."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:EST",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Przecietny wplyw Litwy w regionie baltyckim."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:EST",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci politycznej i wojskowej od Estonii."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:EST",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Realny wplyw Litwy na Estonie ograniczony, glownie w ramach wspolnych inicjatyw baltyckich."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:EST",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Realny wplyw Litwy na Estonie ograniczony, glownie w ramach wspolnych inicjatyw baltyckich."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:EST",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Realny wplyw Litwy na Estonie ograniczony, glownie w ramach wspolnych inicjatyw baltyckich."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:EST",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Handel z Estonia niewielki; brak zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:POL",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Sasiedzi w NATO i UE; w latach 90. spory o mniejszosc polska w Wilnie lagodzone traktatem z 1994; dobre stosunki po 2004 (wspolna polityka wschodnia, wsparcie Ukrainy, Suwalki)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:POL",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Sasiedzi w NATO i UE; w latach 90. spory o mniejszosc polska w Wilnie lagodzone traktatem z 1994; dobre stosunki po 2004 (wspolna polityka wschodnia, wsparcie Ukrainy, Suwalki)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:POL",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Sasiedzi w NATO i UE; w latach 90. spory o mniejszosc polska w Wilnie lagodzone traktatem z 1994; dobre stosunki po 2004 (wspolna polityka wschodnia, wsparcie Ukrainy, Suwalki)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:POL",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Sasiedzi w NATO i UE; w latach 90. spory o mniejszosc polska w Wilnie lagodzone traktatem z 1994; dobre stosunki po 2004 (wspolna polityka wschodnia, wsparcie Ukrainy, Suwalki)."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:POL",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Opinia publiczna: Polska jako kluczowy partner (sondaz MSZ); wczesniej napiecia wokol mniejszosci polskiej.",
+      "sources": [
+        "https://www.urm.lt/default/en/news/public-opinion-poll-shows-lithuanians-consider-poland-as-key-partner"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:POL",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Opinia publiczna: Polska jako kluczowy partner (sondaz MSZ); wczesniej napiecia wokol mniejszosci polskiej.",
+      "sources": [
+        "https://www.urm.lt/default/en/news/public-opinion-poll-shows-lithuanians-consider-poland-as-key-partner"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:POL",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Opinia publiczna: Polska jako kluczowy partner (sondaz MSZ); wczesniej napiecia wokol mniejszosci polskiej.",
+      "sources": [
+        "https://www.urm.lt/default/en/news/public-opinion-poll-shows-lithuanians-consider-poland-as-key-partner"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:POL",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "Opinia publiczna: Polska jako kluczowy partner (sondaz MSZ); wczesniej napiecia wokol mniejszosci polskiej.",
+      "sources": [
+        "https://www.urm.lt/default/en/news/public-opinion-poll-shows-lithuanians-consider-poland-as-key-partner"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:POL",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa nie widzi siebie jako zaleznej od Polski (partnerstwo, nie zwierzchnictwo)."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:POL",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Wplyw Litwy na Polske w sprawach regionalnych (Partnerstwo Wschodnie, Baltyk/Wielkie Ksiestwo, sprawy UE) przecietny."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:POL",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Wplyw Litwy na Polske w sprawach regionalnych (Partnerstwo Wschodnie, Baltyk/Wielkie Ksiestwo, sprawy UE) przecietny."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:POL",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Niska realna zaleznosc polityczno-wojskowa od Polski."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:POL",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Ograniczony, ale realny wplyw Litwy na Polske w ramach wspolnej polityki regionalnej."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:POL",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 12,
+      "rationale": "Ograniczony, ale realny wplyw Litwy na Polske w ramach wspolnej polityki regionalnej."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:POL",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Ograniczony, ale realny wplyw Litwy na Polske w ramach wspolnej polityki regionalnej."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:POL",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Handel z Polska wzrasta po 2004 (wspolny rynek UE), ale nie dominuje w gospodarce Litwy."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:POL",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Handel z Polska wzrasta po 2004 (wspolny rynek UE), ale nie dominuje w gospodarce Litwy."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:BLR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Poprawne relacje w 1991-93; po 1994 chlodne, pragmatyczne (rezim Łukaszenki); 2020-21 kryzys po wyborach i presja migracyjna; 2022-25 zamykanie przejsc granicznych po balonach przemytniczych (paz 2025) i ostre spory.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:BLR",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Poprawne relacje w 1991-93; po 1994 chlodne, pragmatyczne (rezim Łukaszenki); 2020-21 kryzys po wyborach i presja migracyjna; 2022-25 zamykanie przejsc granicznych po balonach przemytniczych (paz 2025) i ostre spory.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:BLR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Poprawne relacje w 1991-93; po 1994 chlodne, pragmatyczne (rezim Łukaszenki); 2020-21 kryzys po wyborach i presja migracyjna; 2022-25 zamykanie przejsc granicznych po balonach przemytniczych (paz 2025) i ostre spory.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:BLR",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Poprawne relacje w 1991-93; po 1994 chlodne, pragmatyczne (rezim Łukaszenki); 2020-21 kryzys po wyborach i presja migracyjna; 2022-25 zamykanie przejsc granicznych po balonach przemytniczych (paz 2025) i ostre spory.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:BLR",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": -45,
+      "rationale": "Poprawne relacje w 1991-93; po 1994 chlodne, pragmatyczne (rezim Łukaszenki); 2020-21 kryzys po wyborach i presja migracyjna; 2022-25 zamykanie przejsc granicznych po balonach przemytniczych (paz 2025) i ostre spory.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:BLR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -70,
+      "rationale": "Poprawne relacje w 1991-93; po 1994 chlodne, pragmatyczne (rezim Łukaszenki); 2020-21 kryzys po wyborach i presja migracyjna; 2022-25 zamykanie przejsc granicznych po balonach przemytniczych (paz 2025) i ostre spory.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:BLR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Spoleczenstwo: neutralne wobec Białorusi w latach 90.; pogorszenie po 2020 (represje wobec opozycji, rola Białorusi w kryzysach migracyjnych i balonach).",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:BLR",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Spoleczenstwo: neutralne wobec Białorusi w latach 90.; pogorszenie po 2020 (represje wobec opozycji, rola Białorusi w kryzysach migracyjnych i balonach).",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:BLR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": -5,
+      "rationale": "Spoleczenstwo: neutralne wobec Białorusi w latach 90.; pogorszenie po 2020 (represje wobec opozycji, rola Białorusi w kryzysach migracyjnych i balonach).",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:BLR",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": -15,
+      "rationale": "Spoleczenstwo: neutralne wobec Białorusi w latach 90.; pogorszenie po 2020 (represje wobec opozycji, rola Białorusi w kryzysach migracyjnych i balonach).",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:BLR",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": -30,
+      "rationale": "Spoleczenstwo: neutralne wobec Białorusi w latach 90.; pogorszenie po 2020 (represje wobec opozycji, rola Białorusi w kryzysach migracyjnych i balonach).",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:BLR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -35,
+      "rationale": "Spoleczenstwo: neutralne wobec Białorusi w latach 90.; pogorszenie po 2020 (represje wobec opozycji, rola Białorusi w kryzysach migracyjnych i balonach).",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:BLR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Litwa nie widzi siebie jako zaleznej od Białorusi; zaleznosc od energii (Ostrowiec, budowa elektrowni) postrzegana jako zagrozenie, nie jako uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:BLR",
+      "years": "1994-2013",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa nie widzi siebie jako zaleznej od Białorusi; zaleznosc od energii (Ostrowiec, budowa elektrowni) postrzegana jako zagrozenie, nie jako uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:BLR",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Litwa nie widzi siebie jako zaleznej od Białorusi; zaleznosc od energii (Ostrowiec, budowa elektrowni) postrzegana jako zagrozenie, nie jako uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:BLR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Litwa nie widzi siebie jako zaleznej od Białorusi; zaleznosc od energii (Ostrowiec, budowa elektrowni) postrzegana jako zagrozenie, nie jako uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:BLR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Ograniczony wplyw Litwy na Bialorus: granica, handel tranzytowy, wsparcie opozycji na emigracji."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:BLR",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 12,
+      "rationale": "Ograniczony wplyw Litwy na Bialorus: granica, handel tranzytowy, wsparcie opozycji na emigracji."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:BLR",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Ograniczony wplyw Litwy na Bialorus: granica, handel tranzytowy, wsparcie opozycji na emigracji."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:BLR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Ograniczony wplyw Litwy na Bialorus: granica, handel tranzytowy, wsparcie opozycji na emigracji."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:BLR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Realna zaleznosc polityczno-wojskowa od Bialorusi niewielka; ewentualne naciski wojskowe ze strony Bialorusi traktowane jako zagrozenie, ale nie zaleznosc."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:BLR",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Realna zaleznosc polityczno-wojskowa od Bialorusi niewielka; ewentualne naciski wojskowe ze strony Bialorusi traktowane jako zagrozenie, ale nie zaleznosc."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:BLR",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Realna zaleznosc polityczno-wojskowa od Bialorusi niewielka; ewentualne naciski wojskowe ze strony Bialorusi traktowane jako zagrozenie, ale nie zaleznosc."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:BLR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Realna zaleznosc polityczno-wojskowa od Bialorusi niewielka; ewentualne naciski wojskowe ze strony Bialorusi traktowane jako zagrozenie, ale nie zaleznosc."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:BLR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Realny wplyw Litwy na Bialorus ograniczony; najwazniejsze narzedzia: granica, tranzyt, sankcje UE."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:BLR",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 12,
+      "rationale": "Realny wplyw Litwy na Bialorus ograniczony; najwazniejsze narzedzia: granica, tranzyt, sankcje UE."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:BLR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Realny wplyw Litwy na Bialorus ograniczony; najwazniejsze narzedzia: granica, tranzyt, sankcje UE."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:BLR",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Realny wplyw Litwy na Bialorus ograniczony; najwazniejsze narzedzia: granica, tranzyt, sankcje UE."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:BLR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Handel przygraniczny i tranzyt znaczacy w latach 90. i 2000.; po 2020-21 spadek (zamkniecie przejsc, sankcje UE); 2022-25 znikoma.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:BLR",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Handel przygraniczny i tranzyt znaczacy w latach 90. i 2000.; po 2020-21 spadek (zamkniecie przejsc, sankcje UE); 2022-25 znikoma.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:BLR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 12,
+      "rationale": "Handel przygraniczny i tranzyt znaczacy w latach 90. i 2000.; po 2020-21 spadek (zamkniecie przejsc, sankcje UE); 2022-25 znikoma.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:BLR",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Handel przygraniczny i tranzyt znaczacy w latach 90. i 2000.; po 2020-21 spadek (zamkniecie przejsc, sankcje UE); 2022-25 znikoma.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:BLR",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Handel przygraniczny i tranzyt znaczacy w latach 90. i 2000.; po 2020-21 spadek (zamkniecie przejsc, sankcje UE); 2022-25 znikoma.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:BLR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Handel przygraniczny i tranzyt znaczacy w latach 90. i 2000.; po 2020-21 spadek (zamkniecie przejsc, sankcje UE); 2022-25 znikoma.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/10/27/lithuania-to-shoot-down-smuggler-balloons-shut-belarus-border-crossings",
+        "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1881377"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:RUS",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": -20,
+      "rationale": "Rosja: wojska sowieckie/rosyjskie w Litwie do sierpnia 1993 (wydarzenia styczniowe 1991); 1994-2003 pragmatyczne stosunki; po 2004 chlodno (NATO/UE); po 2014 sankcje i zamrozone kontakty; 2020-21 pogorszenie; 2022-25 praktycznie najnizszy poziom (pelne wsparcie Ukrainy, ograniczenie placowek rosyjskich).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:RUS",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Rosja: wojska sowieckie/rosyjskie w Litwie do sierpnia 1993 (wydarzenia styczniowe 1991); 1994-2003 pragmatyczne stosunki; po 2004 chlodno (NATO/UE); po 2014 sankcje i zamrozone kontakty; 2020-21 pogorszenie; 2022-25 praktycznie najnizszy poziom (pelne wsparcie Ukrainy, ograniczenie placowek rosyjskich).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:RUS",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Rosja: wojska sowieckie/rosyjskie w Litwie do sierpnia 1993 (wydarzenia styczniowe 1991); 1994-2003 pragmatyczne stosunki; po 2004 chlodno (NATO/UE); po 2014 sankcje i zamrozone kontakty; 2020-21 pogorszenie; 2022-25 praktycznie najnizszy poziom (pelne wsparcie Ukrainy, ograniczenie placowek rosyjskich).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:RUS",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": -40,
+      "rationale": "Rosja: wojska sowieckie/rosyjskie w Litwie do sierpnia 1993 (wydarzenia styczniowe 1991); 1994-2003 pragmatyczne stosunki; po 2004 chlodno (NATO/UE); po 2014 sankcje i zamrozone kontakty; 2020-21 pogorszenie; 2022-25 praktycznie najnizszy poziom (pelne wsparcie Ukrainy, ograniczenie placowek rosyjskich).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:RUS",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": -50,
+      "rationale": "Rosja: wojska sowieckie/rosyjskie w Litwie do sierpnia 1993 (wydarzenia styczniowe 1991); 1994-2003 pragmatyczne stosunki; po 2004 chlodno (NATO/UE); po 2014 sankcje i zamrozone kontakty; 2020-21 pogorszenie; 2022-25 praktycznie najnizszy poziom (pelne wsparcie Ukrainy, ograniczenie placowek rosyjskich).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -85,
+      "rationale": "Rosja: wojska sowieckie/rosyjskie w Litwie do sierpnia 1993 (wydarzenia styczniowe 1991); 1994-2003 pragmatyczne stosunki; po 2004 chlodno (NATO/UE); po 2014 sankcje i zamrozone kontakty; 2020-21 pogorszenie; 2022-25 praktycznie najnizszy poziom (pelne wsparcie Ukrainy, ograniczenie placowek rosyjskich).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:RUS",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": -40,
+      "rationale": "Spoleczenstwo: pamiec okupacji sowieckiej; po 2022 ok. 90% negatywnych opinii o Rosji (sondaz LRT/Baltijos Tyrimai, koniec 2022), w 2024 ok. 70% uznaje Rosje za realne zagrozenie.",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany",
+        "https://www.lrt.lt/en/news-in-english/19/2254924/does-russia-pose-real-threat-to-lithuania-poll-shows-most-lithuanians-think-yes"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:RUS",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": -35,
+      "rationale": "Spoleczenstwo: pamiec okupacji sowieckiej; po 2022 ok. 90% negatywnych opinii o Rosji (sondaz LRT/Baltijos Tyrimai, koniec 2022), w 2024 ok. 70% uznaje Rosje za realne zagrozenie.",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany",
+        "https://www.lrt.lt/en/news-in-english/19/2254924/does-russia-pose-real-threat-to-lithuania-poll-shows-most-lithuanians-think-yes"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:RUS",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": -45,
+      "rationale": "Spoleczenstwo: pamiec okupacji sowieckiej; po 2022 ok. 90% negatywnych opinii o Rosji (sondaz LRT/Baltijos Tyrimai, koniec 2022), w 2024 ok. 70% uznaje Rosje za realne zagrozenie.",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany",
+        "https://www.lrt.lt/en/news-in-english/19/2254924/does-russia-pose-real-threat-to-lithuania-poll-shows-most-lithuanians-think-yes"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:RUS",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": -60,
+      "rationale": "Spoleczenstwo: pamiec okupacji sowieckiej; po 2022 ok. 90% negatywnych opinii o Rosji (sondaz LRT/Baltijos Tyrimai, koniec 2022), w 2024 ok. 70% uznaje Rosje za realne zagrozenie.",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany",
+        "https://www.lrt.lt/en/news-in-english/19/2254924/does-russia-pose-real-threat-to-lithuania-poll-shows-most-lithuanians-think-yes"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:RUS",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": -65,
+      "rationale": "Spoleczenstwo: pamiec okupacji sowieckiej; po 2022 ok. 90% negatywnych opinii o Rosji (sondaz LRT/Baltijos Tyrimai, koniec 2022), w 2024 ok. 70% uznaje Rosje za realne zagrozenie.",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany",
+        "https://www.lrt.lt/en/news-in-english/19/2254924/does-russia-pose-real-threat-to-lithuania-poll-shows-most-lithuanians-think-yes"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -80,
+      "rationale": "Spoleczenstwo: pamiec okupacji sowieckiej; po 2022 ok. 90% negatywnych opinii o Rosji (sondaz LRT/Baltijos Tyrimai, koniec 2022), w 2024 ok. 70% uznaje Rosje za realne zagrozenie.",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany",
+        "https://www.lrt.lt/en/news-in-english/19/2254924/does-russia-pose-real-threat-to-lithuania-poll-shows-most-lithuanians-think-yes"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:RUS",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Litwa w latach 90. czuje silna zaleznosc (wojska do 1993, energia, tranzyt przez Kaliningrad); po wejsciu do NATO i UE maleje; po 2022 zaleznosc postrzegana jako zagrozenie, a nie uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:RUS",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Litwa w latach 90. czuje silna zaleznosc (wojska do 1993, energia, tranzyt przez Kaliningrad); po wejsciu do NATO i UE maleje; po 2022 zaleznosc postrzegana jako zagrozenie, a nie uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:RUS",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Litwa w latach 90. czuje silna zaleznosc (wojska do 1993, energia, tranzyt przez Kaliningrad); po wejsciu do NATO i UE maleje; po 2022 zaleznosc postrzegana jako zagrozenie, a nie uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:RUS",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Litwa w latach 90. czuje silna zaleznosc (wojska do 1993, energia, tranzyt przez Kaliningrad); po wejsciu do NATO i UE maleje; po 2022 zaleznosc postrzegana jako zagrozenie, a nie uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:RUS",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Litwa w latach 90. czuje silna zaleznosc (wojska do 1993, energia, tranzyt przez Kaliningrad); po wejsciu do NATO i UE maleje; po 2022 zaleznosc postrzegana jako zagrozenie, a nie uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa w latach 90. czuje silna zaleznosc (wojska do 1993, energia, tranzyt przez Kaliningrad); po wejsciu do NATO i UE maleje; po 2022 zaleznosc postrzegana jako zagrozenie, a nie uzaleznienie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:RUS",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa ma niewielki wplyw na Rosje: glos w UE (sankcje, polityka wobec Rosji), bez realnych narzedzi nacisku."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:RUS",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Litwa ma niewielki wplyw na Rosje: glos w UE (sankcje, polityka wobec Rosji), bez realnych narzedzi nacisku."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:RUS",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Rzeczywista zaleznosc polityczno-wojskowa: wojska rosyjskie w Litwie do 1993 (50), potem spadek po wejsciu do NATO (2004) i po 2014; 2022-25 niewielka (5)."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:RUS",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Rzeczywista zaleznosc polityczno-wojskowa: wojska rosyjskie w Litwie do 1993 (50), potem spadek po wejsciu do NATO (2004) i po 2014; 2022-25 niewielka (5)."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:RUS",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Rzeczywista zaleznosc polityczno-wojskowa: wojska rosyjskie w Litwie do 1993 (50), potem spadek po wejsciu do NATO (2004) i po 2014; 2022-25 niewielka (5)."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:RUS",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Rzeczywista zaleznosc polityczno-wojskowa: wojska rosyjskie w Litwie do 1993 (50), potem spadek po wejsciu do NATO (2004) i po 2014; 2022-25 niewielka (5)."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Rzeczywista zaleznosc polityczno-wojskowa: wojska rosyjskie w Litwie do 1993 (50), potem spadek po wejsciu do NATO (2004) i po 2014; 2022-25 niewielka (5)."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:RUS",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Realny wplyw Litwy na Rosje ograniczony (nacisk sankcyjny, glos w UE), bez zdolnosci do zmiany polityki Kremla."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:RUS",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Energia (gaz, ropa, tranzyt) i handel: w latach 90. wysoka zaleznosc od Rosji; po 2014 terminal LNG w Kłajpedzie, po 2022 zdecydowane ograniczenie zaleznosci; 2022-25 niska.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:RUS",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Energia (gaz, ropa, tranzyt) i handel: w latach 90. wysoka zaleznosc od Rosji; po 2014 terminal LNG w Kłajpedzie, po 2022 zdecydowane ograniczenie zaleznosci; 2022-25 niska.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:RUS",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Energia (gaz, ropa, tranzyt) i handel: w latach 90. wysoka zaleznosc od Rosji; po 2014 terminal LNG w Kłajpedzie, po 2022 zdecydowane ograniczenie zaleznosci; 2022-25 niska.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:RUS",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Energia (gaz, ropa, tranzyt) i handel: w latach 90. wysoka zaleznosc od Rosji; po 2014 terminal LNG w Kłajpedzie, po 2022 zdecydowane ograniczenie zaleznosci; 2022-25 niska.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:RUS",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Energia (gaz, ropa, tranzyt) i handel: w latach 90. wysoka zaleznosc od Rosji; po 2014 terminal LNG w Kłajpedzie, po 2022 zdecydowane ograniczenie zaleznosci; 2022-25 niska.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:RUS",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Energia (gaz, ropa, tranzyt) i handel: w latach 90. wysoka zaleznosc od Rosji; po 2014 terminal LNG w Kłajpedzie, po 2022 zdecydowane ograniczenie zaleznosci; 2022-25 niska.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:UKR",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Litwa wspiera niepodleglosc Ukrainy od 1991; po 2014 silne poparcie, po 2022 jedna z najbardziej zdecydowanych postaw (pomoc wojskowa, sankcje)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:UKR",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Litwa wspiera niepodleglosc Ukrainy od 1991; po 2014 silne poparcie, po 2022 jedna z najbardziej zdecydowanych postaw (pomoc wojskowa, sankcje)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:UKR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Litwa wspiera niepodleglosc Ukrainy od 1991; po 2014 silne poparcie, po 2022 jedna z najbardziej zdecydowanych postaw (pomoc wojskowa, sankcje)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:UKR",
+      "years": "2014-2021",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "Litwa wspiera niepodleglosc Ukrainy od 1991; po 2014 silne poparcie, po 2022 jedna z najbardziej zdecydowanych postaw (pomoc wojskowa, sankcje)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 90,
+      "rationale": "Litwa wspiera niepodleglosc Ukrainy od 1991; po 2014 silne poparcie, po 2022 jedna z najbardziej zdecydowanych postaw (pomoc wojskowa, sankcje)."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:UKR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Spoleczenstwo: sympatia do Ukrainy rosnaca po 2014; po 2022 bardzo wysoka (poparcie dla pomocy wojskowej, sondaz ok. 71% dla pomocy Ukrainie, 2024).",
+      "sources": [
+        "Spinter Research, sondaz dla MON, grudzien 2024 (71% za pomoca wojskowa dla Ukrainy)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:UKR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Spoleczenstwo: sympatia do Ukrainy rosnaca po 2014; po 2022 bardzo wysoka (poparcie dla pomocy wojskowej, sondaz ok. 71% dla pomocy Ukrainie, 2024).",
+      "sources": [
+        "Spinter Research, sondaz dla MON, grudzien 2024 (71% za pomoca wojskowa dla Ukrainy)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:UKR",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Spoleczenstwo: sympatia do Ukrainy rosnaca po 2014; po 2022 bardzo wysoka (poparcie dla pomocy wojskowej, sondaz ok. 71% dla pomocy Ukrainie, 2024).",
+      "sources": [
+        "Spinter Research, sondaz dla MON, grudzien 2024 (71% za pomoca wojskowa dla Ukrainy)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:UKR",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Spoleczenstwo: sympatia do Ukrainy rosnaca po 2014; po 2022 bardzo wysoka (poparcie dla pomocy wojskowej, sondaz ok. 71% dla pomocy Ukrainie, 2024).",
+      "sources": [
+        "Spinter Research, sondaz dla MON, grudzien 2024 (71% za pomoca wojskowa dla Ukrainy)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:UKR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 85,
+      "rationale": "Spoleczenstwo: sympatia do Ukrainy rosnaca po 2014; po 2022 bardzo wysoka (poparcie dla pomocy wojskowej, sondaz ok. 71% dla pomocy Ukrainie, 2024).",
+      "sources": [
+        "Spinter Research, sondaz dla MON, grudzien 2024 (71% za pomoca wojskowa dla Ukrainy)"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa nie czuje zaleznosci od Ukrainy."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:UKR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Wplyw Litwy na Ukraine przez wsparcie integracji europejskiej i wspolprace wojskowa rosnacy po 2014."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:UKR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Wplyw Litwy na Ukraine przez wsparcie integracji europejskiej i wspolprace wojskowa rosnacy po 2014."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:UKR",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Wplyw Litwy na Ukraine przez wsparcie integracji europejskiej i wspolprace wojskowa rosnacy po 2014."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci politycznej i wojskowej od Ukrainy."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:UKR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Realny wplyw Litwy na Ukraine ograniczony, glownie w zakresie wsparcia i doradztwa."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:UKR",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Realny wplyw Litwy na Ukraine ograniczony, glownie w zakresie wsparcia i doradztwa."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:UKR",
+      "years": "2014-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Realny wplyw Litwy na Ukraine ograniczony, glownie w zakresie wsparcia i doradztwa."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Handel z Ukraina niewielki."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:USA",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Sojusznik NATO i glowny gwarant bezpieczenstwa; po 1991 szybkie uznanie niepodleglosci Litwy; wspolne partnerstwo strategiczne i obecnosc wojskowa USA w Litwie."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:USA",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "Sojusznik NATO i glowny gwarant bezpieczenstwa; po 1991 szybkie uznanie niepodleglosci Litwy; wspolne partnerstwo strategiczne i obecnosc wojskowa USA w Litwie."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:USA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 90,
+      "rationale": "Sojusznik NATO i glowny gwarant bezpieczenstwa; po 1991 szybkie uznanie niepodleglosci Litwy; wspolne partnerstwo strategiczne i obecnosc wojskowa USA w Litwie."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:USA",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Spoleczenstwo: wysoka sympatia dla USA od 1991, potwierdzana w sondazach (NATO, bezpieczenstwo)."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:USA",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Spoleczenstwo: wysoka sympatia dla USA od 1991, potwierdzana w sondazach (NATO, bezpieczenstwo)."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:USA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Spoleczenstwo: wysoka sympatia dla USA od 1991, potwierdzana w sondazach (NATO, bezpieczenstwo)."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:USA",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa postrzega zaleznosc od USA w bezpieczenstwie (gwarancje NATO od 2004, obecnosc wojsk); przed 2004 mniejsza."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:USA",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Litwa postrzega zaleznosc od USA w bezpieczenstwie (gwarancje NATO od 2004, obecnosc wojsk); przed 2004 mniejsza."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:USA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Litwa postrzega zaleznosc od USA w bezpieczenstwie (gwarancje NATO od 2004, obecnosc wojsk); przed 2004 mniejsza."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:USA",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Litwa ma ograniczony wplyw na polityke USA; lobbing i wspolne inicjatywy wschodnie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:USA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa ma ograniczony wplyw na polityke USA; lobbing i wspolne inicjatywy wschodnie."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:USA",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Realna zaleznosc wojskowa od USA (gwarancje art. 5 NATO, obecnosc wojsk USA) od 2004; przed 2004 minimalna."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:USA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Realna zaleznosc wojskowa od USA (gwarancje art. 5 NATO, obecnosc wojsk USA) od 2004; przed 2004 minimalna."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:USA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Realny wplyw Litwy na USA bardzo ograniczony."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:USA",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Handel z USA niewielki (kilka procent), brak krytycznej zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:USA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Handel z USA niewielki (kilka procent), brak krytycznej zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:DEU",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Niemcy uznaja niepodleglosc Litwy w 1991; po 2004 partner UE/NATO; po 2022 rozbudowa niemieckiej obecnosci wojskowej w Litwie (brygada)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:DEU",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Niemcy uznaja niepodleglosc Litwy w 1991; po 2004 partner UE/NATO; po 2022 rozbudowa niemieckiej obecnosci wojskowej w Litwie (brygada)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:DEU",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 80,
+      "rationale": "Niemcy uznaja niepodleglosc Litwy w 1991; po 2004 partner UE/NATO; po 2022 rozbudowa niemieckiej obecnosci wojskowej w Litwie (brygada)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:DEU",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 85,
+      "rationale": "Niemcy uznaja niepodleglosc Litwy w 1991; po 2004 partner UE/NATO; po 2022 rozbudowa niemieckiej obecnosci wojskowej w Litwie (brygada)."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:DEU",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Spoleczenstwo: pamiec II wojny swiatowej ogranicza sympatie w latach 90.; po 2004 sympatia rosnie (sondaz: Niemcy jako wazny partner).",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:DEU",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Spoleczenstwo: pamiec II wojny swiatowej ogranicza sympatie w latach 90.; po 2004 sympatia rosnie (sondaz: Niemcy jako wazny partner).",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:DEU",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Spoleczenstwo: pamiec II wojny swiatowej ogranicza sympatie w latach 90.; po 2004 sympatia rosnie (sondaz: Niemcy jako wazny partner).",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:DEU",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 45,
+      "rationale": "Spoleczenstwo: pamiec II wojny swiatowej ogranicza sympatie w latach 90.; po 2004 sympatia rosnie (sondaz: Niemcy jako wazny partner).",
+      "sources": [
+        "https://www.lrt.lt/en/news-in-english/19/1856830/survey-shows-lithuanians-have-abysmal-opinion-of-russia-favour-poland-and-germany"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:DEU",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Zaleznosc od Niemiec w polityce UE i gospodarce (wplyw na decyzje Brukseli)."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:DEU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Zaleznosc od Niemiec w polityce UE i gospodarce (wplyw na decyzje Brukseli)."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:DEU",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Wplyw Litwy na Niemcy w polityce UE i w sprawach Rosji ograniczony."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:DEU",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Wplyw Litwy na Niemcy w polityce UE i w sprawach Rosji ograniczony."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:DEU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Wplyw Litwy na Niemcy w polityce UE i w sprawach Rosji ograniczony."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:DEU",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Realna zaleznosc polityczno-wojskowa niewielka; po 2022 wieksza obecnosc wojskowa Niemiec w Litwie (brygada)."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:DEU",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Realna zaleznosc polityczno-wojskowa niewielka; po 2022 wieksza obecnosc wojskowa Niemiec w Litwie (brygada)."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:DEU",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Realna zaleznosc polityczno-wojskowa niewielka; po 2022 wieksza obecnosc wojskowa Niemiec w Litwie (brygada)."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:DEU",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony realny wplyw na Niemcy."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:DEU",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Ograniczony realny wplyw na Niemcy."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:DEU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Ograniczony realny wplyw na Niemcy."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:DEU",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "Niemcy to jeden z glownych partnerow handlowych Litwy w UE (eksport i import)."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:DEU",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Niemcy to jeden z glownych partnerow handlowych Litwy w UE (eksport i import)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:FRA",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Partner UE i NATO; wspolnota w sprawach bezpieczenstwa, poparcie Francji dla niepodleglosci Litwy w 1991."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:FRA",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Partner UE i NATO; wspolnota w sprawach bezpieczenstwa, poparcie Francji dla niepodleglosci Litwy w 1991."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:FRA",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Partner UE i NATO; wspolnota w sprawach bezpieczenstwa, poparcie Francji dla niepodleglosci Litwy w 1991."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:FRA",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Spoleczenstwo: umiarkowana sympatia dla Francji."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:FRA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Spoleczenstwo: umiarkowana sympatia dla Francji."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:FRA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Brak poczucia zaleznosci od Francji."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:FRA",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na Francje."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:FRA",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Ograniczony wplyw Litwy na Francje."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:FRA",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Ograniczony wplyw Litwy na Francje."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:FRA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Niewielka realna zaleznosc (wspolne struktury NATO i UE)."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:FRA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony realny wplyw Litwy na Francje."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:FRA",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Handel z Francja niewielki."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:GBR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Partner w NATO i w sprawach bezpieczenstwa; uznanie niepodleglosci Litwy w 1991; po 2014 wspolne wsparcie wojskowe (misja wzmocnienia NATO)."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:GBR",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Partner w NATO i w sprawach bezpieczenstwa; uznanie niepodleglosci Litwy w 1991; po 2014 wspolne wsparcie wojskowe (misja wzmocnienia NATO)."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:GBR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Spoleczenstwo: umiarkowana sympatia dla Wielkiej Brytanii."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:GBR",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Spoleczenstwo: umiarkowana sympatia dla Wielkiej Brytanii."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:GBR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Brak poczucia zaleznosci od Wielkiej Brytanii."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:GBR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na Wielka Brytanie."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:GBR",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Ograniczony wplyw Litwy na Wielka Brytanie."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:GBR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Niewielka realna zaleznosc; wspolna obecnosc w strukturach NATO."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:GBR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony realny wplyw Litwy na Wielka Brytanie."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:GBR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Handel z Wielka Brytania niewielki i stabilny."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CHN",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Relacje normalne do 2020 (1991 uznanie, wspolpraca handlowa, 16+1); od konca 2021 spor o biuro tajwanskie w Wilnie: Chiny odwolaly ambasadora, od maja 2025 bez akredytowanych chinskich dyplomatow; rzad Ruginienė deklaruje chec normalizacji (zmiana nazwy biura nie jest przesadzona).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CHN",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "Relacje normalne do 2020 (1991 uznanie, wspolpraca handlowa, 16+1); od konca 2021 spor o biuro tajwanskie w Wilnie: Chiny odwolaly ambasadora, od maja 2025 bez akredytowanych chinskich dyplomatow; rzad Ruginienė deklaruje chec normalizacji (zmiana nazwy biura nie jest przesadzona).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CHN",
+      "years": "2004-2013",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Relacje normalne do 2020 (1991 uznanie, wspolpraca handlowa, 16+1); od konca 2021 spor o biuro tajwanskie w Wilnie: Chiny odwolaly ambasadora, od maja 2025 bez akredytowanych chinskich dyplomatow; rzad Ruginienė deklaruje chec normalizacji (zmiana nazwy biura nie jest przesadzona).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CHN",
+      "years": "2014-2019",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Relacje normalne do 2020 (1991 uznanie, wspolpraca handlowa, 16+1); od konca 2021 spor o biuro tajwanskie w Wilnie: Chiny odwolaly ambasadora, od maja 2025 bez akredytowanych chinskich dyplomatow; rzad Ruginienė deklaruje chec normalizacji (zmiana nazwy biura nie jest przesadzona).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CHN",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Relacje normalne do 2020 (1991 uznanie, wspolpraca handlowa, 16+1); od konca 2021 spor o biuro tajwanskie w Wilnie: Chiny odwolaly ambasadora, od maja 2025 bez akredytowanych chinskich dyplomatow; rzad Ruginienė deklaruje chec normalizacji (zmiana nazwy biura nie jest przesadzona).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CHN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -30,
+      "rationale": "Relacje normalne do 2020 (1991 uznanie, wspolpraca handlowa, 16+1); od konca 2021 spor o biuro tajwanskie w Wilnie: Chiny odwolaly ambasadora, od maja 2025 bez akredytowanych chinskich dyplomatow; rzad Ruginienė deklaruje chec normalizacji (zmiana nazwy biura nie jest przesadzona).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:CHN",
+      "years": "1991-2019",
+      "curve": "constant",
+      "start": 0,
+      "rationale": "Spoleczenstwo: obojetnosc wobec Chin w latach 90. i 2000.; od 2021 wyrazniejszy sprzeciw wobec polityki Pekinu (sprawa Tajwanu, chinskie naciski).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:CHN",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": -10,
+      "rationale": "Spoleczenstwo: obojetnosc wobec Chin w latach 90. i 2000.; od 2021 wyrazniejszy sprzeciw wobec polityki Pekinu (sprawa Tajwanu, chinskie naciski).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:CHN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": -25,
+      "rationale": "Spoleczenstwo: obojetnosc wobec Chin w latach 90. i 2000.; od 2021 wyrazniejszy sprzeciw wobec polityki Pekinu (sprawa Tajwanu, chinskie naciski).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:CHN",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Litwa postrzega zaleznosc od Chin jako niewielka; po 2021 zerwanie handlu daje poczucie kontroli, nie zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:CHN",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Litwa postrzega zaleznosc od Chin jako niewielka; po 2021 zerwanie handlu daje poczucie kontroli, nie zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:CHN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na Chiny."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:CHN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Realna zaleznosc polityczno-wojskowa od Chin niewielka."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:CHN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Realny wplyw Litwy na Chiny minimalny."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:CHN",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Handel z Chinami (import, produkcja) wzrastajacy do 2019, potem zaklocony przez spor o Tajwan.",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:CHN",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 4,
+      "rationale": "Handel z Chinami (import, produkcja) wzrastajacy do 2019, potem zaklocony przez spor o Tajwan.",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:CHN",
+      "years": "2004-2021",
+      "curve": "constant",
+      "start": 6,
+      "rationale": "Handel z Chinami (import, produkcja) wzrastajacy do 2019, potem zaklocony przez spor o Tajwan.",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:CHN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Handel z Chinami (import, produkcja) wzrastajacy do 2019, potem zaklocony przez spor o Tajwan.",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:TWN",
+      "years": "1991-2019",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Brak formalnych relacji dyplomatycznych; po 2021 biuro tajwanskie w Wilnie (Taiwanese Representative Office); rzad utrzymuje biuro i deklaruje kontakty, choc rozwaza zmiane nazwy.",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:TWN",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Brak formalnych relacji dyplomatycznych; po 2021 biuro tajwanskie w Wilnie (Taiwanese Representative Office); rzad utrzymuje biuro i deklaruje kontakty, choc rozwaza zmiane nazwy.",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:TWN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Brak formalnych relacji dyplomatycznych; po 2021 biuro tajwanskie w Wilnie (Taiwanese Representative Office); rzad utrzymuje biuro i deklaruje kontakty, choc rozwaza zmiane nazwy.",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:TWN",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Spoleczenstwo: sympatia dla Tajwanu rosnie po 2021 (poparcie dla biura i kontaktow z demokracja).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:TWN",
+      "years": "2004-2019",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Spoleczenstwo: sympatia dla Tajwanu rosnie po 2021 (poparcie dla biura i kontaktow z demokracja).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:TWN",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 20,
+      "rationale": "Spoleczenstwo: sympatia dla Tajwanu rosnie po 2021 (poparcie dla biura i kontaktow z demokracja).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:TWN",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Spoleczenstwo: sympatia dla Tajwanu rosnie po 2021 (poparcie dla biura i kontaktow z demokracja).",
+      "sources": [
+        "https://www.taipeitimes.com/News/taiwan/archives/2025/04/18/2003835402",
+        "https://en.wikipedia.org/wiki/China%E2%80%93Lithuania_relations"
+      ]
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:TWN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Brak poczucia zaleznosci od Tajwanu."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:TWN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Ograniczony wplyw Litwy na Tajwan."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:TWN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "Brak realnej zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:TWN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Ograniczony realny wplyw Litwy na Tajwan."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:TWN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "Handel z Tajwanem niewielki."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:SWE",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "Szwecja: Partner nordycki w UE i NATO (Szwecja w NATO od 2024); dobre stosunki, bez sporow."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:SWE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 75,
+      "rationale": "Szwecja: Partner nordycki w UE i NATO (Szwecja w NATO od 2024); dobre stosunki, bez sporow."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:SWE",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Szwecja: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:SWE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Szwecja: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:SWE",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Litwa widzi zaleznosc finansowa od szwedzkich bankow i nie tylko."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:SWE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Litwa widzi zaleznosc finansowa od szwedzkich bankow i nie tylko."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:SWE",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na Szwecje."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:SWE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 8,
+      "rationale": "Ograniczony wplyw Litwy na Szwecje."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:SWE",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci od: Szwecja."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:SWE",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Ograniczony realny wplyw Litwy na: Szwecja."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:SWE",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Zaleznosc finansowa: szwedzkie banki (Swedbank, SEB) maja duzy udzial w sektorze bankowym Litwy od 2004."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:SWE",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Zaleznosc finansowa: szwedzkie banki (Swedbank, SEB) maja duzy udzial w sektorze bankowym Litwy od 2004."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:SWE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "Zaleznosc finansowa: szwedzkie banki (Swedbank, SEB) maja duzy udzial w sektorze bankowym Litwy od 2004."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:FIN",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Finlandia: Partner nordycki w UE i NATO (Finlandia w NATO od 2023); dobre stosunki."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:FIN",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Finlandia: Partner nordycki w UE i NATO (Finlandia w NATO od 2023); dobre stosunki."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:FIN",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Finlandia: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:FIN",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Finlandia: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:FIN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Brak poczucia zaleznosci od: Finlandia."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:FIN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na: Finlandia."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:FIN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci od: Finlandia."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:FIN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Ograniczony realny wplyw Litwy na: Finlandia."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:FIN",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Handel z: Finlandia umiarkowany, bez krytycznej zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:NOR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Norwegia: Partner nordycki, spoza UE; dobre stosunki, wspolne sprawy bezpieczenstwa w NATO."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:NOR",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Norwegia: Partner nordycki, spoza UE; dobre stosunki, wspolne sprawy bezpieczenstwa w NATO."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:NOR",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Norwegia: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:NOR",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Norwegia: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:NOR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Brak poczucia zaleznosci od: Norwegia."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:NOR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na: Norwegia."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:NOR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci od: Norwegia."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:NOR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Ograniczony realny wplyw Litwy na: Norwegia."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:NOR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Handel z: Norwegia umiarkowany, bez krytycznej zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:DNK",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Dania: Partner nordycki w UE i NATO; dobre stosunki, bez sporow."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:DNK",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "Dania: Partner nordycki w UE i NATO; dobre stosunki, bez sporow."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:DNK",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Dania: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:DNK",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "Dania: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:DNK",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Brak poczucia zaleznosci od: Dania."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:DNK",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na: Dania."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:DNK",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci od: Dania."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:DNK",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Ograniczony realny wplyw Litwy na: Dania."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:DNK",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Handel z: Dania umiarkowany, bez krytycznej zaleznosci."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CZE",
+      "years": "1991-1993",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "Czechy: Partner w UE i NATO; wspolne sprawy wschodnie, przecietnie dobre stosunki."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CZE",
+      "years": "1994-2003",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "Czechy: Partner w UE i NATO; wspolne sprawy wschodnie, przecietnie dobre stosunki."
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "LTU:CZE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 65,
+      "rationale": "Czechy: Partner w UE i NATO; wspolne sprawy wschodnie, przecietnie dobre stosunki."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:CZE",
+      "years": "1991-2003",
+      "curve": "constant",
+      "start": 30,
+      "rationale": "Czechy: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "LTU:CZE",
+      "years": "2004-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "Czechy: umiarkowana sympatia spoleczenstwa."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "LTU:CZE",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Brak poczucia zaleznosci od: Czechy."
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "LTU:CZE",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "Ograniczony wplyw Litwy na: Czechy."
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "LTU:CZE",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Brak realnej zaleznosci od: Czechy."
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "LTU:CZE",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 3,
+      "rationale": "Ograniczony realny wplyw Litwy na: Czechy."
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "LTU:CZE",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 2,
+      "rationale": "Handel z: Czechy umiarkowany, bez krytycznej zaleznosci."
+    },
+    {
+      "kind": "doublesided",
+      "name": "in war crisis",
+      "targets": "LTU:RUS",
+      "years": "1991",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "1991: zbrojne incydenty sowieckich sil wobec Litwy w czasie niepodleglosci (atak na wieze telewizyjna w Wilnie, styczen 1991; Medininkai, lipiec 1991); RUS kontynuuje ZSRR. W UCDP brak wpisu dla tej pary.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuania_and_the_Russian_invasion_of_Ukraine"
+      ]
+    }
+  ]
+}

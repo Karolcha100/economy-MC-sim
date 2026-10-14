@@ -1,0 +1,381 @@
+{
+  "rationale": "BHS, zadanie B (oszczedny): relacje BHS -> 11 partnerow (USA, GBR, CAN, CUB, HTI, CARICOM: JAM, TTO, BRB, DOM; COL, CHN). USA: glowny partner (wg rzadu BHS ok. 83% importu w 2024; ok. 85% turystow miedzynarodowych); ekonomiczna zaleznosc 70. 2025: 10% cla USA od kwietnia 2025 i odmowa przyjecia deportowanych migrantow z USA -> dyplomacja 68, opinia 50. HTI: migracja i deportacje Haitanczykow (np. 64 deportowanych 1 X 2025), stygmatyzacja -> ujemna opinia spoleczna. GBR: monarchia i Commonwealth. CUB: poprawne relacje, wspolpraca medyczna. CHN: rosnace inwestycje i zadluzenie od 2010 (ekonomiczna zaleznosc 5). Dwustronne: brak konfliktu z partnerami w UCDP, wiec in war i in war crisis bez wpisow. Hybrid attacks: 0 (BHS nie prowadzi dzialan hybrydowych).",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:USA",
+      "years": "1990-2024",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:USA",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 68
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:CUB",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:CUB",
+      "years": "2000-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:HTI",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:JAM,BHS:TTO,BHS:BRB,BHS:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "BHS:DOM,BHS:COL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:USA",
+      "years": "1990-2024",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:USA",
+      "years": "2025-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:CUB,BHS:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:HTI",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": -15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:HTI",
+      "years": "2000-2025",
+      "curve": "constant",
+      "start": -25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:JAM,BHS:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:COL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "BHS:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "BHS:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "BHS:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "BHS:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "BHS:CUB,BHS:JAM,BHS:TTO,BHS:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "BHS:HTI,BHS:DOM,BHS:COL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "BHS:CHN",
+      "years": "1990-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "BHS:CHN",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "BHS:USA,BHS:CUB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "BHS:GBR,BHS:CAN,BHS:HTI,BHS:JAM,BHS:TTO,BHS:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "BHS:DOM,BHS:COL,BHS:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "BHS:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "BHS:USA",
+      "years": "2000-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "BHS:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "BHS:CAN,BHS:CUB,BHS:JAM,BHS:TTO,BHS:BRB,BHS:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "BHS:HTI,BHS:DOM,BHS:COL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "BHS:USA,BHS:GBR,BHS:CAN,BHS:CUB,BHS:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "BHS:HTI,BHS:JAM,BHS:TTO,BHS:BRB",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "BHS:COL,BHS:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:GBR,BHS:JAM,BHS:TTO",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:CAN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:CUB,BHS:BRB,BHS:DOM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:HTI,BHS:COL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:CHN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "BHS:CHN",
+      "years": "2010-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "BHS:USA,BHS:GBR,BHS:CAN,BHS:CUB,BHS:HTI,BHS:JAM,BHS:TTO,BHS:BRB,BHS:DOM,BHS:COL,BHS:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    }
+  ]
+}

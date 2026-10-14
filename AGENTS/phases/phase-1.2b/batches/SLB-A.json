@@ -1,0 +1,76 @@
+{
+  "rationale": "SLB, zadanie A (oszczedny): brak WHR -> happiness szacunkowa wg PNG/FJI; stabilnosc i sondaze wg kryzysow rzadowych (1997 wybory, 2000 odwolanie premiera, 2006 zamieszki, 2011/2017 wotum nieufnosci, 2024 zmiana premiera, 2025 wotum nieufnosci wycofane); konflikt Guadalcanal-Malaita 1998-2003 (przemoc, zmęczenie, asymilacja); zamieszki 2000, 2006, 2021; COVID 2020-2021; uzupelnione brakujace lata (korupcja, przemoc, civilization) plynnie do istniejacych wartosci",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "1990-1993", "curve": "linear", "start": 46, "end": 44},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "1994-1996", "curve": "linear", "start": 44, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "1997", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "1998-1999", "curve": "linear", "start": 40, "end": 38},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2000", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2001-2003", "curve": "linear", "start": 30, "end": 33},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2004-2005", "curve": "linear", "start": 40, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2006", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2007-2010", "curve": "linear", "start": 42, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2011", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2012-2016", "curve": "linear", "start": 42, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2017-2018", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2019-2023", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "SLB", "years": "2024-2025", "curve": "linear", "start": 50, "end": 40},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SLB", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "SLB", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "1990-1993", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "1994-1996", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "1997", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "1998-1999", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2000", "curve": "constant", "start": 22},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2001-2003", "curve": "linear", "start": 28, "end": 32},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2004-2005", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2006", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2007-2010", "curve": "linear", "start": 40, "end": 48},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2011", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2012-2016", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2017-2018", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2019-2023", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SLB", "years": "2024-2025", "curve": "linear", "start": 45, "end": 38},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SLB", "years": "1990-1999", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SLB", "years": "2000-2003", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SLB", "years": "2004-2010", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SLB", "years": "2011-2019", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SLB", "years": "2020-2025", "curve": "linear", "start": 45, "end": 50},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SLB", "years": "1990-1997", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "SLB", "years": "1998-2003", "curve": "linear", "start": 48, "end": 35},
+    {"kind": "grade", "name": "assimilation", "targets": "SLB", "years": "2004-2010", "curve": "linear", "start": 38, "end": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "SLB", "years": "2011-2019", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "assimilation", "targets": "SLB", "years": "2020-2025", "curve": "linear", "start": 42, "end": 40},
+
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "1990-1997", "curve": "linear", "start": 52, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "1998-2001", "curve": "linear", "start": 48, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "2002-2004", "curve": "linear", "start": 43, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "2005-2006", "curve": "linear", "start": 46, "end": 43},
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "2007-2010", "curve": "linear", "start": 44, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "2011-2019", "curve": "linear", "start": 50, "end": 53},
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "2020-2021", "curve": "linear", "start": 52, "end": 48},
+    {"kind": "grade", "name": "happiness", "targets": "SLB", "years": "2022-2025", "curve": "linear", "start": 48, "end": 52},
+
+    {"kind": "grade", "name": "corruption", "targets": "SLB", "years": "1990-1995", "curve": "linear", "start": 42, "end": 43},
+    {"kind": "grade", "name": "corruption", "targets": "SLB", "years": "2023-2025", "curve": "linear", "start": 53.7, "end": 53.5},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SLB", "years": "1990-1995", "curve": "linear", "start": 25, "end": 29},
+    {"kind": "grade", "name": "violence risk", "targets": "SLB", "years": "2023-2025", "curve": "linear", "start": 42, "end": 41},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SLB", "years": "1990-1998", "curve": "linear", "start": 48, "end": 55},
+    {"kind": "grade", "name": "civilization level", "targets": "SLB", "years": "2024-2025", "curve": "linear", "start": 58.5, "end": 58.8},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "SLB", "years": "1999-2002", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SLB", "years": "2003-2004", "curve": "linear", "start": 15, "end": 5},
+
+    {"kind": "grade", "name": "riots", "targets": "SLB", "years": "2000", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "SLB", "years": "2006", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "SLB", "years": "2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SLB", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

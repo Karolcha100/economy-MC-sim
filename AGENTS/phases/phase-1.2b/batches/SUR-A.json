@@ -1,0 +1,55 @@
+{
+  "rationale": "SUR, zadanie A (oszczedny): szacunki na podstawie wiedzy i kotwic; CPI 2023-2024 ok. 40 (wyszukiwanie); brak danych WHR po 2015, wartosci happiness 2016-2025 szacunkowe; popularnosc rzadu 2025 szacunek po wyborach 2025",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SUR", "years": "1990-1991", "curve": "linear", "start": 35, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "SUR", "years": "1992-1995", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "SUR", "years": "1996-1999", "curve": "linear", "start": 52, "end": 46},
+    {"kind": "grade", "name": "stability", "targets": "SUR", "years": "2000-2009", "curve": "linear", "start": 50, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "SUR", "years": "2010-2019", "curve": "linear", "start": 66, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "SUR", "years": "2020-2025", "curve": "linear", "start": 58, "end": 60},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SUR", "years": "1990-1992", "curve": "linear", "start": 62, "end": 56},
+    {"kind": "grade", "name": "violence risk", "targets": "SUR", "years": "1993-1995", "curve": "linear", "start": 50, "end": 44},
+    {"kind": "grade", "name": "violence risk", "targets": "SUR", "years": "2023-2025", "curve": "constant", "start": 42},
+
+    {"kind": "grade", "name": "corruption", "targets": "SUR", "years": "1990-1995", "curve": "linear", "start": 52, "end": 47},
+    {"kind": "grade", "name": "corruption", "targets": "SUR", "years": "2023-2025", "curve": "constant", "start": 57},
+
+    {"kind": "grade", "name": "happiness", "targets": "SUR", "years": "1990-1995", "curve": "linear", "start": 52, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "SUR", "years": "1996-2004", "curve": "linear", "start": 46, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "SUR", "years": "2005-2011", "curve": "linear", "start": 55, "end": 62},
+    {"kind": "grade", "name": "happiness", "targets": "SUR", "years": "2016-2019", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "happiness", "targets": "SUR", "years": "2020-2021", "curve": "linear", "start": 60, "end": 58},
+    {"kind": "grade", "name": "happiness", "targets": "SUR", "years": "2022-2025", "curve": "linear", "start": 58, "end": 61},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SUR", "years": "1990-2025", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "SUR", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SUR", "years": "1990-1994", "curve": "linear", "start": 65, "end": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SUR", "years": "1995-2004", "curve": "linear", "start": 70, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SUR", "years": "2005-2015", "curve": "linear", "start": 58, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SUR", "years": "2016-2020", "curve": "linear", "start": 60, "end": 68},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SUR", "years": "2021-2025", "curve": "linear", "start": 68, "end": 62},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "1990", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "1991-1995", "curve": "linear", "start": 52, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "1996-1999", "curve": "linear", "start": 35, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "2000-2005", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "2006-2009", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "2010-2014", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "2015-2019", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "2020-2022", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "2023-2024", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SUR", "years": "2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SUR", "years": "1990-2015", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "SUR", "years": "2016-2025", "curve": "linear", "start": 60, "end": 56},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SUR", "years": "1990-2003", "curve": "linear", "start": 63.0, "end": 67.5},
+    {"kind": "grade", "name": "civilization level", "targets": "SUR", "years": "2024-2025", "curve": "linear", "start": 72.4, "end": 72.6},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SUR", "years": "2020-2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "SUR", "years": "1990-1992", "curve": "linear", "start": 20, "end": 10}
+  ]
+}

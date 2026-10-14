@@ -1,0 +1,66 @@
+{
+  "rationale": "SVN, zadanie A, tryb oszczedny. Panstwo istnieje od 1991; wypelniono tylko puste komorki (only_empty). Stabilnosc: rzady Drnovska, kryzys 2012-2013 (upadek Jansy II), Cerar, Sarec, Janša III, Golob 2022-2025 bez upadku gabinetu. Poparcie rzadu: estymaty; 2023-2025 zgodnie z wynikiem wyszukiwania (poll pozny 2025 ok. 34%, zrodlo wtorne). Korupcja 2023-2025: CPI 56/60/58 (2023-2025) przelozone na skale 0-100 (wyzszy = wiecej korupcji). Happiness przed 2005: estymaty. Epidemia 2020; mobilizacja 1991 (Dziesieciodniowa wojna); kryzys imigracyjny 2015 (masowy tranzyt, plot i wojsko na granicy).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "1991-1992", "curve": "linear", "start": 60, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "1993-1995", "curve": "constant", "start": 68, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "1996-2000", "curve": "constant", "start": 72, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2001-2004", "curve": "constant", "start": 74, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2005-2008", "curve": "constant", "start": 78, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2009-2010", "curve": "linear", "start": 78, "end": 75, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2011", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2012-2013", "curve": "constant", "start": 48, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2014-2017", "curve": "linear", "start": 52, "end": 68, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2018-2019", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2020-2021", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SVN", "years": "2022-2025", "curve": "constant", "start": 70, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "SVN", "years": "1991-1995", "curve": "linear", "start": 30, "end": 28, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SVN", "years": "2023", "curve": "constant", "start": 36, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SVN", "years": "2024", "curve": "constant", "start": 34.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SVN", "years": "2025", "curve": "constant", "start": 35.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "SVN", "years": "1991-1993", "curve": "linear", "start": 55, "end": 51, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SVN", "years": "1994-2000", "curve": "linear", "start": 51, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SVN", "years": "2001-2010", "curve": "linear", "start": 55, "end": 58.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SVN", "years": "1991-1995", "curve": "constant", "start": 7, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "SVN", "years": "1996-2025", "curve": "constant", "start": 5, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "SVN", "years": "1991-1995", "curve": "constant", "start": 4, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "SVN", "years": "1996-2025", "curve": "constant", "start": 3, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "1991", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "1992-1995", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "1996-2000", "curve": "linear", "start": 48, "end": 52, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2001-2003", "curve": "linear", "start": 50, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2004-2008", "curve": "linear", "start": 45, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2009-2011", "curve": "linear", "start": 40, "end": 25, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2012-2013", "curve": "linear", "start": 25, "end": 15, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2014", "curve": "constant", "start": 20, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2015-2017", "curve": "linear", "start": 30, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2018-2019", "curve": "linear", "start": 30, "end": 27, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2020-2022", "curve": "linear", "start": 40, "end": 28, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2023", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2024", "curve": "constant", "start": 36, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SVN", "years": "2025", "curve": "constant", "start": 34, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SVN", "years": "1991-1995", "curve": "linear", "start": 55, "end": 52, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SVN", "years": "1996-2008", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SVN", "years": "2009-2013", "curve": "linear", "start": 52, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SVN", "years": "2014-2016", "curve": "linear", "start": 60, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SVN", "years": "2017-2025", "curve": "constant", "start": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SVN", "years": "2024-2025", "curve": "linear", "start": 93.3, "end": 93.5, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SVN", "years": "1991-2010", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "SVN", "years": "2011-2025", "curve": "linear", "start": 65, "end": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SVN", "years": "1991", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "SVN", "years": "1992-1995", "curve": "linear", "start": 30, "end": 24, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "SVN", "years": "2023-2025", "curve": "constant", "start": 35.9, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SVN", "years": "2020", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "mobilized", "targets": "SVN", "years": "1991", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "immigration crisis", "targets": "SVN", "years": "2015", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

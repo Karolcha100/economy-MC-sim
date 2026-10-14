@@ -1,0 +1,1021 @@
+{
+ "rationale": "FJI, zadanie B (oszczedny): relacje FJI -> 15 partnerow (AUS, NZL, GBR, USA, CHN, JPN, KOR, IND, SGP, PNG, SLB, VUT, WSM, TON, FRA). Okresy: 1990-99; 2000-05 (pucz 2000, ostrozniejsza Australia); 2006-14 (pucz 2006, sankcje AUS/NZL, zawieszenie w PIF i Commonwealth 2009-14, wzrost roli Chin); 2015-25 (odbudowa relacji z AUS/NZL; Vuvale Partnership odnowione 2023 i podniesione 2025 (AFP w policji); umowa policyjna z Chinami z 2011 wstrzymana 2023, przywrocona 2024). Zaleznosc ekonomiczna od AUS/NZL/CHN/SGP/USA wg udzialu w handlu i finansach. Dwustronne: brak wojny i kryzysu miedzy FJI a innym panstwem w 1990-2025 (UCDP i zrodla); bez zmian. FJI nie prowadzi dzialan hybrydowych (0). RUS pominiety (brak istotnej relacji). Pozostale pary potwierdzone domyslnie.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:AUS,FJI:NZL,FJI:USA,FJI:CHN,FJI:IND,FJI:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:GBR,FJI:SLB,FJI:VUT",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:JPN,FJI:PNG",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:KOR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:AUS,FJI:NZL",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:GBR,FJI:IND,FJI:SGP",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:USA,FJI:KOR",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:CHN,FJI:JPN,FJI:PNG",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:SLB,FJI:VUT",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:FRA",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:AUS,FJI:NZL",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:GBR,FJI:USA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:CHN,FJI:WSM,FJI:TON",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:JPN,FJI:SLB,FJI:VUT",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:KOR,FJI:SGP",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:IND",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:PNG",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:FRA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:AUS,FJI:GBR,FJI:KOR,FJI:IND,FJI:SGP",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:NZL,FJI:USA,FJI:FRA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:CHN,FJI:WSM,FJI:TON",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:JPN,FJI:PNG",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FJI:SLB,FJI:VUT",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:AUS,FJI:NZL,FJI:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:CHN,FJI:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:JPN,FJI:SLB,FJI:VUT",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:KOR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:SGP",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:PNG",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:AUS,FJI:NZL,FJI:CHN,FJI:IND",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:GBR,FJI:USA,FJI:SGP",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:JPN,FJI:SLB,FJI:VUT",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:KOR",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:PNG",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:FRA",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:AUS,FJI:NZL",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:GBR,FJI:FRA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:USA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:CHN,FJI:SGP",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:JPN,FJI:SLB,FJI:VUT",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:KOR",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:IND",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:PNG",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:AUS,FJI:NZL,FJI:USA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:GBR,FJI:IND,FJI:SGP",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:CHN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:JPN,FJI:PNG",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:KOR",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:SLB,FJI:VUT",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FJI:FRA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:AUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:NZL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:GBR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:CHN,FJI:JPN,FJI:SGP,FJI:PNG",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:KOR,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:IND,FJI:FRA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:AUS",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:NZL",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:GBR",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:USA,FJI:IND,FJI:FRA",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:CHN,FJI:JPN,FJI:SGP,FJI:PNG",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:KOR,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON",
+   "years": "2000-2005",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:AUS",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:NZL",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:GBR,FJI:USA,FJI:IND",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:CHN",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:JPN,FJI:SGP,FJI:PNG,FJI:FRA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:KOR,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:AUS",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:NZL,FJI:CHN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:GBR,FJI:USA,FJI:IND",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:JPN,FJI:SGP,FJI:PNG,FJI:FRA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FJI:KOR,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:AUS",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:NZL",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:GBR,FJI:CHN",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:USA",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:JPN,FJI:IND,FJI:SGP,FJI:PNG,FJI:FRA",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:KOR,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:AUS",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:NZL",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:GBR",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:USA,FJI:CHN",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:JPN,FJI:IND,FJI:SGP,FJI:PNG,FJI:FRA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:KOR,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:AUS",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:NZL",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:GBR,FJI:JPN,FJI:IND,FJI:SGP,FJI:PNG,FJI:FRA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:USA,FJI:CHN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FJI:KOR,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:AUS",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:NZL",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:GBR,FJI:JPN,FJI:IND",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:USA,FJI:CHN,FJI:SGP",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:KOR,FJI:PNG,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON,FJI:FRA",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:AUS",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:NZL,FJI:CHN",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:GBR,FJI:KOR,FJI:PNG,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON,FJI:FRA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:USA",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:JPN,FJI:IND",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:SGP",
+   "years": "2006-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:AUS",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:NZL",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:GBR,FJI:KOR,FJI:PNG,FJI:SLB,FJI:VUT,FJI:WSM,FJI:TON,FJI:FRA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:USA",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:CHN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:JPN,FJI:IND",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FJI:SGP",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FJI:AUS,FJI:NZL,FJI:GBR,FJI:USA,FJI:CHN,FJI:JPN,FJI:IND,FJI:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FJI:KOR,FJI:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FJI:PNG,FJI:SLB,FJI:VUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FJI:AUS,FJI:NZL,FJI:GBR,FJI:USA,FJI:IND,FJI:SGP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FJI:CHN,FJI:JPN,FJI:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FJI:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FJI:PNG,FJI:SLB,FJI:VUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FJI:WSM,FJI:TON",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10
+  }
+ ]
+}

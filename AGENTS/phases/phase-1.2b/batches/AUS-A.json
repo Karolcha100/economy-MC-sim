@@ -1,0 +1,54 @@
+{
+  "rationale": "AUS, zadanie A (statystyki państwa), tryb oszczędny: stabilna demokracja ze zmianami przywództwa (1991, 2010–13, 2015, 2018); COVID 2020–21; Afganistan/Irak do 2021; zamach Bondi 2025",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "AUS", "years": "1990-1995", "curve": "linear", "start": 88, "end": 87},
+    {"kind": "grade", "name": "stability", "targets": "AUS", "years": "1996-2007", "curve": "linear", "start": 87, "end": 90},
+    {"kind": "grade", "name": "stability", "targets": "AUS", "years": "2008-2013", "curve": "linear", "start": 90, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "AUS", "years": "2014-2018", "curve": "linear", "start": 80, "end": 76},
+    {"kind": "grade", "name": "stability", "targets": "AUS", "years": "2019-2021", "curve": "linear", "start": 76, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "AUS", "years": "2022-2025", "curve": "linear", "start": 80, "end": 83},
+
+    {"kind": "grade", "name": "corruption", "targets": "AUS", "years": "1990-1995", "curve": "constant", "start": 12.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "AUS", "years": "2023-2025", "curve": "linear", "start": 14.6, "end": 14.0, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "AUS", "years": "1990-2010", "curve": "linear", "start": 72.0, "end": 73.2, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "AUS", "years": "1990-2015", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "social revanchism", "targets": "AUS", "years": "2016-2025", "curve": "linear", "start": 2, "end": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "AUS", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "1990-1992", "curve": "linear", "start": 60, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "1993-1995", "curve": "linear", "start": 35, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "1996-2001", "curve": "linear", "start": 42, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "2002-2007", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "2008-2009", "curve": "linear", "start": 40, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "2010-2013", "curve": "linear", "start": 58, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "2014-2018", "curve": "linear", "start": 35, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "2019-2021", "curve": "linear", "start": 45, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "AUS", "years": "2022-2025", "curve": "linear", "start": 60, "end": 55},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUS", "years": "1990-2019", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "AUS", "years": "2020-2025", "curve": "linear", "start": 50, "end": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "AUS", "years": "2024-2025", "curve": "linear", "start": 96.0, "end": 96.2, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "AUS", "years": "1990-2005", "curve": "linear", "start": 74, "end": 72},
+    {"kind": "grade", "name": "assimilation", "targets": "AUS", "years": "2006-2015", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "AUS", "years": "2016-2025", "curve": "linear", "start": 70, "end": 66},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "AUS", "years": "2001-2002", "curve": "linear", "start": 5, "end": 10},
+    {"kind": "grade", "name": "war exhaustion", "targets": "AUS", "years": "2003-2009", "curve": "linear", "start": 20, "end": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "AUS", "years": "2010-2014", "curve": "linear", "start": 35, "end": 45},
+    {"kind": "grade", "name": "war exhaustion", "targets": "AUS", "years": "2015-2020", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "AUS", "years": "2021-2025", "curve": "linear", "start": 25, "end": 15},
+
+    {"kind": "grade", "name": "epidemic", "targets": "AUS", "years": "2020-2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "riots", "targets": "AUS", "years": "2005-2005", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "violence risk", "targets": "AUS", "years": "1990-1995", "curve": "constant", "start": 22},
+    {"kind": "grade", "name": "violence risk", "targets": "AUS", "years": "2023-2024", "curve": "linear", "start": 31.5, "end": 32, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "AUS", "years": "2025-2025", "curve": "constant", "start": 38, "only_empty": true}
+  ]
+}

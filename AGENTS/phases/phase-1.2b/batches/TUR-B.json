@@ -1,0 +1,2997 @@
+{
+ "rationale": "TUR, zadanie B: relacje od TUR do 29 partnerow (sasiedzi, mocarstwa, NATO/UE, Zatoka, Azja Srodkowa, Balkany, Kosowo, Pakistan); hybrid attacks = 1 tylko GRC 2020 (weaponised migration); in war crisis dodane tylko tam, gdzie UCDP poziom 1 nie obejmuje wyraznych incydentow zbrojnych (GRC 1996, GRC 2020, RUS 2015, SYR 2012); pozostale pary: confirm-default",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GRC",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->GRC: Aegean and Cyprus disputes; Imia/Kardak crisis 1996"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GRC",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR->GRC: Helsinki 1999 rapprochement; Cyprus still divisive"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GRC",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->GRC: Aegean and Cyprus disputes; limited cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GRC",
+   "years": "2016-2019",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->GRC: Aegean islands, officers' asylum case, eastern Mediterranean gas"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GRC",
+   "years": "2020-2022",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "TUR->GRC: eastern Mediterranean naval standoff 2020 (Oruc Reis)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GRC",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->GRC: post-2023 earthquake thaw ('calm waters'); disputes persist"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:GRC",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "TUR->GRC: strong nationalist public sentiment towards Greece"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:GRC",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->GRC: public sentiment softens after 1999 earthquake diplomacy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:GRC",
+   "years": "2009-2019",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "TUR->GRC: mixed; periodic nationalist spikes"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:GRC",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->GRC: 2020 naval standoff; nationalist media"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->GRC: Turkey does not see itself as dependent on Greece"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->GRC: Turkey believes it outweighs Greece militarily and economically"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->GRC: Greek EU and Cyprus vetoes slow Turkey's path; otherwise little constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->GRC: military superiority gives noticeable influence; limited by NATO and EU"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->GRC: small trade; Turkey not economically dependent on Greece"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "TUR:GRC",
+   "years": "2020",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "TUR->GRC: border opened to migrants towards Greece, Feb-Mar 2020 (weaponised migration)",
+   "sources": [
+    "Wikipedia (en), 2020 Greece-Turkey migrant border crisis"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:BGR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->BGR: Turkish minority issue (1989 exodus); shared NATO ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:BGR",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->BGR: EU and NATO accession; cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:BGR",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->BGR: close neighbourly relations; NATO allies; energy corridors"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:BGR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->BGR: moderate public view; minority issues"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:BGR",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->BGR: generally positive; trade and tourism"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->BGR: no meaningful dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->BGR: influence via Turkish minority and trade"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->BGR: little constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->BGR: noticeable influence in Bulgarian politics via minority and pipelines"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->BGR: trade and transit routes; limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GEO",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->GEO: early cooperation; BTC pipeline planning"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GEO",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->GEO: strategic partnership; BTC pipeline; support in 2008 war"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:GEO",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->GEO: sympathy for Georgians; Caucasus ties"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:GEO",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->GEO: Georgia is not a constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:GEO",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->GEO: noticeable economic and political influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:GEO",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->GEO: little constraint from Georgia"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:GEO",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->GEO: Turkey is Georgia's key transit and energy partner"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:GEO",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->GEO: energy transit routes; limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARM",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->ARM: Karabakh war; Turkey closed land border 1993"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARM",
+   "years": "1996-2008",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->ARM: border closed; genocide dispute"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARM",
+   "years": "2009-2019",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "TUR->ARM: Zurich protocols 2009 signed but not ratified"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARM",
+   "years": "2020-2022",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "TUR->ARM: 2020 Karabakh war; Turkish support for Azerbaijan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARM",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "TUR->ARM: special-envoy normalisation; land border still closed",
+   "sources": [
+    "https://www.turkishminute.com/2025/11/19/turkey-says-armenia-normalization-hinges-on-yerevans-peace-with-baku/",
+    "https://carnegieendowment.org/russia-eurasia/politika/2025/06/armenia-turkiye-rapprochement?lang=en"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ARM",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->ARM: public hostility; genocide dispute"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ARM",
+   "years": "2009-2019",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->ARM: hostility persists"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ARM",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->ARM: 2020 war; nationalist media"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->ARM: no dependence on Armenia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "TUR->ARM: Turkey outweighs Armenia; alliance with Azerbaijan"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->ARM: little constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "TUR->ARM: Turkey decisive in regional balance; border is a lever"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "TUR->ARM: trade small"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:AZE",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->AZE: brotherly ties; Turkic states"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:AZE",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "TUR->AZE: strategic alliance ('one nation, two states'); 2020 war support"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:AZE",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->AZE: strong public sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:AZE",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "TUR->AZE: strong public sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->AZE: gas dependence only partly limits Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->AZE: noticeable influence in Baku"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->AZE: low political constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->AZE: major arms and political partner; influence visible in 2020 war"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->AZE: Azerbaijani gas (TANAP) significant to Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->IRN: pragmatic ties; PKK and Islamist tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRN",
+   "years": "2000-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->IRN: economic and energy cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRN",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->IRN: opposite sides in Syria"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRN",
+   "years": "2017-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->IRN: Astana format and trade"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR->IRN: rivalry over Syria and Iraq; cooperation in trade and energy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "TUR->IRN: mild mistrust; sectarian and Syria tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->IRN: gas dependence gives Iran some leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->IRN: Turkish economic reach in Iran"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->IRN: Iranian gas supply and regional role constrain Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->IRN: limited Turkish influence over Iran"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->IRN: Iranian gas and trade significant to Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRQ",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->IRQ: 1991 Turkish troops in northern Iraq; PKK; sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRQ",
+   "years": "2000-2002",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "TUR->IRQ: sanctions and oil smuggling; Kurdish question"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRQ",
+   "years": "2003-2008",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR->IRQ: Iraq war; Turkey refused US use of its territory; PKK"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRQ",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->IRQ: zero-problems policy; KRG economic ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRQ",
+   "years": "2016-2019",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "TUR->IRQ: Bashiqa base dispute; Kurdish referendum tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:IRQ",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->IRQ: cooperation on water, oil pipeline and PKK"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->IRQ: mild; Turkish public view mixed"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->IRQ: dependence on Iraqi oil transit and water"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->IRQ: Turkish influence in northern Iraq"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->IRQ: low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->IRQ: military and economic presence in northern Iraq"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->IRQ: Kirkuk-Ceyhan oil and trade"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SYR",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->SYR: Assad's support for PKK until the 1998 Adana agreement"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SYR",
+   "years": "1999-2010",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->SYR: Adana accord; rapprochement"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SYR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "TUR->SYR: Syrian war; Turkish support for the opposition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SYR",
+   "years": "2024",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "TUR->SYR: hostile until the fall of Assad (Dec 2024)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->SYR: Turkey among closest partners of the new Syrian government; sanctions lifted",
+   "sources": [
+    "https://www.aljazeera.com/news/2025/5/24/syrias-al-sharaa-meets-erdogan-in-turkiye-as-sanctions-lifted",
+    "https://www.fdd.org/analysis/policy_briefs/2025/04/10/turkeys-rising-influence-in-post-assad-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SYR",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->SYR: PKK support and water disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SYR",
+   "years": "1999-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->SYR: growing public sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR->SYR: mixed: refugees, sympathy for Syrians, anger at Assad"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->SYR: public sympathy for new government; refugees returning"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->SYR: limited dependence on Syrian territory and water"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->SYR: Turkish influence in Syria"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:SYR",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "TUR->SYR: Turkey's influence on opposition and northern Syria"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->SYR: Turkey not constrained by Syria"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->SYR: noticeable influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "TUR->SYR: military dominance in northern Syria"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->SYR: influence via the new government",
+   "sources": [
+    "https://www.aljazeera.com/news/2025/5/24/syrias-al-sharaa-meets-erdogan-in-turkiye-as-sanctions-lifted",
+    "https://www.fdd.org/analysis/policy_briefs/2025/04/10/turkeys-rising-influence-in-post-assad-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->SYR: small trade"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->RUS: Yeltsin-era trade and cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "1996-2002",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->RUS: Chechnya and Caucasus tensions; energy ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "2003-2008",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->RUS: energy and trade expansion"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "2009-2014",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->RUS: strategic cooperation; energy projects"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "2015",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->RUS: Su-24 shootdown crisis, Nov 2015",
+   "sources": [
+    "Wikipedia (en), 2015 Russian Sukhoi Su-24 shootdown"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "2016",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR->RUS: apology June 2016; relations restored"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "2017-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->RUS: S-400 purchase, TurkStream, Astana format"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->RUS: Ukraine war: Turkey mediates, keeps Russian ties; frictions"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:RUS",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR->RUS: Chechnya and Caucasus memories"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:RUS",
+   "years": "2009-2014",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "TUR->RUS: public distrust"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:RUS",
+   "years": "2015-2016",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->RUS: Su-24 crisis; public anger"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:RUS",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "TUR->RUS: public distrust persists"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:RUS",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->RUS: energy and security dependence on Russia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:RUS",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->RUS: gas, nuclear plant, tourism make Turkey dependent"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->RUS: Turkey sees itself as a regional counterweight"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:RUS",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->RUS: energy dependence gives Russia leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:RUS",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->RUS: S-400 purchase; Syria and Libya constraints"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->RUS: limited influence over Russia; Astana and Syria cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->RUS: Russian gas (about 40% of imports) and tourism"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->UKR: good ties; Crimean Tatar issue"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->UKR: non-recognition of Crimea annexation; Bayraktar drones"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "TUR->UKR: support for Ukraine's sovereignty; mediation"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->UKR: positive public sympathy; Crimean Tatars"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->UKR: limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->UKR: influence via Crimean Tatars and trade"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->UKR: little constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->UKR: noticeable but limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->UKR: grain and trade"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->USA: NATO ally; Gulf War cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:USA",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->USA: alliance; 2003 Iraq war motion dispute"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:USA",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->USA: alliance with tensions over Syria and Iran"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:USA",
+   "years": "2016-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->USA: post-2016 coup rift; S-400 and CAATSA"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:USA",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->USA: CAATSA sanctions and F-35 dispute; NATO cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->USA: Trump-Erdogan rapport; F-35 and S-400 dispute unresolved",
+   "sources": [
+    "https://www.euronews.com/2025/08/21/us-remains-opposed-to-turkey-re-joining-f-35-jet-programme-state-department-says",
+    "https://www.congress.gov/crs-product/R44000"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->USA: pro-Western public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:USA",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->USA: Iraq war reduced sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:USA",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->USA: mixed"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:USA",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->USA: anti-US sentiment; sanctions and Syria/YPG policy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->USA: NATO, US market and technology constraints"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->USA: limited Turkish influence over US decisions"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->USA: NATO and military-technology dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->USA: limited Turkish leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->USA: trade and investment; not critical"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:CHN",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->CHN: limited ties; Uyghur issue"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:CHN",
+   "years": "2009-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->CHN: growing trade; cool over Xinjiang and Urumqi 2009"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->CHN: trade and investment; muted criticism on Xinjiang"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:CHN",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "TUR->CHN: Uyghur issue; public sympathy for Uyghurs"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:CHN",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->CHN: Urumqi 2009 and Xinjiang repression"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->CHN: growing dependence on Chinese investment and imports"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->CHN: little influence on China"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->CHN: limited constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->CHN: minimal influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:CHN",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->CHN: small trade"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:CHN",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->CHN: Chinese imports and investment grew"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->DEU: NATO/EU ally; large diaspora"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:DEU",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->DEU: EU accession partner"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:DEU",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->DEU: EU accession stalled"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:DEU",
+   "years": "2016-2019",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR->DEU: 2016-2019 diplomatic crisis; campaign bans"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:DEU",
+   "years": "2020-2022",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->DEU: partial recovery; migration cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:DEU",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->DEU: improved ties; trade and migration"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:DEU",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->DEU: large Turkish diaspora in Germany"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:DEU",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->DEU: diaspora ties"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:DEU",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->DEU: resentment over 2016-2019 diplomacy; diaspora ties strong"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->DEU: EU and German policy constrain Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->DEU: diaspora and trade give influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->DEU: German role in EU and arms export policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->DEU: influence via diaspora and EU process"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->DEU: Germany is the largest export market"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:FRA",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->FRA: NATO ally; Mediterranean rivalry"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:FRA",
+   "years": "2001-2008",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR->FRA: Armenian genocide law 2001; denial law 2006"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:FRA",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "TUR->FRA: French opposition to EU membership"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:FRA",
+   "years": "2016-2019",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "TUR->FRA: Libya and Mediterranean policy; Kurdish support in Syria"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:FRA",
+   "years": "2020-2022",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "TUR->FRA: Libyan and eastern Mediterranean naval tensions 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:FRA",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->FRA: partial thaw; disputes persist"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:FRA",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->FRA: Armenian genocide disputes in France"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:FRA",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->FRA: denial law 2012 and Mediterranean tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->FRA: NATO and EU constraints"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->FRA: Turkish influence in Mediterranean and Africa"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->FRA: limited constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->FRA: limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->FRA: trade; limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GBR",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->GBR: NATO ally; trade and defence ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GBR",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->GBR: strong ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:GBR",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->GBR: post-Brexit trade and defence cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:GBR",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->GBR: positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:GBR",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->GBR: positive but cooler"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->GBR: NATO and trade constraints"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->GBR: limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->GBR: limited constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->GBR: limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->GBR: trade; limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ITA",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->ITA: NATO and EU ties; trade"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ITA",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->ITA: Libya rivalry; Mediterranean gas"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->ITA: positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->ITA: NATO and EU constraints"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->ITA: limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->ITA: limited constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->ITA: limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->ITA: trade; limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ISR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->ISR: growing contacts"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ISR",
+   "years": "1996-2009",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->ISR: strategic military partnership"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ISR",
+   "years": "2010-2015",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "TUR->ISR: Mavi Marmara crisis 2010; ambassadors expelled"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ISR",
+   "years": "2016-2021",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "TUR->ISR: 2016 normalisation deal; Gaza and Jerusalem disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ISR",
+   "years": "2022-2023",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->ISR: normalisation attempts; Gaza tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ISR",
+   "years": "2024",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "TUR->ISR: Gaza war; trade halted; diplomatic ties cut Nov 2024",
+   "sources": [
+    "https://www.pbs.org/newshour/world/turkey-and-israel-announce-trade-restrictions-on-each-other-as-relations-worsen"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "TUR->ISR: relations broken off in practice; ports and airspace closed Aug 2025",
+   "sources": [
+    "https://www.jpost.com/israel-news/article-865770"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ISR",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR->ISR: neutral public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ISR",
+   "years": "2010-2023",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->ISR: Gaza and Mavi Marmara"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "TUR->ISR: Gaza war; strong public opposition to Israel"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->ISR: limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->ISR: Turkish influence limited but notable"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->ISR: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->ISR: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->ISR: trade limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:EGY",
+   "years": "1990-2012",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->EGY: moderate relations; close with Morsi government 2012"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:EGY",
+   "years": "2013-2020",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->EGY: 2013 coup; Turkey backed Morsi-era opposition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:EGY",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->EGY: normalisation from 2021; ambassadors restored 2023"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:EGY",
+   "years": "1990-2012",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->EGY: positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:EGY",
+   "years": "2013-2020",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR->EGY: polarised public"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:EGY",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->EGY: normalisation"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->EGY: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->EGY: limited Turkish influence in Egypt"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->EGY: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->EGY: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->EGY: trade limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SAU",
+   "years": "1990-2011",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->SAU: Gulf relations; investment"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SAU",
+   "years": "2012-2017",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR->SAU: Syria and Egypt rivalry"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SAU",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "TUR->SAU: Khashoggi affair; Qatar blockade"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SAU",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->SAU: 2022 normalisation; Saudi investment"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SAU",
+   "years": "1990-2017",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->SAU: positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SAU",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR->SAU: Khashoggi affair"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SAU",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->SAU: normalisation"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->SAU: Gulf and energy ties"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->SAU: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->SAU: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->SAU: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->SAU: trade limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:QAT",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->QAT: investment and close ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:QAT",
+   "years": "2017-2021",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "TUR->QAT: support during Gulf blockade; military base"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:QAT",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "TUR->QAT: continued strategic ties; investment"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:QAT",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->QAT: positive"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:QAT",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->QAT: public sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->QAT: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->QAT: Turkish influence via investment"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->QAT: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->QAT: major defence partner"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->QAT: trade limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARE",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->ARE: trade and investment"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARE",
+   "years": "2016-2020",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "TUR->ARE: rivalry over Libya and Gulf politics"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:ARE",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->ARE: normalisation 2021-2022; investment"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ARE",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->ARE: positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:ARE",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->ARE: normalisation"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->ARE: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->ARE: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->ARE: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->ARE: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->ARE: trade limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:LBY",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->LBY: trade ties; Gaddafi-era cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:LBY",
+   "years": "2011-2014",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->LBY: NATO intervention; Turkey backed NTC"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:LBY",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->LBY: Turkey backed UN-recognised Tripoli government"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:LBY",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->LBY: 2019 maritime and military agreement with the Tripoli government"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:LBY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->LBY: positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:LBY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->LBY: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:LBY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->LBY: Turkish influence grows after 2019 agreements"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:LBY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->LBY: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:LBY",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->LBY: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:LBY",
+   "years": "2011-2019",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->LBY: growing"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:LBY",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->LBY: Turkish military presence in western Libya"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:LBY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->LBY: trade limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:CYP",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "TUR->CYP: Turkey does not recognise the Republic of Cyprus; 1996 crisis"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:CYP",
+   "years": "2004-2008",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "TUR->CYP: Annan plan; Cyprus joins EU 2004"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:CYP",
+   "years": "2009-2019",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "TUR->CYP: no recognition; stalled talks"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:CYP",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "TUR->CYP: 2019-2020 drilling dispute; naval deployments"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:CYP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR->CYP: public hostility; Greek Cypriot issue"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:CYP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR->CYP: EU veto dynamics"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:CYP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TUR->CYP: Turkish influence in the north of the island"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:CYP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->CYP: EU and Greek Cypriot constraints"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:CYP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->CYP: influence in the north"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:CYP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "TUR->CYP: trade limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:KAZ",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->KAZ: Turkic cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:KAZ",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "TUR->KAZ: Organization of Turkic States 2009; strong ties"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->KAZ: Turkic brotherhood"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->KAZ: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->KAZ: influence in Central Asia"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->KAZ: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->KAZ: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "TUR->KAZ: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:UZB",
+   "years": "1991-2015",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->UZB: Turkic cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:UZB",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->UZB: deepened ties"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->UZB: Turkic brotherhood"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->UZB: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->UZB: influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->UZB: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->UZB: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "TUR->UZB: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:KGZ",
+   "years": "1991-2015",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "TUR->KGZ: Turkic cooperation; Turkish schools"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:KGZ",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "TUR->KGZ: ties continue; disputes over Gulen-linked schools"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->KGZ: Turkic brotherhood"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->KGZ: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->KGZ: influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->KGZ: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR->KGZ: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "TUR->KGZ: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SRB",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "TUR->SRB: Bosnian war; 1999 NATO intervention"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SRB",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR->SRB: relations normalised after 1999"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SRB",
+   "years": "2009-2019",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->SRB: economic cooperation; visits"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:SRB",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->SRB: strong economic and diplomatic ties"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SRB",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR->SRB: Bosnian war; public sympathy for Bosniaks"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:SRB",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR->SRB: neutral"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->SRB: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->SRB: influence in the Balkans"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->SRB: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->SRB: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "TUR->SRB: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:XKX",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "TUR->XKX: strong support for independence; KFOR troops"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:XKX",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->XKX: Turkish sympathy for Kosovar Albanians"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:XKX",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->XKX: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:XKX",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR->XKX: influence via ties"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:XKX",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->XKX: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:XKX",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR->XKX: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:XKX",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "TUR->XKX: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUR:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "TUR->PAK: close strategic partners; support on Kashmir"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUR:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR->PAK: strong public sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUR:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR->PAK: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUR:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR->PAK: influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUR:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR->PAK: little"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUR:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR->PAK: limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUR:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "TUR->PAK: limited"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "TUR:GRC",
+   "years": "1996",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "TUR - GRC: Imia/Kardak naval standoff, Jan 1996: mobilisation and armed tension",
+   "sources": [
+    "Wikipedia (en), Imia/Kardak crisis (1996)"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "TUR:GRC",
+   "years": "2020",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "TUR - GRC: eastern Mediterranean naval standoff and frigate collision, Aug 2020",
+   "sources": [
+    "Wikipedia (en), 2020 Greek-Turkish naval standoff"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "TUR:RUS",
+   "years": "2015",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "TUR - RUS: Su-24 shootdown by Turkey, 24 Nov 2015: armed incident and sanctions crisis",
+   "sources": [
+    "Wikipedia (en), 2015 Russian Sukhoi Su-24 shootdown"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "TUR:SYR",
+   "years": "2012",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "TUR - SYR: Syrian shootdown of Turkish F-4 (June 2012) and Syrian shelling of Turkish border town (Oct 2012); Turkish retaliatory fire",
+   "sources": [
+    "Wikipedia (en), Syria-Turkey border incidents (2012)"
+   ]
+  }
+ ]
+}

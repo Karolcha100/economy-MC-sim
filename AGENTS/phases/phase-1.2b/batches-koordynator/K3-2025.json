@@ -1,0 +1,13 @@
+{
+  "rationale": "K3 (zgoda autora 2026-10-14): dyskusyjne wpisy 2025 rozstrzygnięte według propozycji — naloty lub udział bez wojny lądowej między regularnymi armiami obu państw = in war crisis, nie in war.",
+  "operations": [
+    {"kind": "doublesided", "name": "in war", "targets": "USA:YEM", "years": "2025", "curve": "constant", "start": 0, "rationale": "naloty USA na Huti (operacja Rough Rider, III–V 2025), bez wojny lądowej"},
+    {"kind": "doublesided", "name": "in war crisis", "targets": "USA:YEM", "years": "2025", "curve": "constant", "start": 1, "rationale": "jw."},
+    {"kind": "doublesided", "name": "in war", "targets": "GBR:YEM", "years": "2025", "curve": "constant", "start": 0, "rationale": "udział GBR w nalotach, bez wojny lądowej"},
+    {"kind": "doublesided", "name": "in war crisis", "targets": "GBR:YEM", "years": "2025", "curve": "constant", "start": 1, "rationale": "jw."},
+    {"kind": "doublesided", "name": "in war", "targets": "ISR:PSE", "years": "2025", "curve": "constant", "start": 0, "rationale": "wojna w Gazie z Hamasem; władze palestyńskie (PA) nie są stroną walk"},
+    {"kind": "doublesided", "name": "in war crisis", "targets": "ISR:PSE", "years": "2025", "curve": "constant", "start": 1, "rationale": "konflikt zbrojny na terytorium PSE, państwo nie jest stroną walk"},
+    {"kind": "doublesided", "name": "in war", "targets": "KHM:THA", "years": "2025", "curve": "constant", "start": 0, "rationale": "starcia graniczne (VII i XII 2025), bez wojny w pełnej skali"},
+    {"kind": "doublesided", "name": "in war crisis", "targets": "KHM:THA", "years": "2025", "curve": "constant", "start": 1, "rationale": "starcia graniczne z ofiarami (VII i XII 2025)"}
+  ]
+}

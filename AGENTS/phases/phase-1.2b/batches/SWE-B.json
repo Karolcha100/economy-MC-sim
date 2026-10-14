@@ -1,0 +1,1946 @@
+{
+ "rationale": "SWE, zadanie B: relacje od SWE do 22 partnerow (sasiedzi, Nordycy, Baltyk, Ukraina, UE/NATO, USA, CHN, RUS, Turcja, Izrael, Iran, Irak, Syria); relacje dwustronne bez zmian (in war/in war crisis 2025: brak uzasadnienia; neighbours juz wypelnione dla NOR, FIN); hybrid attacks = 0",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "NOR: sasiad lądowy, kraj nordycki, wspolne czlonkostwo NATO od 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "NOR: sasiad, bliski partner nordycki; sympatia spoleczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NOR: wspolna przestrzen nordycka, mala zaleznosc polityczna SWE od NOR"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "NOR: wplyw SWE na NOR przez wspolna polityke nordycka i UE/EOG"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NOR: realnie malo zaleznosci polityczno-wojskowej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NOR: realny wplyw SWE na NOR ograniczony do wspolnych ustaleń regionalnych"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NOR: energia (elektrycznosc, gaz, ropa) i handel z NOR"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "FIN: sasiad lądowy, kraj nordycki; wspolne czlonkostwo NATO od 2023/2024 (Finlandia 2023, SWE 2024)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "FIN: sasiad, bliski partner nordycki"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "FIN: mala zaleznosc polityczna SWE od FIN"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FIN: wplyw SWE na FIN przez wspolna polityke obronna nordycka"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "FIN: realnie niska zaleznosc polityczno-wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "FIN: realny wplyw SWE na FIN: wspolne przedsiewziecia obronne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "FIN: handel i uslugi transportowe z FIN; ok. kilku procent handlu SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "DNK: kraj nordycki, Oresund (wspolna aglomeracja), czlonek UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "DNK: bliski partner nordycki; wspolna region Oresund"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "DNK: mala zaleznosc polityczna SWE od DNK"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "DNK: wplyw SWE na DNK w ramach UE i wspolnej polityki nordyckiej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "DNK: niska realna zaleznosc polityczno-wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "DNK: realny wplyw SWE na DNK ograniczony do wspolnej polityki regionalnej"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "DNK: wazny partner handlowy i przez Oresund (most i transport)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "ISL: kraj nordycki, czlonek NATO, bez granicy ladowej; stosunki poprawne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "ISL: sympatia wobec kraju nordyckiego; brak bliskich kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "ISL: brak istotnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ISL: niewielki wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "ISL: brak istotnej zaleznosci polityczno-wojskowej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "ISL: niewielki realny wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "ISL: niewielki handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "EST: niepodleglosc po 1991, wsparcie SWE dla panstw baltyckich; relacje dobre"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "EST: czlonek UE i NATO od 2004; bliska wspolpraca regionalna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "EST: wsparcie wobec zagrozenia rosyjskiego po 2014 (wspolna polityka baltycka)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "EST: silne wsparcie po 2022; wspolne stanowisko wobec Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "EST: sympatia spoleczna umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "EST: wzrost sympatii po przystapieniu do UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:EST",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "EST: szwedzka opinia publiczna popiera Estonie wobec zagrozenia rosyjskiego"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "EST: brak zaleznosci politycznej SWE od EST"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "EST: ograniczony wplyw SWE na EST (wspolnoty UE/NATO)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "EST: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "EST: realny wplyw SWE przez banki, pomoc i wspolne projekty obronne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "EST: malo istotny ekonomicznie dla SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "LVA: niepodleglosc po 1991; wsparcie SWE dla panstw baltyckich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LVA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "LVA: czlonek UE i NATO od 2004"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LVA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "LVA: wsparcie wobec zagrozenia rosyjskiego po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LVA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "LVA: silne wsparcie po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "LVA: sympatia spoleczna umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:LVA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "LVA: wzrost sympatii po przystapieniu do UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:LVA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "LVA: opinia publiczna popiera Lotwe; mniej zainteresowania niz Estonia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "LVA: brak zaleznosci politycznej SWE od LVA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "LVA: ograniczony wplyw SWE na LVA"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "LVA: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "LVA: realny wplyw SWE przez banki (Swedbank) i wspolne projekty obronne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "LVA: malo istotny ekonomicznie dla SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "LTU: niepodleglosc po 1991; wsparcie SWE dla panstw baltyckich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "LTU: czlonek UE i NATO od 2004"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LTU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "LTU: wsparcie wobec zagrozenia rosyjskiego po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "LTU: silne wsparcie po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "LTU: sympatia spoleczna umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:LTU",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "LTU: wzrost sympatii po przystapieniu do UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:LTU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "LTU: opinia publiczna popiera Litwe"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "LTU: brak zaleznosci politycznej SWE od LTU"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "LTU: ograniczony wplyw SWE na LTU"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "LTU: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "LTU: realny wplyw SWE przez banki i wspolne projekty obronne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "LTU: malo istotny ekonomicznie dla SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "POL: czlonek UE i NATO; wazny partner regionalny; okresowe napiecia (np. 2015-2023) bez zerwania"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "POL: sympatia spoleczna wobec Polski; duza diaspora polska w SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "POL: brak istotnej zaleznosci SWE od POL"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "POL: wplyw SWE w UE i NATO na Polske"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "POL: niska realna zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "POL: realny wplyw SWE ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "POL: handel z POL; istotny, ale nie kluczowy dla SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR: relacje dyplomatyczne stonowane; bez zerwania"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:BLR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "BLR: reakcja na sfalszowane wybory i represje 2020; ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "BLR: wspolpraca Bialorusi z agresja Rosji na Ukraine (2022); sankcje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "BLR: obojetnosc spoleczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "BLR: negatywna opinia po represjach 2020 i wsparciu wojny"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR: brak zaleznosci SWE od BLR"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR: brak wplywu SWE na BLR"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "BLR: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "BLR: malo realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR: znikomy handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "UKR: panstwo niepodlegle od 1991; relacje poprawne, bez strategicznego zaangazowania"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "UKR: wsparcie po 2014 (Krym, Donbas); pomoc rozwojowa i szkolenia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "UKR: pelne poparcie po inwazji 2022: pomoc wojskowa, sankcje, wsparcie kandydatury UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "UKR: sympatia spoleczna umiarkowana"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "UKR: wzrost sympatii po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "UKR: bardzo silna sympatia spoleczna po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UKR: brak zaleznosci politycznej SWE od UKR"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UKR: ograniczony wplyw SWE na UKR (pomoc, wsparcie dyplomatyczne)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "UKR: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "UKR: brak realnej zaleznosci, mimo wspolnej obrony"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "UKR: malo realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "UKR: wplyw przez pomoc wojskowa i wspolne przedsiewziecia (np. produkcja amunicji)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "UKR: znikomy handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "DEU: najwazniejszy partner UE; wspolne czlonkostwo UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "DEU: pozytywny obraz Niemiec w spoleczenstwie szwedzkim"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "DEU: zaleznosc od polityki UE i Niemiec (gospodarcza i polityczna)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "DEU: wplyw SWE przez UE i wspolne stanowiska"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "DEU: realne ograniczenia polityki bezpieczenstwa przez UE i wspolne instytucje"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "DEU: realny wplyw SWE na DEU ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "DEU: najwazniejszy partner handlowy SWE (eksport i import)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "FRA: partner UE i NATO; wspolne inicjatywy obronne i gospodarcze"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "FRA: umiarkowanie pozytywny obraz Francji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "FRA: mala zaleznosc polityczna SWE od FRA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "FRA: wplyw SWE w UE wobec Francji"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "FRA: ograniczony wplyw polityki FRA w UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "FRA: realny wplyw SWE ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "FRA: istotny partner handlowy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "GBR: bliskie stosunki; wspolne zaangazowanie w bezpieczenstwo Baltyku (JEF)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "GBR: pozytywny obraz Wielkiej Brytanii"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "GBR: mala zaleznosc SWE od GBR"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "GBR: wplyw SWE przez wspolne inicjatywy obronne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "GBR: ograniczony wplyw polityki GBR na bezpieczenstwo SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "GBR: realny wplyw SWE ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "GBR: istotny partner handlowy poza UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NLD: partner UE i NATO; poprawne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "NLD: umiarkowanie pozytywny obraz Holandii"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NLD: brak istotnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NLD: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "NLD: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NLD: malo realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NLD: istotny, ale nie kluczowy partner handlowy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "USA: sojusznik; wspolpraca PfP i partnerstwo bezpieczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:USA",
+   "years": "2017-2023",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "USA: sojusz zachowany; partnerstwo bez czlonkostwa NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:USA",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "USA: czlonkostwo NATO od 2024; napiecia handlowe i polityczne 2025 (polityka Trumpa)",
+   "sources": [
+    "Pew Research Center, U.S. Image Declines in Many Nations Amid Low Confidence in Trump, 2025-06-11: Szwecja 19% pozytywnie (spadek o 28 pkt z 2024), https://www.pewresearch.org/global/2025/06/11/views-of-the-united-states/",
+    "NBC News, views of US and Trump dip sharply in allied countries, 2025: 79% Szwedow negatywnie wobec USA, https://www.nbcnews.com/politics/trump-administration/views-us-trump-dip-sharply-many-allied-countries-rcna211805"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "USA: wysoka sympatia spoleczna (szacunek)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:USA",
+   "years": "2017-2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "USA: spadek sympatii w czasie pierwszej prezydentury Trumpa (szacunek)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:USA",
+   "years": "2024",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA: Pew 2024: ok. 47% pozytywnie wobec USA; netto ok. 0-5",
+   "sources": [
+    "Pew Research Center, U.S. Image Declines in Many Nations Amid Low Confidence in Trump, 2025-06-11: Szwecja 19% pozytywnie (spadek o 28 pkt z 2024), https://www.pewresearch.org/global/2025/06/11/views-of-the-united-states/",
+    "NBC News, views of US and Trump dip sharply in allied countries, 2025: 79% Szwedow negatywnie wobec USA, https://www.nbcnews.com/politics/trump-administration/views-us-trump-dip-sharply-many-allied-countries-rcna211805"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "USA: Pew 2025: 19% pozytywnie, 79% negatywnie wobec USA",
+   "sources": [
+    "Pew Research Center, U.S. Image Declines in Many Nations Amid Low Confidence in Trump, 2025-06-11: Szwecja 19% pozytywnie (spadek o 28 pkt z 2024), https://www.pewresearch.org/global/2025/06/11/views-of-the-united-states/",
+    "NBC News, views of US and Trump dip sharply in allied countries, 2025: 79% Szwedow negatywnie wobec USA, https://www.nbcnews.com/politics/trump-administration/views-us-trump-dip-sharply-many-allied-countries-rcna211805"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:USA",
+   "years": "1990-2023",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "USA: zaleznosc bezpieczenstwa od USA (PfP, pozniej NATO)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:USA",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: czlonkostwo NATO i zaleznosc od parasola USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "USA: ograniczony wplyw SWE na USA"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:USA",
+   "years": "1990-2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "USA: polityczno-wojskowa zaleznosc od USA bez czlonkostwa NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:USA",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: zaleznosc wojskowa po wejsciu do NATO (USA moga ograniczac polityke bezpieczenstwa)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "USA: realny wplyw SWE na USA bardzo niewielki"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "USA: wazny rynek eksportowy i zrodlo inwestycji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:CHN",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "CHN: poprawne stosunki handlowe i dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "CHN: napiecia w sprawach praw czlowieka (sprawa Gui Minhai), szpiegostwa i Tybetu/Ujgurow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:CHN",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "CHN: obojetnosc spoleczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "CHN: negatywna opinia po sprawach praw czlowieka i zarzutach szpiegostwa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "CHN: zaleznosc gospodarcza od chinskiej produkcji i rynku"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "CHN: ograniczony wplyw SWE na CHN"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "CHN: malo realnej zaleznosci politycznej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "CHN: malo realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:CHN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "CHN: handel i import z CHN; umiarkowana zaleznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:CHN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "CHN: wzrost importu (elektronika, baterie) i inwestycji z CHN"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "RUS: relacje poprawne, z napieciami wokol wojskowych incydentow na Baltyku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "RUS: pogorszenie po aneksji Krymu i incydentach powietrznych i morskich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "RUS: pelna wojna Rosji z Ukraina; ograniczenie kontaktow, wydalenia dyplomatow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "RUS: obojetnosc, ostrozna nieufnosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "RUS: silna niechec po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "RUS: bardzo silna niechec po 2022 (sondaze po inwazji)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "RUS: brak zaleznosci politycznej SWE od RUS"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "RUS: brak wplywu SWE na RUS"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "RUS: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "RUS: ograniczony realny wplyw SWE (sankcje, Baltyk)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:RUS",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "RUS: niewielka zaleznosc od RUS (energia, handel)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "RUS: po 2022 znikoma zaleznosc od RUS"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:TUR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "TUR: partner NATO; stosunki poprawne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:TUR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TUR: stosunki poprawne, z napieciami wokol migracji i kurdyjskich spraw"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:TUR",
+   "years": "2022-2023",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR: blokada wstapienia SWE do NATO i zadania ekstradycji; spalenia Koranu 2023",
+   "sources": [
+    "Turkish parliament ratifies Sweden's NATO accession, 23 Jan 2024 (wiedza modelu)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR: ratyfikacja przystapienia do NATO (2024) i odbudowa wspolpracy",
+   "sources": [
+    "Turkish parliament ratifies Sweden's NATO accession, 23 Jan 2024 (wiedza modelu)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:TUR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "TUR: obojetnosc spoleczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:TUR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "TUR: lekko negatywna opinia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:TUR",
+   "years": "2022-2023",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "TUR: negatywna opinia wobec blokady NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "TUR: lagodzenie opinii po 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "TUR: brak istotnej zaleznosci SWE od TUR"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR: ograniczony wplyw SWE na TUR"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "TUR: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "TUR: realny wplyw SWE przez NATO i relacje dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "TUR: umiarkowany handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:ISR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "ISR: poprawne stosunki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:ISR",
+   "years": "2014-2023",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ISR: ochlodzenie po uznaniu Palestyny przez SWE (2014) i napieciach"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "ISR: ostra krytyka dzialan wojennych w Gazie i napiecia dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:ISR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ISR: umiarkowanie pozytywny obraz"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:ISR",
+   "years": "2014-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ISR: spadek sympatii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "ISR: negatywna opinia po wojnie w Gazie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "ISR: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "ISR: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "ISR: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "ISR: malo realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "ISR: niewielka zaleznosc gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:IRN",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "IRN: relacje poprawne, z napieciami wokol praw czlowieka"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:IRN",
+   "years": "2020-2023",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "IRN: pogorszenie: sprawy obywateli szwedzko-irańskich, zbrodnie zlecane przez Iran w SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:IRN",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "IRN: wzajemne wydalenia dyplomatow (wyniki wyszukiwania: wrzesien, rok niepewny), zarzuty o dzialania wymierzone w zydowskie cele",
+   "sources": [
+    "Iran expels Swedish diplomat in tit-for-tat after Stockholm's move, Arab News (wyniki wyszukiwania; rok w wynikach niepewny, wrzesien), https://www.arabnews.com/middle-east/iran-expels-swedish-diplomat-after-sweden-removes-iranian-official-3002070"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:IRN",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "IRN: obojetnosc, czesciowo negatywna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:IRN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "IRN: negatywna opinia po egzekucjach i zarzutach o przestepczosci zlecanej przez Iran"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "IRN: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "IRN: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "IRN: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "IRN: malo realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "IRN: niewielki handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:IRQ",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "IRQ: relacje poprawne (ambasada, konsulat)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:IRQ",
+   "years": "2023",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "IRQ: wydalenie ambasadora SWE z Bagdadu po spaleniu Koranu (2023)",
+   "sources": [
+    "Iraq expels Swedish ambassador after Quran burning in Stockholm, July 2023 (wiedza modelu)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:IRQ",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "IRQ: relacje odbudowywane, nadal napiete"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "IRQ: lekko pozytywna/obojetna sympatia; duza diaspora irakijska w SWE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "IRQ: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "IRQ: ograniczony wplyw"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "IRQ: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "IRQ: malo realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "IRQ: niewielki handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "SYR: relacje poprawne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "SYR: zerwanie kontaktow z rezimem Asada po 2011; ograniczenie placowki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SWE:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "SYR: niepewna normalizacja po 2024 (zmiana wladzy); ostroznosc"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "SYR: obojetnosc spoleczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SWE:SYR",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "SYR: negatywna opinia o rezimie; wspolczucie dla uchodzcow"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SWE:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "SYR: brak zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SWE:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "SYR: brak wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SWE:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "SYR: brak realnej zaleznosci"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SWE:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "SYR: brak realnego wplywu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SWE:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "SYR: znikomy handel"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "SWE:NOR,SWE:FIN,SWE:DNK,SWE:ISL,SWE:POL,SWE:DEU,SWE:FRA,SWE:GBR,SWE:NLD,SWE:USA,SWE:CHN,SWE:RUS,SWE:TUR,SWE:ISR,SWE:IRN,SWE:IRQ,SWE:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "SWE nie prowadzi dzialan hybrydowych (sabotaz, cyber o charakterze wrogim, dezinformacja-kampanie panstwowe) wobec zadnego z partnerow; wartosc domyslna 0 wpisana jawnie"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "SWE:EST,SWE:LVA,SWE:LTU,SWE:BLR,SWE:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "SWE nie prowadzi dzialan hybrydowych (sabotaz, cyber o charakterze wrogim, dezinformacja-kampanie panstwowe) wobec zadnego z partnerow; wartosc domyslna 0 wpisana jawnie"
+  }
+ ]
+}

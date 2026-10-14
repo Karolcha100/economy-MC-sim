@@ -1,0 +1,46 @@
+{
+  "rationale": "SWZ, zadanie A (tryb oszczędny): monarchia absolutna (Tinkhundla, partie zakazane), stabilność instytucjonalna wysoka do 2010, spadek po 2011 (protesty, PUDEMO) i po zamieszkach 2021; poparcie rządu szacunek (brak wiarygodnych sondaży), napięcia społeczne przy suszach i bezrobociu; asymilacja wysoka (mała, jednorodna ludność, spadający udział migrantów); happiness 1990-2011 jako szacunek (spadek w szczycie AIDS, odbicie po 2005, płynne połączenie z 2012); korupcja 1990-95 i 2022-25 oraz violence risk 1990-95 i 2022-25 i civilization 2023-25 uzupełnione od wartości istniejących; flagi: riots 2021 (zamieszki), epidemic 2020-2021 (COVID, jak w kotwicach); HIV nie flagowany (spójnie z BWA); wyszukiwarka nieużyta",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SWZ", "years": "1990-1995", "curve": "linear", "start": 66, "end": 65},
+    {"kind": "grade", "name": "stability", "targets": "SWZ", "years": "1996-2005", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "SWZ", "years": "2006-2010", "curve": "linear", "start": 62, "end": 63},
+    {"kind": "grade", "name": "stability", "targets": "SWZ", "years": "2011-2014", "curve": "linear", "start": 63, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "SWZ", "years": "2015-2020", "curve": "linear", "start": 55, "end": 57},
+    {"kind": "grade", "name": "stability", "targets": "SWZ", "years": "2021-2021", "curve": "constant", "start": 48},
+    {"kind": "grade", "name": "stability", "targets": "SWZ", "years": "2022-2025", "curve": "linear", "start": 52, "end": 56},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SWZ", "years": "1990-1999", "curve": "linear", "start": 60, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "SWZ", "years": "2000-2010", "curve": "linear", "start": 56, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "SWZ", "years": "2011-2020", "curve": "linear", "start": 47, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "SWZ", "years": "2021-2021", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SWZ", "years": "2022-2025", "curve": "linear", "start": 35, "end": 38},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SWZ", "years": "1990-2005", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SWZ", "years": "2006-2010", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SWZ", "years": "2011-2020", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SWZ", "years": "2021-2021", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SWZ", "years": "2022-2025", "curve": "linear", "start": 62, "end": 60},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SWZ", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "SWZ", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SWZ", "years": "1990-2005", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "assimilation", "targets": "SWZ", "years": "2006-2025", "curve": "linear", "start": 68, "end": 66},
+
+    {"kind": "grade", "name": "happiness", "targets": "SWZ", "years": "1990-1995", "curve": "linear", "start": 52, "end": 49},
+    {"kind": "grade", "name": "happiness", "targets": "SWZ", "years": "1996-2004", "curve": "linear", "start": 49, "end": 41},
+    {"kind": "grade", "name": "happiness", "targets": "SWZ", "years": "2005-2011", "curve": "linear", "start": 41, "end": 48},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SWZ", "years": "2023-2025", "curve": "linear", "start": "current", "end": 70.0, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "SWZ", "years": "1990-1995", "curve": "linear", "start": 50.0, "end": 49.4},
+    {"kind": "grade", "name": "corruption", "targets": "SWZ", "years": "2022-2025", "curve": "linear", "start": "current", "end": 63.0, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SWZ", "years": "1990-1995", "curve": "constant", "start": 54},
+    {"kind": "grade", "name": "violence risk", "targets": "SWZ", "years": "2022-2025", "curve": "linear", "start": "current", "end": 52.0, "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "SWZ", "years": "2021-2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SWZ", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

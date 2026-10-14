@@ -1,0 +1,71 @@
+{
+  "rationale": "ALB, zadanie A (statystyki państwa), tryb oszczędny: transformacja 1990–1992 (upadek reżimu, rządy przejściowe); kryzys państwa 1997 (upadek piramid finansowych, powstanie na południu); kryzys polityczny i protesty 2011; stabilna większość rządu od 2013; wojna w Kosowie 1998–1999 (napływ uchodźców, nastroje narodowe); COVID 2020–21",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "1990-1991", "curve": "linear", "start": 40, "end": 20},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "1992-1995", "curve": "linear", "start": 36, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "1996-1996", "curve": "constant", "start": 33},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "1997-1997", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "1998-2001", "curve": "linear", "start": 25, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "2002-2008", "curve": "linear", "start": 45, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "2009-2012", "curve": "linear", "start": 52, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "2013-2018", "curve": "linear", "start": 45, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "2019-2021", "curve": "linear", "start": 56, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "ALB", "years": "2022-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "violence risk", "targets": "ALB", "years": "1990-1995", "curve": "linear", "start": 40, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "ALB", "years": "2023-2025", "curve": "linear", "start": 47.5, "end": 46, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "ALB", "years": "1990-1995", "curve": "linear", "start": 55, "end": 66, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "ALB", "years": "2023-2025", "curve": "linear", "start": 57, "end": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "ALB", "years": "1990-1993", "curve": "linear", "start": 40, "end": 36, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "ALB", "years": "1994-1996", "curve": "linear", "start": 38, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "ALB", "years": "1997-1997", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "ALB", "years": "1998-2001", "curve": "linear", "start": 30, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "ALB", "years": "2002-2010", "curve": "linear", "start": 42, "end": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "ALB", "years": "2024-2025", "curve": "linear", "start": 81.3, "end": 81.6, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "ALB", "years": "1990-1997", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "social revanchism", "targets": "ALB", "years": "1998-1999", "curve": "linear", "start": 20, "end": 30},
+    {"kind": "grade", "name": "social revanchism", "targets": "ALB", "years": "2000-2008", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "social revanchism", "targets": "ALB", "years": "2009-2025", "curve": "constant", "start": 22},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "ALB", "years": "1990-1996", "curve": "constant", "start": 6},
+    {"kind": "grade", "name": "government revanchism", "targets": "ALB", "years": "1997-1997", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "ALB", "years": "1998-1999", "curve": "constant", "start": 12},
+    {"kind": "grade", "name": "government revanchism", "targets": "ALB", "years": "2000-2008", "curve": "constant", "start": 8},
+    {"kind": "grade", "name": "government revanchism", "targets": "ALB", "years": "2009-2025", "curve": "constant", "start": 6},
+
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "1990-1991", "curve": "linear", "start": 35, "end": 22},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "1992-1995", "curve": "linear", "start": 45, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "1996-1996", "curve": "constant", "start": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "1997-1997", "curve": "constant", "start": 8},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "1998-2001", "curve": "linear", "start": 30, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2002-2004", "curve": "linear", "start": 40, "end": 36},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2005-2008", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2009-2010", "curve": "linear", "start": 47, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2011-2012", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2013-2015", "curve": "linear", "start": 40, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2016-2018", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2019-2020", "curve": "linear", "start": 28, "end": 33},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2021-2021", "curve": "constant", "start": 44},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2022-2024", "curve": "linear", "start": 40, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "ALB", "years": "2025-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "ALB", "years": "1990-1991", "curve": "linear", "start": 65, "end": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ALB", "years": "1992-1996", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ALB", "years": "1997-1998", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ALB", "years": "1999-2008", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ALB", "years": "2009-2012", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ALB", "years": "2013-2025", "curve": "constant", "start": 58},
+
+    {"kind": "grade", "name": "assimilation", "targets": "ALB", "years": "1990-2014", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "ALB", "years": "2015-2025", "curve": "linear", "start": 65, "end": 62},
+
+    {"kind": "grade", "name": "state collapse", "targets": "ALB", "years": "1997-1997", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "ALB", "years": "1997-1997", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "ALB", "years": "2011-2011", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "ALB", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

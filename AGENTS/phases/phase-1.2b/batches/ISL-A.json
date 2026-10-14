@@ -1,0 +1,47 @@
+{
+  "rationale": "ISL, zadanie A, tryb oszczedny. Stabilnosc wysoka jak w NOR/DNK; spadki: 2008-2009 (krach bankowy, upadek rzadu Haardego, przedterminowe wybory), 2016-2017 (afera Panama Papers, zmiana premiera), 2024 (rozpad koalicji w pazdzierniku, wybory 30.11). Poparcie rzadu: 2024 niskie, 2025 po wyborach (rzad Frostadottir od grudnia 2024; sondaz partyjny VI-VII 2025: ok. 63% zadowolonych z premier). Korupcja, szczescie, violence risk, civilization level: uzupelnienie brakujacych lat plynnie do istniejacych wartosci (only_empty). Flagi: tylko epidemia 2020. Reszta wg kotwic (NOR, DNK, CHE) i historii panstwa.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "ISL", "years": "1990-2007", "curve": "constant", "start": 88},
+    {"kind": "grade", "name": "stability", "targets": "ISL", "years": "2008-2009", "curve": "linear", "start": 74, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "ISL", "years": "2010-2015", "curve": "linear", "start": 64, "end": 82},
+    {"kind": "grade", "name": "stability", "targets": "ISL", "years": "2016-2017", "curve": "linear", "start": 78, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "ISL", "years": "2018-2023", "curve": "linear", "start": 74, "end": 84},
+    {"kind": "grade", "name": "stability", "targets": "ISL", "years": "2024-2024", "curve": "constant", "start": 74},
+    {"kind": "grade", "name": "stability", "targets": "ISL", "years": "2025-2025", "curve": "constant", "start": 78},
+
+    {"kind": "grade", "name": "violence risk", "targets": "ISL", "years": "1990-1995", "curve": "linear", "start": 25, "end": 24},
+    {"kind": "grade", "name": "violence risk", "targets": "ISL", "years": "2023-2025", "curve": "constant", "start": 24.5, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "ISL", "years": "1990-1995", "curve": "linear", "start": 17.5, "end": 15.6},
+    {"kind": "grade", "name": "corruption", "targets": "ISL", "years": "2023-2025", "curve": "linear", "start": 18.6, "end": 18.0, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "ISL", "years": "1990-2004", "curve": "linear", "start": 70, "end": 74},
+    {"kind": "grade", "name": "happiness", "targets": "ISL", "years": "2005-2010", "curve": "linear", "start": 75, "end": 70},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "ISL", "years": "1990-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "ISL", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "1990-1991", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "1992-2007", "curve": "linear", "start": 50, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "2008-2008", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "2009-2009", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "2010-2016", "curve": "constant", "start": 27},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "2017-2019", "curve": "linear", "start": 30, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "2020-2023", "curve": "linear", "start": 58, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "2024-2024", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ISL", "years": "2025-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "ISL", "years": "1990-2007", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ISL", "years": "2008-2010", "curve": "linear", "start": 60, "end": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ISL", "years": "2011-2025", "curve": "linear", "start": 70, "end": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "ISL", "years": "2024-2025", "curve": "linear", "start": 97.3, "end": 97.4, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "ISL", "years": "1990-2000", "curve": "linear", "start": 78, "end": 76},
+    {"kind": "grade", "name": "assimilation", "targets": "ISL", "years": "2001-2010", "curve": "linear", "start": 76, "end": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "ISL", "years": "2011-2019", "curve": "linear", "start": 70, "end": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "ISL", "years": "2020-2025", "curve": "linear", "start": 65, "end": 62},
+
+    {"kind": "grade", "name": "epidemic", "targets": "ISL", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

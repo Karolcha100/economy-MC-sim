@@ -1,0 +1,70 @@
+{
+  "rationale": "SDN, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Sudanu: rządy Baszira (wojna domowa z południem do 2005, Darfur od 2003, secesja Sudanu Płd. 2011, protesty 2013 i 2018-19, obalenie Baszira w kwietniu 2019), zamach z października 2021, wojna SAF-RSF od kwietnia 2023. Wyszukiwarka (3 zapytania, lata 2023-2025): RSF zdobył El Fasher 26.10.2025; SAF odbił Chartum w marcu 2025; de facto podział kraju; premier Kamil Idris od 31.05.2025; rząd wrócił do Chartumu w styczniu 2026; cholera 2024-2025 (MZ Sudanu: ok. 120 tys. przypadków i 3,4 tys. zgonów do 13.10.2025). Brak wiarygodnych sondaży: popularność rządu i nastroje to oszacowania. Istniejące wartości (corruption 1996-2022, violence risk 1996-2022, happiness 2011-2017, civilization 2008-2023) nie są zmieniane (only_empty). Flaga state collapse pozostawiona 0: SAF utrzymuje Port Sudan, Chartum i wschód; RSF kontroluje Darfur, ale nie całe terytorium państwa.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SDN", "years": "1990-1999", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "SDN", "years": "2000-2004", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "stability", "targets": "SDN", "years": "2005-2010", "curve": "linear", "start": 42, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "SDN", "years": "2011-2018", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "SDN", "years": "2019-2025", "curve": "manual", "values": [20, 35, 20, 20, 8, 8, 12]},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SDN", "years": "1990-1995", "curve": "linear", "start": 95, "end": 99, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "SDN", "years": "2022-2025", "curve": "linear", "start": "current", "end": 100, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "SDN", "years": "1990-1995", "curve": "linear", "start": 72, "end": 74.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SDN", "years": "2022-2025", "curve": "linear", "start": "current", "end": 82, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "SDN", "years": "1990-1994", "curve": "linear", "start": 40, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SDN", "years": "1995-2004", "curve": "linear", "start": 38, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SDN", "years": "2005-2010", "curve": "linear", "start": 42, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SDN", "years": "2017-2025", "curve": "manual", "values": [41.39, 40, 40, 37, 36, 33, 25, 20, 20], "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SDN", "years": "1990-1999", "curve": "linear", "start": 33, "end": 37, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "SDN", "years": "2000-2007", "curve": "linear", "start": 37, "end": 44.5, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "SDN", "years": "2023-2025", "curve": "linear", "start": "current", "end": 49.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SDN", "years": "1990-2010", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "social revanchism", "targets": "SDN", "years": "2011-2025", "curve": "constant", "start": 12},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "SDN", "years": "1990-2018", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "government revanchism", "targets": "SDN", "years": "2019-2021", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "SDN", "years": "2022-2025", "curve": "constant", "start": 10},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SDN", "years": "1990-1994", "curve": "linear", "start": 40, "end": 33},
+    {"kind": "grade", "name": "government popularity", "targets": "SDN", "years": "1995-2004", "curve": "constant", "start": 33},
+    {"kind": "grade", "name": "government popularity", "targets": "SDN", "years": "2005-2010", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SDN", "years": "2011-2017", "curve": "linear", "start": 30, "end": 22},
+    {"kind": "grade", "name": "government popularity", "targets": "SDN", "years": "2018-2019", "curve": "manual", "values": [15, 25]},
+    {"kind": "grade", "name": "government popularity", "targets": "SDN", "years": "2020-2021", "curve": "manual", "values": [40, 30]},
+    {"kind": "grade", "name": "government popularity", "targets": "SDN", "years": "2022-2025", "curve": "manual", "values": [20, 18, 15, 25]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SDN", "years": "1990-1999", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SDN", "years": "2000-2010", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SDN", "years": "2011-2017", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SDN", "years": "2018-2019", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SDN", "years": "2020-2022", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SDN", "years": "2023-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SDN", "years": "1990-2010", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "SDN", "years": "2011-2018", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "SDN", "years": "2019-2022", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "SDN", "years": "2023-2025", "curve": "linear", "start": 40, "end": 30},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "SDN", "years": "1990-1994", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SDN", "years": "1995-2004", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SDN", "years": "2005", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SDN", "years": "2006-2010", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SDN", "years": "2011-2022", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SDN", "years": "2023", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SDN", "years": "2024-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "riots", "targets": "SDN", "years": "2013", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "SDN", "years": "2018", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "SDN", "years": "2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "SDN", "years": "2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SDN", "years": "2020", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "SDN", "years": "2024-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "mobilized", "targets": "SDN", "years": "2023-2025", "curve": "constant", "start": 1}
+  ]
+}

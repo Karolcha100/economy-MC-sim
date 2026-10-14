@@ -133,3 +133,46 @@ Potem napisz „uruchom” jeszcze raz. Plan, gdy już ruszy:
 ---
 ---
 ---
+
+**Wypełnianie 1.2b skończone.** Wszystkie 392 zadania (196 państw × statystyki i relacje), 20 agentów Haiku naraz.
+- `missing` 100%, `validate` 0 błędów; 395 batchy, 51 407 operacji w `AGENTS/phases/phase-1.2b/batches/`.
+- Przerwa 08:20–12:40: skończył się miesięczny limit wydatków API; przerwane zadania dokończone po wznowieniu.
+- Audyt: `AGENTS/phases/phase-1.2b/audit/audit-2026-10-14-1312.md` — luki we wskaźnikach zgodne z danymi (0,93–1,00); `stability` 0,63–0,71; `economic dependence` bez związku z PKB (do sprawdzenia).
+- Raport z przebiegiem i wszystkimi uwagami agentów: `AGENTS/phases/phase-1.2b/raport-wypelniania.md`.
+- Decyzje dla Ciebie: `AGENTS/phases/phase-1.2b/agents-issues-2.md` (@phase-1.2b:K1 … @phase-1.2b:K8, @A33). Najważniejsze: wspólna reguła UCDP (@phase-1.2b:K1) i brakujące konflikty 1990–2024 (@phase-1.2b:K2). Po decyzjach: poprawki (@L40) i przegląd próbki (@A31).
+
+*2026-10-14 13:15 — Claude Opus 5.5*
+
+---
+---
+---
+
+Dobra, gdzie zostały zapisane Dane?
+
+*2026-10-14 13:29 — Autor*
+
+---
+---
+---
+
+To znaczy, pije do tego że powinniśmy mieć ich kopię zapasową.
+
+*2026-10-14 13:29 — Autor*
+
+---
+---
+---
+
+**Gdzie są dane:**
+- wartości: `simulator/scenarios/world-1990-2025/narrated/` (rocznie: `RRRR/internal-grades.csv`, `RRRR/relations-directed/*.csv`, `RRRR/relations-doublesided/*.csv`), historia zmian w `narrated/changelog.csv`, potwierdzone wartości domyślne w `narrated/confirmed-defaults.csv`;
+- skąd wartości: batche agentów w `AGENTS/phases/phase-1.2b/batches/` (395 plików) i koordynatora w `AGENTS/phases/phase-1.2b/batches-koordynator/`. Z batchy da się odtworzyć dane od zera (`python -m simulator batch`).
+
+**Kopia zapasowa — zrobiona:** `/home/karol/Pulpit/Python3.14/economics-model-backups/phase-1.2b-2026-10-14-1353.tar.gz` (4,4 MB, `narrated/` + cały `AGENTS/phases/phase-1.2b/`), poza projektem.
+
+**Ważne:** nic z tego nie jest jeszcze w gicie (ostatni commit: „pre 1.2b”). Polecam commit teraz — to najlepsza kopia, z historią. Zrobię go, jeśli napiszesz „commit” (sam z siebie nie commituję).
+
+*2026-10-14 13:56 — Claude Opus 5.5*
+
+---
+---
+---

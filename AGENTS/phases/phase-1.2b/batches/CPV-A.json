@@ -1,0 +1,45 @@
+{
+  "rationale": "CPV, zadanie A (statystyki państwa), tryb oszczędny. Stabilność: pokojowe alternacje władzy (1991, 2001, 2016, 2021), brak zamachów i przedterminowych wyborów; transformacja 1990-1992 niższa. Korupcja, przemoc, cywilizacja: uzupełniono tylko brakujące lata wokół istniejących wartości (only_empty). Szczęście: brak danych WHR, estymacja przez porównanie z krajami o podobnym HDI (IND, TUR, IRN ok. 45-55) i trend; do sprawdzenia. Rewanżyzm społeczny i rządowy: brak roszczeń terytorialnych, polityka neutralna. Popularność rządu: estymacja bez wiarygodnych sondaży; przedwyborczy sondaż z grudnia 2025 (MpD 31%, PAICV 25%) przy braku danych o aprobacie. Wrażliwość: 60 w latach 2020-2021 (COVID, załamanie turystyki). Asymilacja: mała skala migracji, społeczeństwo w dużej mierze jednorodne (70). Flagi: epidemia 2020-2021 (COVID); riots, mobilized, immigration crisis, state collapse: brak poważnych zdarzeń, wartość domyślna.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "CPV", "years": "1990-1991", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "CPV", "years": "1992-1995", "curve": "linear", "start": 66, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "CPV", "years": "1996-2000", "curve": "linear", "start": 73, "end": 76, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "CPV", "years": "2001-2025", "curve": "constant", "start": 80, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "CPV", "years": "1990-1995", "curve": "linear", "start": 30, "end": 27.4, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "CPV", "years": "2023-2025", "curve": "constant", "start": 30.4, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "CPV", "years": "1990-1995", "curve": "linear", "start": 31.5, "end": 29.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "CPV", "years": "2023-2025", "curve": "constant", "start": 31.4, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "CPV", "years": "1990-1999", "curve": "linear", "start": 46.5, "end": 57.7, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "CPV", "years": "2024-2025", "curve": "linear", "start": 67.2, "end": 67.6, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "CPV", "years": "1990-1995", "curve": "linear", "start": 48, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CPV", "years": "1996-2004", "curve": "linear", "start": 50, "end": 52, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CPV", "years": "2005-2014", "curve": "linear", "start": 52, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CPV", "years": "2015-2019", "curve": "linear", "start": 55, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CPV", "years": "2020-2021", "curve": "constant", "start": 54, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CPV", "years": "2022-2025", "curve": "constant", "start": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "CPV", "years": "1990-2025", "curve": "constant", "start": 2, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "CPV", "years": "1990-2025", "curve": "constant", "start": 1, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "1990-1991", "curve": "linear", "start": 55, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "1992-1995", "curve": "linear", "start": 58, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "1996-2000", "curve": "linear", "start": 45, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "2001-2005", "curve": "linear", "start": 50, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "2006-2010", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "2011-2015", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "2016-2020", "curve": "linear", "start": 48, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CPV", "years": "2021-2025", "curve": "constant", "start": 48, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "CPV", "years": "1990-2019", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CPV", "years": "2020-2021", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CPV", "years": "2022-2025", "curve": "constant", "start": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "CPV", "years": "1990-2025", "curve": "constant", "start": 70, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "CPV", "years": "2020-2021", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "rationale": "DOM, zadanie A (tryb oszczędny). Stabilność wg okresów politycznych: rządy Balaguera do 1996 (spór wyborczy 1994, transfer 1996), Fernández 1996-2000, Mejía 2000-2004 (kryzys bankowy 2002-2004), Fernández 2004-2012, Medina 2012-2020, Abinader od 2020 (protesty przeciw reformie fiskalnej 2024). Korupcja i stabilność-przemoc: 1990-1995 i 2023-2025 uzupełnione płynnie; korupcja 2023-2025 zgodnie z trendem CPI (2020: 28, 2024: 36, 2025: 37). Popularność wg sondaży 2025 (ok. 56-68%). Szczęście 1990-2010 oszacowane (brak danych Cantril). Społeczna wrażliwość, rewanżyzm i asymilacja: oszacowania (brak danych). Flagi: epidemia 2020-2021 (COVID-19). Brak poważnych zamieszek, kryzysu migracyjnego w rozumieniu opisu i mobilizacji: wartości domyślne.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "1990-1993", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "1994-1996", "curve": "logistic", "start": 48, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "1997-2001", "curve": "linear", "start": 68, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "2002-2004", "curve": "linear", "start": 68, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "2005-2011", "curve": "linear", "start": 60, "end": 64},
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "2012-2019", "curve": "linear", "start": 66, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "2020-2023", "curve": "linear", "start": 72, "end": 73},
+    {"kind": "grade", "name": "stability", "targets": "DOM", "years": "2024-2025", "curve": "linear", "start": 71, "end": 72},
+
+    {"kind": "grade", "name": "corruption", "targets": "DOM", "years": "1990-1995", "curve": "linear", "start": 54, "end": 58},
+    {"kind": "grade", "name": "corruption", "targets": "DOM", "years": "2023-2025", "curve": "linear", "start": 57, "end": 53},
+
+    {"kind": "grade", "name": "happiness", "targets": "DOM", "years": "1990-1995", "curve": "linear", "start": 52, "end": 51},
+    {"kind": "grade", "name": "happiness", "targets": "DOM", "years": "1996-2004", "curve": "linear", "start": 51, "end": 49.5},
+    {"kind": "grade", "name": "happiness", "targets": "DOM", "years": "2005-2010", "curve": "linear", "start": 49.5, "end": 50.5},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "DOM", "years": "1990-2025", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "government revanchism", "targets": "DOM", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "1990-1993", "curve": "linear", "start": 45, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "1994-1995", "curve": "linear", "start": 32, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "1996-1999", "curve": "linear", "start": 50, "end": 44},
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "2000-2003", "curve": "linear", "start": 40, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "2004-2007", "curve": "linear", "start": 35, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "2008-2015", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "2016-2021", "curve": "linear", "start": 56, "end": 66},
+    {"kind": "grade", "name": "government popularity", "targets": "DOM", "years": "2022-2025", "curve": "linear", "start": 62, "end": 63},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "DOM", "years": "1990-1994", "curve": "linear", "start": 64, "end": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DOM", "years": "1995-2004", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DOM", "years": "2005-2012", "curve": "linear", "start": 58, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DOM", "years": "2013-2019", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DOM", "years": "2020-2025", "curve": "linear", "start": 57, "end": 60},
+
+    {"kind": "grade", "name": "civilization level", "targets": "DOM", "years": "2024-2025", "curve": "linear", "start": 78.0, "end": 78.4},
+
+    {"kind": "grade", "name": "assimilation", "targets": "DOM", "years": "1990-2012", "curve": "linear", "start": 48, "end": 42},
+    {"kind": "grade", "name": "assimilation", "targets": "DOM", "years": "2013-2025", "curve": "linear", "start": 40, "end": 35},
+
+    {"kind": "grade", "name": "violence risk", "targets": "DOM", "years": "1990-1995", "curve": "linear", "start": 48, "end": 51.2},
+    {"kind": "grade", "name": "violence risk", "targets": "DOM", "years": "2023-2025", "curve": "linear", "start": 43, "end": 42},
+
+    {"kind": "grade", "name": "epidemic", "targets": "DOM", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

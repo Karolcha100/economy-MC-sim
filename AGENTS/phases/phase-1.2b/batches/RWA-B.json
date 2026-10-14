@@ -1,0 +1,1629 @@
+{
+  "rationale": "RWA, zadanie B (tryb oszczedny). Relacje skierowane od RWA do 17 partnerow (UGA, TZA, BDI, COD, KEN, ZAF, MOZ, USA, CHN, GBR, DEU, FRA, BEL, RUS, ISR, ARE, IND); okresy 1990-1995, 1996-2008, 2009-2020, 2021-2025; wartosci z wiedzy, wyszukiwarka tylko dla 2021-2025 (przeglad 2025: udzial RDF w DRC, Porozumienie Waszyngtonskie, granica z BDI). Dwustronne: tylko rok 2025 (in war RWA-COD; in war crisis RWA-BDI). Lata 1990-2024 w relacjach dwustronnych nie zmienione.",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:UGA,RWA:GBR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:TZA,RWA:IND",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:BDI,RWA:MOZ,RWA:CHN",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:COD",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:DEU,RWA:RUS,RWA:ISR,RWA:ARE",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:USA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:FRA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:BEL",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:UGA,RWA:BDI",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:TZA,RWA:CHN,RWA:ISR,RWA:IND",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:COD",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": -60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:KEN,RWA:ARE",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:ZAF,RWA:DEU",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:MOZ,RWA:RUS",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:USA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:GBR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:FRA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": -70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:BEL",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": -40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:UGA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:TZA,RWA:KEN,RWA:ZAF,RWA:DEU",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:BDI",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": -10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:COD",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": -40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:MOZ",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:USA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:CHN",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:GBR",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:FRA,RWA:BEL",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:RUS",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:ISR,RWA:ARE",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:IND",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:UGA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:TZA,RWA:MOZ,RWA:GBR,RWA:ARE",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:BDI",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:COD",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": -60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:DEU",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:USA,RWA:CHN",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:FRA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:BEL",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": -10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:RUS",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:ISR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "RWA:IND",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:UGA,RWA:USA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:TZA,RWA:ISR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:BDI",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:COD",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:RUS,RWA:ARE",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:MOZ",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:CHN",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:GBR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:DEU,RWA:IND",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:FRA,RWA:BEL",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": -60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:UGA,RWA:MOZ",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:TZA,RWA:ISR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:BDI",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:COD,RWA:BEL",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": -50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:KEN,RWA:DEU,RWA:IND",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:ZAF,RWA:CHN,RWA:RUS,RWA:ARE",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:USA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:GBR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:FRA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": -60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:UGA,RWA:MOZ",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:TZA,RWA:CHN,RWA:ISR",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:BDI",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:COD,RWA:FRA,RWA:BEL",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": -40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:DEU,RWA:ARE,RWA:IND",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:USA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:GBR",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:RUS",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:UGA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": -5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:TZA,RWA:CHN,RWA:ISR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:BDI,RWA:FRA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:COD",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": -50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:DEU,RWA:RUS,RWA:ARE,RWA:IND",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:MOZ",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:USA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:GBR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "RWA:BEL",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": -40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:UGA,RWA:KEN,RWA:GBR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:TZA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:BDI,RWA:MOZ,RWA:BEL,RWA:ARE,RWA:IND",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:COD,RWA:CHN,RWA:FRA,RWA:RUS,RWA:ISR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:ZAF,RWA:DEU",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:USA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:UGA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:TZA,RWA:KEN,RWA:GBR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:BDI,RWA:COD,RWA:MOZ,RWA:BEL,RWA:ARE,RWA:IND",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:ZAF,RWA:CHN,RWA:DEU",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:USA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:FRA,RWA:RUS,RWA:ISR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:UGA,RWA:USA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:TZA,RWA:KEN,RWA:GBR",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:BDI,RWA:COD,RWA:MOZ,RWA:BEL,RWA:IND",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:ZAF,RWA:DEU",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:CHN",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:FRA,RWA:RUS,RWA:ISR,RWA:ARE",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:UGA,RWA:USA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:TZA,RWA:KEN,RWA:GBR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:BDI,RWA:COD,RWA:MOZ,RWA:BEL,RWA:IND",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:ZAF,RWA:DEU,RWA:ARE",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:CHN",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "RWA:FRA,RWA:RUS,RWA:ISR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:UGA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:TZA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:BDI,RWA:COD",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:KEN,RWA:ZAF",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:MOZ,RWA:USA,RWA:CHN,RWA:GBR,RWA:DEU,RWA:FRA,RWA:BEL,RWA:RUS,RWA:ISR,RWA:ARE,RWA:IND",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:UGA,RWA:BDI",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:TZA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:COD",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:KEN,RWA:ZAF",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:MOZ,RWA:USA,RWA:CHN,RWA:GBR,RWA:DEU,RWA:FRA,RWA:BEL,RWA:RUS,RWA:ISR,RWA:ARE,RWA:IND",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:UGA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:TZA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:BDI",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:COD",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:KEN,RWA:ZAF",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:MOZ,RWA:USA,RWA:CHN,RWA:GBR,RWA:DEU,RWA:FRA,RWA:BEL,RWA:RUS,RWA:ISR,RWA:ARE,RWA:IND",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:UGA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:TZA,RWA:MOZ",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:BDI",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:COD",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:KEN,RWA:ZAF",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "RWA:USA,RWA:CHN,RWA:GBR,RWA:DEU,RWA:FRA,RWA:BEL,RWA:RUS,RWA:ISR,RWA:ARE,RWA:IND",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:UGA,RWA:TZA,RWA:CHN",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:BDI,RWA:COD,RWA:KEN,RWA:ZAF,RWA:MOZ,RWA:ISR,RWA:ARE",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:USA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:GBR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:DEU",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:FRA,RWA:BEL",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:RUS,RWA:IND",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:UGA,RWA:TZA,RWA:CHN",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:BDI,RWA:COD,RWA:KEN,RWA:ZAF,RWA:MOZ,RWA:ISR,RWA:ARE",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:USA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:GBR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:DEU",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:FRA,RWA:BEL",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:RUS,RWA:IND",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:UGA,RWA:TZA,RWA:CHN",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:BDI,RWA:COD,RWA:KEN,RWA:ZAF,RWA:MOZ,RWA:ISR,RWA:ARE",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:USA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:GBR",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:DEU",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:FRA,RWA:BEL",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:RUS,RWA:IND",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:UGA,RWA:TZA,RWA:MOZ",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:BDI,RWA:COD,RWA:KEN,RWA:ZAF,RWA:ISR,RWA:ARE",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:USA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:CHN,RWA:GBR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:DEU",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:FRA,RWA:BEL",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "RWA:RUS,RWA:IND",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:UGA,RWA:BDI",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:TZA,RWA:COD",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:MOZ",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:USA,RWA:DEU,RWA:ISR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:CHN,RWA:RUS",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:GBR,RWA:FRA,RWA:BEL,RWA:ARE,RWA:IND",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:UGA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:TZA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:BDI",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:COD",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:MOZ",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:USA,RWA:DEU,RWA:ISR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:CHN,RWA:RUS",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:GBR,RWA:FRA,RWA:BEL,RWA:ARE,RWA:IND",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:UGA,RWA:TZA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:BDI",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:COD",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:KEN,RWA:ZAF,RWA:MOZ",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:USA,RWA:CHN,RWA:DEU,RWA:ISR",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:GBR,RWA:FRA,RWA:BEL,RWA:ARE,RWA:IND",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:RUS",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:UGA,RWA:TZA",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:BDI,RWA:MOZ",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:COD",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:KEN,RWA:ZAF",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:USA,RWA:CHN,RWA:DEU,RWA:ISR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:GBR,RWA:FRA,RWA:BEL,RWA:ARE,RWA:IND",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "RWA:RUS",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:UGA,RWA:COD,RWA:USA",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:TZA,RWA:KEN",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:BDI,RWA:ZAF,RWA:GBR,RWA:IND",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:MOZ,RWA:CHN,RWA:DEU,RWA:FRA,RWA:BEL,RWA:ARE",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:RUS,RWA:ISR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:UGA,RWA:ZAF,RWA:USA",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:TZA,RWA:KEN",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:BDI,RWA:COD,RWA:CHN,RWA:GBR,RWA:IND",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:MOZ,RWA:DEU,RWA:FRA,RWA:BEL,RWA:ARE",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:RUS,RWA:ISR",
+      "years": "1996-2008",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:UGA,RWA:TZA,RWA:KEN",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:BDI,RWA:COD,RWA:GBR,RWA:ARE,RWA:IND",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:ZAF,RWA:USA",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:MOZ,RWA:DEU,RWA:FRA,RWA:BEL",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:CHN",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:RUS,RWA:ISR",
+      "years": "2009-2020",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:UGA,RWA:TZA,RWA:KEN",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:BDI,RWA:COD,RWA:GBR,RWA:IND",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:ZAF,RWA:USA,RWA:ARE",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:MOZ,RWA:DEU,RWA:FRA,RWA:BEL",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:CHN",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "RWA:RUS,RWA:ISR",
+      "years": "2021-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "doublesided",
+      "name": "in war",
+      "targets": "RWA:COD",
+      "years": "2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "doublesided",
+      "name": "in war crisis",
+      "targets": "RWA:BDI",
+      "years": "2025",
+      "curve": "constant",
+      "start": 1
+    }
+  ]
+}

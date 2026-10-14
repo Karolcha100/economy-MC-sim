@@ -1,0 +1,81 @@
+{
+  "rationale": "THA, zadanie A (statystyki państwa), tryb oszczędny. Niestabilność rządów: coup 1991, Black May 1992, kryzys 1997, coup 2006, zmiany premierów 2008 i 2014 (junta), 2024-2025 (usunięcie Srettha i Paetongtarn). Zamieszki: 1992 (Black May), 2010 (czerwone koszule). Epidemia COVID 2020-2021. Konflikt graniczny z Kambodżą lipiec i grudzień 2025 (wyszukiwarka, 2 wyszukiwania): podwyższone ryzyko przemocy i rewanżyzm rządu w 2025. Brakujące lata uzupełnione tak, żeby łączyły się z istniejącymi wartościami (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "1990-1990", "curve": "constant", "start": 56},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "1991-1992", "curve": "manual", "values": [35, 32]},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "1993-1995", "curve": "linear", "start": 44, "end": 46},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "1996-1997", "curve": "manual", "values": [42, 40]},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "1998-2001", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2002-2005", "curve": "linear", "start": 58, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2006-2007", "curve": "manual", "values": [40, 42]},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2008-2010", "curve": "manual", "values": [35, 40, 30]},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2011-2013", "curve": "manual", "values": [50, 52, 40]},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2014-2014", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2015-2018", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2019-2019", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2020-2022", "curve": "manual", "values": [40, 40, 42]},
+    {"kind": "grade", "name": "stability", "targets": "THA", "years": "2023-2025", "curve": "manual", "values": [45, 38, 33]},
+
+    {"kind": "grade", "name": "corruption", "targets": "THA", "years": "1990-1995", "curve": "linear", "start": 58, "end": 57.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "THA", "years": "2022-2025", "curve": "linear", "start": "current", "end": 60.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "THA", "years": "1990-1996", "curve": "linear", "start": 55, "end": 58, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "THA", "years": "1997-1998", "curve": "manual", "values": [50, 45], "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "THA", "years": "1999-2004", "curve": "linear", "start": 48, "end": 54, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "THA", "years": "2005-2010", "curve": "linear", "start": 55, "end": 57, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "THA", "years": "1990-1995", "curve": "manual", "values": [38, 38, 45, 42, 41, 40], "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "THA", "years": "2023-2025", "curve": "manual", "values": [57.5, 60, 65], "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "THA", "years": "1990-2007", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "social revanchism", "targets": "THA", "years": "2008-2013", "curve": "linear", "start": 7, "end": 8},
+    {"kind": "grade", "name": "social revanchism", "targets": "THA", "years": "2014-2024", "curve": "constant", "start": 6},
+    {"kind": "grade", "name": "social revanchism", "targets": "THA", "years": "2025", "curve": "constant", "start": 12},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "THA", "years": "1990-2007", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "government revanchism", "targets": "THA", "years": "2008-2011", "curve": "linear", "start": 6, "end": 8},
+    {"kind": "grade", "name": "government revanchism", "targets": "THA", "years": "2012-2024", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "THA", "years": "2025", "curve": "constant", "start": 18},
+
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "1990-1991", "curve": "linear", "start": 52, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "1992", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "1993-1995", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "1996-1997", "curve": "manual", "values": [35, 25]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "1998-2000", "curve": "linear", "start": 35, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2001-2005", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2006-2007", "curve": "manual", "values": [45, 45]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2008-2010", "curve": "manual", "values": [30, 35, 30]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2011-2012", "curve": "manual", "values": [50, 60]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2013-2014", "curve": "manual", "values": [40, 40]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2015-2016", "curve": "manual", "values": [50, 55]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2017-2019", "curve": "manual", "values": [45, 40, 45]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2020-2022", "curve": "manual", "values": [30, 30, 35]},
+    {"kind": "grade", "name": "government popularity", "targets": "THA", "years": "2023-2025", "curve": "manual", "values": [45, 35, 35]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "1990-1991", "curve": "manual", "values": [55, 60]},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "1992", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "1993-1995", "curve": "linear", "start": 65, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "1996", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "1997-1998", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "1999-2004", "curve": "linear", "start": 65, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "2005-2009", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "2010", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "2011-2019", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "2020-2021", "curve": "manual", "values": [60, 65]},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "2022-2023", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "THA", "years": "2024-2025", "curve": "manual", "values": [60, 65]},
+
+    {"kind": "grade", "name": "assimilation", "targets": "THA", "years": "1990-1999", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "THA", "years": "2000-2009", "curve": "linear", "start": 64, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "THA", "years": "2010-2019", "curve": "linear", "start": 61, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "THA", "years": "2020-2025", "curve": "linear", "start": 59, "end": 57},
+
+    {"kind": "grade", "name": "civilization level", "targets": "THA", "years": "2023-2025", "curve": "linear", "start": "current", "end": 80.3, "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "THA", "years": "1992", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "THA", "years": "2010", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "THA", "years": "2020-2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "THA", "years": "2025", "curve": "constant", "start": 10}
+  ]
+}

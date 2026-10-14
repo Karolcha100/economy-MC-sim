@@ -1,0 +1,44 @@
+{
+  "rationale": "BHS (Bahamy), zadanie A (statystyki państwa), tryb oszczędny. Stabilność instytucjonalna: parlamentarna demokracja Westminster, pokojowe zmiany władzy (1992, 2002, 2007, 2012, 2017, 2021); niższa stabilność w 1990-1991 (skandale korupcyjne i narkotykowe za rządów PLP Pindlinga). Korupcja: 1990-1995 malejąco od 34 do 27.5 (koniec ery Pindlinga, wybory 1992 na hasłach walki z korupcją), 2023-2025 łagodny dryf od wartości z 2022. Przemoc: 1990-1995 na poziomie zbliżonym do 1996; 2023-2025 łagodny wzrost (przestępczość zorganizowana, bez przemocy politycznej). Cywilizacja: 2024-2025 wzrost jak w 2022-2023. Szczęście: estymacja bez danych Cantril dla BHS (niska pewność), spadek w pandemii 2020-2021. Rewanżyzm społeczny i rządowy: brak roszczeń terytorialnych, wartości niskie. Popularność rządu: estymacja bez sondaży; wysoka po zmianie w 1992 i w 2021, dołek pod koniec drugiej kadencji PLP (2012-2016). Wrażliwość na koszty: umiarkowana, rośnie z kosztami życia i zależnością od turystyki. Asymilacja: spadek wraz ze wzrostem udziału migrantów (głównie z Haiti i Jamajki, dane migrant-stock 9.7% -> 16.1%). Flagi: epidemic 2020-2021 (COVID-19, załamanie turystyki). Riots i inne flagi: brak poważnych wydarzeń, wartość domyślna. Istniejące wartości nietknięte (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "BHS", "years": "1990-1991", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "stability", "targets": "BHS", "years": "1992-1996", "curve": "linear", "start": 80, "end": 84},
+    {"kind": "grade", "name": "stability", "targets": "BHS", "years": "1997-2006", "curve": "constant", "start": 84},
+    {"kind": "grade", "name": "stability", "targets": "BHS", "years": "2007-2011", "curve": "constant", "start": 83},
+    {"kind": "grade", "name": "stability", "targets": "BHS", "years": "2012-2016", "curve": "constant", "start": 82},
+    {"kind": "grade", "name": "stability", "targets": "BHS", "years": "2017-2020", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "BHS", "years": "2021-2025", "curve": "linear", "start": 82, "end": 84},
+
+    {"kind": "grade", "name": "corruption", "targets": "BHS", "years": "1990-1995", "curve": "linear", "start": 34, "end": 27.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "BHS", "years": "2022-2025", "curve": "linear", "start": "current", "end": 24, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "BHS", "years": "1990-1995", "curve": "linear", "start": 29.5, "end": 28.6, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "BHS", "years": "2022-2025", "curve": "linear", "start": "current", "end": 33, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "BHS", "years": "2024-2025", "curve": "linear", "start": 82.2, "end": 82.4, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "BHS", "years": "1990-1999", "curve": "linear", "start": 60, "end": 61},
+    {"kind": "grade", "name": "happiness", "targets": "BHS", "years": "2000-2009", "curve": "linear", "start": 61, "end": 63},
+    {"kind": "grade", "name": "happiness", "targets": "BHS", "years": "2010-2019", "curve": "constant", "start": 63},
+    {"kind": "grade", "name": "happiness", "targets": "BHS", "years": "2020-2021", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "happiness", "targets": "BHS", "years": "2022-2025", "curve": "linear", "start": 61, "end": 62},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "BHS", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "BHS", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "1990-1991", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "1992-1995", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "1996-2001", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "2002-2006", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "2007-2011", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "2012-2016", "curve": "linear", "start": 42, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "2017-2020", "curve": "linear", "start": 48, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "BHS", "years": "2021-2025", "curve": "linear", "start": 55, "end": 58},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "BHS", "years": "1990-2025", "curve": "linear", "start": 60, "end": 62},
+
+    {"kind": "grade", "name": "assimilation", "targets": "BHS", "years": "1990-2025", "curve": "linear", "start": 62, "end": 55},
+
+    {"kind": "grade", "name": "epidemic", "targets": "BHS", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

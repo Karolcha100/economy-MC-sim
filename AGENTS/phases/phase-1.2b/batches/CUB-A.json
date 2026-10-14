@@ -1,0 +1,54 @@
+{
+  "rationale": "CUB, zadanie A (tryb oszczędny): okresy wg historii Kuby 1990-2025 (Special Period 1990-1994, protesty 1994 i 2021, sukcesja Raúl Castro 2006 i Díaz-Canel 2018, COVID 2020-2021, blackouty i kryzys paliwowy 2024-2025, epidemia chikungunya i dengue 2025 wg wyszukiwania: 2025 około 49 tys. przypadków, co najmniej 46 zgonów). Wartości ESTYMACJA z wiedzy; brak wiarygodnych sondaży i danych o szczęściu (Cantril bez danych). Istniejące wartości nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "CUB", "years": "1990-1995", "curve": "linear", "start": 72, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "CUB", "years": "1996-2005", "curve": "linear", "start": 70, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "CUB", "years": "2006-2017", "curve": "linear", "start": 72, "end": 75, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "CUB", "years": "2018-2020", "curve": "linear", "start": 75, "end": 73, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "CUB", "years": "2021-2025", "curve": "linear", "start": 70, "end": 62, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "CUB", "years": "1990-1995", "curve": "linear", "start": 40, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "CUB", "years": "2022-2025", "curve": "linear", "start": "current", "end": 53, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "CUB", "years": "1990-1994", "curve": "linear", "start": 58, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CUB", "years": "1995-2000", "curve": "linear", "start": 46, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CUB", "years": "2001-2010", "curve": "linear", "start": 50, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CUB", "years": "2012-2014", "curve": "linear", "start": 55, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CUB", "years": "2015-2019", "curve": "linear", "start": 56, "end": 52, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CUB", "years": "2020-2021", "curve": "linear", "start": 49, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "CUB", "years": "2022-2025", "curve": "linear", "start": 40, "end": 36, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "CUB", "years": "1990-2025", "curve": "constant", "start": 5, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "CUB", "years": "1990-1999", "curve": "constant", "start": 20, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "CUB", "years": "2000-2014", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "CUB", "years": "2015-2016", "curve": "constant", "start": 15, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "CUB", "years": "2017-2025", "curve": "constant", "start": 20, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "CUB", "years": "1990-1994", "curve": "linear", "start": 75, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CUB", "years": "1995-2005", "curve": "linear", "start": 56, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CUB", "years": "2006-2014", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CUB", "years": "2015-2016", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CUB", "years": "2017-2018", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CUB", "years": "2019-2021", "curve": "linear", "start": 62, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "CUB", "years": "2022-2025", "curve": "linear", "start": 36, "end": 30, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "CUB", "years": "1990-1994", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CUB", "years": "1995-2020", "curve": "linear", "start": 45, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CUB", "years": "2021-2025", "curve": "linear", "start": 60, "end": 65, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "CUB", "years": "2023-2025", "curve": "linear", "start": "current", "end": 75.5, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "CUB", "years": "1990-2025", "curve": "constant", "start": 70, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "CUB", "years": "1990-1995", "curve": "linear", "start": 36, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "CUB", "years": "2022-2025", "curve": "linear", "start": "current", "end": 42, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "CUB", "years": "1990-1991", "curve": "linear", "start": 20, "end": 10, "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "CUB", "years": "1994-1994", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "CUB", "years": "2021-2021", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "CUB", "years": "2020-2021", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "CUB", "years": "2025-2025", "curve": "constant", "start": 1}
+  ]
+}

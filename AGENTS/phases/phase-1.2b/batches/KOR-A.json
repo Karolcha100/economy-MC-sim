@@ -1,0 +1,473 @@
+{
+  "rationale": "KOR, zadanie A (statystyki państwa), tryb oszczędny: rządy i kryzysy 1990-2025 (stabilność; poparcie rządu wg kadencji, impeachment 2004, 2016-17, 2024-25); korupcja 1990-95 i 2023-25 wg CPI (2023: 63, 2024: 64); uzupełnienie brakujących lat ze wskaźników (happiness, violence risk, civilization level); rewanżyzm społeczny i rządowy niski (spór o Dokdo); epidemia 2020-2021",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 66,
+      "end": 68
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "1996-1998",
+      "curve": "manual",
+      "values": [
+        70,
+        63,
+        62
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "1999-2003",
+      "curve": "linear",
+      "start": 66,
+      "end": 67
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2004-2004",
+      "curve": "linear",
+      "start": 58,
+      "end": 58
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2005-2007",
+      "curve": "linear",
+      "start": 64,
+      "end": 67
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2008-2008",
+      "curve": "linear",
+      "start": 60,
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2009-2015",
+      "curve": "linear",
+      "start": 64,
+      "end": 62
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2016-2017",
+      "curve": "manual",
+      "values": [
+        52,
+        47
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2018-2021",
+      "curve": "linear",
+      "start": 60,
+      "end": 66
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2022-2023",
+      "curve": "manual",
+      "values": [
+        60,
+        62
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "KOR",
+      "years": "2024-2025",
+      "curve": "manual",
+      "values": [
+        52,
+        58
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "KOR",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 46,
+      "end": 43
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "KOR",
+      "years": "2023-2025",
+      "curve": "manual",
+      "values": [
+        34.5,
+        34.0,
+        35.0
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "KOR",
+      "years": "1990-1996",
+      "curve": "linear",
+      "start": 56,
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "KOR",
+      "years": "1997-1998",
+      "curve": "manual",
+      "values": [
+        52,
+        46
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "KOR",
+      "years": "1999-2004",
+      "curve": "linear",
+      "start": 47,
+      "end": 52
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "KOR",
+      "years": "2005-2010",
+      "curve": "linear",
+      "start": 53,
+      "end": 55.5
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "KOR",
+      "years": "1990-2005",
+      "curve": "linear",
+      "start": 10,
+      "end": 11
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "KOR",
+      "years": "2006-2012",
+      "curve": "linear",
+      "start": 12,
+      "end": 14
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "KOR",
+      "years": "2013-2019",
+      "curve": "linear",
+      "start": 16,
+      "end": 18
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "KOR",
+      "years": "2020-2025",
+      "curve": "linear",
+      "start": 17,
+      "end": 14
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "KOR",
+      "years": "1990-2007",
+      "curve": "linear",
+      "start": 5,
+      "end": 6
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "KOR",
+      "years": "2008-2012",
+      "curve": "linear",
+      "start": 8,
+      "end": 8
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "KOR",
+      "years": "2013-2017",
+      "curve": "linear",
+      "start": 8,
+      "end": 7
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "KOR",
+      "years": "2018-2025",
+      "curve": "linear",
+      "start": 6,
+      "end": 6
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "1990-1992",
+      "curve": "linear",
+      "start": 35,
+      "end": 30
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "1993-1997",
+      "curve": "manual",
+      "values": [
+        70,
+        60,
+        50,
+        35,
+        15
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "1998-2002",
+      "curve": "manual",
+      "values": [
+        48,
+        35,
+        40,
+        30,
+        25
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "2003-2007",
+      "curve": "manual",
+      "values": [
+        50,
+        42,
+        25,
+        20,
+        15
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "2008-2012",
+      "curve": "linear",
+      "start": 30,
+      "end": 25
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "2013-2016",
+      "curve": "manual",
+      "values": [
+        50,
+        40,
+        40,
+        25
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "2017-2017",
+      "curve": "linear",
+      "start": 50,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "2018-2021",
+      "curve": "manual",
+      "values": [
+        70,
+        48,
+        55,
+        40
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "2022-2024",
+      "curve": "manual",
+      "values": [
+        35,
+        30,
+        27
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "KOR",
+      "years": "2025-2025",
+      "curve": "linear",
+      "start": 42,
+      "end": 42
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "KOR",
+      "years": "1990-1996",
+      "curve": "linear",
+      "start": 70,
+      "end": 68
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "KOR",
+      "years": "1997-2007",
+      "curve": "linear",
+      "start": 65,
+      "end": 62
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "KOR",
+      "years": "2008-2016",
+      "curve": "linear",
+      "start": 68,
+      "end": 65
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "KOR",
+      "years": "2017-2025",
+      "curve": "linear",
+      "start": 60,
+      "end": 62
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "KOR",
+      "years": "2024-2025",
+      "curve": "linear",
+      "start": 93.9,
+      "end": 94.3
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "KOR",
+      "years": "1990-1999",
+      "curve": "linear",
+      "start": 70,
+      "end": 66
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "KOR",
+      "years": "2000-2009",
+      "curve": "linear",
+      "start": 65,
+      "end": 58
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "KOR",
+      "years": "2010-2019",
+      "curve": "linear",
+      "start": 58,
+      "end": 52
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "KOR",
+      "years": "2020-2025",
+      "curve": "linear",
+      "start": 50,
+      "end": 48
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "KOR",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 42,
+      "end": 39
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "KOR",
+      "years": "2023-2025",
+      "curve": "manual",
+      "values": [
+        38,
+        42,
+        40
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "epidemic",
+      "targets": "KOR",
+      "years": "2020-2021",
+      "curve": "manual",
+      "values": [
+        1,
+        1
+      ]
+    }
+  ]
+}

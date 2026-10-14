@@ -1,0 +1,64 @@
+{
+  "rationale": "LBN, zadanie A (statystyki państwa), tryb oszczędny: koniec wojny domowej i upadek państwa 1990; odbudowa po wojnie i kryzys Lahouda; zamach na Haririego 2005, wojna 2006 i starcia w Bejrucie 2008; wakat prezydencki 2014-2016 i protesty 2019-2020; wybuch w porcie i COVID 2020; napływ uchodźców syryjskich 2013-2015; wojna z Izraelem 2024; wartości 1990-2004 i 2024-2025 wypełnione od wskaźników (HDI, WGI), istniejące wartości nietknięte",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "1990-1992", "curve": "linear", "start": 35, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "1993-2004", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "2005-2008", "curve": "linear", "start": 25, "end": 20},
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "2009-2010", "curve": "linear", "start": 20, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "2011-2015", "curve": "linear", "start": 40, "end": 15},
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "2016-2019", "curve": "linear", "start": 15, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "2020-2023", "curve": "linear", "start": 10, "end": 20},
+    {"kind": "grade", "name": "stability", "targets": "LBN", "years": "2024-2025", "curve": "linear", "start": 25, "end": 45},
+
+    {"kind": "grade", "name": "violence risk", "targets": "LBN", "years": "1990-1995", "curve": "linear", "start": 75, "end": 63.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "LBN", "years": "2023-2025", "curve": "manual", "values": [80, 90, 80], "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "LBN", "years": "1990-1995", "curve": "linear", "start": 66, "end": 63.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "LBN", "years": "2023-2025", "curve": "linear", "start": 73, "end": 74, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "LBN", "years": "1990-1995", "curve": "linear", "start": 40, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "LBN", "years": "1996-2000", "curve": "linear", "start": 45, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "LBN", "years": "2001-2005", "curve": "linear", "start": 48, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "LBN", "years": "2006-2008", "curve": "constant", "start": 46, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "LBN", "years": "2009-2010", "curve": "linear", "start": 47, "end": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "LBN", "years": "1990-2004", "curve": "linear", "start": 64, "end": 70.5, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "LBN", "years": "2024-2025", "curve": "constant", "start": 75, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "LBN", "years": "1990-1999", "curve": "constant", "start": 8},
+    {"kind": "grade", "name": "social revanchism", "targets": "LBN", "years": "2000-2025", "curve": "constant", "start": 10},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "LBN", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "1990-1995", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "1996-2004", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "2005-2008", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "2009-2010", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "2011-2015", "curve": "linear", "start": 25, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "2016-2018", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "2019-2023", "curve": "linear", "start": 15, "end": 12},
+    {"kind": "grade", "name": "government popularity", "targets": "LBN", "years": "2024-2025", "curve": "linear", "start": 15, "end": 35},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBN", "years": "1990-1999", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBN", "years": "2000-2018", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBN", "years": "2019-2021", "curve": "linear", "start": 60, "end": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBN", "years": "2022-2023", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LBN", "years": "2024-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "assimilation", "targets": "LBN", "years": "1990-2012", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "assimilation", "targets": "LBN", "years": "2013-2016", "curve": "linear", "start": 33, "end": 25},
+    {"kind": "grade", "name": "assimilation", "targets": "LBN", "years": "2017-2025", "curve": "constant", "start": 25},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBN", "years": "1990-1995", "curve": "linear", "start": 60, "end": 30},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBN", "years": "1996-2005", "curve": "linear", "start": 30, "end": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBN", "years": "2006-2007", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBN", "years": "2008-2022", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "LBN", "years": "2023-2025", "curve": "manual", "values": [20, 40, 55]},
+
+    {"kind": "grade", "name": "state collapse", "targets": "LBN", "years": "1990-1990", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "LBN", "years": "2008-2008", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "LBN", "years": "2019-2020", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "immigration crisis", "targets": "LBN", "years": "2013-2015", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "LBN", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

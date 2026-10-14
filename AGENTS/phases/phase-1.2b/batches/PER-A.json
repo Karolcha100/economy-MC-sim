@@ -1,0 +1,68 @@
+{
+  "rationale": "PER, zadanie A (oszczędny): wartości ESTYMACJA z wiedzy o historii Peru (konflikt Świetlistego Szlaku, autogolpe 1992, kryzys 2000, niestabilność rządów 2016-2025); 2023-2025 sprawdzone wyszukiwarką (odsunięcie Boluarte 10.10.2025, protesty Gen Z 15.10.2025 z ofiarą śmiertelną, aprobacja 2-5%). Wypełnione tylko puste komórki i brakujące lata; istniejące wartości nietknięte.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "1990-1992", "curve": "manual", "values": [44, 40, 25]},
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "1993-1995", "curve": "linear", "start": 30, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "1996-2000", "curve": "linear", "start": 52, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "2001-2005", "curve": "linear", "start": 35, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "2006-2010", "curve": "linear", "start": 58, "end": 65},
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "2011-2017", "curve": "linear", "start": 63, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "2018-2020", "curve": "linear", "start": 30, "end": 20},
+    {"kind": "grade", "name": "stability", "targets": "PER", "years": "2021-2025", "curve": "manual", "values": [30, 15, 25, 30, 20]},
+
+    {"kind": "grade", "name": "violence risk", "targets": "PER", "years": "1990-1995", "curve": "linear", "start": 82, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "PER", "years": "2023-2025", "curve": "linear", "start": 62, "end": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "PER", "years": "1990-1995", "curve": "linear", "start": 55.5, "end": 57.8, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "PER", "years": "2023-2025", "curve": "linear", "start": 66.5, "end": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "PER", "years": "1990-1995", "curve": "linear", "start": 40, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "PER", "years": "1996-2004", "curve": "linear", "start": 44, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "PER", "years": "2005-2010", "curve": "linear", "start": 49, "end": 52, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "PER", "years": "1990-1994", "curve": "constant", "start": 12},
+    {"kind": "grade", "name": "social revanchism", "targets": "PER", "years": "1995-1995", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "social revanchism", "targets": "PER", "years": "1996-1999", "curve": "linear", "start": 20, "end": 10},
+    {"kind": "grade", "name": "social revanchism", "targets": "PER", "years": "2000-2019", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "social revanchism", "targets": "PER", "years": "2020-2025", "curve": "linear", "start": 10, "end": 12},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "PER", "years": "1990-1999", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "PER", "years": "2000-2015", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "government revanchism", "targets": "PER", "years": "2016-2025", "curve": "linear", "start": 3, "end": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "PER", "years": "1990-1995", "curve": "manual", "values": [35, 45, 60, 70, 68, 60]},
+    {"kind": "grade", "name": "government popularity", "targets": "PER", "years": "1996-2001", "curve": "linear", "start": 55, "end": 15},
+    {"kind": "grade", "name": "government popularity", "targets": "PER", "years": "2002-2010", "curve": "linear", "start": 15, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "PER", "years": "2011-2015", "curve": "linear", "start": 50, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "PER", "years": "2016-2019", "curve": "manual", "values": [40, 25, 50, 70]},
+    {"kind": "grade", "name": "government popularity", "targets": "PER", "years": "2020-2021", "curve": "manual", "values": [45, 40]},
+    {"kind": "grade", "name": "government popularity", "targets": "PER", "years": "2022-2025", "curve": "manual", "values": [25, 15, 10, 4]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "PER", "years": "1990-1991", "curve": "linear", "start": 85, "end": 80},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PER", "years": "1992-1995", "curve": "linear", "start": 75, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PER", "years": "1996-2001", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PER", "years": "2002-2010", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PER", "years": "2011-2019", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PER", "years": "2020-2025", "curve": "linear", "start": 65, "end": 70},
+
+    {"kind": "grade", "name": "civilization level", "targets": "PER", "years": "2023-2025", "curve": "linear", "start": "current", "end": 80.2, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "PER", "years": "1990-1995", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "PER", "years": "1996-2010", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "PER", "years": "2011-2017", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "assimilation", "targets": "PER", "years": "2018-2020", "curve": "linear", "start": 58, "end": 54},
+    {"kind": "grade", "name": "assimilation", "targets": "PER", "years": "2021-2025", "curve": "linear", "start": 54, "end": 55},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "PER", "years": "1990-1992", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "war exhaustion", "targets": "PER", "years": "1993-1995", "curve": "linear", "start": 25, "end": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "PER", "years": "1996-2000", "curve": "linear", "start": 12, "end": 3},
+
+    {"kind": "grade", "name": "riots", "targets": "PER", "years": "1990-1990", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "PER", "years": "2020-2020", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "PER", "years": "2022-2023", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "PER", "years": "2025-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "PER", "years": "2020-2021", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "PER", "years": "1995-1995", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "immigration crisis", "targets": "PER", "years": "2018-2019", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "rationale": "KNA, zadanie A (tryb oszczędny): brak danych happiness (brak WHR) - szacunek wg podobnych państw Karaibów (ATG, BHS, BRB, LCA, GRD, VCT) i poziomu PKB; stability: stabilna demokracja z epizodami kryzysu instytucjonalnego (1995-1999: zmiana rządu, konflikt o Nevis/referendum secesyjne 1998), COVID 2020-2021; civilization level 100 x HDI (wstecz z 2005, HDI ~0.69 w 1990); corruption i violence risk uzupełnione płynnie do istniejących wartości; assimilation spadek wraz ze wzrostem udziału migrantów; epidemic 2020 jak u wszystkich państw",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "KNA", "years": "1990-1994", "curve": "constant", "start": 77},
+    {"kind": "grade", "name": "stability", "targets": "KNA", "years": "1995-1999", "curve": "linear", "start": 77, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "KNA", "years": "2000-2009", "curve": "linear", "start": 70, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "KNA", "years": "2010-2019", "curve": "constant", "start": 79},
+    {"kind": "grade", "name": "stability", "targets": "KNA", "years": "2020-2021", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "stability", "targets": "KNA", "years": "2022-2025", "curve": "linear", "start": 76, "end": 78},
+
+    {"kind": "grade", "name": "corruption", "targets": "KNA", "years": "1990-2003", "curve": "linear", "start": 30, "end": 44},
+    {"kind": "grade", "name": "corruption", "targets": "KNA", "years": "2023-2025", "curve": "linear", "start": 42.2, "end": 42.0},
+
+    {"kind": "grade", "name": "happiness", "targets": "KNA", "years": "1990-2004", "curve": "linear", "start": 55, "end": 62.5},
+    {"kind": "grade", "name": "happiness", "targets": "KNA", "years": "2005-2019", "curve": "linear", "start": 63, "end": 63.5},
+    {"kind": "grade", "name": "happiness", "targets": "KNA", "years": "2020-2021", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "happiness", "targets": "KNA", "years": "2022-2025", "curve": "linear", "start": 60, "end": 62},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "KNA", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "KNA", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "KNA", "years": "1990-2019", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KNA", "years": "2020-2021", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KNA", "years": "2022-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "government popularity", "targets": "KNA", "years": "1990-1994", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "KNA", "years": "1995-2004", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "KNA", "years": "2005-2014", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "KNA", "years": "2015-2019", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "KNA", "years": "2020-2021", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "KNA", "years": "2022-2025", "curve": "linear", "start": 52, "end": 58},
+
+    {"kind": "grade", "name": "civilization level", "targets": "KNA", "years": "1990-2004", "curve": "linear", "start": 69, "end": 75.2},
+    {"kind": "grade", "name": "civilization level", "targets": "KNA", "years": "2024-2025", "curve": "linear", "start": 84.0, "end": 84.6},
+
+    {"kind": "grade", "name": "assimilation", "targets": "KNA", "years": "1990-2009", "curve": "linear", "start": 65, "end": 61},
+    {"kind": "grade", "name": "assimilation", "targets": "KNA", "years": "2010-2025", "curve": "linear", "start": 61, "end": 57},
+
+    {"kind": "grade", "name": "violence risk", "targets": "KNA", "years": "1990-2002", "curve": "linear", "start": 28, "end": 26.7},
+    {"kind": "grade", "name": "violence risk", "targets": "KNA", "years": "2023-2025", "curve": "constant", "start": 31},
+
+    {"kind": "grade", "name": "epidemic", "targets": "KNA", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "rationale": "TUV, zadanie B (oszczedny): relacje TUV -> 17 partnerow (AUS, NZL, USA, CHN, TWN, JPN, GBR, FJI, WSM, KIR, TON, NRU, VUT, SLB, PNG, FSM, MHL); TWN: formalny sojusznik (ROC od 1979), najwyzsza dyplomacja i wspolne wartosci; CHN: brak stosunkow dyplomatycznych (diplomatic 0 przez confirm-default), negatywny nastroj spoleczny; AUS: glowny donor i partner bezpieczenstwa, Falepili Union 2023 (wyzsze zaleznosci 2023-2025); NZL, USA, JPN: donorzy i partnerzy rybolowcy; reszta Pacyfiku: stosunki regionalne, niskie zaleznosci; hybrid attacks: TUV nie prowadzi dzialan (0 przez confirm-default); dwustronne: TUV nie ma granic ladowych, brak wojny i kryzysu w UCDP, wpisy pozostaja domyslne",
+  "operations": [
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:AUS", "years": "1990-2022", "curve": "constant", "start": 70},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:AUS", "years": "2023-2025", "curve": "constant", "start": 80},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:NZL", "years": "1990-2025", "curve": "constant", "start": 70},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:TWN", "years": "1990-2025", "curve": "constant", "start": 80},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:GBR,TUV:FJI,TUV:WSM", "years": "1990-2025", "curve": "constant", "start": 65},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:USA,TUV:JPN,TUV:KIR,TUV:NRU,TUV:TON,TUV:VUT", "years": "1990-2025", "curve": "constant", "start": 60},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:FSM,TUV:MHL,TUV:PNG", "years": "1990-2025", "curve": "constant", "start": 55},
+    {"kind": "directed", "name": "diplomatic relation towards", "targets": "TUV:SLB", "years": "1990-2025", "curve": "constant", "start": 50},
+
+    {"kind": "directed", "name": "social view towards", "targets": "TUV:AUS,TUV:NZL,TUV:GBR,TUV:FJI", "years": "1990-2025", "curve": "constant", "start": 55},
+    {"kind": "directed", "name": "social view towards", "targets": "TUV:USA,TUV:WSM,TUV:TWN", "years": "1990-2025", "curve": "constant", "start": 50},
+    {"kind": "directed", "name": "social view towards", "targets": "TUV:KIR,TUV:TON,TUV:NRU,TUV:VUT", "years": "1990-2025", "curve": "constant", "start": 45},
+    {"kind": "directed", "name": "social view towards", "targets": "TUV:JPN,TUV:PNG,TUV:FSM,TUV:MHL,TUV:SLB", "years": "1990-2025", "curve": "constant", "start": 40},
+    {"kind": "directed", "name": "social view towards", "targets": "TUV:CHN", "years": "1990-2025", "curve": "constant", "start": -10},
+
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "TUV:AUS", "years": "1990-2022", "curve": "constant", "start": 40},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "TUV:AUS", "years": "2023-2025", "curve": "constant", "start": 45},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "TUV:NZL", "years": "1990-2025", "curve": "constant", "start": 25},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "TUV:USA,TUV:GBR", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "TUV:TWN,TUV:JPN,TUV:FJI", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "TUV:WSM,TUV:KIR,TUV:TON,TUV:NRU,TUV:VUT,TUV:PNG,TUV:FSM,TUV:MHL,TUV:SLB", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "perceived subordination towards", "targets": "TUV:CHN", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "directed", "name": "perceived power towards", "targets": "TUV:TWN", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "perceived power towards", "targets": "TUV:AUS,TUV:NZL,TUV:USA,TUV:FJI,TUV:WSM,TUV:KIR,TUV:TON,TUV:NRU,TUV:VUT,TUV:PNG,TUV:FSM,TUV:MHL,TUV:SLB", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "perceived power towards", "targets": "TUV:GBR,TUV:CHN,TUV:JPN", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "directed", "name": "real subordination towards", "targets": "TUV:AUS", "years": "1990-2022", "curve": "constant", "start": 35},
+    {"kind": "directed", "name": "real subordination towards", "targets": "TUV:AUS", "years": "2023-2025", "curve": "constant", "start": 40},
+    {"kind": "directed", "name": "real subordination towards", "targets": "TUV:NZL", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "real subordination towards", "targets": "TUV:USA,TUV:GBR", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "real subordination towards", "targets": "TUV:TWN,TUV:JPN,TUV:FJI", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "real subordination towards", "targets": "TUV:WSM,TUV:KIR,TUV:TON,TUV:NRU,TUV:VUT,TUV:PNG,TUV:FSM,TUV:MHL,TUV:SLB,TUV:CHN", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "directed", "name": "real power towards", "targets": "TUV:TWN", "years": "1990-2025", "curve": "constant", "start": 10},
+    {"kind": "directed", "name": "real power towards", "targets": "TUV:AUS,TUV:NZL,TUV:USA,TUV:GBR,TUV:JPN,TUV:CHN,TUV:FJI,TUV:WSM,TUV:KIR,TUV:TON,TUV:NRU,TUV:VUT,TUV:PNG,TUV:FSM,TUV:MHL,TUV:SLB", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "directed", "name": "economic dependence", "targets": "TUV:AUS", "years": "1990-2025", "curve": "constant", "start": 60},
+    {"kind": "directed", "name": "economic dependence", "targets": "TUV:NZL,TUV:USA", "years": "1990-2025", "curve": "constant", "start": 35},
+    {"kind": "directed", "name": "economic dependence", "targets": "TUV:TWN", "years": "1990-2025", "curve": "constant", "start": 25},
+    {"kind": "directed", "name": "economic dependence", "targets": "TUV:JPN,TUV:FJI", "years": "1990-2025", "curve": "constant", "start": 20},
+    {"kind": "directed", "name": "economic dependence", "targets": "TUV:WSM,TUV:KIR", "years": "1990-2025", "curve": "constant", "start": 15},
+    {"kind": "directed", "name": "economic dependence", "targets": "TUV:GBR,TUV:CHN,TUV:TON,TUV:NRU,TUV:VUT,TUV:SLB,TUV:PNG,TUV:FSM,TUV:MHL", "years": "1990-2025", "curve": "constant", "start": 10}
+  ]
+}

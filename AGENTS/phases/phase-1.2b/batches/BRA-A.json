@@ -1,0 +1,517 @@
+{
+  "rationale": "BRA, zadanie A (statystyki państwa), tryb pełny",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "1990-1993",
+      "curve": "linear",
+      "start": 55,
+      "end": 45,
+      "rationale": "1990: pierwsze miesiące rządu Collora (plan stabilizacyjny, zamrożenie oszczędności, konflikt z Kongresem); 1992: kryzys impeachmentu i rezygnacja prezydenta w grudniu; 1993: plebiscyt utrzymujący prezydencki system rządów, rząd Itamara",
+      "sources": [
+        "Wikipedia (en), Fernando Collor de Mello"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "1994-2002",
+      "curve": "linear",
+      "start": 62,
+      "end": 58,
+      "rationale": "Plano Real 1994 i stabilne rządy FHC; spory o reelekcję (poprawka 1997); kryzys walutowy 1999 i przerwy w dostawach energii 2001 obniżają stabilność pod koniec okresu",
+      "sources": [
+        "Wikipedia (en), Presidency of Fernando Henrique Cardoso"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "2003-2006",
+      "curve": "linear",
+      "start": 63,
+      "end": 56,
+      "rationale": "pierwsza kadencja Lula: stabilna koalicja; afera mensalão 2005 (kryzys zaufania do rządu i PT), bez upadku rządu; reelekcja 2006",
+      "sources": [
+        "Wikipedia (en), Mensalão scandal"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "2007-2012",
+      "curve": "linear",
+      "start": 60,
+      "end": 66,
+      "rationale": "druga kadencja Lula i pierwsza Dilmy: przewidywalne instytucje, koalicja wielopartyjna, brak kryzysów rządowych",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "2013-2016",
+      "curve": "linear",
+      "start": 55,
+      "end": 33,
+      "rationale": "2013 masowe protesty (Jornadas de Junho) i kryzys zaufania; 2015-2016 recesja, Lava Jato, procedura impeachmentu Dilmy (usunięta sierpień 2016) i przejęcie władzy przez Temera; powtarzające się kryzysy rządowe",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "2017-2018",
+      "curve": "linear",
+      "start": 42,
+      "end": 45,
+      "rationale": "rząd Temera pod dwoma zarzutami prokuratury (Kongres odrzucił oba, 2017); wybory 2018 bez kryzysu konstytucyjnego",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "2019-2022",
+      "curve": "linear",
+      "start": 55,
+      "end": 50,
+      "rationale": "rząd Bolsonaro: konflikty z STF i Kongresem, Komisja Covid w Senacie, kampania 2022 z atakami na system wyborczy; instytucje jednak działały, bez upadku rządu",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "BRA",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 55,
+      "end": 60,
+      "rationale": "8 stycznia 2023 atak na budynki władz w Brasílii (zamieszki), instytucje utrzymane; 2025 skazanie Bolsonaro za próbę zamachu stanu (wrzesień, 4:1 w Pierwszej Turze STF) i napięcia celne z USA, bez kryzysu rządowego; rząd Lula umocniony",
+      "sources": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/por-4-1-stf-condena-bolsonaro-e-mais-sete-pela-trama-golpista"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "BRA",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 51,
+      "end": 50.4,
+      "rationale": "ESTYMACJA: afera Collora (PC Farias, 1992) i skandal 'anões do orçamento' (1993) to korupcja polityczna na poziomie 'powszechnej'; wartość zbliżona do 1996 (50.37), ciągłość z istniejącą serią",
+      "sources": [
+        "Wikipedia (en), Fernando Collor de Mello"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "BRA",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": "current",
+      "end": 62.5,
+      "only_empty": true,
+      "rationale": "ciągłość z 2022 (61.32); 2025: ujawniona przez PF i CGU fraud w INSS (szacowany na R$ 6,3 mld za 2019-2024, sztuczne składki od emerytów), 2021-2024 kontrowersje wokół 'orçamento secreto'; wzrost o ok. 1 pkt",
+      "sources": [
+        "https://www12.senado.leg.br/noticias/materias/2025/12/26/fraudes-no-inss-e-crime-organizado-marcam-cpis-em-2025"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "BRA",
+      "years": "1990-1994",
+      "curve": "linear",
+      "start": 56,
+      "end": 60,
+      "only_empty": true,
+      "rationale": "ESTYMACJA (przed 2005 brak danych Cantril): hiperinflacja i plany Collora obniżają nastroje w 1990-1991; poprawa po wprowadzeniu Planu Real w 1994",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "BRA",
+      "years": "1995-1999",
+      "curve": "linear",
+      "start": 60,
+      "end": 56,
+      "only_empty": true,
+      "rationale": "ESTYMACJA: stabilizacja cen w pierwszych latach FHC, potem recesja i kryzys walutowy 1998-1999",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "BRA",
+      "years": "2000-2004",
+      "curve": "linear",
+      "start": 56,
+      "end": 58,
+      "only_empty": true,
+      "rationale": "ESTYMACJA: powolne ożywienie po 1999; przed wyborami 2002 niepewność, poprawa nastrojów w 2003-2004",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "BRA",
+      "years": "2005-2010",
+      "curve": "linear",
+      "start": 60,
+      "end": 65,
+      "only_empty": true,
+      "rationale": "od 2005 skala Cantril x10 (ESTYMACJA ~6.0 w 2005, ~6.5 w 2010); wzrost dochodów i programy socjalne (Bolsa Família), ciągłość z 2011 (66.97)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "BRA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "brak roszczeń terytorialnych i nie ma w społeczeństwie dążenia do odzyskania utraconych wpływów; ambicje mocarstwowe (BRICS, stały członek RB ONZ) są marginalne w nastrojach społecznych; wartość stała, bez zmian w okresie",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "1990-1992",
+      "curve": "linear",
+      "start": 50,
+      "end": 12,
+      "rationale": "ESTYMACJA: Collor z początkowym poparciem po planie stabilizacyjnym (1990), spadek po zamrożeniu oszczędności i aferach; ok. 10-15% przed impeachmentem w 1992",
+      "sources": [
+        "Wikipedia (en), Fernando Collor de Mello"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "1993-1998",
+      "curve": "linear",
+      "start": 25,
+      "end": 40,
+      "rationale": "ESTYMACJA: Itamar Franco w niskim poparciu (1993), wzrost po Planie Real (1994) i pierwszej kadencji FHC (1995-1998)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "1999-2002",
+      "curve": "linear",
+      "start": 25,
+      "end": 20,
+      "rationale": "ESTYMACJA: kryzys walutowy 1999 i recesja, przerwy w dostawach energii 2001; poparcie FHC w okolicach 15-25% do końca kadencji",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "2003-2006",
+      "curve": "linear",
+      "start": 38,
+      "end": 42,
+      "rationale": "ESTYMACJA: początek kadencji Lula ok. 38-40%, spadek w 2005 po aferze mensalão, odbicie przed reelekcją 2006 (ok. 42%)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "2007-2010",
+      "curve": "linear",
+      "start": 50,
+      "end": 78,
+      "rationale": "ESTYMACJA: wzrost poparcia Lula w drugiej kadencji, szczyt około 75-80% w 2010 (boom gospodarczy)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "2011-2014",
+      "curve": "linear",
+      "start": 62,
+      "end": 30,
+      "rationale": "ESTYMACJA: Dilma na początku wysoko, potem spadek; protesty 2013 obniżają poparcie, po reelekcji 2014 ok. 30%",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "2015-2018",
+      "curve": "linear",
+      "start": 12,
+      "end": 8,
+      "rationale": "ESTYMACJA: poparcie Dilmy spadło do ok. 10% w 2015, Temer w 2016-2018 w okolicach 5-14%",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "2019-2022",
+      "curve": "linear",
+      "start": 30,
+      "end": 28,
+      "rationale": "ESTYMACJA: Bolsonaro ok. 30% w 2019, wzrost w 2020 (pomoc pandemiczna), spadek w 2021 do ok. 22-25%, ok. 28% w 2022 (wartość uśredniona)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "BRA",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 40,
+      "end": 48,
+      "rationale": "Quaest/Datafolha: aprovação Lula spadła na początku 2025 (ok. 41%), potem wzrosła; CNT/MDA z listopada 2025: 48,1% aprovação; Quaest z grudnia 2025: 48%; 2023-2024 ESTYMACJA ok. 38-40%",
+      "sources": [
+        "https://fpabramo.org.br/popularidade-de-lula-em-2025/",
+        "https://tagteam.harvard.edu/hub_feeds/3884/feed_items/17019380/content"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "1990-1993",
+      "curve": "linear",
+      "start": 75,
+      "end": 65,
+      "rationale": "hiperinflacja i zamrożenie oszczędności 1990 wywołują silne reakcje społeczne (protesty 1992, ruch 'caras-pintadas'); spadek napięcia w 1993 wraz z opanowaniem inflacji",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "1994-1998",
+      "curve": "linear",
+      "start": 55,
+      "end": 50,
+      "rationale": "stabilizacja cen po Planie Real zmniejsza wrażliwość na koszty; społeczeństwo akceptuje reformy FHC",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "1999-2002",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "kryzys walutowy 1999, wzrost bezrobocia i przerwy w dostawach energii 2001 wywołują reakcje, ale bez masowej mobilizacji; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "2003-2010",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "okres wzrostu dochodów i programów socjalnych (Bolsa Família) amortyzuje straty; afera mensalão nie przekłada się na masowy sprzeciw wobec polityki; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "2011-2014",
+      "curve": "linear",
+      "start": 55,
+      "end": 62,
+      "rationale": "rosnąca inflacja i spowolnienie 2011-2014 podnoszą wrażliwość, co zostało pokazane w protestach czerwca 2013 (podwyżki biletów komunikacji)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "2015-2016",
+      "curve": "constant",
+      "start": 80,
+      "rationale": "recesja 2015-2016, wzrost bezrobocia do ok. 12-13%, szybki spadek poparcia rządu; małe straty wywołują silny sprzeciw; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "2017-2018",
+      "curve": "linear",
+      "start": 75,
+      "end": 65,
+      "rationale": "powolne wychodzenie z recesji; poparcie rządu Temera i kampania 2018 wciąż pod wpływem bezrobocia",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "BRA",
+      "years": "2019-2025",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "pomoc pandemiczna (auxílio emergencial) i późniejsze programy dochodowe amortyzują straty; wzrost cen żywności 2021-2022 i 2025 podnosi wrażliwość, ale bez wyraźnego skoku; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "BRA",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": "current",
+      "end": 79.2,
+      "only_empty": true,
+      "rationale": "100 x HDI: trend +0.6 w 2023 (z 78.0 w 2022 do 78.6); lata 2024-2025 ekstrapolowane (wzrost ok. 0.3 rocznie), brak HDI za te lata",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "BRA",
+      "years": "1990-2010",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "ESTYMACJA: silna asymilacja imigrantów europejskich i japońskich, wysoki poziom mieszania etnicznego; segregacja w favelach i nierówności rasowe obniżają wynik, ale nie tworzą równoległych społeczeństw na skalę kraju; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "BRA",
+      "years": "2011-2017",
+      "curve": "linear",
+      "start": 70,
+      "end": 66,
+      "rationale": "ESTYMACJA: wzrost napięć w miastach i przestępczości w favelach (kontrola grup przestępczych) obniża integrację społeczną",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "BRA",
+      "years": "2018-2019",
+      "curve": "constant",
+      "start": 62,
+      "rationale": "napływ migrantów z Wenezueli do Roraimy (2018, incydenty w Pacaraimie w sierpniu 2018) pogarsza integrację w regionie; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "BRA",
+      "years": "2020-2025",
+      "curve": "linear",
+      "start": 62,
+      "end": 64,
+      "rationale": "ESTYMACJA: program federalnej relokacji i przyjęcia migrantów (Operação Acolhida) poprawia integrację, wracając do ok. 64",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "BRA",
+      "years": "1990-2002",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "brak oficjalnej polityki odzyskiwania terytorium lub wpływów; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "BRA",
+      "years": "2003-2014",
+      "curve": "constant",
+      "start": 7,
+      "rationale": "stała aspiracja do stałego miejsca w Radzie Bezpieczeństwa ONZ (G4) i rola w BRICS; to ambicja statusu, nie rewizjonizm; lekko powyżej 5",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "BRA",
+      "years": "2015-2022",
+      "curve": "constant",
+      "start": 5,
+      "rationale": "polityka zagraniczna w latach 2015-2022 (Temer, Bolsonaro) bez celu odzyskania wpływów; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "BRA",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 7,
+      "rationale": "rząd Lula (prezydencja G20 2024, prezydencja BRICS 2025) podkreśla rolę Brazylii jako mocarstwa; aspiracja statusu, nie rewizjonizm; wartość stała",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "BRA",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 55.5,
+      "end": 55.0,
+      "only_empty": true,
+      "rationale": "ESTYMACJA: wysoka przemoc uliczna i policyjna (masakry w Carandiru 1992, Candelária i Vigário Geral 1993), konflikty ruchów ziemskich; zgodnie ze wzorem 50 - 20 x WGI PV, ciągłość z 1996 (54.41)",
+      "sources": []
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "BRA",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": "current",
+      "end": 58.5,
+      "only_empty": true,
+      "rationale": "ciągłość z 2022 (56.63); 8 stycznia 2023 atak na budynki rządowe; 28 października 2025 operacja policyjna w Penha i Alemão (ok. 120 zabitych) i trwające strzelaniny; wzrost do 58.5",
+      "sources": [
+        "https://www.cnnbrasil.com.br/nacional/sudeste/rj/fogo-cruzado-rotina-de-tiroteios-segue-na-penha-6-meses-apos-megaoperacao/",
+        "https://en.wikipedia.org/wiki/Operation_Containment"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "epidemic",
+      "targets": "BRA",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "pandemia COVID-19: poważna epidemia z wysoką umieralnością i zakłóceniem życia (zgodnie z opisem statystyki)",
+      "sources": [
+        "Wikipedia (en), COVID-19 pandemic in Brazil"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "BRA",
+      "years": "2023-2023",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "8 stycznia 2023: tysiące zwolenników Bolsonaro zdewastowały budynki Kongresu, Pałacu Planalto i STF w Brasílii; ogólnokrajowe, gwałtowne zamieszki",
+      "sources": []
+    }
+  ]
+}

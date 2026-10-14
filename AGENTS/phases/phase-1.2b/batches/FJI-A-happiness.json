@@ -1,0 +1,12 @@
+{
+  "rationale": "FJI, zadanie A, tylko happiness (tryb oszczędny): brak danych WHR, seria szacunkowa wg PNG (45-52), MUS (53-60), MDV (~50), JAM (55-63), LKA (40-45); zamach 2000 (spadek), zamach 2006 i rządy wojskowe do 2014 (spadek), COVID 2020-2021 (turystyka, spadek), powolna poprawa wraz z HDI 0,63 -> 0,72",
+  "operations": [
+    {"kind": "grade", "name": "happiness", "targets": "FJI", "years": "1990-1999", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "happiness", "targets": "FJI", "years": "2000-2001", "curve": "linear", "start": 46, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "FJI", "years": "2002-2005", "curve": "linear", "start": 43, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "FJI", "years": "2006-2009", "curve": "linear", "start": 46, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "FJI", "years": "2010-2019", "curve": "linear", "start": 43, "end": 52},
+    {"kind": "grade", "name": "happiness", "targets": "FJI", "years": "2020-2021", "curve": "linear", "start": 50, "end": 47},
+    {"kind": "grade", "name": "happiness", "targets": "FJI", "years": "2022-2025", "curve": "linear", "start": 48, "end": 54}
+  ]
+}

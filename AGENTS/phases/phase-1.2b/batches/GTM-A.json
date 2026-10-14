@@ -1,0 +1,62 @@
+{
+  "rationale": "GTM, zadanie A (tryb oszczędny): okresy wg wydarzeń (1993 autogolpe Serrano, 1996 pokój, 2009 zabójstwo Rosenberga, 2015 afera La Línea, 2020 protesty, 2023 kryzys wyborczy, 2024 inauguracja Arévalo); wypełnione tylko puste komórki (only_empty); brakujące lata wartości startowych uzupełnione bez zmiany istniejących lat; 2024-2025 stabilność i popularność oparte na wyszukiwaniu (kryzys pandyjski z ostatecznym stanem wyjątkowym to styczeń 2026, nie 2025)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "1990-1992", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "1993-1993", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "1994-1995", "curve": "linear", "start": 30, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "1996-1999", "curve": "linear", "start": 45, "end": 52, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2000-2003", "curve": "constant", "start": 47, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2004-2007", "curve": "linear", "start": 48, "end": 54, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2008-2008", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2009-2009", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2010-2014", "curve": "constant", "start": 44, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2015-2015", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2016-2019", "curve": "linear", "start": 40, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2020-2022", "curve": "linear", "start": 35, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2023-2023", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "GTM", "years": "2024-2025", "curve": "constant", "start": 42, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "1990-1992", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "1993-1993", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "1994-1995", "curve": "linear", "start": 25, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "1996-1999", "curve": "linear", "start": 40, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2000-2003", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2004-2007", "curve": "linear", "start": 40, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2008-2009", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2010-2011", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2012-2014", "curve": "linear", "start": 25, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2015-2015", "curve": "constant", "start": 15, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2016-2019", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2020-2023", "curve": "constant", "start": 20, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2024-2024", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "GTM", "years": "2025-2025", "curve": "constant", "start": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "GTM", "years": "1990-2025", "curve": "constant", "start": 12, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "GTM", "years": "1990-2025", "curve": "constant", "start": 15, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "GTM", "years": "1990-2014", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GTM", "years": "2015-2016", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GTM", "years": "2017-2025", "curve": "constant", "start": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "GTM", "years": "1990-2025", "curve": "constant", "start": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "GTM", "years": "1990-1995", "curve": "linear", "start": 46, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "GTM", "years": "1996-2000", "curve": "linear", "start": 48, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "GTM", "years": "2001-2010", "curve": "linear", "start": 51, "end": 61, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "GTM", "years": "1990-1995", "curve": "linear", "start": 66, "end": 67, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "GTM", "years": "2023-2025", "curve": "linear", "start": 74, "end": 73, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "GTM", "years": "1990-1995", "curve": "linear", "start": 78, "end": 71, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "GTM", "years": "2023-2025", "curve": "constant", "start": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "GTM", "years": "2024-2025", "curve": "linear", "start": 66.5, "end": 66.8, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "GTM", "years": "1990-1995", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "GTM", "years": "1996-1996", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "GTM", "years": "1997-2000", "curve": "linear", "start": 40, "end": 20, "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "GTM", "years": "2020-2020", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "epidemic", "targets": "GTM", "years": "2020-2020", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

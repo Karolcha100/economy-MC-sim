@@ -1,0 +1,59 @@
+{
+  "rationale": "ESP, zadanie A (tryb oszczędny): okresy wg wydarzeń. Lata 90.: transformacja PSOE, afery (Filesa, GAL), rząd mniejszościowy 1993-96. Aznar 1996-2003 (większość 2000). Zapatero 2004-2011, kryzys 2008. Austerity i 15-M 2012-2014. Impas rządowy 2015-16 (dwa wybory). Kryzys kataloński 2017. Dwa wybory 2019, koalicja 2020-23, wybory 2023 bez rządu przez kilka miesięcy. COVID 2020-21; zamieszki w Katalonii 2019; napływ migrantów 2006 i 2024 (Wyspy Kanaryjskie).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "1990-1995", "curve": "linear", "start": 74, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "1996-2003", "curve": "linear", "start": 70, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "2004-2011", "curve": "linear", "start": 80, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "2012-2014", "curve": "linear", "start": 68, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "2015-2016", "curve": "linear", "start": 58, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "2017-2019", "curve": "linear", "start": 48, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "2020-2023", "curve": "linear", "start": 52, "end": 54},
+    {"kind": "grade", "name": "stability", "targets": "ESP", "years": "2024-2025", "curve": "linear", "start": 54, "end": 56},
+
+    {"kind": "grade", "name": "corruption", "targets": "ESP", "years": "1990-1995", "curve": "linear", "start": 34, "end": 28},
+    {"kind": "grade", "name": "corruption", "targets": "ESP", "years": "2023-2025", "curve": "constant", "start": 36.3},
+
+    {"kind": "grade", "name": "happiness", "targets": "ESP", "years": "1990-1995", "curve": "linear", "start": 62, "end": 58},
+    {"kind": "grade", "name": "happiness", "targets": "ESP", "years": "1996-2000", "curve": "linear", "start": 58, "end": 64},
+    {"kind": "grade", "name": "happiness", "targets": "ESP", "years": "2001-2007", "curve": "linear", "start": 64, "end": 66},
+    {"kind": "grade", "name": "happiness", "targets": "ESP", "years": "2008-2010", "curve": "linear", "start": 66, "end": 67},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "ESP", "years": "1990-2015", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "social revanchism", "targets": "ESP", "years": "2016-2025", "curve": "linear", "start": 5, "end": 8},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "ESP", "years": "1990-2015", "curve": "constant", "start": 8},
+    {"kind": "grade", "name": "government revanchism", "targets": "ESP", "years": "2016-2025", "curve": "linear", "start": 8, "end": 10},
+
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "1990-1995", "curve": "linear", "start": 45, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "1996-1999", "curve": "linear", "start": 35, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "2000-2003", "curve": "linear", "start": 46, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "2004-2007", "curve": "linear", "start": 58, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "2008-2011", "curve": "linear", "start": 40, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "2012-2015", "curve": "linear", "start": 22, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "2016-2018", "curve": "linear", "start": 20, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "2019-2023", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ESP", "years": "2024-2025", "curve": "linear", "start": 40, "end": 35},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "ESP", "years": "1990-1995", "curve": "linear", "start": 62, "end": 68},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ESP", "years": "1996-2007", "curve": "linear", "start": 65, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ESP", "years": "2008-2014", "curve": "linear", "start": 55, "end": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ESP", "years": "2015-2019", "curve": "linear", "start": 70, "end": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ESP", "years": "2020-2025", "curve": "linear", "start": 62, "end": 60},
+
+    {"kind": "grade", "name": "civilization level", "targets": "ESP", "years": "2024-2025", "curve": "linear", "start": 92.3, "end": 92.6},
+
+    {"kind": "grade", "name": "assimilation", "targets": "ESP", "years": "1990-1999", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "ESP", "years": "2000-2010", "curve": "linear", "start": 70, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "ESP", "years": "2011-2025", "curve": "linear", "start": 62, "end": 60},
+
+    {"kind": "grade", "name": "violence risk", "targets": "ESP", "years": "1990-1995", "curve": "linear", "start": 56, "end": 48},
+    {"kind": "grade", "name": "violence risk", "targets": "ESP", "years": "2023-2025", "curve": "constant", "start": 44.7},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "ESP", "years": "2003-2005", "curve": "linear", "start": 30, "end": 10},
+
+    {"kind": "grade", "name": "immigration crisis", "targets": "ESP", "years": "2006", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "immigration crisis", "targets": "ESP", "years": "2024", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "ESP", "years": "2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "ESP", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

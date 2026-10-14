@@ -1,0 +1,50 @@
+{
+  "rationale": "NLD, zadanie A (statystyki państwa), tryb oszczędny: stabilność według kryzysów gabinetowych (2002, 2010, 2017, 2023, 2025), popularność rządów, zamieszki i epidemia 2020–2021, brakujące lata wskaźników",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "1990-2001", "curve": "linear", "start": 90, "end": 89},
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "2002-2003", "curve": "linear", "start": 88, "end": 78},
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "2004-2010", "curve": "linear", "start": 80, "end": 84},
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "2011-2016", "curve": "constant", "start": 85},
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "2017-2019", "curve": "linear", "start": 82, "end": 84},
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "2020-2022", "curve": "constant", "start": 84},
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "2023-2024", "curve": "linear", "start": 72, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "NLD", "years": "2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "corruption", "targets": "NLD", "years": "1990-1995", "curve": "linear", "start": 9.0, "end": 8.4},
+    {"kind": "grade", "name": "corruption", "targets": "NLD", "years": "2023-2025", "curve": "linear", "start": 11.8, "end": 11.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "NLD", "years": "1990-2005", "curve": "linear", "start": 72, "end": 74},
+    {"kind": "grade", "name": "happiness", "targets": "NLD", "years": "2006-2010", "curve": "linear", "start": 74, "end": 75},
+
+    {"kind": "grade", "name": "violence risk", "targets": "NLD", "years": "1990-1995", "curve": "linear", "start": 21.0, "end": 19.6},
+    {"kind": "grade", "name": "violence risk", "targets": "NLD", "years": "2023-2025", "curve": "constant", "start": 36.0},
+
+    {"kind": "grade", "name": "civilization level", "targets": "NLD", "years": "2024-2025", "curve": "linear", "start": 95.7, "end": 95.8},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "NLD", "years": "1990-2010", "curve": "linear", "start": 3, "end": 2},
+    {"kind": "grade", "name": "social revanchism", "targets": "NLD", "years": "2011-2025", "curve": "linear", "start": 2, "end": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "NLD", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "1990-1994", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "1995-2001", "curve": "linear", "start": 50, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "2002-2003", "curve": "linear", "start": 45, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "2004-2009", "curve": "linear", "start": 42, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "2010-2014", "curve": "linear", "start": 38, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "2015-2019", "curve": "linear", "start": 38, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "2020-2022", "curve": "linear", "start": 55, "end": 48},
+    {"kind": "grade", "name": "government popularity", "targets": "NLD", "years": "2023-2025", "curve": "linear", "start": 35, "end": 25},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "NLD", "years": "1990-2018", "curve": "linear", "start": 45, "end": 46},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NLD", "years": "2019-2022", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NLD", "years": "2023-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "NLD", "years": "1990-1999", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "NLD", "years": "2000-2009", "curve": "linear", "start": 68, "end": 62},
+    {"kind": "grade", "name": "assimilation", "targets": "NLD", "years": "2010-2019", "curve": "linear", "start": 61, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "NLD", "years": "2020-2025", "curve": "linear", "start": 60, "end": 58},
+
+    {"kind": "grade", "name": "epidemic", "targets": "NLD", "years": "2020-2021", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "NLD", "years": "2021", "curve": "constant", "start": 1}
+  ]
+}

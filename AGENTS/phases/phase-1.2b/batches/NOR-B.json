@@ -1,0 +1,1666 @@
+{
+ "rationale": "NOR, zadanie B: relacje od NOR do 22 partnerow (sasiedzi, NATO/UE, Baltyk, Ukraina, Chiny, Izrael, Turcja); hybrid attacks = domyslne 0 (NOR nie prowadzi dzialan hybrydowych); bez zmian w relacjach dwustronnych (brak par UCDP z NOR)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "sasiad (granica lądowa), kraj nordycki, bliski partner; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "sasiad (granica lądowa), kraj nordycki, bliski partner; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad (granica lądowa), kraj nordycki, bliski partner; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sasiad (granica lądowa), kraj nordycki, bliski partner; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad (granica lądowa), kraj nordycki, bliski partner; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad (granica lądowa), kraj nordycki, bliski partner; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad (granica lądowa), kraj nordycki, bliski partner; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:FIN",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:FIN",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 90,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; stosunki dyplomatyczne NOR->X; Finlandia wstapila do NATO 2023"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:FIN",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:FIN",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:FIN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad (granica lądowa), kraj nordycki; czlonek NATO od 2023; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "kraj nordycki, wspolna historia i NATO; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "kraj nordycki, wspolna historia i NATO; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "kraj nordycki, wspolna historia i NATO; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "kraj nordycki, wspolna historia i NATO; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj nordycki, wspolna historia i NATO; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "kraj nordycki, wspolna historia i NATO; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "kraj nordycki, wspolna historia i NATO; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "kraj nordycki, czlonek NATO, bliskie wiezi; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "kraj nordycki, czlonek NATO, bliskie wiezi; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj nordycki, czlonek NATO, bliskie wiezi; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "kraj nordycki, czlonek NATO, bliskie wiezi; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj nordycki, czlonek NATO, bliskie wiezi; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "kraj nordycki, czlonek NATO, bliskie wiezi; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:ISL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj nordycki, czlonek NATO, bliskie wiezi; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; stosunki dyplomatyczne NOR->X; wspolpraca w Barentsie, dobre stosunki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; stosunki dyplomatyczne NOR->X; aneksja Krymu 2014: zawieszenie wspolpracy wojskowej, ochlodzenie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; stosunki dyplomatyczne NOR->X; pelnoskalowa inwazja na Ukraine 2022: sankcje, zamkniecie granicy dla turystow (2024)",
+   "sources": [
+    "https://www.arctictoday.com/norway-strengthens-border-security-along-russian-border/",
+    "https://www.rferl.org/a/norway-closes-borders-russia-sanctions/31827484.html"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; opinia spoleczna w NOR o X; obojetnosc z lekka nieufnoscia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; opinia spoleczna w NOR o X; obawy po 2014"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; opinia spoleczna w NOR o X; silna niechec po 2022 r."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:RUS",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; postrzegana zaleznosc NOR od X; wzrost poczucia zagrozenia po 2022",
+   "sources": [
+    "https://www.arctictoday.com/norway-strengthens-border-security-along-russian-border/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; realna zaleznosc polityczno-wojskowa NOR od X; ograniczenia polityki bezpieczenstwa w Finnmarku (polityka niskiego profilu)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:RUS",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:RUS",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad na polnocnym wschodzie (jedyna granica lądowa z Rosja), Barents, NATO; zaleznosc gospodarcza NOR od X (handel, energia); sankcje ograniczyly handel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:USA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:USA",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; stosunki dyplomatyczne NOR->X; napiecia 2025 (cla, dyskusja o Grenlandii), sojusz pozostaje; szacunek, bez zrodla"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:USA",
+   "years": "2017-2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; opinia spoleczna w NOR o X; spadek sympatii w okresie administracji Trumpa"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:USA",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; opinia spoleczna w NOR o X; szacunek: wyrazny spadek zaufania w 2025 (brak sondazu za 2025, ocena orientacyjna)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:USA",
+   "years": "2017-2024",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; postrzegana zaleznosc NOR od X; niepewnosc wobec polityki USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:USA",
+   "years": "2025-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; postrzegana zaleznosc NOR od X; szacunek: niepewnosc gwarancji NATO w 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:USA",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:USA",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; realna zaleznosc polityczno-wojskowa NOR od X; zaleznosc od USA w bezpieczenstwie (wojsko, F-35, wsparcie)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "glowny sojusznik NATO i gwarant bezpieczenstwa NOR; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "sojusznik NATO, wspolna Arktyka; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "sojusznik NATO, wspolna Arktyka; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "sojusznik NATO, wspolna Arktyka; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "sojusznik NATO, wspolna Arktyka; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sojusznik NATO, wspolna Arktyka; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sojusznik NATO, wspolna Arktyka; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sojusznik NATO, wspolna Arktyka; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "NATO, wazny partner naftowy i gazowy; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "NATO, wazny partner naftowy i gazowy; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NATO, wazny partner naftowy i gazowy; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NATO, wazny partner naftowy i gazowy; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO, wazny partner naftowy i gazowy; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO, wazny partner naftowy i gazowy; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "NATO, wazny partner naftowy i gazowy; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "najwazniejszy partner handlowy NOR w UE, NATO; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "najwazniejszy partner handlowy NOR w UE, NATO; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "najwazniejszy partner handlowy NOR w UE, NATO; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "najwazniejszy partner handlowy NOR w UE, NATO; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "najwazniejszy partner handlowy NOR w UE, NATO; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "najwazniejszy partner handlowy NOR w UE, NATO; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "najwazniejszy partner handlowy NOR w UE, NATO; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "NATO i UE, partner; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "NATO i UE, partner; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO i UE, partner; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO i UE, partner; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NATO i UE, partner; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO i UE, partner; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO i UE, partner; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "UE i NATO, port Rotterdam, handel i gaz; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "UE i NATO, port Rotterdam, handel i gaz; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, port Rotterdam, handel i gaz; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "UE i NATO, port Rotterdam, handel i gaz; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, port Rotterdam, handel i gaz; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, port Rotterdam, handel i gaz; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "UE i NATO, port Rotterdam, handel i gaz; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "UE i NATO, mniejszy partner; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "UE i NATO, mniejszy partner; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, mniejszy partner; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "UE i NATO, mniejszy partner; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, mniejszy partner; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, mniejszy partner; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:BEL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, mniejszy partner; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, slabe bezposrednie powiazania; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "UE i NATO, partner (ok. 1/5 populacji imigrantow w NOR z Polski w 2020s); stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "UE i NATO, partner (ok. 1/5 populacji imigrantow w NOR z Polski w 2020s); opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, partner (ok. 1/5 populacji imigrantow w NOR z Polski w 2020s); postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "UE i NATO, partner (ok. 1/5 populacji imigrantow w NOR z Polski w 2020s); postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, partner (ok. 1/5 populacji imigrantow w NOR z Polski w 2020s); realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UE i NATO, partner (ok. 1/5 populacji imigrantow w NOR z Polski w 2020s); realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UE i NATO, partner (ok. 1/5 populacji imigrantow w NOR z Polski w 2020s); zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "NATO na wschodniej flance, Baltyk; panstwo od 1991; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; stosunki dyplomatyczne NOR->X; potepienie aneksji Krymu, pomoc"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; stosunki dyplomatyczne NOR->X; silne wsparcie po 2022 r."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; opinia spoleczna w NOR o X; wspolczucie po 2022 r."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; realny wplyw NOR na X; wieksze wsparcie finansowe i wojskowe"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "wojna z Rosja od 2014, pelnoskalowa od 2022; NOR wspiera Ukraine; panstwo od 1991; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:CHN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:CHN",
+   "years": "2010-2016",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; stosunki dyplomatyczne NOR->X; zamrozenie stosunkow po Nagrodzie Nobla dla Liu Xiaobo (2010)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:CHN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; stosunki dyplomatyczne NOR->X; normalizacja relacji od 2016"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:CHN",
+   "years": "2010-2016",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; opinia spoleczna w NOR o X; spor 2010 r."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:CHN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:CHN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:CHN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:CHN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:CHN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "wazny partner handlowy; spor po Nagrodzie Nobla 2010; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:ISR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:ISR",
+   "years": "2014-2023",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; stosunki dyplomatyczne NOR->X; krytyka polityki osadniczej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; stosunki dyplomatyczne NOR->X; uznanie Palestyny (maj 2024), wycofanie ambasadorow przez Izrael",
+   "sources": [
+    "https://www.regjeringen.no/en/whats-new/norway-recognises-palestine-as-a-state/id3040194/",
+    "https://www.thenationalnews.com/news/europe/2024/05/22/norway-recognises-palestine/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:ISR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:ISR",
+   "years": "2014-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; opinia spoleczna w NOR o X; opinia publiczna krytyczna wobec wojny w Gazie",
+   "sources": [
+    "https://www.regjeringen.no/en/whats-new/norway-recognises-palestine-as-a-state/id3040194/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:ISR",
+   "years": "1990-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:ISR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Bliski Wschod; uznanie Palestyny 2024; zaleznosc gospodarcza NOR od X (handel, energia)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "NOR:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "NATO, slabe relacje; stosunki dyplomatyczne NOR->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "NOR:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO, slabe relacje; opinia spoleczna w NOR o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "NOR:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO, slabe relacje; postrzegana zaleznosc NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "NOR:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO, slabe relacje; postrzegany wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "NOR:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NATO, slabe relacje; realna zaleznosc polityczno-wojskowa NOR od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "NOR:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NATO, slabe relacje; realny wplyw NOR na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "NOR:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NATO, slabe relacje; zaleznosc gospodarcza NOR od X (handel, energia)"
+  }
+ ]
+}

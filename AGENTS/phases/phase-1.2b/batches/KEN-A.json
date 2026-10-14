@@ -1,0 +1,64 @@
+{
+  "rationale": "KEN, zadanie A (statystyki państwa), tryb oszczędny. Stabilność: kryzysy 1992/1997, 2002 transfer władzy, 2005 referendum, 2007-08 kryzys wyborczy, 2017 anulowanie wyborów, 2024 kryzys ustawy finansowej i impeachment wicepremiera. Korupcja 1990-95 i 2023-25 jako ciągłość z WGI. Szczęśliwość przed 2011 to estymacja (brak Cantril). Poparcie rządu 2023-25 wg sondaży Infotrak/Politrack/TIFA. Zamieszki: 1992, 2007-08, 2017, 2024, 2025 (protesty, Saba Saba 2025). Epidemia: 2020-21.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "1990-1991", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "1992-1997", "curve": "linear", "start": 52, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "1998-2002", "curve": "linear", "start": 56, "end": 65},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2003-2004", "curve": "linear", "start": 70, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2005-2007", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2008-2008", "curve": "constant", "start": 38},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2009-2010", "curve": "linear", "start": 45, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2011-2016", "curve": "linear", "start": 58, "end": 56},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2017-2017", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2018-2019", "curve": "linear", "start": 52, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2020-2022", "curve": "linear", "start": 58, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "KEN", "years": "2023-2025", "curve": "manual", "values": [52, 45, 47]},
+
+    {"kind": "grade", "name": "corruption", "targets": "KEN", "years": "1990-1995", "curve": "manual", "values": [72, 73, 74, 75, 74.5, 73.6], "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "KEN", "years": "2023-2025", "curve": "manual", "values": [64.8, 64.2, 63.7], "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "KEN", "years": "1990-2010", "curve": "manual",
+     "values": [42, 40, 38, 37, 38, 40, 39, 38, 36, 35, 36, 37, 39, 41, 42, 42, 42, 40, 36, 39, 41], "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "KEN", "years": "1990-1995", "curve": "manual", "values": [55, 60, 66, 65, 63, 62], "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "KEN", "years": "2023-2025", "curve": "manual", "values": [70, 72.5, 72], "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "KEN", "years": "1990-1999", "curve": "linear", "start": 5, "end": 4},
+    {"kind": "grade", "name": "social revanchism", "targets": "KEN", "years": "2000-2025", "curve": "constant", "start": 4},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "KEN", "years": "1990-2010", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "KEN", "years": "2011-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "1990-1991", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "1992-1997", "curve": "linear", "start": 38, "end": 33},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "1998-2001", "curve": "linear", "start": 30, "end": 28},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2002-2002", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2003-2004", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2005-2008", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2009-2010", "curve": "linear", "start": 42, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2011-2016", "curve": "linear", "start": 48, "end": 33},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2017-2019", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2020-2022", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "KEN", "years": "2023-2025", "curve": "manual", "values": [40, 32, 31]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "KEN", "years": "1990-1995", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KEN", "years": "1996-2010", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KEN", "years": "2011-2016", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KEN", "years": "2017-2022", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KEN", "years": "2023-2025", "curve": "manual", "values": [74, 80, 78]},
+
+    {"kind": "grade", "name": "civilization level", "targets": "KEN", "years": "2024-2025", "curve": "linear", "start": 63.2, "end": 63.6, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "KEN", "years": "1990-2010", "curve": "constant", "start": 48},
+    {"kind": "grade", "name": "assimilation", "targets": "KEN", "years": "2011-2013", "curve": "linear", "start": 48, "end": 42},
+    {"kind": "grade", "name": "assimilation", "targets": "KEN", "years": "2014-2025", "curve": "constant", "start": 42},
+
+    {"kind": "grade", "name": "riots", "targets": "KEN", "years": "1992-1992", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "KEN", "years": "2007-2008", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "KEN", "years": "2017-2017", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "KEN", "years": "2024-2024", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "KEN", "years": "2025-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "KEN", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

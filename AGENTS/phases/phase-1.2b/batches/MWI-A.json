@@ -1,0 +1,58 @@
+{
+  "rationale": "MWI, zadanie A (tryb oszczedny): okresy wg historii Malawi (Banda -> wielopartyjnosc 1994, Muluzi 1994-2004, Mutharika 2004 i 2009, kryzys 2011, Banda 2012, Chakwera 2020, zmiana wladzy 2025 bez przemocy, kryzys walutowy i paliwowy 2023-24, afera NEEF/ACB); luki w istniejacych seriach uzupelnione plynnie (only_empty, start current); flagi riots 2011 (protesty z ofiarami) i epidemic 2020 (COVID, jak w kotwicach)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "1990-1993", "curve": "linear", "start": 55, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "1994-1995", "curve": "linear", "start": 50, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "1996-2000", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2001-2004", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2005-2007", "curve": "linear", "start": 52, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2008-2010", "curve": "constant", "start": 58},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2011", "curve": "constant", "start": 48},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2012-2014", "curve": "linear", "start": 52, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2015-2018", "curve": "linear", "start": 58, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2019", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2020", "curve": "constant", "start": 42},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2021-2024", "curve": "linear", "start": 46, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "MWI", "years": "2025", "curve": "constant", "start": 58},
+
+    {"kind": "grade", "name": "corruption", "targets": "MWI", "years": "1990-1995", "curve": "linear", "start": 60, "end": 56.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MWI", "years": "2022-2025", "curve": "linear", "start": "current", "end": 64, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MWI", "years": "1990-1995", "curve": "linear", "start": 42, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MWI", "years": "1996-2005", "curve": "linear", "start": 40, "end": 43, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MWI", "years": "2006-2010", "curve": "linear", "start": 43, "end": 46, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MWI", "years": "1990-1995", "curve": "linear", "start": 48, "end": 58.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MWI", "years": "2022-2025", "curve": "linear", "start": "current", "end": 53.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MWI", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MWI", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "1990-1993", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "1994-1999", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2000-2003", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2004", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2005-2008", "curve": "linear", "start": 50, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2009-2010", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2011", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2012-2014", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2015-2019", "curve": "linear", "start": 45, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2020", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2021-2023", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "MWI", "years": "2024-2025", "curve": "linear", "start": 30, "end": 25},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MWI", "years": "1990-1995", "curve": "linear", "start": 68, "end": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MWI", "years": "1996-2010", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MWI", "years": "2011-2019", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MWI", "years": "2020-2025", "curve": "linear", "start": 62, "end": 68},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MWI", "years": "2023-2025", "curve": "linear", "start": "current", "end": 52.5, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MWI", "years": "1990-2009", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "MWI", "years": "2010-2025", "curve": "linear", "start": 55, "end": 52},
+
+    {"kind": "grade", "name": "riots", "targets": "MWI", "years": "2011", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "MWI", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

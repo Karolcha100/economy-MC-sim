@@ -1,0 +1,54 @@
+{
+  "rationale": "GMB, zadanie A (tryb oszczedny): stabilnosc wg wydarzen (zamach 1994, kryzys wyborczy 2016, przejecie wladzy przez Barrowa 2017), wskazniki uzupelnione 1990-1995 i 2023-2025, happiness 1990-2017 szacunkowo (brak WHR przed 2018), epidemia 2020-2021",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "GMB", "years": "1990-1993", "curve": "constant", "start": 72},
+    {"kind": "grade", "name": "stability", "targets": "GMB", "years": "1994-1995", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "GMB", "years": "1996-2006", "curve": "linear", "start": 50, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "GMB", "years": "2007-2015", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "GMB", "years": "2016", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "GMB", "years": "2017-2019", "curve": "linear", "start": 40, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "GMB", "years": "2020-2025", "curve": "linear", "start": 62, "end": 70},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "GMB", "years": "1990-1999", "curve": "constant", "start": 3},
+    {"kind": "grade", "name": "social revanchism", "targets": "GMB", "years": "2000-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "GMB", "years": "1990-2016", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "GMB", "years": "2017-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "1990-1993", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "1994-1996", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "1997-2006", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "2007-2011", "curve": "linear", "start": 58, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "2012-2015", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "2016", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "2017-2019", "curve": "linear", "start": 62, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "2020-2023", "curve": "linear", "start": 52, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "GMB", "years": "2024-2025", "curve": "linear", "start": 44, "end": 42},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "GMB", "years": "1990-1999", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GMB", "years": "2000-2016", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GMB", "years": "2017-2021", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GMB", "years": "2022-2023", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GMB", "years": "2024-2025", "curve": "linear", "start": 64, "end": 62},
+
+    {"kind": "grade", "name": "assimilation", "targets": "GMB", "years": "1990-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "corruption", "targets": "GMB", "years": "1990-1995", "curve": "linear", "start": 50, "end": 57, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "GMB", "years": "2023-2025", "curve": "linear", "start": 55.5, "end": 53, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "GMB", "years": "1990-1993", "curve": "constant", "start": 34, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "GMB", "years": "1994-1995", "curve": "linear", "start": 37, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "GMB", "years": "2023-2025", "curve": "linear", "start": 49, "end": 48, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "GMB", "years": "2024-2025", "curve": "linear", "start": 52.8, "end": 53.2, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "GMB", "years": "1990-1993", "curve": "constant", "start": 44, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "GMB", "years": "1994-1996", "curve": "linear", "start": 44, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "GMB", "years": "1997-2008", "curve": "linear", "start": 40, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "GMB", "years": "2009-2015", "curve": "constant", "start": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "GMB", "years": "2016", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "GMB", "years": "2017", "curve": "constant", "start": 43, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "GMB", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

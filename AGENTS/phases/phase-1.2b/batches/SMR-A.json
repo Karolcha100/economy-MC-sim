@@ -1,0 +1,53 @@
+{
+  "rationale": "SMR, zadanie A, tryb oszczędny: brak WHR, więc happiness szacowane względem Włoch (ITA), Andory i Monako; stabilność wg kryzysów rządowych (2016 wyjście AP, 2023 wyjście RETE, marzec 2024 kryzys i przedterminowe wybory); epidemia 2020-2021 (wczesna fala COVID); popularność rządu i nastroje szacunkowo (brak sondaży); reszta z wiedzy o historii, bez źródeł",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SMR", "years": "1990-1993", "curve": "linear", "start": 74, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SMR", "years": "1994-2005", "curve": "linear", "start": 72, "end": 74, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SMR", "years": "2006-2009", "curve": "linear", "start": 74, "end": 66, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SMR", "years": "2010-2016", "curve": "linear", "start": 66, "end": 58, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SMR", "years": "2017-2019", "curve": "linear", "start": 58, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SMR", "years": "2020-2022", "curve": "linear", "start": 60, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "SMR", "years": "2023-2025", "curve": "manual", "values": [58, 53, 60], "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SMR", "years": "1990-2002", "curve": "linear", "start": 27.5, "end": 26.6, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "SMR", "years": "2023-2025", "curve": "linear", "start": 25.9, "end": 25.6, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "SMR", "years": "1990-1999", "curve": "linear", "start": 28, "end": 27, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SMR", "years": "2000-2014", "curve": "linear", "start": 27, "end": 26.9, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SMR", "years": "2023-2025", "curve": "linear", "start": 24.6, "end": 24.4, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "SMR", "years": "1990-1999", "curve": "linear", "start": 68, "end": 67, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SMR", "years": "2000-2010", "curve": "linear", "start": 67, "end": 69, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SMR", "years": "2011-2013", "curve": "linear", "start": 69, "end": 63, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SMR", "years": "2014-2016", "curve": "linear", "start": 63, "end": 64, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SMR", "years": "2017-2019", "curve": "linear", "start": 64, "end": 67, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SMR", "years": "2020-2021", "curve": "linear", "start": 65, "end": 63, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SMR", "years": "2022-2025", "curve": "linear", "start": 63, "end": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SMR", "years": "1990-2025", "curve": "constant", "start": 1, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "SMR", "years": "1990-2025", "curve": "constant", "start": 0, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SMR", "years": "1990-1999", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SMR", "years": "2000-2009", "curve": "linear", "start": 45, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SMR", "years": "2010-2016", "curve": "linear", "start": 35, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SMR", "years": "2017-2019", "curve": "linear", "start": 30, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SMR", "years": "2020-2021", "curve": "linear", "start": 40, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "SMR", "years": "2022-2025", "curve": "linear", "start": 45, "end": 38, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SMR", "years": "1990-2008", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SMR", "years": "2009-2014", "curve": "linear", "start": 50, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SMR", "years": "2015-2019", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SMR", "years": "2020-2021", "curve": "constant", "start": 58, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SMR", "years": "2022-2025", "curve": "linear", "start": 56, "end": 52, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SMR", "years": "1990-1999", "curve": "linear", "start": 85.5, "end": 88.0, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "SMR", "years": "2024-2025", "curve": "linear", "start": 91.7, "end": 92.0, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SMR", "years": "1990-2004", "curve": "constant", "start": 63, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "SMR", "years": "2005-2014", "curve": "linear", "start": 63, "end": 61, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "SMR", "years": "2015-2025", "curve": "linear", "start": 61, "end": 59, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SMR", "years": "2020-2021", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

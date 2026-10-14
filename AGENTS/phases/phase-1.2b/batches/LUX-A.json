@@ -1,0 +1,50 @@
+{
+  "rationale": "LUX, zadanie A (statystyki państwa), tryb oszczędny. Stabilność: stabilny parlament, długie formowanie rządu 2013-2014 i 2023. Pandemia 2020-2021 (epidemia). Popularność rządu, nastroje i rewanżyzm: estymacja bez sondaży (niska pewność). Wysoki udział imigrantów (ok. 30% w 1990, ok. 47% w 2020) obniża asymilację. Uzupełniono brakujące lata przy wskaźnikach startowych (korupcja 1990-1995 i 2023-2025, przemoc 1990-1995 i 2023-2025, szczęście 1990-2010, cywilizacja 2024-2025); istniejących wartości nie zmieniano.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "1990-1994", "curve": "linear", "start": 90, "end": 89},
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "1995-1999", "curve": "constant", "start": 87},
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "2000-2012", "curve": "constant", "start": 89},
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "2013-2014", "curve": "constant", "start": 86},
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "2015-2019", "curve": "constant", "start": 88},
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "2020-2021", "curve": "constant", "start": 87},
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "2022-2023", "curve": "constant", "start": 85},
+    {"kind": "grade", "name": "stability", "targets": "LUX", "years": "2024-2025", "curve": "constant", "start": 86},
+
+    {"kind": "grade", "name": "corruption", "targets": "LUX", "years": "1990-1995", "curve": "linear", "start": 12.5, "end": 11.2, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "LUX", "years": "2023-2025", "curve": "linear", "start": 12.3, "end": 12.0, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "LUX", "years": "1990-1995", "curve": "linear", "start": 23.2, "end": 22.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "LUX", "years": "2023-2025", "curve": "linear", "start": 28.5, "end": 28.0, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "LUX", "years": "1990-1999", "curve": "linear", "start": 72, "end": 71, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "LUX", "years": "2000-2010", "curve": "linear", "start": 71, "end": 70.6, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "LUX", "years": "2024-2025", "curve": "linear", "start": 92.3, "end": 92.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "LUX", "years": "1990-1999", "curve": "linear", "start": 3, "end": 2},
+    {"kind": "grade", "name": "social revanchism", "targets": "LUX", "years": "2000-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "LUX", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "LUX", "years": "1990-1999", "curve": "constant", "start": 48},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LUX", "years": "2000-2014", "curve": "constant", "start": 46},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LUX", "years": "2015-2019", "curve": "linear", "start": 46, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LUX", "years": "2020-2021", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LUX", "years": "2022-2025", "curve": "linear", "start": 52, "end": 55},
+
+    {"kind": "grade", "name": "government popularity", "targets": "LUX", "years": "1990-1994", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "LUX", "years": "1995-1999", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "LUX", "years": "2000-2004", "curve": "linear", "start": 60, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "LUX", "years": "2005-2012", "curve": "linear", "start": 58, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "LUX", "years": "2013-2017", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "LUX", "years": "2018-2022", "curve": "constant", "start": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "LUX", "years": "2023-2025", "curve": "linear", "start": 50, "end": 45},
+
+    {"kind": "grade", "name": "assimilation", "targets": "LUX", "years": "1990-2009", "curve": "linear", "start": 68, "end": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "LUX", "years": "2010-2014", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "LUX", "years": "2015-2019", "curve": "constant", "start": 58},
+    {"kind": "grade", "name": "assimilation", "targets": "LUX", "years": "2020-2025", "curve": "constant", "start": 57},
+
+    {"kind": "grade", "name": "epidemic", "targets": "LUX", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

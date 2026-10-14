@@ -1,0 +1,59 @@
+{
+  "rationale": "MNG, zadanie A: transformacja 1990-1995 (demokratyczna rewolucja, kryzys gospodarczy), niestabilnosc rzadow 1996-2000 i 2004, stabilna wiekszosc MPP 2017-2022, kryzys rzadowy 2025 (odwolanie premiera w czerwcu, proba w pazdzierniku); protesty antykorupcyjne 2022-2023 i 2025; inflacja 2023-2024; epidemia COVID 2020-2021",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "1990-1991", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "1992-1995", "curve": "linear", "start": 50, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "1996-1999", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2000-2004", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2005-2008", "curve": "linear", "start": 45, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2009-2012", "curve": "linear", "start": 55, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2013-2016", "curve": "linear", "start": 52, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2017-2020", "curve": "linear", "start": 45, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2021-2022", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2023", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2024", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "MNG", "years": "2025", "curve": "linear", "start": 60, "end": 40},
+
+    {"kind": "grade", "name": "corruption", "targets": "MNG", "years": "1990-1995", "curve": "linear", "start": 42, "end": 47.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MNG", "years": "2023-2025", "curve": "linear", "start": 61.2, "end": 63, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MNG", "years": "1990-1993", "curve": "linear", "start": 52, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MNG", "years": "1994-2000", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MNG", "years": "2001-2010", "curve": "linear", "start": 41, "end": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MNG", "years": "1990-2010", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "social revanchism", "targets": "MNG", "years": "2011-2025", "curve": "linear", "start": 5, "end": 6},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MNG", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "1990-1991", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "1992-1995", "curve": "linear", "start": 45, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "1996-1999", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2000-2004", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2005-2008", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2009-2012", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2013-2016", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2017-2020", "curve": "linear", "start": 30, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2021-2022", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2023", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2024", "curve": "linear", "start": 30, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MNG", "years": "2025", "curve": "linear", "start": 45, "end": 25},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNG", "years": "1990-1994", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNG", "years": "1995-2000", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNG", "years": "2001-2008", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNG", "years": "2009-2022", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MNG", "years": "2023-2025", "curve": "linear", "start": 55, "end": 62},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MNG", "years": "2024-2025", "curve": "linear", "start": 74.8, "end": 75.2, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MNG", "years": "1990-2000", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "MNG", "years": "2001-2015", "curve": "constant", "start": 67},
+    {"kind": "grade", "name": "assimilation", "targets": "MNG", "years": "2016-2025", "curve": "constant", "start": 64},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MNG", "years": "1990-1995", "curve": "linear", "start": 22, "end": 33, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MNG", "years": "2023-2025", "curve": "linear", "start": 39.3, "end": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MNG", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

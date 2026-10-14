@@ -1,0 +1,45 @@
+{
+  "rationale": "UZB, zadanie A (statystyki państwa), tryb oszczędny: autorytarny system Karimowa (1991-2016) bez kryzysów rządowych, sukcesja 2016 i reformy Mirziyoyeva; estymacje tam, gdzie brak sondaży; flagi zamieszek 2005 (Andijan) i 2022 (Karakałpakstan), epidemia 2020-2021",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "UZB", "years": "1991-1995", "curve": "linear", "start": 55, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "UZB", "years": "1996-2004", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "stability", "targets": "UZB", "years": "2005-2015", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "stability", "targets": "UZB", "years": "2016-2016", "curve": "constant", "start": 64},
+    {"kind": "grade", "name": "stability", "targets": "UZB", "years": "2017-2021", "curve": "linear", "start": 66, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "UZB", "years": "2022-2022", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "UZB", "years": "2023-2025", "curve": "constant", "start": 66},
+
+    {"kind": "grade", "name": "corruption", "targets": "UZB", "years": "1991-1995", "curve": "linear", "start": 70, "end": 72.5},
+    {"kind": "grade", "name": "corruption", "targets": "UZB", "years": "2023-2025", "curve": "linear", "start": 64.5, "end": 62.5},
+
+    {"kind": "grade", "name": "violence risk", "targets": "UZB", "years": "1991-1995", "curve": "linear", "start": 45, "end": 59.5},
+    {"kind": "grade", "name": "violence risk", "targets": "UZB", "years": "2023-2025", "curve": "linear", "start": 53.5, "end": 53},
+
+    {"kind": "grade", "name": "happiness", "targets": "UZB", "years": "1991-1995", "curve": "linear", "start": 50, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "UZB", "years": "1996-2004", "curve": "linear", "start": 42, "end": 44},
+    {"kind": "grade", "name": "happiness", "targets": "UZB", "years": "2005-2010", "curve": "linear", "start": 46, "end": 50},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "UZB", "years": "1991-1995", "curve": "constant", "start": 6},
+    {"kind": "grade", "name": "social revanchism", "targets": "UZB", "years": "1996-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "UZB", "years": "1991-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government popularity", "targets": "UZB", "years": "1991-1995", "curve": "linear", "start": 75, "end": 68},
+    {"kind": "grade", "name": "government popularity", "targets": "UZB", "years": "1996-2016", "curve": "linear", "start": 66, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "UZB", "years": "2017-2025", "curve": "linear", "start": 64, "end": 72},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "UZB", "years": "1991-2000", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "UZB", "years": "2001-2016", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "UZB", "years": "2017-2025", "curve": "linear", "start": 52, "end": 56},
+
+    {"kind": "grade", "name": "civilization level", "targets": "UZB", "years": "1991-1999", "curve": "linear", "start": 59, "end": 60},
+    {"kind": "grade", "name": "civilization level", "targets": "UZB", "years": "2024-2025", "curve": "linear", "start": 74.5, "end": 75},
+
+    {"kind": "grade", "name": "assimilation", "targets": "UZB", "years": "1991-2000", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "UZB", "years": "2001-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "riots", "targets": "UZB", "years": "2005-2005", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "UZB", "years": "2022-2022", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "UZB", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

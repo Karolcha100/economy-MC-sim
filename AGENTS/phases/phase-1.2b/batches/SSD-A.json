@@ -1,0 +1,54 @@
+{
+  "rationale": "SSD, zadanie A, tryb oszczędny. Stabilność: niepodległość 2011, kryzys 2013 (wojna domowa), porozumienia 2015 i 2018, zerwanie władzy 2025 (aresztowanie Machara). Poparcie rządu szacunkowe (brak sondaży). Wojna i zmęczenie wojną: 2013-2018 i ponownie 2025. Epidemia: cholera 2016-2017 i COVID 2020. Szczęśliwość 2011-2014 i 2020-2025 estymacja zgodna z trendem. Korupcja, przemoc i cywilizacja 2023-2025 jako ciągłość z obecnymi wartościami.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2011-2012", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2013-2014", "curve": "linear", "start": 30, "end": 15},
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2015-2016", "curve": "linear", "start": 20, "end": 12},
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2017-2018", "curve": "linear", "start": 12, "end": 18},
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2019-2020", "curve": "linear", "start": 20, "end": 28},
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2021-2022", "curve": "linear", "start": 28, "end": 25},
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2023-2024", "curve": "linear", "start": 25, "end": 22},
+    {"kind": "grade", "name": "stability", "targets": "SSD", "years": "2025-2025", "curve": "constant", "start": 12},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SSD", "years": "2011-2012", "curve": "linear", "start": 70, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "SSD", "years": "2013-2014", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SSD", "years": "2015-2017", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "SSD", "years": "2018-2019", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "SSD", "years": "2020-2022", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SSD", "years": "2023-2024", "curve": "linear", "start": 33, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SSD", "years": "2025-2025", "curve": "constant", "start": 25},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SSD", "years": "2011-2025", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "government revanchism", "targets": "SSD", "years": "2011-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SSD", "years": "2011-2012", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SSD", "years": "2013-2016", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SSD", "years": "2017-2022", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SSD", "years": "2023-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SSD", "years": "2011-2012", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "assimilation", "targets": "SSD", "years": "2013-2016", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "assimilation", "targets": "SSD", "years": "2017-2025", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "SSD", "years": "2013-2014", "curve": "linear", "start": 30, "end": 45},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SSD", "years": "2015-2017", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SSD", "years": "2018-2019", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SSD", "years": "2020-2022", "curve": "linear", "start": 33, "end": 25},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SSD", "years": "2023-2024", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SSD", "years": "2025-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "happiness", "targets": "SSD", "years": "2011-2014", "curve": "linear", "start": 45, "end": 39, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SSD", "years": "2020-2022", "curve": "constant", "start": 28, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SSD", "years": "2023-2025", "curve": "linear", "start": 27, "end": 24, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "SSD", "years": "2023-2025", "curve": "linear", "start": 87.5, "end": 88.5, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SSD", "years": "2023-2024", "curve": "linear", "start": 93, "end": 95, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "SSD", "years": "2025-2025", "curve": "constant", "start": 97, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SSD", "years": "2024-2025", "curve": "linear", "start": 38.8, "end": 38.5, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SSD", "years": "2016-2017", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "SSD", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

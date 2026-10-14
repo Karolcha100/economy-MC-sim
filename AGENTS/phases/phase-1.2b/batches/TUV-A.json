@@ -1,0 +1,36 @@
+{
+  "rationale": "TUV (Tuvalu), zadanie A (statystyki państwa), tryb oszczędny. Happiness: brak danych WHR dla TUV, cała seria oszacowana przez porównanie z małymi państwami wyspiarskimi Pacyfiku o niskim dochodzie (Samoa, Tonga, Vanuatu, Kiribati): ok. 52-59, spadek w 2020-2021 (zamknięte granice, załamanie przyjazdów i przekazów). Stabilność: parlamentarna demokracja bez partii, premier wybierany przez parlament; częste zmiany premiera (wotum nieufności) w latach 90., ale ciągłość instytucji i pokojowe zmiany władzy. Popularność rządu: estymacja neutralna (brak sondaży). Korupcja 1990-2003 łagodnie od 30 do wartości z 2004; 2022-2025 łagodnie w dół od wartości z 2022. Przemoc 1990-2002 na poziomie zgodnym z ziarnem z 2003 (WGI); 2022-2025 bez zmian względem 2022. Cywilizacja 2023-2025 wg trendu HDI. Flagi: epidemia 2020-2021 (COVID, zamknięte granice). Rewanżyzm społeczny i rządowy: brak roszczeń terytorialnych, wartości niskie i stałe. Asymilacja wysoka: jednolite społeczeństwo, mała liczba imigrantów. Wrażliwość społeczna: umiarkowana, wyższa w 2022-2025 (ceny paliwa i żywności).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "TUV", "years": "1990-1999", "curve": "linear", "start": 62, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "TUV", "years": "2000-2009", "curve": "linear", "start": 58, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "TUV", "years": "2010-2019", "curve": "linear", "start": 66, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "TUV", "years": "2020-2025", "curve": "linear", "start": 70, "end": 72},
+
+    {"kind": "grade", "name": "corruption", "targets": "TUV", "years": "1990-2003", "curve": "linear", "start": 30, "end": 33.9, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "TUV", "years": "2022-2025", "curve": "linear", "start": "current", "end": 36.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "TUV", "years": "1990-1999", "curve": "linear", "start": 52, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "TUV", "years": "2000-2009", "curve": "linear", "start": 56, "end": 58},
+    {"kind": "grade", "name": "happiness", "targets": "TUV", "years": "2010-2019", "curve": "linear", "start": 58, "end": 59},
+    {"kind": "grade", "name": "happiness", "targets": "TUV", "years": "2020-2021", "curve": "constant", "start": 57},
+    {"kind": "grade", "name": "happiness", "targets": "TUV", "years": "2022-2025", "curve": "linear", "start": 58, "end": 59},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "TUV", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "TUV", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "TUV", "years": "1990-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "TUV", "years": "1990-2021", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TUV", "years": "2022-2025", "curve": "constant", "start": 58},
+
+    {"kind": "grade", "name": "civilization level", "targets": "TUV", "years": "2023-2025", "curve": "linear", "start": "current", "end": 69.6, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "TUV", "years": "1990-2025", "curve": "constant", "start": 75},
+
+    {"kind": "grade", "name": "violence risk", "targets": "TUV", "years": "1990-2002", "curve": "constant", "start": 26.6, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "TUV", "years": "2022-2025", "curve": "constant", "start": "current", "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "TUV", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "rationale": "SYC, zadanie A, tryb oszczędny. Stabilność: jednopartyjne rządy SPPF do 1992 (René), przejście do wielopartyjności 1993 (pokojowo), stabilne rządy Michela 2004-2016, pokojowe zmiany władzy 2016 i 2020 (2020: pierwsza zmiana na opozycję), napięcia w gabinecie 2021-2023 (Ramkalawan/Afif), pokojowa zmiana po wyborach 2025 (Herminie, 52,7%, inauguracja 26.10.2025). Szczęście: brak danych WHR/Gallup dla SYC, cała seria szacunkowa wg MUS (54-60) i podobnych państw wysokiego HDI, spadek w 2020-2021 (COVID, turystyka). Korupcja, przemoc, cywilizacja: istniejące wartości nietknięte (only_empty), uzupełnione 1990-1995 i 2023-2025 (łączenie z 1996 i 2022). Rewanżyzm: brak aktywnych roszczeń terytorialnych SYC, wartości niskie. Popularność rządu: estymacja (brak sondaży), dołek 2021-2025. Wrażliwość i asymilacja: estymacja (mała gospodarka turystyczna, duży napływ pracowników zagranicznych po 2010). Flagi: epidemic 2020-2021 (COVID, jak w anchors i MUS). Brak riots/mobilized.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "1990-1992", "curve": "linear", "start": 65, "end": 63},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "1993-1998", "curve": "linear", "start": 66, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "1999-2003", "curve": "constant", "start": 72},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "2004-2010", "curve": "linear", "start": 74, "end": 78},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "2011-2015", "curve": "linear", "start": 78, "end": 75},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "2016-2019", "curve": "linear", "start": 78, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "2020-2021", "curve": "linear", "start": 78, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "2022-2023", "curve": "constant", "start": 72},
+    {"kind": "grade", "name": "stability", "targets": "SYC", "years": "2024-2025", "curve": "constant", "start": 74},
+
+    {"kind": "grade", "name": "corruption", "targets": "SYC", "years": "1990-1995", "curve": "linear", "start": 41, "end": 39.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SYC", "years": "2023-2025", "curve": "constant", "start": 16, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "1990-1993", "curve": "linear", "start": 50, "end": 48},
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "1994-1999", "curve": "linear", "start": 48, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "2000-2004", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "2005-2010", "curve": "linear", "start": 58, "end": 62},
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "2011-2014", "curve": "constant", "start": 61},
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "2015-2019", "curve": "linear", "start": 61, "end": 64},
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "2020-2021", "curve": "linear", "start": 64, "end": 60},
+    {"kind": "grade", "name": "happiness", "targets": "SYC", "years": "2022-2025", "curve": "linear", "start": 60, "end": 63},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SYC", "years": "1990-1995", "curve": "linear", "start": 30, "end": 29.2, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "SYC", "years": "2023-2025", "curve": "constant", "start": 34.9, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SYC", "years": "1990-1995", "curve": "linear", "start": 68, "end": 70.5, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "SYC", "years": "1996-2009", "curve": "linear", "start": 71, "end": 75.5, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "SYC", "years": "2024-2025", "curve": "linear", "start": 85.0, "end": 85.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SYC", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "SYC", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SYC", "years": "1990-1992", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "SYC", "years": "1993-1998", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "SYC", "years": "1999-2010", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "SYC", "years": "2011-2015", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "SYC", "years": "2016-2020", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SYC", "years": "2021-2023", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "SYC", "years": "2024-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SYC", "years": "1990-2019", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SYC", "years": "2020-2021", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SYC", "years": "2022-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SYC", "years": "1990-2009", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "assimilation", "targets": "SYC", "years": "2010-2025", "curve": "linear", "start": 72, "end": 62},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SYC", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

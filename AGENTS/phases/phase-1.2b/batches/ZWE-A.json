@@ -1,0 +1,67 @@
+{
+  "rationale": "ZWE, zadanie A (tryb oszczędny): statystyki państwa 1990-2025; brakujące lata wskaźników, stabilność instytucjonalna, rządy, flagi (riots 1998/2018/2019, epidemia cholery 2008-2009 i COVID 2020-2021, zaangażowanie w DRC 1998-2002)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "1990-1995", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "1996-1999", "curve": "linear", "start": 61, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2000-2003", "curve": "linear", "start": 45, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2004-2008", "curve": "linear", "start": 30, "end": 20},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2009-2013", "curve": "linear", "start": 30, "end": 45},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2014-2016", "curve": "linear", "start": 48, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2017-2017", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2018-2022", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2023-2024", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "ZWE", "years": "2025-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "corruption", "targets": "ZWE", "years": "1990-1995", "curve": "linear", "start": 40, "end": 53.3},
+    {"kind": "grade", "name": "corruption", "targets": "ZWE", "years": "2023-2025", "curve": "constant", "start": 75.1},
+
+    {"kind": "grade", "name": "violence risk", "targets": "ZWE", "years": "1990-1995", "curve": "linear", "start": 45, "end": 55},
+    {"kind": "grade", "name": "violence risk", "targets": "ZWE", "years": "2023-2025", "curve": "linear", "start": 67.7, "end": 66},
+
+    {"kind": "grade", "name": "happiness", "targets": "ZWE", "years": "1990-1997", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "ZWE", "years": "1998-2000", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "ZWE", "years": "2001-2008", "curve": "linear", "start": 39, "end": 30},
+    {"kind": "grade", "name": "happiness", "targets": "ZWE", "years": "2009-2010", "curve": "linear", "start": 32, "end": 36},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "ZWE", "years": "1990-1999", "curve": "linear", "start": 10, "end": 12},
+    {"kind": "grade", "name": "social revanchism", "targets": "ZWE", "years": "2000-2008", "curve": "linear", "start": 20, "end": 25},
+    {"kind": "grade", "name": "social revanchism", "targets": "ZWE", "years": "2009-2025", "curve": "linear", "start": 22, "end": 18},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "ZWE", "years": "1990-1999", "curve": "linear", "start": 5, "end": 8},
+    {"kind": "grade", "name": "government revanchism", "targets": "ZWE", "years": "2000-2008", "curve": "linear", "start": 15, "end": 25},
+    {"kind": "grade", "name": "government revanchism", "targets": "ZWE", "years": "2009-2013", "curve": "linear", "start": 20, "end": 12},
+    {"kind": "grade", "name": "government revanchism", "targets": "ZWE", "years": "2014-2017", "curve": "linear", "start": 12, "end": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "ZWE", "years": "2018-2025", "curve": "constant", "start": 15},
+
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "1990-1995", "curve": "linear", "start": 65, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "1996-1999", "curve": "linear", "start": 52, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2000-2003", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2004-2008", "curve": "linear", "start": 25, "end": 15},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2009-2013", "curve": "linear", "start": 20, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2014-2016", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2017-2017", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2018-2019", "curve": "linear", "start": 50, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2020-2022", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "ZWE", "years": "2023-2025", "curve": "linear", "start": 35, "end": 25},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "ZWE", "years": "1990-1997", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ZWE", "years": "1998-2000", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ZWE", "years": "2001-2008", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ZWE", "years": "2009-2016", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ZWE", "years": "2017-2019", "curve": "linear", "start": 60, "end": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "ZWE", "years": "2020-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "civilization level", "targets": "ZWE", "years": "2024-2025", "curve": "linear", "start": 60.0, "end": 60.2},
+
+    {"kind": "grade", "name": "assimilation", "targets": "ZWE", "years": "1990-1999", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "assimilation", "targets": "ZWE", "years": "2000-2008", "curve": "linear", "start": 44, "end": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "ZWE", "years": "2009-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "riots", "targets": "ZWE", "years": "1998-1998", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "ZWE", "years": "2018-2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "ZWE", "years": "2008-2009", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "ZWE", "years": "2020-2021", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "ZWE", "years": "1998-2002", "curve": "manual", "values": [5, 10, 15, 15, 10]}
+  ]
+}

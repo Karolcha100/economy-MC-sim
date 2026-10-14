@@ -10,4 +10,4 @@ Rzeczy zgłoszone przez autora lub agentów, których nie robimy w bieżącej fa
    - **N/10 albo √N dzieci** na scenariusz (pomysł autora z R3) — przy dużym N tylko z przycinaniem;
    - **klasyczne Monte Carlo** (b = 1, N niezależnych ścieżek) — najtańsze, dobre do backtestu;
    - **zapis osobnych linii** zamiast drzewa — prostszy odczyt pojedynczego scenariusza, ~3,6× więcej miejsca przy b = 10.
-
+5. **Przegląd próbki danych 1.2b przez drugiego agenta** (2026-10-14, autor, @phase-1.2b:K8; @A31) — kraje referencyjne + Tier 1, z listą odstających z `audit` (`AGENTS/phases/phase-1.2b/audit/`). Odłożone: brak zasobów (limit wydatków API).

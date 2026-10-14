@@ -1,0 +1,55 @@
+{
+  "rationale": "COG, zadanie A (statystyki państwa), tryb oszczędny. Okres Lissouby i transycji 1990–1996 (konferencja narodowa 1991, wybory 1992 i 1993, walki milicji w Brazzaville 1993–1994); wojna domowa 1997 i powrót Sassou Nguesso; okres insurekcji w Pool 1998–2003 (ustawa zasadnicza 2002, porozumienie pokojowe 2003); konsolidacja autorytarna 2003–2015 (referendum 2015 znoszące limity kadencji); konflikt w Pool 2016–2017 (ok. 108 tys. uchodźców wewnętrznych, zawieszenie broni grudzień 2017); stabilna dominacja rządu 2018–2025 (wybory 2021, w 2026 r. wybory z 94,8%, poza zakresem zadania). Lata 2023–2025 sprawdzone w wyszukiwarce: brak istotnych wydarzeń przemocy lub kryzysu konstytucyjnego w 2023–2025. Wartości zgodne z istniejącymi szeregami (corruption 1996–2022, violence risk 1996–2022, happiness 2011–2025, civilization level 1990–2023). Flagi tylko w latach zdarzeń (epidemic COVID 2020–2021); riots, mobilized i state collapse pozostawione domyślnie.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "1990-1991", "curve": "linear", "start": 45, "end": 38},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "1992-1996", "curve": "linear", "start": 38, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "1997", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "1998-2001", "curve": "linear", "start": 30, "end": 35},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "2002-2008", "curve": "linear", "start": 40, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "2009-2014", "curve": "constant", "start": 47},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "2015", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "2016-2017", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "2018-2020", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "COG", "years": "2021-2025", "curve": "constant", "start": 47},
+
+    {"kind": "grade", "name": "corruption", "targets": "COG", "years": "1990-1995", "curve": "linear", "start": 62, "end": 66},
+    {"kind": "grade", "name": "corruption", "targets": "COG", "years": "2023-2025", "curve": "manual", "values": [77, 76.5, 76]},
+
+    {"kind": "grade", "name": "violence risk", "targets": "COG", "years": "1990-1992", "curve": "manual", "values": [58, 57, 60]},
+    {"kind": "grade", "name": "violence risk", "targets": "COG", "years": "1993-1995", "curve": "manual", "values": [70, 72, 73]},
+    {"kind": "grade", "name": "violence risk", "targets": "COG", "years": "2023-2025", "curve": "manual", "values": [50, 49, 48]},
+
+    {"kind": "grade", "name": "happiness", "targets": "COG", "years": "1990-1996", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "COG", "years": "1997-1999", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "happiness", "targets": "COG", "years": "2000-2010", "curve": "linear", "start": 36, "end": 38},
+
+    {"kind": "grade", "name": "civilization level", "targets": "COG", "years": "2024-2025", "curve": "linear", "start": 65, "end": 65.3},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "COG", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "COG", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "COG", "years": "1990-1991", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "COG", "years": "1992-1996", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "COG", "years": "1997-2002", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "COG", "years": "2003-2015", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "COG", "years": "2016-2021", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "COG", "years": "2022-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "COG", "years": "1990-1996", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COG", "years": "1997-2002", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COG", "years": "2003-2013", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COG", "years": "2014-2017", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COG", "years": "2018-2021", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COG", "years": "2022-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "COG", "years": "1990-2025", "curve": "linear", "start": 55, "end": 50},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "COG", "years": "1997-1998", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COG", "years": "1999-2003", "curve": "linear", "start": 45, "end": 25},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COG", "years": "2016-2017", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COG", "years": "2018", "curve": "constant", "start": 25},
+
+    {"kind": "grade", "name": "epidemic", "targets": "COG", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

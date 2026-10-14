@@ -1,0 +1,381 @@
+{
+  "rationale": "FSM, zadanie B (oszczedny): relacje FSM -> 19 partnerow (USA, JPN, AUS, NZL, KOR, TWN, MHL, PLW, PNG, FJI, KIR, NRU, SLB, VUT, WSM, TON, TUV, RUS, CHN). USA: Compact of Free Association (obrona i polityka zagraniczna pod kontrola USA, dominujaca zaleznosc ekonomiczna). MHL, PLW: partnerzy Compact-trio, bez podleglosci; PLW od 1994. TWN: FSM uznaje ROC (dyplomacja 65). CHN: brak stosunkow dyplomatycznych (0 = default), rosnaca zaleznosc gospodarcza po 2005. RUS: minimalne wiezi (5). Mniejsi partnerzy Pacyfiku: wspolne wartosci dla grupy (roznice tylko w dyplomacji i zaleznosci). Hybrid attacks: FSM nie prowadzi dzialan (0 przez confirm-default). Dwustronne: brak wpisow 2025 (brak konfliktu FSM z zadnym panstwem); neighbours 0 (brak granic ladowych); reszta confirm-default.",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 88
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:JPN,FSM:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:NZL,FSM:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:KOR,FSM:PNG,FSM:KIR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:FJI,FSM:NRU,FSM:TUV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:SLB,FSM:VUT,FSM:WSM,FSM:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "FSM:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "FSM:JPN,FSM:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "FSM:AUS,FSM:KIR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "FSM:NZL,FSM:PNG,FSM:NRU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "FSM:KOR,FSM:TWN,FSM:FJI,FSM:TUV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "FSM:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "FSM:SLB,FSM:VUT,FSM:WSM,FSM:TON",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "FSM:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 80
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "FSM:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "FSM:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "FSM:NZL,FSM:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "FSM:KOR,FSM:MHL,FSM:PNG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "FSM:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "FSM:FJI,FSM:KIR,FSM:NRU,FSM:SLB,FSM:VUT,FSM:WSM,FSM:TON,FSM:TUV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "FSM:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "FSM:JPN,FSM:AUS,FSM:MHL,FSM:PNG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "FSM:NZL,FSM:KOR,FSM:TWN,FSM:FJI,FSM:KIR,FSM:NRU,FSM:SLB,FSM:VUT,FSM:WSM,FSM:TON,FSM:TUV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "FSM:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "FSM:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "FSM:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "FSM:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "FSM:NZL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "FSM:KOR,FSM:TWN,FSM:MHL,FSM:PNG,FSM:FJI,FSM:KIR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "FSM:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "FSM:NRU,FSM:SLB,FSM:VUT,FSM:WSM,FSM:TON,FSM:TUV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "FSM:USA,FSM:JPN,FSM:AUS,FSM:MHL,FSM:PNG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "FSM:NZL,FSM:TWN,FSM:FJI,FSM:KIR,FSM:NRU,FSM:SLB,FSM:VUT,FSM:WSM,FSM:TON,FSM:TUV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "FSM:KOR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "FSM:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 80
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:NZL,FSM:TWN,FSM:MHL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:KOR,FSM:PNG,FSM:FJI,FSM:KIR,FSM:NRU",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:PLW",
+      "years": "1994-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:SLB,FSM:VUT,FSM:WSM,FSM:TON,FSM:TUV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "FSM:RUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:CHN",
+      "years": "1990-2005",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "FSM:CHN",
+      "years": "2006-2025",
+      "curve": "constant",
+      "start": 8
+    }
+  ]
+}

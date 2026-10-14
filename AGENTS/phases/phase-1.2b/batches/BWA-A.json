@@ -1,0 +1,46 @@
+{
+  "rationale": "BWA, zadanie A (tryb oszczędny): stabilność (BDP od 1966; sukcesje 1998, 2008, 2018 - konflikt Khama/Masisi; pokojowa zmiana władzy w 2024), poparcie rządu (niskie za Masisiego wg Afrobarometer, nowy rząd Bokego 2024-25), korupcja wg percepcji, asymilacja (imigracja z Zimbabwe), wskaźniki brakujących lat (happiness 1990-2010, korupcja 1990-95 i 2023-25, violence risk 1990-95 i 2023-25, civilization 2024-25), flaga epidemii 2020 (COVID, jak w kotwicach); wyszukiwarka 2023-2025 (wyniki wyborów 2024, Afrobarometer AD791)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "BWA", "years": "1990-1997", "curve": "linear", "start": 80, "end": 82},
+    {"kind": "grade", "name": "stability", "targets": "BWA", "years": "1998-2007", "curve": "linear", "start": 82, "end": 85},
+    {"kind": "grade", "name": "stability", "targets": "BWA", "years": "2008-2017", "curve": "linear", "start": 85, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "BWA", "years": "2018-2019", "curve": "linear", "start": 78, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "BWA", "years": "2020-2023", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "stability", "targets": "BWA", "years": "2024-2025", "curve": "linear", "start": 76, "end": 80},
+
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "1990-1994", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "1995-1999", "curve": "linear", "start": 60, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "2000-2007", "curve": "linear", "start": 60, "end": 68},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "2008-2013", "curve": "linear", "start": 70, "end": 66},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "2014-2017", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "2018-2019", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "2020-2023", "curve": "linear", "start": 38, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "2024-2024", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "BWA", "years": "2025-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "BWA", "years": "1990-2015", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BWA", "years": "2016-2022", "curve": "linear", "start": 52, "end": 58},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BWA", "years": "2023-2025", "curve": "linear", "start": 60, "end": 62},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "BWA", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "BWA", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "assimilation", "targets": "BWA", "years": "1990-2000", "curve": "linear", "start": 68, "end": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "BWA", "years": "2001-2010", "curve": "linear", "start": 64, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "BWA", "years": "2011-2025", "curve": "linear", "start": 59, "end": 58},
+
+    {"kind": "grade", "name": "happiness", "targets": "BWA", "years": "1990-1995", "curve": "linear", "start": 52, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BWA", "years": "1996-2004", "curve": "linear", "start": 48, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BWA", "years": "2005-2010", "curve": "linear", "start": 43, "end": 46, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "BWA", "years": "2023-2025", "curve": "linear", "start": "current", "end": 74, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "BWA", "years": "1990-1995", "curve": "linear", "start": 34.0, "end": 33.7},
+    {"kind": "grade", "name": "corruption", "targets": "BWA", "years": "2022-2025", "curve": "linear", "start": "current", "end": 37.0, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "BWA", "years": "1990-1995", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "violence risk", "targets": "BWA", "years": "2022-2025", "curve": "linear", "start": "current", "end": 28.5, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "BWA", "years": "2020-2020", "curve": "constant", "start": 1}
+  ]
+}

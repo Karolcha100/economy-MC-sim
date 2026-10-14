@@ -1,0 +1,40 @@
+{
+  "rationale": "LAO, zadanie A (tryb oszczędny): jednopartyjny system LPRP, brak wojen i zamieszek, kryzys walutowy i paliwowy 2022-2023 (inflacja ~31% w 2023, ~23% w 2024), ozdrowienie 2024-2025; brakujące lata wskaźników uzupełnione płynnie do istniejących wartości.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "LAO", "years": "1990-1995", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "LAO", "years": "1996-2005", "curve": "linear", "start": 72, "end": 75},
+    {"kind": "grade", "name": "stability", "targets": "LAO", "years": "2006-2015", "curve": "linear", "start": 75, "end": 77},
+    {"kind": "grade", "name": "stability", "targets": "LAO", "years": "2016-2025", "curve": "linear", "start": 77, "end": 75},
+
+    {"kind": "grade", "name": "violence risk", "targets": "LAO", "years": "1990-1995", "curve": "linear", "start": 46, "end": 43},
+    {"kind": "grade", "name": "violence risk", "targets": "LAO", "years": "2023-2025", "curve": "constant", "start": 34},
+
+    {"kind": "grade", "name": "corruption", "targets": "LAO", "years": "1990-1995", "curve": "linear", "start": 65, "end": 64.6},
+    {"kind": "grade", "name": "corruption", "targets": "LAO", "years": "2023-2025", "curve": "linear", "start": 69.5, "end": 70},
+
+    {"kind": "grade", "name": "happiness", "targets": "LAO", "years": "1990-2004", "curve": "linear", "start": 42, "end": 44.5},
+    {"kind": "grade", "name": "happiness", "targets": "LAO", "years": "2005-2010", "curve": "linear", "start": 45, "end": 50.5},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "LAO", "years": "1990-2025", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "government revanchism", "targets": "LAO", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "LAO", "years": "1990-1995", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "LAO", "years": "1996-2010", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "LAO", "years": "2011-2020", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "LAO", "years": "2021-2022", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "LAO", "years": "2023-2025", "curve": "linear", "start": 42, "end": 46},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "LAO", "years": "1990-1995", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LAO", "years": "1996-2019", "curve": "linear", "start": 50, "end": 42},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LAO", "years": "2020-2022", "curve": "linear", "start": 42, "end": 48},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LAO", "years": "2023-2025", "curve": "linear", "start": 60, "end": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "LAO", "years": "2024-2025", "curve": "linear", "start": 62, "end": 62.2},
+
+    {"kind": "grade", "name": "assimilation", "targets": "LAO", "years": "1990-2009", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "LAO", "years": "2010-2019", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "LAO", "years": "2020-2025", "curve": "linear", "start": 50, "end": 48},
+
+    {"kind": "grade", "name": "epidemic", "targets": "LAO", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

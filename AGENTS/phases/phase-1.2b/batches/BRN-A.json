@@ -1,0 +1,39 @@
+{
+  "rationale": "BRN, zadanie A, tryb oszczędny. Brunei: absolutna monarchia bez wyborów i rządów kryzysowych, stabilność instytucji wysoka (85); lekki spadek 2015-2017 przy załamaniu cen ropy i cięciach dotacji. Brak danych Cantril (happiness): estymacja na poziomie zamożnych państw Zatoki (ok. 60-66). Popularność władcy i rewanżyzm: estymacja bez sondaży; rewanżyzm rządowy niski (roszczenia na Morzu Południowochińskim, dyplomacja bez eskalacji), społeczny minimalny. Wrażliwość na koszty: państwo socjalne finansowane z ropy, wzrost wrażliwości po 2015. Asymilacja: estymacja (duży odsetek migrantów czasowych, mała integracja, trudne obywatelstwo). Korupcja, przemoc i cywilizacja: uzupełniono luki wokół istniejących wartości z 1996/2022 i 2023 (HDI). Flaga epidemic 2020-2021 (COVID, lockdowny). Brak riots, mobilized i wojny: wartości domyślne.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "BRN", "years": "1990-1999", "curve": "constant", "start": 84},
+    {"kind": "grade", "name": "stability", "targets": "BRN", "years": "2000-2014", "curve": "constant", "start": 85},
+    {"kind": "grade", "name": "stability", "targets": "BRN", "years": "2015-2017", "curve": "linear", "start": 85, "end": 82},
+    {"kind": "grade", "name": "stability", "targets": "BRN", "years": "2018-2025", "curve": "constant", "start": 83},
+
+    {"kind": "grade", "name": "corruption", "targets": "BRN", "years": "1990-1995", "curve": "linear", "start": 39.6, "end": 40.2, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "BRN", "years": "2023-2025", "curve": "constant", "start": 26.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "BRN", "years": "1990-1999", "curve": "linear", "start": 59, "end": 61, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BRN", "years": "2000-2004", "curve": "linear", "start": 61, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BRN", "years": "2005-2014", "curve": "linear", "start": 63, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "BRN", "years": "2015-2025", "curve": "constant", "start": 66, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "BRN", "years": "1990-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "BRN", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "BRN", "years": "1990-1999", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "government popularity", "targets": "BRN", "years": "2000-2014", "curve": "constant", "start": 78},
+    {"kind": "grade", "name": "government popularity", "targets": "BRN", "years": "2015-2016", "curve": "linear", "start": 78, "end": 74},
+    {"kind": "grade", "name": "government popularity", "targets": "BRN", "years": "2017-2025", "curve": "constant", "start": 75},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "BRN", "years": "1990-2014", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BRN", "years": "2015-2016", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BRN", "years": "2017-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "assimilation", "targets": "BRN", "years": "1990-2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "civilization level", "targets": "BRN", "years": "2024-2025", "curve": "linear", "start": 83.8, "end": 84.0, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "BRN", "years": "1990-1995", "curve": "linear", "start": 25.6, "end": 25.3, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "BRN", "years": "2023-2025", "curve": "constant", "start": 24.9, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "BRN", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

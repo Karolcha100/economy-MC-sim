@@ -1,0 +1,50 @@
+{
+  "rationale": "COM, zadanie A (tryb oszczędny). Wartości z wiedzy o historii Komorów: kryzysy i najemnicze przewroty 1995, secesja Anjouan i Mohéli 1997, przewrót 1999, kryzys Anjouan 2007-2008, wybory 2016 i referendum 2018. Wyszukiwarka dla 2023-2025: wybory z 14 I 2024 (oficjalnie ok. 57-63% dla Azaliego), protesty z zamieszkami, podpaleniami i jednym zabitym, godzina policyjna; protesty paliwowe i ograniczone protesty z listopada 2025 (data protestów paliwowych niejasna, więc flaga riots 2025 nie ustawiona). Roszczenie do Mayotte jako stały temat publiczny i dyplomatyczny. Happiness 1990-2010 to szacunek łączący się płynnie z WHR od 2011. Istniejące wartości nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "1990-1995", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "1996-1998", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "1999-2001", "curve": "linear", "start": 35, "end": 25, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "2002-2006", "curve": "linear", "start": 28, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "2007-2008", "curve": "linear", "start": 45, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "2009-2015", "curve": "linear", "start": 37, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "2016-2019", "curve": "linear", "start": 48, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "2020-2023", "curve": "linear", "start": 40, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COM", "years": "2024-2025", "curve": "linear", "start": 36, "end": 38, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "COM", "years": "1990-1995", "curve": "constant", "start": 42, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "COM", "years": "2023-2023", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "COM", "years": "2024-2024", "curve": "constant", "start": 58, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "COM", "years": "2025-2025", "curve": "constant", "start": 56, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "COM", "years": "1990-1995", "curve": "linear", "start": 67, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "COM", "years": "2023-2025", "curve": "constant", "start": 75, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "COM", "years": "1990-1995", "curve": "linear", "start": 38, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "COM", "years": "1996-2000", "curve": "linear", "start": 35, "end": 34, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "COM", "years": "2001-2010", "curve": "linear", "start": 34, "end": 36, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "COM", "years": "1990-2025", "curve": "constant", "start": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "COM", "years": "1990-1999", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "COM", "years": "2000-2025", "curve": "constant", "start": 35, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "1990-1998", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "1999-2001", "curve": "linear", "start": 35, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "2002-2005", "curve": "linear", "start": 30, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "2006-2010", "curve": "linear", "start": 48, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "2011-2015", "curve": "linear", "start": 55, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "2016-2019", "curve": "linear", "start": 45, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "2020-2023", "curve": "linear", "start": 40, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COM", "years": "2024-2025", "curve": "linear", "start": 45, "end": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "COM", "years": "1990-2025", "curve": "constant", "start": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "COM", "years": "1990-1999", "curve": "linear", "start": 41.2, "end": 45.6, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "COM", "years": "2024-2025", "curve": "linear", "start": 60.8, "end": 61.3, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "COM", "years": "1990-2025", "curve": "constant", "start": 70, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "COM", "years": "2020-2020", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "riots", "targets": "COM", "years": "2024-2024", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

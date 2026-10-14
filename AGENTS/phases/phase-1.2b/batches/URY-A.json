@@ -1,0 +1,42 @@
+{
+  "rationale": "URY, zadanie A (tryb oszczędny): stabilna demokracja bez zamachów i przemocy politycznej; kryzys 2002 jako dołek stabilności i szczęścia; pandemia 2020-2021 (flaga epidemic); popularność rządów wg sondaży (Cifra, Equipos, Factum, Opción) i ocen szacunkowych przed 2011; korupcja, przemoc i cywilizacja uzupełnione do płynnego połączenia z istniejącymi wartościami; migracja bez zmian (już wypełniona).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "URY", "years": "1990-1995", "curve": "linear", "start": 82, "end": 84},
+    {"kind": "grade", "name": "stability", "targets": "URY", "years": "1996-2001", "curve": "linear", "start": 84, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "URY", "years": "2002-2004", "curve": "linear", "start": 78, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "URY", "years": "2005-2014", "curve": "linear", "start": 80, "end": 86},
+    {"kind": "grade", "name": "stability", "targets": "URY", "years": "2015-2025", "curve": "linear", "start": 86, "end": 85},
+
+    {"kind": "grade", "name": "corruption", "targets": "URY", "years": "1990-1995", "curve": "linear", "start": 29, "end": 27.5},
+    {"kind": "grade", "name": "corruption", "targets": "URY", "years": "2023-2025", "curve": "linear", "start": 17.6, "end": 17.2},
+
+    {"kind": "grade", "name": "violence risk", "targets": "URY", "years": "1990-1995", "curve": "linear", "start": 40, "end": 37.5},
+    {"kind": "grade", "name": "violence risk", "targets": "URY", "years": "2023-2025", "curve": "constant", "start": 28},
+
+    {"kind": "grade", "name": "happiness", "targets": "URY", "years": "1990-2001", "curve": "linear", "start": 58, "end": 60},
+    {"kind": "grade", "name": "happiness", "targets": "URY", "years": "2002-2003", "curve": "linear", "start": 56, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "URY", "years": "2004-2010", "curve": "linear", "start": 52, "end": 58},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "URY", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "URY", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "1990-1994", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "1995-1999", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "2000-2004", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "2005-2009", "curve": "linear", "start": 45, "end": 68},
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "2010-2014", "curve": "linear", "start": 64, "end": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "2015-2019", "curve": "linear", "start": 52, "end": 46},
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "2020-2024", "curve": "manual", "values": [62, 55, 46, 45, 47]},
+    {"kind": "grade", "name": "government popularity", "targets": "URY", "years": "2025", "curve": "constant", "start": 42},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "URY", "years": "1990-2004", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "URY", "years": "2005-2025", "curve": "constant", "start": 52},
+
+    {"kind": "grade", "name": "civilization level", "targets": "URY", "years": "2024-2025", "curve": "linear", "start": 86.5, "end": 86.8},
+
+    {"kind": "grade", "name": "assimilation", "targets": "URY", "years": "1990-2015", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "URY", "years": "2016-2025", "curve": "linear", "start": 70, "end": 66},
+
+    {"kind": "grade", "name": "epidemic", "targets": "URY", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

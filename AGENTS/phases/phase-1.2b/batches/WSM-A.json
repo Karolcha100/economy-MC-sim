@@ -1,0 +1,43 @@
+{
+  "rationale": "WSM, zadanie A (tryb oszczędny): stabilność wg konstytucji i przebiegu rządów (dominacja HRPP, kryzys 2021, rozłam FAST i głosowania 2025, wybory przedterminowe 29.08.2025); popularność rządu szacunkowo; happiness bez danych WHR, seria szacunkowo wg małych państw Pacyfiku (FJI, PNG, MUS) i HDI; corruption 1990-1995 i 2023-2025 wg trendu WGI; violence risk 1990-1995 i 2023-2025 wg poziomu sąsiedniego; civilization 1990-1994 i 2024-2025 wg HDI; flagi: epidemia (odra 2019-2020, COVID 2020-2021)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "WSM", "years": "1990-1997", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "WSM", "years": "1998-2019", "curve": "linear", "start": 72, "end": 76},
+    {"kind": "grade", "name": "stability", "targets": "WSM", "years": "2020-2021", "curve": "linear", "start": 76, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "WSM", "years": "2022-2024", "curve": "linear", "start": 55, "end": 65},
+    {"kind": "grade", "name": "stability", "targets": "WSM", "years": "2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "government popularity", "targets": "WSM", "years": "1990-1997", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "WSM", "years": "1998-2005", "curve": "linear", "start": 55, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "WSM", "years": "2006-2015", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "WSM", "years": "2016-2020", "curve": "linear", "start": 62, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "WSM", "years": "2021-2024", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "WSM", "years": "2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "WSM", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "WSM", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "WSM", "years": "1990-1999", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "WSM", "years": "2000-2019", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "WSM", "years": "2020-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "WSM", "years": "1990-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "happiness", "targets": "WSM", "years": "1990-1999", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "happiness", "targets": "WSM", "years": "2000-2009", "curve": "linear", "start": 52, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "WSM", "years": "2010-2019", "curve": "linear", "start": 50, "end": 52},
+    {"kind": "grade", "name": "happiness", "targets": "WSM", "years": "2020-2021", "curve": "linear", "start": 52, "end": 51},
+    {"kind": "grade", "name": "happiness", "targets": "WSM", "years": "2022-2025", "curve": "constant", "start": 51},
+
+    {"kind": "grade", "name": "corruption", "targets": "WSM", "years": "1990-1995", "curve": "linear", "start": 50.0, "end": 50.5},
+    {"kind": "grade", "name": "corruption", "targets": "WSM", "years": "2023-2025", "curve": "linear", "start": 39.0, "end": 40.0},
+
+    {"kind": "grade", "name": "violence risk", "targets": "WSM", "years": "1990-1995", "curve": "linear", "start": 23.8, "end": 23.6},
+    {"kind": "grade", "name": "violence risk", "targets": "WSM", "years": "2023-2025", "curve": "constant", "start": 28.4},
+
+    {"kind": "grade", "name": "civilization level", "targets": "WSM", "years": "1990-1994", "curve": "linear", "start": 63.5, "end": 65.0},
+    {"kind": "grade", "name": "civilization level", "targets": "WSM", "years": "2024-2025", "curve": "linear", "start": 70.8, "end": 71.0},
+
+    {"kind": "grade", "name": "epidemic", "targets": "WSM", "years": "2019-2021", "curve": "constant", "start": 1}
+  ]
+}

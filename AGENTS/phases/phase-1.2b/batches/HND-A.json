@@ -1,0 +1,52 @@
+{
+  "rationale": "HND, zadanie A, tryb oszczedny: uzupelnienie brakow 1990-1995 i 2023-2025 (wskazniki startowe), stabilnosc wg historii politycznej (zamachy stanu 2009, spory wyborcze 2017 i 2025), poparcie rzadu wg sondazy 2024-2025 i szacunkow, flagi 2009/2017/2020-2021",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "1990-1997", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "1998-2005", "curve": "linear", "start": 60, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2006-2008", "curve": "linear", "start": 58, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2009", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2010-2013", "curve": "linear", "start": 35, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2014-2016", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2017", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2018-2021", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2022-2024", "curve": "linear", "start": 50, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "HND", "years": "2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "corruption", "targets": "HND", "years": "1990-1995", "curve": "linear", "start": 72.5, "end": 71.8},
+    {"kind": "grade", "name": "corruption", "targets": "HND", "years": "2023-2025", "curve": "linear", "start": 70.0, "end": 70.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "HND", "years": "1990-1998", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "HND", "years": "1999-2005", "curve": "linear", "start": 47, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "HND", "years": "2006-2010", "curve": "linear", "start": 51, "end": 53},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "HND", "years": "1990-2025", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "HND", "years": "1990-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "1990-1993", "curve": "linear", "start": 50, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "1994-1997", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "1998-2001", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "2002-2005", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "2006-2008", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "2009", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "2010-2013", "curve": "linear", "start": 35, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "2014-2017", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "2018-2021", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "HND", "years": "2022-2025", "curve": "manual", "values": [45, 42, 45, 55]},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "HND", "years": "1990-2007", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "HND", "years": "2008-2011", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "HND", "years": "2012-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "assimilation", "targets": "HND", "years": "1990-1999", "curve": "linear", "start": 52, "end": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "HND", "years": "2000-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "HND", "years": "2024-2025", "curve": "linear", "start": 64.8, "end": 65.1},
+
+    {"kind": "grade", "name": "violence risk", "targets": "HND", "years": "1990-1995", "curve": "linear", "start": 56, "end": 58},
+    {"kind": "grade", "name": "violence risk", "targets": "HND", "years": "2023-2025", "curve": "manual", "values": [60.5, 59.5, 60.5]},
+
+    {"kind": "grade", "name": "riots", "targets": "HND", "years": "2009", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "HND", "years": "2017", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "HND", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

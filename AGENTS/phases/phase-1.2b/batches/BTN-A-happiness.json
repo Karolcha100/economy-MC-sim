@@ -1,0 +1,6 @@
+{
+  "rationale": "BTN, zadanie A — uzupełnienie happiness 2019–2025 (brak WHR po 2018): utrzymanie poziomu z ostatniego roku z danymi, zgodnie z regułą szacowania przy braku danych (koordynator).",
+  "operations": [
+    {"kind": "grade", "name": "happiness", "targets": "BTN", "years": "2018-2025", "curve": "constant", "start": "current", "only_empty": true}
+  ]
+}

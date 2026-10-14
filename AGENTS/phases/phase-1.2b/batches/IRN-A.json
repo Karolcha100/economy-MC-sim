@@ -1,0 +1,682 @@
+{
+ "rationale": "IRN, zadanie A (statystyki państwa), tryb pełny",
+ "operations": [
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "1990-1992",
+   "curve": "linear",
+   "rationale": "1990-1992: po śmierci Chomeiniego (1989) i wyborze Chameneiego; Rafsanjani prezydentem, instytucje działają bez kryzysu rządowego, napięcia frakcji",
+   "start": 50,
+   "end": 54,
+   "sources": [
+    "Wikipedia (en), Akbar Hashemi Rafsanjani"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "1993-1997",
+   "curve": "linear",
+   "rationale": "1993-1997: konsolidacja po reelekcji Rafsanjaniego, przewidywalne instytucje; wybory 1997 przebiegły bez przewrotu",
+   "start": 55,
+   "end": 58,
+   "sources": [
+    "Wikipedia (en), 1997 Iranian presidential election"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "1998-2001",
+   "curve": "linear",
+   "rationale": "1998-2001: konflikt reformatorów z konserwatystami (Rada Strażników odrzuca ustawy Madżlisu), protesty studenckie 1999",
+   "start": 58,
+   "end": 50,
+   "sources": [
+    "Wikipedia (en), 1999 Iranian student protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2002-2005",
+   "curve": "linear",
+   "rationale": "2002-2005: impas reformatorów, dyskwalifikacje kandydatów przed wyborami do Madżlisu 2004",
+   "start": 50,
+   "end": 48
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2006-2008",
+   "curve": "linear",
+   "rationale": "2006-2008: prezydentura Ahmadineżada, konflikt z Madżlisem i częścią elit, presja sankcji ONZ",
+   "start": 46,
+   "end": 40
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2009",
+   "curve": "constant",
+   "rationale": "2009: kryzys po wyborach prezydenckich i masowe protesty; poważny kryzys legitymacji i konflikt instytucjonalny",
+   "start": 30,
+   "sources": [
+    "Wikipedia (en), 2009 Iranian presidential election protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2010-2012",
+   "curve": "linear",
+   "rationale": "2010-2012: konflikt Ahmadineżad-Madżlis-Chamenei (2011, impeachment ministrów), ale instytucje działają",
+   "start": 36,
+   "end": 40
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2013-2016",
+   "curve": "linear",
+   "rationale": "2013-2016: prezydentura Rouhaniego, umiarkowanie, porozumienie nuklearne 2015 (JCPOA); wyraźna poprawa przewidywalności",
+   "start": 42,
+   "end": 55,
+   "sources": [
+    "Wikipedia (en), Joint Comprehensive Plan of Action"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2017-2019",
+   "curve": "linear",
+   "rationale": "2017-2019: protesty 2017-2018, wycofanie USA z JCPOA (2018), zamieszki listopad 2019; spadek stabilności instytucji",
+   "start": 55,
+   "end": 45,
+   "sources": [
+    "Wikipedia (en), 2017–2018 Iranian protests",
+    "Wikipedia (en), 2019–2020 Iranian protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2020-2021",
+   "curve": "linear",
+   "rationale": "2020-2021: wybory do Madżlisu 2020 przy niskiej frekwencji, wybory 2021 z dyskwalifikacjami; COVID-19 obciąża administrację",
+   "start": 44,
+   "end": 42
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2022-2023",
+   "curve": "constant",
+   "rationale": "2022-2023: ruch Kobieta-Życie-Wolność, masowe protesty i represje; instytucje funkcjonują, ale legitymacja w kryzysie",
+   "start": 40,
+   "sources": [
+    "Wikipedia (en), 2022 Iranian protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "stability",
+   "targets": "IRN",
+   "years": "2024-2025",
+   "curve": "linear",
+   "rationale": "2024-2025: śmierć prezydenta Raisiego (maj 2024) i uporządkowane wybory przedterminowe; 2025: wojna z Izraelem i USA, kryzys rialu i protesty w grudniu",
+   "start": 41,
+   "end": 37,
+   "sources": [
+    "Wikipedia (en), 2024 Iranian presidential election",
+    "https://www.npr.org/2026/01/14/g-s1-105949/death-toll-crackdown-protests-iran"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "IRN",
+   "years": "1990-1995",
+   "curve": "linear",
+   "rationale": "1990-1995: odbudowa po wojnie z Irakiem, duża rola fundacji (bonyad) i gospodarki państwowej; poziom zbliżony do 1996 (59,6)",
+   "start": 62,
+   "end": 60,
+   "sources": [
+    "Wikipedia (en), Corruption in Iran"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "corruption",
+   "targets": "IRN",
+   "years": "2022-2025",
+   "curve": "linear",
+   "rationale": "2022 (72,5) kontynuowana: utrzymująca się wysoka korupcja w instytucjach i fundacjach, sankcje; lekki wzrost do 74",
+   "start": "current",
+   "end": 74,
+   "only_empty": true,
+   "sources": [
+    "Wikipedia (en), Corruption in Iran"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "IRN",
+   "years": "1990-1994",
+   "curve": "linear",
+   "rationale": "Oszacowanie (przed 2005): okres po wojnie z Irakiem, wysoka inflacja i trudna odbudowa",
+   "start": 48,
+   "end": 45
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "IRN",
+   "years": "1995-1999",
+   "curve": "linear",
+   "rationale": "Oszacowanie: stabilizacja gospodarcza i nadzieje po wyborach 1997",
+   "start": 45,
+   "end": 48
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "IRN",
+   "years": "2000-2004",
+   "curve": "linear",
+   "rationale": "Oszacowanie: rozczarowanie reformami, ale gospodarka stabilniejsza",
+   "start": 48,
+   "end": 50
+  },
+  {
+   "kind": "grade",
+   "name": "happiness",
+   "targets": "IRN",
+   "years": "2005-2010",
+   "curve": "linear",
+   "rationale": "Oszacowanie: przed 2011 (51,49 w pierwszym roku wartości z Cantril); wzrost dochodów z ropy, rosnąca inflacja pod koniec okresu",
+   "start": 50,
+   "end": 51
+  },
+  {
+   "kind": "grade",
+   "name": "social revanchism",
+   "targets": "IRN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "rationale": "Nacjonalizm perski powszechny, ale oczekiwań odzyskania terytoriów mało; po wojnie raczej niechęć do wojny",
+   "start": 15
+  },
+  {
+   "kind": "grade",
+   "name": "social revanchism",
+   "targets": "IRN",
+   "years": "1996-2016",
+   "curve": "constant",
+   "rationale": "Nastroje społeczne bez silnego dążenia do odzyskania terytoriów czy wpływów",
+   "start": 12
+  },
+  {
+   "kind": "grade",
+   "name": "social revanchism",
+   "targets": "IRN",
+   "years": "2017-2023",
+   "curve": "linear",
+   "rationale": "Spadek nastrojów rewanżystowskich: nacisk na kwestie gospodarcze i prawa obywatelskie",
+   "start": 12,
+   "end": 10
+  },
+  {
+   "kind": "grade",
+   "name": "social revanchism",
+   "targets": "IRN",
+   "years": "2024-2025",
+   "curve": "linear",
+   "rationale": "Wzrost nacjonalizmu po atakach z 2024 i czerwca 2025, ale bez masowego poparcia odzyskiwania terytoriów lub wpływów",
+   "start": 10,
+   "end": 12,
+   "sources": [
+    "Wikipedia (en), Reactions to the Twelve-Day War"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government revanchism",
+   "targets": "IRN",
+   "years": "1990-2004",
+   "curve": "constant",
+   "rationale": "Rząd Rafsanjaniego i Chatamiego: pragmatyzm, ograniczenie eksportu rewolucji, odbudowa gospodarcza",
+   "start": 15
+  },
+  {
+   "kind": "grade",
+   "name": "government revanchism",
+   "targets": "IRN",
+   "years": "2005-2012",
+   "curve": "linear",
+   "rationale": "Ahmadineżad: program nuklearny, aktywna polityka regionalna (Syria, Liban, Irak)",
+   "start": 25,
+   "end": 30
+  },
+  {
+   "kind": "grade",
+   "name": "government revanchism",
+   "targets": "IRN",
+   "years": "2013-2016",
+   "curve": "linear",
+   "rationale": "Rouhani: umiarkowanie w polityce zagranicznej, porozumienie JCPOA",
+   "start": 28,
+   "end": 25
+  },
+  {
+   "kind": "grade",
+   "name": "government revanchism",
+   "targets": "IRN",
+   "years": "2017-2025",
+   "curve": "linear",
+   "rationale": "Stały cel polityki: wpływ regionalny (IRGC, Syria, Irak, Jemen, Liban), spadek po upadku Asada (2024), wzrost retoryki w 2025",
+   "start": 30,
+   "end": 45,
+   "sources": [
+    "Wikipedia (en), Background of the Twelve-Day War"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "1990-1992",
+   "curve": "linear",
+   "rationale": "Estymacja: ograniczona popularność rządu po wojnie z Irakiem i trudnościach gospodarczych",
+   "start": 40,
+   "end": 38
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "1993-1996",
+   "curve": "linear",
+   "rationale": "Estymacja: rząd Rafsanjaniego, umiarkowana akceptacja; brak wiarygodnych sondaży",
+   "start": 38,
+   "end": 42
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "1997-2001",
+   "curve": "linear",
+   "rationale": "Wybory 1997: Chatami 69,6% głosów; wysoka akceptacja reformatorów, spadek po 1999 i konflikcie z Radą Strażników",
+   "start": 60,
+   "end": 52,
+   "sources": [
+    "Wikipedia (en), 1997 Iranian presidential election"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2002-2005",
+   "curve": "linear",
+   "rationale": "Rozczarowanie reformami i dyskwalifikacjami przed wyborami 2004",
+   "start": 52,
+   "end": 42
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2006-2008",
+   "curve": "linear",
+   "rationale": "Ahmadineżad: spadek akceptacji wraz z inflacją i cięciami subsydiów (estymacja)",
+   "start": 42,
+   "end": 35
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2009",
+   "curve": "constant",
+   "rationale": "Wybory 2009 i protesty powyborcze: spadek akceptacji (estymacja)",
+   "start": 25,
+   "sources": [
+    "Wikipedia (en), 2009 Iranian presidential election protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2010-2012",
+   "curve": "constant",
+   "rationale": "Niska akceptacja rządu Ahmadineżada po 2009 (estymacja)",
+   "start": 25
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2013-2015",
+   "curve": "linear",
+   "rationale": "Rouhani: wybór 2013 z poparciem umiarkowanych, poprawa po porozumieniu JCPOA (estymacja)",
+   "start": 35,
+   "end": 50,
+   "sources": [
+    "Wikipedia (en), 2013 Iranian presidential election"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2016-2017",
+   "curve": "linear",
+   "rationale": "Spadek po wyborach 2017 i protestach grudnia 2017 (estymacja)",
+   "start": 48,
+   "end": 42
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2018-2019",
+   "curve": "linear",
+   "rationale": "Krach rialu, sankcje USA i zamieszki 2019 (estymacja)",
+   "start": 40,
+   "end": 30
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2020-2021",
+   "curve": "linear",
+   "rationale": "COVID-19, niska frekwencja w wyborach 2020 i 2021 (estymacja)",
+   "start": 28,
+   "end": 25
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2022-2023",
+   "curve": "constant",
+   "rationale": "Ruch Kobieta-Życie-Wolność i represje: najniższa akceptacja w okresie (estymacja)",
+   "start": 22,
+   "sources": [
+    "Wikipedia (en), 2022 Iranian protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "government popularity",
+   "targets": "IRN",
+   "years": "2024-2025",
+   "curve": "linear",
+   "rationale": "2024: sondaż Stasis ok. 39% aprobaty prezydenta Pezeshkiana (E-IR); 2025: sondaż CISSM (paź 2025) stabilnie korzystny; wartość uśredniona",
+   "start": 35,
+   "end": 40,
+   "sources": [
+    "https://www.e-ir.info/2025/08/25/opinion-one-year-of-masoud-pezeshkians-leadership-in-iran/",
+    "https://cissm.umd.edu/sites/default/files/2026-02/Iran%20Report_FINAL_w_AccessabilityCheck.pdf"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "IRN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "rationale": "Społeczeństwo wrażliwe na koszty: wysoka inflacja i trudności gospodarcze po wojnie",
+   "start": 70
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "IRN",
+   "years": "1996-2008",
+   "curve": "constant",
+   "rationale": "Wrażliwość umiarkowana-wysoka; represje ograniczają reakcje polityczne",
+   "start": 68
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "IRN",
+   "years": "2009-2017",
+   "curve": "constant",
+   "rationale": "Protesty powyborcze 2009 i reakcja na reformy subsydiów (2010) — podwyższona wrażliwość",
+   "start": 72
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "IRN",
+   "years": "2018-2019",
+   "curve": "linear",
+   "rationale": "Krach rialu i podwyżka cen paliw (2019): silna reakcja społeczna na straty",
+   "start": 75,
+   "end": 85,
+   "sources": [
+    "Wikipedia (en), 2019–2020 Iranian protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "IRN",
+   "years": "2020-2022",
+   "curve": "constant",
+   "rationale": "Wysoka wrażliwość na inflację, bezrobocie i ceny; protesty 2022",
+   "start": 80
+  },
+  {
+   "kind": "grade",
+   "name": "social sensitivity",
+   "targets": "IRN",
+   "years": "2023-2025",
+   "curve": "linear",
+   "rationale": "Wysoka wrażliwość na koszty, inflacja i kryzys rialu 2025",
+   "start": 80,
+   "end": 82
+  },
+  {
+   "kind": "grade",
+   "name": "assimilation",
+   "targets": "IRN",
+   "years": "1990-2000",
+   "curve": "constant",
+   "rationale": "Mniejszości (Azerowie, Kurdowie, Arabowie, Beludżowie) zintegrowane w różnym stopniu; napływ uchodźców afgańskich i irackich",
+   "start": 55
+  },
+  {
+   "kind": "grade",
+   "name": "assimilation",
+   "targets": "IRN",
+   "years": "2001-2010",
+   "curve": "linear",
+   "rationale": "Miliony Afgańczyków bez pełnego statusu, społeczności równoległe; Azerowie dobrze zintegrowani",
+   "start": 55,
+   "end": 50
+  },
+  {
+   "kind": "grade",
+   "name": "assimilation",
+   "targets": "IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "rationale": "Dalsze ograniczenie integracji migrantów i mniejszości (np. Kurdowie, Beludżowie)",
+   "start": 48,
+   "end": 45
+  },
+  {
+   "kind": "grade",
+   "name": "assimilation",
+   "targets": "IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "rationale": "Nasilenie problemów integracji: duża liczba Afgańczyków bez obywatelstwa i deportacje",
+   "start": 42,
+   "end": 40
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "IRN",
+   "years": "1990-1995",
+   "curve": "linear",
+   "rationale": "Konflikt kurdyjski z lat 90. (KDPI), zamachy i akcje w regionach przygranicznych; poziom umiarkowany",
+   "start": 50,
+   "end": 55
+  },
+  {
+   "kind": "grade",
+   "name": "violence risk",
+   "targets": "IRN",
+   "years": "2022-2025",
+   "curve": "linear",
+   "rationale": "2023-2025: zamach w Kermanie (2024), insurgencja w Sistanie i Beludżystanie, ataki Izraela i USA (2024, czerwiec 2025)",
+   "start": "current",
+   "end": 85,
+   "only_empty": true,
+   "sources": [
+    "Wikipedia (en), Background of the Twelve-Day War"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "civilization level",
+   "targets": "IRN",
+   "years": "2023-2025",
+   "curve": "linear",
+   "rationale": "2023 (79,9) kontynuowana; HDI Iranu ok. 0,80; lekki wzrost mimo wojny i kryzysu gospodarczego (2024-2025 bez oficjalnych danych HDI)",
+   "start": "current",
+   "end": 80.0,
+   "only_empty": true
+  },
+  {
+   "kind": "grade",
+   "name": "epidemic",
+   "targets": "IRN",
+   "years": "2020-2021",
+   "curve": "constant",
+   "rationale": "COVID-19: znaczna śmiertelność i zakłócenie życia w latach 2020-2021",
+   "start": 1,
+   "sources": [
+    "Wikipedia (en), COVID-19 pandemic in Iran"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "riots",
+   "targets": "IRN",
+   "years": "1999",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Studenckie protesty w lipcu 1999: wielodniowe starcia z policją w Teheranie, ogólnokrajowe echo",
+   "sources": [
+    "Wikipedia (en), 1999 Iranian student protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "riots",
+   "targets": "IRN",
+   "years": "2009",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Protesty powyborcze: skala ogólnokrajowa, starcia i ofiary",
+   "sources": [
+    "Wikipedia (en), 2009 Iranian presidential election protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "riots",
+   "targets": "IRN",
+   "years": "2017",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Protesty od grudnia 2017 w kilkudziesięciu miastach, zamieszki i ofiary",
+   "sources": [
+    "Wikipedia (en), 2017–2018 Iranian protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "riots",
+   "targets": "IRN",
+   "years": "2019",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Zamieszki paliwowe w listopadzie 2019: ogólnokrajowe, gwałtowne",
+   "sources": [
+    "Wikipedia (en), 2019–2020 Iranian protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "riots",
+   "targets": "IRN",
+   "years": "2022",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Ruch Kobieta-Życie-Wolność: masowe zamieszki wrzesień-grudzień 2022",
+   "sources": [
+    "Wikipedia (en), 2022 Iranian protests"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "riots",
+   "targets": "IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Protesty od 28 grudnia 2025 po krachu rialu, rozprzestrzenione na cały kraj (część roku 2025)",
+   "sources": [
+    "https://www.npr.org/2026/01/14/g-s1-105949/death-toll-crackdown-protests-iran"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "IRN",
+   "years": "1990-1992",
+   "curve": "linear",
+   "rationale": "Zmęczenie po wojnie z Irakiem (koniec 1988), straty ludzkie i gospodarcze; estymacja",
+   "start": 35,
+   "end": 25,
+   "sources": [
+    "Wikipedia (en), Iran–Iraq War"
+   ]
+  },
+  {
+   "kind": "grade",
+   "name": "war exhaustion",
+   "targets": "IRN",
+   "years": "1993-1995",
+   "curve": "linear",
+   "rationale": "Stopniowe zanikanie zmęczenia wojną; estymacja",
+   "start": 22,
+   "end": 10
+  }
+ ]
+}

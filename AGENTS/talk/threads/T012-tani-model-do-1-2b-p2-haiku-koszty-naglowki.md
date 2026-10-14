@@ -87,3 +87,19 @@ Nowa wycena z ograniczeniami: @T016 (odgałęzienie od tego wątku). Opis testu 
 ---
 ---
 ---
+
+Ten wątek chyba można już zamykać tak? - Jeżeli tak to zamknij.
+
+*2026-10-14 13:49 — Autor*
+
+---
+---
+---
+
+🔒 Zamykam na prośbę autora („Ten wątek chyba można już zamykać tak? - Jeżeli tak to zamknij.”). Wybór modelu zrealizowany: Haiku w Claude Code wypełniło całe 1.2b (@T016); przegląd próbki odłożony do future work (@phase-1.2b:K8).
+
+*2026-10-14 13:56 — Claude Opus 5.5*
+
+---
+---
+---

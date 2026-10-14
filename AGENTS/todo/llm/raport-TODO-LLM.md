@@ -374,3 +374,27 @@ Każdy wpis: `### [L…] tytuł`, co zrobiono, gdzie, jak sprawdzono, co został
 *2026-10-14 06:50 — Claude Opus 5.5*
 
 ---
+
+### [L34] Uruchamianie agentów 1.2b (Haiku w Claude Code)
+
+- 392/392 zadania (196 państw × A/B), 20 agentów Haiku naraz; kolejkę prowadził koordynator (`AGENTS/phases/phase-1.2b/queue.md`), agenci według `AGENTS/phases/phase-1.2b/prompt-agenta.md`.
+- 395 batchy (51 407 operacji) w `AGENTS/phases/phase-1.2b/batches/`; `missing` 100%, `validate` 0 błędów, `review` 784 skoki (315 w `net migration`, reszta uzasadniona zdarzeniami).
+- Przerwa 08:20–12:40 (miesięczny limit wydatków API): 4 przerwane zadania miały komplet danych, 13 uruchomionych ponownie.
+- Uzupełnienia koordynatora: `happiness` BTN i BLR, `confirm-default neighbours` SGP i BHR; nowe reguły w prompcie (relacje dwustronne tylko 2025, pliki tymczasowe, szacowanie `happiness` bez WHR).
+- Audyt: `AGENTS/phases/phase-1.2b/audit/audit-2026-10-14-1312.md`; raport: `AGENTS/phases/phase-1.2b/raport-wypelniania.md`.
+- Co zostało: decyzje K1–K8 (`AGENTS/phases/phase-1.2b/agents-issues-2.md`, @A33), potem poprawki @L40 i przegląd próbki (@A31).
+
+*2026-10-14 13:15 — Claude Opus 5.5*
+
+---
+
+### [L43] K3: wpisy 2025 (oraz podział @L40 na @L41–@L46)
+
+- Zgoda autora na @phase-1.2b:K3: batch `AGENTS/phases/phase-1.2b/batches-koordynator/K3-2025.json` (8 operacji, `--author claude-opus-5-5`): USA–YEM, GBR–YEM, ISR–PSE, KHM–THA 2025 z `in war` do `in war crisis`. `validate`: 0 błędów.
+- Lista pozostałych par 2025 (6 `in war`, 35 `in war crisis`) z rekomendacjami: `AGENTS/phases/phase-1.2b/plan-poprawek.md` (sekcja K3), czeka na @A36.
+- Pozostałe decyzje K1–K8: plany, raporty i koszty w `AGENTS/phases/phase-1.2b/plan-poprawek.md`, wyjaśnienie reguły „tylko 2025” w `AGENTS/phases/phase-1.2b/regula-2025.md`; zadania @A34–@A39 i @L41–@L46; K8 → `AGENTS/plan/future-work.md`.
+- Kopia zapasowa danych (@T016): `/home/karol/Pulpit/Python3.14/economics-model-backups/phase-1.2b-2026-10-14-1353.tar.gz` (4,4 MB: `narrated/` + `AGENTS/phases/phase-1.2b/`).
+
+*2026-10-14 13:56 — Claude Opus 5.5*
+
+---

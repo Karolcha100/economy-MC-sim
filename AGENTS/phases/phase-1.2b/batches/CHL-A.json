@@ -1,0 +1,50 @@
+{
+  "rationale": "CHL, zadanie A (statystyki państwa), tryb oszczędny: wartości z wiedzy o historii Chile; poparcie rządu 2022–2025 wg sondaży Cadem (wyszukiwarka, 2025); wartości startowe z WGI/HDI tam, gdzie brakowało lat",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "1990-1993", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "1994-2005", "curve": "constant", "start": 78},
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "2006-2013", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "2014-2017", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "2018", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "2019", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "2020-2022", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "CHL", "years": "2023-2025", "curve": "constant", "start": 68},
+
+    {"kind": "grade", "name": "corruption", "targets": "CHL", "years": "1990-1995", "curve": "linear", "start": 23, "end": 21},
+    {"kind": "grade", "name": "corruption", "targets": "CHL", "years": "2023-2025", "curve": "linear", "start": 31.5, "end": 30.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "CHL", "years": "1990-2000", "curve": "linear", "start": 55, "end": 59},
+    {"kind": "grade", "name": "happiness", "targets": "CHL", "years": "2001-2010", "curve": "linear", "start": 59, "end": 61},
+
+    {"kind": "grade", "name": "civilization level", "targets": "CHL", "years": "2024-2025", "curve": "linear", "start": 88.2, "end": 88.6},
+
+    {"kind": "grade", "name": "violence risk", "targets": "CHL", "years": "1990-1995", "curve": "linear", "start": 34, "end": 36},
+    {"kind": "grade", "name": "violence risk", "targets": "CHL", "years": "2023-2025", "curve": "linear", "start": 47.5, "end": 46},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "CHL", "years": "1990-2025", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "CHL", "years": "1990-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "1990-1993", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "1994-1999", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2000-2005", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2006-2009", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2010-2013", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2014-2017", "curve": "linear", "start": 42, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2018-2019", "curve": "linear", "start": 45, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2020-2021", "curve": "constant", "start": 22},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2022", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "CHL", "years": "2023-2025", "curve": "linear", "start": 35, "end": 32},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "CHL", "years": "1990-2018", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CHL", "years": "2019-2021", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "CHL", "years": "2022-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "assimilation", "targets": "CHL", "years": "1990-2014", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "assimilation", "targets": "CHL", "years": "2015-2019", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "CHL", "years": "2020-2022", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "assimilation", "targets": "CHL", "years": "2023-2025", "curve": "constant", "start": 62},
+
+    {"kind": "grade", "name": "riots", "targets": "CHL", "years": "2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "CHL", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

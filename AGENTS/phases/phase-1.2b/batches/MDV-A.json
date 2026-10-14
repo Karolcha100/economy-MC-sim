@@ -1,0 +1,71 @@
+{
+  "rationale": "MDV (Malediwy), zadanie A (statystyki państwa), tryb oszczędny. Stabilność: autorytarne rządy Gayoom (1990-2007) przewidywalne, więc wysoko; zamieszki w Male 2004 i kryzys w 2008 (pierwsze wielopartyjne wybory) obniżają wynik; kryzys 2012 (rezygnacja Nasheeda, zamieszki) i stan wyjątkowy 2018 to najniższe punkty; 2019-2022 stabilna zmiana władzy; 2023 zmiana po wyborach (Muizzu), 2024 supermajority PNC, 2025 spadek wiarygodności (przegrana w Male, ORF 2025: 'niestabilna administracja'). Korupcja i przemoc: 1990-1995 i 2023-2025 płynnie z wartościami z 1996 i 2022. Szczęście: estymacja 1990-2018 (brak Cantril przed 2020), łączy się z 2019-2020. Cywilizacja: 1990-1999 wzrost do wartości z 2000 (HDI), 2024-2025 wzrost jak w 2020-2023. Rewanżyzm społeczny i rządowy: brak roszczeń terytorialnych, wartości niskie; 2023-2025 minimalny wzrost rządowego (dystans wobec Indii). Popularność rządu: estymacja bez sondaży (Gayoom 1990-2003 wybory bez konkurencji ~90%, ale z niezadowoleniem; 2012 dołek; 2019-2020 poparcie dla Solih; 2024 wygrana, 2025 spadek). Wrażliwość na koszty: rośnie z zależnością od turystyki i kryzysem długu 2022-2025. Asymilacja: spadek wraz z napływem robotników migrujących z Bangladeszu i Sri Lanki (migrant-stock 4% -> 15%). Flagi: riots 2004 i 2012 (zamieszki w Male), epidemic 2020-2021 (COVID, załamanie turystyki). Pozostałe flagi: wartość domyślna. Istniejące wartości nietknięte (only_empty). Net migration: nietknięte (dane).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "1990-1999", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2000-2003", "curve": "linear", "start": 70, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2004", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2005-2007", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2008", "curve": "constant", "start": 58},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2009-2011", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2012", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2013", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2014-2017", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2018", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2019-2022", "curve": "linear", "start": 65, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2023-2024", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "stability", "targets": "MDV", "years": "2025", "curve": "constant", "start": 58},
+
+    {"kind": "grade", "name": "corruption", "targets": "MDV", "years": "1990-1995", "curve": "linear", "start": 57.0, "end": 56.6, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MDV", "years": "2023-2025", "curve": "linear", "start": 58.5, "end": 60.0, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MDV", "years": "1990-1995", "curve": "linear", "start": 33.0, "end": 32.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MDV", "years": "2023-2025", "curve": "linear", "start": 37.0, "end": 38.0, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "1990-1999", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "2000-2004", "curve": "linear", "start": 50, "end": 49, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "2005-2010", "curve": "linear", "start": 49, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "2011", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "2012", "curve": "constant", "start": 46, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "2013-2017", "curve": "linear", "start": 47, "end": 49, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "2018", "curve": "constant", "start": 48, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MDV", "years": "2021-2025", "curve": "linear", "start": 52, "end": 53, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MDV", "years": "1990-1999", "curve": "linear", "start": 55, "end": 63.5, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "MDV", "years": "2024-2025", "curve": "linear", "start": 77.0, "end": 77.6, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MDV", "years": "1990-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "MDV", "years": "1990-2022", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "MDV", "years": "2023-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "1990-2003", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2004", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2005-2007", "curve": "linear", "start": 70, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2008", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2009-2010", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2011", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2012", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2013", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2014-2017", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2018", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2019-2020", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2021-2022", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2023", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2024", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "MDV", "years": "2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MDV", "years": "1990-2007", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MDV", "years": "2008-2011", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MDV", "years": "2012-2019", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MDV", "years": "2020-2022", "curve": "linear", "start": 62, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MDV", "years": "2023-2025", "curve": "constant", "start": 65},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MDV", "years": "1990-1999", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "MDV", "years": "2000-2010", "curve": "linear", "start": 60, "end": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "MDV", "years": "2011-2019", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "MDV", "years": "2020-2025", "curve": "linear", "start": 40, "end": 38},
+
+    {"kind": "grade", "name": "riots", "targets": "MDV", "years": "2004", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "MDV", "years": "2012", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "MDV", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

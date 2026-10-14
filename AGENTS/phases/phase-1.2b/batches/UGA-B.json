@@ -1,0 +1,1933 @@
+{
+ "rationale": "UGA, zadanie B (oszczedny): relacje od UGA do 21 partnerow (sasiedzi KEN/TZA/RWA/COD/SSD/SDN, SOM i ETH, EGY, mocarstwa i partnerzy handlowi: USA, CHN, GBR, DEU, FRA, JPN, IND, ARE, ISR, TUR, RUS, ZAF). Kluczowe okresy: wojna w DRC 1998-2003 (COD -40/rpow 60), zerwane stosunki z SDN 1995-2001, AMISOM od 2007 (SOM), SSD od 2011 i wsparcie UPDF od 2016 i marca 2025. Dwustronne bez zmian: 2025 nie ma nowego pewnego zdarzenia (UGA-RWA: ocieplenie 2023-2025 przy zarzutach raportu ONZ z lipca 2025 o DRC; UGA-SSD: UPDF za zgoda Kiira; UGA-COD: wspolne operacje Shujaa) - do przegladu.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:USA,UGA:GBR,UGA:DEU,UGA:JPN,UGA:ISR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:DEU,UGA:JPN,UGA:ISR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:DEU,UGA:JPN,UGA:ISR",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:DEU,UGA:JPN,UGA:ARE",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:GBR,UGA:DEU,UGA:JPN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:KEN,UGA:JPN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:KEN,UGA:RWA,UGA:JPN",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:KEN,UGA:JPN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:KEN,UGA:JPN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:KEN,UGA:SSD,UGA:JPN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:CHN,UGA:JPN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:JPN",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:GBR,UGA:JPN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:GBR,UGA:JPN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:GBR,UGA:JPN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:KEN,UGA:FRA,UGA:JPN,UGA:IND,UGA:ISR,UGA:ZAF",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:KEN,UGA:FRA,UGA:JPN,UGA:IND,UGA:ISR,UGA:ZAF",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:KEN,UGA:CHN,UGA:FRA,UGA:JPN,UGA:IND,UGA:ISR,UGA:ZAF",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:KEN,UGA:CHN,UGA:FRA,UGA:JPN,UGA:IND,UGA:ISR,UGA:ZAF",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:KEN,UGA:CHN,UGA:FRA,UGA:JPN,UGA:IND,UGA:ISR,UGA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:RWA,UGA:COD,UGA:SDN,UGA:ETH,UGA:EGY,UGA:CHN,UGA:DEU,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:RWA,UGA:COD,UGA:SDN,UGA:ETH,UGA:EGY,UGA:DEU,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:RWA,UGA:COD,UGA:SDN,UGA:ETH,UGA:EGY,UGA:DEU,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:RWA,UGA:COD,UGA:SDN,UGA:ETH,UGA:EGY,UGA:DEU,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:RWA,UGA:COD,UGA:SDN,UGA:ETH,UGA:EGY,UGA:DEU,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:SDN,UGA:ETH,UGA:GBR,UGA:DEU,UGA:ZAF",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:SDN,UGA:ETH,UGA:GBR,UGA:DEU,UGA:ZAF",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:SDN,UGA:ETH,UGA:CHN,UGA:GBR,UGA:DEU,UGA:ZAF",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:SDN,UGA:ETH,UGA:CHN,UGA:GBR,UGA:DEU,UGA:ZAF",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:KEN,UGA:TZA,UGA:SDN,UGA:ETH,UGA:CHN,UGA:GBR,UGA:DEU,UGA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:KEN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:KEN",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:KEN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:KEN,UGA:CHN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:KEN,UGA:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TZA,UGA:GBR,UGA:DEU",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TZA,UGA:GBR,UGA:DEU",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TZA,UGA:RWA,UGA:GBR,UGA:DEU",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TZA,UGA:DEU",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TZA,UGA:DEU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:TZA,UGA:ETH,UGA:USA,UGA:DEU",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:TZA,UGA:ETH,UGA:USA,UGA:DEU",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:TZA,UGA:ETH,UGA:USA,UGA:DEU",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:TZA,UGA:ETH,UGA:USA,UGA:DEU",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:TZA,UGA:ETH,UGA:USA,UGA:DEU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:TZA,UGA:USA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:TZA,UGA:USA,UGA:CHN",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:TZA,UGA:USA,UGA:ARE",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:TZA,UGA:COD,UGA:USA",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:TZA,UGA:COD,UGA:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RWA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RWA,UGA:ETH,UGA:CHN,UGA:IND",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RWA",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RWA,UGA:RUS",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RWA,UGA:FRA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:RWA,UGA:USA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:RWA,UGA:FRA,UGA:ARE,UGA:ZAF",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:RWA,UGA:IND",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:RWA,UGA:ETH,UGA:DEU,UGA:IND,UGA:ISR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:RWA,UGA:ETH,UGA:DEU,UGA:IND,UGA:ISR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:RWA,UGA:ETH,UGA:DEU,UGA:IND,UGA:ARE,UGA:ISR",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:RWA,UGA:ETH,UGA:DEU,UGA:IND,UGA:ISR",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:RWA,UGA:ETH,UGA:DEU,UGA:IND,UGA:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:RWA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:RWA",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:RWA,UGA:COD,UGA:GBR",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:RWA,UGA:COD,UGA:GBR",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:RWA,UGA:COD,UGA:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:RWA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:RWA",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:RWA",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:RWA",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:RWA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:RWA,UGA:COD,UGA:ETH,UGA:CHN,UGA:GBR,UGA:JPN,UGA:IND,UGA:ARE,UGA:TUR,UGA:ZAF",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:RWA,UGA:COD,UGA:ETH,UGA:GBR,UGA:JPN,UGA:IND,UGA:ARE,UGA:TUR,UGA:ZAF",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:RWA,UGA:ETH,UGA:GBR,UGA:JPN,UGA:IND,UGA:TUR,UGA:ZAF",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:RWA,UGA:ETH,UGA:GBR,UGA:JPN,UGA:IND,UGA:TUR,UGA:ZAF",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:RWA,UGA:ETH,UGA:GBR,UGA:JPN,UGA:IND,UGA:TUR,UGA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:COD",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:COD",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:COD",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:COD",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:COD",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:COD",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:COD,UGA:SDN",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": -40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:COD",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:COD",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:COD",
+   "years": "2025",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:COD,UGA:SDN,UGA:EGY,UGA:FRA,UGA:ARE,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:COD,UGA:SDN,UGA:EGY,UGA:FRA,UGA:ARE,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:COD,UGA:SDN,UGA:EGY,UGA:FRA,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:COD,UGA:SDN,UGA:EGY,UGA:FRA,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:COD,UGA:SDN,UGA:EGY,UGA:FRA,UGA:TUR,UGA:RUS,UGA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:COD,UGA:GBR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:COD",
+   "years": "1995-1997",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:COD",
+   "years": "1998-2003",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:COD",
+   "years": "2004",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:COD",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:COD",
+   "years": "1995-1997",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:COD",
+   "years": "1998-2003",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:COD",
+   "years": "2004",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:COD",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:COD",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:COD",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:COD",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 8
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SSD",
+   "years": "2011-2015",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SSD",
+   "years": "2016-2024",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SSD",
+   "years": "2025",
+   "curve": "constant",
+   "start": 75
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SSD",
+   "years": "2011-2015",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SSD",
+   "years": "2016-2024",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:SSD",
+   "years": "2011-2015",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:SSD",
+   "years": "2016-2024",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:SSD",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:SSD",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SDN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SDN",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": -50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SDN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SDN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SDN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SDN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": -15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SDN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SDN",
+   "years": "2025",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SDN,UGA:EGY,UGA:CHN,UGA:ARE,UGA:TUR,UGA:RUS",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SDN,UGA:EGY,UGA:CHN,UGA:ARE,UGA:TUR,UGA:RUS",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SDN,UGA:EGY,UGA:ARE,UGA:TUR,UGA:RUS",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SDN,UGA:EGY,UGA:ARE,UGA:TUR,UGA:RUS",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SDN,UGA:EGY,UGA:ARE,UGA:TUR,UGA:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:SDN,UGA:DEU,UGA:ISR,UGA:RUS",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:SDN,UGA:DEU,UGA:ISR,UGA:RUS",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:SDN,UGA:DEU,UGA:ISR,UGA:RUS",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:SDN,UGA:DEU,UGA:ISR,UGA:RUS",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:SDN,UGA:DEU,UGA:ISR,UGA:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 3
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:ETH,UGA:IND",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:ETH,UGA:IND",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:ETH,UGA:ZAF",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:ETH,UGA:USA,UGA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:ETH,UGA:ISR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:ETH,UGA:ISR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:ETH,UGA:ISR",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:ETH,UGA:CHN,UGA:GBR,UGA:ISR",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:ETH,UGA:CHN,UGA:GBR,UGA:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SOM",
+   "years": "1990-2006",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SOM",
+   "years": "2007-2024",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:SOM",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SOM",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:SOM",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": -20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:SOM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SOM",
+   "years": "1990-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:SOM",
+   "years": "2007-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:SOM",
+   "years": "1990-2006",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:SOM",
+   "years": "2007-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:SOM",
+   "years": "1990-2006",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:SOM",
+   "years": "2007-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:SOM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:EGY,UGA:FRA,UGA:ARE",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:EGY,UGA:FRA,UGA:ARE",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:EGY,UGA:RUS",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:EGY",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:EGY",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:EGY,UGA:RUS",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:EGY,UGA:RUS",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:EGY,UGA:RUS",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:EGY,UGA:RUS",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:EGY,UGA:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:EGY,UGA:USA,UGA:CHN,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:EGY,UGA:USA,UGA:CHN,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:EGY,UGA:USA,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:EGY,UGA:USA,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UGA:EGY,UGA:USA,UGA:FRA,UGA:JPN,UGA:IND,UGA:ARE,UGA:ISR,UGA:TUR,UGA:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:EGY,UGA:FRA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:EGY,UGA:FRA",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:EGY,UGA:FRA",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:EGY,UGA:FRA",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:EGY,UGA:FRA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 2
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:USA,UGA:GBR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:USA,UGA:CHN,UGA:GBR",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:USA",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:USA",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:USA",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:USA",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:USA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:USA",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:USA",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:USA,UGA:CHN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:USA,UGA:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:USA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:USA",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:USA",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:USA",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:CHN",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:CHN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 70
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:CHN,UGA:ARE,UGA:TUR,UGA:ZAF",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:CHN,UGA:FRA,UGA:ZAF",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:CHN,UGA:IND",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:CHN,UGA:GBR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:CHN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:CHN,UGA:GBR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:CHN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:CHN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:CHN",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:GBR,UGA:ISR",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:GBR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UGA:GBR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:GBR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:GBR",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:GBR",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UGA:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:FRA",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:FRA",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:FRA",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:FRA,UGA:ARE,UGA:ZAF",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:FRA,UGA:ARE,UGA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:IND,UGA:TUR",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:IND,UGA:TUR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:IND",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:IND",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:IND",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:ARE,UGA:TUR,UGA:ZAF",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:ARE,UGA:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:ARE,UGA:TUR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:ARE",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UGA:ARE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:ARE",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UGA:ARE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:TUR",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:TUR",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TUR",
+   "years": "2005-2014",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TUR",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UGA:TUR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RUS,UGA:ZAF",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RUS",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UGA:ZAF",
+   "years": "1995-2004",
+   "curve": "constant",
+   "start": 40
+  }
+ ]
+}

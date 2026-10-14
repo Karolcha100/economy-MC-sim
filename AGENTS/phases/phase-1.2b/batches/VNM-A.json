@@ -1,0 +1,52 @@
+{
+  "rationale": "VNM, zadanie A (tryb oszczędny): jednopartyjne państwo o stabilnych, przewidywalnych instytucjach (zjazdy partii, płynne sukcesje; kryzys 2023 po dymisjach prezydentów; 2024-2025 konsolidacja władzy); przemoc niska, wartości WGI; nastroje: nacjonalizm morski (Morze Południowochińskie, 2011 i 2014), brak wiarygodnych sondaży; flagi: zamieszki 2014, COVID 2020-2021; wojna 1990-1995 jako zmęczenie po Kambodży.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "1990-1995", "curve": "linear", "start": 60, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "1996-2005", "curve": "linear", "start": 66, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "2006-2010", "curve": "linear", "start": 72, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "2011-2015", "curve": "linear", "start": 74, "end": 73},
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "2016-2020", "curve": "linear", "start": 73, "end": 75},
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "2021-2022", "curve": "linear", "start": 74, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "2023-2023", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "stability", "targets": "VNM", "years": "2024-2025", "curve": "linear", "start": 70, "end": 72},
+
+    {"kind": "grade", "name": "corruption", "targets": "VNM", "years": "1990-1995", "curve": "linear", "start": 61, "end": 59.9},
+    {"kind": "grade", "name": "corruption", "targets": "VNM", "years": "2023-2025", "curve": "linear", "start": 55.4, "end": 54.0},
+
+    {"kind": "grade", "name": "violence risk", "targets": "VNM", "years": "1990-1995", "curve": "linear", "start": 42, "end": 40},
+    {"kind": "grade", "name": "violence risk", "targets": "VNM", "years": "2023-2025", "curve": "constant", "start": 50.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "VNM", "years": "1990-2010", "curve": "linear", "start": 42, "end": 53},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "VNM", "years": "1990-2009", "curve": "linear", "start": 18, "end": 20},
+    {"kind": "grade", "name": "social revanchism", "targets": "VNM", "years": "2010-2014", "curve": "linear", "start": 22, "end": 30},
+    {"kind": "grade", "name": "social revanchism", "targets": "VNM", "years": "2015-2025", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "VNM", "years": "1990-2004", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "VNM", "years": "2005-2014", "curve": "linear", "start": 8, "end": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "VNM", "years": "2015-2025", "curve": "linear", "start": 16, "end": 18},
+
+    {"kind": "grade", "name": "government popularity", "targets": "VNM", "years": "1990-1995", "curve": "linear", "start": 55, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "VNM", "years": "1996-2010", "curve": "linear", "start": 62, "end": 68},
+    {"kind": "grade", "name": "government popularity", "targets": "VNM", "years": "2011-2020", "curve": "linear", "start": 68, "end": 75},
+    {"kind": "grade", "name": "government popularity", "targets": "VNM", "years": "2021-2022", "curve": "linear", "start": 75, "end": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "VNM", "years": "2023-2023", "curve": "constant", "start": 66},
+    {"kind": "grade", "name": "government popularity", "targets": "VNM", "years": "2024-2025", "curve": "linear", "start": 67, "end": 68},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "VNM", "years": "1990-1995", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "VNM", "years": "1996-2010", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "VNM", "years": "2011-2019", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "VNM", "years": "2020-2025", "curve": "linear", "start": 45, "end": 43},
+
+    {"kind": "grade", "name": "assimilation", "targets": "VNM", "years": "1990-2000", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "assimilation", "targets": "VNM", "years": "2001-2025", "curve": "linear", "start": 58, "end": 60},
+
+    {"kind": "grade", "name": "civilization level", "targets": "VNM", "years": "2024-2025", "curve": "linear", "start": 77.2, "end": 77.8},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "VNM", "years": "1990-1995", "curve": "linear", "start": 30, "end": 5},
+
+    {"kind": "grade", "name": "riots", "targets": "VNM", "years": "2014-2014", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "VNM", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

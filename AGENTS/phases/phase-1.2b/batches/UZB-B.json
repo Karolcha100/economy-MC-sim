@@ -1,0 +1,1029 @@
+{
+ "rationale": "UZB, zadanie B: relacje od Uzbekistanu do 23 partnerów: sąsiedzi (AFG, KAZ, KGZ, TJK, TKM), mocarstwa i partnerzy (RUS, CHN, USA, UKR, TUR, IRN, AZE, IND, PAK, KOR, JPN, DEU, FRA, GBR, BLR, SAU, ARE, ISR). Oszczędny tryb: jedno uzasadnienie dla batcha. Kluczowe: RUS 2005-11 po Andiżanie i wyjściu z CSTO 2012 (zmiany dyplomacji), CHN od 2016 (partnerstwo strategiczne), USA 2005-08 chłodne po wypędzeniu wojsk z Karszi-Chanabad, TKM od 2017 ocieplenie, KGZ 2010 napięcie po Osz, TJK 2017+ ocieplenie (traktat trójstronny KGZ-TJK-UZB 2025 o punkcie styku granic), AFG 1996-2001 wrogi reżim talibów, 2021-25 pragmatyczne kontakty bez uznania (handel ok. 1,7 mld USD wg jednego źródła 2025), USA 2025 szczyt C5+1 w Waszyngtonie (6 XI 2025) jako ocieplenie. Hybrydy 0: brak działań UZB poniżej wojny. Dwustronne: brak zmian (brak wojny i kryzysu wojennego z UZB w 2025; wpis UCDP TJK-UZB 1992 zostawiony).",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TJK",
+   "years": "1991-1992",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:AFG",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TKM",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:RUS",
+   "years": "1991-1998",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:USA",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:CHN",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TUR,UZB:KOR",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:IRN,UZB:SAU",
+   "years": "1991-2000",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:KGZ",
+   "years": "1991-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:PAK,UZB:ISR",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:FRA",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:IND,UZB:JPN,UZB:DEU,UZB:GBR,UZB:BLR",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:ARE",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:KAZ",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TJK",
+   "years": "1993-1996",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:AFG",
+   "years": "1996-2001",
+   "curve": "constant",
+   "start": -30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TKM",
+   "years": "1997-2006",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TJK",
+   "years": "1997-2016",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:RUS",
+   "years": "1999-2004",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:CHN",
+   "years": "2000-2004",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:USA",
+   "years": "2000-2004",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TUR",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:KOR",
+   "years": "2000-2010",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:IRN",
+   "years": "2001-2016",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:SAU",
+   "years": "2001-2016",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:AFG",
+   "years": "2002-2020",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:USA",
+   "years": "2005-2008",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:RUS",
+   "years": "2005-2011",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:CHN",
+   "years": "2005-2015",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TKM",
+   "years": "2007-2016",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:USA",
+   "years": "2009-2015",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TUR",
+   "years": "2009-2016",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:KGZ",
+   "years": "2010-2016",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:KOR",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:RUS",
+   "years": "2012-2016",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:USA",
+   "years": "2016-2021",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:IRN,UZB:ISR",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:RUS,UZB:PAK,UZB:FRA",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:DEU,UZB:GBR,UZB:TJK",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:IND,UZB:JPN,UZB:BLR",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:SAU",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:TUR,UZB:KOR,UZB:ARE,UZB:KGZ",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:KAZ,UZB:TKM",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 65
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:AFG",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "UZB:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TJK",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:AFG",
+   "years": "1991-2001",
+   "curve": "constant",
+   "start": -10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:RUS",
+   "years": "1991-2004",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:USA",
+   "years": "1991-2004",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TKM",
+   "years": "1991-2006",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TUR",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:KGZ",
+   "years": "1991-2009",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:CHN",
+   "years": "1991-2015",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:KAZ",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:IRN,UZB:SAU,UZB:ISR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:PAK,UZB:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:FRA,UZB:GBR,UZB:ARE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:JPN,UZB:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:IND",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:KOR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TJK",
+   "years": "1997-2016",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:AFG",
+   "years": "2002-2020",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:USA",
+   "years": "2005-2015",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:RUS",
+   "years": "2005-2021",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TKM",
+   "years": "2007-2016",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TUR",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:KGZ",
+   "years": "2010-2016",
+   "curve": "constant",
+   "start": -5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:USA",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TJK",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:TKM",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:KGZ",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:KAZ",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:AFG",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": -15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "UZB:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:USA",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:RUS",
+   "years": "1991-2004",
+   "curve": "constant",
+   "start": 55
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:CHN",
+   "years": "1991-2015",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:TUR,UZB:IRN,UZB:AZE,UZB:IND,UZB:PAK,UZB:JPN,UZB:DEU,UZB:FRA,UZB:GBR,UZB:SAU,UZB:ARE,UZB:ISR,UZB:AFG",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:UKR,UZB:KOR,UZB:BLR,UZB:KAZ,UZB:TJK,UZB:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:USA",
+   "years": "2000-2004",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:RUS",
+   "years": "2005-2011",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:USA",
+   "years": "2005-2015",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:RUS",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:USA",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "UZB:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UZB:RUS",
+   "years": "1991-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UZB:CHN",
+   "years": "1991-2015",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UZB:TUR,UZB:IRN,UZB:AZE,UZB:PAK,UZB:DEU,UZB:FRA,UZB:GBR,UZB:BLR,UZB:ISR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UZB:USA,UZB:UKR,UZB:IND,UZB:KOR,UZB:JPN,UZB:SAU,UZB:ARE,UZB:KGZ,UZB:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UZB:KAZ,UZB:TJK,UZB:AFG",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UZB:RUS",
+   "years": "2005-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "UZB:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:RUS",
+   "years": "1991-1998",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:USA",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:CHN",
+   "years": "1991-2015",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:UKR,UZB:TUR,UZB:IRN,UZB:AZE,UZB:IND,UZB:PAK,UZB:KOR,UZB:JPN,UZB:DEU,UZB:FRA,UZB:GBR,UZB:BLR,UZB:SAU,UZB:ARE,UZB:ISR,UZB:KAZ,UZB:KGZ,UZB:TJK,UZB:AFG",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:RUS",
+   "years": "1999-2004",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:USA",
+   "years": "2000-2004",
+   "curve": "constant",
+   "start": 25
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:RUS",
+   "years": "2005-2011",
+   "curve": "constant",
+   "start": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:USA",
+   "years": "2005-2015",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:RUS",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:USA",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "UZB:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UZB:RUS,UZB:CHN,UZB:USA,UZB:UKR,UZB:TUR,UZB:IRN,UZB:AZE,UZB:IND,UZB:PAK,UZB:KOR,UZB:JPN,UZB:DEU,UZB:FRA,UZB:GBR,UZB:BLR,UZB:SAU,UZB:ARE,UZB:ISR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UZB:KGZ,UZB:TJK,UZB:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UZB:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "UZB:AFG",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:CHN",
+   "years": "1991-2004",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:RUS",
+   "years": "1991-2004",
+   "curve": "constant",
+   "start": 35
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:TKM",
+   "years": "1991-2016",
+   "curve": "constant",
+   "start": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:USA,UZB:UKR,UZB:TUR,UZB:IRN,UZB:AZE,UZB:IND,UZB:PAK,UZB:JPN,UZB:DEU,UZB:FRA,UZB:GBR,UZB:BLR,UZB:SAU,UZB:ARE,UZB:ISR,UZB:KGZ,UZB:AFG",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:KOR,UZB:KAZ,UZB:TJK",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:CHN",
+   "years": "2005-2015",
+   "curve": "constant",
+   "start": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:RUS",
+   "years": "2005-2021",
+   "curve": "constant",
+   "start": 50
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:CHN",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:TKM",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "UZB:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "UZB:RUS,UZB:CHN,UZB:USA,UZB:UKR,UZB:TUR,UZB:IRN,UZB:AZE,UZB:IND,UZB:PAK,UZB:KOR,UZB:JPN,UZB:DEU,UZB:FRA,UZB:GBR,UZB:BLR,UZB:SAU,UZB:ARE,UZB:ISR,UZB:KAZ,UZB:KGZ,UZB:TJK,UZB:TKM,UZB:AFG",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 0
+  }
+ ]
+}

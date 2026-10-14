@@ -1,0 +1,1703 @@
+{
+ "rationale": "ROU, zadanie B: relacje od ROU do 18 partnerow (sasiedzi, mocarstwa, UE/NATO, Rosja); hybrid attacks = domyslne 0 (ROU nie prowadzi dzialan hybrydowych); in war 2025 = 0 (brak wojny otwartej); in war crisis 2025 RUS = 1 (drony)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:UKR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:UKR",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:UKR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:UKR",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Sasiad (granica ladowa). Uznanie 1991, traktat o dobrym sasiedztwie 1997; napiecia wokol mniejszosci rumunskiej w Bukowinie i ukrainskiego prawa oswiatowego (2017); po 2022 silne poparcie Rumunii, korytarz zbozowy i zeglugi Dunajem; opinia publiczna zyczliwsza po 2022 (uchodzcy)."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:MDA",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:MDA",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:MDA",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:MDA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:MDA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa.",
+   "sources": [
+    "Romanian-Moldovan Unification Remains Unlikely, Despite Moldovan President's Endorsement, Stratfor, https://worldview.stratfor.com/article/romanian-moldovan-unification-remains-unlikely-despite-moldovan-presidents-endorsement"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:MDA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:MDA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:MDA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:MDA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:MDA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:MDA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Sasiad, wspolny jezyk. Rumunia uznala Moldawie w 1991; po 2009 Rumunia wspiera sciezke europejska Moldawii; w latach 2022-2025 Rumunia to glowny rzecznik i partner Kiszyniowa (UE, infrastruktura, mosty, energia). Zjednoczenie to dyskusja, nie stan; opinia rumunska zyczliwa."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:HUN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:HUN",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:HUN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:HUN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:HUN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:HUN",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:HUN",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:HUN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban.",
+   "sources": [
+    "Romania's nationalist candidate reaches out to Orban and Hungarian minority, Euronews, 2025-05-08, https://www.euronews.com/my-europe/2025/05/08/george-simion-tells-euronews-ill-follow-in-orbans-footsteps-hungarians-will-be-our-partner"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:HUN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:HUN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:HUN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:HUN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:HUN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad, sojusznik NATO i UE. Napiecia o mniejszosc wegierska w Siedmiogrodzie (Targu Mures 1990, spory o autonomie). Traktat podstawowy 1996 uspokoil relacje; od 2014 retoryka Orbana (autonomia, 'Wegry dla Wegrow') chlodzi opinie rumunska. Zrodla dla 2025: wybory prezydenckie w Rumunii, UDMR i Orban."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:BGR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:BGR",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:BGR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad, UE i NATO; Dunaj i mosty graniczne; bez powaznych sporow w okresie 1990-2025; opinia obojetna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:SRB",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:SRB",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Sasiad (SRB = ciaglosc Jugoslawii). Wojny jugoslowianskie: Rumunia poza konfliktem, stosunki poprawne; mniejszosc wlaska (Vlahi) w Serbii; brak istotnej relacji gospodarczej."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:RUS",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:RUS",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna.",
+   "sources": [
+    "Romania Expels 2 Russian Diplomats After 'Interference' Claim, The Moscow Times, 2025-03-05, https://www.themoscowtimes.com/2025/03/05/romania-expels-2-russian-diplomats-after-interference-claim-a88262",
+    "Moscow responds to Bucharest with expulsion of two Romanian diplomats, Romania Insider, kwiecien 2025, https://www.romania-insider.com/russia-expels-romanian-diplomats-april-2025"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:RUS",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -65,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna.",
+   "sources": [
+    "Romania Expels 2 Russian Diplomats After 'Interference' Claim, The Moscow Times, 2025-03-05, https://www.themoscowtimes.com/2025/03/05/romania-expels-2-russian-diplomats-after-interference-claim-a88262"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:RUS",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:RUS",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:RUS",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:RUS",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:RUS",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Sasiad do 1991 (ZSRR = RUS). Po 1991 poprawnosc, potem ochlodzenie: Krym 2014 (Rumunia potepila aneksje, wzmocnienie NATO), pelna wojna 2022 (chlodne stosunki, wydalenia: 2023 - 40 osob; marzec i kwiecien 2025 - wydalenie attache wojskowego i zastepcy, a Rosja odpowiedziala wydaleniem dwoch rumunskich dyplomatow). Opinia publiczna po 2022 bardzo niechetna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:USA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:USA",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:USA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014.",
+   "sources": [
+    "Romania monthly briefing: Foreign Policy Goals of the new Romanian President Nicusor Dan, China-CEE Institute, 2025-07-30, https://china-cee.eu/2025/07/30/romania-monthly-briefing-foreign-policy-goals-of-the-new-romanian-president-nicusor-dan/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:USA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:USA",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:USA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:USA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:USA",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:USA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014.",
+   "sources": [
+    "United States reduces military presence in Romania, other Eastern Flank states, Romania Insider, 2025-10, https://www.romania-insider.com/united-states-reduces-military-presence-romania-oct-2025",
+    "Romania allows US to bring more troops to Black Sea base for Middle East monitoring, Romania Insider, 2025-09, https://www.romania-insider.com/romania-usa-troops-middle-east-sept-2025"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner strategiczny od 1997; bazy (Mihail Kogalniceanu, Deveselu, Campia Turzii); wysokie poparcie rumunskiej elity i opinii. Po 2025 prezydent Dan zapowiada rozwiniecie partnerstwa, ale USA wycofaly ok. 800 zolnierzy (pazdziernik 2025): realna zaleznosc bezpieczenstwa 30 od 2014."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:DEU",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:DEU",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:DEU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:DEU",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:DEU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:DEU",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:DEU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Najwazniejszy partner handlowy Rumunii i kluczowy w UE; wysokie zaufanie rzadu; opinia szacunek, emigracja zarobkowa do Niemiec."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:FRA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:FRA",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:FRA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Partner UE i NATO, kulturowo bliski; umiarkowana zaleznosc gospodarcza (inwestycje, motoryzacja)."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:ITA",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:ITA",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE; duza diaspora rumunska we Wloszech; wazny handel; opinia przychylna."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:GBR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:GBR",
+   "years": "1996-2019",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner (do 2020 w UE); stosunki dobre, po Brexicie chlodniejsze; duza diaspora."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:TUR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:TUR",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner NATO i Morza Czarnego (BSEC); wspolpraca umiarkowana, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:POL",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:POL",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:POL",
+   "years": "2004-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner flanki wschodniej NATO i regionalny (Europa Srodkowa); wspolpraca blizsza po 2022; bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:CHN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:CHN",
+   "years": "1996-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:CHN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:CHN",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:CHN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner handlowo-inwestycyjny (rosnacy po 2014); dyplomacja poprawna; opinia obojetna; brak istotnej zaleznosci politycznej."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner UE; diaspora rumunska w Hiszpanii; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Partner UE; diaspora rumunska w Hiszpanii; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE; diaspora rumunska w Hiszpanii; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE; diaspora rumunska w Hiszpanii; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner UE; diaspora rumunska w Hiszpanii; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE; diaspora rumunska w Hiszpanii; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:ESP",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE; diaspora rumunska w Hiszpanii; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner UE; austriackie banki (m.in. Raiffeisen, Erste) wazne dla sektora bankowego; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Partner UE; austriackie banki (m.in. Raiffeisen, Erste) wazne dla sektora bankowego; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE; austriackie banki (m.in. Raiffeisen, Erste) wazne dla sektora bankowego; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE; austriackie banki (m.in. Raiffeisen, Erste) wazne dla sektora bankowego; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner UE; austriackie banki (m.in. Raiffeisen, Erste) wazne dla sektora bankowego; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE; austriackie banki (m.in. Raiffeisen, Erste) wazne dla sektora bankowego; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:AUT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE; austriackie banki (m.in. Raiffeisen, Erste) wazne dla sektora bankowego; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Partner regionalny (Europa Srodkowa, UE i NATO); stosunki poprawne, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Partner regionalny (Europa Srodkowa, UE i NATO); stosunki poprawne, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner regionalny (Europa Srodkowa, UE i NATO); stosunki poprawne, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner regionalny (Europa Srodkowa, UE i NATO); stosunki poprawne, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner regionalny (Europa Srodkowa, UE i NATO); stosunki poprawne, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner regionalny (Europa Srodkowa, UE i NATO); stosunki poprawne, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner regionalny (Europa Srodkowa, UE i NATO); stosunki poprawne, bez sporow."
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "ROU:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Partner UE i NATO, Morze Czarne; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "ROU:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Partner UE i NATO, Morze Czarne; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "ROU:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE i NATO, Morze Czarne; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "ROU:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Partner UE i NATO, Morze Czarne; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "ROU:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner UE i NATO, Morze Czarne; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "ROU:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Partner UE i NATO, Morze Czarne; stosunki poprawne."
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "ROU:GRC",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Partner UE i NATO, Morze Czarne; stosunki poprawne."
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "ROU:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "2025: drony rosyjskie wlatujace w przestrzen powietrzna Rumunii nad delta Dunaju (wrzesien i listopad 2025), poderwanie mysliwcow; odpowiednik wpisu POL-RUS 2025. Bez wojny otwartej (in war = 0).",
+   "sources": [
+    "Romania scrambles jets, Poland closes airport over Russian drone alerts, Kyiv Independent, https://kyivindependent.com/romania-scrambles-jets-poland-closes-airport-over-russian-drone-alerts/",
+    "Romanian Air Force detected drone incursions (2025-11-07), Liveuamap, https://liveuamap.com/en/2025/25-november-07-romanian-air-force-detected-on-tuesday-morning"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3382 @@
+{
+ "rationale": "RUS, zadanie B: relacje od RUS do 40 partnerow (sasiedzi, mocarstwa, czlonkowie OUBZ/EAUE, sojusznicy, panstwa UE/NATO, przeciwnicy, partnerzy energetyczni); hybrid attacks tylko dzialania RUS; dwustronne: in war 2025 (UKR), 2008 (GEO), in war crisis 2008 (GEO, 0), 2015 (TUR), 2025 (EST)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UKR",
+   "years": "1991",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UKR",
+   "years": "1992-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UKR",
+   "years": "2004-2009",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UKR",
+   "years": "2010-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -95,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:UKR,RUS:NOR,RUS:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025 || NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:UKR",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:UKR",
+   "years": "1991-1996",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:UKR",
+   "years": "1997-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:UKR,RUS:LTU,RUS:LVA,RUS:EST,RUS:DEU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025 || LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom || DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:UKR",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:UKR",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:UKR",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:UKR",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:UKR,RUS:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025 || USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:UKR,RUS:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025 || USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "RUS:UKR,RUS:LTU,RUS:LVA,RUS:EST,RUS:CZE",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "UKR: Ukraina: wojna od 2014 (Donbas), pelnoskalowa od 2022; cyberataki i sabotaz 2014-2025 || LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)",
+   "sources": [
+    "Lithuania convicts teen for IKEA arson in Vilnius on behalf of Russian services, late 2025 (wyniki wyszukiwania)",
+    "Russian sabotage and cyber operations in Europe, wyniki wyszukiwania 2025 (Wikipedia: Russian sabotage operations in Europe)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:BLR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:BLR",
+   "years": "1996-2019",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:BLR",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:BLR,RUS:USA",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki || USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:BLR",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:BLR",
+   "years": "2000-2019",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:BLR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:BLR,RUS:IRN,RUS:ARE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki || IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991 || ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:BLR",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:BLR",
+   "years": "1996-2019",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:BLR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:BLR,RUS:KGZ,RUS:TJK",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR: Bialorus: Panstwo Zwiazkowe (1999), sojusz wojskowy, baza; wspolpraca wojskowa; rezim Lukaszenki || KGZ: Kirgistan: OUBZ, rosyjska baza Kant; zaleznosc od przekazow pieniezych migrantow || TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:POL,RUS:TUR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow",
+   "sources": [
+    "Marywilska 44 arson (11 V 2024) ordered by Russian services, Tusk announced arrests (maj 2024); wyniki wyszukiwania 2024-2025",
+    "Poland suspects Russian sabotage behind railway explosion, RFE/RL, 2025-11-18"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:POL",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)",
+   "sources": [
+    "Marywilska 44 arson (11 V 2024) ordered by Russian services, Tusk announced arrests (maj 2024); wyniki wyszukiwania 2024-2025",
+    "Poland suspects Russian sabotage behind railway explosion, RFE/RL, 2025-11-18"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:POL",
+   "years": "2004-2007",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)",
+   "sources": [
+    "Marywilska 44 arson (11 V 2024) ordered by Russian services, Tusk announced arrests (maj 2024); wyniki wyszukiwania 2024-2025",
+    "Poland suspects Russian sabotage behind railway explosion, RFE/RL, 2025-11-18"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:POL",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)",
+   "sources": [
+    "Marywilska 44 arson (11 V 2024) ordered by Russian services, Tusk announced arrests (maj 2024); wyniki wyszukiwania 2024-2025",
+    "Poland suspects Russian sabotage behind railway explosion, RFE/RL, 2025-11-18"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:POL",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)",
+   "sources": [
+    "Marywilska 44 arson (11 V 2024) ordered by Russian services, Tusk announced arrests (maj 2024); wyniki wyszukiwania 2024-2025",
+    "Poland suspects Russian sabotage behind railway explosion, RFE/RL, 2025-11-18"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:POL,RUS:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025",
+   "sources": [
+    "Marywilska 44 arson (11 V 2024) ordered by Russian services, Tusk announced arrests (maj 2024); wyniki wyszukiwania 2024-2025",
+    "Poland suspects Russian sabotage behind railway explosion, RFE/RL, 2025-11-18"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:POL",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:POL",
+   "years": "1999-2003",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:POL",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:POL,RUS:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:POL,RUS:FIN,RUS:USA,RUS:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025 || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:POL,RUS:FIN,RUS:MNG,RUS:GBR,RUS:FRA,RUS:ITA,RUS:CZE,RUS:ROU,RUS:IRN,RUS:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025 || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021) || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja || IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991 || SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:POL,RUS:JPN,RUS:GBR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:POL,RUS:LTU,RUS:LVA,RUS:EST,RUS:SWE,RUS:CZE",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom || SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025 || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:POL,RUS:FIN,RUS:NOR,RUS:MNG,RUS:JPN,RUS:GBR,RUS:FRA,RUS:ITA,RUS:HUN,RUS:CZE,RUS:ROU,RUS:BGR,RUS:SYR,RUS:ISR,RUS:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej || MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica || JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025 || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy || HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021) || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow || SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy || SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:POL",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:POL,RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:POL,RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:POL,RUS:USA,RUS:BGR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025 || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:POL,RUS:BGR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "RUS:POL,RUS:SWE,RUS:MDA,RUS:GBR,RUS:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "POL: Polska: sasiad; UE/NATO od 1999/2004; sabotaz i cyberataki 2022-2025 (pozar Marywilska 2024, eksplozja na linii kolejowej XI 2025) || SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025 || MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja) || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025 || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025",
+   "sources": [
+    "Marywilska 44 arson (11 V 2024) ordered by Russian services, Tusk announced arrests (maj 2024); wyniki wyszukiwania 2024-2025",
+    "Poland suspects Russian sabotage behind railway explosion, RFE/RL, 2025-11-18",
+    "2025 Moldovan parliamentary election, Wikipedia (dane policji: ok. 138 tys. osob, Promsvyazbank)",
+    "Moldova's election delivers lessons to Europe on countering Russian interference, CNN, 2025-09-30"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1991-1995",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom",
+   "sources": [
+    "Lithuania convicts teen for IKEA arson in Vilnius on behalf of Russian services, late 2025 (wyniki wyszukiwania)",
+    "Russian sabotage and cyber operations in Europe, wyniki wyszukiwania 2025 (Wikipedia: Russian sabotage operations in Europe)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1996-2003",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom",
+   "sources": [
+    "Lithuania convicts teen for IKEA arson in Vilnius on behalf of Russian services, late 2025 (wyniki wyszukiwania)",
+    "Russian sabotage and cyber operations in Europe, wyniki wyszukiwania 2025 (Wikipedia: Russian sabotage operations in Europe)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom",
+   "sources": [
+    "Lithuania convicts teen for IKEA arson in Vilnius on behalf of Russian services, late 2025 (wyniki wyszukiwania)",
+    "Russian sabotage and cyber operations in Europe, wyniki wyszukiwania 2025 (Wikipedia: Russian sabotage operations in Europe)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST,RUS:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom || USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025",
+   "sources": [
+    "Lithuania convicts teen for IKEA arson in Vilnius on behalf of Russian services, late 2025 (wyniki wyszukiwania)",
+    "Russian sabotage and cyber operations in Europe, wyniki wyszukiwania 2025 (Wikipedia: Russian sabotage operations in Europe)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom",
+   "sources": [
+    "Lithuania convicts teen for IKEA arson in Vilnius on behalf of Russian services, late 2025 (wyniki wyszukiwania)",
+    "Russian sabotage and cyber operations in Europe, wyniki wyszukiwania 2025 (Wikipedia: Russian sabotage operations in Europe)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2004-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:LTU,RUS:LVA,RUS:EST",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "LTU: Litwa: tranzyt do Krolewca; sabotaz i podpalenia zlecane przez rosyjskie sluzby (2024); kampania cyber 2014-2025 || LVA: Lotwa: czlonek UE/NATO od 2004; napiecie wokol mniejszosci rosyjskojezycznej; kampania cyber i dezinformacji 2014-2025 || EST: Estonia: czlonek UE/NATO od 2004; cyberataki (od 2007), dezinformacja; podpalenie w Tallinie (2025) przypisane rosyjskim sluzbom"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:FIN",
+   "years": "1990-2007",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:FIN",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:FIN,RUS:BGR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -65,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:FIN,RUS:FRA",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:FIN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:FIN",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:FIN,RUS:FRA,RUS:BGR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:FIN,RUS:PRK",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:FIN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:FIN,RUS:GBR,RUS:FRA,RUS:HUN,RUS:CZE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "FIN: Finlandia: granica z ZSRR; neutralna do 2022; czlonek NATO od 2023 - ostra zmiana postawy Rosji || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025 || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:NOR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:NOR,RUS:ITA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej || ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:NOR,RUS:ITA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej || ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:NOR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:NOR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:NOR,RUS:SWE,RUS:PRK,RUS:JPN,RUS:SYR,RUS:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej || SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025 || PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025) || JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:NOR,RUS:ROU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:NOR,RUS:SWE,RUS:MNG,RUS:ROU,RUS:ISR,RUS:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "NOR: Norwegia: sasiad (Svalbard, granica morska); wzglednie neutralna do 2014; od 2022 ostrzej || SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025 || MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy || SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SWE",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SWE",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SWE,RUS:JPN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025 || JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SWE",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SWE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:SWE,RUS:CZE",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025 || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SWE: Szwecja: czlonek NATO od 2024; wzrost napiecia po 2014; dezinformacja i cyber 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GEO",
+   "years": "1991-1993",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GEO",
+   "years": "1994-2007",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GEO",
+   "years": "2008-2012",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GEO",
+   "years": "2013-2021",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GEO",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:GEO",
+   "years": "1991-2007",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:GEO",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:GEO",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:GEO,RUS:MDA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna || MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:GEO,RUS:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna || KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:GEO",
+   "years": "1991-2007",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:GEO",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:GEO,RUS:ARM,RUS:UZB,RUS:TKM,RUS:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna || ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna || UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca || TKM: Turkmenistan: neutralnosc, minimalne wiezi polityczne; gaz || MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:GEO",
+   "years": "1991-2007",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:GEO",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:GEO,RUS:ARM,RUS:UZB,RUS:TKM,RUS:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "GEO: Gruzja: wojna 2008 (Poludniowa Osetia, Abchazja); bardzo zle stosunki po 2008; blokada dyplomatyczna || ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna || UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca || TKM: Turkmenistan: neutralnosc, minimalne wiezi polityczne; gaz || MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:AZE",
+   "years": "1991-2007",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025",
+   "sources": [
+    "Putin says Russian air defences were to blame for Azerbaijani plane crash, ABC News, 2025-10-10",
+    "From plane crash to deadly arrests: what's behind the Russia-Azerbaijan standoff, Moscow Times, 2025-07-02"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:AZE,RUS:DEU",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025 || DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022",
+   "sources": [
+    "Putin says Russian air defences were to blame for Azerbaijani plane crash, ABC News, 2025-10-10",
+    "From plane crash to deadly arrests: what's behind the Russia-Azerbaijan standoff, Moscow Times, 2025-07-02"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:AZE",
+   "years": "2014-2023",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025",
+   "sources": [
+    "Putin says Russian air defences were to blame for Azerbaijani plane crash, ABC News, 2025-10-10",
+    "From plane crash to deadly arrests: what's behind the Russia-Azerbaijan standoff, Moscow Times, 2025-07-02"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:AZE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025",
+   "sources": [
+    "Putin says Russian air defences were to blame for Azerbaijani plane crash, ABC News, 2025-10-10",
+    "From plane crash to deadly arrests: what's behind the Russia-Azerbaijan standoff, Moscow Times, 2025-07-02"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:AZE",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:AZE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:AZE",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:AZE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:AZE,RUS:KGZ,RUS:TJK",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025 || KGZ: Kirgistan: OUBZ, rosyjska baza Kant; zaleznosc od przekazow pieniezych migrantow || TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:AZE",
+   "years": "1991-2023",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:AZE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "AZE: Azerbejdzan: gaz i tranzyt; kryzys po zestrzeleniu samolotu AZAL (XII 2024) i aresztowaniach w Jekaterynburgu (VI 2025); czesciowe ocieplenie X 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ARM",
+   "years": "1991-2017",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ARM",
+   "years": "2018-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ARM,RUS:ISR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:ARM",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:ARM,RUS:BGR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:ARM,RUS:KGZ,RUS:TJK,RUS:UZB,RUS:TKM,RUS:MDA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna || KGZ: Kirgistan: OUBZ, rosyjska baza Kant; zaleznosc od przekazow pieniezych migrantow || TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow || UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca || TKM: Turkmenistan: neutralnosc, minimalne wiezi polityczne; gaz || MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:ARM",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:ARM",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:ARM",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:ARM,RUS:PRK",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "ARM: Armenia: czlonek OUBZ i EAUE; od 2022 wyraźny dystans (zblizenie z UE i Zachodem); po 2023 (Karabach) Rosja bierna || PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:KAZ",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:KAZ",
+   "years": "1995-2014",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:KAZ",
+   "years": "2015-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:KAZ",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:KAZ",
+   "years": "1991-2014",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:KAZ",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:KAZ",
+   "years": "1991-2014",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:KAZ",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:KAZ",
+   "years": "1991-2014",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:KAZ",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "KAZ: Kazachstan: EAUE i OUBZ; Bajkonur (dzierzawa), tranzyt ropy (CPC), wspolpraca wojskowa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "KGZ: Kirgistan: OUBZ, rosyjska baza Kant; zaleznosc od przekazow pieniezych migrantow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:KGZ,RUS:TJK,RUS:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "KGZ: Kirgistan: OUBZ, rosyjska baza Kant; zaleznosc od przekazow pieniezych migrantow || TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow || UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:KGZ,RUS:TJK",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "KGZ: Kirgistan: OUBZ, rosyjska baza Kant; zaleznosc od przekazow pieniezych migrantow || TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:KGZ,RUS:TJK",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "KGZ: Kirgistan: OUBZ, rosyjska baza Kant; zaleznosc od przekazow pieniezych migrantow || TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TJK",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TJK",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "TJK: Tadzykistan: OUBZ, rosyjska baza 201 (Ajni), zaleznosc od przekazow pieniezych migrantow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UZB",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:UZB,RUS:HUN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca || HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "UZB: Uzbekistan: OUBZ formalnie 1992-1999 i 2006-2012; pragmatyczna wspolpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TKM: Turkmenistan: neutralnosc, minimalne wiezi polityczne; gaz"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TKM: Turkmenistan: neutralnosc, minimalne wiezi polityczne; gaz"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TKM: Turkmenistan: neutralnosc, minimalne wiezi polityczne; gaz"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:TKM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TKM: Turkmenistan: neutralnosc, minimalne wiezi polityczne; gaz"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:MDA",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)",
+   "sources": [
+    "2025 Moldovan parliamentary election, Wikipedia (dane policji: ok. 138 tys. osob, Promsvyazbank)",
+    "Moldova's election delivers lessons to Europe on countering Russian interference, CNN, 2025-09-30"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:MDA",
+   "years": "2009-2013",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)",
+   "sources": [
+    "2025 Moldovan parliamentary election, Wikipedia (dane policji: ok. 138 tys. osob, Promsvyazbank)",
+    "Moldova's election delivers lessons to Europe on countering Russian interference, CNN, 2025-09-30"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:MDA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)",
+   "sources": [
+    "2025 Moldovan parliamentary election, Wikipedia (dane policji: ok. 138 tys. osob, Promsvyazbank)",
+    "Moldova's election delivers lessons to Europe on countering Russian interference, CNN, 2025-09-30"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:MDA,RUS:DEU,RUS:CZE,RUS:ROU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja) || DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022 || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021) || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja",
+   "sources": [
+    "2025 Moldovan parliamentary election, Wikipedia (dane policji: ok. 138 tys. osob, Promsvyazbank)",
+    "Moldova's election delivers lessons to Europe on countering Russian interference, CNN, 2025-09-30"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:MDA",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:MDA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:MDA",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:MDA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:MDA,RUS:USA,RUS:ARE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja) || USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025 || ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:MDA",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:MDA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "MDA: Moldawia: Naddniestrze z rosyjskimi wojskami; ingerencja w wybory 2024-2025 (skup glosow, dezinformacja)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CHN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CHN",
+   "years": "1996-2000",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CHN",
+   "years": "2001-2013",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:CHN",
+   "years": "1990-2007",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:CHN",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:CHN",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:CHN",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:CHN,RUS:IND,RUS:TUR,RUS:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin || IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022 || TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow || IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:CHN",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:CHN,RUS:FRA,RUS:DEU,RUS:BGR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022 || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:CHN,RUS:GBR,RUS:DEU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025 || DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:CHN",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:CHN",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:CHN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "CHN: Chiny: partnerstwo strategiczne (1996, traktat 2001); po 2022 silna zaleznosc gospodarcza Rosji od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:MNG",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:MNG",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:MNG,RUS:HUN,RUS:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica || HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan || IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:MNG,RUS:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica || SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:MNG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "MNG: Mongolia: sasiad; silne wplywy od czasow ZSRR; wspolna granica"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:PRK",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:PRK",
+   "years": "1992-1999",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:PRK",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:PRK",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:PRK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:PRK",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:PRK",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:PRK,RUS:IND,RUS:ARE",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025) || IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022 || ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:PRK,RUS:IND",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025) || IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:PRK,RUS:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "PRK: KRLD: sasiad; uklad o partnerstwie strategicznym (VI 2024); dostawy amunicji i zolnierze (2024-2025) || SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:JPN",
+   "years": "1990-1992",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:JPN",
+   "years": "1993-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:JPN,RUS:FRA,RUS:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:JPN",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:JPN,RUS:CZE,RUS:ROU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021) || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:JPN,RUS:CZE,RUS:ROU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021) || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:JPN,RUS:GBR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:JPN,RUS:HUN,RUS:ISR,RUS:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022 || HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy || ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:JPN",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:JPN",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "JPN: Japonia: spor o Wyspy Kurylskie; sankcje po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:IND",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:IND,RUS:IRN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022 || IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:IND,RUS:BGR,RUS:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022 || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow || SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:IND,RUS:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022 || SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:IND",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:IND,RUS:ITA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "IND: Indie: partner strategiczny; zakupy rosyjskiej ropy od 2022 || ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:USA",
+   "years": "1990-1992",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:USA",
+   "years": "1993-1998",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:USA",
+   "years": "1999-2008",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:USA",
+   "years": "2009-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:USA,RUS:FRA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025 || FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:USA",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:USA",
+   "years": "1999-2013",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:USA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:USA",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:USA",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:USA",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:USA",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:USA",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "RUS:USA",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "USA: USA: rywalizacja mocarstw; reset 2009-2013; sankcje po 2014 i 2022; ingerencje wyborcze, cyber i dezinformacja 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GBR",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GBR",
+   "years": "1999-2013",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GBR",
+   "years": "2014-2017",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:GBR",
+   "years": "2018-2021",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:GBR,RUS:ROU",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025 || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:GBR",
+   "years": "2014-2017",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:GBR",
+   "years": "2018-2021",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:GBR,RUS:CZE",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "GBR: Wielka Brytania: sankcje, sprawa Skripala (2018), wydalenia dyplomatow; kampanie GRU 2022-2025 || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:FRA",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:FRA",
+   "years": "2003-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:FRA,RUS:ITA",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:FRA,RUS:DEU,RUS:BGR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022 || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:FRA,RUS:BGR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "FRA: Francja: relacje ulozone do 2014; po 2022 ostra wrogosc; kampania dezinformacji (Doppelganger) 2022-2025 || BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:DEU",
+   "years": "1990-2007",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:DEU",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:DEU,RUS:HUN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022 || HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:DEU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:DEU",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:DEU",
+   "years": "2000-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "RUS:DEU",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "DEU: Niemcy: najwazniejszy partner gospodarczy w Europie do 2021 (gaz, Nord Stream); wlamanie GRU do Bundestagu (2015); sabotaz i szpiegostwo po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ITA",
+   "years": "1990-2007",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ITA",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:ITA,RUS:CZE",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:ITA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:ITA,RUS:HUN,RUS:ROU,RUS:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy || HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:ITA",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:ITA,RUS:CZE",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy || CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:ITA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ITA: Wlochy: odbiorca gazu; relacje cieple do 2014 (Berlusconi); po 2022 wsparcie Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:HUN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:HUN",
+   "years": "2010-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "HUN: Wegry: rzad Orbana blisko Moskwy; energetyka jadrowa (Paks); brak wrogich dzialan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CZE,RUS:ROU",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021) || ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CZE",
+   "years": "1999-2013",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CZE",
+   "years": "2014-2020",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:CZE",
+   "years": "2021",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "CZE: Czechy: sabotaz GRU w Vrbeticach (2014) i wydalenie dyplomatow (2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SVK",
+   "years": "1993-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SVK",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:SVK",
+   "years": "1993-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SVK: Slowacja: rzad Fico umiarkowanie przychylny Moskwie; tranzyt gazu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ROU",
+   "years": "1999-2013",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ROU",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "RUS:ROU",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "ROU: Rumunia: wybory prezydenckie 2024 (kampania w sieci) i dezinformacja"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:BGR,RUS:ISR",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:BGR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:BGR",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "BGR: Bulgaria: silne sympatie prorosyjskie spoleczenstwa; partie prorosyjskie; po 2022 ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TUR",
+   "years": "1996-2001",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TUR",
+   "years": "2002-2014",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TUR",
+   "years": "2015",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TUR",
+   "years": "2016-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:TUR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:TUR",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:TUR",
+   "years": "2015",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:TUR",
+   "years": "2016-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:TUR,RUS:ISR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow || ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:TUR,RUS:SAU",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow || SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:TUR",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:TUR",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:TUR",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "TUR: Turcja: sasiad w 1990-1991 (ZSRR); zestrzelenie Su-24 (XI 2015), potem wspolpraca; Syria i Libia przez posrednikow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:IRN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:IRN",
+   "years": "2000-2014",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:IRN",
+   "years": "2015-2021",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:IRN",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:IRN",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:IRN",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "IRN: Iran: partnerstwo; dostawy dronow (2022-2025); sasiad w 1990-1991"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SYR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SYR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SYR",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:SYR",
+   "years": "1990-2023",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:SYR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:SYR",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:SYR",
+   "years": "2015-2023",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:SYR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "SYR: Syria: rzad Assada (2011-2024) wspierany militarnie; bazy Tartus i Hmeimim; po 2024 chlodniej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ISR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:ISR",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ISR: Izrael: relacje pragmatyczne; krytyka Rosji po 2022; sporne kwestie Iranu i Ukrainy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SAU,RUS:ARE",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025 || ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SAU",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SAU",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SAU",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:SAU",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:SAU",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "RUS:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "RUS:SAU",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "SAU: Arabia Saudyjska: OPEC+ i ceny ropy; wspolpraca 2016-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ARE",
+   "years": "2015-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:ARE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:ARE",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "RUS:ARE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "RUS:ARE",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:ARE",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "RUS:ARE",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ARE: ZEA: centrum finansowe i handlowe (Dubaj) dla obrotu z Rosja po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SRB",
+   "years": "1990-2007",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "RUS:SRB",
+   "years": "2008-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "RUS:SRB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "SRB: Serbia: tradycyjny sojusznik (Jugoslawia, Kosowo); sympatia rosyjskiego spoleczenstwa"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "RUS:UKR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "UCDP poziom 2 dla 2022-2024; wojna trwa w 2025 (poza UCDP)"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "RUS:GEO",
+   "years": "2008",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Wojna rosyjsko-gruzinska VIII 2008: otwarty konflikt zbrojny miedzy panstwami; UCDP poziom 1 uznany za blad (pewne)",
+   "sources": [
+    "Russo-Georgian War, August 2008 (otwarte dzialania zbrojne Rosji i Gruzji)"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "RUS:GEO",
+   "years": "2008",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "2008 to otwarta wojna (pozycja 'in war'), wiec kryzys na poziomie ponizej wojny = 0"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "RUS:TUR",
+   "years": "2015",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Zestrzelenie rosyjskiego Su-24 przez Turcje (XI 2015): incydent zbrojny i ultimatum, bez wojny otwartej; brak wpisu UCDP",
+   "sources": [
+    "Zestrzelenie Su-24 nad granica turecko-syryjska, 24 XI 2015 (dane znane z wiedzy modelu)"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "RUS:EST",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Naruszenie przestrzeni powietrznej Estonii przez mysliwce MiG-31 (IX 2025): incydent zbrojny miedzy NATO a Rosja, bez wojny otwartej (do weryfikacji w wynikach wyszukiwania)"
+  }
+ ]
+}

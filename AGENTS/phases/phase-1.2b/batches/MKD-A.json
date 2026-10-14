@@ -1,0 +1,67 @@
+{
+  "rationale": "MKD, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Macedonii Północnej: niepodległość 1991, napięcia i zmiany rządów 1998-2001, konflikt zbrojny 2001 (war exhaustion), kryzys podsłuchowy i szturm parlamentu 2015-2017, zmiana rządu 2017 i 2024, pożar w Kočani (marzec 2025, ok. 59 ofiar) z falą oburzenia; kryzys migracyjny 2015 (szlak bałkański); epidemia 2020. Wyszukiwarka (2 zapytania, 2025): wynik Mickoskiego z sondażu Market Vision (zlecenie rządowe, sporne), wybory lokalne 2025 wygrane przez VMRO-DPMNE, Indeks Percepcji Korupcji 2025 = 40 (bez zmiany). Popularność rządu i nastroje to oceny, nie pomiary. Istniejące wartości nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "1991-1995", "curve": "linear", "start": 55, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "1996-2000", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "2001-2003", "curve": "linear", "start": 40, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "2004-2010", "curve": "linear", "start": 50, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "2011-2014", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "2015-2016", "curve": "linear", "start": 50, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "2017-2019", "curve": "linear", "start": 25, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MKD", "years": "2020-2025", "curve": "linear", "start": 42, "end": 48, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "MKD", "years": "1991-1995", "curve": "linear", "start": 60, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MKD", "years": "2023-2025", "curve": "linear", "start": 56, "end": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MKD", "years": "1991-1995", "curve": "linear", "start": 40, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MKD", "years": "2023-2025", "curve": "linear", "start": 47.5, "end": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MKD", "years": "1991-1995", "curve": "linear", "start": 48, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MKD", "years": "1996-2005", "curve": "linear", "start": 40, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MKD", "years": "2006-2010", "curve": "linear", "start": 42, "end": 43, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MKD", "years": "2024-2025", "curve": "linear", "start": 82, "end": 82.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MKD", "years": "1991-1995", "curve": "linear", "start": 15, "end": 12, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MKD", "years": "1996-2010", "curve": "constant", "start": 12, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MKD", "years": "2011-2016", "curve": "linear", "start": 13, "end": 15, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MKD", "years": "2017-2019", "curve": "linear", "start": 15, "end": 18, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MKD", "years": "2020-2025", "curve": "linear", "start": 15, "end": 16, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MKD", "years": "1991-1995", "curve": "constant", "start": 5, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MKD", "years": "1996-2005", "curve": "constant", "start": 4, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MKD", "years": "2006-2016", "curve": "constant", "start": 6, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MKD", "years": "2017-2023", "curve": "constant", "start": 4, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MKD", "years": "2024-2025", "curve": "constant", "start": 6, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "1991-1995", "curve": "linear", "start": 60, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "1996-2005", "curve": "linear", "start": 40, "end": 33, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "2006-2010", "curve": "linear", "start": 50, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "2011-2014", "curve": "linear", "start": 52, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "2015-2016", "curve": "linear", "start": 30, "end": 25, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "2017-2019", "curve": "linear", "start": 38, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "2020-2023", "curve": "constant", "start": 33, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MKD", "years": "2024-2025", "curve": "linear", "start": 45, "end": 42, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "1991-2000", "curve": "linear", "start": 72, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "2001-2005", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "2006-2014", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "2015-2017", "curve": "constant", "start": 75, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "2018-2019", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "2020-2022", "curve": "constant", "start": 70, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "2023-2024", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MKD", "years": "2025-2025", "curve": "constant", "start": 68, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MKD", "years": "1991-1995", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MKD", "years": "1996-2001", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MKD", "years": "2002-2010", "curve": "linear", "start": 42, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MKD", "years": "2011-2025", "curve": "constant", "start": 47, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "MKD", "years": "2001-2002", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "MKD", "years": "2003-2005", "curve": "linear", "start": 15, "end": 0, "only_empty": true},
+
+    {"kind": "grade", "name": "immigration crisis", "targets": "MKD", "years": "2015-2015", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "riots", "targets": "MKD", "years": "2017-2017", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "epidemic", "targets": "MKD", "years": "2020-2020", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

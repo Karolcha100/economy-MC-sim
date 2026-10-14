@@ -1,0 +1,63 @@
+{
+  "rationale": "PAK, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Pakistanu: częste kryzysy rządowe i dymisje 1990-1998, zamach 1999 i rządy wojskowe, przemoc w Karaczi 2007, kryzys 2017 i 2022, zamieszki 2023 (9 maja), wybory 2024 i rządy hybrydowe z dominacją wojska; poprawka konstytucyjna nr 27 (listopad 2025) i wygrane PML-N w wyborach uzupełniających (listopad 2025, 11 z 13 mandatów) z wyszukiwarki. Sondaży rządowych dla lat 1990-2025 brak lub rzadkie: popularność szacowana. Istniejące wartości nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "PAK", "years": "1990-1998", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PAK", "years": "1999-2001", "curve": "linear", "start": 25, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PAK", "years": "2002-2007", "curve": "linear", "start": 40, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PAK", "years": "2008-2016", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PAK", "years": "2017-2021", "curve": "constant", "start": 38, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PAK", "years": "2022-2023", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PAK", "years": "2024-2025", "curve": "linear", "start": 38, "end": 42, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "PAK", "years": "1990-1995", "curve": "linear", "start": 71, "end": 74.4, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "PAK", "years": "2022-2025", "curve": "linear", "start": "current", "end": 65, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "PAK", "years": "1990-1999", "curve": "linear", "start": 46, "end": 44, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "PAK", "years": "2000-2010", "curve": "linear", "start": 44, "end": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "PAK", "years": "1990-1995", "curve": "linear", "start": 78, "end": 73, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "PAK", "years": "2022-2025", "curve": "linear", "start": "current", "end": 92, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "PAK", "years": "1990-1999", "curve": "linear", "start": 45, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "PAK", "years": "2000-2025", "curve": "linear", "start": 42, "end": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "PAK", "years": "1990-1999", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "PAK", "years": "2000-2008", "curve": "linear", "start": 40, "end": 25, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "PAK", "years": "2009-2018", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "PAK", "years": "2019-2025", "curve": "linear", "start": 35, "end": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "1990-1993", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "1994-1996", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "1997-1998", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "1999-2001", "curve": "linear", "start": 60, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "2002-2007", "curve": "linear", "start": 45, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "2008-2012", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "2013-2016", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "2017-2021", "curve": "constant", "start": 42, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "2022-2023", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PAK", "years": "2024-2025", "curve": "constant", "start": 35, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAK", "years": "1990-1999", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAK", "years": "2000-2009", "curve": "linear", "start": 65, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAK", "years": "2010-2019", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAK", "years": "2020-2021", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PAK", "years": "2022-2025", "curve": "constant", "start": 70, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "PAK", "years": "2023-2025", "curve": "linear", "start": "current", "end": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "PAK", "years": "1990-2009", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "PAK", "years": "2010-2016", "curve": "linear", "start": 35, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "PAK", "years": "2017-2025", "curve": "linear", "start": 30, "end": 25, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "PAK", "years": "1999-2000", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "war exhaustion", "targets": "PAK", "years": "2008-2014", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "PAK", "years": "2015-2024", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "war exhaustion", "targets": "PAK", "years": "2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "mobilized", "targets": "PAK", "years": "1999", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "PAK", "years": "2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "PAK", "years": "2007", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "PAK", "years": "2023", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "PAK", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

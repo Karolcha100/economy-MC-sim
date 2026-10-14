@@ -1,0 +1,1221 @@
+{
+  "rationale": "JAM, zadanie B (oszczedny): relacje od JAM do 22 partnerow. USA (glowny partner handlowy, turystyka, diaspora, wspolpraca bezpieczenstwa; 2010 ekstradycja Coke'a jako napiecie). GBR (historyczne wiezi, Commonwealth; od ok. 2020 spor o reparacje i status monarchii, 2025 brytyjska pomoc po huraganie Melissa). CUB/VEN: wspolpraca medyczna z Kuba; PetroCaribe z Wenezuela ok. 2005-2017, pozniej spadek. CHN: stabilne i rosnace relacje (inwestycje, handel) wg oficjalnych deklaracji 2025. Sasiedzi morscy (CUB, HTI, COL, DOM, MEX) bez wspolnej granicy ladowej. Hybrid attacks: 0 dla wszystkich partnerow. in war / in war crisis: bez zmian (brak konfliktu JAM z partnerami w UCDP; huragan nie jest konfliktem).",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:USA,JAM:GBR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 75
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:USA,JAM:CHN,JAM:DEU",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:USA,JAM:CHN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:USA,JAM:GBR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:USA",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:USA",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:USA",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:USA",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:COL",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:COL",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:COL",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:COL",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:USA",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:USA",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:VEN,JAM:COL,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:VEN,JAM:COL,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:VEN,JAM:COL,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:VEN,JAM:COL,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:USA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:USA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:USA",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:USA",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:GBR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:GBR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:GBR,JAM:CAN,JAM:IND,JAM:BHS,JAM:BRB,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:GBR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:GBR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:GBR,JAM:DEU,JAM:JPN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:GBR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:GBR,JAM:VEN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:GBR,JAM:VEN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:GBR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:GBR,JAM:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:GBR,JAM:CHN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:GBR,JAM:CHN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:GBR,JAM:CHN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:GBR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:GBR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:GBR,JAM:CHN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:GBR,JAM:CHN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:CAN,JAM:CHN,JAM:IND,JAM:BHS,JAM:BRB,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:CAN,JAM:CHN,JAM:IND,JAM:BHS,JAM:BRB,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:CAN,JAM:IND,JAM:BHS,JAM:BRB,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CAN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CAN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CAN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CAN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CAN,JAM:CHN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CAN,JAM:CHN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CAN,JAM:CHN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CAN,JAM:CHN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:CAN,JAM:CUB,JAM:HTI,JAM:VEN,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:CAN,JAM:CUB,JAM:HTI,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:CAN,JAM:CUB,JAM:HTI,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:CAN,JAM:CUB,JAM:HTI,JAM:VEN,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CAN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CAN,JAM:CHN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CAN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CAN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:CUB,JAM:VEN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:CUB,JAM:HTI,JAM:DOM",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:CUB",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:CUB,JAM:HTI,JAM:DOM",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CUB,JAM:TTO",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CUB,JAM:CHN,JAM:TTO",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CUB,JAM:CHN,JAM:TTO",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CUB,JAM:CHN,JAM:TTO",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CUB,JAM:VEN,JAM:TTO",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CUB,JAM:TTO",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CUB,JAM:TTO",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:CUB,JAM:VEN,JAM:TTO",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CUB,JAM:ZAF,JAM:DOM,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ISR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CUB,JAM:ZAF,JAM:DOM,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ISR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CUB,JAM:ZAF,JAM:DOM,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ISR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:CUB,JAM:ZAF,JAM:DOM,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ISR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:HTI,JAM:DOM",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:HTI,JAM:DOM",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:HTI,JAM:VEN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:HTI",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:HTI",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:HTI",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:HTI,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:HTI,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:HTI,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "JAM:HTI,JAM:COL,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:HTI,JAM:COL,JAM:CHN,JAM:IND,JAM:TTO,JAM:BHS,JAM:ESP",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:HTI,JAM:COL,JAM:IND,JAM:TTO,JAM:BHS,JAM:ESP",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:HTI,JAM:COL,JAM:IND,JAM:TTO,JAM:BHS,JAM:ESP",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:HTI,JAM:VEN,JAM:COL,JAM:IND,JAM:TTO,JAM:BHS,JAM:ESP",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:VEN,JAM:ZAF,JAM:TTO",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:VEN,JAM:COL,JAM:GUY,JAM:MEX,JAM:BRA",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:VEN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:VEN,JAM:MEX",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:VEN,JAM:COL,JAM:RUS,JAM:DOM,JAM:BRA",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:VEN",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:VEN,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:VEN,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:VEN,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "JAM:VEN,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:VEN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:VEN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:VEN,JAM:RUS",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:VEN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:VEN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:COL,JAM:GUY,JAM:MEX,JAM:BRA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:COL,JAM:GUY,JAM:MEX,JAM:BRA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:COL,JAM:GUY,JAM:MEX,JAM:BRA",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:COL,JAM:RUS,JAM:DOM,JAM:BRA",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:COL,JAM:RUS,JAM:DOM,JAM:BRA",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:COL,JAM:RUS,JAM:DOM,JAM:BRA",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:CHN,JAM:IND,JAM:ZAF,JAM:GUY,JAM:ISR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:RUS",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:RUS",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:RUS",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:RUS",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:RUS",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:RUS",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "JAM:RUS",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:IND,JAM:ZAF,JAM:GUY,JAM:ISR",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:IND,JAM:ZAF,JAM:GUY,JAM:ISR",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:IND,JAM:ZAF,JAM:GUY,JAM:ISR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:ZAF,JAM:TTO",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:ZAF,JAM:TTO",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:ZAF,JAM:TTO",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:ESP",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:ESP",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:ESP",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:ESP",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "JAM:BHS,JAM:BRB,JAM:GUY",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:MEX",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:MEX",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:MEX",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:DEU",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:DEU",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "JAM:DEU",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:DEU,JAM:JPN",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:DEU,JAM:JPN",
+      "years": "2000-2009",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "JAM:DEU,JAM:JPN",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "JAM:USA,JAM:GBR,JAM:CAN,JAM:CUB,JAM:HTI,JAM:VEN,JAM:COL,JAM:CHN,JAM:RUS,JAM:IND,JAM:ZAF,JAM:DOM,JAM:TTO,JAM:BHS,JAM:BRB,JAM:GUY,JAM:MEX,JAM:BRA,JAM:DEU,JAM:JPN,JAM:ESP,JAM:ISR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    }
+  ]
+}

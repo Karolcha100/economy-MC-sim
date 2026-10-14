@@ -1,0 +1,1778 @@
+{
+ "rationale": "FIN, zadanie B: relacje od FIN do 20 partnerow (sasiedzi ladowi SWE/NOR/RUS, sasiedzi morscy i kraje baltyckie EST/LVA/LTU/POL/DEU/DNK, partnerzy UE/NATO NLD/FRA/GBR/ITA/USA, mocarstwa CHN/JPN/KOR, UKR, BLR, TUR); hybrid attacks towards = domyslne 0 (FIN nie prowadzi dzialan hybrydowych, zamkniecie granicy 2023 to reakcja obronna); relacje dwustronne bez zmian: brak par UCDP z FIN, `in war` i `in war crisis` nie wpisane (incydenty 2025 to protesty dyplomatyczne, nie dzialania zbrojne)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:SWE",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:SWE",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 90,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; stosunki dyplomatyczne FIN->X; po wspolnym wstapieniu do NATO (SWE 2024)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:SWE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "sasiad ladowy (granica na Tornio), kraj nordycki, UE; od 2024 wspolny czlonek NATO; zaleznosc gospodarcza FIN od X; handel, prom, energia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:NOR",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:NOR",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 90,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; stosunki dyplomatyczne FIN->X; po wstapieniu FIN do NATO (2023)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:NOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad ladowy (granica na polnocy), kraj nordycki; NATO; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; stosunki dyplomatyczne FIN->X; wspolpraca po rozpadzie ZSRR"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; stosunki dyplomatyczne FIN->X; aneksja Krymu, sankcje UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:RUS",
+   "years": "2022",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; stosunki dyplomatyczne FIN->X; po inwazji na Ukraine, ograniczenie kontaktow"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:RUS",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; stosunki dyplomatyczne FIN->X; wydalenia dyplomatow 2023, zamkniete konsulaty w Turku i St. Petersburgu (od 1.10.2023), ambasady pozostaja",
+   "sources": [
+    "Washington Times, 2023-07-06: Russia expels Finnish diplomats, shuts down consulate (https://www.washingtontimes.com/news/2023/jul/6/russia-expels-finnish-diplomats-shuts-down-consula/)",
+    "Helsinki Times: Finland to close Russian consulate general in Turku (https://www.helsinkitimes.fi/finland/finland-news/domestic/23905-finland-to-close-russian-consulate-general-in-turku.html)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:RUS",
+   "years": "2022",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:RUS",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; opinia spoleczna w FIN o X; zamkniecie granicy 2023, naruszenia przestrzeni powietrznej 2025",
+   "sources": [
+    "Helsinki Times: Finland questions Russian ambassador over airspace breach (https://www.helsinkitimes.fi/finland/finland-news/domestic/26972-finland-questions-russian-ambassador-over-airspace-breach.html)",
+    "Moscow Times, 2025-05-26: Finland summons Russian ambassador over suspected airspace violation (https://www.themoscowtimes.com/2025/05/26/finland-summons-russian-ambassador-over-suspected-airspace-violation-a89220)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; postrzegana zaleznosc FIN od X; po wstapieniu do NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:RUS",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; realna zaleznosc polityczno-wojskowa FIN od X; polityka bezpieczenstwa ograniczana przez ZSRR/Rosje (fiński model)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:RUS",
+   "years": "2022",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:RUS",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; realna zaleznosc polityczno-wojskowa FIN od X; zamkniecie granicy: FIN nie ograniczona w polityce bezpieczenstwa",
+   "sources": [
+    "Yle: Finland keeps eastern border closed as risk of instrumentalised migration remains likely (https://yle.fi/a/74-20229880)",
+    "Ministry of the Interior of Finland: Situation at the eastern border (https://intermin.fi/en/current-issues/situation-at-the-eastern-border)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:RUS",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; zaleznosc gospodarcza FIN od X; ropa i gaz"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; zaleznosc gospodarcza FIN od X; ropa i gaz"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:RUS",
+   "years": "2022",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; zaleznosc gospodarcza FIN od X; wstrzymanie dostaw gazu w maju 2022",
+   "sources": [
+    "Gasum, 2022-05-21: wstrzymanie dostaw gazu z Rosji (z pamieci autora; do weryfikacji w komunikacie Gasum)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:RUS",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad ladowy (granica ok. 1300 km), najwazniejszy problem bezpieczenstwa; od 2022 przeciwnik polityczny; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:EST",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; stosunki dyplomatyczne FIN->X; wspolne czlonkostwo UE i NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:EST",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:EST",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:EST",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sasiad morski (Zatoka Fińska), kraj baltycki; UE i NATO od 2004; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:LVA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:LVA",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:LVA",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:LTU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:LTU",
+   "years": "1991-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:LTU",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj baltycki, UE i NATO od 2004; bez granicy ladowej z FIN; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:POL",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:POL",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:POL",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:POL",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj Morza Baltyckiego, UE i NATO od 1999/2004; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "najwazniejsze mocarstwo UE, partner handlowy i obronny; sasiad przez Morze Baltyckie; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "najwazniejsze mocarstwo UE, partner handlowy i obronny; sasiad przez Morze Baltyckie; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "najwazniejsze mocarstwo UE, partner handlowy i obronny; sasiad przez Morze Baltyckie; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "najwazniejsze mocarstwo UE, partner handlowy i obronny; sasiad przez Morze Baltyckie; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "najwazniejsze mocarstwo UE, partner handlowy i obronny; sasiad przez Morze Baltyckie; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "najwazniejsze mocarstwo UE, partner handlowy i obronny; sasiad przez Morze Baltyckie; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "najwazniejsze mocarstwo UE, partner handlowy i obronny; sasiad przez Morze Baltyckie; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "kraj nordycki, sasiad morski, UE i NATO; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "kraj nordycki, sasiad morski, UE i NATO; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj nordycki, sasiad morski, UE i NATO; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "kraj nordycki, sasiad morski, UE i NATO; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "kraj nordycki, sasiad morski, UE i NATO; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "kraj nordycki, sasiad morski, UE i NATO; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:DNK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "kraj nordycki, sasiad morski, UE i NATO; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "partner UE, wazny port tranzytowy i handlowy, NATO; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "partner UE, wazny port tranzytowy i handlowy, NATO; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "partner UE, wazny port tranzytowy i handlowy, NATO; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "partner UE, wazny port tranzytowy i handlowy, NATO; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "partner UE, wazny port tranzytowy i handlowy, NATO; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "partner UE, wazny port tranzytowy i handlowy, NATO; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "partner UE, wazny port tranzytowy i handlowy, NATO; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "mocarstwo UE i NATO, partner obronny i handlowy; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "mocarstwo UE i NATO, partner obronny i handlowy; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mocarstwo UE i NATO, partner obronny i handlowy; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "mocarstwo UE i NATO, partner obronny i handlowy; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo UE i NATO, partner obronny i handlowy; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "mocarstwo UE i NATO, partner obronny i handlowy; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "mocarstwo UE i NATO, partner obronny i handlowy; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:GBR",
+   "years": "1990-2022",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:GBR",
+   "years": "2023-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; stosunki dyplomatyczne FIN->X; wspolpraca obronna po wstapieniu do NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "mocarstwo, NATO; partner obronny i handlowy; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "partner handlowy UE i NATO; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "partner handlowy UE i NATO; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "partner handlowy UE i NATO; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "partner handlowy UE i NATO; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "partner handlowy UE i NATO; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "partner handlowy UE i NATO; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "partner handlowy UE i NATO; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:USA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); stosunki dyplomatyczne FIN->X; wsparcie NATO i zakup F-35 (decyzja 2021)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:USA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); postrzegana zaleznosc FIN od X; zaleznosc obronna od USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:USA",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); realna zaleznosc polityczno-wojskowa FIN od X; zaleznosc obronna od USA po wstapieniu do NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "mocarstwo, gwarant bezpieczenstwa NATO; od 2023 wspolpraca obronna (DCA); zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:CHN",
+   "years": "1990-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; opinia spoleczna w FIN o X; pandemia, spor o Tajwan i Hongkong, nastroje w spoleczenstwie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:CHN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:CHN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 12,
+   "rationale": "mocarstwo azjatyckie, glowny partner handlowy poza Europa; zaleznosc gospodarcza FIN od X; wzrost handlu z Chinami"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "partner handlowy i technologiczny, kraj azjatycki; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "partner handlowy i technologiczny, kraj azjatycki; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "partner handlowy i technologiczny, kraj azjatycki; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "partner handlowy i technologiczny, kraj azjatycki; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "partner handlowy i technologiczny, kraj azjatycki; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "partner handlowy i technologiczny, kraj azjatycki; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "partner handlowy i technologiczny, kraj azjatycki; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "partner handlowy i technologiczny (przemysl, elektronika); stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "partner handlowy i technologiczny (przemysl, elektronika); opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "partner handlowy i technologiczny (przemysl, elektronika); postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "partner handlowy i technologiczny (przemysl, elektronika); postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "partner handlowy i technologiczny (przemysl, elektronika); realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "partner handlowy i technologiczny (przemysl, elektronika); realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "partner handlowy i technologiczny (przemysl, elektronika); zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; stosunki dyplomatyczne FIN->X; wsparcie po inwazji 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:UKR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; realny wplyw FIN na X; pomoc wojskowa i szkolenia po 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "kraj europejski, wsparcie polityczne i wojskowe od 2022; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:BLR",
+   "years": "1991-2009",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:BLR",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:BLR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; stosunki dyplomatyczne FIN->X; represje po wyborach 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; stosunki dyplomatyczne FIN->X; udzial Bialorusi w agresji na Ukraine 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:BLR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:BLR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:BLR",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:BLR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:BLR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "kraj wschodni, sojusznik Rosji; represje po 2020, udzial w agresji na Ukraine 2022; zaleznosc gospodarcza FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:TUR",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:TUR",
+   "years": "2022",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; stosunki dyplomatyczne FIN->X; blokada akcesji FIN do NATO",
+   "sources": [
+    "Al Jazeera, 2023-03-30: Turkish parliament ratifies Finland's NATO membership (https://www.aljazeera.com/news/2023/3/30/turkish-parliament-ratifies-finlands-nato-membership)",
+    "ABC News, 2023-03-31: Turkey's parliament ratifies Finland's membership in NATO (https://www.abc.net.au/news/2023-03-31/turkey-s-parliament-ratifies-finland-s-membership-in-nato/102169694)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:TUR",
+   "years": "2023",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; stosunki dyplomatyczne FIN->X; ratyfikacja akcesji 30.03.2023",
+   "sources": [
+    "Al Jazeera, 2023-03-30: Turkish parliament ratifies Finland's NATO membership (https://www.aljazeera.com/news/2023/3/30/turkish-parliament-ratifies-finlands-nato-membership)",
+    "ABC News, 2023-03-31: Turkey's parliament ratifies Finland's membership in NATO (https://www.abc.net.au/news/2023-03-31/turkey-s-parliament-ratifies-finland-s-membership-in-nato/102169694)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "FIN:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; stosunki dyplomatyczne FIN->X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:TUR",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:TUR",
+   "years": "2022-2023",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; opinia spoleczna w FIN o X; spor o akcesje do NATO",
+   "sources": [
+    "Al Jazeera, 2023-03-30: Turkish parliament ratifies Finland's NATO membership (https://www.aljazeera.com/news/2023/3/30/turkish-parliament-ratifies-finlands-nato-membership)",
+    "ABC News, 2023-03-31: Turkey's parliament ratifies Finland's membership in NATO (https://www.abc.net.au/news/2023-03-31/turkey-s-parliament-ratifies-finland-s-membership-in-nato/102169694)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "FIN:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; opinia spoleczna w FIN o X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "FIN:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; postrzegana zaleznosc FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "FIN:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; postrzegany wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "FIN:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; realna zaleznosc polityczno-wojskowa FIN od X"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "FIN:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; realny wplyw FIN na X"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "FIN:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "czlonek NATO; blokada akcesji FIN do marca 2023; zaleznosc gospodarcza FIN od X"
+  }
+ ]
+}

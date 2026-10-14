@@ -1,0 +1,65 @@
+{
+  "rationale": "KHM, zadanie A (tryb oszczędny): państwo jednopartyjne (CPP) z przewidywalną sukcesją (wybory 23.07.2023, 120/125 miejsc; Hun Manet premierem od 22.08.2023); 1990-1993 wojna domowa i UNTAC, 1997 walki w Phnom Penh, 1998 koniec Czerwonych Khmerów; zamieszki antytajskie 2003; COVID 2020-2021; konflikt graniczny z Tajlandią 24-28.07.2025 (ponad 300 tys. przesiedlonych, zawieszenie broni, ponowne starcia w grudniu) podnosi przemoc, nacjonalizm i zmęczenie wojną w 2025; brak wiarygodnych sondaży, nastroje to szacunki; korupcja wg TI CPI ok. 22/100 (2023-2024) zgodna z wartościami istniejącymi.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "1990-1992", "curve": "linear", "start": 30, "end": 35},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "1993-1996", "curve": "linear", "start": 40, "end": 42},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "1997-1997", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "1998-2003", "curve": "linear", "start": 45, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "2004-2008", "curve": "linear", "start": 62, "end": 68},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "2009-2012", "curve": "constant", "start": 68},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "2013-2013", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "2014-2017", "curve": "linear", "start": 58, "end": 56},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "2018-2022", "curve": "linear", "start": 62, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "KHM", "years": "2023-2025", "curve": "linear", "start": 71, "end": 70},
+
+    {"kind": "grade", "name": "corruption", "targets": "KHM", "years": "1990-1995", "curve": "linear", "start": 78, "end": 71},
+    {"kind": "grade", "name": "corruption", "targets": "KHM", "years": "2023-2025", "curve": "linear", "start": 75, "end": 75.5},
+
+    {"kind": "grade", "name": "violence risk", "targets": "KHM", "years": "1990-1995", "curve": "linear", "start": 88, "end": 76},
+    {"kind": "grade", "name": "violence risk", "targets": "KHM", "years": "2023-2024", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "violence risk", "targets": "KHM", "years": "2025-2025", "curve": "constant", "start": 62},
+
+    {"kind": "grade", "name": "happiness", "targets": "KHM", "years": "1990-1995", "curve": "linear", "start": 30, "end": 33},
+    {"kind": "grade", "name": "happiness", "targets": "KHM", "years": "1996-2005", "curve": "linear", "start": 33, "end": 37},
+    {"kind": "grade", "name": "happiness", "targets": "KHM", "years": "2006-2010", "curve": "linear", "start": 37, "end": 40.5},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "KHM", "years": "1990-2002", "curve": "linear", "start": 20, "end": 22},
+    {"kind": "grade", "name": "social revanchism", "targets": "KHM", "years": "2003-2008", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "social revanchism", "targets": "KHM", "years": "2009-2013", "curve": "linear", "start": 28, "end": 30},
+    {"kind": "grade", "name": "social revanchism", "targets": "KHM", "years": "2014-2024", "curve": "linear", "start": 30, "end": 32},
+    {"kind": "grade", "name": "social revanchism", "targets": "KHM", "years": "2025-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "KHM", "years": "1990-1993", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "government revanchism", "targets": "KHM", "years": "1994-2002", "curve": "linear", "start": 10, "end": 12},
+    {"kind": "grade", "name": "government revanchism", "targets": "KHM", "years": "2003-2007", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "KHM", "years": "2008-2024", "curve": "constant", "start": 20},
+    {"kind": "grade", "name": "government revanchism", "targets": "KHM", "years": "2025-2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "government popularity", "targets": "KHM", "years": "1990-1995", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "KHM", "years": "1996-2002", "curve": "linear", "start": 40, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "KHM", "years": "2003-2008", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "KHM", "years": "2009-2012", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "KHM", "years": "2013-2013", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "KHM", "years": "2014-2022", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "KHM", "years": "2023-2025", "curve": "linear", "start": 65, "end": 62},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "KHM", "years": "1990-1995", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KHM", "years": "1996-2012", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KHM", "years": "2013-2016", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "KHM", "years": "2017-2025", "curve": "linear", "start": 58, "end": 55},
+
+    {"kind": "grade", "name": "civilization level", "targets": "KHM", "years": "2024-2025", "curve": "linear", "start": 61.0, "end": 61.4},
+
+    {"kind": "grade", "name": "assimilation", "targets": "KHM", "years": "1990-1995", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "assimilation", "targets": "KHM", "years": "1996-2010", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "assimilation", "targets": "KHM", "years": "2011-2025", "curve": "linear", "start": 46, "end": 42},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "KHM", "years": "1990-1993", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "war exhaustion", "targets": "KHM", "years": "1994-1997", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "war exhaustion", "targets": "KHM", "years": "1998-1999", "curve": "linear", "start": 35, "end": 15},
+    {"kind": "grade", "name": "war exhaustion", "targets": "KHM", "years": "2025-2025", "curve": "constant", "start": 20},
+
+    {"kind": "grade", "name": "riots", "targets": "KHM", "years": "2003-2003", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "KHM", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

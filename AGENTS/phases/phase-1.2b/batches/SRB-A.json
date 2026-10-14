@@ -1,0 +1,81 @@
+{
+  "rationale": "SRB, zadanie A (statystyki państwa), tryb oszczędny. Jugosławia 1990-1991, FRJ 1992-2005 (sankcje, wojny, Kosowo 1999, zmiana władzy 2000), Serbia od 2006; wartości z wiedzy, bez źródeł",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "1990-1991", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "1992-1995", "curve": "linear", "start": 35, "end": 38},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "1996-1999", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "2000-2002", "curve": "linear", "start": 30, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "2003-2005", "curve": "linear", "start": 48, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "2006-2011", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "2012-2019", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "2020-2023", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "SRB", "years": "2024-2025", "curve": "linear", "start": 55, "end": 50},
+
+    {"kind": "grade", "name": "corruption", "targets": "SRB", "years": "1990-1995", "curve": "linear", "start": 62, "end": 72},
+    {"kind": "grade", "name": "corruption", "targets": "SRB", "years": "2022-2025", "curve": "linear", "start": "current", "end": 63, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "SRB", "years": "1990-1992", "curve": "linear", "start": 55, "end": 48},
+    {"kind": "grade", "name": "happiness", "targets": "SRB", "years": "1993-1995", "curve": "linear", "start": 40, "end": 38},
+    {"kind": "grade", "name": "happiness", "targets": "SRB", "years": "1996-1999", "curve": "linear", "start": 38, "end": 33},
+    {"kind": "grade", "name": "happiness", "targets": "SRB", "years": "2000-2004", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "SRB", "years": "2005-2010", "curve": "linear", "start": 42, "end": 45},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SRB", "years": "1990-1992", "curve": "linear", "start": 55, "end": 65},
+    {"kind": "grade", "name": "social revanchism", "targets": "SRB", "years": "1993-1995", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social revanchism", "targets": "SRB", "years": "1996-1999", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social revanchism", "targets": "SRB", "years": "2000-2004", "curve": "linear", "start": 55, "end": 35},
+    {"kind": "grade", "name": "social revanchism", "targets": "SRB", "years": "2005-2014", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "social revanchism", "targets": "SRB", "years": "2015-2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "SRB", "years": "1990-1992", "curve": "linear", "start": 25, "end": 70},
+    {"kind": "grade", "name": "government revanchism", "targets": "SRB", "years": "1993-1995", "curve": "linear", "start": 70, "end": 65},
+    {"kind": "grade", "name": "government revanchism", "targets": "SRB", "years": "1996-1999", "curve": "linear", "start": 60, "end": 70},
+    {"kind": "grade", "name": "government revanchism", "targets": "SRB", "years": "2000-2004", "curve": "linear", "start": 60, "end": 35},
+    {"kind": "grade", "name": "government revanchism", "targets": "SRB", "years": "2005-2011", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government revanchism", "targets": "SRB", "years": "2012-2025", "curve": "linear", "start": 30, "end": 35},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "1990-1991", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "1992-1995", "curve": "linear", "start": 40, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "1996-1999", "curve": "linear", "start": 30, "end": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2000", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2001-2003", "curve": "linear", "start": 40, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2004-2006", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2007-2011", "curve": "linear", "start": 40, "end": 36},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2012-2019", "curve": "linear", "start": 40, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2020", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2021-2023", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SRB", "years": "2024-2025", "curve": "linear", "start": 40, "end": 30},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "1990-1992", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "1993-1995", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "1996-1999", "curve": "linear", "start": 50, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "2000-2003", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "2004-2010", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "2011-2019", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "2020-2023", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SRB", "years": "2024-2025", "curve": "linear", "start": 60, "end": 65},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SRB", "years": "1990-1994", "curve": "linear", "start": 73.5, "end": 68.6},
+    {"kind": "grade", "name": "civilization level", "targets": "SRB", "years": "2023-2025", "curve": "linear", "start": "current", "end": 84.2, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SRB", "years": "1990-1992", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "SRB", "years": "1993-1999", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "assimilation", "targets": "SRB", "years": "2000-2010", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "SRB", "years": "2011-2021", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "assimilation", "targets": "SRB", "years": "2022-2025", "curve": "linear", "start": 40, "end": 38},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SRB", "years": "1990-1991", "curve": "linear", "start": 30, "end": 45},
+    {"kind": "grade", "name": "violence risk", "targets": "SRB", "years": "1992-1995", "curve": "linear", "start": 55, "end": 68},
+    {"kind": "grade", "name": "violence risk", "targets": "SRB", "years": "2022-2025", "curve": "linear", "start": "current", "end": 58, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "SRB", "years": "1991-1995", "curve": "linear", "start": 20, "end": 35},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SRB", "years": "1996-1999", "curve": "linear", "start": 35, "end": 45},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SRB", "years": "2000-2003", "curve": "linear", "start": 40, "end": 10},
+
+    {"kind": "grade", "name": "mobilized", "targets": "SRB", "years": "1991-1995", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "mobilized", "targets": "SRB", "years": "1999", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "SRB", "years": "1991", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "SRB", "years": "2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "SRB", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

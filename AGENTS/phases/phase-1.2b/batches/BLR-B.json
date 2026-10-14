@@ -1,0 +1,2074 @@
+{
+ "rationale": "BLR, zadanie B: relacje od BLR do 17 partnerów (sąsiedzi: RUS, UKR, POL, LTU, LVA; mocarstwa i partnerzy: CHN, USA, DEU, GBR, TUR; EAUE/OUBZ/WNP: KAZ, ARM, KGZ, UZB, AZE; inni: IRN, SRB); hybrid attacks tylko działania BLR (2021 migranci na granicach z PL/LT/LV; balony przemytnicze LT/LV 2023-2025); dwustronne: bez zmian (in war, in war crisis: brak incydentów zbrojnych BLR z sąsiadem; neighbours: seed)",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR->RUS (Rosja), dyplomacja: Łukaszenka od 1994; Rosja główny partner, idea unii"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:RUS",
+   "years": "1995-2014",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "BLR->RUS (Rosja), dyplomacja: Państwo Związkowe (1996/1999); spory gazowe 2004 i 2006 / spory o gaz i ropę (2010); stabilne więzi wojskowe i gospodarcze"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:RUS",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "BLR->RUS (Rosja), dyplomacja: EAUE i OUBZ: integracja wojskowa i gospodarcza; bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "BLR->RUS (Rosja), dyplomacja: po 2020: wsparcie Moskwy dla reżimu; rosyjskie wojska w kraju"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "BLR->RUS (Rosja), dyplomacja: terytorium udostępnione do inwazji 2022; rosyjska broń jądrowa w Białorusi 2023 / najbliższy sojusznik; wspólne ćwiczenia Zapad-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->RUS (Rosja), opinia społeczna: Łukaszenka od 1994; Rosja główny partner, idea unii"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:RUS",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR->RUS (Rosja), opinia społeczna: Państwo Związkowe (1996/1999); spory gazowe 2004 i 2006 / spory o gaz i ropę (2010); stabilne więzi wojskowe i gospodarcze / EAUE i OUBZ: integracja wojskowa i gospodarcza; bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->RUS (Rosja), opinia społeczna: po 2020: wsparcie Moskwy dla reżimu; rosyjskie wojska w kraju"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "BLR->RUS (Rosja), opinia społeczna: terytorium udostępnione do inwazji 2022; rosyjska broń jądrowa w Białorusi 2023 / najbliższy sojusznik; wspólne ćwiczenia Zapad-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "BLR->RUS (Rosja), postrzegana zależność: Łukaszenka od 1994; Rosja główny partner, idea unii"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:RUS",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "BLR->RUS (Rosja), postrzegana zależność: Państwo Związkowe (1996/1999); spory gazowe 2004 i 2006 / spory o gaz i ropę (2010); stabilne więzi wojskowe i gospodarcze / EAUE i OUBZ: integracja wojskowa i gospodarcza; bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "BLR->RUS (Rosja), postrzegana zależność: po 2020: wsparcie Moskwy dla reżimu; rosyjskie wojska w kraju"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "BLR->RUS (Rosja), postrzegana zależność: terytorium udostępnione do inwazji 2022; rosyjska broń jądrowa w Białorusi 2023 / najbliższy sojusznik; wspólne ćwiczenia Zapad-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->RUS (Rosja), postrzegany wpływ: Łukaszenka od 1994; Rosja główny partner, idea unii"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:RUS",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "BLR->RUS (Rosja), postrzegany wpływ: Państwo Związkowe (1996/1999); spory gazowe 2004 i 2006 / spory o gaz i ropę (2010); stabilne więzi wojskowe i gospodarcze / EAUE i OUBZ: integracja wojskowa i gospodarcza; bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "BLR->RUS (Rosja), postrzegany wpływ: po 2020: wsparcie Moskwy dla reżimu; rosyjskie wojska w kraju / terytorium udostępnione do inwazji 2022; rosyjska broń jądrowa w Białorusi 2023 / najbliższy sojusznik; wspólne ćwiczenia Zapad-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->RUS (Rosja), rzeczywista zależność: Łukaszenka od 1994; Rosja główny partner, idea unii"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:RUS",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "BLR->RUS (Rosja), rzeczywista zależność: Państwo Związkowe (1996/1999); spory gazowe 2004 i 2006 / spory o gaz i ropę (2010); stabilne więzi wojskowe i gospodarcze / EAUE i OUBZ: integracja wojskowa i gospodarcza; bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:RUS",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "BLR->RUS (Rosja), rzeczywista zależność: po 2020: wsparcie Moskwy dla reżimu; rosyjskie wojska w kraju"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "BLR->RUS (Rosja), rzeczywista zależność: terytorium udostępnione do inwazji 2022; rosyjska broń jądrowa w Białorusi 2023 / najbliższy sojusznik; wspólne ćwiczenia Zapad-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->RUS (Rosja), rzeczywisty wpływ: Łukaszenka od 1994; Rosja główny partner, idea unii"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:RUS",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "BLR->RUS (Rosja), rzeczywisty wpływ: Państwo Związkowe (1996/1999); spory gazowe 2004 i 2006 / spory o gaz i ropę (2010); stabilne więzi wojskowe i gospodarcze / EAUE i OUBZ: integracja wojskowa i gospodarcza; bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->RUS (Rosja), rzeczywisty wpływ: po 2020: wsparcie Moskwy dla reżimu; rosyjskie wojska w kraju / terytorium udostępnione do inwazji 2022; rosyjska broń jądrowa w Białorusi 2023 / najbliższy sojusznik; wspólne ćwiczenia Zapad-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:RUS",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "BLR->RUS (Rosja), zależność gospodarcza: Łukaszenka od 1994; Rosja główny partner, idea unii"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:RUS",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "BLR->RUS (Rosja), zależność gospodarcza: Państwo Związkowe (1996/1999); spory gazowe 2004 i 2006 / spory o gaz i ropę (2010); stabilne więzi wojskowe i gospodarcze / EAUE i OUBZ: integracja wojskowa i gospodarcza; bliskie relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:RUS",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "BLR->RUS (Rosja), zależność gospodarcza: po 2020: wsparcie Moskwy dla reżimu; rosyjskie wojska w kraju / terytorium udostępnione do inwazji 2022; rosyjska broń jądrowa w Białorusi 2023 / najbliższy sojusznik; wspólne ćwiczenia Zapad-2025"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UKR",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->UKR (Ukraina), dyplomacja: sąsiedztwo, wspólne dziedzictwo sowieckie, poprawne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UKR",
+   "years": "1995-2008",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->UKR (Ukraina), dyplomacja: ciepłe kontakty Łukaszenki i Kuczmy; integracja gospodarcza bez skutku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UKR",
+   "years": "2009-2014",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->UKR (Ukraina), dyplomacja: napięcia (gaz, Pomarańczowa Rewolucja); zbliżenie Mińska z Moskwą"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UKR",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UKR (Ukraina), dyplomacja: Mińsk gospodarzem rozmów o Donbasie; neutralna postawa wobec wojny"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UKR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "BLR->UKR (Ukraina), dyplomacja: chłodne relacje; wzajemna krytyka polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "BLR->UKR (Ukraina), dyplomacja: udostępnienie terytorium do inwazji 2022; oficjalne relacje obniżone / relacje na minimalnym poziomie; brak zbliżenia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:UKR",
+   "years": "1991-2014",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->UKR (Ukraina), opinia społeczna: sąsiedztwo, wspólne dziedzictwo sowieckie, poprawne relacje / ciepłe kontakty Łukaszenki i Kuczmy; integracja gospodarcza bez skutku / napięcia (gaz, Pomarańczowa Rewolucja); zbliżenie Mińska z Moskwą"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:UKR",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UKR (Ukraina), opinia społeczna: Mińsk gospodarzem rozmów o Donbasie; neutralna postawa wobec wojny"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:UKR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "BLR->UKR (Ukraina), opinia społeczna: chłodne relacje; wzajemna krytyka polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "BLR->UKR (Ukraina), opinia społeczna: udostępnienie terytorium do inwazji 2022; oficjalne relacje obniżone / relacje na minimalnym poziomie; brak zbliżenia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UKR (Ukraina), postrzegana zależność: sąsiedztwo, wspólne dziedzictwo sowieckie, poprawne relacje / ciepłe kontakty Łukaszenki i Kuczmy; integracja gospodarcza bez skutku / napięcia (gaz, Pomarańczowa Rewolucja); zbliżenie Mińska z Moskwą / Mińsk gospodarzem rozmów o Donbasie; neutralna postawa wobec wojny / chłodne relacje; wzajemna krytyka polityczna / udostępnienie terytorium do inwazji 2022; oficjalne relacje obniżone / relacje na minimalnym poziomie; brak zbliżenia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:UKR",
+   "years": "1991-2014",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "BLR->UKR (Ukraina), postrzegany wpływ: sąsiedztwo, wspólne dziedzictwo sowieckie, poprawne relacje / ciepłe kontakty Łukaszenki i Kuczmy; integracja gospodarcza bez skutku / napięcia (gaz, Pomarańczowa Rewolucja); zbliżenie Mińska z Moskwą"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:UKR",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->UKR (Ukraina), postrzegany wpływ: Mińsk gospodarzem rozmów o Donbasie; neutralna postawa wobec wojny / chłodne relacje; wzajemna krytyka polityczna / udostępnienie terytorium do inwazji 2022; oficjalne relacje obniżone / relacje na minimalnym poziomie; brak zbliżenia"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UKR (Ukraina), rzeczywista zależność: sąsiedztwo, wspólne dziedzictwo sowieckie, poprawne relacje / ciepłe kontakty Łukaszenki i Kuczmy; integracja gospodarcza bez skutku / napięcia (gaz, Pomarańczowa Rewolucja); zbliżenie Mińska z Moskwą / Mińsk gospodarzem rozmów o Donbasie; neutralna postawa wobec wojny / chłodne relacje; wzajemna krytyka polityczna / udostępnienie terytorium do inwazji 2022; oficjalne relacje obniżone / relacje na minimalnym poziomie; brak zbliżenia"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UKR (Ukraina), rzeczywisty wpływ: sąsiedztwo, wspólne dziedzictwo sowieckie, poprawne relacje / ciepłe kontakty Łukaszenki i Kuczmy; integracja gospodarcza bez skutku / napięcia (gaz, Pomarańczowa Rewolucja); zbliżenie Mińska z Moskwą / Mińsk gospodarzem rozmów o Donbasie; neutralna postawa wobec wojny / chłodne relacje; wzajemna krytyka polityczna / udostępnienie terytorium do inwazji 2022; oficjalne relacje obniżone / relacje na minimalnym poziomie; brak zbliżenia"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:UKR",
+   "years": "1991-2014",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->UKR (Ukraina), zależność gospodarcza: sąsiedztwo, wspólne dziedzictwo sowieckie, poprawne relacje / ciepłe kontakty Łukaszenki i Kuczmy; integracja gospodarcza bez skutku / napięcia (gaz, Pomarańczowa Rewolucja); zbliżenie Mińska z Moskwą"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:UKR",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->UKR (Ukraina), zależność gospodarcza: Mińsk gospodarzem rozmów o Donbasie; neutralna postawa wobec wojny"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:UKR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UKR (Ukraina), zależność gospodarcza: chłodne relacje; wzajemna krytyka polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:UKR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->UKR (Ukraina), zależność gospodarcza: udostępnienie terytorium do inwazji 2022; oficjalne relacje obniżone / relacje na minimalnym poziomie; brak zbliżenia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->POL (Polska), dyplomacja: początek niepodległości; poprawne, pragmatyczne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:POL",
+   "years": "1995-2014",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "BLR->POL (Polska), dyplomacja: poprawne relacje; mniejszość polska; napięcia handlowe / chłodne, pragmatyczne relacje; spory o opozycję"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:POL",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "BLR->POL (Polska), dyplomacja: Polska w UE i NATO; spory o sankcje; relacje obniżone"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:POL",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "BLR->POL (Polska), dyplomacja: represje 2020; kryzys migracyjny na granicy 2021 (instrumentalizacja migrantów)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:POL",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "BLR->POL (Polska), dyplomacja: zamknięte przejścia graniczne; wrogie narracje; sankcje UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:POL",
+   "years": "2025",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "BLR->POL (Polska), dyplomacja: częściowe otwarcie przejść granicznych 2025; relacje nadal złe"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:POL",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->POL (Polska), opinia społeczna: początek niepodległości; poprawne, pragmatyczne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:POL",
+   "years": "1995-2008",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->POL (Polska), opinia społeczna: poprawne relacje; mniejszość polska; napięcia handlowe"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:POL",
+   "years": "2009-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->POL (Polska), opinia społeczna: chłodne, pragmatyczne relacje; spory o opozycję / Polska w UE i NATO; spory o sankcje; relacje obniżone"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:POL",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "BLR->POL (Polska), opinia społeczna: represje 2020; kryzys migracyjny na granicy 2021 (instrumentalizacja migrantów)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "BLR->POL (Polska), opinia społeczna: zamknięte przejścia graniczne; wrogie narracje; sankcje UE / częściowe otwarcie przejść granicznych 2025; relacje nadal złe"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:POL",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->POL (Polska), postrzegana zależność: początek niepodległości; poprawne, pragmatyczne kontakty / poprawne relacje; mniejszość polska; napięcia handlowe / chłodne, pragmatyczne relacje; spory o opozycję / Polska w UE i NATO; spory o sankcje; relacje obniżone / represje 2020; kryzys migracyjny na granicy 2021 (instrumentalizacja migrantów) / zamknięte przejścia graniczne; wrogie narracje; sankcje UE / częściowe otwarcie przejść granicznych 2025; relacje nadal złe"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:POL",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->POL (Polska), postrzegany wpływ: początek niepodległości; poprawne, pragmatyczne kontakty / poprawne relacje; mniejszość polska; napięcia handlowe / chłodne, pragmatyczne relacje; spory o opozycję / Polska w UE i NATO; spory o sankcje; relacje obniżone"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:POL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->POL (Polska), postrzegany wpływ: represje 2020; kryzys migracyjny na granicy 2021 (instrumentalizacja migrantów) / zamknięte przejścia graniczne; wrogie narracje; sankcje UE / częściowe otwarcie przejść granicznych 2025; relacje nadal złe"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:POL",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->POL (Polska), rzeczywista zależność: początek niepodległości; poprawne, pragmatyczne kontakty / poprawne relacje; mniejszość polska; napięcia handlowe / chłodne, pragmatyczne relacje; spory o opozycję / Polska w UE i NATO; spory o sankcje; relacje obniżone / represje 2020; kryzys migracyjny na granicy 2021 (instrumentalizacja migrantów) / zamknięte przejścia graniczne; wrogie narracje; sankcje UE / częściowe otwarcie przejść granicznych 2025; relacje nadal złe"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:POL",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->POL (Polska), rzeczywisty wpływ: początek niepodległości; poprawne, pragmatyczne kontakty / poprawne relacje; mniejszość polska; napięcia handlowe / chłodne, pragmatyczne relacje; spory o opozycję / Polska w UE i NATO; spory o sankcje; relacje obniżone"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:POL",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->POL (Polska), rzeczywisty wpływ: represje 2020; kryzys migracyjny na granicy 2021 (instrumentalizacja migrantów)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:POL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->POL (Polska), rzeczywisty wpływ: zamknięte przejścia graniczne; wrogie narracje; sankcje UE / częściowe otwarcie przejść granicznych 2025; relacje nadal złe"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:POL",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->POL (Polska), zależność gospodarcza: początek niepodległości; poprawne, pragmatyczne kontakty / poprawne relacje; mniejszość polska; napięcia handlowe / chłodne, pragmatyczne relacje; spory o opozycję / Polska w UE i NATO; spory o sankcje; relacje obniżone"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:POL",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->POL (Polska), zależność gospodarcza: represje 2020; kryzys migracyjny na granicy 2021 (instrumentalizacja migrantów) / zamknięte przejścia graniczne; wrogie narracje; sankcje UE / częściowe otwarcie przejść granicznych 2025; relacje nadal złe"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "BLR:POL",
+   "years": "2021",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR->POL (Polska), działania hybrydowe: 2021: instrumentalizacja migrantów na granicy z Polską (kryzys graniczny)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->LTU (Litwa), dyplomacja: początek niepodległości; poprawne stosunki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LTU",
+   "years": "1995-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LTU (Litwa), dyplomacja: poprawne stosunki; tranzyt potażu przez Kłajpedę"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LTU",
+   "years": "2009-2014",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->LTU (Litwa), dyplomacja: pragmatyczne relacje; spory o energię i tranzyt"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LTU",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "BLR->LTU (Litwa), dyplomacja: Litwa w UE i NATO; spory o granice i sankcje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LTU",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "BLR->LTU (Litwa), dyplomacja: poparcie Wilna dla opozycji po 2020; napięcia; kryzys migracyjny 2021"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "BLR->LTU (Litwa), dyplomacja: sankcje UE i zamknięcia przejść; spory o balony przemytnicze / zamknięcie przejść granicznych 2025 po balonach przemytniczych; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:LTU",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LTU (Litwa), opinia społeczna: początek niepodległości; poprawne stosunki"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:LTU",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->LTU (Litwa), opinia społeczna: poprawne stosunki; tranzyt potażu przez Kłajpedę / pragmatyczne relacje; spory o energię i tranzyt / Litwa w UE i NATO; spory o granice i sankcje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:LTU",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "BLR->LTU (Litwa), opinia społeczna: poparcie Wilna dla opozycji po 2020; napięcia; kryzys migracyjny 2021"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "BLR->LTU (Litwa), opinia społeczna: sankcje UE i zamknięcia przejść; spory o balony przemytnicze / zamknięcie przejść granicznych 2025 po balonach przemytniczych; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LTU (Litwa), postrzegana zależność: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez Kłajpedę / pragmatyczne relacje; spory o energię i tranzyt / Litwa w UE i NATO; spory o granice i sankcje / poparcie Wilna dla opozycji po 2020; napięcia; kryzys migracyjny 2021 / sankcje UE i zamknięcia przejść; spory o balony przemytnicze / zamknięcie przejść granicznych 2025 po balonach przemytniczych; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:LTU",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->LTU (Litwa), postrzegany wpływ: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez Kłajpedę / pragmatyczne relacje; spory o energię i tranzyt / Litwa w UE i NATO; spory o granice i sankcje"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:LTU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LTU (Litwa), postrzegany wpływ: poparcie Wilna dla opozycji po 2020; napięcia; kryzys migracyjny 2021 / sankcje UE i zamknięcia przejść; spory o balony przemytnicze / zamknięcie przejść granicznych 2025 po balonach przemytniczych; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:LTU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->LTU (Litwa), rzeczywista zależność: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez Kłajpedę / pragmatyczne relacje; spory o energię i tranzyt / Litwa w UE i NATO; spory o granice i sankcje / poparcie Wilna dla opozycji po 2020; napięcia; kryzys migracyjny 2021 / sankcje UE i zamknięcia przejść; spory o balony przemytnicze / zamknięcie przejść granicznych 2025 po balonach przemytniczych; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:LTU",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LTU (Litwa), rzeczywisty wpływ: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez Kłajpedę / pragmatyczne relacje; spory o energię i tranzyt / Litwa w UE i NATO; spory o granice i sankcje"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:LTU",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->LTU (Litwa), rzeczywisty wpływ: poparcie Wilna dla opozycji po 2020; napięcia; kryzys migracyjny 2021 / sankcje UE i zamknięcia przejść; spory o balony przemytnicze / zamknięcie przejść granicznych 2025 po balonach przemytniczych; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:LTU",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->LTU (Litwa), zależność gospodarcza: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez Kłajpedę / pragmatyczne relacje; spory o energię i tranzyt / Litwa w UE i NATO; spory o granice i sankcje / poparcie Wilna dla opozycji po 2020; napięcia; kryzys migracyjny 2021"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:LTU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->LTU (Litwa), zależność gospodarcza: sankcje UE i zamknięcia przejść; spory o balony przemytnicze / zamknięcie przejść granicznych 2025 po balonach przemytniczych; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "BLR:LTU",
+   "years": "2021",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR->LTU (Litwa), działania hybrydowe: 2021: instrumentalizacja migrantów na granicy z Litwą"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "BLR:LTU",
+   "years": "2023",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR->LTU (Litwa), działania hybrydowe: 2023: balony przemytnicze wlatujące z Białorusi (Litwa: działanie hybrydowe; Mińsk: przemyt papierosów)"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "BLR:LTU",
+   "years": "2024",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR->LTU (Litwa), działania hybrydowe: 2024: balony przemytnicze z Białorusi nad Litwą (Litwa: działanie hybrydowe)"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "BLR:LTU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR->LTU (Litwa), działania hybrydowe: 2025: fala balonów z Białorusi, zamknięcie przejść i stan wyjątkowy na Litwie",
+   "sources": [
+    "Al Jazeera: Lithuania extends Belarus border closure over balloon attack, 2025-10-29 (https://www.aljazeera.com/news/2025/10/29/lithuania-extends-belarus-border-closure-over-balloon-attack)",
+    "Al Jazeera: Lithuania declares state of emergency over smuggler balloons from Belarus, 2025-12-09 (https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LVA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LVA (Łotwa), dyplomacja: początek niepodległości; poprawne stosunki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LVA",
+   "years": "1995-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->LVA (Łotwa), dyplomacja: poprawne stosunki; tranzyt potażu przez porty łotewskie / pragmatyczne relacje; spory handlowe / Łotwa w UE i NATO; chłodne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LVA",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "BLR->LVA (Łotwa), dyplomacja: represje 2020; kryzys migracyjny 2021 (stan wyjątkowy na granicy łotewskiej)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:LVA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "BLR->LVA (Łotwa), dyplomacja: sankcje UE; wrogie oświadczenia; zamknięcia granicy / napięcia; balony przemytnicze docierające do Łotwy pod koniec 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:LVA",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->LVA (Łotwa), opinia społeczna: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez porty łotewskie / pragmatyczne relacje; spory handlowe / Łotwa w UE i NATO; chłodne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:LVA",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "BLR->LVA (Łotwa), opinia społeczna: represje 2020; kryzys migracyjny 2021 (stan wyjątkowy na granicy łotewskiej)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:LVA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "BLR->LVA (Łotwa), opinia społeczna: sankcje UE; wrogie oświadczenia; zamknięcia granicy / napięcia; balony przemytnicze docierające do Łotwy pod koniec 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LVA (Łotwa), postrzegana zależność: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez porty łotewskie / pragmatyczne relacje; spory handlowe / Łotwa w UE i NATO; chłodne relacje / represje 2020; kryzys migracyjny 2021 (stan wyjątkowy na granicy łotewskiej) / sankcje UE; wrogie oświadczenia; zamknięcia granicy / napięcia; balony przemytnicze docierające do Łotwy pod koniec 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->LVA (Łotwa), postrzegany wpływ: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez porty łotewskie / pragmatyczne relacje; spory handlowe / Łotwa w UE i NATO; chłodne relacje / represje 2020; kryzys migracyjny 2021 (stan wyjątkowy na granicy łotewskiej) / sankcje UE; wrogie oświadczenia; zamknięcia granicy / napięcia; balony przemytnicze docierające do Łotwy pod koniec 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:LVA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->LVA (Łotwa), rzeczywista zależność: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez porty łotewskie / pragmatyczne relacje; spory handlowe / Łotwa w UE i NATO; chłodne relacje / represje 2020; kryzys migracyjny 2021 (stan wyjątkowy na granicy łotewskiej) / sankcje UE; wrogie oświadczenia; zamknięcia granicy / napięcia; balony przemytnicze docierające do Łotwy pod koniec 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:LVA",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LVA (Łotwa), rzeczywisty wpływ: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez porty łotewskie / pragmatyczne relacje; spory handlowe / Łotwa w UE i NATO; chłodne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:LVA",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->LVA (Łotwa), rzeczywisty wpływ: represje 2020; kryzys migracyjny 2021 (stan wyjątkowy na granicy łotewskiej)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:LVA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LVA (Łotwa), rzeczywisty wpływ: sankcje UE; wrogie oświadczenia; zamknięcia granicy / napięcia; balony przemytnicze docierające do Łotwy pod koniec 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:LVA",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->LVA (Łotwa), zależność gospodarcza: początek niepodległości; poprawne stosunki / poprawne stosunki; tranzyt potażu przez porty łotewskie / pragmatyczne relacje; spory handlowe / Łotwa w UE i NATO; chłodne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:LVA",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->LVA (Łotwa), zależność gospodarcza: represje 2020; kryzys migracyjny 2021 (stan wyjątkowy na granicy łotewskiej) / sankcje UE; wrogie oświadczenia; zamknięcia granicy / napięcia; balony przemytnicze docierające do Łotwy pod koniec 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "BLR:LVA",
+   "years": "2021",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR->LVA (Łotwa), działania hybrydowe: 2021: instrumentalizacja migrantów na granicy z Łotwą (stan wyjątkowy)"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "BLR:LVA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "BLR->LVA (Łotwa), działania hybrydowe: 2025: balony przemytnicze przelatujące z Białorusi nad granicą łotewską",
+   "sources": [
+    "Al Jazeera: Lithuania declares state of emergency over smuggler balloons from Belarus, 2025-12-09 (https://www.aljazeera.com/news/2025/12/9/lithuania-declares-state-of-emergency-over-smuggler-balloons-from-belarus)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:CHN",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->CHN (Chiny), dyplomacja: początek niepodległości; pierwsze kontakty handlowe"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:CHN",
+   "years": "1995-2008",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "BLR->CHN (Chiny), dyplomacja: rozwój handlu i współpracy przemysłowej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:CHN",
+   "years": "2009-2014",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "BLR->CHN (Chiny), dyplomacja: wzrost handlu i inwestycji chińskich"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:CHN",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "BLR->CHN (Chiny), dyplomacja: partnerstwo strategiczne (2016); Wielki Kamień; Pas i Droga"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "BLR->CHN (Chiny), dyplomacja: poparcie Pekinu dla reżimu po 2020; poparcie dyplomatyczne / Chiny jako partner gospodarczy i polityczny; brak krytyki wojny / stabilne partnerstwo strategiczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:CHN",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "BLR->CHN (Chiny), opinia społeczna: początek niepodległości; pierwsze kontakty handlowe / rozwój handlu i współpracy przemysłowej / wzrost handlu i inwestycji chińskich / partnerstwo strategiczne (2016); Wielki Kamień; Pas i Droga"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->CHN (Chiny), opinia społeczna: poparcie Pekinu dla reżimu po 2020; poparcie dyplomatyczne / Chiny jako partner gospodarczy i polityczny; brak krytyki wojny / stabilne partnerstwo strategiczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:CHN",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->CHN (Chiny), postrzegana zależność: początek niepodległości; pierwsze kontakty handlowe / rozwój handlu i współpracy przemysłowej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:CHN",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->CHN (Chiny), postrzegana zależność: wzrost handlu i inwestycji chińskich / partnerstwo strategiczne (2016); Wielki Kamień; Pas i Droga / poparcie Pekinu dla reżimu po 2020; poparcie dyplomatyczne / Chiny jako partner gospodarczy i polityczny; brak krytyki wojny / stabilne partnerstwo strategiczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:CHN",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->CHN (Chiny), postrzegany wpływ: początek niepodległości; pierwsze kontakty handlowe / rozwój handlu i współpracy przemysłowej"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:CHN",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->CHN (Chiny), postrzegany wpływ: wzrost handlu i inwestycji chińskich / partnerstwo strategiczne (2016); Wielki Kamień; Pas i Droga / poparcie Pekinu dla reżimu po 2020; poparcie dyplomatyczne / Chiny jako partner gospodarczy i polityczny; brak krytyki wojny / stabilne partnerstwo strategiczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:CHN",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->CHN (Chiny), rzeczywista zależność: początek niepodległości; pierwsze kontakty handlowe / rozwój handlu i współpracy przemysłowej"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:CHN",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->CHN (Chiny), rzeczywista zależność: wzrost handlu i inwestycji chińskich / partnerstwo strategiczne (2016); Wielki Kamień; Pas i Droga / poparcie Pekinu dla reżimu po 2020; poparcie dyplomatyczne / Chiny jako partner gospodarczy i polityczny; brak krytyki wojny / stabilne partnerstwo strategiczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:CHN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->CHN (Chiny), rzeczywisty wpływ: początek niepodległości; pierwsze kontakty handlowe / rozwój handlu i współpracy przemysłowej / wzrost handlu i inwestycji chińskich / partnerstwo strategiczne (2016); Wielki Kamień; Pas i Droga / poparcie Pekinu dla reżimu po 2020; poparcie dyplomatyczne / Chiny jako partner gospodarczy i polityczny; brak krytyki wojny / stabilne partnerstwo strategiczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:CHN",
+   "years": "1991-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->CHN (Chiny), zależność gospodarcza: początek niepodległości; pierwsze kontakty handlowe / rozwój handlu i współpracy przemysłowej"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:CHN",
+   "years": "2009-2014",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->CHN (Chiny), zależność gospodarcza: wzrost handlu i inwestycji chińskich"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:CHN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->CHN (Chiny), zależność gospodarcza: partnerstwo strategiczne (2016); Wielki Kamień; Pas i Droga / poparcie Pekinu dla reżimu po 2020; poparcie dyplomatyczne / Chiny jako partner gospodarczy i polityczny; brak krytyki wojny / stabilne partnerstwo strategiczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:USA",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->USA (USA), dyplomacja: początek niepodległości; kontakty ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:USA",
+   "years": "1995-2008",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "BLR->USA (USA), dyplomacja: krytyka wyborów i reżimu; sankcje od 2006; okresowe odwilże"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:USA",
+   "years": "2009-2014",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "BLR->USA (USA), dyplomacja: reset 2009–2014 z ograniczonymi sankcjami; napięcia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:USA",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->USA (USA), dyplomacja: odwilż 2015–2019; wizyty i kontakty robocze"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:USA",
+   "years": "2020-2024",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "BLR->USA (USA), dyplomacja: wybory 2020 i sankcje USA; poparcie dla opozycji / sankcje USA; wsparcie Ukrainy; zamrożenie kontaktów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "BLR->USA (USA), dyplomacja: mediacja USA: uwolnienia więźniów (czerwiec, wrzesień, grudzień 2025) i złagodzenie sankcji (Belavia, potaż)",
+   "sources": [
+    "NBC News: Belarus frees 52 political prisoners as U.S. lifts sanctions on its national airline, 2025-09-11 (https://www.nbcnews.com/world/europe/belarus-frees-political-prisoners-us-lifts-sanctions-rcna230558)",
+    "Al Jazeera: Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions, 2025-12-13 (https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:USA",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->USA (USA), opinia społeczna: początek niepodległości; kontakty ograniczone / krytyka wyborów i reżimu; sankcje od 2006; okresowe odwilże / reset 2009–2014 z ograniczonymi sankcjami; napięcia / odwilż 2015–2019; wizyty i kontakty robocze"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:USA",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "BLR->USA (USA), opinia społeczna: wybory 2020 i sankcje USA; poparcie dla opozycji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:USA",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "BLR->USA (USA), opinia społeczna: sankcje USA; wsparcie Ukrainy; zamrożenie kontaktów / mediacja USA: uwolnienia więźniów (czerwiec, wrzesień, grudzień 2025) i złagodzenie sankcji (Belavia, potaż)",
+   "sources": [
+    "NBC News: Belarus frees 52 political prisoners as U.S. lifts sanctions on its national airline, 2025-09-11 (https://www.nbcnews.com/world/europe/belarus-frees-political-prisoners-us-lifts-sanctions-rcna230558)",
+    "Al Jazeera: Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions, 2025-12-13 (https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:USA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->USA (USA), postrzegana zależność: początek niepodległości; kontakty ograniczone / krytyka wyborów i reżimu; sankcje od 2006; okresowe odwilże / reset 2009–2014 z ograniczonymi sankcjami; napięcia / odwilż 2015–2019; wizyty i kontakty robocze / wybory 2020 i sankcje USA; poparcie dla opozycji / sankcje USA; wsparcie Ukrainy; zamrożenie kontaktów / mediacja USA: uwolnienia więźniów (czerwiec, wrzesień, grudzień 2025) i złagodzenie sankcji (Belavia, potaż)",
+   "sources": [
+    "NBC News: Belarus frees 52 political prisoners as U.S. lifts sanctions on its national airline, 2025-09-11 (https://www.nbcnews.com/world/europe/belarus-frees-political-prisoners-us-lifts-sanctions-rcna230558)",
+    "Al Jazeera: Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions, 2025-12-13 (https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:USA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->USA (USA), postrzegany wpływ: początek niepodległości; kontakty ograniczone / krytyka wyborów i reżimu; sankcje od 2006; okresowe odwilże / reset 2009–2014 z ograniczonymi sankcjami; napięcia / odwilż 2015–2019; wizyty i kontakty robocze / wybory 2020 i sankcje USA; poparcie dla opozycji / sankcje USA; wsparcie Ukrainy; zamrożenie kontaktów / mediacja USA: uwolnienia więźniów (czerwiec, wrzesień, grudzień 2025) i złagodzenie sankcji (Belavia, potaż)",
+   "sources": [
+    "NBC News: Belarus frees 52 political prisoners as U.S. lifts sanctions on its national airline, 2025-09-11 (https://www.nbcnews.com/world/europe/belarus-frees-political-prisoners-us-lifts-sanctions-rcna230558)",
+    "Al Jazeera: Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions, 2025-12-13 (https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:USA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->USA (USA), rzeczywista zależność: początek niepodległości; kontakty ograniczone / krytyka wyborów i reżimu; sankcje od 2006; okresowe odwilże / reset 2009–2014 z ograniczonymi sankcjami; napięcia / odwilż 2015–2019; wizyty i kontakty robocze / wybory 2020 i sankcje USA; poparcie dla opozycji / sankcje USA; wsparcie Ukrainy; zamrożenie kontaktów / mediacja USA: uwolnienia więźniów (czerwiec, wrzesień, grudzień 2025) i złagodzenie sankcji (Belavia, potaż)",
+   "sources": [
+    "NBC News: Belarus frees 52 political prisoners as U.S. lifts sanctions on its national airline, 2025-09-11 (https://www.nbcnews.com/world/europe/belarus-frees-political-prisoners-us-lifts-sanctions-rcna230558)",
+    "Al Jazeera: Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions, 2025-12-13 (https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:USA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->USA (USA), rzeczywisty wpływ: początek niepodległości; kontakty ograniczone / krytyka wyborów i reżimu; sankcje od 2006; okresowe odwilże / reset 2009–2014 z ograniczonymi sankcjami; napięcia / odwilż 2015–2019; wizyty i kontakty robocze / wybory 2020 i sankcje USA; poparcie dla opozycji / sankcje USA; wsparcie Ukrainy; zamrożenie kontaktów / mediacja USA: uwolnienia więźniów (czerwiec, wrzesień, grudzień 2025) i złagodzenie sankcji (Belavia, potaż)",
+   "sources": [
+    "NBC News: Belarus frees 52 political prisoners as U.S. lifts sanctions on its national airline, 2025-09-11 (https://www.nbcnews.com/world/europe/belarus-frees-political-prisoners-us-lifts-sanctions-rcna230558)",
+    "Al Jazeera: Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions, 2025-12-13 (https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:USA",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->USA (USA), zależność gospodarcza: początek niepodległości; kontakty ograniczone / krytyka wyborów i reżimu; sankcje od 2006; okresowe odwilże / reset 2009–2014 z ograniczonymi sankcjami; napięcia / odwilż 2015–2019; wizyty i kontakty robocze / wybory 2020 i sankcje USA; poparcie dla opozycji / sankcje USA; wsparcie Ukrainy; zamrożenie kontaktów / mediacja USA: uwolnienia więźniów (czerwiec, wrzesień, grudzień 2025) i złagodzenie sankcji (Belavia, potaż)",
+   "sources": [
+    "NBC News: Belarus frees 52 political prisoners as U.S. lifts sanctions on its national airline, 2025-09-11 (https://www.nbcnews.com/world/europe/belarus-frees-political-prisoners-us-lifts-sanctions-rcna230558)",
+    "Al Jazeera: Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions, 2025-12-13 (https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:DEU",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->DEU (Niemcy), dyplomacja: początek niepodległości; poprawne stosunki z Unią / poprawne stosunki; handel z Niemcami / poprawne stosunki; Niemcy w polityce UE wobec Mińska / poprawne stosunki; Niemcy jako partner UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:DEU",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "BLR->DEU (Niemcy), dyplomacja: sankcje UE po wyborach 2020; relacje chłodne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "BLR->DEU (Niemcy), dyplomacja: sankcje; Niemcy krytykują udział Białorusi w wojnie / chłodne relacje; sankcje utrzymane"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:DEU",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->DEU (Niemcy), opinia społeczna: początek niepodległości; poprawne stosunki z Unią / poprawne stosunki; handel z Niemcami / poprawne stosunki; Niemcy w polityce UE wobec Mińska / poprawne stosunki; Niemcy jako partner UE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:DEU",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "BLR->DEU (Niemcy), opinia społeczna: sankcje UE po wyborach 2020; relacje chłodne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "BLR->DEU (Niemcy), opinia społeczna: sankcje; Niemcy krytykują udział Białorusi w wojnie / chłodne relacje; sankcje utrzymane"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->DEU (Niemcy), postrzegana zależność: początek niepodległości; poprawne stosunki z Unią / poprawne stosunki; handel z Niemcami / poprawne stosunki; Niemcy w polityce UE wobec Mińska / poprawne stosunki; Niemcy jako partner UE / sankcje UE po wyborach 2020; relacje chłodne / sankcje; Niemcy krytykują udział Białorusi w wojnie / chłodne relacje; sankcje utrzymane"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->DEU (Niemcy), postrzegany wpływ: początek niepodległości; poprawne stosunki z Unią / poprawne stosunki; handel z Niemcami / poprawne stosunki; Niemcy w polityce UE wobec Mińska / poprawne stosunki; Niemcy jako partner UE / sankcje UE po wyborach 2020; relacje chłodne / sankcje; Niemcy krytykują udział Białorusi w wojnie / chłodne relacje; sankcje utrzymane"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->DEU (Niemcy), rzeczywista zależność: początek niepodległości; poprawne stosunki z Unią / poprawne stosunki; handel z Niemcami / poprawne stosunki; Niemcy w polityce UE wobec Mińska / poprawne stosunki; Niemcy jako partner UE / sankcje UE po wyborach 2020; relacje chłodne / sankcje; Niemcy krytykują udział Białorusi w wojnie / chłodne relacje; sankcje utrzymane"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:DEU",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->DEU (Niemcy), rzeczywisty wpływ: początek niepodległości; poprawne stosunki z Unią / poprawne stosunki; handel z Niemcami / poprawne stosunki; Niemcy w polityce UE wobec Mińska / poprawne stosunki; Niemcy jako partner UE / sankcje UE po wyborach 2020; relacje chłodne / sankcje; Niemcy krytykują udział Białorusi w wojnie / chłodne relacje; sankcje utrzymane"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:DEU",
+   "years": "1991-2021",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->DEU (Niemcy), zależność gospodarcza: początek niepodległości; poprawne stosunki z Unią / poprawne stosunki; handel z Niemcami / poprawne stosunki; Niemcy w polityce UE wobec Mińska / poprawne stosunki; Niemcy jako partner UE / sankcje UE po wyborach 2020; relacje chłodne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:DEU",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->DEU (Niemcy), zależność gospodarcza: sankcje; Niemcy krytykują udział Białorusi w wojnie / chłodne relacje; sankcje utrzymane"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:GBR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->GBR (Wielka Brytania), dyplomacja: początek niepodległości; kontakty dyplomatyczne / kontakty dyplomatyczne; krytyka reżimu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:GBR",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "BLR->GBR (Wielka Brytania), dyplomacja: sankcje po 2020; ostra krytyka, wsparcie dla opozycji / sankcje; ostra krytyka udziału Białorusi w wojnie / sankcje utrzymane; relacje wrogie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:GBR",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->GBR (Wielka Brytania), opinia społeczna: początek niepodległości; kontakty dyplomatyczne / kontakty dyplomatyczne; krytyka reżimu"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:GBR",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "BLR->GBR (Wielka Brytania), opinia społeczna: sankcje po 2020; ostra krytyka, wsparcie dla opozycji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:GBR",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "BLR->GBR (Wielka Brytania), opinia społeczna: sankcje; ostra krytyka udziału Białorusi w wojnie / sankcje utrzymane; relacje wrogie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->GBR (Wielka Brytania), postrzegana zależność: początek niepodległości; kontakty dyplomatyczne / kontakty dyplomatyczne; krytyka reżimu / sankcje po 2020; ostra krytyka, wsparcie dla opozycji / sankcje; ostra krytyka udziału Białorusi w wojnie / sankcje utrzymane; relacje wrogie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->GBR (Wielka Brytania), postrzegany wpływ: początek niepodległości; kontakty dyplomatyczne / kontakty dyplomatyczne; krytyka reżimu / sankcje po 2020; ostra krytyka, wsparcie dla opozycji / sankcje; ostra krytyka udziału Białorusi w wojnie / sankcje utrzymane; relacje wrogie"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->GBR (Wielka Brytania), rzeczywista zależność: początek niepodległości; kontakty dyplomatyczne / kontakty dyplomatyczne; krytyka reżimu / sankcje po 2020; ostra krytyka, wsparcie dla opozycji / sankcje; ostra krytyka udziału Białorusi w wojnie / sankcje utrzymane; relacje wrogie"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->GBR (Wielka Brytania), rzeczywisty wpływ: początek niepodległości; kontakty dyplomatyczne / kontakty dyplomatyczne; krytyka reżimu / sankcje po 2020; ostra krytyka, wsparcie dla opozycji / sankcje; ostra krytyka udziału Białorusi w wojnie / sankcje utrzymane; relacje wrogie"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:GBR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->GBR (Wielka Brytania), zależność gospodarcza: początek niepodległości; kontakty dyplomatyczne / kontakty dyplomatyczne; krytyka reżimu / sankcje po 2020; ostra krytyka, wsparcie dla opozycji / sankcje; ostra krytyka udziału Białorusi w wojnie / sankcje utrzymane; relacje wrogie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:TUR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->TUR (Turcja), dyplomacja: początek niepodległości; kontakty handlowe / rozwijający się handel; relacje pragmatyczne / rozwijający się handel i kontakty; pragmatyczne / dobre relacje; kontakty biznesowe / dobre relacje; Turcja nie przyłącza się do sankcji / dobre relacje; kontakty biznesowe i pośrednictwo / dobre relacje; pragmatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:TUR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->TUR (Turcja), opinia społeczna: początek niepodległości; kontakty handlowe / rozwijający się handel; relacje pragmatyczne / rozwijający się handel i kontakty; pragmatyczne / dobre relacje; kontakty biznesowe / dobre relacje; Turcja nie przyłącza się do sankcji / dobre relacje; kontakty biznesowe i pośrednictwo / dobre relacje; pragmatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:TUR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->TUR (Turcja), postrzegana zależność: początek niepodległości; kontakty handlowe / rozwijający się handel; relacje pragmatyczne / rozwijający się handel i kontakty; pragmatyczne / dobre relacje; kontakty biznesowe / dobre relacje; Turcja nie przyłącza się do sankcji / dobre relacje; kontakty biznesowe i pośrednictwo / dobre relacje; pragmatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:TUR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "BLR->TUR (Turcja), postrzegany wpływ: początek niepodległości; kontakty handlowe / rozwijający się handel; relacje pragmatyczne / rozwijający się handel i kontakty; pragmatyczne / dobre relacje; kontakty biznesowe / dobre relacje; Turcja nie przyłącza się do sankcji / dobre relacje; kontakty biznesowe i pośrednictwo / dobre relacje; pragmatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:TUR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->TUR (Turcja), rzeczywista zależność: początek niepodległości; kontakty handlowe / rozwijający się handel; relacje pragmatyczne / rozwijający się handel i kontakty; pragmatyczne / dobre relacje; kontakty biznesowe / dobre relacje; Turcja nie przyłącza się do sankcji / dobre relacje; kontakty biznesowe i pośrednictwo / dobre relacje; pragmatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:TUR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->TUR (Turcja), rzeczywisty wpływ: początek niepodległości; kontakty handlowe / rozwijający się handel; relacje pragmatyczne / rozwijający się handel i kontakty; pragmatyczne / dobre relacje; kontakty biznesowe / dobre relacje; Turcja nie przyłącza się do sankcji / dobre relacje; kontakty biznesowe i pośrednictwo / dobre relacje; pragmatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:TUR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->TUR (Turcja), zależność gospodarcza: początek niepodległości; kontakty handlowe / rozwijający się handel; relacje pragmatyczne / rozwijający się handel i kontakty; pragmatyczne / dobre relacje; kontakty biznesowe / dobre relacje; Turcja nie przyłącza się do sankcji / dobre relacje; kontakty biznesowe i pośrednictwo / dobre relacje; pragmatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:KAZ",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->KAZ (Kazachstan), dyplomacja: bliskie relacje w ramach WNP"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:KAZ",
+   "years": "1995-2008",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "BLR->KAZ (Kazachstan), dyplomacja: współpraca w ramach WNP i integracji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:KAZ",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "BLR->KAZ (Kazachstan), dyplomacja: bliskie relacje w ramach integracji / członkostwo w EAUE; bliskie relacje / członkostwo w EAUE; współpraca / współpraca w EAUE"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "BLR->KAZ (Kazachstan), opinia społeczna: bliskie relacje w ramach WNP / współpraca w ramach WNP i integracji / bliskie relacje w ramach integracji / członkostwo w EAUE; bliskie relacje / członkostwo w EAUE; współpraca / współpraca w EAUE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->KAZ (Kazachstan), postrzegana zależność: bliskie relacje w ramach WNP / współpraca w ramach WNP i integracji / bliskie relacje w ramach integracji / członkostwo w EAUE; bliskie relacje / członkostwo w EAUE; współpraca / współpraca w EAUE"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->KAZ (Kazachstan), postrzegany wpływ: bliskie relacje w ramach WNP / współpraca w ramach WNP i integracji / bliskie relacje w ramach integracji / członkostwo w EAUE; bliskie relacje / członkostwo w EAUE; współpraca / współpraca w EAUE"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:KAZ",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->KAZ (Kazachstan), rzeczywista zależność: bliskie relacje w ramach WNP"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:KAZ",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->KAZ (Kazachstan), rzeczywista zależność: współpraca w ramach WNP i integracji / bliskie relacje w ramach integracji / członkostwo w EAUE; bliskie relacje / członkostwo w EAUE; współpraca / współpraca w EAUE"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->KAZ (Kazachstan), rzeczywisty wpływ: bliskie relacje w ramach WNP / współpraca w ramach WNP i integracji / bliskie relacje w ramach integracji / członkostwo w EAUE; bliskie relacje / członkostwo w EAUE; współpraca / współpraca w EAUE"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:KAZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->KAZ (Kazachstan), zależność gospodarcza: bliskie relacje w ramach WNP / współpraca w ramach WNP i integracji / bliskie relacje w ramach integracji / członkostwo w EAUE; bliskie relacje / członkostwo w EAUE; współpraca / współpraca w EAUE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:ARM",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->ARM (Armenia), dyplomacja: kontakty w ramach WNP"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:ARM",
+   "years": "1995-2014",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR->ARM (Armenia), dyplomacja: kontakty w ramach WNP i OUBZ / kontakty w ramach OUBZ i WNP"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:ARM",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "BLR->ARM (Armenia), dyplomacja: OUBZ i EAUE; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:ARM",
+   "years": "2020-2021",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR->ARM (Armenia), dyplomacja: chłodniejsze relacje po zwrocie Armenii na Zachód"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:ARM",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "BLR->ARM (Armenia), dyplomacja: chłodne relacje; Armenia dystansuje się od Rosji / kontakty w ramach EAUE; ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->ARM (Armenia), opinia społeczna: kontakty w ramach WNP / kontakty w ramach WNP i OUBZ / kontakty w ramach OUBZ i WNP / OUBZ i EAUE; kontakty / chłodniejsze relacje po zwrocie Armenii na Zachód / chłodne relacje; Armenia dystansuje się od Rosji / kontakty w ramach EAUE; ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->ARM (Armenia), postrzegana zależność: kontakty w ramach WNP / kontakty w ramach WNP i OUBZ / kontakty w ramach OUBZ i WNP / OUBZ i EAUE; kontakty / chłodniejsze relacje po zwrocie Armenii na Zachód / chłodne relacje; Armenia dystansuje się od Rosji / kontakty w ramach EAUE; ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->ARM (Armenia), postrzegany wpływ: kontakty w ramach WNP / kontakty w ramach WNP i OUBZ / kontakty w ramach OUBZ i WNP / OUBZ i EAUE; kontakty / chłodniejsze relacje po zwrocie Armenii na Zachód / chłodne relacje; Armenia dystansuje się od Rosji / kontakty w ramach EAUE; ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->ARM (Armenia), rzeczywista zależność: kontakty w ramach WNP / kontakty w ramach WNP i OUBZ / kontakty w ramach OUBZ i WNP / OUBZ i EAUE; kontakty / chłodniejsze relacje po zwrocie Armenii na Zachód / chłodne relacje; Armenia dystansuje się od Rosji / kontakty w ramach EAUE; ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->ARM (Armenia), rzeczywisty wpływ: kontakty w ramach WNP / kontakty w ramach WNP i OUBZ / kontakty w ramach OUBZ i WNP / OUBZ i EAUE; kontakty / chłodniejsze relacje po zwrocie Armenii na Zachód / chłodne relacje; Armenia dystansuje się od Rosji / kontakty w ramach EAUE; ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:ARM",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->ARM (Armenia), zależność gospodarcza: kontakty w ramach WNP / kontakty w ramach WNP i OUBZ / kontakty w ramach OUBZ i WNP / OUBZ i EAUE; kontakty / chłodniejsze relacje po zwrocie Armenii na Zachód / chłodne relacje; Armenia dystansuje się od Rosji / kontakty w ramach EAUE; ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:KGZ",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->KGZ (Kirgistan), dyplomacja: kontakty w ramach WNP"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:KGZ",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "BLR->KGZ (Kirgistan), dyplomacja: współpraca w ramach WNP i OUBZ / współpraca w ramach OUBZ / EAUE i OUBZ; współpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->KGZ (Kirgistan), opinia społeczna: kontakty w ramach WNP / współpraca w ramach WNP i OUBZ / współpraca w ramach OUBZ / EAUE i OUBZ; współpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->KGZ (Kirgistan), postrzegana zależność: kontakty w ramach WNP / współpraca w ramach WNP i OUBZ / współpraca w ramach OUBZ / EAUE i OUBZ; współpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->KGZ (Kirgistan), postrzegany wpływ: kontakty w ramach WNP / współpraca w ramach WNP i OUBZ / współpraca w ramach OUBZ / EAUE i OUBZ; współpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->KGZ (Kirgistan), rzeczywista zależność: kontakty w ramach WNP / współpraca w ramach WNP i OUBZ / współpraca w ramach OUBZ / EAUE i OUBZ; współpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->KGZ (Kirgistan), rzeczywisty wpływ: kontakty w ramach WNP / współpraca w ramach WNP i OUBZ / współpraca w ramach OUBZ / EAUE i OUBZ; współpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:KGZ",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->KGZ (Kirgistan), zależność gospodarcza: kontakty w ramach WNP / współpraca w ramach WNP i OUBZ / współpraca w ramach OUBZ / EAUE i OUBZ; współpraca"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UZB",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "BLR->UZB (Uzbekistan), dyplomacja: kontakty w ramach WNP"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:UZB",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "BLR->UZB (Uzbekistan), dyplomacja: współpraca w ramach WNP i handlu / współpraca handlowa / współpraca handlowa; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->UZB (Uzbekistan), opinia społeczna: kontakty w ramach WNP / współpraca w ramach WNP i handlu / współpraca handlowa / współpraca handlowa; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UZB (Uzbekistan), postrzegana zależność: kontakty w ramach WNP / współpraca w ramach WNP i handlu / współpraca handlowa / współpraca handlowa; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UZB (Uzbekistan), postrzegany wpływ: kontakty w ramach WNP / współpraca w ramach WNP i handlu / współpraca handlowa / współpraca handlowa; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->UZB (Uzbekistan), rzeczywista zależność: kontakty w ramach WNP / współpraca w ramach WNP i handlu / współpraca handlowa / współpraca handlowa; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->UZB (Uzbekistan), rzeczywisty wpływ: kontakty w ramach WNP / współpraca w ramach WNP i handlu / współpraca handlowa / współpraca handlowa; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:UZB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->UZB (Uzbekistan), zależność gospodarcza: kontakty w ramach WNP / współpraca w ramach WNP i handlu / współpraca handlowa / współpraca handlowa; kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:IRN",
+   "years": "1991-2019",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->IRN (Iran), dyplomacja: kontakty dyplomatyczne i handlowe"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:IRN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "BLR->IRN (Iran), dyplomacja: kontakty dyplomatyczne; współpraca / współpraca w czasie wojny; kontakty / współpraca dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:IRN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->IRN (Iran), opinia społeczna: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne; współpraca / współpraca w czasie wojny; kontakty / współpraca dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:IRN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->IRN (Iran), postrzegana zależność: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne; współpraca / współpraca w czasie wojny; kontakty / współpraca dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:IRN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->IRN (Iran), postrzegany wpływ: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne; współpraca / współpraca w czasie wojny; kontakty / współpraca dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:IRN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->IRN (Iran), rzeczywista zależność: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne; współpraca / współpraca w czasie wojny; kontakty / współpraca dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:IRN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->IRN (Iran), rzeczywisty wpływ: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne; współpraca / współpraca w czasie wojny; kontakty / współpraca dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:IRN",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->IRN (Iran), zależność gospodarcza: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne; współpraca / współpraca w czasie wojny; kontakty / współpraca dyplomatyczna"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:SRB",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->SRB (Serbia), dyplomacja: kontakty z Jugosławią i po niej; przyjaźń"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:SRB",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "BLR->SRB (Serbia), dyplomacja: przyjazne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:SRB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "BLR->SRB (Serbia), opinia społeczna: kontakty z Jugosławią i po niej; przyjaźń / przyjazne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:SRB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->SRB (Serbia), postrzegana zależność: kontakty z Jugosławią i po niej; przyjaźń / przyjazne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:SRB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->SRB (Serbia), postrzegany wpływ: kontakty z Jugosławią i po niej; przyjaźń / przyjazne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:SRB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->SRB (Serbia), rzeczywista zależność: kontakty z Jugosławią i po niej; przyjaźń / przyjazne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:SRB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->SRB (Serbia), rzeczywisty wpływ: kontakty z Jugosławią i po niej; przyjaźń / przyjazne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:SRB",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->SRB (Serbia), zależność gospodarcza: kontakty z Jugosławią i po niej; przyjaźń / przyjazne kontakty"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:AZE",
+   "years": "1991-1994",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "BLR->AZE (Azerbejdżan), dyplomacja: kontakty dyplomatyczne i handlowe"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "BLR:AZE",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "BLR->AZE (Azerbejdżan), dyplomacja: kontakty dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "BLR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->AZE (Azerbejdżan), opinia społeczna: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "BLR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->AZE (Azerbejdżan), postrzegana zależność: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "BLR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "BLR->AZE (Azerbejdżan), postrzegany wpływ: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "BLR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->AZE (Azerbejdżan), rzeczywista zależność: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "BLR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->AZE (Azerbejdżan), rzeczywisty wpływ: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "BLR:AZE",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "BLR->AZE (Azerbejdżan), zależność gospodarcza: kontakty dyplomatyczne i handlowe / kontakty dyplomatyczne"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+  "rationale": "NZL, zadanie A, tryb oszczedny: stabilnosc (stabilna demokracja parlamentarna, kryzysy koalicyjne 1996-1998, reszta spokojna), korupcja (TI CPI 85/83/81 w 2023-2025, uzupelnienie 1990-1995 i 2023-2025 plynnie z istniejacymi wartosciami), szczescie 1990-2010 (linia od 73 do 73.8 zgodna z 2011), cywilizacja 2024-2025 (HDI), przemoc 1990-1995 i 2023-2025 (niska, zgodnie z WGI), rewanzyzm spoleczny i rzadowy (brak aspiracji terytorialnych), popularnosc rzadu (wybory 1990, 1996, 1999, 2008, 2017, 2020, 2023; Luxon ok. 38% aprobaty w 2025), wrazliwosc na koszty (reformy lat 90, cost-of-living po 2022), asymilacja (wysoka, ale z napływem migracyjnym po 2015), epidemia 2020-2021 (COVID, jak u wszystkich), wojna: zaangazowanie w Afganistanie 2009-2013 (mala skala, jak NOR 2010)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "NZL", "years": "1990-1995", "curve": "linear", "start": 88, "end": 85},
+    {"kind": "grade", "name": "stability", "targets": "NZL", "years": "1996-1998", "curve": "linear", "start": 84, "end": 82},
+    {"kind": "grade", "name": "stability", "targets": "NZL", "years": "1999-2008", "curve": "logistic", "start": 82, "end": 88},
+    {"kind": "grade", "name": "stability", "targets": "NZL", "years": "2009-2017", "curve": "linear", "start": 88, "end": 90},
+    {"kind": "grade", "name": "stability", "targets": "NZL", "years": "2018-2022", "curve": "linear", "start": 90, "end": 89},
+    {"kind": "grade", "name": "stability", "targets": "NZL", "years": "2023-2025", "curve": "constant", "start": 88},
+
+    {"kind": "grade", "name": "corruption", "targets": "NZL", "years": "1990-1995", "curve": "linear", "start": 8.2, "end": 7.9},
+    {"kind": "grade", "name": "corruption", "targets": "NZL", "years": "2023-2025", "curve": "linear", "start": 7.3, "end": 8.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "NZL", "years": "1990-2010", "curve": "linear", "start": 73, "end": 73.8},
+
+    {"kind": "grade", "name": "civilization level", "targets": "NZL", "years": "2024-2025", "curve": "linear", "start": 93.9, "end": 94.0},
+
+    {"kind": "grade", "name": "violence risk", "targets": "NZL", "years": "1990-1995", "curve": "constant", "start": 23.2},
+    {"kind": "grade", "name": "violence risk", "targets": "NZL", "years": "2023-2025", "curve": "constant", "start": 23.8},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "NZL", "years": "1990-1999", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "social revanchism", "targets": "NZL", "years": "2000-2009", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "social revanchism", "targets": "NZL", "years": "2010-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "NZL", "years": "1990-1999", "curve": "constant", "start": 0},
+    {"kind": "grade", "name": "government revanchism", "targets": "NZL", "years": "2000-2009", "curve": "constant", "start": 0},
+    {"kind": "grade", "name": "government revanchism", "targets": "NZL", "years": "2010-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "1990-1992", "curve": "linear", "start": 55, "end": 28},
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "1993-1996", "curve": "linear", "start": 28, "end": 36},
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "1997-1999", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "2000-2008", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "2009-2016", "curve": "linear", "start": 58, "end": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "2017-2019", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "2020-2021", "curve": "linear", "start": 75, "end": 62},
+    {"kind": "grade", "name": "government popularity", "targets": "NZL", "years": "2022-2025", "curve": "linear", "start": 45, "end": 37},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "NZL", "years": "1990-1993", "curve": "linear", "start": 55, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NZL", "years": "1994-2008", "curve": "linear", "start": 62, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NZL", "years": "2009-2019", "curve": "constant", "start": 48},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NZL", "years": "2020-2021", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "NZL", "years": "2022-2025", "curve": "linear", "start": 52, "end": 58},
+
+    {"kind": "grade", "name": "assimilation", "targets": "NZL", "years": "1990-1995", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "NZL", "years": "1996-2014", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "NZL", "years": "2015-2025", "curve": "linear", "start": 70, "end": 66},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "NZL", "years": "2009-2013", "curve": "constant", "start": 8},
+
+    {"kind": "grade", "name": "epidemic", "targets": "NZL", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

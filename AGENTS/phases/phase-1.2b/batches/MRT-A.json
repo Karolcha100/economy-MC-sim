@@ -1,0 +1,52 @@
+{
+  "rationale": "MRT, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Mauretanii: rządy Taya (1984-2005), zamieszki etniczne i wypędzenia 1989-1991, zamachy 2003 (próba), 2005, 2008, wybory 2007/2009/2014/2019/2024, aktywność AQIM 2007-2011, napięcia po wyborach 2024. Wyszukiwarka tylko dla 2023-2025: wybory 2024 (Ghazouani, 56%, zarzuty o fałszerstwa, 22-dniowe wyłączenie internetu VII 2024), późniejsze tłumienie protestów i zatrzymania (2025). Istniejące wartości nie zmieniane (only_empty). Happiness 1990-2010 estymowane na skali Cantril x10.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MRT", "years": "1990-1991", "curve": "linear", "start": 35, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MRT", "years": "1992-2002", "curve": "linear", "start": 40, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MRT", "years": "2003-2004", "curve": "linear", "start": 42, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MRT", "years": "2005-2007", "curve": "linear", "start": 40, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MRT", "years": "2008-2009", "curve": "linear", "start": 35, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MRT", "years": "2010-2018", "curve": "linear", "start": 50, "end": 58, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MRT", "years": "2019-2025", "curve": "linear", "start": 58, "end": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MRT", "years": "1990-1995", "curve": "linear", "start": 60, "end": 43.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MRT", "years": "2023-2025", "curve": "linear", "start": 59.5, "end": 58.5, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "MRT", "years": "1990-1995", "curve": "linear", "start": 65, "end": 61.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MRT", "years": "2023-2025", "curve": "linear", "start": 66, "end": 65, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MRT", "years": "1990-1995", "curve": "linear", "start": 44, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MRT", "years": "1996-2010", "curve": "linear", "start": 45.5, "end": 46, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MRT", "years": "2024-2025", "curve": "linear", "start": 56.6, "end": 57.0, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MRT", "years": "1990-1991", "curve": "linear", "start": 15, "end": 13, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MRT", "years": "1992-2010", "curve": "linear", "start": 12, "end": 8, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "MRT", "years": "2011-2025", "curve": "constant", "start": 8, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "MRT", "years": "1990-1992", "curve": "linear", "start": 5, "end": 2, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MRT", "years": "1993-2025", "curve": "constant", "start": 2, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "1990-1992", "curve": "linear", "start": 45, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "1993-2002", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "2003-2004", "curve": "linear", "start": 35, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "2005-2006", "curve": "linear", "start": 55, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "2007-2008", "curve": "linear", "start": 60, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "2009-2014", "curve": "linear", "start": 40, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "2015-2018", "curve": "linear", "start": 50, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "2019-2023", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MRT", "years": "2024-2025", "curve": "linear", "start": 48, "end": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MRT", "years": "1990-1995", "curve": "linear", "start": 70, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MRT", "years": "1996-2010", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MRT", "years": "2011-2025", "curve": "linear", "start": 65, "end": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MRT", "years": "1990-1995", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MRT", "years": "1996-2010", "curve": "linear", "start": 35, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MRT", "years": "2011-2025", "curve": "constant", "start": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "MRT", "years": "1990-1991", "curve": "constant", "start": 10, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MRT", "years": "2020-2021", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

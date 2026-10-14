@@ -1,0 +1,46 @@
+{
+  "rationale": "QAT, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Kataru (emirat, sukcesje 1995 i 2013 bez wojny domowej; zamach pałacowy 1995 i nieudana kontrrewolucja 1996 jako skoki stabilności i przemocy; blokada 2017 to kryzys dyplomatyczny, nie rządowy; atak Iranu na Al Udeid w 2025; COVID-19 w 2020; mobilizacja 1990-1991 w związku z wojną w Zatoce; brak sondaży, popularność szacowana). Istniejące wartości nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "QAT", "years": "1990-1994", "curve": "linear", "start": 74, "end": 75, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "QAT", "years": "1995", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "QAT", "years": "1996", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "QAT", "years": "1997-2004", "curve": "linear", "start": 62, "end": 78, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "QAT", "years": "2005-2012", "curve": "linear", "start": 78, "end": 82, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "QAT", "years": "2013-2025", "curve": "linear", "start": 83, "end": 85, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "QAT", "years": "1990-1995", "curve": "linear", "start": 52, "end": 51, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "QAT", "years": "2022-2025", "curve": "linear", "start": "current", "end": 33, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "QAT", "years": "1990-1999", "curve": "linear", "start": 60, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "QAT", "years": "2000-2010", "curve": "linear", "start": 62, "end": 65.5, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "QAT", "years": "2019-2025", "curve": "constant", "start": 63.7, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "QAT", "years": "1990-1995", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "QAT", "years": "2022-2024", "curve": "linear", "start": "current", "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "QAT", "years": "2025", "curve": "constant", "start": 33, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "QAT", "years": "1990-2025", "curve": "constant", "start": 6, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "QAT", "years": "1990-2000", "curve": "constant", "start": 5, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "QAT", "years": "2001-2025", "curve": "constant", "start": 3, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "QAT", "years": "1990-1995", "curve": "linear", "start": 70, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "QAT", "years": "1996-2012", "curve": "linear", "start": 72, "end": 78, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "QAT", "years": "2013-2016", "curve": "linear", "start": 78, "end": 82, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "QAT", "years": "2017-2025", "curve": "constant", "start": 82, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "QAT", "years": "1990-1999", "curve": "constant", "start": 40, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "QAT", "years": "2000-2013", "curve": "linear", "start": 40, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "QAT", "years": "2014-2016", "curve": "linear", "start": 38, "end": 42, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "QAT", "years": "2017-2025", "curve": "constant", "start": 40, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "QAT", "years": "2023-2025", "curve": "linear", "start": "current", "end": 89, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "QAT", "years": "1990-1999", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "QAT", "years": "2000-2010", "curve": "linear", "start": 25, "end": 20, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "QAT", "years": "2011-2025", "curve": "constant", "start": 20, "only_empty": true},
+
+    {"kind": "grade", "name": "mobilized", "targets": "QAT", "years": "1990-1991", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "QAT", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "rationale": "NRU, zadanie B (oszczedny): relacje NRU -> 16 partnerow (AUS, CHN, FJI, GBR, JPN, KIR, MHL, NZL, PNG, SLB, TON, TUV, TWN, USA, VUT, WSM). Nauru nie ma granic ladowych (neighbours 0). Brak konfliktow zbrojnych i kryzysow z innymi panstwami w 1990-2025 (dwustronne bez zmian, reszta confirm-default). Uznanie ROC/ChRL: ROC 1990-2001 (dyplomacja 70, zaleznosc ekonomiczna 40 od pomocy Tajwanu); ChRL 2002-2004 (uznanie, dyplomacja 70, zaleznosc 35); ROC ponownie 2005-2023 (dyplomacja 70; ChRL bez stosunkow: -30); ChRL od stycznia 2024 (dyplomacja 70; ROC: -30). Zerwanie stosunkow oceniam jako -30 (chlodne, bez stosunkow), a nie -100 (wrogosc). ChRL przed 2002: 0 (brak stosunkow). AUS: najwieksza zaleznosc (pomoc, osrodek przetwarzania, bezpieczenstwo). Mniejsi partnerzy Pacyfiku: wspolne wartosci dla grupy. Hybrid attacks 0 (NRU nie prowadzi dzialan hybrydowych).",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:CHN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:TWN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:FJI,NRU:PNG,NRU:JPN,NRU:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:NZL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:TWN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:CHN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:CHN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:TWN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:TWN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "NRU:CHN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NRU:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NRU:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NRU:FJI,NRU:PNG,NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM,NRU:USA,NRU:JPN,NRU:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "NRU:AUS,NRU:NZL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:CHN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:TWN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM,NRU:JPN,NRU:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:FJI,NRU:PNG,NRU:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:NZL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:TWN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:CHN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:CHN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:TWN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:TWN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "NRU:CHN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NRU:CHN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NRU:AUS,NRU:NZL,NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM,NRU:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NRU:FJI,NRU:PNG,NRU:USA,NRU:JPN,NRU:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NRU:CHN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NRU:CHN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "NRU:CHN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:CHN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:TWN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM,NRU:JPN,NRU:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:FJI,NRU:PNG,NRU:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:NZL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:TWN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:CHN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:CHN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:TWN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:TWN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "NRU:CHN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NRU:CHN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NRU:AUS,NRU:NZL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NRU:FJI,NRU:PNG,NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM,NRU:USA,NRU:JPN,NRU:GBR,NRU:TWN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NRU:CHN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NRU:CHN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "NRU:CHN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:CHN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:TWN",
+      "years": "1990-2001",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:GBR",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM,NRU:USA",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:FJI,NRU:PNG,NRU:JPN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:NZL",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:AUS",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 80
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:TWN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:CHN",
+      "years": "2002-2004",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:CHN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:TWN",
+      "years": "2005-2023",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:TWN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "NRU:CHN",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "NRU:AUS,NRU:NZL,NRU:FJI,NRU:PNG,NRU:SLB,NRU:VUT,NRU:KIR,NRU:TUV,NRU:MHL,NRU:TON,NRU:WSM,NRU:USA,NRU:JPN,NRU:GBR,NRU:TWN,NRU:CHN",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    }
+  ]
+}

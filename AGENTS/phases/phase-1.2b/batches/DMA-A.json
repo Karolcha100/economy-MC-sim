@@ -1,0 +1,50 @@
+{
+  "rationale": "DMA, zadanie A (statystyki państwa), tryb oszczędny. Brak danych WHR dla DMA: happiness oszacowane przez porównanie z karaibskimi państwami średniego rozwoju (LCA, VCT, GRD, JAM; skala 10 x Cantril) z dołkiem po huraganie Maria 2017-2018 i po COVID 2020-2021. Stabilna parlamentarna demokracja bez kryzysów instytucjonalnych (zmiany rządów w wyborach, dominacja DLP od 2004; wybory z 6 grudnia 2022: DLP 19 z 21 mandatów przy frekwencji ok. 32%; spory o reformę wyborczą 2025 z protestami i zatrzymaniami). Brak sporów terytorialnych i roszczeń. Corruption i violence risk: uzupełnione lata 1990-1995 i 2023-2025 w kontynuacji istniejących wartości. Civilization level 1990-1999 wg HDI (kontynuacja 2000 = 72,1), 2024-2025 wg trendu. Popularność rządu 2023-2025: brak sondaży; szacunek z wyborów 2022 i reakcji na reformę 2025.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "DMA", "years": "1990-2004", "curve": "linear", "start": 72, "end": 76},
+    {"kind": "grade", "name": "stability", "targets": "DMA", "years": "2005-2016", "curve": "linear", "start": 77, "end": 80},
+    {"kind": "grade", "name": "stability", "targets": "DMA", "years": "2017-2018", "curve": "constant", "start": 78},
+    {"kind": "grade", "name": "stability", "targets": "DMA", "years": "2019-2024", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "DMA", "years": "2025", "curve": "constant", "start": 77},
+
+    {"kind": "grade", "name": "corruption", "targets": "DMA", "years": "1990-1995", "curve": "linear", "start": 33.2, "end": 32.7},
+    {"kind": "grade", "name": "corruption", "targets": "DMA", "years": "2023-2025", "curve": "constant", "start": 39.3},
+
+    {"kind": "grade", "name": "happiness", "targets": "DMA", "years": "1990-1995", "curve": "constant", "start": 57},
+    {"kind": "grade", "name": "happiness", "targets": "DMA", "years": "1996-2004", "curve": "constant", "start": 59},
+    {"kind": "grade", "name": "happiness", "targets": "DMA", "years": "2005-2016", "curve": "constant", "start": 61},
+    {"kind": "grade", "name": "happiness", "targets": "DMA", "years": "2017-2018", "curve": "constant", "start": 57},
+    {"kind": "grade", "name": "happiness", "targets": "DMA", "years": "2019", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "happiness", "targets": "DMA", "years": "2020-2021", "curve": "constant", "start": 59},
+    {"kind": "grade", "name": "happiness", "targets": "DMA", "years": "2022-2025", "curve": "linear", "start": 60, "end": 62},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "DMA", "years": "1990-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "DMA", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "DMA", "years": "1990-1995", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "DMA", "years": "1996-2003", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "DMA", "years": "2004-2009", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "DMA", "years": "2010-2019", "curve": "linear", "start": 58, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "DMA", "years": "2020-2021", "curve": "linear", "start": 60, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "DMA", "years": "2022-2024", "curve": "linear", "start": 60, "end": 58},
+    {"kind": "grade", "name": "government popularity", "targets": "DMA", "years": "2025", "curve": "constant", "start": 52},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "DMA", "years": "1990-1999", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DMA", "years": "2000-2016", "curve": "linear", "start": 60, "end": 57},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DMA", "years": "2017-2019", "curve": "constant", "start": 63},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DMA", "years": "2020-2021", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "DMA", "years": "2022-2025", "curve": "constant", "start": 58},
+
+    {"kind": "grade", "name": "civilization level", "targets": "DMA", "years": "1990-1999", "curve": "linear", "start": 67.0, "end": 71.5},
+    {"kind": "grade", "name": "civilization level", "targets": "DMA", "years": "2024-2025", "curve": "constant", "start": 76.3},
+
+    {"kind": "grade", "name": "assimilation", "targets": "DMA", "years": "1990-1999", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "DMA", "years": "2000-2009", "curve": "linear", "start": 70, "end": 68},
+    {"kind": "grade", "name": "assimilation", "targets": "DMA", "years": "2010-2025", "curve": "linear", "start": 68, "end": 63},
+
+    {"kind": "grade", "name": "violence risk", "targets": "DMA", "years": "1990-1995", "curve": "constant", "start": 36},
+    {"kind": "grade", "name": "violence risk", "targets": "DMA", "years": "2023-2025", "curve": "constant", "start": 24},
+
+    {"kind": "grade", "name": "epidemic", "targets": "DMA", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

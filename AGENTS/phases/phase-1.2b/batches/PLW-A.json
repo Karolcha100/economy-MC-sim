@@ -1,0 +1,43 @@
+{
+  "rationale": "PLW, zadanie A (tryb oszczędny). Państwo istnieje od 1994 (niepodległość, Compact z USA). Brak danych WHR: happiness szacunkowo wg małych państw Pacyfiku i wysokiego HDI (ok. 0,78-0,80). stability i government popularity szacunkowo wg przebiegu prezydentur (Nakamura, Remengesau, Toribiong, Whipps; reelekcja Whippsa 11.2024 ok. 58%; spory z Senatem i wakaty w gabinecie 2025, wstrzymanie pomocy USA). corruption 1994-2007 i 2023-2025 wg trendu (WGI i istniejące wartości). violence risk i civilization level w brakujących latach wg trendu z istniejących wartości. Flaga epidemii: COVID 2020 (zamknięte granice, załamanie turystyki). Wartości istniejące nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "PLW", "years": "1994-1999", "curve": "linear", "start": 74, "end": 78, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PLW", "years": "2000-2020", "curve": "constant", "start": 80, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PLW", "years": "2021-2024", "curve": "constant", "start": 79, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "PLW", "years": "2025", "curve": "constant", "start": 75, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "PLW", "years": "1994-2007", "curve": "linear", "start": 52, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "PLW", "years": "2022-2025", "curve": "linear", "start": "current", "end": 38.5, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "PLW", "years": "1994-2004", "curve": "linear", "start": 58, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "PLW", "years": "2005-2019", "curve": "linear", "start": 63, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "PLW", "years": "2020-2021", "curve": "linear", "start": 63, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "PLW", "years": "2022-2025", "curve": "linear", "start": 61, "end": 65, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "PLW", "years": "1994-2025", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "PLW", "years": "1994-2025", "curve": "constant", "start": 0, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "PLW", "years": "1994-2000", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PLW", "years": "2001-2008", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PLW", "years": "2009-2012", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PLW", "years": "2013-2020", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PLW", "years": "2021-2023", "curve": "linear", "start": 70, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "PLW", "years": "2024-2025", "curve": "linear", "start": 62, "end": 58, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "PLW", "years": "1994-2019", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PLW", "years": "2020-2021", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "PLW", "years": "2022-2025", "curve": "constant", "start": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "PLW", "years": "1994-1999", "curve": "linear", "start": 70.5, "end": 73.2, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "PLW", "years": "2023-2025", "curve": "linear", "start": "current", "end": 79.0, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "PLW", "years": "1994-2004", "curve": "linear", "start": 52, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "PLW", "years": "2005-2020", "curve": "linear", "start": 50, "end": 46, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "PLW", "years": "2021-2025", "curve": "constant", "start": 46, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "PLW", "years": "1994-2002", "curve": "constant", "start": 27.5, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "PLW", "years": "2022-2025", "curve": "linear", "start": "current", "end": 28.5, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "PLW", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

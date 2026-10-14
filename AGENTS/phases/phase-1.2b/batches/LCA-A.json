@@ -1,0 +1,45 @@
+{
+  "rationale": "LCA, zadanie A (statystyki państwa), tryb oszczędny. Brak danych WHR dla LCA: happiness oszacowane przez porównanie z karaibskimi państwami średniego rozwoju (skala 10 x Cantril). Pozostałe wartości: stabilna parlamentarna demokracja bez kryzysów instytucjonalnych (zmiany rządów w wyborach 1997, 2006, 2011, 2016, 2021, 2025), brak sporów terytorialnych, przemoc polityczna niska; wartości 2023-2025 w większości kontynuacja, a wyniki wyborów z 1 grudnia 2025 (SLP 55,8% głosów, 14 z 17 mandatów) przy ocenach rządu",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "LCA", "years": "1990-1996", "curve": "constant", "start": 78},
+    {"kind": "grade", "name": "stability", "targets": "LCA", "years": "1997-2005", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "LCA", "years": "2006-2010", "curve": "constant", "start": 79},
+    {"kind": "grade", "name": "stability", "targets": "LCA", "years": "2011-2020", "curve": "constant", "start": 80},
+    {"kind": "grade", "name": "stability", "targets": "LCA", "years": "2021-2025", "curve": "constant", "start": 80},
+
+    {"kind": "grade", "name": "corruption", "targets": "LCA", "years": "1990-2003", "curve": "linear", "start": 38, "end": 44},
+    {"kind": "grade", "name": "corruption", "targets": "LCA", "years": "2023-2025", "curve": "constant", "start": 38.5},
+
+    {"kind": "grade", "name": "happiness", "targets": "LCA", "years": "1990-1995", "curve": "constant", "start": 58},
+    {"kind": "grade", "name": "happiness", "targets": "LCA", "years": "1996-2004", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "happiness", "targets": "LCA", "years": "2005-2019", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "happiness", "targets": "LCA", "years": "2020-2021", "curve": "constant", "start": 59},
+    {"kind": "grade", "name": "happiness", "targets": "LCA", "years": "2022-2025", "curve": "linear", "start": 60, "end": 62},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "LCA", "years": "1990-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "LCA", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "LCA", "years": "1990-1996", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "LCA", "years": "1997-2001", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "LCA", "years": "2002-2005", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "LCA", "years": "2006-2010", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "LCA", "years": "2011-2015", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "government popularity", "targets": "LCA", "years": "2016-2020", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "LCA", "years": "2021-2025", "curve": "linear", "start": 60, "end": 58},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "LCA", "years": "1990-1999", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LCA", "years": "2000-2019", "curve": "linear", "start": 60, "end": 58},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LCA", "years": "2020-2021", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "LCA", "years": "2022-2025", "curve": "constant", "start": 62},
+
+    {"kind": "grade", "name": "civilization level", "targets": "LCA", "years": "2024-2025", "curve": "constant", "start": 75.0},
+
+    {"kind": "grade", "name": "assimilation", "targets": "LCA", "years": "1990-2000", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "assimilation", "targets": "LCA", "years": "2001-2025", "curve": "constant", "start": 68},
+
+    {"kind": "grade", "name": "violence risk", "targets": "LCA", "years": "1990-1995", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "violence risk", "targets": "LCA", "years": "2023-2025", "curve": "constant", "start": 32.6},
+
+    {"kind": "grade", "name": "epidemic", "targets": "LCA", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

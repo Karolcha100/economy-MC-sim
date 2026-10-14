@@ -1,0 +1,56 @@
+{
+  "rationale": "GNQ, zadanie A (statystyki państwa), tryb oszczędny. Rządy Obiang Nguema od 1979 (autorytarne, wybory 94–97%); odkrycie ropy 1992, produkcja od 1996, boom do ok. 2008, potem spadek wydobycia i recesja (2025: -5,4% wg Banku Światowego); zamach/próba 2004; kryzys cen ropy 2015–2019; COVID 2020; zmiana premiera 2024; dymisja rządu i kontrakcja 2025. Lata 2023–2025 sprawdzone w wyszukiwarce. Istniejące szeregi (corruption 1996–2022, violence risk 1996–2022, civilization level 2000–2023, net migration) nietknięte; uzupełniono tylko lata puste. Flagi tylko: epidemic 2020.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "GNQ", "years": "1990-1995", "curve": "linear", "start": 45, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "GNQ", "years": "1996-2003", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "GNQ", "years": "2004", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "GNQ", "years": "2005-2015", "curve": "linear", "start": 50, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "GNQ", "years": "2016-2019", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "GNQ", "years": "2020-2024", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "stability", "targets": "GNQ", "years": "2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "corruption", "targets": "GNQ", "years": "1990-1995", "curve": "linear", "start": 74, "end": 75.2},
+    {"kind": "grade", "name": "corruption", "targets": "GNQ", "years": "2023-2025", "curve": "linear", "start": 82.2, "end": 82.6},
+
+    {"kind": "grade", "name": "happiness", "targets": "GNQ", "years": "1990-1995", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "happiness", "targets": "GNQ", "years": "1996-2004", "curve": "linear", "start": 40, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "GNQ", "years": "2005-2010", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "GNQ", "years": "2011-2015", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "GNQ", "years": "2016-2021", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "happiness", "targets": "GNQ", "years": "2022-2024", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "happiness", "targets": "GNQ", "years": "2025", "curve": "constant", "start": 40},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "GNQ", "years": "1990-1995", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "social revanchism", "targets": "GNQ", "years": "1996-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "GNQ", "years": "1990-1999", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "government revanchism", "targets": "GNQ", "years": "2000-2025", "curve": "constant", "start": 6},
+
+    {"kind": "grade", "name": "government popularity", "targets": "GNQ", "years": "1990-1995", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "GNQ", "years": "1996-2003", "curve": "linear", "start": 40, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "GNQ", "years": "2004-2008", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "GNQ", "years": "2009-2015", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "GNQ", "years": "2016-2019", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GNQ", "years": "2020-2024", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GNQ", "years": "2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "GNQ", "years": "1990-1995", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GNQ", "years": "1996-2004", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GNQ", "years": "2005-2015", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GNQ", "years": "2016-2019", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GNQ", "years": "2020-2024", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GNQ", "years": "2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "GNQ", "years": "1990-2004", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "GNQ", "years": "2005-2014", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "GNQ", "years": "2015-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "civilization level", "targets": "GNQ", "years": "1990-1999", "curve": "linear", "start": 44, "end": 50},
+    {"kind": "grade", "name": "civilization level", "targets": "GNQ", "years": "2024-2025", "curve": "linear", "start": 67.2, "end": 67},
+
+    {"kind": "grade", "name": "violence risk", "targets": "GNQ", "years": "1990-1995", "curve": "linear", "start": 50, "end": 52.5},
+    {"kind": "grade", "name": "violence risk", "targets": "GNQ", "years": "2023-2025", "curve": "linear", "start": 51.5, "end": 52},
+
+    {"kind": "grade", "name": "epidemic", "targets": "GNQ", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,3785 @@
+{
+ "rationale": "TUN, zadanie B (tryb oszczedny): relacje od TUN do 20 partnerow (sasiedzi DZA/LBY, Francja/Wlochy/Niemcy/Hiszpania/UK/USA, Chiny, Rosja/Ukraina, Turcja, kraje Zatoki, Egipt, Maroko, Izrael, Palestyna, Iran). Trzy okresy: 1990-2010, 2011-2020 (rewolucja 2011), 2021-2025 (rzady Saied, wojna w Gazie od 2023). Hybrid attacks = 0 (TUN nie prowadzi dzialan hybrydowych; wartosc domyslna przez confirm-default). Dwustronne: brak par UCDP z TUN (ani in war, ani in war crisis); brak konfliktu zbrojnego w 2025.",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:FRA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 60,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:FRA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 60,
+   "end": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:FRA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 55,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:FRA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:FRA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:FRA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:FRA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 55,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:FRA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 50,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:FRA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:FRA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:FRA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:FRA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 12,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:FRA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:FRA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 45,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:FRA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:FRA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:FRA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 6
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:FRA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 6,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:FRA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 55,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:FRA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 45,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:FRA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 40,
+   "end": 38
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ITA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 60,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ITA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 60,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ITA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 60,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ITA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ITA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 25,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ITA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ITA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ITA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 35,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ITA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ITA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ITA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ITA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ITA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ITA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ITA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ITA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ITA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ITA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ITA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 35,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ITA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ITA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:DEU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 50,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:DEU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 50,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:DEU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 50,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:DEU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:DEU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:DEU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:DEU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 25,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:DEU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:DEU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:DEU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:DEU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:DEU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:DEU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:DEU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:DEU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:DEU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:DEU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:DEU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:DEU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:DEU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 20,
+   "end": 18
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:DEU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 18,
+   "end": 18
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ESP",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ESP",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ESP",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ESP",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ESP",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ESP",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ESP",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ESP",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ESP",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ESP",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ESP",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ESP",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ESP",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ESP",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ESP",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ESP",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ESP",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ESP",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ESP",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ESP",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 12,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ESP",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 12,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:GBR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:GBR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:GBR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:GBR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:GBR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:GBR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:GBR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:GBR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:GBR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 12,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:GBR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:GBR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:GBR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:GBR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:GBR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:GBR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:GBR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:GBR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:GBR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:GBR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:GBR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:GBR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:USA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 55,
+   "end": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:USA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 55,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:USA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 50,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:USA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:USA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 0
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:USA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 0,
+   "end": -5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:USA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:USA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:USA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:USA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:USA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:USA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:USA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 25,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:USA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:USA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:USA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:USA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:USA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:USA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:USA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:USA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:CHN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 45,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:CHN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 50,
+   "end": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:CHN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 55,
+   "end": 55
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:CHN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:CHN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:CHN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:CHN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 20,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:CHN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:CHN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:CHN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:CHN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:CHN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:CHN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:CHN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:CHN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:CHN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:CHN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:CHN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:CHN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:CHN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 12,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:CHN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:RUS",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 50,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:RUS",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 50,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:RUS",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:RUS",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:RUS",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:RUS",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 35,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:RUS",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:RUS",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:RUS",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:RUS",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:RUS",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:RUS",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:RUS",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:RUS",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:RUS",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:RUS",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:RUS",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:RUS",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:RUS",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 12,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:RUS",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 12,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:RUS",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 12,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:UKR",
+   "years": "1991-2010",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:UKR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:UKR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:UKR",
+   "years": "1991-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:UKR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:UKR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:UKR",
+   "years": "1991-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:UKR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:UKR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:UKR",
+   "years": "1991-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:UKR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:UKR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:UKR",
+   "years": "1991-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:UKR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:UKR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:UKR",
+   "years": "1991-2010",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:UKR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:UKR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:UKR",
+   "years": "1991-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:UKR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:UKR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:TUR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 30,
+   "end": 55
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:TUR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 55,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:TUR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 60,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:TUR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:TUR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 60,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:TUR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 60,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:TUR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:TUR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:TUR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:TUR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:TUR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:TUR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:TUR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:TUR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:TUR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:TUR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:TUR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:TUR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:TUR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:TUR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:TUR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:DZA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:DZA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:DZA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 40,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:DZA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:DZA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 40,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:DZA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:DZA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:DZA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:DZA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:DZA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:DZA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:DZA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:DZA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:DZA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:DZA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:DZA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:DZA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:DZA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:DZA",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:DZA",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:DZA",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:LBY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 20,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:LBY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 25,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:LBY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:LBY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:LBY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:LBY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:LBY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:LBY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:LBY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:LBY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:LBY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:LBY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:LBY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:LBY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:LBY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:LBY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:LBY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:LBY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 8,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:LBY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 20,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:LBY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:LBY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:EGY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:EGY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 45,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:EGY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 50,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:EGY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:EGY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 40,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:EGY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 35,
+   "end": 35
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:EGY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:EGY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:EGY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:EGY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:EGY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:EGY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:EGY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:EGY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:EGY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:EGY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 4,
+   "end": 4
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:EGY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 4,
+   "end": 4
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:EGY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 4,
+   "end": 4
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:EGY",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:EGY",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:EGY",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:MAR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:MAR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:MAR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 30,
+   "end": 30
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:MAR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:MAR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 20,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:MAR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:MAR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:MAR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:MAR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:MAR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:MAR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:MAR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:MAR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:MAR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:MAR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:MAR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:MAR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:MAR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:MAR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:MAR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:MAR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:SAU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:SAU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:SAU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 40,
+   "end": 40
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:SAU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:SAU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:SAU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:SAU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:SAU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:SAU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 25,
+   "end": 25
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:SAU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:SAU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:SAU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:SAU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:SAU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:SAU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:SAU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:SAU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:SAU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:SAU",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:SAU",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:SAU",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:QAT",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 45,
+   "end": 60
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:QAT",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 60,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:QAT",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 50,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:QAT",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:QAT",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 50,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:QAT",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 45,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:QAT",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:QAT",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:QAT",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 15,
+   "end": 15
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:QAT",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:QAT",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:QAT",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:QAT",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:QAT",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:QAT",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:QAT",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:QAT",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:QAT",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:QAT",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:QAT",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:QAT",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 8,
+   "end": 8
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ARE",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 40,
+   "end": 45
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ARE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 45,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ARE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 50,
+   "end": 50
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ARE",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ARE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ARE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ARE",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ARE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ARE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 20,
+   "end": 20
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ARE",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ARE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ARE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ARE",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ARE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ARE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ARE",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ARE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ARE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ARE",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ARE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ARE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 12,
+   "end": 12
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ISR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": -40,
+   "end": -40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ISR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": -40,
+   "end": -40
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:ISR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": -40,
+   "end": -60
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ISR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": -70,
+   "end": -80
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ISR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": -80,
+   "end": -85
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:ISR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": -85,
+   "end": -85
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ISR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ISR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:ISR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ISR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ISR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:ISR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ISR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ISR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:ISR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ISR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ISR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:ISR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ISR",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ISR",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:ISR",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:PSE",
+   "years": "1994-2010",
+   "curve": "linear",
+   "start": 80,
+   "end": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:PSE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 80,
+   "end": 80
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:PSE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 80,
+   "end": 80
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:PSE",
+   "years": "1994-2010",
+   "curve": "linear",
+   "start": 85,
+   "end": 85
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:PSE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 85,
+   "end": 85
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:PSE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 85,
+   "end": 90
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:PSE",
+   "years": "1994-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:PSE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:PSE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:PSE",
+   "years": "1994-2010",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:PSE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:PSE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 10,
+   "end": 10
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:PSE",
+   "years": "1994-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:PSE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:PSE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:PSE",
+   "years": "1994-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:PSE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:PSE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:PSE",
+   "years": "1994-2010",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:PSE",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:PSE",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:IRN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "TUN:IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:IRN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "TUN:IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 5,
+   "end": 5
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:IRN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "TUN:IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 3,
+   "end": 3
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:IRN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "TUN:IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:IRN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "TUN:IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 2,
+   "end": 2
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:IRN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "TUN:IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:IRN",
+   "years": "1990-2010",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:IRN",
+   "years": "2011-2020",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "TUN:IRN",
+   "years": "2021-2025",
+   "curve": "linear",
+   "start": 1,
+   "end": 1
+  }
+ ]
+}

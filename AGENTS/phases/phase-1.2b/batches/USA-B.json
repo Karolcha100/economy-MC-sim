@@ -1,0 +1,5123 @@
+{
+ "rationale": "USA, zadanie B: relacje od USA do 35 partnerow (sasiedzi, sojusznicy, mocarstwa, przeciwnicy, partnerzy handlowi). Dwustronne: poprawka UCDP (IRQ 1991, SRB 1999: wojna otwarta -> in war), in war 2025 (IRN, YEM), in war crisis 2025 (VEN). Hybrid attacks: tylko dzialania USA (IRN 2009-2012 wg zrodla).",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CAN",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "closest ally: NAFTA, NORAD, shared alliance"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CAN",
+   "years": "2017-2024",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "ally; trade friction (steel tariffs 2018) but alliance intact"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CAN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "2025 tariff war and '51st state' rhetoric; relations sharply worse, not broken"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CAN",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Americans view Canadians warmly"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CAN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "tariff disputes cool public sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA does not see itself constrained by Canada"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "US decisive influence on Canadian economy and security"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "little political or military constraint on USA from Canada"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "US economic and political leverage over Canada"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Canada is the largest trade partner and energy supplier; a crisis there clearly hurts USA"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:CAN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Canada"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:MEX",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "NAFTA partner; pragmatic, tense around 1994 peso crisis"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:MEX",
+   "years": "2000-2011",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Fox and Calderon cooperation; Merida Initiative 2008"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:MEX",
+   "years": "2012-2017",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Pena Nieto cooperation; NAFTA renegotiation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:MEX",
+   "years": "2018-2024",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "AMLO sovereignty stance; tariff threats 2019"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:MEX",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "2025 tariff threats and pressure over cartels"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:MEX",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "moderately positive public view of Mexico"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:MEX",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "border wall and immigration rhetoric lowered public sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "USA sees limited dependence on Mexico (some supply-chain reliance)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "US leverage via trade and security cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "little constraint on USA from Mexico"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "US economic and security leverage over Mexico"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:MEX",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "NAFTA trade growing; crisis in Mexico hurts USA"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:MEX",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Mexico is a top trade partner; auto supply chains"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:MEX",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Mexico"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:GBR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 90,
+   "rationale": "special relationship; intelligence sharing; Five Eyes"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:GBR",
+   "years": "2016-2024",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "close alliance; Brexit and Iran-deal frictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 88,
+   "rationale": "close alliance; 2025 state visit and trade deal"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Americans view the UK favourably"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA not constrained by the UK"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "US strong influence on UK policy (NATO, intelligence)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low political-military constraint from the UK"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "US influence on UK very high"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "UK finance and trade; a UK crisis moderately hurts USA"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against the UK"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:FRA",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "NATO ally; 1990s partnership"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:FRA",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "France opposes the Iraq war; diplomatic dispute"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:FRA",
+   "years": "2005-2024",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "NATO and Afghanistan partner; cooperation restored"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:FRA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "trade tensions in 2025; alliance continues"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:FRA",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "positive public view of France"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:FRA",
+   "years": "2003-2005",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "'freedom fries' era; Iraq dispute sours views"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:FRA",
+   "years": "2006-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "normal positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA not constrained by France"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "noticeable US influence on French policy within NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "US influence limited by France's independent foreign policy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "modest trade and investment dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against France"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:DEU",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NATO ally; partner of reunified Germany"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:DEU",
+   "years": "2000-2002",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "continued alliance; first Schroeder tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:DEU",
+   "years": "2003-2004",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Schroeder opposes the Iraq war"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:DEU",
+   "years": "2005-2016",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "Merkel era; close cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:DEU",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Trump-Merkel frictions: NATO spending, Nord Stream 2 sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:DEU",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "Biden-Scholz cooperation; support for Ukraine"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:DEU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "tariff disputes and alliance strain in 2025 (new Merz government)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:DEU",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Americans view Germany positively"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:DEU",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "trade and NATO spending disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:DEU",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA not constrained by Germany"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "US influence in NATO and EU policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "limited constraint from Germany (energy, trade)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "US leverage over German security policy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "German trade and auto supply chains"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Germany"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ITA",
+   "years": "1990-2017",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NATO ally; close partner"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ITA",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Italy joined China's Belt and Road in 2019; US friction"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ITA",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 78,
+   "rationale": "Meloni government closely aligned with US"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "neutral-positive public view of Italy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US influence via NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "US leverage on Italy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "modest trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:ITA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Italy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "NATO and EU ally; close relations"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "neutral-positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "US influence limited within the EU framework"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate US leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "trade and finance"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:NLD",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against the Netherlands"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:POL",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "post-Cold War partner; Poland joins NATO 1999"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:POL",
+   "years": "2002-2008",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "coalition partner in Iraq and Afghanistan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:POL",
+   "years": "2009-2011",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "friction over the 2009 missile-defence cancellation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:POL",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "close ally; US troops; support for Ukraine"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:POL",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Americans view Poles positively"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:POL",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Poland seen as a reliable NATO partner"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "US influence on Polish policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "low constraint from Poland"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "US leverage over Poland"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "Poland is a minor trade partner"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:POL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Poland"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "1991-1993",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "newly independent; nuclear disarmament talks"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "1994-2003",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Budapest memorandum 1994; Kuchma-era ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "2004",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Orange Revolution; US backs democratic transition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "2005-2009",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Yushchenko; pro-Western course"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "2010-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Yanukovych pivot toward Russia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "after Maidan and Crimea 2014: US support and sanctions on Russia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "full-scale war; large US military aid"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:UKR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Trump pressure, minerals deal, aid pauses in spring 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Ukraine sympathetic but low salience"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:UKR",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "interest rises after Crimea but stays moderate"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:UKR",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "strong support after the invasion"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:UKR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "support declines amid 2025 debate over aid"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "USA sees no dependence on Ukraine"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "US believes it can shape Ukrainian policy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:UKR",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "US sees high influence through aid and sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "no political or military constraint on USA from Ukraine"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:UKR",
+   "years": "1991-2013",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate US influence; Ukraine balances East and West"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:UKR",
+   "years": "2014-2024",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US aid gives leverage over Kyiv"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:UKR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "minerals deal and aid leverage in 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Ukraine is negligible for the US economy"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:UKR",
+   "years": "1991-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Ukraine"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "1990-1992",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Soviet collapse; Yeltsin cooperation (START)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "1993-1998",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Yeltsin partnership; Russia tolerates NATO enlargement"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "1999",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Kosovo bombing: Russia protests NATO strikes"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2000-2007",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Putin engagement after 9/11; counter-terror and arms control cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2008",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "war with Georgia; relations cool"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2009-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "'reset' under Obama"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2014",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Crimea annexation in March 2014; sanctions begin"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2015-2016",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "sanctions; 2016 election interference"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2017-2021",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "CAATSA sanctions; cyber and election interference; Ukraine tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "full-scale invasion of Ukraine; severe sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "Trump-Putin diplomacy in 2025 (Alaska summit) but sanctions remain"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:RUS",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Americans view post-Soviet Russia favourably"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:RUS",
+   "years": "1999-2007",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Kosovo, Chechnya and Putin's turn cool public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:RUS",
+   "years": "2008-2013",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Georgia war and authoritarian turn"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "Crimea and election interference"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "invasion of Ukraine"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:RUS",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "USA depends on Russian uranium and launch services"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:RUS",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "limited US dependence on Russia (uranium import ban 2022)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "US can strongly shape Yeltsin's Russia"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "US influence reduced under Putin"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "US influence limited by sanctions and conflict"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sanctions and war limit leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "little constraint on USA from Russia"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:RUS",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "strong US leverage over Yeltsin's Russia (IMF, aid)"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:RUS",
+   "years": "2000-2013",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "US leverage reduced"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:RUS",
+   "years": "2014-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "sanctions give leverage, Russia resists"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Russia largely outside US economic influence after 2022"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:RUS",
+   "years": "1990-2021",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "Russian uranium and fertiliser imports"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:RUS",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "Russian uranium import ban; dependence small"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:RUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no sustained hybrid campaign by USA against Russia recorded"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "1990-1992",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "sanctions after Tiananmen 1989"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "1993-1997",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "MFN linkage; engagement policy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "1998-1999",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "1999 Belgrade embassy bombing; espionage incidents"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "2000-2001",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "2001 EP-3 incident"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "2002-2007",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "WTO entry; cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "2008-2015",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Strategic and Economic Dialogue; engagement"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "2016-2017",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "trade and Taiwan frictions in the campaign period"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CHN",
+   "years": "2018-2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "trade war, Hong Kong, COVID-19, tech sanctions; 2025 tariffs and truce"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CHN",
+   "years": "1990-1992",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "Tiananmen aftermath"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CHN",
+   "years": "1993-2015",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "mixed public views"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CHN",
+   "years": "2016-2019",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "trade and security concerns"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CHN",
+   "years": "2020-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "COVID-19 and rising unfavourable views"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA sees limited dependence on China"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:CHN",
+   "years": "2000-2008",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "growing trade and Treasury holdings"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:CHN",
+   "years": "2009-2016",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "manufacturing and finance ties"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:CHN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "supply chains and rare-earth dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:CHN",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US influence on China via trade leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:CHN",
+   "years": "2006-2016",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "influence declines with Chinese growth"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:CHN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "US leverage reduced by Chinese economic scale"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:CHN",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "little political constraint from China"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:CHN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "trade pressure and supply-chain constraints"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:CHN",
+   "years": "1990-2005",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US leverage over China via trade and security"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:CHN",
+   "years": "2006-2016",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "US leverage decreasing"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:CHN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "rising China reduces US leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:CHN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "trade and manufacturing ties"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:CHN",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "imports and Treasury holdings"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:CHN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "trade, supply chains, finance; a Chinese crisis would hurt USA"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against China"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:JPN",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "security alliance; trade frictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:JPN",
+   "years": "2009-2025",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "close alliance; Abe-era and Trump-era ties; 2025 trade deal"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:JPN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "'Japan-bashing' era"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:JPN",
+   "years": "1996-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "USA sees economic reliance on Japanese capital (Treasury holdings)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "US influence on Japanese security policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA little constrained by Japan"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "US leverage through the alliance"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Japanese trade, autos, Treasury holdings"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:JPN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Japan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:KOR",
+   "years": "1990-1993",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "alliance; 1993-94 North Korea nuclear crisis"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:KOR",
+   "years": "1994-2016",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "alliance; joint exercises"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:KOR",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Trump-Moon summitry and trade frictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:KOR",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "Biden-Yoon Camp David trilateral"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:KOR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "alliance steady; trade and tariff talks"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Americans view South Korea favourably"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "US influence on Korean security and trade"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "US troop presence and alliance leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Korean trade, semiconductors"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:KOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against South Korea"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TWN",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "unofficial ties under the Taiwan Relations Act; arms sales; 1996 strait crisis"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TWN",
+   "years": "2000-2016",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "unofficial ties; arms sales continue"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TWN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 62,
+   "rationale": "deeper unofficial partnership; arms sales grow"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Americans view Taiwan favourably"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "US influence via arms sales and defence ties"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "US leverage over Taiwan's security"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:TWN",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "electronics trade"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:TWN",
+   "years": "2010-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "semiconductor supply chains"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:TWN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Taiwan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AUS",
+   "years": "1990-2020",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "ANZUS alliance; close security partner"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AUS",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 90,
+   "rationale": "AUKUS partnership"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Americans view Australia favourably"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "US influence on Australian security"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "US leverage through the alliance"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "small economic dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:AUS",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Australia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IND",
+   "years": "1990-1997",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Pressler sanctions era; cool ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IND",
+   "years": "1998",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "1998 nuclear tests and sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IND",
+   "years": "1999-2004",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "cautious rapprochement"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IND",
+   "years": "2005-2020",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "civil nuclear deal 2008; strategic partnership; Quad"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IND",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Quad partnership deepens"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IND",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "50% US tariffs in 2025 linked to Russian oil purchases"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mixed views"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IND",
+   "years": "2000-2024",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderately positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IND",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "tariff dispute cools sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "noticeable US influence on Indian policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:IND",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "limited US influence on India"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:IND",
+   "years": "2000-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "growing partnership; limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "modest trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:IND",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against India"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PAK",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Pressler sanctions 1990; sanctions after 1998 tests; Kargil 1999"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PAK",
+   "years": "2000-2001",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "sanctions eased; Musharraf coup"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PAK",
+   "years": "2002-2008",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "war-on-terror ally; Afghan supply routes"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PAK",
+   "years": "2009-2016",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Af-Pak partnership with frictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PAK",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "aid cut 2018; Trump criticism of Pakistan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PAK",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "relations partly restored after the Afghan withdrawal"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PAK",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "warmer ties with the Pakistani army in 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Americans view Pakistan negatively (terrorism, nuclear)"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:PAK",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "limited dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:PAK",
+   "years": "2001-2014",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "NATO supply routes run through Pakistan"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:PAK",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "reduced reliance"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "US influence through aid"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:PAK",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:PAK",
+   "years": "2001-2014",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "US relies on Pakistani logistics in Afghanistan"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:PAK",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "US leverage through aid and military ties"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "small trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:PAK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Pakistan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PHL",
+   "years": "1990-1997",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "friction after the base closures; 1991 Senate rejects bases"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PHL",
+   "years": "1998-2015",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Mutual Defense Treaty ally; Visiting Forces Agreement 1998"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PHL",
+   "years": "2016-2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Duterte pivot toward China, anti-US rhetoric"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PHL",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Marcos Jr. expands EDCA access; trilateral with Japan"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "moderately positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US influence on Philippine defence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US leverage through the alliance"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "small dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:PHL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against the Philippines"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "1990-1993",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "US trade embargo until 1994; no normal relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "1994",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "embargo lifted Feb 1994; no normal relations yet"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "1995-1999",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "diplomatic normalisation 1995"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "2000-2011",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "trade normalisation; PNTR 2000"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "2012-2016",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "comprehensive partnership; TPP cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "TPP withdrawal; trade frictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Comprehensive Strategic Partnership 2023"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VNM",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "2025 tariff confrontation"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:VNM",
+   "years": "1990-1994",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "Vietnam War legacy; POW/MIA issue"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:VNM",
+   "years": "1995-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "neutral public view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "US influence limited"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate US leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "moderate trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:VNM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Vietnam"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SAU",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Gulf War coalition; security partnership"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SAU",
+   "years": "2001-2003",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "friction after 9/11 over the Saudi role"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SAU",
+   "years": "2004-2017",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "security partnership; oil ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SAU",
+   "years": "2018-2024",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Khashoggi killing 2018; Biden-era arms restrictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SAU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "Trump visit and arms and investment deals"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:SAU",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "neutral view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:SAU",
+   "years": "2001-2025",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "negative views after 9/11 and Khashoggi"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:SAU",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "USA believes it depends on Saudi oil"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:SAU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "shale reduces reliance"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US influence on Saudi policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "US bases and arms ties; Saudi oil leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "US security leverage over Saudi Arabia"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:SAU",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "significant oil imports"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:SAU",
+   "years": "2014-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "shale reduces imports"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:SAU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Saudi Arabia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:QAT",
+   "years": "1990",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Qatar in Gulf coalition; limited ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:QAT",
+   "years": "1991-2002",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Al Udeid base since 1996; alliance"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:QAT",
+   "years": "2003-2016",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Al Udeid; close security partner"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:QAT",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Gulf blockade of Qatar 2017; frictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:QAT",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Al Udeid base; partnership restored"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "limited public views"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US influence on Qatari security"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "USA relies on Qatari bases"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "US security leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "small dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Qatar"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ISR",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "strong alliance; aid package"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ISR",
+   "years": "2009-2016",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "frictions over settlements and the 2015 Iran deal"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ISR",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "Jerusalem embassy 2018; Abraham Accords"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ISR",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Gaza war and frictions under Biden"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 75,
+   "rationale": "strong support under Trump; Gaza diplomacy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ISR",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "public sympathy for Israel"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ISR",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "sympathy rising"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ISR",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "sympathy falls; partisan split"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US influence on Israeli policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US leverage through aid"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "small dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Israel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TUR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "NATO ally; Incirlik base"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TUR",
+   "years": "2016",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "July 2016 coup attempt; Gulen extradition dispute"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TUR",
+   "years": "2017-2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "S-400 purchase and sanctions; Halkbank case"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TUR",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Ukraine mediation; Sweden's NATO accession; F-16 sales"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:TUR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "S-400 dispute and Gaza tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:TUR",
+   "years": "1990-2015",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "moderately positive public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:TUR",
+   "years": "2016-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutral view after the 2016 coup and rule changes"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:TUR",
+   "years": "1990-2011",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "Incirlik base and Iraq-war access"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:TUR",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "reduced dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US influence on Turkish policy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:TUR",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "USA relies on Turkish bases"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:TUR",
+   "years": "2004-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "reduced reliance"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US leverage through NATO"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "modest trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:TUR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Turkey"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "1990",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "Iraq invades Kuwait in August 1990; sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "1991-2002",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "Gulf War; US embassy closed 1991; sanctions regime"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "2003",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "invasion of Iraq (March 2003); regime change"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "2004",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "interim Iraqi government"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "2005",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Iraqi elections; transition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "2006-2010",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "US-backed government; security agreement 2008"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "post-withdrawal cooperation; anti-ISIS campaign"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "militia frictions; Soleimani killing 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRQ",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "partnership and cooperation against ISIS"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IRQ",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "Gulf War"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IRQ",
+   "years": "1992-2002",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "sanctions era and Saddam Hussein"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IRQ",
+   "years": "2003-2010",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "unpopular war; mixed views"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IRQ",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "ISIS fight; slight sympathy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:IRQ",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "oil dependence concern"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:IRQ",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:IRQ",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "containment policy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:IRQ",
+   "years": "2003-2011",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "occupation and transition"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:IRQ",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "reduced influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:IRQ",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "sanctions give leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:IRQ",
+   "years": "2003-2011",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "troop presence and aid"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:IRQ",
+   "years": "2012-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Iraq balances US and Iran"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:IRQ",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "modest oil imports"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:IRQ",
+   "years": "2003-2025",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "oil imports from Iraq rise"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Iraq"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SYR",
+   "years": "1990",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "joined Gulf coalition 1990, but state sponsor of terrorism"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SYR",
+   "years": "1991-1999",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "state sponsor of terrorism; peace talks"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SYR",
+   "years": "2000-2010",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "terrorism and Iraq insurgency links"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SYR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "civil war, chemical weapons, sanctions; embassy closed 2012"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SYR",
+   "years": "2024",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "Assad regime falls in Dec 2024; transition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "sanctions lifted June 2025, al-Sharaa government; ties still cool",
+   "sources": [
+    "Al Jazeera, Trump formally orders lifting of Syria sanctions, 2025-06-30 (https://www.aljazeera.com/news/2025/6/30/trump-formally-orders-lifting-of-syria-sanctions)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "state sponsor of terrorism"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "civil war and refugee crisis"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "cautious public view after Assad's fall"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "US pressure via sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "little influence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "transition gives leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:SYR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "sanctions and terror designation"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:SYR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:SYR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sanctions relief gives leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "negligible dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:SYR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Syria"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRN",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "no diplomatic relations since 1980; sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRN",
+   "years": "2015-2017",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "JCPOA nuclear deal negotiations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRN",
+   "years": "2018-2020",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "maximum-pressure sanctions; Soleimani killing 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRN",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "sanctions; Iranian-backed attacks on US forces"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "June 2025 US strikes on nuclear sites; Iranian missiles at Al Udeid",
+   "sources": [
+    "CRS IN12571, US strikes on Iranian nuclear sites, June 2025 (https://www.congress.gov/crs-product/IN12571); Iranian missiles at Al Udeid, 23 June 2025 (https://en.wikipedia.org/wiki/2025_Iranian_strikes_on_Al_Udeid_Air_Base)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IRN",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "hostage crisis legacy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:IRN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "hostility persists"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "no constraint on USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:IRN",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sanctions as leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:IRN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "JCPOA, then sanctions leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low constraint"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:IRN",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:IRN",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "JCPOA, then sanctions leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:IRN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "negligible dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:IRN",
+   "years": "1990-2008",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign recorded"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:IRN",
+   "years": "2009-2012",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "reported US-Israeli cyber sabotage of Iran's nuclear programme (Stuxnet, 2010)"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:IRN",
+   "years": "2013-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign recorded"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "no embassy; Mujahideen legacy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "1996",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "Taliban take Kabul 1996; no recognition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "1997-2000",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "Taliban government not recognised; US strikes 1998"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2001",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "war begins Oct 2001; Taliban fall Nov-Dec"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2002",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "interim Karzai government from Dec 2001"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2003",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "reconstruction partnership"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2004-2019",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Karzai and Ghani governments; ISAF"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2020",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Doha agreement with the Taliban, Feb 2020"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2021",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "Taliban takeover Aug 2021; US withdrawal"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2022",
+   "curve": "constant",
+   "start": -45,
+   "rationale": "Taliban government unrecognised"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "Taliban government unrecognised"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:AFG",
+   "years": "2025",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "US talks with the Taliban; Bagram demands in 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:AFG",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Taliban era; negative"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:AFG",
+   "years": "2000-2001",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "9/11"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:AFG",
+   "years": "2002-2020",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "war fatigue"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:AFG",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Taliban takeover"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:AFG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "no dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:AFG",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "little influence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:AFG",
+   "years": "2001",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "war start"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:AFG",
+   "years": "2002-2020",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "occupation and transition"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:AFG",
+   "years": "2021",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Taliban takeover; influence collapses"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:AFG",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "limited influence"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:AFG",
+   "years": "1990-2001",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:AFG",
+   "years": "2002-2020",
+   "curve": "constant",
+   "start": 4,
+   "rationale": "ISAF depends on Afghan cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:AFG",
+   "years": "2021-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:AFG",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:AFG",
+   "years": "2001",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "war start"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:AFG",
+   "years": "2002-2020",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "troop presence and aid"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:AFG",
+   "years": "2021",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Taliban takeover"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:AFG",
+   "years": "2022-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "limited"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:AFG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "negligible"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:AFG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Afghanistan"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "1990-1993",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "no relations; 1993 nuclear crisis"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "1994-1999",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "Agreed Framework 1994; 1998 missile tests"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "2000-2001",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Albright visit 2000; no progress"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "2002-2016",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "'axis of evil'; nuclear tests 2006, 2009, 2013, 2016"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "2017",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "'fire and fury'; ICBM tests"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "2018",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "Singapore summit"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "2019-2024",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "sanctions; missile tests"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:PRK",
+   "years": "2025",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "sanctions; no talks"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:PRK",
+   "years": "1990-2016",
+   "curve": "constant",
+   "start": -65,
+   "rationale": "nuclear weapons and human rights"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:PRK",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "nuclear escalation 2017"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:PRK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "no dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:PRK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "little influence over Pyongyang"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:PRK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:PRK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "sanctions leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:PRK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no economic dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:PRK",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against North Korea"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:YEM",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Yemen sided with Iraq in 1991"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:YEM",
+   "years": "1992-2009",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "counter-terror cooperation; USS Cole 2000"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:YEM",
+   "years": "2010-2019",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "partner against AQAP; drone strikes"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:YEM",
+   "years": "2020-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Houthi conflict; Saudi-led coalition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:YEM",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "US strikes on Houthis 2024 and the March-May 2025 campaign",
+   "sources": [
+    "Long War Journal, Trump announces ceasefire between US and Houthis, May 2025 (https://www.longwarjournal.org/archives/2025/05/president-trump-announces-ceasefire-between-us-and-houthis.php)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:YEM",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "negative public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:YEM",
+   "years": "2001-2025",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "AQAP and terrorism concerns"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:YEM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "no dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:YEM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "US influence through aid and strikes"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:YEM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:YEM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "US military leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:YEM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "negligible"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:YEM",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Yemen"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "stable ties; oil partner"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "1999-2001",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Chavez government; friction"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "2002-2004",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "2002 coup attempt; US accused of involvement"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "2005-2013",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "anti-US rhetoric; relations downgraded"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "2014-2016",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "2015 sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "2017-2018",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "2017 sanctions; 2018 election"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "2019-2022",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "2019 recognition of Guaido; sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "partial sanctions easing 2023; 2024 election dispute"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:VEN",
+   "years": "2025",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "naval buildup, boat strikes and covert action authorised in 2025",
+   "sources": [
+    "Military.com, timeline of US military buildup near Venezuela and attacks on alleged drug boats, 2025-12-06 (https://www.military.com/daily-news/2025/12/06/timeline-of-us-militarys-buildup-near-venezuela-and-attacks-alleged-drug-boats.html)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:VEN",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutral"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:VEN",
+   "years": "1999-2017",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "Chavez era; negative views"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:VEN",
+   "years": "2018-2024",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Maduro era; migration crisis"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:VEN",
+   "years": "2025",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "boat strikes and military tensions"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "no dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:VEN",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "oil and aid leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:VEN",
+   "years": "2014-2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "reduced leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:VEN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "military pressure in 2025"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:VEN",
+   "years": "1990-2013",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "oil and sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:VEN",
+   "years": "2014-2024",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:VEN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "military pressure"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:VEN",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 8,
+   "rationale": "oil imports"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:VEN",
+   "years": "2015-2024",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "reduced imports"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:VEN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "minimal"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:VEN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Venezuela"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CUB",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -55,
+   "rationale": "embargo; Helms-Burton 1996; no diplomatic relations"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CUB",
+   "years": "2000-2014",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "no relations; interests section only"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CUB",
+   "years": "2015",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "talks toward normalisation; embassy reopened July 2015"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CUB",
+   "years": "2016",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "relations normalised"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CUB",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": -35,
+   "rationale": "Trump-era restrictions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CUB",
+   "years": "2021-2024",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "Biden partial easing; 2021 protests"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:CUB",
+   "years": "2025",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "2025 restrictions; state sponsor of terrorism listing"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CUB",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "exile politics"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CUB",
+   "years": "2000-2014",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "negative public view"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CUB",
+   "years": "2015-2016",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "thaw"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:CUB",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "negative view"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "no dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:CUB",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "embargo leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:CUB",
+   "years": "2015-2016",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "thaw"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:CUB",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "reduced leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:CUB",
+   "years": "1990-2014",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "embargo"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:CUB",
+   "years": "2015-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "embargo continues"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "negligible"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:CUB",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Cuba"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:COL",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "counter-narcotics cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:COL",
+   "years": "2000-2009",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Plan Colombia; Uribe alliance"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:COL",
+   "years": "2010-2016",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "trade agreement 2012; peace process"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:COL",
+   "years": "2017-2021",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Duque government; Venezuela pressure"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:COL",
+   "years": "2022-2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Petro frictions; drug policy disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:COL",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "2025 sanctions on Petro and tariff threats"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:COL",
+   "years": "1990-2009",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "drug-related views"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:COL",
+   "years": "2010-2024",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "moderately positive"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:COL",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutral"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "aid and security leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "aid and security leverage"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:COL",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Colombia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "1990-1997",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "regional partner"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "1998-2002",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "FTAA talks"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "2003-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Lula; independent foreign policy; Iran nuclear talks 2010"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "2011-2014",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "NSA spying revelations 2013"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "2015-2018",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Rousseff-Temer era; cooperation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "2019-2022",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Bolsonaro alignment with Trump"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Lula; pragmatic ties"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:BRA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "50% tariffs from July 2025; sanctions on a Brazilian judge"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:BRA",
+   "years": "1990-2024",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "moderately favourable"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:BRA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "tariff dispute"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "trade and minerals"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:BRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Brazil"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ARG",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Menem alignment; non-NATO ally 1998"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ARG",
+   "years": "1999-2001",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "financial crisis; IMF"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ARG",
+   "years": "2002-2014",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Kirchner distance; debt disputes"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ARG",
+   "years": "2015-2019",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "Macri government, pro-US"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ARG",
+   "years": "2020-2022",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Fernandez government drift"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ARG",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Milei government from December 2023; cautious rapprochement"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ARG",
+   "years": "2025",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "2025 US swap line; Milei alignment"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "moderately favourable"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:ARG",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against Argentina"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ZAF",
+   "years": "1990",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "apartheid sanctions"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ZAF",
+   "years": "1991-1993",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "sanctions lifted; transition"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ZAF",
+   "years": "1994",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "transition year; first democratic government, partial normalisation"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ZAF",
+   "years": "1995-2016",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "post-apartheid partnership; AGOA 2000"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ZAF",
+   "years": "2017-2024",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Zuma-era frictions; disputes over Israel"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "USA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ambassador expelled March 2025; aid cut February 2025",
+   "sources": [
+    "UPI, US expels 'race-baiting' South African ambassador Ebrahim Rasool, 2025-03-15 (https://www.upi.com/Top_News/US/2025/03/15/south-africa-ambassador/2031742069779/)"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ZAF",
+   "years": "1990-1993",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "apartheid era"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ZAF",
+   "years": "1994-2024",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "positive views"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "USA:ZAF",
+   "years": "2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "tensions after the 2025 expulsion"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "USA:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "USA:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "USA:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 2,
+   "rationale": "low"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "USA:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "moderate"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "USA:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 3,
+   "rationale": "modest trade dependence"
+  },
+  {
+   "kind": "directed",
+   "name": "hybrid attacks towards",
+   "targets": "USA:ZAF",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "no hybrid campaign by USA against South Africa"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "USA:IRQ",
+   "years": "1991",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "UCDP lists IRQ-USA 1991 only as level 1 (secondary party); the Gulf War was open armed conflict between the two states (Desert Storm). Coding corrected to 'in war' as an obvious UCDP error; see crisis cell below."
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "USA:IRQ",
+   "years": "1991",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Removed: the 1991 Gulf War was open war, which does not fit the 'short of open war' crisis description (paired with 'in war' 1991)."
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "USA:SRB",
+   "years": "1999",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "UCDP lists USA-SRB 1999 only as level 1; the NATO air campaign against the FRY was open armed conflict with US participation. Coding corrected to 'in war' as an obvious UCDP error."
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "USA:SRB",
+   "years": "1999",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "Removed: 1999 air war was open war, not a crisis short of war (paired with 'in war' 1999)."
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "USA:VEN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "2025 US naval buildup off Venezuela, boat strikes, covert-action authorisation and mobilisation against each other, without open war with the Venezuelan state.",
+   "sources": [
+    "Military.com, timeline of US military buildup near Venezuela and attacks on alleged drug boats, 2025-12-06 (https://www.military.com/daily-news/2025/12/06/timeline-of-us-militarys-buildup-near-venezuela-and-attacks-alleged-drug-boats.html)"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "USA:IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "June 2025: US strikes on Iranian nuclear sites (22 June) and Iranian missiles at Al Udeid (23 June) = open armed exchange between the states.",
+   "sources": [
+    "CRS IN12571, US strikes on Iranian nuclear sites, June 2025 (https://www.congress.gov/crs-product/IN12571); Iranian missiles at Al Udeid, 23 June 2025 (https://en.wikipedia.org/wiki/2025_Iranian_strikes_on_Al_Udeid_Air_Base)"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "USA:YEM",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "US air campaign against the Houthis (mid-March to early May 2025), continuing the 2024 'in war' seed; the Houthis control northern Yemen.",
+   "sources": [
+    "Long War Journal, Trump announces ceasefire between US and Houthis, May 2025 (https://www.longwarjournal.org/archives/2025/05/president-trump-announces-ceasefire-between-us-and-houthis.php)"
+   ]
+  }
+ ]
+}

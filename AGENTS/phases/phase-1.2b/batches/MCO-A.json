@@ -1,0 +1,38 @@
+{
+  "rationale": "MCO, zadanie A (tryb oszczędny): wartości szacunkowe z wiedzy. Monako nie ma w WHR/HDI, więc poziomy oparte na krajach porównywalnych (bogata mała Europa Zachodnia, CHE/NOR/DEU). Państwo bez armii i bez konfliktu: rewanżyzm rządu 0, społeczeństwa 1. Stabilność instytucji wysoka (monarchia konstytucyjna, bez przewrotów), przejściowy spadek 2002-2003 przy zmianie konstytucji. Przemoc (2003-2022 istniejące) i korupcja (2015-2022 istniejące) uzupełnione tak, by łączyły się z wartościami istniejącymi. Epidemia 2020-2021 (COVID-19, turystyka i ograniczenia). Istniejące wartości nie są zmieniane (only_empty).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MCO", "years": "1990-2001", "curve": "linear", "start": 86, "end": 85, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MCO", "years": "2002-2003", "curve": "constant", "start": 84, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MCO", "years": "2004-2025", "curve": "linear", "start": 85, "end": 86, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MCO", "years": "1990-2002", "curve": "constant", "start": 27, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MCO", "years": "2023-2025", "curve": "constant", "start": 26, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "MCO", "years": "1990-2014", "curve": "linear", "start": 16, "end": 15.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MCO", "years": "2023-2025", "curve": "constant", "start": 24.6, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MCO", "years": "1990-2004", "curve": "linear", "start": 68, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MCO", "years": "2005-2019", "curve": "linear", "start": 70, "end": 71, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MCO", "years": "2020-2021", "curve": "constant", "start": 68, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MCO", "years": "2022-2025", "curve": "constant", "start": 69, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MCO", "years": "1990-2025", "curve": "constant", "start": 1, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MCO", "years": "1990-2025", "curve": "constant", "start": 0, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MCO", "years": "1990-2004", "curve": "linear", "start": 70, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MCO", "years": "2005-2025", "curve": "linear", "start": 72, "end": 71, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MCO", "years": "1990-2019", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MCO", "years": "2020-2021", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MCO", "years": "2022-2025", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MCO", "years": "1990-1999", "curve": "linear", "start": 88, "end": 90, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "MCO", "years": "2000-2009", "curve": "linear", "start": 90, "end": 93, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "MCO", "years": "2010-2025", "curve": "linear", "start": 93, "end": 96, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MCO", "years": "1990-2009", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MCO", "years": "2010-2025", "curve": "linear", "start": 50, "end": 48, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MCO", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

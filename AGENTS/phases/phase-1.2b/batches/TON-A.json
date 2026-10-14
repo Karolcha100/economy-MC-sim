@@ -1,0 +1,44 @@
+{
+  "rationale": "TON, zadanie A (tryb oszczędny): stabilność wg przebiegu rządów (monarchia, pro-demokratyczne napięcia 2000-2006, zamieszki 2006, reforma 2010, zmiany premierów, COVID, erupcja 2022); happiness bez danych WHR, seria szacunkowa wg małych państw Pacyfiku (WSM, FJI) i HDI; popularność rządu szacunkowo (brak sondaży); corruption 1990-2003 i 2023-2025 wg trendu WGI; violence risk 1990-2002 i 2023-2025 wg trendu; civilization level 2024-2025 wg HDI; flagi: riots 2006 (zamieszki w Nuku'alofa), epidemic 2020-2021 (COVID)",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "TON", "years": "1990-1999", "curve": "linear", "start": 72, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "TON", "years": "2000-2005", "curve": "linear", "start": 70, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "TON", "years": "2006-2008", "curve": "linear", "start": 58, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "TON", "years": "2009-2013", "curve": "linear", "start": 60, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "TON", "years": "2014-2019", "curve": "linear", "start": 70, "end": 66},
+    {"kind": "grade", "name": "stability", "targets": "TON", "years": "2020-2022", "curve": "linear", "start": 66, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "TON", "years": "2023-2025", "curve": "linear", "start": 60, "end": 64},
+
+    {"kind": "grade", "name": "happiness", "targets": "TON", "years": "1990-1999", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "happiness", "targets": "TON", "years": "2000-2009", "curve": "linear", "start": 52, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "TON", "years": "2010-2019", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "happiness", "targets": "TON", "years": "2020-2021", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "TON", "years": "2022-2025", "curve": "linear", "start": 50, "end": 52},
+
+    {"kind": "grade", "name": "government popularity", "targets": "TON", "years": "1990-1997", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "TON", "years": "1998-2005", "curve": "linear", "start": 55, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "TON", "years": "2006-2009", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "TON", "years": "2010-2014", "curve": "linear", "start": 50, "end": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "TON", "years": "2015-2019", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "TON", "years": "2020-2025", "curve": "linear", "start": 55, "end": 52},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "TON", "years": "1990-2025", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "government revanchism", "targets": "TON", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "TON", "years": "1990-2005", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TON", "years": "2006-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "TON", "years": "1990-2025", "curve": "constant", "start": 70},
+
+    {"kind": "grade", "name": "corruption", "targets": "TON", "years": "1990-2003", "curve": "linear", "start": 46, "end": 48},
+    {"kind": "grade", "name": "corruption", "targets": "TON", "years": "2023-2025", "curve": "linear", "start": 58.4, "end": 58},
+
+    {"kind": "grade", "name": "violence risk", "targets": "TON", "years": "1990-2002", "curve": "linear", "start": 35, "end": 37.2},
+    {"kind": "grade", "name": "violence risk", "targets": "TON", "years": "2023-2025", "curve": "linear", "start": 27.7, "end": 27.5},
+
+    {"kind": "grade", "name": "civilization level", "targets": "TON", "years": "2024-2025", "curve": "linear", "start": 77.1, "end": 77.5},
+
+    {"kind": "grade", "name": "riots", "targets": "TON", "years": "2006", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "TON", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

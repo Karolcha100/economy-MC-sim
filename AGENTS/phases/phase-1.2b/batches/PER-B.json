@@ -1,0 +1,2661 @@
+{
+  "rationale": "PER, zadanie B: relacje od PER do 21 partnerow. Sasiedzi (ECU, COL, BRA, BOL, CHL); mocarstwa i partnerzy (USA, CHN, RUS, DEU, FRA, GBR, JPN, KOR, ESP, ITA, CAN); region i inni (MEX, VEN, ARG, IND, UKR). Okresy: 1990-94, 1995-97, 1998-2004, 2005-15, 2016-22, 2023-25. ECU: wojna 1995 (Cenepa), pokoj 1998. CHL: nastroje po wojnie 1879-84. CHN: Chancay 2024, glowny partner handlowy. USA: wspolpraca wojskowa 2025 (status Major Non-NATO Ally, zgoda na obecnosc wojsk 2026). VEN: zerwanie stosunkow lipiec 2024, nadal zerwane w 2025. MEX: spor o azyl 2022-23, zerwanie stosunkow XI 2025. COL: obnizenie rangi (chargé d'affaires) od 2023, spor o wyspe Santa Rosa 2025. Hybrid attacks = 0 (PER nie prowadzi dzialan hybrydowych). in war: bez zmian (brak wojny PER w 2025). in war crisis: dodano 2025 dla PER-COL (do przegladu koordynatora, granicznie).",
+  "operations": [
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ECU",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": -20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:COL,PER:BOL",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:BRA,PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX,PER:VEN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHL,PER:RUS",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:USA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:DEU,PER:ITA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:JPN,PER:ESP",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ARG",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:IND",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:UKR",
+      "years": "1991-1994",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ECU",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": -50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:COL,PER:BOL,PER:IND",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:BRA,PER:DEU,PER:ITA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHL,PER:RUS",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:USA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX,PER:VEN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:JPN,PER:ESP",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ARG",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:UKR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ECU,PER:CHN,PER:RUS,PER:UKR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:COL,PER:BOL,PER:VEN,PER:IND",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:BRA,PER:DEU,PER:ITA",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHL",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:USA,PER:ARG",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:JPN,PER:ESP",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ECU,PER:CHL,PER:CHN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:COL,PER:BOL",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:BRA,PER:DEU,PER:ITA",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:USA,PER:JPN,PER:ESP",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:RUS",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX,PER:IND",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:VEN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ARG",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:UKR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ECU,PER:CHL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:COL,PER:BOL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:BRA,PER:USA,PER:ARG",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHN,PER:FRA,PER:GBR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:RUS,PER:VEN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:DEU,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:JPN,PER:ESP",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:MEX",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:UKR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:ECU",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:COL",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": -15
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:BRA,PER:ARG",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:BOL",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHL,PER:UKR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:USA",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 65
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:CHN,PER:DEU,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:RUS",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:FRA,PER:GBR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:JPN,PER:ESP",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "directed",
+      "name": "diplomatic relation towards",
+      "targets": "PER:MEX,PER:VEN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": -25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ECU",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": -25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:COL,PER:RUS",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BRA,PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX,PER:VEN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BOL,PER:IND",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHL",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": -35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:USA,PER:ITA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:DEU,PER:ARG",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:JPN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ESP",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:UKR",
+      "years": "1991-1994",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ECU",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": -55
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:COL,PER:RUS",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BRA,PER:DEU,PER:ARG",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BOL,PER:IND",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHL",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": -35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:USA,PER:ITA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHN,PER:UKR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX,PER:VEN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:JPN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ESP",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ECU",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": -5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:COL,PER:CHN,PER:RUS",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BRA,PER:DEU,PER:ARG",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BOL,PER:VEN,PER:IND",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHL",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:USA,PER:ITA",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:JPN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ESP",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:UKR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ECU,PER:RUS,PER:UKR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:COL,PER:BOL,PER:CHN,PER:VEN,PER:IND",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BRA,PER:DEU,PER:ARG",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHL",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:USA,PER:ITA",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN,PER:MEX",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:JPN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ESP",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ECU,PER:RUS,PER:UKR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:COL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BRA,PER:USA,PER:DEU,PER:ARG",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BOL,PER:CHN,PER:MEX,PER:IND",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:JPN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ESP",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ITA",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:VEN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ECU,PER:COL,PER:RUS",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BRA,PER:USA,PER:DEU,PER:ARG",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:BOL,PER:CHN,PER:IND",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:CHL",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": -30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:FRA,PER:GBR,PER:KOR,PER:CAN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:JPN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ESP",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:ITA",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:MEX,PER:UKR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "social view towards",
+      "targets": "PER:VEN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": -10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:CHN,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:CHL,PER:FRA,PER:GBR,PER:JPN,PER:ESP",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:USA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:IND",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:UKR",
+      "years": "1991-1994",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:CHL,PER:CHN,PER:FRA,PER:GBR,PER:JPN,PER:ESP",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:USA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:IND",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:UKR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:BRA,PER:CHL,PER:DEU",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:USA",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:CHN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:FRA,PER:GBR,PER:JPN,PER:ESP",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:IND",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:UKR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:BRA,PER:CHL,PER:DEU",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:USA",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:CHN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:FRA,PER:GBR,PER:JPN,PER:ESP",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:IND",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:UKR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:BRA,PER:CHL,PER:DEU",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:USA",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:CHN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:FRA,PER:GBR,PER:JPN,PER:ESP",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:IND",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:UKR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:BRA,PER:CHL,PER:DEU",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:USA,PER:CHN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 45
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:FRA,PER:GBR,PER:JPN,PER:ESP",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:IND",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "perceived subordination towards",
+      "targets": "PER:UKR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:ECU",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:COL",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BRA,PER:USA,PER:DEU,PER:FRA,PER:JPN,PER:ESP,PER:MEX,PER:ARG",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BOL,PER:VEN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:CHL",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:CHN,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:GBR",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:UKR",
+      "years": "1991-1994",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:ECU",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:COL",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BRA,PER:USA,PER:DEU,PER:FRA,PER:JPN,PER:ESP,PER:MEX,PER:ARG",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BOL,PER:VEN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:CHL",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:CHN,PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:GBR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:UKR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:ECU",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:COL,PER:CHL",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BRA,PER:USA,PER:CHN,PER:DEU,PER:FRA,PER:JPN,PER:ESP,PER:MEX,PER:ARG",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BOL,PER:VEN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:GBR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:UKR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:ECU",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:COL,PER:CHL",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BRA,PER:USA,PER:DEU,PER:FRA,PER:JPN,PER:ESP,PER:MEX,PER:ARG",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BOL,PER:CHN,PER:VEN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:GBR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:UKR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:ECU",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:COL,PER:CHL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BRA,PER:USA,PER:DEU,PER:FRA,PER:JPN,PER:ESP,PER:MEX,PER:ARG",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BOL,PER:CHN,PER:VEN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:GBR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:UKR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:ECU",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:COL,PER:CHL",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BRA,PER:USA,PER:DEU,PER:FRA,PER:JPN,PER:ESP,PER:MEX,PER:ARG",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:BOL,PER:CHN,PER:VEN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:RUS,PER:KOR,PER:ITA,PER:CAN,PER:IND",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:GBR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "perceived power towards",
+      "targets": "PER:UKR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:CHL,PER:CHN,PER:FRA,PER:GBR,PER:JPN,PER:ESP,PER:ITA,PER:CAN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:USA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:RUS,PER:KOR,PER:MEX,PER:VEN,PER:ARG",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:IND",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:UKR",
+      "years": "1991-1994",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:CHL,PER:CHN,PER:FRA,PER:GBR,PER:JPN,PER:ESP,PER:ITA,PER:CAN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:USA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:RUS,PER:KOR,PER:MEX,PER:VEN,PER:ARG",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:IND",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:UKR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:CHL,PER:FRA,PER:GBR,PER:JPN,PER:ESP,PER:ITA,PER:CAN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:BRA,PER:CHN,PER:DEU",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:USA",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:RUS,PER:KOR,PER:MEX,PER:VEN,PER:ARG",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:IND",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:UKR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:CHL,PER:FRA,PER:GBR,PER:JPN,PER:ESP,PER:ITA,PER:CAN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:USA",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:CHN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:RUS,PER:KOR,PER:MEX,PER:VEN,PER:ARG",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:IND",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:UKR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:CHL,PER:FRA,PER:GBR,PER:JPN,PER:ESP,PER:ITA,PER:CAN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:USA",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:CHN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:RUS,PER:KOR,PER:MEX,PER:VEN,PER:ARG",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:IND",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:UKR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:ECU,PER:COL,PER:BOL,PER:CHL,PER:FRA,PER:GBR,PER:JPN,PER:ESP,PER:ITA,PER:CAN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:USA",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:CHN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:RUS,PER:KOR,PER:MEX,PER:VEN,PER:ARG",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:IND",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real subordination towards",
+      "targets": "PER:UKR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:ECU",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:COL",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BRA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BOL,PER:CHL",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:USA,PER:CHN,PER:DEU,PER:FRA,PER:GBR,PER:JPN,PER:KOR,PER:ESP,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:RUS",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:UKR",
+      "years": "1991-1994",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:ECU",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 35
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:COL",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BRA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BOL,PER:CHL",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:USA,PER:CHN,PER:DEU,PER:FRA,PER:GBR,PER:JPN,PER:KOR,PER:ESP,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:RUS",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:UKR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:ECU",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:COL",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BRA",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BOL,PER:CHL",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:USA,PER:DEU,PER:FRA,PER:GBR,PER:JPN,PER:KOR,PER:ESP,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:CHN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:RUS",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:UKR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:ECU",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:COL",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BRA,PER:CHN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BOL,PER:CHL",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:USA,PER:DEU,PER:FRA,PER:GBR,PER:JPN,PER:KOR,PER:ESP,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:RUS",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:UKR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:ECU",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:COL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BRA,PER:CHN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BOL,PER:CHL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:USA,PER:DEU,PER:FRA,PER:GBR,PER:JPN,PER:KOR,PER:ESP,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:RUS",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:UKR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:ECU",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:COL",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BRA,PER:CHN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:BOL,PER:CHL",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:USA,PER:DEU,PER:FRA,PER:GBR,PER:JPN,PER:KOR,PER:ESP,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:RUS",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "real power towards",
+      "targets": "PER:UKR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:ECU,PER:COL,PER:CHL,PER:CHN,PER:GBR,PER:ITA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BRA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BOL,PER:RUS,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:USA",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:DEU,PER:JPN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:FRA,PER:KOR,PER:ESP,PER:CAN",
+      "years": "1990-1994",
+      "curve": "constant",
+      "start": 6
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:UKR",
+      "years": "1991-1994",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:ECU,PER:COL,PER:CHL,PER:GBR,PER:ITA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BRA,PER:CHN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BOL,PER:RUS,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:USA",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 30
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:DEU,PER:JPN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:FRA,PER:KOR,PER:ESP,PER:CAN",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 6
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:UKR",
+      "years": "1995-1997",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:ECU,PER:COL,PER:GBR,PER:ITA",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BOL,PER:RUS,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:CHL,PER:FRA,PER:KOR,PER:ESP,PER:CAN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 6
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:USA",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 28
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:CHN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 15
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:JPN",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 12
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:UKR",
+      "years": "1998-2004",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:ECU,PER:COL,PER:GBR,PER:ITA",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BOL,PER:RUS,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:CHL",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:USA,PER:CHN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 25
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:FRA,PER:KOR,PER:ESP,PER:CAN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 6
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:JPN",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 12
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:UKR",
+      "years": "2005-2015",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:ECU,PER:COL,PER:GBR,PER:ITA",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BOL,PER:RUS,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:CHL",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:USA",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 22
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:CHN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 40
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:FRA,PER:KOR,PER:ESP,PER:CAN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 6
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:JPN",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 12
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:UKR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:ECU,PER:COL,PER:GBR,PER:ITA",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 5
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BRA,PER:DEU",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 10
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:BOL,PER:RUS,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 3
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:CHL",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 8
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:USA",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 20
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:CHN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:FRA,PER:KOR,PER:ESP,PER:CAN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 6
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:JPN",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 12
+    },
+    {
+      "kind": "directed",
+      "name": "economic dependence",
+      "targets": "PER:UKR",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "PER:ECU,PER:COL,PER:BRA,PER:BOL,PER:CHL,PER:USA,PER:CHN,PER:RUS,PER:DEU,PER:FRA,PER:GBR,PER:JPN,PER:KOR,PER:ESP,PER:ITA,PER:CAN,PER:MEX,PER:VEN,PER:ARG,PER:IND",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "directed",
+      "name": "hybrid attacks towards",
+      "targets": "PER:UKR",
+      "years": "1991-2025",
+      "curve": "constant",
+      "start": 0
+    },
+    {
+      "kind": "doublesided",
+      "name": "in war crisis",
+      "targets": "PER:COL",
+      "years": "2025",
+      "curve": "constant",
+      "start": 1
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "rationale": "ATG (Antigua i Barbuda), zadanie A (statystyki państwa), tryb oszczędny. Happiness: brak danych WHR dla ATG, cała seria oszacowana przez porównanie z państwami karaibskimi o zbliżonym rozwoju (Barbados, Bahamy, Trynidad i Tobago, Jamajka): ok. 58-64, spadek w 2020-2021 (COVID, załamanie turystyki). Stabilność: parlamentarna demokracja Westminster, pokojowe zmiany władzy (1994, 2004, 2014, ok. 2018, 2023); dołek 2009-2013 (afera Stanford, recesja, rząd UPP). Popularność rządu: estymacja bez sondaży; dołki po przegranych wyborach 2004 i w latach kryzysu, wzrost po 2014. Korupcja 1990-1995 malejąco od 36 do 33 (wartość 1996 zachowana), 2023-2025 łagodnie od wartości z 2022. Przemoc 1990-1995 na poziomie zbliżonym do 1996; 2023-2025 łagodnie w dół. Cywilizacja: 1990-2006 wg HDI (od ok. 72 do ok. 81), 2024-2025 dalszy wzrost. Flagi: epidemia 2020-2021 (COVID). Rewanżyzm społeczny i rządowy: brak roszczeń terytorialnych wobec sąsiadów, wartości niskie i stałe. Wrażliwość społeczna: wyższa niż w krajach rozwiniętych (gospodarka turystyczna, import), skok w 2020-2021.",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ATG",
+      "years": "1990-1993",
+      "curve": "constant",
+      "start": 72
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ATG",
+      "years": "1994-2004",
+      "curve": "linear",
+      "start": 72,
+      "end": 70
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ATG",
+      "years": "2005-2008",
+      "curve": "linear",
+      "start": 70,
+      "end": 72
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ATG",
+      "years": "2009-2013",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ATG",
+      "years": "2014-2018",
+      "curve": "linear",
+      "start": 70,
+      "end": 76
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ATG",
+      "years": "2019-2022",
+      "curve": "constant",
+      "start": 76
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "ATG",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 76,
+      "end": 77
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ATG",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 36,
+      "end": 33,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "ATG",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": "current",
+      "end": 43,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ATG",
+      "years": "1990-1999",
+      "curve": "linear",
+      "start": 58,
+      "end": 61
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ATG",
+      "years": "2000-2004",
+      "curve": "linear",
+      "start": 61,
+      "end": 62
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ATG",
+      "years": "2005-2019",
+      "curve": "linear",
+      "start": 63,
+      "end": 64
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ATG",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "ATG",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": 61,
+      "end": 63
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 2
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "ATG",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 1
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "1990-1993",
+      "curve": "constant",
+      "start": 55
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "1994-1999",
+      "curve": "linear",
+      "start": 55,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "2000-2003",
+      "curve": "linear",
+      "start": 50,
+      "end": 40
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "2004-2008",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "2009-2013",
+      "curve": "linear",
+      "start": 50,
+      "end": 35
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "2014-2018",
+      "curve": "linear",
+      "start": 40,
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "2019-2022",
+      "curve": "linear",
+      "start": 60,
+      "end": 50
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "ATG",
+      "years": "2023-2025",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ATG",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 60
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ATG",
+      "years": "2000-2009",
+      "curve": "linear",
+      "start": 58,
+      "end": 62
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ATG",
+      "years": "2010-2019",
+      "curve": "constant",
+      "start": 63
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ATG",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 66
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "ATG",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": 64,
+      "end": 60
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "ATG",
+      "years": "1990-1999",
+      "curve": "linear",
+      "start": 72,
+      "end": 76.5,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "ATG",
+      "years": "2000-2004",
+      "curve": "linear",
+      "start": 77,
+      "end": 79.5,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "ATG",
+      "years": "2005-2006",
+      "curve": "linear",
+      "start": 80.5,
+      "end": 81.6,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "ATG",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": "current",
+      "end": 85.7,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "ATG",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 72
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "ATG",
+      "years": "2000-2009",
+      "curve": "linear",
+      "start": 72,
+      "end": 71
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "ATG",
+      "years": "2010-2019",
+      "curve": "linear",
+      "start": 71,
+      "end": 69
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "ATG",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 68
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ATG",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 36,
+      "end": 35.7,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "ATG",
+      "years": "2022-2025",
+      "curve": "linear",
+      "start": "current",
+      "end": 31,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "epidemic",
+      "targets": "ATG",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 1
+    }
+  ]
+}

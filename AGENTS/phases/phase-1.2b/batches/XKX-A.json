@@ -1,0 +1,55 @@
+{
+  "rationale": "XKX (Kosowo), zadanie A, tryb oszczedny. Istnienie 2008-2025. Brak WGI/CPI/HDI/Cantril w danych (blad mapowania kodow): wartosci szacunkowe. Korupcja ~ 100 - CPI (CPI 2023=41, 2024=44, 2025=43). Stabilnosc: kryzysy rzadowe 2014-2019, bezrzad 2025. Przemoc: incydenty 2011, 2022-2023 (Banjska), 2024-2025 napiecia na polnocy.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "XKX", "years": "2008-2010", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "stability", "targets": "XKX", "years": "2011-2013", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "XKX", "years": "2014-2016", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "stability", "targets": "XKX", "years": "2017-2019", "curve": "linear", "start": 40, "end": 35},
+    {"kind": "grade", "name": "stability", "targets": "XKX", "years": "2020-2022", "curve": "linear", "start": 35, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "XKX", "years": "2023-2024", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "XKX", "years": "2025", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "corruption", "targets": "XKX", "years": "2008-2014", "curve": "linear", "start": 68, "end": 62},
+    {"kind": "grade", "name": "corruption", "targets": "XKX", "years": "2015-2023", "curve": "linear", "start": 61, "end": 59},
+    {"kind": "grade", "name": "corruption", "targets": "XKX", "years": "2024-2025", "curve": "linear", "start": 56, "end": 57},
+
+    {"kind": "grade", "name": "violence risk", "targets": "XKX", "years": "2008-2010", "curve": "linear", "start": 62, "end": 52},
+    {"kind": "grade", "name": "violence risk", "targets": "XKX", "years": "2011-2012", "curve": "linear", "start": 60, "end": 56},
+    {"kind": "grade", "name": "violence risk", "targets": "XKX", "years": "2013-2016", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "violence risk", "targets": "XKX", "years": "2017-2021", "curve": "linear", "start": 44, "end": 42},
+    {"kind": "grade", "name": "violence risk", "targets": "XKX", "years": "2022-2023", "curve": "linear", "start": 50, "end": 62},
+    {"kind": "grade", "name": "violence risk", "targets": "XKX", "years": "2024-2025", "curve": "linear", "start": 58, "end": 55},
+
+    {"kind": "grade", "name": "happiness", "targets": "XKX", "years": "2008-2015", "curve": "linear", "start": 48, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "XKX", "years": "2016-2021", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "happiness", "targets": "XKX", "years": "2022-2025", "curve": "linear", "start": 50, "end": 53},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "XKX", "years": "2008-2010", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "social revanchism", "targets": "XKX", "years": "2011-2025", "curve": "constant", "start": 8},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "XKX", "years": "2008-2022", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "government revanchism", "targets": "XKX", "years": "2023-2025", "curve": "constant", "start": 8},
+
+    {"kind": "grade", "name": "government popularity", "targets": "XKX", "years": "2008-2011", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "XKX", "years": "2012-2015", "curve": "linear", "start": 42, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "XKX", "years": "2016-2020", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "XKX", "years": "2021-2022", "curve": "linear", "start": 50, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "XKX", "years": "2023-2024", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "XKX", "years": "2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "XKX", "years": "2008-2014", "curve": "constant", "start": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "XKX", "years": "2015-2021", "curve": "linear", "start": 65, "end": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "XKX", "years": "2022-2025", "curve": "constant", "start": 62},
+
+    {"kind": "grade", "name": "civilization level", "targets": "XKX", "years": "2008-2010", "curve": "linear", "start": 67, "end": 68},
+    {"kind": "grade", "name": "civilization level", "targets": "XKX", "years": "2011-2015", "curve": "linear", "start": 68, "end": 71},
+    {"kind": "grade", "name": "civilization level", "targets": "XKX", "years": "2016-2020", "curve": "linear", "start": 71, "end": 74},
+    {"kind": "grade", "name": "civilization level", "targets": "XKX", "years": "2021-2025", "curve": "linear", "start": 74, "end": 76},
+
+    {"kind": "grade", "name": "assimilation", "targets": "XKX", "years": "2008-2012", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "assimilation", "targets": "XKX", "years": "2013-2021", "curve": "constant", "start": 32},
+    {"kind": "grade", "name": "assimilation", "targets": "XKX", "years": "2022-2025", "curve": "linear", "start": 28, "end": 30},
+
+    {"kind": "grade", "name": "epidemic", "targets": "XKX", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

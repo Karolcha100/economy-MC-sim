@@ -1,0 +1,52 @@
+{
+  "rationale": "SAU, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Arabii Saudyjskiej (monarchia absolutna, brak wiarygodnych sondaży): stabilność instytucji wysoka i przewidywalna (sukcesje 1995, 2005, 2015, 2017 bez kryzysu rządowego), przemoc z ataków 1995-1996 i 2003-2006 oraz z ataków na terytorium w latach 2015-2022 (wojna w Jemenie), korupcja i szczęśliwość zgodne z wartościami startowymi WGI/Cantril, asymilacja niska (duża, odizolowana populacja migrantów), flagi tylko dla mobilizacji 1990-1991 (Pustynna Tarcza), epidemii 2020.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SAU", "years": "1990-1995", "curve": "linear", "start": 74, "end": 74},
+    {"kind": "grade", "name": "stability", "targets": "SAU", "years": "1996-2005", "curve": "linear", "start": 72, "end": 76},
+    {"kind": "grade", "name": "stability", "targets": "SAU", "years": "2006-2014", "curve": "constant", "start": 76},
+    {"kind": "grade", "name": "stability", "targets": "SAU", "years": "2015-2017", "curve": "linear", "start": 76, "end": 70},
+    {"kind": "grade", "name": "stability", "targets": "SAU", "years": "2018-2020", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "SAU", "years": "2021-2025", "curve": "linear", "start": 72, "end": 74},
+
+    {"kind": "grade", "name": "corruption", "targets": "SAU", "years": "1990-1995", "curve": "constant", "start": 53.3},
+    {"kind": "grade", "name": "corruption", "targets": "SAU", "years": "2023-2025", "curve": "linear", "start": 42.5, "end": 42.0},
+
+    {"kind": "grade", "name": "happiness", "targets": "SAU", "years": "1990-1999", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "happiness", "targets": "SAU", "years": "2000-2010", "curve": "linear", "start": 60, "end": 65.5},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SAU", "years": "1990-1995", "curve": "linear", "start": 46, "end": 52},
+    {"kind": "grade", "name": "violence risk", "targets": "SAU", "years": "2023-2025", "curve": "linear", "start": 56, "end": 54},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SAU", "years": "1990-1999", "curve": "constant", "start": 12},
+    {"kind": "grade", "name": "social revanchism", "targets": "SAU", "years": "2000-2014", "curve": "linear", "start": 12, "end": 14},
+    {"kind": "grade", "name": "social revanchism", "targets": "SAU", "years": "2015-2025", "curve": "linear", "start": 14, "end": 18},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "SAU", "years": "1990-1999", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "government revanchism", "targets": "SAU", "years": "2000-2014", "curve": "linear", "start": 15, "end": 20},
+    {"kind": "grade", "name": "government revanchism", "targets": "SAU", "years": "2015-2019", "curve": "linear", "start": 20, "end": 25},
+    {"kind": "grade", "name": "government revanchism", "targets": "SAU", "years": "2020-2025", "curve": "constant", "start": 25},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SAU", "years": "1990-1995", "curve": "linear", "start": 68, "end": 65},
+    {"kind": "grade", "name": "government popularity", "targets": "SAU", "years": "1996-2005", "curve": "linear", "start": 65, "end": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "SAU", "years": "2006-2014", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "government popularity", "targets": "SAU", "years": "2015-2019", "curve": "linear", "start": 72, "end": 66},
+    {"kind": "grade", "name": "government popularity", "targets": "SAU", "years": "2020-2025", "curve": "linear", "start": 66, "end": 69},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SAU", "years": "1990-1999", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SAU", "years": "2000-2014", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SAU", "years": "2015-2025", "curve": "linear", "start": 45, "end": 40},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SAU", "years": "2024-2025", "curve": "linear", "start": 90.4, "end": 90.8},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SAU", "years": "1990-1999", "curve": "constant", "start": 28},
+    {"kind": "grade", "name": "assimilation", "targets": "SAU", "years": "2000-2014", "curve": "linear", "start": 28, "end": 25},
+    {"kind": "grade", "name": "assimilation", "targets": "SAU", "years": "2015-2025", "curve": "linear", "start": 25, "end": 27},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "SAU", "years": "2015-2016", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SAU", "years": "2017-2021", "curve": "linear", "start": 10, "end": 20},
+    {"kind": "grade", "name": "war exhaustion", "targets": "SAU", "years": "2022", "curve": "constant", "start": 10},
+
+    {"kind": "grade", "name": "mobilized", "targets": "SAU", "years": "1990-1991", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "SAU", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

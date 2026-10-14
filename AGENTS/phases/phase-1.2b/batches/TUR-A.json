@@ -1,0 +1,680 @@
+{
+  "rationale": "TUR, zadanie A (statystyki państwa), tryb pełny",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "1990-1999",
+      "curve": "linear",
+      "start": 45,
+      "end": 30,
+      "rationale": "koalicyjne rządy i częste zmiany gabinetów (Özal, Yılmaz, Çiller), 1996-1997 rząd Refah-DYP i wymuszona dymisja Erbakana (tzw. postmodernistyczny zamach 1997), przedterminowe wybory 1999",
+      "sources": [
+        "Wiedza modelu: historia polityczna Turcji lat 90."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "2000-2001",
+      "curve": "linear",
+      "start": 32,
+      "end": 26,
+      "rationale": "kryzys gospodarczy i polityczny 2001 (załamanie walutowe, rząd Ecevita w kryzysie)",
+      "sources": [
+        "Wiedza modelu: kryzys walutowy Turcji 2001."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "2002-2010",
+      "curve": "linear",
+      "start": 40,
+      "end": 58,
+      "rationale": "wybory 2002: większość AKP, stabilny rząd jednopartyjny (Erdoğan, potem Gül); spadek 2007 (kryzys wyboru prezydenta, przedterminowe wybory) i 2008 (sprawa o zamknięcie AKP) tylko częściowo widoczny w krzywej",
+      "sources": [
+        "Wiedza modelu: wybory 2002, kryzys 2007, sprawa przed Trybunałem Konstytucyjnym 2008."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "2011-2013",
+      "curve": "linear",
+      "start": 68,
+      "end": 60,
+      "rationale": "wybory 2011 z większością ~50%, potem protesty Gezi (2013) i afera korupcyjna grudnia 2013 z przetasowaniami rządu",
+      "sources": [
+        "Gezi Park protests (Wikipedia)"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "2014-2016",
+      "curve": "linear",
+      "start": 55,
+      "end": 38,
+      "rationale": "Erdoğan prezydentem (2014), dwie elekcje w 2015 po nieudanych rozmowach koalicyjnych, wznowienie konfliktu z PKK; nieudany zamach stanu lipiec 2016 i stan wyjątkowy",
+      "sources": [
+        "Wiedza modelu: wybory czerwiec i listopad 2015, zamach stanu lipiec 2016."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "2017-2022",
+      "curve": "linear",
+      "start": 42,
+      "end": 40,
+      "rationale": "referendum 2017 i system prezydencki od 2018; przedterminowe wybory 2018; unieważnienie wyborów w Stambule 2019; częste wymiany prezesa banku centralnego 2019-2021 i kryzys walutowy 2021-2022",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "2023-2024",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "po wyborach 2023 (wygrana Erdoğana w II turze) powrót Şimşeka do finansów; instytucje skonsolidowane pod silną egzekutywą, bez kryzysów rządowych",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "TUR",
+      "years": "2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "aresztowanie burmistrza Stambułu İmamoğlu (19-23 marca 2025), masowe protesty w ponad 50 prowincjach, presja prawna na główną opozycję CHP",
+      "sources": [
+        "2025 Turkish protests (Wikipedia)",
+        "https://www.aljazeera.com/news/2025/3/29/huge-istanbul-protests-over-imamoglus-arrest-and-imprisonment-in-turkiye"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "TUR",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 50,
+      "end": 52,
+      "rationale": "brak pomiaru WGI przed 1996; powszechna korupcja drobna i polityczna, już widoczne sieci państwowo-przestępcze (późniejsza afera Susurluk 1996); wartość wygładzona do 1996 (52.96)",
+      "sources": [
+        "Wiedza modelu: afera Susurluk (1996)."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "TUR",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 61.5,
+      "end": 66,
+      "rationale": "Transparency International CPI: 34/100 za 2024 (najniżej od 2004 r.), 31/100 za 2025; przy przeliczeniu (wskaźnik ~ 97 minus wynik CPI, zgodnie z zakotwiczeniem 2015-2022) wzrost do ~66 w 2025; płynne przejście z 59.35 w 2022",
+      "sources": [
+        "https://www.turkishminute.com/2025/02/11/turkey-remain-stagnant-in-tis-corruption-perception-index-2024/",
+        "https://stockholmcf.org/turkey-plunges-to-124th-place-in-corruption-perceptions-index-2025-tied-with-belarus-uzbekistan/"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "TUR",
+      "years": "1990-1994",
+      "curve": "linear",
+      "start": 48,
+      "end": 45,
+      "rationale": "brak danych Cantril przed 2015; szacunek: wzrost po latach 80., ale wojna z PKK, wojna w Zatoce i kryzys 1994 obniżają zadowolenie",
+      "sources": [
+        "Szacunek modelu (brak źródła liczbowego)."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "TUR",
+      "years": "1995-1999",
+      "curve": "linear",
+      "start": 44,
+      "end": 40,
+      "rationale": "szacunek: kryzys 1994, recesja 1998 i trzęsienie ziemi w sierpniu 1999 (Marmara) obniżają zadowolenie",
+      "sources": [
+        "Szacunek modelu (brak źródła liczbowego)."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "TUR",
+      "years": "2000-2004",
+      "curve": "linear",
+      "start": 41,
+      "end": 45,
+      "rationale": "szacunek: dołek po kryzysie 2001 (załamanie PKB i zatrudnienia), odbicie po 2002",
+      "sources": [
+        "Szacunek modelu (brak źródła liczbowego)."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "TUR",
+      "years": "2005-2010",
+      "curve": "linear",
+      "start": 48,
+      "end": 51,
+      "rationale": "szacunek na skali zgodnej z Cantril ~10 x ladder: boom gospodarczy 2005-2010, poziom wygładzony do 2011 (52.34)",
+      "sources": [
+        "Szacunek modelu (brak źródła liczbowego)."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "TUR",
+      "years": "2024-2025",
+      "curve": "linear",
+      "start": 85.5,
+      "end": 85.8,
+      "rationale": "100 x HDI: wzrost wskaźnika zwolniony (ok. +0.2 pkt/rok), zgodny z trendem 2019-2023 (84.1 -> 85.3); HDI 2024-2025 nie ma w history",
+      "sources": [
+        "Wiedza modelu (trend HDI)."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "TUR",
+      "years": "1990-1994",
+      "curve": "linear",
+      "start": 72,
+      "end": 90,
+      "rationale": "konflikt PKK z państwem na szczycie intensywności w latach 1993-1995 (tysiące ofiar rocznie, walki na południowym wschodzie); wartość 1996 (75.17) z seed WGI",
+      "sources": [
+        "Wiedza modelu: wojna turecko-kurdyjska lata 90."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "TUR",
+      "years": "1995",
+      "curve": "constant",
+      "start": 85,
+      "rationale": "szczyt operacji wojskowych i ataków PKK; przejście do 1996",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "TUR",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 68,
+      "end": 50,
+      "rationale": "2023-2024: ataki i operacje (m.in. zamach na TUSAŞ w Ankarze, październik 2024); 2025: PKK ogłosiło zawieszenie broni (1 marca 2025), rozwiązanie (maj 2025) i symboliczne złożenie broni (lipiec 2025); proces wciąż niepełny, ale przemoc wyraźnie maleje",
+      "sources": [
+        "https://www.bakerinstitute.org/research/new-peace-initiative-and-kurdish-perspective",
+        "https://www.osw.waw.pl/en/publikacje/analyses/2025-12-18/one-step-forward-one-step-back-a-year-turkish-kurdish-peace-process"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "TUR",
+      "years": "1990-1999",
+      "curve": "linear",
+      "start": 50,
+      "end": 25,
+      "rationale": "rząd Özala (1990), potem słabe koalicje DYP-SHP i Refah-DYP; poparcie rządów spada z ~50 do ~25",
+      "sources": [
+        "Szacunek modelu (brak sondaży o znanej wartości)."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "TUR",
+      "years": "2000-2002",
+      "curve": "linear",
+      "start": 25,
+      "end": 35,
+      "rationale": "najniższy rząd w 2001 (kryzys), potem przedwyborczy spadek ekipy Ecevita; 2002 wybory wygrywa AKP",
+      "sources": [
+        "Szacunek modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "TUR",
+      "years": "2003-2008",
+      "curve": "linear",
+      "start": 60,
+      "end": 50,
+      "rationale": "miodowy miesiąc rządu AKP (wysokie poparcie 2003-2004), potem stopniowy spadek",
+      "sources": [
+        "Szacunek modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "TUR",
+      "years": "2009-2014",
+      "curve": "linear",
+      "start": 50,
+      "end": 45,
+      "rationale": "poparcie spada po protestach Gezi 2013 i aferze grudnia 2013; wybór Erdoğana na prezydenta 2014 (~52% w I turze)",
+      "sources": [
+        "Gezi Park protests (Wikipedia)"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "TUR",
+      "years": "2015-2019",
+      "curve": "linear",
+      "start": 42,
+      "end": 40,
+      "rationale": "wybory 2015 (~40% dla AKP), wzrost po zamachu 2016, spadek po wynikach wyborów lokalnych 2019",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "TUR",
+      "years": "2020-2022",
+      "curve": "linear",
+      "start": 40,
+      "end": 33,
+      "rationale": "kryzys walutowy i inflacja powyżej 60% w 2021-2022 obniżają poparcie",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "TUR",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 45,
+      "end": 36,
+      "rationale": "2023: wygrana w II turze (~52%), 2024: porażka w wyborach lokalnych i sondaże poniżej 40% (MetroPOLL, maj 2024); 2025: aresztowanie İmamoğlu; nie znaleziono sondażu z 2025 r., wartość oszacowana",
+      "sources": [
+        "https://www.turkishminute.com/2024/05/21/erdogan-approval-rating-fall-below-40-percent-survey/"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "TUR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "silny nacjonalizm w społeczeństwie (wzrost MHP, sprawa Cypru, kryzys Kardak 1996); żądanie odzyskania wpływów, nie terytoriów",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "TUR",
+      "years": "2000-2010",
+      "curve": "linear",
+      "start": 38,
+      "end": 28,
+      "rationale": "perspektywa członkostwa w UE (kandydatura 1999) osłabia nastroje nacjonalistyczne",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "TUR",
+      "years": "2011-2016",
+      "curve": "linear",
+      "start": 30,
+      "end": 36,
+      "rationale": "neoosmańska retoryka, interwencja w Syrii, Mavi Vatan jeszcze przed 2019; wzrost nastrojów imperialnych",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "TUR",
+      "years": "2017-2025",
+      "curve": "constant",
+      "start": 40,
+      "rationale": "trwały nacjonalizm (wspólny front nacjonalistów i rządu), 'Mavi Vatan' i sprawa Cypru jako stała część debaty publicznej",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "TUR",
+      "years": "1990-1995",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "cele wpływu regionalnego (świat turkijski, Kaukaz, Bałkany), ale bez polityki rewizjonistycznej",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "TUR",
+      "years": "1996-2010",
+      "curve": "constant",
+      "start": 10,
+      "rationale": "polityka zero problemów z sąsiadami i 'miękkiej siły' (rząd AKP, 2003-2010), spór o Cypr utrzymany, ale bez celów rewizjonistycznych",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "TUR",
+      "years": "2011-2015",
+      "curve": "linear",
+      "start": 15,
+      "end": 25,
+      "rationale": "interwencja w Syrii (od 2011), rywalizacja z Egiptem i konflikt wokół Libii; neoosmańska retoryka rządu",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "TUR",
+      "years": "2016-2019",
+      "curve": "linear",
+      "start": 30,
+      "end": 35,
+      "rationale": "operacje w Syrii (Tarcza Eufratu 2016, Oliwna Gałązka 2018, Źródło Pokoju 2019), doktryna Mavi Vatan 2019",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "TUR",
+      "years": "2020-2025",
+      "curve": "constant",
+      "start": 35,
+      "rationale": "zaangażowanie w Libii, Karabachu (2020), Syrii i Iraku; polityka wpływu i rozszerzania roli regionalnej jako cel państwa",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "TUR",
+      "years": "1990-1993",
+      "curve": "constant",
+      "start": 60,
+      "rationale": "koszty wojny z PKK i inflacja wywołują protesty, ale społeczeństwo tolerancyjne wobec strat",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "TUR",
+      "years": "1994-2002",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "kryzys 1994, programy oszczędnościowe, kryzys 2001 i trzęsienie ziemi 1999: wysoka wrażliwość na koszty",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "TUR",
+      "years": "2003-2010",
+      "curve": "linear",
+      "start": 60,
+      "end": 45,
+      "rationale": "boom gospodarczy i szybki wzrost dochodów: spadek wrażliwości na straty",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "TUR",
+      "years": "2011-2016",
+      "curve": "constant",
+      "start": 50,
+      "rationale": "stabilny wzrost, ale protesty Gezi 2013 pokazują szybkie przejście od dyskomfortu do sprzeciwu",
+      "sources": [
+        "Gezi Park protests (Wikipedia)"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "TUR",
+      "years": "2017-2021",
+      "curve": "linear",
+      "start": 50,
+      "end": 65,
+      "rationale": "kryzys walutowy 2018 i rosnąca inflacja 2020-2021 zwiększają wrażliwość na koszty",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "TUR",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 70,
+      "rationale": "inflacja ponad 60% (2022-2023) i spadek realnych płac: silna wrażliwość na koszty; sprzeciw wobec rządu rośnie, ale tłumiony",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "TUR",
+      "years": "1990-1999",
+      "curve": "constant",
+      "start": 55,
+      "rationale": "konflikt z PKK i napięcia etniczne (mniejszość kurdyjska); asymilacja formalnie wysoka, ale ograniczona przez konflikt",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "TUR",
+      "years": "2000-2010",
+      "curve": "constant",
+      "start": 62,
+      "rationale": "migracja wewnętrzna do miast i integracja mniejszości kurdyjskiej w zachodnich miastach; nadal napięcia na południowym wschodzie",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "TUR",
+      "years": "2011-2015",
+      "curve": "linear",
+      "start": 60,
+      "end": 52,
+      "rationale": "napływ ok. 2-3 mln uchodźców z Syrii; integracja ograniczona (tymczasowa ochrona), wzrost segregacji",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "TUR",
+      "years": "2016-2022",
+      "curve": "constant",
+      "start": 46,
+      "rationale": "ok. 3,5 mln Syryjczyków; równoległe społeczności, słaba integracja i rosnące uprzedzenia społeczne",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "TUR",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 44,
+      "end": 40,
+      "rationale": "zamieszki antysyryjskie (koniec czerwca i początek lipca 2024, m.in. w Kayseri, ponad 100 rannych i setki zatrzymanych); część uchodźców wraca po 2024 r.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_anti-refugee_riots_in_Turkey",
+        "https://www.al-monitor.com/originals/2024/07/4-dead-northern-syria-protests-following-turkeys-anti-refugee-riots"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "TUR",
+      "years": "1990-1999",
+      "curve": "linear",
+      "start": 25,
+      "end": 40,
+      "rationale": "wojna z PKK na szczycie (1993-1995), liczne ofiary i zmęczenie społeczeństwa; wzrost przy szczycie konfliktu",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "TUR",
+      "years": "2000-2011",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "zawieszenie broni PKK 1999-2004 i niska intensywność konfliktu",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "TUR",
+      "years": "2012-2016",
+      "curve": "linear",
+      "start": 25,
+      "end": 35,
+      "rationale": "wznowienie walk z PKK 2015-2016, walki miejskie na południowym wschodzie",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "TUR",
+      "years": "2017-2024",
+      "curve": "constant",
+      "start": 25,
+      "rationale": "operacje w Syrii i Iraku, ograniczona świadomość kosztów wojny w społeczeństwie",
+      "sources": [
+        "Wiedza modelu."
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "TUR",
+      "years": "2025",
+      "curve": "constant",
+      "start": 15,
+      "rationale": "ogłoszenie zawieszenia broni i rozwiązania PKK (2025), spadek zmęczenia wojną",
+      "sources": [
+        "https://www.bakerinstitute.org/research/new-peace-initiative-and-kurdish-perspective",
+        "https://www.osw.waw.pl/en/publikacje/analyses/2025-12-18/one-step-forward-one-step-back-a-year-turkish-kurdish-peace-process"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "TUR",
+      "years": "2013",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "protesty Gezi: ogólnokrajowe, z poważną przemocą i zabitymi (zamieszki, nie tylko pokojowe protesty)",
+      "sources": [
+        "Gezi Park protests (Wikipedia)"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "TUR",
+      "years": "2024",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "antysyryjskie zamieszki (koniec czerwca - początek lipca 2024), w kilku miastach, z podpaleniami i atakami na firmy",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_anti-refugee_riots_in_Turkey",
+        "https://www.al-monitor.com/originals/2024/07/4-dead-northern-syria-protests-following-turkeys-anti-refugee-riots"
+      ]
+    },
+    {
+      "kind": "grade",
+      "name": "riots",
+      "targets": "TUR",
+      "years": "2025",
+      "curve": "constant",
+      "start": 1,
+      "rationale": "protesty po aresztowaniu İmamoğlu: starcia z policją (gaz pieprzowy, broń antyzamieszkowa) w Stambule i innych miastach, ponad 1000 zatrzymanych; flaga pogranicza, do przeglądu przez koordynatora",
+      "sources": [
+        "2025 Turkish protests (Wikipedia)",
+        "https://www.aljazeera.com/news/2025/3/29/huge-istanbul-protests-over-imamoglus-arrest-and-imprisonment-in-turkiye"
+      ]
+    }
+  ]
+}

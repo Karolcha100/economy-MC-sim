@@ -1,0 +1,405 @@
+{
+  "rationale": "SLV, zadanie A (tryb oszczędny): okresy wg wydarzeń (wojna domowa do 1992, pokój 1992, zmiany rządów 2009/2014/2019 (popularność 2019-2021 skorygowana, bez only_empty, aby uniknąć skoku 30->60), wejście wojska do Zgromadzenia 2020, stan wyjątkowy od 2022, reforma reelekcji 2025); wszystkie wpisy only_empty, istniejące wartości nietknięte; poparcie rządu 2022-2025 (80-94% w sondażach CID Gallup) i przemoc 2023-2025 (spadek zabójstw) oparte na wyszukiwaniu",
+  "operations": [
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 40,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "1992-1994",
+      "curve": "linear",
+      "start": 45,
+      "end": 52,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "1995-2003",
+      "curve": "linear",
+      "start": 55,
+      "end": 60,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "2004-2008",
+      "curve": "linear",
+      "start": 60,
+      "end": 62,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "2009-2014",
+      "curve": "constant",
+      "start": 62,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "2015-2019",
+      "curve": "linear",
+      "start": 60,
+      "end": 55,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "2020-2020",
+      "curve": "constant",
+      "start": 52,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "2021-2021",
+      "curve": "constant",
+      "start": 55,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "2022-2023",
+      "curve": "constant",
+      "start": 62,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "stability",
+      "targets": "SLV",
+      "years": "2024-2025",
+      "curve": "constant",
+      "start": 65,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 45,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "1992-1994",
+      "curve": "constant",
+      "start": 42,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "1995-1999",
+      "curve": "constant",
+      "start": 38,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2000-2008",
+      "curve": "constant",
+      "start": 35,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2009-2010",
+      "curve": "constant",
+      "start": 55,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2011-2013",
+      "curve": "constant",
+      "start": 50,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2014-2018",
+      "curve": "linear",
+      "start": 40,
+      "end": 30,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2019-2019",
+      "curve": "constant",
+      "start": 50
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2020-2020",
+      "curve": "constant",
+      "start": 70
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2021-2021",
+      "curve": "constant",
+      "start": 85
+    },
+    {
+      "kind": "grade",
+      "name": "government popularity",
+      "targets": "SLV",
+      "years": "2022-2025",
+      "curve": "constant",
+      "start": 88,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "social revanchism",
+      "targets": "SLV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 3,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "government revanchism",
+      "targets": "SLV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 1,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "SLV",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 65,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "SLV",
+      "years": "1992-2008",
+      "curve": "constant",
+      "start": 52,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "SLV",
+      "years": "2009-2018",
+      "curve": "constant",
+      "start": 55,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "social sensitivity",
+      "targets": "SLV",
+      "years": "2019-2025",
+      "curve": "constant",
+      "start": 45,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "assimilation",
+      "targets": "SLV",
+      "years": "1990-2025",
+      "curve": "constant",
+      "start": 65,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "SLV",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 40,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "SLV",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 42,
+      "end": 46,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "SLV",
+      "years": "1996-2004",
+      "curve": "linear",
+      "start": 47,
+      "end": 52,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "happiness",
+      "targets": "SLV",
+      "years": "2005-2010",
+      "curve": "linear",
+      "start": 53,
+      "end": 58.5,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "SLV",
+      "years": "1990-1995",
+      "curve": "linear",
+      "start": 68,
+      "end": 67,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "corruption",
+      "targets": "SLV",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 64,
+      "end": 66,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "SLV",
+      "years": "1990-1991",
+      "curve": "linear",
+      "start": 80,
+      "end": 75,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "SLV",
+      "years": "1992-1995",
+      "curve": "linear",
+      "start": 60,
+      "end": 55,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "violence risk",
+      "targets": "SLV",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": 46,
+      "end": 37,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "civilization level",
+      "targets": "SLV",
+      "years": "2023-2025",
+      "curve": "linear",
+      "start": "current",
+      "end": 68.2,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "SLV",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 60,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "SLV",
+      "years": "1992-1994",
+      "curve": "linear",
+      "start": 45,
+      "end": 35,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "war exhaustion",
+      "targets": "SLV",
+      "years": "1995-2000",
+      "curve": "linear",
+      "start": 30,
+      "end": 15,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "mobilized",
+      "targets": "SLV",
+      "years": "1990-1991",
+      "curve": "constant",
+      "start": 1,
+      "only_empty": true
+    },
+    {
+      "kind": "grade",
+      "name": "epidemic",
+      "targets": "SLV",
+      "years": "2020-2021",
+      "curve": "constant",
+      "start": 1,
+      "only_empty": true
+    }
+  ]
+}

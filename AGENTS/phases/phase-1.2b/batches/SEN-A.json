@@ -1,0 +1,60 @@
+{
+  "rationale": "SEN, zadanie A (tryb oszczedny): stabilnosc instytucji wg wydarzen (alternacja 2000, kryzys 2011, zamieszki 2021/2023/2024, kryzys sukcesji 2024-2025), konflikt w Casamance do 2003, uzupelnienie wskaznikow 1990-1995 i 2023-2025",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "1990-1999", "curve": "linear", "start": 62, "end": 58, "rationale": "stabilne rzady PS; zmiany rzadu bez zamieszen"},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2000-2004", "curve": "linear", "start": 60, "end": 66, "rationale": "pokojowa alternacja 2000"},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2005-2010", "curve": "constant", "start": 66},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2011", "curve": "constant", "start": 65, "rationale": "kryzys trzeciej kadencji Wade'a"},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2012-2019", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2020-2022", "curve": "linear", "start": 70, "end": 66, "rationale": "spory o Sonko, 2021"},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2023", "curve": "constant", "start": 62, "rationale": "czerwcowe zamieszki po wyroku Sonko"},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2024", "curve": "constant", "start": 52, "rationale": "proba przelozenia wyborow prezydenckich, orzeczenie Konstytucyjnej"},
+    {"kind": "grade", "name": "stability", "targets": "SEN", "years": "2025", "curve": "constant", "start": 56, "rationale": "napiecia Faye-Sonko od lipca 2025"},
+
+    {"kind": "grade", "name": "violence risk", "targets": "SEN", "years": "1990-1995", "curve": "linear", "start": 64, "end": 62, "only_empty": true, "rationale": "konflikt zbrojny w Casamance"},
+    {"kind": "grade", "name": "violence risk", "targets": "SEN", "years": "2023-2025", "curve": "manual", "values": [60, 57, 54], "only_empty": true, "rationale": "zamieszki 2023 z ofiarami; spadek po 2024"},
+
+    {"kind": "grade", "name": "corruption", "targets": "SEN", "years": "1990-1995", "curve": "linear", "start": 55, "end": 53, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "SEN", "years": "2023-2025", "curve": "linear", "start": 50.5, "end": 50.0, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "SEN", "years": "1990-1999", "curve": "linear", "start": 46, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "SEN", "years": "2000-2004", "curve": "linear", "start": 50, "end": 46, "only_empty": true, "rationale": "nadzieje po 2000, potem rozczarowanie"},
+    {"kind": "grade", "name": "happiness", "targets": "SEN", "years": "2005-2010", "curve": "linear", "start": 46, "end": 44.5, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "SEN", "years": "2023-2025", "curve": "linear", "start": "current", "end": 53.8, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "SEN", "years": "1990-1999", "curve": "constant", "start": 4},
+    {"kind": "grade", "name": "social revanchism", "targets": "SEN", "years": "2000-2011", "curve": "constant", "start": 5},
+    {"kind": "grade", "name": "social revanchism", "targets": "SEN", "years": "2012-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "SEN", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "SEN", "years": "1990-1994", "curve": "linear", "start": 65, "end": 68, "rationale": "dewaluacja franka CFA 1994"},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SEN", "years": "1995-2011", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SEN", "years": "2012-2019", "curve": "linear", "start": 60, "end": 62},
+    {"kind": "grade", "name": "social sensitivity", "targets": "SEN", "years": "2020-2025", "curve": "linear", "start": 62, "end": 66, "rationale": "pandemia i drozyzna 2022-2024"},
+
+    {"kind": "grade", "name": "assimilation", "targets": "SEN", "years": "1990-1999", "curve": "constant", "start": 66},
+    {"kind": "grade", "name": "assimilation", "targets": "SEN", "years": "2000-2014", "curve": "linear", "start": 66, "end": 64},
+    {"kind": "grade", "name": "assimilation", "targets": "SEN", "years": "2015-2025", "curve": "linear", "start": 64, "end": 63},
+
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "1990-1993", "curve": "linear", "start": 50, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "1994-1999", "curve": "linear", "start": 45, "end": 40, "rationale": "dewaluacja 1994, rzady Diouf"},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2000-2004", "curve": "linear", "start": 65, "end": 55, "rationale": "entuzjazm po alternacji 2000"},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2005-2011", "curve": "linear", "start": 50, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2012-2016", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2017-2019", "curve": "linear", "start": 40, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2020-2022", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2023", "curve": "constant", "start": 30, "rationale": "szacunek, brak sondazu"},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2024", "curve": "constant", "start": 40, "rationale": "szacunek, zmiana prezydenta"},
+    {"kind": "grade", "name": "government popularity", "targets": "SEN", "years": "2025", "curve": "constant", "start": 45, "rationale": "szacunek, brak sondazu"},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "SEN", "years": "1990-2003", "curve": "constant", "start": 12, "rationale": "zmeczenie konfliktem w Casamance"},
+
+    {"kind": "grade", "name": "riots", "targets": "SEN", "years": "2021", "curve": "constant", "start": 1, "rationale": "zamieszki po aresztowaniu Sonko"},
+    {"kind": "grade", "name": "riots", "targets": "SEN", "years": "2023", "curve": "constant", "start": 1, "rationale": "zamieszki po wyroku Sonko"},
+    {"kind": "grade", "name": "riots", "targets": "SEN", "years": "2024", "curve": "constant", "start": 1, "rationale": "protesty przeciw przelozeniu wyborow"},
+
+    {"kind": "grade", "name": "epidemic", "targets": "SEN", "years": "2020", "curve": "constant", "start": 1}
+  ]
+}

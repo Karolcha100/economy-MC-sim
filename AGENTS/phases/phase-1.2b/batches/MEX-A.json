@@ -1,0 +1,51 @@
+{
+  "rationale": "MEX, zadanie A (tryb oszczędny): okresy wg wydarzeń (1994-95 Chiapas, Colosio, kryzys peso; 2000 alternacja; 2006 spór wyborczy; 2013-18 Ayotzinapa; 2019 zmiana rządu AMLO; 2025 Sheinbaum); epidemia tylko 2020; kolumny z wartościami startowymi uzupełnione bez zmiany istniejących lat",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "1990-1993", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "1994-1995", "curve": "linear", "start": 58, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "1996-1999", "curve": "linear", "start": 52, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "2000-2005", "curve": "constant", "start": 66, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "2006-2007", "curve": "constant", "start": 52, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "2008-2012", "curve": "linear", "start": 58, "end": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "2013-2018", "curve": "constant", "start": 58, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "2019-2024", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "MEX", "years": "2025-2025", "curve": "constant", "start": 60, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "MEX", "years": "1990-2025", "curve": "constant", "start": 4, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "MEX", "years": "1990-2025", "curve": "constant", "start": 2, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "1990-1993", "curve": "constant", "start": 58, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "1994-1994", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "1995-1996", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "1997-2000", "curve": "linear", "start": 40, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "2001-2005", "curve": "linear", "start": 60, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "2006-2012", "curve": "linear", "start": 50, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "2013-2018", "curve": "linear", "start": 45, "end": 25, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "2019-2024", "curve": "linear", "start": 70, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "MEX", "years": "2025-2025", "curve": "constant", "start": 70, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "MEX", "years": "1990-1994", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MEX", "years": "1995-1996", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MEX", "years": "1997-2012", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "MEX", "years": "2013-2025", "curve": "constant", "start": 55, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "MEX", "years": "2024-2025", "curve": "linear", "start": 79.2, "end": 79.4, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "MEX", "years": "1990-2013", "curve": "constant", "start": 62, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "MEX", "years": "2014-2025", "curve": "linear", "start": 60, "end": 56, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "MEX", "years": "1990-1995", "curve": "linear", "start": 63, "end": 61, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "MEX", "years": "2023-2025", "curve": "linear", "start": 70.5, "end": 71, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "MEX", "years": "1990-1993", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MEX", "years": "1994-1995", "curve": "constant", "start": 68, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "MEX", "years": "2023-2025", "curve": "linear", "start": 64, "end": 67, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "MEX", "years": "1990-1994", "curve": "constant", "start": 64, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MEX", "years": "1995-1996", "curve": "constant", "start": 57, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MEX", "years": "1997-2004", "curve": "linear", "start": 58, "end": 64, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "MEX", "years": "2005-2010", "curve": "linear", "start": 66, "end": 67, "only_empty": true},
+
+    {"kind": "grade", "name": "epidemic", "targets": "MEX", "years": "2020-2020", "curve": "constant", "start": 1, "only_empty": true}
+  ]
+}

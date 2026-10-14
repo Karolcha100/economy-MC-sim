@@ -1,0 +1,52 @@
+{
+  "rationale": "JOR, zadanie A (statystyki państwa), tryb oszczędny: monarchia stabilna instytucjonalnie, częste zmiany rządów (1991-1993, 2011-2013, 2016-2018), protesty 1989/1996/2011/2018 i 2023-2024 (Gaza); pandemia 2020-2021; uzupełnienie brakujących lat przy istniejących wartościach startowych",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "JOR", "years": "1990-1993", "curve": "linear", "start": 55, "end": 58},
+    {"kind": "grade", "name": "stability", "targets": "JOR", "years": "1994-2000", "curve": "linear", "start": 58, "end": 62},
+    {"kind": "grade", "name": "stability", "targets": "JOR", "years": "2001-2010", "curve": "linear", "start": 62, "end": 60},
+    {"kind": "grade", "name": "stability", "targets": "JOR", "years": "2011-2013", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "JOR", "years": "2014-2018", "curve": "linear", "start": 50, "end": 47},
+    {"kind": "grade", "name": "stability", "targets": "JOR", "years": "2019-2025", "curve": "linear", "start": 47, "end": 46},
+
+    {"kind": "grade", "name": "corruption", "targets": "JOR", "years": "1990-1995", "curve": "linear", "start": 52, "end": 50.5},
+    {"kind": "grade", "name": "corruption", "targets": "JOR", "years": "2023-2025", "curve": "linear", "start": 48.5, "end": 48},
+
+    {"kind": "grade", "name": "happiness", "targets": "JOR", "years": "1990-1992", "curve": "linear", "start": 50, "end": 42},
+    {"kind": "grade", "name": "happiness", "targets": "JOR", "years": "1993-1996", "curve": "linear", "start": 42, "end": 50},
+    {"kind": "grade", "name": "happiness", "targets": "JOR", "years": "1997-2010", "curve": "linear", "start": 50, "end": 56.5},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "JOR", "years": "1990-1993", "curve": "linear", "start": 25, "end": 22},
+    {"kind": "grade", "name": "social revanchism", "targets": "JOR", "years": "1994-2000", "curve": "linear", "start": 22, "end": 15},
+    {"kind": "grade", "name": "social revanchism", "targets": "JOR", "years": "2001-2022", "curve": "constant", "start": 15},
+    {"kind": "grade", "name": "social revanchism", "targets": "JOR", "years": "2023-2025", "curve": "linear", "start": 15, "end": 18},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "JOR", "years": "1990-1993", "curve": "linear", "start": 10, "end": 6},
+    {"kind": "grade", "name": "government revanchism", "targets": "JOR", "years": "1994-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government popularity", "targets": "JOR", "years": "1990-1991", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "JOR", "years": "1992-1995", "curve": "linear", "start": 36, "end": 38},
+    {"kind": "grade", "name": "government popularity", "targets": "JOR", "years": "1996-2000", "curve": "linear", "start": 38, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "JOR", "years": "2001-2010", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "JOR", "years": "2011-2013", "curve": "linear", "start": 50, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "JOR", "years": "2014-2018", "curve": "linear", "start": 35, "end": 33},
+    {"kind": "grade", "name": "government popularity", "targets": "JOR", "years": "2019-2025", "curve": "linear", "start": 33, "end": 30},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "JOR", "years": "1990-1995", "curve": "linear", "start": 70, "end": 75},
+    {"kind": "grade", "name": "social sensitivity", "targets": "JOR", "years": "1996-2000", "curve": "linear", "start": 75, "end": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "JOR", "years": "2001-2010", "curve": "linear", "start": 70, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "JOR", "years": "2011-2018", "curve": "linear", "start": 65, "end": 72},
+    {"kind": "grade", "name": "social sensitivity", "targets": "JOR", "years": "2019-2025", "curve": "linear", "start": 72, "end": 70},
+
+    {"kind": "grade", "name": "civilization level", "targets": "JOR", "years": "2024-2025", "curve": "linear", "start": 75.7, "end": 75.9},
+
+    {"kind": "grade", "name": "assimilation", "targets": "JOR", "years": "1990-2000", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "JOR", "years": "2001-2010", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "JOR", "years": "2011-2015", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "JOR", "years": "2016-2025", "curve": "constant", "start": 45},
+
+    {"kind": "grade", "name": "violence risk", "targets": "JOR", "years": "1990-1995", "curve": "linear", "start": 52, "end": 50.5},
+    {"kind": "grade", "name": "violence risk", "targets": "JOR", "years": "2023-2025", "curve": "linear", "start": 56, "end": 59},
+
+    {"kind": "grade", "name": "epidemic", "targets": "JOR", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "rationale": "TLS, zadanie A, tryb oszczędny. Lata istnienia 2002–2025. Brak WGI (corruption, violence risk) i happiness: szacunek całej serii, zgodny z kotwicami podobnych państw. Zdarzenia: kryzys 2006 (zamieszki Dili, upadek rządu Alkatiriego), kryzys koalicji AMP 2020, lockdown/fala COVID 2020–2021, nowy rząd Gusmão 2023, protesty we wrześniu 2025 (ustępstwa po kilku dniach, bez zamieszek na skalę narodową).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "TLS", "years": "2002-2005", "curve": "linear", "start": 45, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "TLS", "years": "2006-2008", "curve": "manual", "values": [25, 35, 42]},
+    {"kind": "grade", "name": "stability", "targets": "TLS", "years": "2009-2014", "curve": "linear", "start": 42, "end": 55},
+    {"kind": "grade", "name": "stability", "targets": "TLS", "years": "2015-2019", "curve": "linear", "start": 55, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "TLS", "years": "2020-2022", "curve": "manual", "values": [40, 42, 46]},
+    {"kind": "grade", "name": "stability", "targets": "TLS", "years": "2023-2025", "curve": "manual", "values": [52, 58, 54]},
+
+    {"kind": "grade", "name": "corruption", "targets": "TLS", "years": "2002-2008", "curve": "linear", "start": 70, "end": 72},
+    {"kind": "grade", "name": "corruption", "targets": "TLS", "years": "2009-2015", "curve": "linear", "start": 71, "end": 72},
+    {"kind": "grade", "name": "corruption", "targets": "TLS", "years": "2016-2020", "curve": "linear", "start": 70, "end": 60},
+    {"kind": "grade", "name": "corruption", "targets": "TLS", "years": "2021-2025", "curve": "linear", "start": 59, "end": 56},
+
+    {"kind": "grade", "name": "violence risk", "targets": "TLS", "years": "2002-2005", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "violence risk", "targets": "TLS", "years": "2006-2008", "curve": "manual", "values": [80, 70, 66]},
+    {"kind": "grade", "name": "violence risk", "targets": "TLS", "years": "2009-2012", "curve": "linear", "start": 62, "end": 48},
+    {"kind": "grade", "name": "violence risk", "targets": "TLS", "years": "2013-2019", "curve": "linear", "start": 48, "end": 44},
+    {"kind": "grade", "name": "violence risk", "targets": "TLS", "years": "2020-2025", "curve": "linear", "start": 42, "end": 40},
+
+    {"kind": "grade", "name": "happiness", "targets": "TLS", "years": "2002-2005", "curve": "linear", "start": 42, "end": 44},
+    {"kind": "grade", "name": "happiness", "targets": "TLS", "years": "2006-2010", "curve": "linear", "start": 40, "end": 45},
+    {"kind": "grade", "name": "happiness", "targets": "TLS", "years": "2011-2015", "curve": "linear", "start": 45, "end": 47},
+    {"kind": "grade", "name": "happiness", "targets": "TLS", "years": "2016-2020", "curve": "linear", "start": 47, "end": 46},
+    {"kind": "grade", "name": "happiness", "targets": "TLS", "years": "2021-2025", "curve": "linear", "start": 46, "end": 48},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "TLS", "years": "2002-2025", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "TLS", "years": "2002-2025", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "government popularity", "targets": "TLS", "years": "2002-2005", "curve": "linear", "start": 75, "end": 70},
+    {"kind": "grade", "name": "government popularity", "targets": "TLS", "years": "2006-2007", "curve": "manual", "values": [45, 52]},
+    {"kind": "grade", "name": "government popularity", "targets": "TLS", "years": "2008-2014", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "TLS", "years": "2015-2019", "curve": "linear", "start": 50, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "TLS", "years": "2020-2022", "curve": "linear", "start": 38, "end": 48},
+    {"kind": "grade", "name": "government popularity", "targets": "TLS", "years": "2023-2025", "curve": "linear", "start": 55, "end": 50},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "TLS", "years": "2002-2010", "curve": "linear", "start": 60, "end": 65},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TLS", "years": "2011-2019", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TLS", "years": "2020-2025", "curve": "linear", "start": 60, "end": 62},
+
+    {"kind": "grade", "name": "civilization level", "targets": "TLS", "years": "2023-2025", "curve": "linear", "start": 63.4, "end": 63.8, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "TLS", "years": "2002-2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "riots", "targets": "TLS", "years": "2006-2006", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "TLS", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

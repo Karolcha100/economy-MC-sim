@@ -1,0 +1,58 @@
+{
+  "rationale": "TTO, zadanie A (tryb oszczędny): wartości ESTYMACJA z wiedzy o historii Trynidadu i Tobago 1990-2025 (zamach Jamaat al Muslimeen 1990, zmiany rządów 1991/1995/2001/2010/2015/2020/2025, austerity 1990-1993, boom gazowy po 2000, fala przestępczości 2024). Wyszukiwarka użyta 3 razy dla 2023-2025: wybory 28.04.2025 i zmiana rządu na UNC (1.05.2025); CPI 2024 = 41 (2023 = 42); rekordowe zabójstwa w 2024 i spadek w 2025, stan wyjątkowy od 30.12.2024. Istniejące wartości nie są zmieniane (only_empty). Brak sondaży i danych o poparciu przed 2025: wartości przybliżone.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "1990-1991", "curve": "linear", "start": 45, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "1992-1995", "curve": "linear", "start": 55, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "1996-2000", "curve": "linear", "start": 62, "end": 58, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "2001-2009", "curve": "linear", "start": 60, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "2010-2014", "curve": "linear", "start": 63, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "2015-2019", "curve": "linear", "start": 62, "end": 68, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "2020-2022", "curve": "constant", "start": 70, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "2023-2024", "curve": "linear", "start": 70, "end": 68, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "TTO", "years": "2025", "curve": "constant", "start": 62, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "TTO", "years": "1990-1995", "curve": "linear", "start": 40, "end": 32, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "TTO", "years": "2022-2025", "curve": "linear", "start": "current", "end": 56, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "TTO", "years": "1990-1993", "curve": "linear", "start": 55, "end": 52, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "TTO", "years": "1994-2000", "curve": "linear", "start": 53, "end": 56, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "TTO", "years": "2001-2010", "curve": "linear", "start": 57, "end": 62.5, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "TTO", "years": "1990-2025", "curve": "constant", "start": 5, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "TTO", "years": "1990-2025", "curve": "constant", "start": 5, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "1990-1991", "curve": "linear", "start": 40, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "1992-1995", "curve": "linear", "start": 45, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "1996-2000", "curve": "linear", "start": 42, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2001-2004", "curve": "linear", "start": 40, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2005-2009", "curve": "linear", "start": 48, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2010-2012", "curve": "linear", "start": 45, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2013-2014", "curve": "linear", "start": 52, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2015-2016", "curve": "linear", "start": 45, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2017-2019", "curve": "linear", "start": 48, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2020-2022", "curve": "constant", "start": 45, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2023-2024", "curve": "linear", "start": 43, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "TTO", "years": "2025", "curve": "constant", "start": 50, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "TTO", "years": "1990-1995", "curve": "linear", "start": 65, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TTO", "years": "1996-2008", "curve": "linear", "start": 58, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TTO", "years": "2009-2015", "curve": "linear", "start": 50, "end": 55, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TTO", "years": "2016-2019", "curve": "linear", "start": 55, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TTO", "years": "2020-2022", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TTO", "years": "2023-2025", "curve": "linear", "start": 60, "end": 62, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "TTO", "years": "2023-2025", "curve": "linear", "start": "current", "end": 81, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "TTO", "years": "1990-2010", "curve": "constant", "start": 70, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "TTO", "years": "2011-2017", "curve": "linear", "start": 70, "end": 68, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "TTO", "years": "2018-2025", "curve": "linear", "start": 68, "end": 62, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "TTO", "years": "1990-1991", "curve": "linear", "start": 60, "end": 52, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "TTO", "years": "1992-1995", "curve": "linear", "start": 48, "end": 45, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "TTO", "years": "2023-2025", "curve": "manual", "values": [45, 49, 46], "only_empty": true},
+
+    {"kind": "grade", "name": "riots", "targets": "TTO", "years": "1990-1990", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "TTO", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

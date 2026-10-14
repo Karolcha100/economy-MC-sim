@@ -1,0 +1,72 @@
+{
+  "rationale": "GIN, zadanie A (statystyki państwa), tryb oszczędny. Conté 1990–2008 (wielopartyjność formalna, strajk 2007, śmierć Conté i zamach 2008); junta Camary 2008–2010 (masakra na stadionie 2009); Condé 2010–2020 (wybory 2010/2015/2020, referendum 2020); zamach Doumbouya 2021; okres przejściowy 2022–2024 (protesty 2024); referendum i wybory 2025 (Doumbouya, ok. 87%, opozycja wykluczona). Ebola 2014–2015, COVID 2020–2021. Lata 2023–2025 sprawdzone w wyszukiwarce. Wartości zgodne z istniejącymi szeregami (corruption 1996–2022, violence risk 1996–2022, happiness 2011–2025, civilization level 1990–2023). Flagi tylko w latach zdarzeń.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "1990-1995", "curve": "linear", "start": 50, "end": 52},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "1996-2002", "curve": "linear", "start": 52, "end": 50},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2003-2006", "curve": "linear", "start": 50, "end": 44},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2007", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2008", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2009", "curve": "constant", "start": 12},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2010", "curve": "constant", "start": 22},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2011-2015", "curve": "linear", "start": 35, "end": 48},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2016-2019", "curve": "linear", "start": 50, "end": 46},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2020", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2021", "curve": "constant", "start": 10},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2022-2024", "curve": "linear", "start": 15, "end": 22},
+    {"kind": "grade", "name": "stability", "targets": "GIN", "years": "2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "corruption", "targets": "GIN", "years": "1990-1995", "curve": "linear", "start": 66, "end": 68.5},
+    {"kind": "grade", "name": "corruption", "targets": "GIN", "years": "2023-2025", "curve": "manual", "values": [70.5, 70.0, 69.5]},
+
+    {"kind": "grade", "name": "violence risk", "targets": "GIN", "years": "1990-1995", "curve": "linear", "start": 60, "end": 72},
+    {"kind": "grade", "name": "violence risk", "targets": "GIN", "years": "2023-2025", "curve": "manual", "values": [67, 71, 68]},
+
+    {"kind": "grade", "name": "happiness", "targets": "GIN", "years": "1990-1995", "curve": "linear", "start": 45, "end": 40},
+    {"kind": "grade", "name": "happiness", "targets": "GIN", "years": "1996-2004", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "happiness", "targets": "GIN", "years": "2005-2006", "curve": "constant", "start": 41},
+    {"kind": "grade", "name": "happiness", "targets": "GIN", "years": "2007", "curve": "constant", "start": 38},
+    {"kind": "grade", "name": "happiness", "targets": "GIN", "years": "2008", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "happiness", "targets": "GIN", "years": "2009", "curve": "constant", "start": 36},
+    {"kind": "grade", "name": "happiness", "targets": "GIN", "years": "2010", "curve": "constant", "start": 38},
+
+    {"kind": "grade", "name": "civilization level", "targets": "GIN", "years": "2024-2025", "curve": "linear", "start": 50.5, "end": 51},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "GIN", "years": "1990-1999", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "social revanchism", "targets": "GIN", "years": "2000-2014", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "social revanchism", "targets": "GIN", "years": "2015-2025", "curve": "constant", "start": 3},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "GIN", "years": "1990-1999", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "GIN", "years": "2000-2019", "curve": "constant", "start": 2},
+    {"kind": "grade", "name": "government revanchism", "targets": "GIN", "years": "2020-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "1990-1992", "curve": "linear", "start": 45, "end": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "1993-1999", "curve": "linear", "start": 42, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2000-2005", "curve": "linear", "start": 35, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2006-2007", "curve": "linear", "start": 30, "end": 20},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2008", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2009", "curve": "constant", "start": 25},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2010", "curve": "constant", "start": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2011-2015", "curve": "linear", "start": 45, "end": 55},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2016-2019", "curve": "linear", "start": 55, "end": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2020", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2021", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2022-2024", "curve": "linear", "start": 60, "end": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "GIN", "years": "2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "GIN", "years": "1990-2006", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GIN", "years": "2007-2009", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GIN", "years": "2010-2019", "curve": "linear", "start": 65, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "GIN", "years": "2020-2025", "curve": "constant", "start": 65},
+
+    {"kind": "grade", "name": "assimilation", "targets": "GIN", "years": "1990-2009", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "GIN", "years": "2010-2019", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "assimilation", "targets": "GIN", "years": "2020-2025", "curve": "constant", "start": 50},
+
+    {"kind": "grade", "name": "riots", "targets": "GIN", "years": "2007", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "GIN", "years": "2020", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "GIN", "years": "2024", "curve": "constant", "start": 1},
+
+    {"kind": "grade", "name": "epidemic", "targets": "GIN", "years": "2014-2015", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "GIN", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

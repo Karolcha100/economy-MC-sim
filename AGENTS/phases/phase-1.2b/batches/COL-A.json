@@ -1,0 +1,65 @@
+{
+  "rationale": "COL, zadanie A (statystyki państwa), tryb oszczędny. Wartości ESTYMACJA z wiedzy o historii Kolumbii (brak wiarygodnych sondaży dla lat 1990-2000): stabilność instytucjonalna wysoka mimo przemocy (przemoc osobno w 'violence risk'), kryzys rządu Samper 1995-1997, Pastrana 1998-2002, popularność rządów wg kojarzonych sondaży (Samper bardzo niski, Uribe wysoki, Santos spadek, Duque i Petro spadek), revanchism społeczny i rządowy niski (spór o wody z Nikaraguą 2012-2014 jako lekki wzrost), flagi: napływ z Wenezueli 2017-2019 (immigration crisis), paro nacional 2019 i 2021 (riots), COVID 2020-2021 (epidemic). War exhaustion: wojna wewnętrzna ciągła, wzrost po porażce Caguán 2002, spadek przy Uribe, niski po porozumieniu pokojowym 2016. Istniejące wartości (corruption, happiness od 2011, violence risk 1996-2022, civilization level do 2023, net migration) nie są zmieniane (only_empty); uzupełnienia płynnie łączą się z 'current'.",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "COL", "years": "1990-1994", "curve": "linear", "start": 68, "end": 72, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COL", "years": "1995-1997", "curve": "linear", "start": 70, "end": 60, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COL", "years": "1998-2002", "curve": "linear", "start": 60, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COL", "years": "2003-2010", "curve": "linear", "start": 72, "end": 80, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COL", "years": "2011-2018", "curve": "linear", "start": 80, "end": 78, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COL", "years": "2019-2021", "curve": "linear", "start": 78, "end": 70, "only_empty": true},
+    {"kind": "grade", "name": "stability", "targets": "COL", "years": "2022-2025", "curve": "linear", "start": 70, "end": 65, "only_empty": true},
+
+    {"kind": "grade", "name": "corruption", "targets": "COL", "years": "1990-1995", "curve": "linear", "start": 64, "end": 60.5, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "COL", "years": "2022-2025", "curve": "linear", "start": "current", "end": 57, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "COL", "years": "1990-1999", "curve": "linear", "start": 55, "end": 48, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "COL", "years": "2000-2004", "curve": "linear", "start": 48, "end": 54, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "COL", "years": "2005-2010", "curve": "linear", "start": 56, "end": 60.5, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "COL", "years": "1990-1995", "curve": "linear", "start": 90, "end": 84, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "COL", "years": "2022-2025", "curve": "linear", "start": "current", "end": 64, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "COL", "years": "2023-2025", "curve": "linear", "start": "current", "end": 80, "only_empty": true},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "COL", "years": "1990-1997", "curve": "constant", "start": 35, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COL", "years": "1998-2002", "curve": "linear", "start": 35, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COL", "years": "2003-2010", "curve": "linear", "start": 50, "end": 35, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COL", "years": "2011-2015", "curve": "linear", "start": 35, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COL", "years": "2016-2018", "curve": "constant", "start": 25, "only_empty": true},
+    {"kind": "grade", "name": "war exhaustion", "targets": "COL", "years": "2019-2025", "curve": "linear", "start": 25, "end": 35, "only_empty": true},
+
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "1990-1991", "curve": "linear", "start": 60, "end": 65, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "1992-1994", "curve": "linear", "start": 65, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "1995-1998", "curve": "linear", "start": 30, "end": 25, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "1999-2001", "curve": "linear", "start": 45, "end": 30, "only_empty": false},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "2002", "curve": "constant", "start": 50, "only_empty": false},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "2003-2010", "curve": "linear", "start": 70, "end": 78, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "2011-2014", "curve": "linear", "start": 65, "end": 40, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "2015-2017", "curve": "constant", "start": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "2018-2021", "curve": "linear", "start": 50, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "government popularity", "targets": "COL", "years": "2022-2025", "curve": "linear", "start": 55, "end": 35, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "COL", "years": "1990-2011", "curve": "constant", "start": 4, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "COL", "years": "2012-2014", "curve": "constant", "start": 6, "only_empty": true},
+    {"kind": "grade", "name": "social revanchism", "targets": "COL", "years": "2015-2025", "curve": "constant", "start": 4, "only_empty": true},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "COL", "years": "1990-2011", "curve": "constant", "start": 2, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "COL", "years": "2012-2014", "curve": "constant", "start": 5, "only_empty": true},
+    {"kind": "grade", "name": "government revanchism", "targets": "COL", "years": "2015-2025", "curve": "constant", "start": 3, "only_empty": true},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "COL", "years": "1990-1998", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COL", "years": "1999-2010", "curve": "constant", "start": 55, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COL", "years": "2011-2018", "curve": "constant", "start": 50, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COL", "years": "2019-2021", "curve": "constant", "start": 65, "only_empty": true},
+    {"kind": "grade", "name": "social sensitivity", "targets": "COL", "years": "2022-2025", "curve": "constant", "start": 58, "only_empty": true},
+
+    {"kind": "grade", "name": "assimilation", "targets": "COL", "years": "1990-2015", "curve": "constant", "start": 60, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "COL", "years": "2016-2019", "curve": "linear", "start": 58, "end": 50, "only_empty": true},
+    {"kind": "grade", "name": "assimilation", "targets": "COL", "years": "2020-2025", "curve": "linear", "start": 50, "end": 45, "only_empty": true},
+
+    {"kind": "grade", "name": "immigration crisis", "targets": "COL", "years": "2017-2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "COL", "years": "2019-2019", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "riots", "targets": "COL", "years": "2021-2021", "curve": "constant", "start": 1},
+    {"kind": "grade", "name": "epidemic", "targets": "COL", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}

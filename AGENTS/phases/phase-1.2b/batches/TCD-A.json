@@ -1,0 +1,50 @@
+{
+  "rationale": "TCD, zadanie A (oszczędny): okresy wg wiedzy o historii Czadu (przejęcie władzy przez Déby 1990, wojny domowe 1990s i 2005–2010, atak na N'Djamenę 2008, zamach/śmierć Déby 2021, protesty 2022 z ~50–60 ofiarami, wybory 2024, skazanie Masry 2025 i zmiana konstytucji 2025); wyszukiwarka: wyniki dla 2022, 2025",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "1990-1995", "curve": "linear", "start": 20, "end": 35},
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "1996-2005", "curve": "linear", "start": 36, "end": 38},
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "2006-2010", "curve": "linear", "start": 38, "end": 28},
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "2011-2019", "curve": "linear", "start": 30, "end": 33},
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "2020-2021", "curve": "manual", "values": [28, 12]},
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "2022-2022", "curve": "constant", "start": 18},
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "2023-2024", "curve": "linear", "start": 20, "end": 28},
+    {"kind": "grade", "name": "stability", "targets": "TCD", "years": "2025-2025", "curve": "constant", "start": 25},
+
+    {"kind": "grade", "name": "corruption", "targets": "TCD", "years": "1990-1995", "curve": "linear", "start": 80, "end": 78, "only_empty": true},
+    {"kind": "grade", "name": "corruption", "targets": "TCD", "years": "2023-2025", "curve": "constant", "start": 80, "only_empty": true},
+
+    {"kind": "grade", "name": "violence risk", "targets": "TCD", "years": "1990-1995", "curve": "linear", "start": 90, "end": 73, "only_empty": true},
+    {"kind": "grade", "name": "violence risk", "targets": "TCD", "years": "2023-2025", "curve": "constant", "start": 80, "only_empty": true},
+
+    {"kind": "grade", "name": "happiness", "targets": "TCD", "years": "1990-1995", "curve": "linear", "start": 37, "end": 38, "only_empty": true},
+    {"kind": "grade", "name": "happiness", "targets": "TCD", "years": "1996-2010", "curve": "linear", "start": 38, "end": 39, "only_empty": true},
+
+    {"kind": "grade", "name": "civilization level", "targets": "TCD", "years": "1990-1999", "curve": "linear", "start": 26, "end": 30, "only_empty": true},
+    {"kind": "grade", "name": "civilization level", "targets": "TCD", "years": "2024-2025", "curve": "linear", "start": 42.0, "end": 42.4, "only_empty": true},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "TCD", "years": "1990-1994", "curve": "linear", "start": 15, "end": 6},
+    {"kind": "grade", "name": "social revanchism", "targets": "TCD", "years": "1995-2025", "curve": "constant", "start": 5},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "TCD", "years": "1990-1994", "curve": "linear", "start": 25, "end": 10},
+    {"kind": "grade", "name": "government revanchism", "targets": "TCD", "years": "1995-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government popularity", "targets": "TCD", "years": "1990-1995", "curve": "linear", "start": 55, "end": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "TCD", "years": "1996-2015", "curve": "linear", "start": 45, "end": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "TCD", "years": "2016-2020", "curve": "linear", "start": 35, "end": 30},
+    {"kind": "grade", "name": "government popularity", "targets": "TCD", "years": "2021-2021", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "TCD", "years": "2022-2025", "curve": "constant", "start": 35},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "TCD", "years": "1990-1995", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TCD", "years": "1996-2021", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "social sensitivity", "targets": "TCD", "years": "2022-2025", "curve": "constant", "start": 55},
+
+    {"kind": "grade", "name": "assimilation", "targets": "TCD", "years": "1990-2002", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "assimilation", "targets": "TCD", "years": "2003-2022", "curve": "linear", "start": 45, "end": 38},
+    {"kind": "grade", "name": "assimilation", "targets": "TCD", "years": "2023-2025", "curve": "linear", "start": 38, "end": 35},
+
+    {"kind": "grade", "name": "war exhaustion", "targets": "TCD", "years": "1990-1995", "curve": "linear", "start": 30, "end": 10},
+    {"kind": "grade", "name": "war exhaustion", "targets": "TCD", "years": "2006-2010", "curve": "constant", "start": 30},
+
+    {"kind": "grade", "name": "riots", "targets": "TCD", "years": "2022-2022", "curve": "constant", "start": 1}
+  ]
+}

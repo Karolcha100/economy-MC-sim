@@ -88,7 +88,14 @@ Zgoda autora (A10) jest: 2026-10-14. Pytania o przeliczenia skal: `AGENTS/phases
 - [x] **L33. GUI po @T013**: przycisk Koniec (plik + prompt w schowku), odpowiedziane pozycje zostają do Konca, przycisk Plan, klikalne ścieżki. *(zrobione: 2026-10-14 06:03, raport: raport-TODO-LLM.md)*
 - [x] **L35. GUI: przy zadaniu tylko jego część raportu** (@T014). *(zrobione: 2026-10-14 06:22)*
 - [x] **L36. Wątki @T015 (opis testu modeli, A27) i @T016 (wycena z ograniczeniami: ~75–105 $ przez API).** *(zrobione: 2026-10-14 06:22)*
-- [?] **L34. Uruchamianie agentów 1.2b (Haiku w Claude Code)** (kolejka → zadanie → batch → `validate` → `review`; pomiar zużycia tokenów). *Czeka na sygnał autora (@A32) — nie zaczynać wcześniej.*
+- [x] **L34. Uruchamianie agentów 1.2b (Haiku w Claude Code)** (kolejka → zadanie → batch → `validate` → `review`; pomiar zużycia tokenów). *(zrobione: 2026-10-14 13:14, raport: raport-TODO-LLM.md; 392/392 zadania, `missing` 100%, `AGENTS/phases/phase-1.2b/raport-wypelniania.md`)*
 - [x] **L37. Test Haiku** (@T015, @A27): 10 krajów × `stability`/`corruption` × 2 serie, porównanie z WGI. `corruption` błąd ~5, `stability` ~18 (różnica definicji). *(zrobione: 2026-10-14 06:34, raport: raport-TODO-LLM.md)*
 - [x] **L38. `stability` → `stability` + `violence risk`** (@A30): nowa statystyka z wartościami startowymi WGI, `stability` wyczyszczone i z nowym opisem, `seeds.csv`, instrukcja i plan 1.2b. *(zrobione: 2026-10-14 06:43, raport: raport-TODO-LLM.md)*
 - [x] **L39. `audit`** — automatyczne porównanie wszystkich krajów ze wskaźnikami (`simulator/audit.py`, reguły `audit.csv`, raport w `AGENTS/phases/phase-1.2b/audit/`). *(zrobione: 2026-10-14 06:50, raport: raport-TODO-LLM.md)*
+- [>] **L40. Poprawki po wypełnieniu 1.2b** — import UCDP (strony główne) i WGI (stare kody), wspólna reguła `in war`/`in war crisis`, brakujące konflikty 1990–2024, flagi, daty uznania TWN/ChRL, wyrównanie `happiness` bez WHR; potem przegląd próbki (@A31). *Przeniesione 2026-10-14 13:56 do @L41–@L46 (plan: `AGENTS/phases/phase-1.2b/plan-poprawek.md`).*
+- [?] **L41. K1: import UCDP z kategoriami PP/PS/SS + reguła `in war`/`in war crisis`** (kod, test, tabela `ucdp-przeglad.csv`, batch `K1-ucdp.json`). *Czeka na @A34.*
+- [?] **L42. K2: brakujące konflikty 1990–2024** (`k2-konflikty.csv`, batch `K2-konflikty.json`; po @L41). *Czeka na @A35.*
+- [x] **L43. K3: wpisy 2025** — USA/GBR–YEM, ISR–PSE, KHM–THA → `in war crisis` (`AGENTS/phases/phase-1.2b/batches-koordynator/K3-2025.json`); lista pozostałych par w `AGENTS/phases/phase-1.2b/plan-poprawek.md`. *(zrobione: 2026-10-14 13:56; reszta listy czeka na @A36)*
+- [?] **L44. K4: konwencje flag** (tabela `k4-flagi.csv`, batch `K4-flagi.json`). *Czeka na @A36.*
+- [?] **L45. K5: daty uznania TWN/ChRL** (batch `K5-twn-chn.json`). *Czeka na @A37.*
+- [?] **L46. K6: aliasy WGI/WHR, wygładzenie skoków WGI, ZMB–BWA** (kod, test, przeliczenie). *Czeka na @A38.*

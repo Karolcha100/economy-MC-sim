@@ -1,0 +1,2953 @@
+{
+ "rationale": "SYR, zadanie B: relacje od SYR do 16 partnerów (sąsiedzi, mocarstwa, sojusznicy, regionalni partnerzy) oraz dwustronne kryzysy zbrojne SYR z TUR, IRQ, ISR, USA, FRA, GBR (1991: otwarta wojna z IRQ, usunięty kryzys). hybrid attacks: brak potwierdzonych działań hybrydowych SYR, domyślne 0 (do przeglądu: przemyt captagonu do JOR/KSA, niepewne).",
+ "operations": [
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "Hafiz al-Asad wspiera PKK; napięcia o wodę Eufratu i Hatay"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "1996-1998",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "kryzys 1998: groźba wojny o PKK, mobilizacja Turcji, porozumienie z Adany"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "1999-2003",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "po Adanie ostrożne ocieplenie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "2004-2010",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "zbliżenie: zniesienie wiz, strefa wolnego handlu, wizyty na wysokim szczeblu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": -85,
+   "rationale": "Turcja wspiera powstańców; ambasador wycofany, relacje z reżimem Asada zerwane w praktyce"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "2017-2023",
+   "curve": "constant",
+   "start": -75,
+   "rationale": "interwencje tureckie w północnej Syrii (Afrin, Idlib); wrogość wobec rządu Asada"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "2024",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "do 8 XII 2024 wrogość wobec Asada; potem upadek reżimu i sojusz Turcji z nowymi władzami"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:TUR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "al-Sharaa w Ankarze (4 II 2025): strategiczne partnerstwo, rozmowy o pakcie obronnym",
+   "sources": [
+    "https://www.madamasr.com/en/2025/02/04/news/politics/sharaa-visit-historic-step-in-friendship-says-erdogan-as-presidents-discuss-turkish-military-bases-in-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:TUR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -25,
+   "rationale": "uraz z powodu Hatay (Aleksandretty) i sporów o wodę"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:TUR",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "neutralnie-pozytywnie: handel, turystyka, seriale"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:TUR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "społeczeństwo podzielone; w strefach rządowych wrogość, w opozycyjnych przychylność; obecność wojsk tureckich"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:TUR",
+   "years": "2024",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "okres przejściowy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:TUR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "nowe władze i społeczeństwo postrzegają Turcję jako wsparcie w odbudowie",
+   "sources": [
+    "https://www.madamasr.com/en/2025/02/04/news/politics/sharaa-visit-historic-step-in-friendship-says-erdogan-as-presidents-discuss-turkish-military-bases-in-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:TUR",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Syria zależna od kontroli Turcji nad wodą Eufratu i presji w sprawie PKK"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:TUR",
+   "years": "1999-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "zależność handlowa rośnie, ale waga polityczna mniejsza"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:TUR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Turcja silny wpływ na opozycję i północ kraju"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "nowy rząd zależny od tureckiego poparcia, odbudowy i szkolenia wojska",
+   "sources": [
+    "https://www.madamasr.com/en/2025/02/04/news/politics/sharaa-visit-historic-step-in-friendship-says-erdogan-as-presidents-discuss-turkish-military-bases-in-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:TUR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Syria wierzy, że wpływa na Turcję przez kartę PKK i kwestię wody"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:TUR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mało wpływu na Ankarę w czasie wojny"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "nowe władze mają ograniczoną dźwignię wobec Ankary",
+   "sources": [
+    "https://www.madamasr.com/en/2025/02/04/news/politics/sharaa-visit-historic-step-in-friendship-says-erdogan-as-presidents-discuss-turkish-military-bases-in-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:TUR",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Adana 1998: Syria zmuszona do wydalenia Öcalana; Turcja realnie ogranicza politykę bezpieczeństwa"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:TUR",
+   "years": "1999-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "po 1998 mniejsza presja, ale nadal przewaga Turcji"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:TUR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Turcja kontroluje część północy i wspiera opozycję; Syria nie jest satelitą"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Turcja główny sojusznik nowych władz; wpływ na obronę i szkolenie wojska",
+   "sources": [
+    "https://www.madamasr.com/en/2025/02/04/news/politics/sharaa-visit-historic-step-in-friendship-says-erdogan-as-presidents-discuss-turkish-military-bases-in-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:TUR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczony wpływ na politykę turecką"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:TUR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ w czasie wojny"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "nowe władze mają umiarkowaną dźwignię (handel, granica)",
+   "sources": [
+    "https://www.madamasr.com/en/2025/02/04/news/politics/sharaa-visit-historic-step-in-friendship-says-erdogan-as-presidents-discuss-turkish-military-bases-in-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:TUR",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "handel i rurociągi; Turcja ważny partner gospodarczy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:TUR",
+   "years": "1999-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Turcja główny partner handlowy po 2000 r.; strefa wolnego handlu 2007"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:TUR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "wojna ograniczyła handel, ale import z Turcji pozostał ważny"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:TUR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "odbudowa, handel i energia z Turcją; rosnąca zależność",
+   "sources": [
+    "https://www.madamasr.com/en/2025/02/04/news/politics/sharaa-visit-historic-step-in-friendship-says-erdogan-as-presidents-discuss-turkish-military-bases-in-syria/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRQ",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "Syria w koalicji antyirackiej (wojna w Zatoce 1990–91)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRQ",
+   "years": "1992-2002",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "rywalizacja baathistowska, zamknięte granice"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRQ",
+   "years": "2003-2010",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "po wojnie w Iraku napięcia; częściowa poprawa po 2008"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRQ",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "rząd iracki neutralny lub przyjazny Asadowi; granica ważna dla handlu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRQ",
+   "years": "2024",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "zmiana władzy w Damaszku w grudniu 2024; Irak zachowawczy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRQ",
+   "years": "2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ostrożna normalizacja i współpraca graniczna z nowymi władzami; niepewne (bez wyszukiwania)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:IRQ",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "uraz po wojnie w Zatoce i inwazji na Kuwejt"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:IRQ",
+   "years": "2003-2023",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutralnie: wojna w Iraku, uchodźcy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:IRQ",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "sympatia wobec Iraku bez większych napięć"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria nie widzi się zależna od Iraku"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:IRQ",
+   "years": "1990-2003",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Syria wpływa na irackich baathistów i handel przez granicę"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:IRQ",
+   "years": "2004-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Syria wpływa na insurgentów i rząd przez granicę"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:IRQ",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Irak nie ogranicza polityki bezpieczeństwa Syrii"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:IRQ",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczony wpływ militarny i polityczny"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRQ",
+   "years": "1990-2002",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "handel przez granicę, tranzyt i ropa w czasie embarga"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRQ",
+   "years": "2003-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "handel przygraniczny"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRQ",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "handel ograniczony wojną"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRQ",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "import paliw i handel przygraniczny, niepewne (bez wyszukiwania)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:JOR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Jordania neutralna w wojnie w Zatoce; relacje poprawne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:JOR",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "dobre relacje, współpraca gospodarcza i bezpieczeństwa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:JOR",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "Jordania wspierała opozycję i przyjmowała uchodźców; granica zamknięta"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:JOR",
+   "years": "2017-2020",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "ostrożna normalizacja kontaktów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:JOR",
+   "years": "2021-2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "przywrócenie kontaktów i przejść granicznych; powrót do Ligi Arabskiej 2023"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:JOR",
+   "years": "2024",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "upadek Asada w grudniu 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:JOR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "współpraca graniczna i gospodarcza z nowymi władzami; ministrowie odwiedzili Ammanu",
+   "sources": [
+    "https://www.aljazeera.com/amp/news/2025/1/4/syria-fm-to-head-to-uae-qatar-jordan-to-build-partnerships"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:JOR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "bliskie więzi plemienne i handlowe"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:JOR",
+   "years": "2011-2024",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutralnie; uchodźcy i granica"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:JOR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ostrożna poprawa nastrojów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:JOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria nie widzi się zależna od Jordanii"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:JOR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Syria ma wpływ na handel tranzytowy i granicę"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:JOR",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:JOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczona zależność polityczna i militarna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:JOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczony wpływ na politykę jordańską"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:JOR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "handel tranzytowy; Jordania ważny szlak eksportu i importu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:LBN",
+   "years": "1990-2004",
+   "curve": "constant",
+   "start": 65,
+   "rationale": "Syria dominuje w Libanie (Taif, wojska do 2005)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:LBN",
+   "years": "2005-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "po wycofaniu wojsk (2005) i zabójstwie Haririego chłodne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:LBN",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutralnie; Hezbollah po stronie Asada"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:LBN",
+   "years": "2017-2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "poprawa; wspólne interesy na granicy i w sprawie uchodźców"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:LBN",
+   "years": "2024",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "zmiana władzy w Damaszku, wojna Izrael–Hezbollah"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:LBN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ostrożna poprawa z nowymi władzami w Bejrucie; niepewne (bez wyszukiwania)"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:LBN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "pamięć o okupacji wojskowej, ale bliskość kulturowa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:LBN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria nie widzi się zależna od Libanu"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:LBN",
+   "years": "1990-2004",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Syria decyduje o polityce Libanu"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:LBN",
+   "years": "2005-2016",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "wpływ przez Hezbollah i sojuszników"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:LBN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "wpływ przez granicę i handel"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:LBN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Liban nie ogranicza Syrii"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:LBN",
+   "years": "1990-2004",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "Syria kontroluje Liban militarnie"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:LBN",
+   "years": "2005-2016",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "wpływ przez Hezbollah"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:LBN",
+   "years": "2017-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:LBN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "handel i banki; Liban ważny dla gospodarki"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ISR",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "stan wojny, brak relacji; rozmowy pokojowe bez przełomu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ISR",
+   "years": "1996-2000",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "rozmowy o Golanie 1996–2000 bez porozumienia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ISR",
+   "years": "2001-2010",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "Golan okupowany; izraelski nalot 2007"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ISR",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "izraelskie naloty i wsparcie opozycji; brak kontaktów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ISR",
+   "years": "2017-2023",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "naloty i wrogość; brak kontaktów"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ISR",
+   "years": "2024",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "izraelskie naloty i wrogość"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "rozmowy pod mediacją USA; izraelska strefa buforowa i naloty",
+   "sources": [
+    "https://www.longwarjournal.org/archives/2025/11/israeli-prime-minister-and-top-officials-visit-syria-buffer-zone-as-israel-syria-talks-stall.php",
+    "https://www.aljazeera.com/news/2025/12/2/israels-netanyahu-says-deal-with-syria-possible-but-demands-buffer-zone",
+    "https://thesoufancenter.org/intelbrief-2025-december-4/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "syryjska opinia publiczna wrogo nastawiona do Izraela"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria nie widzi się zależna od Izraela"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria ma niewielki wpływ na politykę izraelską"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:ISR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Izrael kontroluje Golan; przewaga w powietrzu"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:ISR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "Izrael prowadzi naloty bez ograniczeń"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:ISR",
+   "years": "2024",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Izrael wykorzystuje upadek reżimu do ataków na armię"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "izraelska okupacja strefy buforowej i stałe naloty",
+   "sources": [
+    "https://www.longwarjournal.org/archives/2025/11/israeli-prime-minister-and-top-officials-visit-syria-buffer-zone-as-israel-syria-talks-stall.php",
+    "https://www.aljazeera.com/news/2025/12/2/israels-netanyahu-says-deal-with-syria-possible-but-demands-buffer-zone",
+    "https://thesoufancenter.org/intelbrief-2025-december-4/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria ma niewielki wpływ na Izrael"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:ISR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "brak istotnej zależności gospodarczej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRN",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "sojusz z Iranem od lat 80.; wspólne stanowisko wobec Izraela"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRN",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 70,
+   "rationale": "strategiczny sojusz: Hezbollah, Hamas, kontakty wojskowe"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 80,
+   "rationale": "Iran główny sojusznik Asada: wojska, milicje, kredyty"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRN",
+   "years": "2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "sojusz do upadku Asada 8 XII 2024"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "nowe władze dystansują się od Iranu; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:IRN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "przychylność wobec Iranu; pielgrzymki i wspólna religia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:IRN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "irańskie milicje budzą mieszane uczucia"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:IRN",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "po upadku Asada niechęć do irańskich milicji i wpływów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:IRN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Syria niezależna, choć oparta na irańskim wsparciu"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:IRN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "zależność od irańskich pieniędzy i milicji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:IRN",
+   "years": "2024",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "zależność malejąca w okresie przejściowym"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "zależność praktycznie zerwana"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:IRN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Syria wpływa na politykę irańską w regionie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:IRN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mały wpływ na Teheran"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:IRN",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mały wpływ na Teheran"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:IRN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Syria zależna politycznie w sprawach Hezbollahu"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:IRN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "irańskie wojska i milicje w kraju"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:IRN",
+   "years": "2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "okres przejściowy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "irańskie wpływy wygasły; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:IRN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Syria jako most dla Iranu w regionie"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:IRN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "dostęp do korytarza do Hezbollahu"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:IRN",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "utrata wpływu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ropa i handel z Iranem"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "kredyty, ropa i fundusze z Iranu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRN",
+   "years": "2024",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "malejąca zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:IRN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "zależność niska; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "po rozpadzie ZSRR chłodniej, ale z umowami zbrojeniowymi"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:RUS",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "tradycyjny sojusz: dostawy broni, długi, konsultacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:RUS",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 85,
+   "rationale": "interwencja 2015 r.; bazy Tartus i Hmeimim; główny protektor reżimu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:RUS",
+   "years": "2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Rosja broniła Asada; po upadku reżimu wycofanie i negocjacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "rozmowy o przyszłości baz i kontakty z al-Sharaa (Moskwa, październik 2025)",
+   "sources": [
+    "https://www.fdd.org/analysis/2026/01/29/syrian-president-al-sharaa-deepens-relationship-with-putin-during-latest-moscow-visit/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:RUS",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "pamięć ZSRR, przychylność"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:RUS",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "podzielone: opozycja krytykowała rosyjskie bombardowania"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:RUS",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "bombardowania cywilów 2015–2024 pamiętane źle"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "zależność od dostaw i rynku rosyjskiego"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:RUS",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "zależność od broni i długów"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:RUS",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "zależność od rosyjskiej obrony powietrznej i wsparcia dyplomatycznego"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:RUS",
+   "years": "2024",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "dalsza zależność w okresie przejściowym"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "nowe władze chcą niezależności, ale nadal korzystają z dostaw zboża i paliw",
+   "sources": [
+    "https://www.fdd.org/analysis/2026/01/29/syrian-president-al-sharaa-deepens-relationship-with-putin-during-latest-moscow-visit/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:RUS",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ograniczony wpływ na Moskwę"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:RUS",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczony wpływ mimo roli bazy"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:RUS",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Syria ma wpływ na losy baz",
+   "sources": [
+    "https://www.fdd.org/analysis/2026/01/29/syrian-president-al-sharaa-deepens-relationship-with-putin-during-latest-moscow-visit/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ograniczona zależność militarna"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:RUS",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "broń i długi"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:RUS",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 55,
+   "rationale": "Rosja gwarantuje reżim i bazy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:RUS",
+   "years": "2024",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "okres przejściowy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "Rosja nadal ważna militarnie, ale nowe władze chcą niezależności",
+   "sources": [
+    "https://www.fdd.org/analysis/2026/01/29/syrian-president-al-sharaa-deepens-relationship-with-putin-during-latest-moscow-visit/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:RUS",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mały wpływ na Rosję"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:RUS",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "baza w Syrii daje pewien wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:RUS",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "utrata wpływu"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:RUS",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "handel i dług z czasów ZSRR"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:RUS",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "handel, dług i broń"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:RUS",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "ropa i zboże z Rosji"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:RUS",
+   "years": "2024",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "okres przejściowy"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:RUS",
+   "years": "2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "import zboża i paliw z Rosji, zgodnie z relacją FDD",
+   "sources": [
+    "https://www.fdd.org/analysis/2026/01/29/syrian-president-al-sharaa-deepens-relationship-with-putin-during-latest-moscow-visit/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:CHN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "dobre relacje, inwestycje, dostawy broni"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:CHN",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "Chiny wspierają Asada w ONZ, ale ostrożnie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:CHN",
+   "years": "2024",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "zmiana władzy w Damaszku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:CHN",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ostrożne kontakty z nowymi władzami; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:CHN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "umiarkowanie pozytywnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:CHN",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutralnie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria nie widzi się zależna od Chin"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mały wpływ na Pekin"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mała zależność polityczna"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:CHN",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mały wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:CHN",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "import towarów i inwestycje"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:CHN",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Chiny ważny dostawca, ale nie monopolista"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:USA",
+   "years": "1990-1991",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria w koalicji 1991; poprawa relacji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:USA",
+   "years": "1992-2000",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "sankcje (państwo wspierające terroryzm), chłodne relacje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:USA",
+   "years": "2001-2010",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "wojna w Iraku, sankcje z 2003, odwołany ambasador 2005"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:USA",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -90,
+   "rationale": "sankcje, wsparcie opozycji, amerykańskie operacje przeciw ISIS"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:USA",
+   "years": "2024",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "sankcje do upadku reżimu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "zniesienie programu sankcji (EO z 30 VI 2025), uchylenie ustawy Caesar (XII 2025); relacje nadal nieuregulowane",
+   "sources": [
+    "https://www.whitehouse.gov/presidential-actions/2025/06/providing-for-the-revocation-of-syria-sanctions/",
+    "https://snhr.org/blog/2025/12/19/the-lifting-of-secondary-sanctions-under-the-caesar-act-a-legal-shift-and-its-implications-for-financial-and-investment-compliance/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:USA",
+   "years": "1990-1999",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "chłodno"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:USA",
+   "years": "2000-2010",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "wojna w Iraku; polityka wobec świata arabskiego"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:USA",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "wojna i sankcje"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:USA",
+   "years": "2024",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "zmiana władzy"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "nadzieja na zniesienie sankcji",
+   "sources": [
+    "https://www.whitehouse.gov/presidential-actions/2025/06/providing-for-the-revocation-of-syria-sanctions/",
+    "https://snhr.org/blog/2025/12/19/the-lifting-of-secondary-sanctions-under-the-caesar-act-a-legal-shift-and-its-implications-for-financial-and-investment-compliance/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:USA",
+   "years": "1990-2023",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "sankcje i presja USA"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:USA",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "nowe władze zależne od zniesienia sankcji i mediacji USA",
+   "sources": [
+    "https://www.whitehouse.gov/presidential-actions/2025/06/providing-for-the-revocation-of-syria-sanctions/",
+    "https://snhr.org/blog/2025/12/19/the-lifting-of-secondary-sanctions-under-the-caesar-act-a-legal-shift-and-its-implications-for-financial-and-investment-compliance/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ na Waszyngton"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:USA",
+   "years": "1990-2000",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "presja USA w procesie pokojowym"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:USA",
+   "years": "2001-2010",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "presja USA po 2003"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:USA",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "sankcje i obecność wojsk USA na wschodzie kraju"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:USA",
+   "years": "2024",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "zmiana władzy"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:USA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "mediacja USA i sankcje dają mocną dźwignię",
+   "sources": [
+    "https://www.whitehouse.gov/presidential-actions/2025/06/providing-for-the-revocation-of-syria-sanctions/",
+    "https://snhr.org/blog/2025/12/19/the-lifting-of-secondary-sanctions-under-the-caesar-act-a-legal-shift-and-its-implications-for-financial-and-investment-compliance/"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:USA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mały wpływ na USA"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:USA",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mała zależność gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:USA",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczona zależność (sankcje)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:FRA",
+   "years": "1990-2004",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "relacje poprawne, dialog Chirac–Asad"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:FRA",
+   "years": "2005-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "napięcia po zabójstwie Haririego (2005)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:FRA",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -70,
+   "rationale": "Francja wspiera opozycję; zamknięcie ambasady 2012"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:FRA",
+   "years": "2024",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "zmiana władzy w Damaszku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:FRA",
+   "years": "2025",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "ograniczone kontakty; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:FRA",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "umiarkowanie pozytywnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:FRA",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "wojna i wsparcie Francji dla opozycji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:FRA",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "umiarkowanie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "Syria nie widzi się zależna od Francji"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mały wpływ na Paryż"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:FRA",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "Układ stowarzyszeniowy z UE i presja francuska"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:FRA",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczona zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:FRA",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:FRA",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "handel i inwestycje"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:FRA",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "handel ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:GBR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "relacje poprawne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:GBR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "zamknięcie ambasady 2012; wsparcie opozycji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:GBR",
+   "years": "2024",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "zmiana władzy w Damaszku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:GBR",
+   "years": "2025",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "ograniczone kontakty; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:GBR",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "umiarkowanie pozytywnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:GBR",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "wojna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:GBR",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": -5,
+   "rationale": "umiarkowanie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "Syria nie widzi się zależna od Wielkiej Brytanii"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mały wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:GBR",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mała zależność gospodarcza"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:DEU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "handel i pomoc rozwojowa"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:DEU",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "ambasada zamknięta 2012; masowe uchodźstwo do Niemiec"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:DEU",
+   "years": "2017-2023",
+   "curve": "constant",
+   "start": -40,
+   "rationale": "kontakty ograniczone; sankcje UE"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:DEU",
+   "years": "2024",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "zmiana władzy w Damaszku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:DEU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ostrożne kontakty z nowymi władzami; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:DEU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "umiarkowanie pozytywnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:DEU",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "wielu Syryjczyków w Niemczech; ambiwalentnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:DEU",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "umiarkowanie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:DEU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "zależność handlowa"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:DEU",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:DEU",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mały wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:DEU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "handel i pomoc"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:DEU",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "handel ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:SAU",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Arabia Saudyjska finansuje Taif; wspólna polityka wobec Libanu"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:SAU",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 50,
+   "rationale": "pragmatyczne relacje, inwestycje"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:SAU",
+   "years": "2011-2016",
+   "curve": "constant",
+   "start": -80,
+   "rationale": "Saudyjczycy finansują opozycję; ambasador wycofany 2012"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:SAU",
+   "years": "2017-2022",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "kontakty zimne, bez pełnego ocieplenia"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:SAU",
+   "years": "2023",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "przywrócenie relacji i powrót do Ligi Arabskiej (maj 2023)"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:SAU",
+   "years": "2024",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ostrożnie w czasie zmiany władzy"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:SAU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "al-Sharaa pierwszą wizytą zagraniczną w KSA; inwestycje i pomoc",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:SAU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "Syryjczycy pracują w KSA; przekazy pieniężne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:SAU",
+   "years": "2011-2022",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "poparcie Saudyjczyków dla opozycji"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:SAU",
+   "years": "2023-2024",
+   "curve": "constant",
+   "start": -10,
+   "rationale": "ocieplenie kontaktów"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:SAU",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "inwestycje i pomoc w odbudowie",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:SAU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "zależność od pieniędzy saudyjskich"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:SAU",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:SAU",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "fundusze saudyjskie w odbudowie",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:SAU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "Syria wpływa na politykę saudyjską w Libanie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:SAU",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mały wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:SAU",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczony wpływ",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:SAU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "Arabia Saudyjska wpływa na politykę Syrii (Taif)"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:SAU",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "ograniczona zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:SAU",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "zależność od pomocy i inwestycji w odbudowie",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:SAU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:SAU",
+   "years": "2011-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:SAU",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "pomoc i inwestycje z KSA"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:SAU",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "zależność ograniczona"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:SAU",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "saudyjskie inwestycje i pomoc w odbudowie (forum w Damaszku, lipiec 2025)",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ARE",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 35,
+   "rationale": "relacje poprawne i handlowe"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ARE",
+   "years": "2011-2017",
+   "curve": "constant",
+   "start": -50,
+   "rationale": "ambasada zamknięta 2012; poparcie opozycji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ARE",
+   "years": "2018-2022",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ambasada wznowiona w grudniu 2018"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ARE",
+   "years": "2023",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "normalizacja, powrót do Ligi Arabskiej"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ARE",
+   "years": "2024",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "zmiana władzy w Damaszku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:ARE",
+   "years": "2025",
+   "curve": "constant",
+   "start": 60,
+   "rationale": "ZEA najważniejszy inwestor po 2024: 2 mld USD metro, 4 mld USD lotnisko",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:ARE",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "umiarkowanie pozytywnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:ARE",
+   "years": "2011-2017",
+   "curve": "constant",
+   "start": -15,
+   "rationale": "wojna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:ARE",
+   "years": "2018-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ocieplenie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:ARE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "inwestycje i pomoc",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:ARE",
+   "years": "1990-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:ARE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "zależność od inwestorów z ZEA",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "zależność od inwestycji i pomocy"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:ARE",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:ARE",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "handel i inwestycje"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:ARE",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "handel ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:ARE",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "inwestycje ZEA w porty i lotniska",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:QAT",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "relacje poprawne"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:QAT",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -60,
+   "rationale": "Katar wspierał opozycję; kontakty ograniczone"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:QAT",
+   "years": "2024",
+   "curve": "constant",
+   "start": -30,
+   "rationale": "zmiana władzy w Damaszku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:QAT",
+   "years": "2025",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Katar finansuje lotnisko i elektrownie (5 GW)",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:QAT",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "umiarkowanie pozytywnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:QAT",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "wojna"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:QAT",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "umiarkowanie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mały wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:QAT",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:QAT",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "ograniczona zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:QAT",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "zależność od katarskich pieniędzy",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:QAT",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mały wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:QAT",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "handel"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:QAT",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "handel ograniczony"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:QAT",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 20,
+   "rationale": "energia i lotnisko, inwestycje katarskie",
+   "sources": [
+    "https://www.arabianbusiness.com/politics-economics/syria-attracts-28bn-in-new-investments-as-uae-saudi-and-qatar-drive-regional-projects",
+    "https://thearabweekly.com/saudi-arabia-announces-64-billion-investments-strong-boost-syrias-reconstruction-effort"
+   ]
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:EGY",
+   "years": "1990-1995",
+   "curve": "constant",
+   "start": 40,
+   "rationale": "Deklaracja Damaszku 1991; współpraca w koalicji"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:EGY",
+   "years": "1996-2010",
+   "curve": "constant",
+   "start": 45,
+   "rationale": "relacje dobre"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:EGY",
+   "years": "2011-2013",
+   "curve": "constant",
+   "start": -20,
+   "rationale": "Egipt po 2012 r. nieprzychylny"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:EGY",
+   "years": "2014-2023",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ostrożne ocieplenie"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:EGY",
+   "years": "2024",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "zmiana władzy w Damaszku"
+  },
+  {
+   "kind": "directed",
+   "name": "diplomatic relation towards",
+   "targets": "SYR:EGY",
+   "years": "2025",
+   "curve": "constant",
+   "start": 30,
+   "rationale": "ostrożne kontakty; bez wyszukiwania, niepewne"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:EGY",
+   "years": "1990-2010",
+   "curve": "constant",
+   "start": 25,
+   "rationale": "umiarkowanie pozytywnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:EGY",
+   "years": "2011-2023",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "neutralnie"
+  },
+  {
+   "kind": "directed",
+   "name": "social view towards",
+   "targets": "SYR:EGY",
+   "years": "2024-2025",
+   "curve": "constant",
+   "start": 15,
+   "rationale": "umiarkowanie"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived subordination towards",
+   "targets": "SYR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "perceived power towards",
+   "targets": "SYR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "ograniczony wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "real subordination towards",
+   "targets": "SYR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mała zależność"
+  },
+  {
+   "kind": "directed",
+   "name": "real power towards",
+   "targets": "SYR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 5,
+   "rationale": "mały wpływ"
+  },
+  {
+   "kind": "directed",
+   "name": "economic dependence",
+   "targets": "SYR:EGY",
+   "years": "1990-2025",
+   "curve": "constant",
+   "start": 10,
+   "rationale": "handel ograniczony"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war",
+   "targets": "SYR:IRQ",
+   "years": "1991",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Syria walczyła w koalicji przeciw Irakowi w 1991 r. (operacje Pustynna Burza, udział wojsk syryjskich w walkach); otwarta wojna, nie kryzys. Zmiana poza 2025: uzasadniona błędem kodowania UCDP (poziom 1)"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:IRQ",
+   "years": "1991",
+   "curve": "constant",
+   "start": 0,
+   "rationale": "usunięte: 1991 to otwarta wojna (Syria w koalicji przeciw Irakowi), a opis 'in war crisis' wyklucza otwartą wojnę"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:TUR",
+   "years": "1990-1998",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Syria wspierała PKK (walka przez pełnomocników) i gościła Öcalana; kryzys 1998, mobilizacja Turcji na granicy i groźby wojny; Adana 1998"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:ISR",
+   "years": "2003",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "izraelski nalot na cel w Syrii (Ain es-Saheb, X 2003), wg wiedzy, bez wyszukiwania"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:ISR",
+   "years": "2007",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "izraelski nalot na cel w Syrii (operacja z 2007 r.), wg wiedzy, bez wyszukiwania"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:ISR",
+   "years": "2013-2024",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "regularne izraelskie naloty na cele w Syrii i incydenty zbrojne (np. zestrzelenie izraelskiego F-16 w 2018 r.), wg wiedzy, bez wyszukiwania"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:ISR",
+   "years": "2025",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "izraelskie naloty na cele wojskowe w Syrii i izraelska strefa buforowa po 2024 r.; rozmowy o bezpieczeństwie bez porozumienia",
+   "sources": [
+    "https://www.longwarjournal.org/archives/2025/11/israeli-prime-minister-and-top-officials-visit-syria-buffer-zone-as-israel-syria-talks-stall.php",
+    "https://www.aljazeera.com/news/2025/12/2/israels-netanyahu-says-deal-with-syria-possible-but-demands-buffer-zone",
+    "https://thesoufancenter.org/intelbrief-2025-december-4/"
+   ]
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:USA",
+   "years": "2013",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "groźba amerykańskiego uderzenia i mobilizacja sił po ataku chemicznym (wrzesień 2013), wg wiedzy, bez wyszukiwania"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:USA",
+   "years": "2016-2018",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "incydenty zbrojne: amerykańskie uderzenia na siły rządowe (Deir ez-Zor 2016, zestrzelenie Su-22 2017), uderzenie na bazę Szajrat (2017) i salwa z kwietnia 2018, wg wiedzy, bez wyszukiwania"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:FRA",
+   "years": "2013",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Francja przygotowywała uderzenie na Syrię (wrzesień 2013), wg wiedzy, bez wyszukiwania"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:FRA",
+   "years": "2018",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Francja uczestniczyła w uderzeniach na Syrię w kwietniu 2018 r., wg wiedzy, bez wyszukiwania"
+  },
+  {
+   "kind": "doublesided",
+   "name": "in war crisis",
+   "targets": "SYR:GBR",
+   "years": "2018",
+   "curve": "constant",
+   "start": 1,
+   "rationale": "Wielka Brytania uczestniczyła w uderzeniach na Syrię w kwietniu 2018 r., wg wiedzy, bez wyszukiwania"
+  }
+ ]
+}

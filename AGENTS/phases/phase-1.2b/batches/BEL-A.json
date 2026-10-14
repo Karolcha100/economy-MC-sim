@@ -1,0 +1,60 @@
+{
+  "rationale": "BEL, zadanie A (statystyki państwa), tryb oszczędny. Stabilność: kryzysy gabinetowe i długie formowanie rządów (1992, 1999, 2008, 2010-2011, 2019-2020, 2024-2025). Korupcja 2023-2025 wg CPI (73, 69, 69) przeliczonej skalą serii. Popularność rządu: estymacja bez sondaży (niska pewność). Epidemia 2020-2021 (COVID).",
+  "operations": [
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "1990-1991", "curve": "constant", "start": 74},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "1992", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "1993-1995", "curve": "constant", "start": 72},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "1996-1998", "curve": "constant", "start": 66},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "1999", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2000-2006", "curve": "constant", "start": 75},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2007", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2008", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2009", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2010-2011", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2012-2013", "curve": "constant", "start": 62},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2014-2017", "curve": "constant", "start": 70},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2018", "curve": "constant", "start": 60},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2019", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2020", "curve": "constant", "start": 52},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2021-2023", "curve": "constant", "start": 66},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2024", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "stability", "targets": "BEL", "years": "2025", "curve": "constant", "start": 60},
+
+    {"kind": "grade", "name": "corruption", "targets": "BEL", "years": "1990-1995", "curve": "linear", "start": 24, "end": 23.2},
+    {"kind": "grade", "name": "corruption", "targets": "BEL", "years": "2023", "curve": "constant", "start": 22.8},
+    {"kind": "grade", "name": "corruption", "targets": "BEL", "years": "2024-2025", "curve": "constant", "start": 25.1},
+
+    {"kind": "grade", "name": "happiness", "targets": "BEL", "years": "1990-2010", "curve": "linear", "start": 68, "end": 70},
+
+    {"kind": "grade", "name": "social revanchism", "targets": "BEL", "years": "1990-2025", "curve": "constant", "start": 2},
+
+    {"kind": "grade", "name": "government revanchism", "targets": "BEL", "years": "1990-2025", "curve": "constant", "start": 0},
+
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "1990-1995", "curve": "constant", "start": 42},
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "1996-1998", "curve": "constant", "start": 35},
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "1999-2002", "curve": "constant", "start": 50},
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "2003-2007", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "2008-2011", "curve": "constant", "start": 32},
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "2012-2019", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "2020-2021", "curve": "constant", "start": 45},
+    {"kind": "grade", "name": "government popularity", "targets": "BEL", "years": "2022-2025", "curve": "constant", "start": 36},
+
+    {"kind": "grade", "name": "social sensitivity", "targets": "BEL", "years": "1990-2009", "curve": "constant", "start": 55},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BEL", "years": "2010-2019", "curve": "linear", "start": 55, "end": 60},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BEL", "years": "2020-2024", "curve": "constant", "start": 58},
+    {"kind": "grade", "name": "social sensitivity", "targets": "BEL", "years": "2025", "curve": "constant", "start": 65},
+
+    {"kind": "grade", "name": "civilization level", "targets": "BEL", "years": "2024-2025", "curve": "linear", "start": 95.3, "end": 95.6},
+
+    {"kind": "grade", "name": "assimilation", "targets": "BEL", "years": "1990-1999", "curve": "linear", "start": 66, "end": 64},
+    {"kind": "grade", "name": "assimilation", "targets": "BEL", "years": "2000-2009", "curve": "linear", "start": 64, "end": 60},
+    {"kind": "grade", "name": "assimilation", "targets": "BEL", "years": "2010-2015", "curve": "linear", "start": 60, "end": 55},
+    {"kind": "grade", "name": "assimilation", "targets": "BEL", "years": "2016-2025", "curve": "linear", "start": 55, "end": 53},
+
+    {"kind": "grade", "name": "violence risk", "targets": "BEL", "years": "1990-1995", "curve": "linear", "start": 26, "end": 24.5},
+    {"kind": "grade", "name": "violence risk", "targets": "BEL", "years": "2023", "curve": "constant", "start": 40},
+    {"kind": "grade", "name": "violence risk", "targets": "BEL", "years": "2024-2025", "curve": "constant", "start": 38.5},
+
+    {"kind": "grade", "name": "epidemic", "targets": "BEL", "years": "2020-2021", "curve": "constant", "start": 1}
+  ]
+}
