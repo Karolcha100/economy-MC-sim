@@ -12,9 +12,17 @@ Wszystko, co tu piszesz, trafia do zwykłych plików `.md` w `AGENTS/`, więc da
   - **Według rodzaju**: pytania (fazy → pliki), zadania autora (Ważne / Średnie / Małe), zadania agentów, wątki;
   - **Według plików**: wszystkie pliki `AGENTS/`;
   - **Graf**: to samo co „Według rodzaju” jako drzewo 2D. Klik w kółko grupy zwija/rozwija, klik w węzeł otwiera szczegóły. Kolor = status, **czerwone krawędzie** = odwołania (numery i wzmianki @ w tekstach).
-- **📋 Briefing**: podsumowanie ostatniej sesji agenta, czyli to samo, co w okienku czatu. Wcześniejsze briefingi są jako linki nad tekstem.
-- **❓ Instrukcja**: ten tekst.
-- **Odśwież**: wczytuje pliki ponownie (np. po pracy agenta).
+- Po prawej:
+  - **🗺️ Plan**: plan faz (`AGENTS/plan/phases-plans.md`);
+  - **📋 Briefing**: podsumowanie ostatniej sesji agenta, czyli to samo, co w okienku czatu; wcześniejsze briefingi są jako linki nad tekstem;
+  - **❓ Instrukcja**: ten tekst;
+  - **Odśwież**: wczytuje pliki ponownie (np. po pracy agenta).
+- **✅ Koniec**: gdy skończysz odpowiadać:
+  - pokazuje listę rzeczy, na które odpowiedziałeś;
+  - zapisuje ją do `AGENTS/talk/koniec/`;
+  - **kopiuje do schowka prompt dla agenta**, który wklejasz w okno czatu w VS Code.
+
+  Dopiero wtedy odhaczone pozycje znikają z „Co czeka na mnie”. Do tego momentu zostają skreślone, z ✔️.
 
 ## Okna
 
@@ -33,6 +41,7 @@ Wszystko, co tu piszesz, trafia do zwykłych plików `.md` w `AGENTS/`, więc da
 | Uwagi dla LLM | dodać uwagę dla wszystkich agentów |
 
 - Odgałęzienie pokazuje najpierw rozmowę z wątku-rodzica do momentu odgałęzienia, a potem własne wpisy.
+- **Ścieżki plików są klikalne**: pliki z `AGENTS/` otwierają się w GUI, pozostałe (np. `simulator/…`, `data/…`) w VS Code.
 - Podpis (Autor, data, godzina) dodaje się sam. Szkic zapisuje się sam w przeglądarce.
 
 ## Klawisze w polu tekstowym

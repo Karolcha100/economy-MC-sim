@@ -186,3 +186,31 @@ def test_effective_values_apply_defaults(scenario):
     s = effective_values(scenario, "grade", "stability", 1990)  # no default -> stays empty
     assert s.isna().all()
     assert effective_values(scenario, "grade", "war exhaustion", 1991)["UKR"] == 0
+
+
+def test_confirm_default_counts_as_filled(scenario):
+    from simulator.narrated import confirm_default
+
+    apply_operations(scenario, [Operation(kind="directed", name="diplomatic relation towards", targets="POL:RUS",
+                                          years="1990-1995", curve="constant", start=-20)], author="t")
+    before = missing_report(scenario, "directed").iloc[0]
+    # POL: RUS filled, all other partners confirmed as default -> POL's row complete
+    assert confirm_default(scenario, "directed", "all", "POL", "1990-1995", author="t", note="no other partners") == 1
+    after = missing_report(scenario, "directed").iloc[0]
+    pol_row = 2 * 6 + 5  # partners RUS, DEU every year + UKR from 1991
+    assert after["filled"] == before["filled"] + pol_row - 6 and after["confirmed_default"] == pol_row - 6
+    by = missing_report(scenario, "directed", by_country=True)
+    assert by.at["POL", "relations-directed"] == 100.0 and by.at["RUS", "relations-directed"] == 0.0
+    with pytest.raises(SimulatorError, match="No default"):
+        confirm_default(scenario, "grade", "stability", "POL", "1990", author="t")
+
+
+def test_queue_order_and_no_overwrite(scenario, tmp_path):
+    from simulator.queue import write_queue
+
+    pd.DataFrame({"tag": ["RUS"], "reason": ["x"]}).to_csv(scenario.root / "reference-countries.csv", index=False)
+    out = write_queue(scenario, tmp_path / "queue.md", first="UKR")
+    rows = [l for l in out.read_text().splitlines() if l.startswith("| ") and l[2].isdigit()]
+    assert [r.split("|")[2].strip() for r in rows] == ["RUS", "UKR", "POL", "DEU"]
+    with pytest.raises(SimulatorError, match="exists"):
+        write_queue(scenario, out)

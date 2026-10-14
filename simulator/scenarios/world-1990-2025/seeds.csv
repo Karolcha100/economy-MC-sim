@@ -1,5 +1,5 @@
 kind,name,source,transform,a,b,note
-internal-grades,stability,wgi-political-stability,linear,50,20,"W1: 50 + 20 x WGI Political Stability (-2.5..2.5 -> 0..100); WGI measures violence risk, LLM adds government crises"
+internal-grades,violence risk,wgi-political-stability,linear,50,-20,"A30 (option c): 50 - 20 x WGI Political Stability and Absence of Violence/Terrorism; stability itself is filled by LLMs"
 internal-grades,corruption,wgi-control-of-corruption,linear,50,-20,"W2: 50 - 20 x WGI Control of Corruption (higher WGI = less corruption); TI CPI is a cross-check"
 internal-grades,civilization level,hdi,linear,0,100,"W3: absolute scale, 100 x HDI"
 internal-grades,net migration,net-migration,per-1000-linear,0,5,"A15/W4: 5 x net migration per 1000 inhabitants (+-20 per mille -> +-100)"
@@ -7,3 +7,4 @@ relations-doublesided,in war,ucdp-armed-conflict,pairs-at-least,2,,"X1 + A19 opt
 relations-doublesided,in war crisis,ucdp-armed-conflict,pairs-between,1,1,"A19 option (b): UCDP level 1 (opposite sides with a secondary warring party, e.g. RUS-UKR 2014-2021); to be reviewed by LLM"
 relations-doublesided,neighbours,land-borders,pairs-at-least,1,,"X2: GeoNames land borders (today's borders, years both countries exist)"
 relations-doublesided,neighbours,land-borders-historical,pairs-at-least,1,,"X2: manual borders of USSR/Czechoslovakia/Yugoslavia/Sudan (data/manual)"
+internal-grades,happiness,happiness-cantril,linear,0,10,"Q7 (phase-1.2b): 10 x Cantril ladder (Gallup/World Happiness Report, ~2005+)"

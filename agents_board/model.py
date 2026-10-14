@@ -9,6 +9,7 @@ The .md files stay the source of truth; this module only relies on their convent
                     '🔒' closes the thread
     archive         talk/wymiana-zdan-*.md: the old single conversation, read-only in the GUI
     briefing        talk/briefings/RRRR-MM-DD-HHMM.md: the agent's end-of-session summary (newest shown)
+    koniec          talk/koniec/RRRR-MM-DD-HHMM.md: what the author answered, written by the [Koniec] button
     mention         @T002, @A12, @L3, @phase-2:R1 — links to threads, tasks and questions
 Every write checks a content hash taken when the page was rendered, so an answer never
 overwrites a file that changed in the meantime (e.g. edited in VS Code).
@@ -349,6 +350,24 @@ class Board:
         _write_atomic(path, thread_header(thread_id, title, parent)
                       + f"\n\n{SEPARATOR}\n\n{text}\n\n*{now()} — Autor*\n\n{SEPARATOR}\n")
         return self.rel(path)
+
+    def write_koniec(self, answered: list[str], note: str = "") -> dict:
+        """The author pressed [Koniec]: write what was answered this session and return a prompt for the agent."""
+        folder = self.root / "talk" / "koniec"
+        folder.mkdir(parents=True, exist_ok=True)
+        stamp = datetime.now().strftime("%Y-%m-%d-%H%M")
+        path = folder / f"{stamp}.md"
+        lines = [f"# Koniec sesji autora — {now()}", "",
+                 "Autor skończył odpowiadać w AGENTS board. Na co odpowiedział w tej sesji:", ""]
+        lines += [f"- {item}" for item in answered] or ["- (GUI nie wykrył zmian — sprawdź wątki i pytania)"]
+        if note.strip():
+            lines += ["", "Uwaga autora:", "", note.strip()]
+        lines += ["", f"*{now()} — Autor (przycisk Koniec)*", ""]
+        _write_atomic(path, "\n".join(lines))
+        rel = self.rel(path)
+        prompt = (f"Odpowiedziałem w AGENTS board. Podsumowanie: AGENTS/{rel} "
+                  f"({len(answered)} pozycji). Przeczytaj je i kontynuuj według AGENTS/todo/llm/INSTRUKCJA.md.")
+        return {"path": rel, "prompt": prompt}
 
     def append_note(self, text: str, version: str) -> None:
         text = " ".join(text.split())

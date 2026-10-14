@@ -110,6 +110,9 @@ svg.graph .g-leaf.active text { fill: var(--accent); font-weight: 700; }
 .entry.focus { box-shadow: 0 0 0 2px var(--accent); }
 .entry-head { display: flex; gap: 8px; align-items: baseline; font-weight: 600; font-size: 13px; }
 .entry-head a { margin-left: auto; font-weight: 400; color: var(--accent); }
+a.file-link { color: var(--accent); cursor: pointer; text-decoration: underline dotted; }
+.leaf.answered .t { text-decoration: line-through; opacity: .65; }
+#koniec-btn { background: var(--ok); }
 a.mention { color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 0 3px; cursor: pointer; text-decoration: none; }
 #mention-box { position: fixed; z-index: 10; max-height: 240px; overflow: auto; min-width: 320px; max-width: 560px;
   background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.18); }
@@ -135,11 +138,13 @@ a.mention { color: var(--accent); background: var(--accent-soft); border-radius:
     </select>
   </label>
   <span class="meta" id="meta"></span>
-  <button class="secondary" id="briefing-btn" title="Podsumowanie ostatniej sesji agenta">📋 Briefing</button>
-  <button class="secondary" id="help-btn" title="Jak korzystać z AGENTS board">❓ Instrukcja</button>
   <span class="spacer"></span>
   <span class="pill" id="mode"></span>
+  <button class="secondary" id="plan-btn" title="Plan faz (AGENTS/plan/phases-plans.md)">🗺️ Plan</button>
+  <button class="secondary" id="briefing-btn" title="Podsumowanie ostatniej sesji agenta">📋 Briefing</button>
+  <button class="secondary" id="help-btn" title="Jak korzystać z AGENTS board">❓ Instrukcja</button>
   <button class="secondary" id="reload" title="Wczytaj pliki ponownie">Odśwież</button>
+  <button id="koniec-btn" title="Skończyłem odpowiadać: zapisz podsumowanie i skopiuj prompt dla agenta">✅ Koniec</button>
 </header>
 <main>
   <nav id="tree"></nav>
@@ -166,10 +171,26 @@ const MENTION_RE = /(?<![\w@])@(T\d{3}|[AL]\d{1,3}|phase-[\w.]+:[A-Z]{1,2}\d{1,3
 
 // ---------- markdown (small subset: headings, lists, quotes, tables, code, bold, italics) ----------
 function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+// `AGENTS/…/x.md` opens inside the board; other repository files (`simulator/…`, `data/…`) open in VS Code
+const PATH_RE = /^(?:\.\/)?[\w.\-]+(?:\/[\w.\-<>…]+)*\.(md|csv|py|toml|json|html|ipynb|txt)$/;
+function fileLink(text) {
+  if (typeof STATE === "undefined" || !STATE || !PATH_RE.test(text) || /[<>…]/.test(text)) return "";
+  const rel = text.replace(/^\.\//, "").replace(/^AGENTS\//, "");
+  let f = STATE.files.find(x => x.path === rel);
+  if (!f && !text.includes("/")) {                       // bare file name: only when it is unique
+    const hits = STATE.files.filter(x => x.path.endsWith("/" + rel) || x.path === rel);
+    if (hits.length === 1) f = hits[0];
+  }
+  if (f) return `<a class="file-link" data-key="file:${esc(f.path)}" title="Otwórz w AGENTS board"><code>${esc(text)}</code></a>`;
+  if (!text.includes("/")) return "";
+  const repo = STATE.root.replace(/\/AGENTS\/?$/, "");
+  const abs = text.startsWith("AGENTS/") ? STATE.root + "/" + rel : repo + "/" + text;
+  return `<a class="file-link" href="vscode://file/${encodeURI(abs)}" title="Otwórz w VS Code"><code>${esc(text)}</code></a>`;
+}
 function inline(s) {
   // code spans first (as placeholders), so **bold `code` text** still works
   const codes = [];
-  s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push("<code>" + esc(c) + "</code>"); return "\u0000" + (codes.length - 1) + "\u0000"; });
+  s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push(fileLink(c) || "<code>" + esc(c) + "</code>"); return "\u0000" + (codes.length - 1) + "\u0000"; });
   s = s.replace(/^\[(.)\]\s/, (_, st) => (STATUS_ICON[st] || "[" + st + "]") + " ");
   const mentions = [];
   s = s.replace(MENTION_RE, (m, tok) => { mentions.push(tok); return "\u0001" + (mentions.length - 1) + "\u0001"; });
@@ -264,6 +285,7 @@ function getItem(key) {
     const parent = base.split(":")[1] || "";
     return { ...NEW_THREAD, key: base, title: parent ? "Nowy wątek od " + parent : "Nowy wątek", extra: { parent } };
   }
+  if (base === "koniec") return { key: "koniec", kind: "koniec", title: "Koniec sesji", path: "talk/koniec/", line: 1, text: "", extra: {} };
   if (base === "help") return { key: "help", kind: "help", title: "Instrukcja AGENTS board", path: "agents_board/HELP.md", line: 1, text: STATE.help || "", extra: {} };
   if (base === "briefing" || base.startsWith("briefing:")) {
     const list = STATE.briefings || [], name = base.split(":")[1];
@@ -322,6 +344,31 @@ function hierarchyToDom(n, depth = 0) {
   return group(n.title, n.children.map(c => hierarchyToDom(c, depth + 1)), depth < 1);
 }
 
+// SESSION = what was waiting when the author started answering; cleared by [Koniec]
+function loadSession() { try { return JSON.parse(localStorage.getItem("session") || "null"); } catch { return null; } }
+function saveSession(v) { try { localStorage.setItem("session", JSON.stringify(v)); } catch {} }
+function waitingNow() {
+  const W = STATE.waiting, out = {};
+  for (const k of [...W.issues, ...W.todos, ...W.threads]) {
+    const it = INDEX[k]; if (!it) continue;
+    out[k] = it.kind === "todo" ? todoLabel(it) : it.kind === "thread" ? threadLabel(it) : it.title;
+  }
+  return out;
+}
+function ensureSession() {
+  let ses = loadSession();
+  if (!ses || !ses.waiting) { ses = { start: STATE.generated, waiting: waitingNow() }; saveSession(ses); }
+  else {   // items that became waiting later (e.g. a new agent reply) join the session list
+    const now = waitingNow(); let changed = false;
+    for (const [k, v] of Object.entries(now)) if (!(k in ses.waiting)) { ses.waiting[k] = v; changed = true; }
+    if (changed) saveSession(ses);
+  }
+  return ses;
+}
+function answeredKeys() {
+  const ses = ensureSession(), now = waitingNow();
+  return Object.keys(ses.waiting).filter(k => !(k in now));
+}
 function renderTree() {
   const tree = document.getElementById("tree"), view = document.getElementById("view").value;
   document.body.classList.toggle("graph-mode", view === "graph");
@@ -330,12 +377,15 @@ function renderTree() {
   tree.innerHTML = "";
   const W = STATE.waiting, items = keys => keys.map(k => INDEX[k]).filter(Boolean);
   if (view === "waiting") {
-    const issueGroups = [...by(items(W.issues), i => i.path)].map(([p, l]) => group(p, l.map(i => leaf(i)), true));
-    const todoGroups = PRIO.map(p => group(p, items(W.todos).filter(t => t.group === p).map(t => leaf(t, todoLabel(t))), p === "Ważne"));
+    const done = new Set(answeredKeys());
+    const withDone = (list, kind) => [...list, ...[...done].map(k => INDEX[k]).filter(it => it && it.kind === kind && !list.includes(it))];
+    const mark = (el, it) => { if (done.has(it.key)) { el.classList.add("answered"); el.querySelector(".badge").textContent = "✔️"; } return el; };
+    const issueGroups = [...by(withDone(items(W.issues), "issue"), i => i.path)].map(([p, l]) => group(p, l.map(i => mark(leaf(i), i)), true));
+    const todoGroups = PRIO.map(p => group(p, withDone(items(W.todos), "todo").filter(t => t.group === p).map(t => mark(leaf(t, todoLabel(t)), t)), p === "Ważne"));
     tree.append(
       group("Pytania bez decyzji", issueGroups, true),
       group("Twoje zadania (otwarte)", todoGroups, true),
-      group("Wątki — agent odpowiedział", [...items(W.threads).map(t => leaf(t, threadLabel(t))), leaf(NEW_THREAD, "Nowy wątek")], true),
+      group("Wątki — agent odpowiedział", [...withDone(items(W.threads), "thread").map(t => mark(leaf(t, threadLabel(t)), t)), leaf(NEW_THREAD, "Nowy wątek")], true),
       group("Uwagi dla LLM", STATE.files.filter(f => f.path === "talk/od-autora-dla-llmow.md").map(f => leaf(f, "Dodaj uwagę dla agentów"))),
     );
   } else if (view === "threads") {
@@ -485,9 +535,27 @@ function clearDetail() {
 function fileText(path) { const f = STATE.files.find(f => f.path === path); return f ? f.text : ""; }
 function vscode(it, line) { return "vscode://file/" + encodeURI(STATE.root + "/" + it.path) + ":" + (line || it.line); }
 
+// Only the parts of the report about this task: author entries "### [A26] …" and, from LLM reply blocks
+// (which may answer several tasks at once), just the "> ### [A26] …" section.
+function reportSections(text, id) {
+  const tag = "[" + id + "]", out = [];
+  for (const part of text.split(/\n---\s*\n/)) {
+    if (!part.includes(tag)) continue;
+    if (!/^\s*>/m.test(part)) { out.push(part); continue; }          // author entry
+    const lines = part.split("\n"), keep = [];
+    let on = false;
+    for (const line of lines) {
+      const h = line.match(/^>\s*###\s*(\[[A-Z]\d+\])/);
+      if (h) on = h[1] === tag;
+      else if (/ODPOWIEDŹ LLM — (koniec)/.test(line) || /^>\s*\*przeczytane/.test(line)) on = false;
+      if (on || /ODPOWIEDŹ LLM — (początek|koniec)/.test(line) || /^>\s*\*przeczytane/.test(line)) keep.push(line);
+    }
+    out.push(keep.join("\n"));
+  }
+  return out;
+}
 function relatedReport(id) {
-  const text = fileText("todo/author/raport-TODO-autora.md");
-  const parts = text.split(/\n---\s*\n/).filter(p => p.includes("[" + id + "]"));
+  const parts = reportSections(fileText("todo/author/raport-TODO-autora.md"), id);
   return parts.length ? parts.map(md).join("<hr>") : "";
 }
 function relatedLlmReport(id) {
@@ -522,6 +590,13 @@ function contentHtml(it, entryIdx) {
   let html;
   if (it.kind === "thread") html = threadHtml(it, entryIdx);
   else if (it.kind === "new-thread") html = `<div class="md"><p>Nowy temat rozmowy z agentami${it.extra.parent ? ` — odgałęzienie od ${inline("@" + it.extra.parent)}` : ""}. Powstanie plik <code>AGENTS/talk/threads/T…-tytul.md</code>; agent odpowie w tym samym wątku. Wpisz <code>@</code>, żeby wskazać wątek, zadanie albo pytanie.</p></div>`;
+  else if (it.kind === "koniec") {
+    const done = answeredKeys().map(k => (loadSession().waiting || {})[k] || k);
+    html = `<div class="md"><h3>Na co odpowiedziałeś w tej sesji (${done.length})</h3>` +
+      (done.length ? "<ul>" + done.map(d => `<li>${inline(d)}</li>`).join("") + "</ul>" : "<p>GUI nie wykrył zmian.</p>") +
+      `<p>„Zakończ sesję” zapisze tę listę do <code>AGENTS/talk/koniec/</code>, skopiuje do schowka prompt dla agenta (wklej go w okno czatu w VS Code) i wyczyści odhaczone pozycje z „Co czeka na mnie”.</p></div>
+      <div id="koniec-result"></div>`;
+  }
   else if (it.kind === "briefing") html = `<div class="briefing-list hint">Wcześniejsze: ${(STATE.briefings || []).map(b => `<a data-key="briefing:${esc(b.name)}">${esc(b.name)}</a>`).join("") || "brak"}</div><div class="md">${md(it.text)}</div>`;
   else html = `<div class="md">${md(it.text)}</div>`;
   if (it.kind === "todo") {
@@ -540,7 +615,7 @@ function select(key) {
   if (!it) return clearDetail();
   const head = document.getElementById("detail-head");
   const title = it.kind === "thread" ? threadLabel(it) : it.title;
-  const where = it.kind === "new-thread" || it.kind === "help" ? "" : ":" + it.line + ` · <a href="${vscode(it)}">otwórz w VS Code</a>`;
+  const where = ["new-thread", "help", "koniec"].includes(it.kind) ? "" : ":" + it.line + ` · <a href="${vscode(it)}">otwórz w VS Code</a>`;
   head.innerHTML = `<h2>${inline(title)} ${pillOf(it)}</h2><div class="where">${esc(it.path)}${where}
     · <a href="#" id="pin-btn" title="Pokaż tę pozycję w oknie po prawej (pole odpowiedzi zostaje dla okna głównego)">📌 Przypnij obok</a></div>`;
   document.getElementById("pin-btn").onclick = e => { e.preventDefault(); pin(key); };
@@ -685,6 +760,8 @@ function mentionEditor(ta) {
   ta.addEventListener("blur", () => setTimeout(close, 150));
 }
 document.addEventListener("click", e => {
+  const fl = e.target.closest && e.target.closest("a.file-link[data-key]");
+  if (fl) { e.preventDefault(); select(fl.dataset.key); return; }
   const a = e.target.closest && e.target.closest("a.mention");
   if (!a) return;
   const key = MENTION_KEYS[a.dataset.mention];
@@ -725,6 +802,10 @@ function renderForm(it) {
     spec = { label: it.extra.parent ? `Nowy wątek od ${it.extra.parent}` : "Nowy wątek", action: "new-thread", button: "Utwórz wątek", title: "",
              hint: "Tytuł = temat wątku.",
              payload: (text, title) => ({ title, text, parent: it.extra.parent || "" }) };
+  else if (it.kind === "koniec")
+    spec = { label: "Uwaga dla agenta (opcjonalnie)", action: "koniec", button: "✅ Zakończ sesję i skopiuj prompt",
+             hint: "Lista odpowiedzi jest wyżej.",
+             payload: text => ({ answered: answeredKeys().map(k => (loadSession().waiting || {})[k] || k), note: text }) };
   else if (it.kind === "file" && it.path === "talk/od-autora-dla-llmow.md")
     spec = { label: "Nowa uwaga dla agentów", action: "note", button: "Dodaj uwagę",
              hint: "Zostanie dopisana jako kolejny numer na liście „Uwagi”.",
@@ -767,6 +848,18 @@ function renderForm(it) {
     const ok = await post(spec.action, spec.payload(ta.value, ti ? ti.value : ""));
     if (!ok) return;
     if (spec.action === "new-thread" && ok.path) SELECTED = "thread:" + ok.path;
+    if (spec.action === "koniec") {
+      saveSession(null);
+      let copied = false;
+      try { await navigator.clipboard.writeText(ok.prompt); copied = true; } catch {}
+      setDraft(dk, ""); await load();
+      document.getElementById("context").innerHTML = `<div class="md"><h3>Sesja zakończona</h3>
+        <p>Zapisane: ${inline("`AGENTS/" + ok.path + "`")}</p>
+        <p>${copied ? "Prompt jest w schowku — wklej go w okno czatu z agentem:" : "Skopiuj ten prompt i wklej w okno czatu z agentem:"}</p>
+        <textarea readonly style="width:100%;height:5em">${esc(ok.prompt)}</textarea></div>`;
+      document.getElementById("form").hidden = true;
+      return;
+    }
     const st = document.getElementById("f-status");
     if (st && st.value !== it.status) {
       await load();
@@ -800,6 +893,8 @@ document.getElementById("view").onchange = () => { try { localStorage.setItem("v
 document.getElementById("reload").onclick = () => CONFIG.state ? location.reload() : load();
 document.getElementById("briefing-btn").onclick = () => select("briefing");
 document.getElementById("help-btn").onclick = () => select("help");
+document.getElementById("plan-btn").onclick = () => select("file:plan/phases-plans.md");
+document.getElementById("koniec-btn").onclick = () => select("koniec");
 document.getElementById("mode").textContent = CONFIG.readOnly ? "tylko podgląd" : "podgląd + odpowiadanie";
 try { const v = localStorage.getItem("view"); if (v) document.getElementById("view").value = v; } catch {}
 if (CONFIG.state) document.getElementById("reload").hidden = true;

@@ -74,3 +74,27 @@ Odpowiedziałem
 ---
 ---
 ---
+
+Dziękuję. Twoje uwagi z @A25 (kalibracja i zapis scenariuszy) są wpisane do `AGENTS/phases/phase-2/design.md` (wersja 2).
+
+*2026-10-14 05:38 — Claude Opus 5.5*
+
+---
+---
+---
+
+Jeżeli to wszystko, to możesz zamykać.
+
+*2026-10-14 05:40 — Autor*
+
+---
+---
+---
+
+🔒 Wątek zamknięty — za zgodą autora ("możesz zamykać").
+
+*2026-10-14 06:03 — Claude Opus 5.5*
+
+---
+---
+---

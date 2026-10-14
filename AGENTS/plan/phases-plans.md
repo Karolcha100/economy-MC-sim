@@ -1,6 +1,6 @@
 # Plan faz — proponowana kolejność
 
-*Aktualizują agenci po każdej zmianie planu (z datą). Opis zakresu faz: `phases-description.md`. Ostatnia zmiana: 2026-10-14 05:13 — Claude Opus 5.5*
+*Aktualizują agenci po każdej zmianie planu (z datą). Opis zakresu faz: `phases-description.md`. Ostatnia zmiana: 2026-10-14 06:50 — Claude Opus 5.5*
 
 Legenda: ✅ zrobione · ⏳ następne / w toku · ⏸ czeka · 💤 później
 
@@ -13,8 +13,8 @@ Legenda: ✅ zrobione · ⏳ następne / w toku · ⏸ czeka · 💤 później
 | 1 | **Phase 1.0** — planowanie danych | ✅ | Pytania i decyzje: `AGENTS/phases/phase-1/agents-issues-1…4.md`. |
 | 2 | **Phase 1.1** — narzędzia danych | ✅ | `simulator/`: templates, wzory, dane opisowe, historia, walidacja. |
 | 3 | **Phase 1.2a** — prawdziwe wskaźniki | ✅ | Wskaźniki w `history/`, wartości startowe w `narrated/` (`seeds.csv`). Otwarty drobiazg: A17. |
-| 4 | **Phase 2.0** — projekt silnika | ⏳ czeka na A25 | `AGENTS/phases/phase-2/design.md` (wersja 1); zostało tylko zatwierdzenie. |
-| 5 | **Phase 1.2b** — wszystkie dane opisowe z prasy | ⏸ planowanie: A26 | LLM-y z wyszukiwarką, ~392 zadania (państwo × statystyki / relacje); plan: `AGENTS/phases/phase-1.2b/agents-issues-0.md`. |
+| 4 | **Phase 2.0** — projekt silnika | ✅ | `AGENTS/phases/phase-2/design.md` — zatwierdzony (A25). |
+| 5 | **Phase 1.2b** — wszystkie dane opisowe z prasy | ⏳ przygotowanie | `AGENTS/phases/phase-1.2b/plan.md`; instrukcja, narzędzia i kolejka gotowe; gotowe do startu: Haiku w Claude Code, `audit` + przegląd próbki; **start na sygnał autora (A32)**. |
 | 6 | **Phase 2.1** — szkielet silnika | 💤 | Dwie regresje, dwie tury, drzewo scenariuszy; uczony na kompletnych danych. |
 | 7 | **Phase 2.2** — pełny model | 💤 | Wszystkie dane, backtest, kalibracja; potem narzędzia analizy scenariuszy. |
 | — | Porządek w `AGENTS/` + GUI `agents_board` | ✅ | Podgląd, odpowiadanie, wątki, graf, wzmianki @, briefing, okno przypięte. |

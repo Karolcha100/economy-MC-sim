@@ -277,3 +277,100 @@ Każdy wpis: `### [L…] tytuł`, co zrobiono, gdzie, jak sprawdzono, co został
 *2026-10-14 05:13 — Claude Opus 5.5*
 
 ---
+
+### [L30] Phase 1.2b: P1–P4, instrukcja, niejasne statystyki; uwagi A25
+
+- @T011 — P1 prościej: lista istotnych partnerów + `confirm-default` zamiast ~12 mln zer; dla silnika bez zmian.
+- @T012 — P2:
+  - ceny z dokumentacji: Haiku 5.5 0,10/0,50 $, Sonnet 5.5 2/10 $, Opus 5.5 4/20 $ za 1 mln tokenów; wyszukiwanie 10 $/1000;
+  - szacunek 392 zadań: wariant A ~115–725 $, wariant B ~25–225 $ (zależnie od modelu);
+  - propozycja testu modeli na WGI (@A27).
+- `phase-1.2b/instrukcja-wypelniania.md` — szkic z miejscami do decyzji: źródła, okresy zamiast lat, zadania A i B, format, kolejność, zakazy.
+- `phase-1.2b/agents-issues-1.md` — Q1–Q8 (migracje, skala subordination/power 0..100, `economic dependence` vs `real subordination`, `social sensitivity`, `in hybrid war` skierowana, sondaże, Cantril, `revanchism`).
+- `design.md` v2 — uwagi A25 (pokrycie rozkładów jako główna miara; zapis scenariuszy z numerem rodzica).
+
+*2026-10-14 05:38 — Claude Opus 5.5*
+
+---
+
+### [L32] [L33] Decyzje Q1–Q8, plan 1.2b, GUI (@T013)
+
+- Wzory:
+  - usunięte `immigration`, `emigration`, `in hybrid war`;
+  - nowe `hybrid attacks towards` (skierowana 0/1), `government revanchism`; `revanchism` → `social revanchism`;
+  - skale subordination/power 0..100;
+  - nowe opisy: `real subordination`, `social sensitivity`, `government popularity`, `happiness`.
+  - Wszystkie bez danych, więc bez migracji.
+- `happiness`: reguła w `seeds.csv` (10 × Cantril), 2274 wartości (dane od 2011).
+- `AGENTS/phases/phase-1.2b/plan.md` (odpowiedź na pytanie z A26); instrukcja wypełniania dostosowana do Q1–Q8.
+- `design.md`: dopisek A25 (kalibracja zdarzeń tylko informacyjnie); **zatwierdzony, Phase 2.0 zamknięta**.
+- GUI:
+  - przycisk Koniec (`talk/koniec/*.md` + prompt w schowku; odpowiedziane pozycje skreślone ze ✔️ do Konca);
+  - przyciski Plan / Briefing / Instrukcja po prawej;
+  - klikalne ścieżki (AGENTS w GUI, reszta w VS Code).
+- Sprawdzenie:
+  - 67 testów;
+  - Firefox przez Selenium na kopii: zmiana statusu A27 → skreślone ✔️ → Koniec → plik z listą, prompt → pozycja znika.
+
+*2026-10-14 06:03 — Claude Opus 5.5*
+
+---
+
+### [L29] [L35] [L36] Narzędzia 1.2b, GUI (T014), test i wycena
+
+- `confirm-default` (`simulator/narrated.py`, CLI):
+  - potwierdza wartość domyślną dla pustych komórek (statystyki państwa / pary od państwa);
+  - zapis w `narrated/confirmed-defaults.csv` + changelog;
+  - odmawia dla wzorów bez wartości domyślnej.
+- `missing`: liczy potwierdzone jako uzupełnione (kolumna `confirmed_default`); `--by-country` daje procent dla każdego państwa i rodzaju danych (najgorsze na górze).
+- `queue` → `AGENTS/phases/phase-1.2b/queue.md`: 196 państw (15 referencyjnych, 24 Tier 1, reszta); nie nadpisuje istniejącej kolejki.
+- GUI (@T014): przy zadaniu tylko sekcja `[A…]` z bloków odpowiedzi LLM; od teraz jeden blok na zadanie (instrukcja agentów).
+- Wątki: @T015 (test modeli: 10 krajów × 3 modele × 2 powtórzenia, porównanie z WGI, ~5–6 $), @T016 (wycena z ograniczeniami: ~75–105 $ przez API).
+- Testy: 69 (2 nowe).
+
+*2026-10-14 06:22 — Claude Opus 5.5*
+
+---
+
+### [L37] Test Haiku przed 1.2b
+
+- Autor (@T015): test tylko Haiku, przez Claude Code. Wykonany od razu, bo był tani i nie zapisywał nic w danych scenariusza.
+- 20 agentów Haiku (10 krajów × 2 serie), bez narzędzi i bez wyszukiwarki; opisy statystyk + kotwice FIN/AFG; ~26 tys. tokenów i ~10 s na agenta (limit planu, nie API).
+- Wyniki: `AGENTS/phases/phase-1.2b/test-modeli.md` (surowe dane i `wyniki.json` w `test-modeli/`):
+  - `corruption`: błąd 4–6, kolejność krajów 96–99%;
+  - `stability`: błąd ~18, przesunięcie +17 (definicja vs WGI);
+  - powtarzalność ~4 punkty.
+- Wniosek: Haiku nadaje się do wypełniania; `stability` do rozstrzygnięcia (@A30).
+
+*2026-10-14 06:34 — Claude Opus 5.5*
+
+---
+
+### [L38] `stability` → `stability` + `violence risk`; uwaga z @T017
+
+- Decyzja autora (@T015, A30, opcja c):
+  - nowa `violence risk` (0–100), 5035 wartości startowych (50 − 20 × WGI PV, 1996–2022);
+  - `stability`: nowy opis (instytucje, bez przemocy), stare wartości startowe usunięte (`reset_seeded`: zapisywały je tylko wartości startowe);
+  - `seeds.csv`, instrukcja wypełniania, plan 1.2b i wyniki testu zaktualizowane.
+- @T017: przyjęta uwaga, że "co ty na to" to pytanie o opinię, a nie zgoda na działanie; zapisane w pamięci agenta. @T016: tylko opinia (próbka przeglądu ~52 $), decyzja @A31.
+- `validate` 0 błędów, 69 testów.
+
+*2026-10-14 06:43 — Claude Opus 5.5*
+
+---
+
+### [L39] Automatyczne porównanie wszystkich krajów (`audit`)
+
+- `simulator/audit.py` + `python -m simulator audit [--out DIR]`; reguły w `simulator/scenarios/world-1990-2025/audit.csv` (12 porównań).
+- Cztery kontrole:
+  - zgodność kolejności krajów ze wskaźnikiem w każdym roku (średnia, −1..1);
+  - kraje odstające (różnica pozycji ponad 40% skali);
+  - płaskie linie;
+  - zatłoczenie jednej wartości.
+- Lata bez zróżnicowania (np. relacje z samymi wartościami domyślnymi) są pomijane. W pierwszej wersji dawały 108 fałszywych odstających; poprawione.
+- Raport bazowy: `AGENTS/phases/phase-1.2b/audit/audit-2026-10-14-0650.md` (wartości startowe zgodne ze wskaźnikami: 0,93–1,00).
+- Testy: `tests/test_audit.py` (2), razem 71.
+
+*2026-10-14 06:50 — Claude Opus 5.5*
+
+---

@@ -228,3 +228,10 @@ def test_state_includes_help():
     with tempfile.TemporaryDirectory() as d:
         st = Board(Path(d)).state()
     assert "AGENTS board" in st["help"]
+
+
+def test_koniec_writes_summary_and_prompt(root):
+    res = Board(root).write_koniec(["A1. Pierwsze", "T001 · Pytanie"], note="dzięki")
+    text = (root / res["path"]).read_text()
+    assert res["path"].startswith("talk/koniec/") and "- A1. Pierwsze" in text and "dzięki" in text
+    assert "AGENTS/" + res["path"] in res["prompt"]

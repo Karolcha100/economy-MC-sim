@@ -6,7 +6,7 @@ Ważne, ale nie blokują agentów. Zasady: `INSTRUKCJA.md`.
 
 ---
 
-- [ ] **A4. Przejrzeć opisy statystyk** (`agents-issues-3.md` L1): kolumna `description` w `simulator/scenarios/world-1990-2025/formulas/*.csv`. Najmniej pewne:
+- [>] **A4. Przejrzeć opisy statystyk** (`agents-issues-3.md` L1): kolumna `description` w `simulator/scenarios/world-1990-2025/formulas/*.csv`. Najmniej pewne:
   - `social sensitivity`;
   - `civilization level`;
   - `immigration` / `emigration`;
@@ -14,7 +14,7 @@ Ważne, ale nie blokują agentów. Zasady: `INSTRUKCJA.md`.
   - czy `in hybrid war` ma być relacją dwustronną;
   - czy `neighbours` liczy tylko granicę lądową.
 
-  Edycja: bezpośrednio w CSV albo `python -m simulator formulas edit --kind ... --name ... --description "..."`.
+  Edycja: bezpośrednio w CSV albo `python -m simulator formulas edit --kind ... --name ... --description "..."`. *(→ zastąpione przez @A28 — konkretne pytania Q1–Q8, 2026-10-14 05:38)*
 - [ ] **A5. Przejrzeć przeliczenia skal wskaźników** (np. HDI → `civilization level`), gdy agent je zaproponuje w Phase 1.2a.
 - [ ] **A6. Obejrzeć kraje referencyjne na mapie**, gdy pojawią się pierwsze wartości: `python -m simulator --scenario world-1990-2025 reference-map --kind grade --name stability`.
 - [ ] **A11. Opisać pomysł na Phase 2** w `AGENTS/phases/phase-2/agents-instructions.md`. *(przeniesione z WAŻNE 2026-10-14: autor odkłada, jeden cel naraz)*

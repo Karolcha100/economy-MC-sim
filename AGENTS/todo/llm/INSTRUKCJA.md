@@ -9,6 +9,7 @@
 0. **`AGENTS/README.md`**: mapa folderu i zasady. Szybki przegląd stanu: `venv/bin/python -m agents_board --static /tmp/board.html` (albo przeglądanie plików).
 1. **`AGENTS/talk/od-autora-dla-llmow.md`**: przeczytaj nowe uwagi i oznacz każdą jako przeczytaną, dopisując na końcu jej linii `— *przeczytane: RRRR-MM-DD (model)*`. Poza tym w tym pliku **nic nie piszesz**.
 2. **`AGENTS/plan/phases-plans.md`**: na jakim etapie jest projekt.
+2b. **Najnowszy plik w `AGENTS/talk/koniec/`** (jeśli jest nowszy niż Twój ostatni briefing): lista tego, na co autor odpowiedział w GUI — od tego zaczynasz.
 3. **`AGENTS/todo/author/raport-TODO-autora.md`**: nowe wpisy autora. Na każdy odpowiedz blokiem LLM (format niżej).
 4. **`AGENTS/talk/threads/`**: wątki, w których ostatni wpis jest od autora. Odpowiadasz w tym samym wątku. `wymiana-zdan-A1.md` to archiwum: nic tam nie dopisujemy.
 5. **`TODO-dla-LLM.md`** (ten folder): wybierz zadanie.
@@ -47,6 +48,8 @@
 4. Jeśli zadanie wymaga decyzji autora: status `[?]` i pytanie w odpowiednim `agents-issues-N.md` albo nowe zadanie A….
 
 ## Odpowiedzi w plikach autora
+
+**Jeden blok odpowiedzi = jedno zadanie** (wątek @T014): GUI pokazuje przy zadaniu tylko jego blok/sekcję, więc nie łącz kilku zadań w jednym bloku.
 
 W `raport-TODO-autora.md` (i podobnych) **nie edytujesz tekstu autora**. Wyjątek: miejsce, które autor wyraźnie zostawił do uzupełnienia, np. `[Numeracja - Tu wstaw numeracje]`. Odpowiedź dopisujesz pod jego wpisami jako blok:
 
@@ -94,9 +97,14 @@ Nie zmieniaj ich bez aktualizacji `agents_board/model.py` i testów `tests/test_
 
 - **Godzina w podpisie zawsze z `date "+%Y-%m-%d %H:%M"`**, uruchomionego tuż przed podpisem, nigdy szacowana (wątek T001).
 - **Briefing** (wątek T004): na koniec każdej sesji zapisz `AGENTS/talk/briefings/RRRR-MM-DD-GGMM.md` (godzina z `date`) z **tą samą treścią**, co odpowiedź w oknie czatu; w punktach "Do odpowiedzi" użyj wzmianek `@…`. GUI pokazuje go pod przyciskiem "📋 Briefing".
+- **Ścieżki plików** zawsze w backtickach i pełne (np. `AGENTS/phases/phase-1.2b/plan.md`) — GUI robi z nich linki; w okienku czatu jako linki markdown `[nazwa](ścieżka)`.
 - **Odpowiedź w oknie czatu** (uwaga autora nr 2): tylko (1) **Zmiany**: ścieżki plików z oznaczeniem **CRE/MOD/DEL** (created/modified/deleted; trzy litery — wątek T004); (2) **Do odpowiedzi**: rzeczy dla autora z miejscem w drzewie GUI (np. "Co czeka na mnie → Pytania bez decyzji → …") i bardzo krótkim opisem. Reszta trafia do plików w `AGENTS/`.
 
 - Komunikacja z autorem i pliki w `AGENTS/` po polsku; kod, nazwy plików i danych, `README.md` po angielsku.
 - Konwencje scenariusza `world-1990-2025` (lista państw, kontynuacje ZSRR/Jugosławii, `exists_from`): `simulator/README.md`.
 - Agenci **mogą korzystać z wyszukiwarki internetowej** (autor, A3). Źródła zapisuj zawsze (URL, tytuł, data).
 - Dane opisowe zapisujemy tylko narzędziem `python -m simulator set/batch`, z `--author` i `--rationale`; potem `validate` i `review`.
+
+## Pytania o opinię (uwaga autora, wątek T017)
+
+"Co ty na to…?", "jak widzisz…?", "co sądzisz…?" to **pytania o opinię, nie zgoda na działanie**. Odpowiadasz plusami, minusami i rekomendacją, dodajesz zadanie A z decyzją i niczego nie uruchamiasz, dopóki autor wyraźnie nie zdecyduje ("robimy", "zgoda", "wybieram…").

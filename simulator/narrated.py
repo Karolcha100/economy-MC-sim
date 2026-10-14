@@ -12,6 +12,7 @@ targets are written only in years the country is a member and exists; other year
 from __future__ import annotations
 
 from dataclasses import dataclass, field, fields
+from datetime import datetime, timezone
 
 import numpy as np
 import pandas as pd
@@ -300,38 +301,132 @@ def show(
     )
 
 
-def missing_report(scenario: Scenario, kind: str | None = None, name: str | None = None) -> pd.DataFrame:
-    """Per formula: how many cells (existing countries/pairs x years) are filled."""
+CONFIRMED_COLUMNS = ["timestamp", "author", "kind", "name", "tag", "from_year", "to_year", "note"]
+
+
+def _confirmed_path(scenario: Scenario):
+    return scenario.narrated_dir / "confirmed-defaults.csv"
+
+
+def load_confirmed(scenario: Scenario) -> pd.DataFrame:
+    path = _confirmed_path(scenario)
+    if not path.exists():
+        return pd.DataFrame(columns=CONFIRMED_COLUMNS)
+    return pd.read_csv(path, dtype={"tag": str, "kind": str, "name": str}, keep_default_na=False)
+
+
+def confirm_default(
+    scenario: Scenario,
+    kind: str,
+    names: str | list[str],
+    tags: str | list[str],
+    years: str | int | list[int],
+    author: str,
+    note: str = "",
+) -> int:
+    """Record that unfilled cells are deliberately left at the formula default (decision P1, thread T011).
+
+    Internal grades: the cells of `tags` in `years`. Relations: every pair where a tag is FROM
+    (directed) or a side (double-sided). Existing values are untouched; nothing is written to the
+    data files. Only formulas with a default can be confirmed. Returns the number of rows recorded.
+    """
+    if not author:
+        raise SimulatorError("author is required")
+    kind = resolve_kind(kind)
+    if names == "all":
+        formulas = [f for f in list_formulas(scenario, kind) if f.default is not None]
+    else:
+        names = [n.strip() for n in names.split(",")] if isinstance(names, str) else names
+        formulas = [get_formula(scenario, kind, n) for n in names]
+    no_default = [f.name for f in formulas if f.default is None]
+    if no_default:
+        raise SimulatorError(f"No default value, must be filled: {', '.join(no_default)}")
+    tag_list = [t.strip().upper() for t in (tags.split(",") if isinstance(tags, str) else tags) if t.strip()]
+    scenario.check_tags(tag_list)
+    y0, y1 = parse_years(years)
+    scenario.years_between(y0, y1)
+    stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    rows = [{"timestamp": stamp, "author": author, "kind": kind, "name": f.name, "tag": t,
+             "from_year": y0, "to_year": y1, "note": note} for f in formulas for t in tag_list]
+    with scenario.lock():
+        path = _confirmed_path(scenario)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        pd.DataFrame(rows, columns=CONFIRMED_COLUMNS).to_csv(path, mode="a", header=not path.exists(), index=False)
+        append_changelog(scenario, [{"author": author, "operation": "confirm-default", "kind": kind,
+                                     "name": ",".join(f.name for f in formulas), "targets": ";".join(tag_list),
+                                     "years": f"{y0}-{y1}", "rationale": note}])
+    return len(rows)
+
+
+def _confirmed_matrix(scenario: Scenario, confirmed: pd.DataFrame, kind: str, name: str) -> np.ndarray:
+    """years x tags: True where the formula's default is confirmed for that tag and year."""
+    tags, years = scenario.tags, np.asarray(scenario.dates)
+    out = np.zeros((len(years), len(tags)), dtype=bool)
+    rows = confirmed[(confirmed["kind"] == kind) & (confirmed["name"] == name)]
+    index = {t: i for i, t in enumerate(tags)}
+    for _, r in rows.iterrows():
+        if r["tag"] in index:
+            out[(years >= int(r["from_year"])) & (years <= int(r["to_year"])), index[r["tag"]]] = True
+    return out
+
+
+def missing_report(
+    scenario: Scenario, kind: str | None = None, name: str | None = None, by_country: bool = False
+) -> pd.DataFrame:
+    """How much is filled: per formula (default) or per country and kind (`by_country`).
+
+    A cell counts as filled when it has a value or its default was confirmed (`confirm_default`).
+    Per country, relations count the pairs where the country is FROM (directed) or a side (double-sided).
+    """
     kinds = KINDS if kind is None else (resolve_kind(kind),)
     store = NarratedStore(scenario)
     exist = scenario.existence().to_numpy()  # years x tags
+    confirmed = load_confirmed(scenario)
     rows = []
+    per_tag = {k: (np.zeros(len(scenario.tags)), np.zeros(len(scenario.tags))) for k in kinds}
     for k in kinds:
         formulas = list_formulas(scenario, k) if name is None else [get_formula(scenario, k, name)]
         for f in formulas:
-            total = filled = 0
+            conf = _confirmed_matrix(scenario, confirmed, k, f.name)
+            total = filled = confirmed_cells = 0
             first_gap = None
             for yi, year in enumerate(scenario.dates):
                 alive = exist[yi]
                 vals = store.values(k, f.slug, year).to_numpy(dtype=float)
+                has = ~np.isnan(vals)
                 if k == INTERNAL_GRADES:
-                    mask = alive
+                    mask, covered = alive, has | conf[yi]
                 else:
                     mask = alive[:, None] & alive[None, :]
                     np.fill_diagonal(mask, False)
-                    if k == RELATIONS_DOUBLESIDED:
-                        mask = np.triu(mask)
-                n_total, n_filled = int(mask.sum()), int((~np.isnan(vals) & mask).sum())
+                    row_conf = conf[yi][:, None]
+                    covered = has | (row_conf if k != RELATIONS_DOUBLESIDED else (row_conf | row_conf.T))
+                n_total, n_filled = int(mask.sum()), int((covered & mask).sum())
+                if k == RELATIONS_DOUBLESIDED:  # each unordered pair once in the per-formula totals
+                    upper = np.triu(mask)
+                    n_total, n_filled = int(upper.sum()), int((covered & upper).sum())
+                confirmed_cells += n_filled - int((has & (np.triu(mask) if k == RELATIONS_DOUBLESIDED else mask)).sum())
                 total += n_total
                 filled += n_filled
                 if first_gap is None and n_filled < n_total:
                     first_gap = year
+                t_all, t_ok = per_tag[k]
+                t_all += mask.sum(axis=1) if k != INTERNAL_GRADES else mask
+                t_ok += (covered & mask).sum(axis=1) if k != INTERNAL_GRADES else (covered & mask)
             rows.append({
                 "kind": k, "name": f.name, "filled": filled, "total": total,
                 "percent": round(100 * filled / total, 2) if total else 100.0,
+                "confirmed_default": confirmed_cells,
                 "first_year_with_gaps": first_gap,
             })
-    return pd.DataFrame(rows)
+    if not by_country:
+        return pd.DataFrame(rows)
+    table = pd.DataFrame(index=pd.Index(scenario.tags, name="tag"))
+    table["name"] = scenario.tags_table["name"]
+    for k, (t_all, t_ok) in per_tag.items():
+        table[k] = np.where(t_all > 0, np.round(100 * t_ok / np.maximum(t_all, 1), 1), 100.0)
+    table["all"] = table[list(per_tag)].mean(axis=1).round(1)
+    return table.sort_values("all")
 
 
 def effective_values(scenario: Scenario, kind: str, name: str, year: int) -> pd.Series | pd.DataFrame:

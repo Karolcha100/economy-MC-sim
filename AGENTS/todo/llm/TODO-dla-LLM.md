@@ -39,7 +39,7 @@ Zgoda autora (A10) jest: 2026-10-14. Pytania o przeliczenia skal: `AGENTS/phases
 
 ## Phase 1.2b — wypełnianie z prasy (później, według priorytetów z Phase 2)
 
-- [ ] **L8. Instrukcja dla agentów wypełniających dane z prasy.** Ma zawierać:
+- [x] **L8. Instrukcja dla agentów wypełniających dane z prasy.** Ma zawierać:
   - korzystanie z wyszukiwarki (zgoda autora, A3);
   - zapis źródeł (URL, tytuł, data);
   - język lokalny dla krajów Tier 1;
@@ -81,4 +81,14 @@ Zgoda autora (A10) jest: 2026-10-14. Pytania o przeliczenia skal: `AGENTS/phases
 
 - [-] **L27. Pilot 1.2b** — *porzucone 2026-10-14 05:13: autor wybrał całe 1.2b zamiast pilota (@A23); zastępuje L28–L29.*
 - [x] **L28. Plan Phase 1.2b**: `AGENTS/phases/phase-1.2b/agents-issues-0.md` (P1–P5). *(zrobione: 2026-10-14 05:13)*
-- [?] **L29. Przygotowanie 1.2b**: instrukcja dla agentów wypełniających (@L8), `confirm-default`, `missing --by-country`, kolejka zadań. *Czeka na @A26.*
+- [x] **L29. Przygotowanie 1.2b**: instrukcja dla agentów wypełniających (@L8), `confirm-default`, `missing --by-country`, kolejka zadań. *(zrobione 2026-10-14 06:22: `confirm-default`, `missing --by-country`, `queue.md` (196 państw); wcześniej: szkic instrukcji gotowy 2026-10-14 05:38; narzędzia czekają na @phase-1.2b:P1)*
+- [x] **L30. Odpowiedzi na P1–P4**: wątki @T011, @T012; `phase-1.2b/instrukcja-wypelniania.md` (szkic); `phase-1.2b/agents-issues-1.md` (Q1–Q8). *(zrobione: 2026-10-14 05:38, raport: raport-TODO-LLM.md)*
+- [?] **L31. Test modeli** (Haiku/Sonnet/Opus vs WGI, 10 krajów). *Czeka na @A27.*
+- [x] **L32. Q1–Q8 we wzorach** (usunięte `immigration`/`emigration`, skale 0..100, `hybrid attacks towards`, `social`/`government revanchism`, nowe opisy, wartości startowe `happiness`) + `phase-1.2b/plan.md` + instrukcja dostosowana. *(zrobione: 2026-10-14 06:03, raport: raport-TODO-LLM.md)*
+- [x] **L33. GUI po @T013**: przycisk Koniec (plik + prompt w schowku), odpowiedziane pozycje zostają do Konca, przycisk Plan, klikalne ścieżki. *(zrobione: 2026-10-14 06:03, raport: raport-TODO-LLM.md)*
+- [x] **L35. GUI: przy zadaniu tylko jego część raportu** (@T014). *(zrobione: 2026-10-14 06:22)*
+- [x] **L36. Wątki @T015 (opis testu modeli, A27) i @T016 (wycena z ograniczeniami: ~75–105 $ przez API).** *(zrobione: 2026-10-14 06:22)*
+- [?] **L34. Uruchamianie agentów 1.2b (Haiku w Claude Code)** (kolejka → zadanie → batch → `validate` → `review`; pomiar zużycia tokenów). *Czeka na sygnał autora (@A32) — nie zaczynać wcześniej.*
+- [x] **L37. Test Haiku** (@T015, @A27): 10 krajów × `stability`/`corruption` × 2 serie, porównanie z WGI. `corruption` błąd ~5, `stability` ~18 (różnica definicji). *(zrobione: 2026-10-14 06:34, raport: raport-TODO-LLM.md)*
+- [x] **L38. `stability` → `stability` + `violence risk`** (@A30): nowa statystyka z wartościami startowymi WGI, `stability` wyczyszczone i z nowym opisem, `seeds.csv`, instrukcja i plan 1.2b. *(zrobione: 2026-10-14 06:43, raport: raport-TODO-LLM.md)*
+- [x] **L39. `audit`** — automatyczne porównanie wszystkich krajów ze wskaźnikami (`simulator/audit.py`, reguły `audit.csv`, raport w `AGENTS/phases/phase-1.2b/audit/`). *(zrobione: 2026-10-14 06:50, raport: raport-TODO-LLM.md)*

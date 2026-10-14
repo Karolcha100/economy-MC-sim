@@ -1,0 +1,13 @@
+statistic,reference,sign,note
+grade:corruption,ti-cpi,-1,"CPI: higher = less corruption"
+grade:corruption,wgi-control-of-corruption,-1,"WGI CC: higher = less corruption (also the seed)"
+grade:violence risk,wgi-political-stability,-1,"WGI PV: higher = less violence (also the seed)"
+grade:civilization level,hdi,1,"HDI (also the seed)"
+grade:civilization level,gdp-per-capita,1,"richer countries should rank higher"
+grade:happiness,happiness-cantril,1,"Cantril ladder (seed from 2011)"
+grade:happiness,gdp-per-capita,1,"loose relation"
+grade:stability,gdp-per-capita,1,"loose relation: institutions of rich countries are usually more stable"
+grade:stability,wgi-political-stability,1,"loose relation: different definition since A30"
+directed-out-mean:real power towards,gdp-current-usd,1,"big economies should have more influence on others"
+directed-out-mean:perceived power towards,gdp-current-usd,1,"same, as perceived"
+directed-out-mean:economic dependence,gdp-current-usd,-1,"small economies usually depend more on others"

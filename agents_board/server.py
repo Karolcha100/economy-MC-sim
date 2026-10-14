@@ -32,6 +32,7 @@ def make_handler(board: Board, token: str, read_only: bool):
         "new-thread": lambda d: {"path": board.create_thread(d["title"], d["text"], d.get("parent", ""))},
         "close-thread": lambda d: board.close_thread(d["path"], d["version"], d.get("text", "")),
         "note": lambda d: board.append_note(d["text"], d["version"]),
+        "koniec": lambda d: board.write_koniec(list(d.get("answered", [])), d.get("note", "")),
     }
 
     class Handler(BaseHTTPRequestHandler):

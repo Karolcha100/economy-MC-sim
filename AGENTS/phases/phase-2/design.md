@@ -1,4 +1,4 @@
-# Silnik symulacji — projekt (Phase 2.0, wersja 0)
+# Silnik symulacji — projekt (Phase 2.0 — zatwierdzony przez autora, A25)
 
 Zebrane decyzje autora z `agents-issues-0.md` (R1–S3), `agents-issues-1.md` (U1–U5) i wątków @T007, @T008, @T009, @T010. Na tym dokumencie powstaje Phase 2.1. Zmiany projektu: tylko po decyzji autora; ten plik aktualizuje agent, z datą na dole.
 
@@ -45,7 +45,7 @@ Wkład z regresji E sumuje się po wszystkich partnerach i dodaje do wyniku regr
 - Krok = 1 rok, horyzont z konfiguracji (domyślnie 4 lata).
 - **Drzewo:** z każdego scenariusza wychodzi `b` scenariuszy-dzieci. Każde dziecko = przewidywanie z rodzica + szum (R4). Liczba scenariuszy rośnie wykładniczo (U3): b, b², b³, b⁴.
 - `b` z konfiguracji, osobno dla każdego roku. Domyślnie `[10, 10, 10, 10]`, co daje **10 000 scenariuszy końcowych** (przyjęte, @T010; inne warianty: `AGENTS/plan/future-work.md`, punkt 4).
-- **Zapis jako drzewo:** węzeł = dane jednego roku + numer rodzica. Pojedynczą "linię" scenariusza odtwarza się, idąc po rodzicach. Wspólne początki nie są powielane.
+- **Zapis (uwaga autora, A25):** każdy scenariusz (jeden rok) zapisany osobno, z numerem swojego rodzica. Pełną historię scenariusza od H_last odtwarza się, idąc po rodzicach. Wspólne początki nie są powielane.
 - **Rozmiar** (horyzont 4, float32, relacje rzadkie = ~5% par):
 
   | b | węzły | końcowe scenariusze | rozmiar |
@@ -66,7 +66,8 @@ Opcje w konfiguracji: `fixed` (stały odsetek zakresu), `historical` (typowy bł
 ## 8. Uczenie i sprawdzanie (R8)
 
 - Lata uczenia i lata sprawdzania w konfiguracji, np. uczenie 1990–2015, sprawdzanie 2016–2025.
-- Model podaje **prawdopodobieństwa i rozkłady**, nie pewność. Sprawdzamy więc kalibrację: czy zdarzenia z prognozą 20% zachodzą w ~20% przypadków i czy prawdziwe wartości mieszczą się w rozkładach.
+- Model podaje **prawdopodobieństwa i rozkłady**, nie pewność. Mając tylko faktyczne dane (jedną prawdziwą historię), sprawdzamy przede wszystkim **czy prawdziwe wartości mieszczą się w rozkładach** scenariuszy, np. czy prawdziwe PKB 2020 wpada w środkowe 90% przewidzianych wartości (uwaga autora, A25).
+- Dodatkowo, gdy zdarzeń jest dużo (196 krajów × 10 lat testu ≈ 2000 przypadków np. `riots`), można zbiorczo sprawdzić, czy zdarzenia z prognozą ~20% zaszły w ~20% przypadków. To kontrola pomocnicza, bo dla pojedynczego kraju i roku jest niemożliwa. **Nie odrzuca silnika ani parametrów: to tylko informacja dla nas** (autor, A25).
 - Porównanie z prostymi modelami odniesienia ("jak w zeszłym roku").
 
 ## 9. Dane opisowe do nauki (R7, R9, @T009)
@@ -100,4 +101,4 @@ seed = 42                       # powtarzalność
 
 ---
 
-*Wersja 0: 2026-10-14 04:10 — Claude Opus 5.5; wersja 1 (decyzje A23, A24): 2026-10-14 05:13 — Claude Opus 5.5*
+*Wersja 0: 2026-10-14 04:10 — Claude Opus 5.5; wersja 1 (decyzje A23, A24): 2026-10-14 05:13 — Claude Opus 5.5; wersja 2 (uwagi A25): 2026-10-14 05:36 — Claude Opus 5.5; zatwierdzony: 2026-10-14 06:03*

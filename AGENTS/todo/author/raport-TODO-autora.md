@@ -135,3 +135,136 @@ Wystarczy chyba zapisywać tylko poszczególne scenariusze z informacją jaki je
 *2026-10-14 05:31 — Autor*
 
 ---
+
+> 🤖 **ODPOWIEDŹ LLM — początek** (Claude Opus 5.5)
+>
+> ### [A25] Re: Zatwierdzić projekt silnika — obie uwagi wprowadzone (`design.md`, wersja 2)
+>
+> - **Kalibracja:** masz rację co do głównej miary. Teraz punkt 8 mówi, że sprawdzamy przede wszystkim, **czy prawdziwe wartości mieszczą się w rozkładach** scenariuszy.
+>   - Dopisałem tylko jedno zdanie: przy wielu krajach i latach (~2000 przypadków np. `riots`) można zbiorczo sprawdzić, czy zdarzenia z prognozą ~20% zaszły w ~20% przypadków. Dla pojedynczego kraju i roku się nie da, więc to kontrola pomocnicza.
+> - **Zapis scenariuszy:** to samo, co miałem na myśli; teraz zapisane Twoimi słowami: każdy scenariusz (jeden rok) osobno, z numerem rodzica.
+> - Jeśli nie masz więcej uwag, możesz oznaczyć A25 jako zrobione. Wtedy Phase 2.0 jest zamknięta.
+>
+> ### [A26] Re: Plan Phase 1.2b
+>
+> - P1 → wątek @T011 (o co chodzi, na przykładzie).
+> - P2 → wątek @T012 (Haiku, koszty, nagłówki, propozycja testu modeli @A27).
+> - P3 → szkic instrukcji: `AGENTS/phases/phase-1.2b/instrukcja-wypelniania.md` (@A29); niejasne statystyki: `AGENTS/phases/phase-1.2b/agents-issues-1.md` (Q1–Q8, @A28).
+> - P4 → w instrukcji: tryb pełny i oszczędny (uzasadnienia i źródła można wyłączyć).
+>
+> *przeczytane i odpowiedziane: 2026-10-14 05:38 — Claude Opus 5.5*
+>
+> 🤖 **ODPOWIEDŹ LLM — koniec**
+
+---
+
+### [A25] Zatwierdzić projekt silnika
+
+Dopisałem tylko jedno zdanie: przy wielu krajach i latach (~2000 przypadków np. riots) można zbiorczo sprawdzić, czy zdarzenia z prognozą ~20% zaszły w ~20% przypadków. Dla pojedynczego kraju i roku się nie da, więc to kontrola pomocnicza.
+
+Zgoda ale to nie jest żaden test odrzucający silnik/parametry tylko informacja dla nas.
+
+Po wpisaniu tego do `design.md` możesz zamknąć te zadanie.
+
+*2026-10-14 05:51 — Autor*
+
+---
+
+### [A26] Plan Phase 1.2b
+
+Jak się ma to do Planu Phase 1.2b?
+
+*2026-10-14 05:54 — Autor*
+
+---
+
+> 🤖 **ODPOWIEDŹ LLM — początek** (Claude Opus 5.5)
+>
+> ### [A25] Re: — wpisane i zamknięte
+>
+> Dopisane w `AGENTS/phases/phase-2/design.md` (punkt 8): kontrola kalibracji zdarzeń nie odrzuca silnika ani parametrów, to tylko informacja. A25 oznaczone jako zrobione, **Phase 2.0 zamknięta**.
+>
+> ### [A26] Re: Jak się ma to do planu Phase 1.2b?
+>
+> A26 to odpowiedzi na pytania P1–P5, czyli **zakres** planu. Cały plan 1.2b, z tym co ustalone, co otwarte i jakie są kroki, jest teraz w jednym pliku: `AGENTS/phases/phase-1.2b/plan.md`.
+> - Z A26 otwarte jest tylko P2 (model, @T012 — "jeszcze nie").
+> - Reszta jest ustalona: P1 @T011, P3 szkic instrukcji @A29, P4, P5.
+> - Gdy wybierzesz model, A26 można zamknąć.
+>
+> *przeczytane i odpowiedziane: 2026-10-14 06:03 — Claude Opus 5.5*
+>
+> 🤖 **ODPOWIEDŹ LLM — koniec**
+
+---
+
+### [A27] Test modeli przed 1.2b
+
+Proszę o rozpisanie jak ten test ma wyglądać w wątku.
+
+*2026-10-14 06:11 — Autor*
+
+---
+
+### [A29] Przejrzeć instrukcję dla agentów wypełniających
+
+Jest okej.
+
+*2026-10-14 06:15 — Autor*
+
+---
+
+> 🤖 **ODPOWIEDŹ LLM — początek** (Claude Opus 5.5)
+>
+> ### [A27] Re: Test modeli przed 1.2b — rozpisany w wątku @T015
+>
+> Opis testu: @T015 (10 krajów, 3 modele, porównanie z WGI, ~5–6 $). Wycena całej propozycji z ograniczeniami: @T016. Do decyzji: czy robimy test i jak go uruchomić (przez API czy przez agentów Claude Code).
+>
+> *przeczytane i odpowiedziane: 2026-10-14 06:23 — Claude Opus 5.5*
+>
+> 🤖 **ODPOWIEDŹ LLM — koniec**
+
+---
+
+> 🤖 **ODPOWIEDŹ LLM — początek** (Claude Opus 5.5)
+>
+> ### [A29] Re: Przejrzeć instrukcję — dziękuję
+>
+> Instrukcja oznaczona jako zaakceptowana. Dopisałem konkretne komendy `confirm-default` i kolejkę `AGENTS/phases/phase-1.2b/queue.md`. Otwarte zostały tylko dwa miejsca [DO DECYZJI], zależne od wyboru modelu (@A27).
+>
+> *przeczytane i odpowiedziane: 2026-10-14 06:23 — Claude Opus 5.5*
+>
+> 🤖 **ODPOWIEDŹ LLM — koniec**
+
+---
+
+> 🤖 **ODPOWIEDŹ LLM — początek** (Claude Opus 5.5)
+>
+> ### [A27] Re: Test modeli — wykonany (tylko Haiku, Claude Code)
+>
+> Wyniki: `AGENTS/phases/phase-1.2b/test-modeli.md`. Haiku dobrze ocenia `corruption` (błąd ~5 punktów). `stability` różni się od WGI o +17 przez różnicę definicji. Decyzja: @A30 (opcje w @T015).
+>
+> *przeczytane i odpowiedziane: 2026-10-14 06:34 — Claude Opus 5.5*
+>
+> 🤖 **ODPOWIEDŹ LLM — koniec**
+
+---
+
+### [A32] Sygnał startu 1.2b
+
+Startuj!
+
+*2026-10-14 06:54 — Autor*
+
+---
+
+> 🤖 **ODPOWIEDŹ LLM — początek** (Claude Opus 5.5)
+>
+> ### [A32] Re: Sygnał startu 1.2b
+>
+> Pilot (POL, zadania A i B) gotowy, ale Claude Code w trybie automatycznych uprawnień zablokował uruchomienie agentów. Nic nie zapisano. Potrzebna Twoja zgoda na narzędzie `Agent`; szczegóły w @T016.
+>
+> *przeczytane i odpowiedziane: 2026-10-14 06:57 — Claude Opus 5.5*
+>
+> 🤖 **ODPOWIEDŹ LLM — koniec**
+
+---

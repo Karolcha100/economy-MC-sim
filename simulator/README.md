@@ -250,6 +250,14 @@ python -m simulator reference-map --kind grade --name stability             # op
 python -m simulator reference-map --kind directed --name "social view towards" --focus POL
 ```
 
+`audit` compares **all countries** with real indicators (read-only; rules in `scenarios/<scenario>/audit.csv`):
+rank agreement per statistic, outlier countries, flat lines (same value every year) and crowding (one value
+for most countries in a year). The report goes to `--out DIR` (default `scenarios/<scenario>/views/`).
+
+```bash
+python -m simulator audit --out AGENTS/phases/phase-1.2b/audit
+```
+
 The map shows the reference countries (`reference-countries.csv`) with a year slider and works
 offline. Needs `pip install -e ".[viz]"` (plotly). Files go to `scenarios/<scenario>/views/` (not in git).
 

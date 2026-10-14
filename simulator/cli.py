@@ -156,9 +156,22 @@ def build_parser() -> argparse.ArgumentParser:
     # show / missing
     p = sub.add_parser("show", help="print current values (years x targets)")
     _add_set_args(p)
-    p = sub.add_parser("missing", help="how much of each formula is filled")
+    p = sub.add_parser("missing", help="how much of each formula is filled (values or confirmed defaults)")
     p.add_argument("--kind")
     p.add_argument("--name")
+    p.add_argument("--by-country", action="store_true", help="percent filled per country and kind (worst first)")
+    p = sub.add_parser("confirm-default", help="mark unfilled cells as deliberately default (P1, thread T011)")
+    p.add_argument("--kind", required=True)
+    p.add_argument("--name", required=True, help="formula name(s), comma separated, or 'all' (all with a default)")
+    p.add_argument("--targets", required=True, help="tags: grades = those countries; relations = pairs FROM/with them")
+    p.add_argument("--years", required=True)
+    p.add_argument("--author", required=True)
+    p.add_argument("--note", default="")
+    p = sub.add_parser("audit", help="compare narrated data of all countries with real indicators (rules: audit.csv)")
+    p.add_argument("--out", type=Path, help="folder for the markdown report (default: <scenario>/views/)")
+    p = sub.add_parser("queue", help="write the Phase 1.2b task queue (markdown) for filling agents")
+    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--first", default="", help="tags to put right after the reference countries (e.g. Tier 1)")
 
     # history
     ph = sub.add_parser("history", help="real statistics").add_subparsers(dest="action", required=True)
@@ -302,7 +315,22 @@ def run(args: argparse.Namespace) -> int:
         case "show":
             _print_table(narrated.show(scenario, args.kind, args.name, args.targets, args.years), args.json)
         case "missing":
-            _print_table(narrated.missing_report(scenario, args.kind, args.name), args.json)
+            _print_table(narrated.missing_report(scenario, args.kind, args.name, args.by_country), args.json)
+        case "confirm-default":
+            n = narrated.confirm_default(scenario, args.kind, args.name, args.targets, args.years, args.author, args.note)
+            print(f"# confirmed defaults: {n} row(s)")
+        case "audit":
+            from simulator.audit import run_audit, write_report
+
+            result = run_audit(scenario)
+            _print_table(result["summary"].set_index("statistic"), args.json)
+            print(f"# outliers: {len(result['outliers'])}, flat lines: {len(result['flat'])}, "
+                  f"crowded years: {len(result['crowding'])}")
+            print(f"# report: {write_report(scenario, result, args.out or scenario.root / 'views')}")
+        case "queue":
+            from simulator.queue import write_queue
+
+            print(f"# queue written to {write_queue(scenario, args.out, args.first)}")
         case "history":
             if args.action == "list":
                 _print_table(history.load_metadata(scenario), args.json)
